@@ -1,0 +1,14 @@
+{
+ "name":IDEA4RCImplementationGuide",
+ "version" : "0.1.0",  
+ "canonical" : "http://hl7.eu/fhir/ig/idea4rc",
+ "url" : "http://hl7.eu/fhir/ig/idea4rc",
+ "title" : "IDEA4RC FHIR Implementation Guide",
+ "description": "IDEA4RC is an EU project aiming to <...>",
+ "keywords": [
+   "IDEA4RC"
+ ],
+ "language": "en",
+ "author": "Giorgio Cangioli",
+ "license": "CC-BY-SA-4.0"
+}
