@@ -1,0 +1,3 @@
+Name                 Type       File
+recordedSexOrGender  Extension  extensions\recordedSexOrGender.fsh
+sexForClinicalUse    Extension  extensions\sexForClinicalUse.fsh

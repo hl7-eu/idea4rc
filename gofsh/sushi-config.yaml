@@ -1,0 +1,7 @@
+canonical: http://hl7.org/fhir
+fhirVersion: 5.0.0
+FSHOnly: true
+applyExtensionMetadataToRoot: false
+id: hl7.fhir
+status: draft
+version: 5.0.0

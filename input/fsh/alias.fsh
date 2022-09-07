@@ -27,9 +27,15 @@ Alias: $product-category = http://hl7.org/fhir/CodeSystem/product-category
 Alias: $plan-definition-type = http://terminology.hl7.org/CodeSystem/plan-definition-type
 Alias: $bcp47 = urn:ietf:bcp:47
 
+
+
+
 // --- Value Sets
 
-
+Alias: $international-civil-aviation-organization-sex-or-gender = http://terminology.hl7.org/ValueSet/international-civil-aviation-organization-sex-or-gender
+Alias: $recorded-sex-or-gender-type = http://terminology.hl7.org/ValueSet/recorded-sex-or-gender-type
+Alias: $jurisdiction = http://hl7.org/fhir/ValueSet/jurisdiction
+Alias: $sex-for-clinical-use = http://terminology.hl7.org/ValueSet/sex-for-clinical-use
 
 
 // ---- Extensions

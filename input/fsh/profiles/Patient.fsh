@@ -9,9 +9,9 @@ Description: "This profile defines how to represent Patient in FHIR for the purp
 * . ^short = "Information about an individual receiving health care services"
 * . ^definition = "Information about an individual receiving health care services"
 
-/* * extension contains 
-   $patient-sexForClinicalUse named sexForClinicalUse 0..1
-   and $individual-recordedSexOrGender named recordedSexOrGender 0..1 */
+* extension contains 
+   SexForClinicalUse named sexForClinicalUse 0..1
+   and RecordedSexOrGender named recordedSexOrGender 0..1
 
 // defined in R5 CI build
 
