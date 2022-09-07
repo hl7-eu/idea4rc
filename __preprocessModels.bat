@@ -2,6 +2,7 @@
 CALL :buildFshFiles input\fsh\models\labReport
 CALL :buildFshFiles input\fsh\models\subjectId
 CALL :buildFshFiles input\fsh\models\contact
+CALL :buildFshFiles input\fsh\models\subject
 @REM CALL :buildFshFiles input\fsh\models\radio
 @REM CALL :buildFshFiles input\fsh\models\chemo
 @REM CALL :buildFshFiles input\fsh\models\diag
