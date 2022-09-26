@@ -35,7 +35,7 @@ Description: """ **Sex for Clinical Use (SFCU) Overview**
 * ^extension[=].valueInteger = 1
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.840.1.113883.4.642.5.1347"
-* ^version = "5.0.0"
+// * ^version = "5.0.0"
 * ^status = #draft
 * ^date = "2022-01-24T16:55:11+11:00"
 * ^publisher = "HL7"

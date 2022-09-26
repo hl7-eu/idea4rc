@@ -52,7 +52,7 @@ Alias: $workflow-supportingInfo = http://hl7.org/fhir/StructureDefinition/workfl
 Alias: $condition-occurredFollowing = http://hl7.org/fhir/StructureDefinition/condition-occurredFollowing
 Alias: $condition-dueTo = http://hl7.org/fhir/StructureDefinition/condition-dueTo
 
-Alias: $patient-sexForClinicalUse = http://hl7.org/fhir/StructureDefinition/patient-sexForClinicalUse
-Alias: $individual-recordedSexOrGender = http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender
+/* Alias: $patient-sexForClinicalUse = http://hl7.org/fhir/StructureDefinition/patient-sexForClinicalUse
+Alias: $individual-recordedSexOrGender = http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender */
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 

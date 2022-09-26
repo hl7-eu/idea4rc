@@ -8,7 +8,7 @@ Description: "The recorded sex and gender is to be used to differentiate existin
 * ^extension[=].valueInteger = 1
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.840.1.113883.4.642.5.1342"
-* ^version = "5.0.0"
+// * ^version = "5.0.0"
 * ^status = #draft
 * ^date = "2022-01-28"
 * ^publisher = "HL7"
