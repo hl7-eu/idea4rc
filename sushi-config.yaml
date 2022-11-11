@@ -18,15 +18,18 @@ title: IDEA4RC FHIR Implementation Guide
 status: draft
 publisher:
   - name: IDEA4RC Project
-    url: https://www.pancaresurpass.eu/
+    url: https://www.idea4rc.eu/
 contact:
   - name: IDEA4RC Project
     telecom:
       - system: url
-        value: https://www.pancaresurpass.eu/
+        value: https://www.idea4rc.eu/
 description: IDEA4RC is an EU project aiming to <..>
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe"
 license: CC-BY-SA-4.0
+
+dependencies:
+  hl7.fhir.extensions.r5: 4.0.1
 
 fhirVersion: 4.0.1
 parameters:

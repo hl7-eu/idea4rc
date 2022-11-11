@@ -1,7 +1,9 @@
 Extension: SexForClinicalUse
-Id: patient-sexForClinicalUse
+Id: patient-sexForClinicalUse-i4c
 Title: "sexForClinicalUse"
-Description: """ **Sex for Clinical Use (SFCU) Overview**
+Description: """ This duplicates the 'patient-sexForClinicalUse' extension currently defined for R5.
+
+**Sex for Clinical Use (SFCU) Overview**
  
  Sex for Clinical Use is a categorization of sex derived from observable information such as an organ inventory, recent hormone lab tests, genetic testing, menstrual status, obstetric history, etc. This property is intended for use in clinical decision making and indicates that treatment or diagnostic tests should consider best practices associated with the relevant reference population.
  
