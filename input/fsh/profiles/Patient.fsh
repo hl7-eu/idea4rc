@@ -13,7 +13,15 @@ Description: "This profile defines how to represent Patient in FHIR for the purp
    SexForClinicalUse named sexForClinicalUse 0..1
    and RecordedSexOrGender named recordedSexOrGender 0..1
 
+/* * extension contains 
+   $patient-sexForClinicalUse named sexForClinicalUse 0..1
+  // and $individual-recordedSexOrGender named recordedSexOrGender 0..1 */
+
+/* * extension[sexForClinicalUse]
+* extension[RecordedSexOrGender] */
+
 // defined in R5 CI build
+
 
 /* * identifier 1.. MS
 * name.family 1.. MS
