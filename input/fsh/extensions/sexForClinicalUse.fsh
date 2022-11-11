@@ -1,5 +1,5 @@
 Extension: SexForClinicalUse
-Id: patient-sexForClinicalUse-i4c
+Id: patient-sexForClinicalUse
 Title: "sexForClinicalUse"
 Description: """ This duplicates the 'patient-sexForClinicalUse' extension currently defined for R5.
 

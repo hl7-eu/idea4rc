@@ -1,5 +1,5 @@
 Extension: RecordedSexOrGender
-Id: individual-recordedSexOrGender-i4c
+Id: individual-recordedSexOrGender
 
 Title: "recordedSexOrGender"
 Description: "This duplicates the 'individual-recordedSexOrGender' extension currently defined for R5.\r\n The recorded sex and gender is to be used to differentiate existing sex or gender data. This element is used for existing 'sex' or 'gender' elements in a document or record when the intent and meaning is unclear. For example, the individual's birth certificate information, passport information, and national identity document information may all be present. This is necessary because an individual's documents may be updated at different rates or for different reasons. Sex assigned at birth (SAAB), while very common and considered essential in some jurisdictions, is considered a recorded sex and gender entry."
