@@ -3,6 +3,7 @@ Alias: $radiotherapy-energy-units = http://hl7.org/fhir/us/codex-radiation-thera
 Alias: $codex-radiotherapy-isotopes = http://hl7.org/fhir/us/codex-radiation-therapy/ValueSet/codex-radiotherapy-isotopes
 
 //============== ALIAS ===============
+Alias: $igUri = http://hl7.eu/fhir/ig/idea4rc
 
 // --- Code Systems
 Alias: $ajcc = http://cancerstaging.org
@@ -55,4 +56,4 @@ Alias: $condition-dueTo = http://hl7.org/fhir/StructureDefinition/condition-dueT
 Alias: $patient-sexForClinicalUse = http://hl7.org/fhir/StructureDefinition/patient-sexForClinicalUse
 Alias: $individual-recordedSexOrGender = http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
-
+Alias: $elementdefinition-namespace = http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace
