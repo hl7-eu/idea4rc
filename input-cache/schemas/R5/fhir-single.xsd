@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Sat, Nov 12, 2022 04:41+0000 for FHIR v5.0.0-cibuild 
+  Generated on Mon, Nov 21, 2022 10:07+0000 for FHIR v5.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -52846,6 +52846,11 @@ For resource issues, this will be a simple XPath limited to element names, repet
               <xs:documentation xml:lang="en">The physical type of the container of the items.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:element name="componentPart" minOccurs="0" maxOccurs="1" type="boolean">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Is this a part of the packaging (e.g. a cap or bottle stopper), rather than the packaging itself (e.g. a bottle or vial). The latter type are designed be a container, but the former are not.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
           <xs:element name="quantity" minOccurs="0" maxOccurs="1" type="integer">
             <xs:annotation>
               <xs:documentation xml:lang="en">The quantity of packaging items contained at this layer of the package. This does not relate to the number of contained items but relates solely to the number of packaging items. When looking at the outermost layer it is always 1. If there are two boxes within, at the next layer it would be 2.</xs:documentation>
@@ -52883,7 +52888,7 @@ For resource issues, this will be a simple XPath limited to element names, repet
           </xs:element>
           <xs:element name="packaging" type="PackagedProductDefinition.Packaging" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Allows containers (and parts of containers) parwithin containers, still a single packaged product.  See also PackagedProductDefinition.packaging.containedItem.item(PackagedProductDefinition).</xs:documentation>
+              <xs:documentation xml:lang="en">Allows containers (and parts of containers) within containers, still as a part of a single packaged product. See also PackagedProductDefinition.packaging.containedItem.item(PackagedProductDefinition).</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -61008,7 +61013,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="molecularWeight" type="SubstanceDefinition.MolecularWeight" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The molecular weight or weight range (for proteins, polymers or nucleic acids).</xs:documentation>
+              <xs:documentation xml:lang="en">The average mass of a molecule of a compound compared to 1/12 the mass of carbon 12 and calculated as the sum of the atomic weights of the constituent atoms.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="structure" type="SubstanceDefinition.Structure" minOccurs="0" maxOccurs="1">
@@ -61179,7 +61184,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="molecularFormula" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Molecular formula of this substance, typically using the Hill system.</xs:documentation>
+              <xs:documentation xml:lang="en">An expression which states the number and type of atoms present in a molecule of a substance.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="molecularFormulaByMoiety" minOccurs="0" maxOccurs="1" type="string">
