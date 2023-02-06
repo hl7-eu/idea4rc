@@ -1,6 +1,6 @@
-// -------------------------------------------------------------------------------				
+//===================================================				
 //  Logical Model				i4rc-cancerUnderStudy.fsh
-// -------------------------------------------------------------------------------				
+//===================================================				
 Logical: CancerUnderStudyI4rc				
 Id: CancerUnderStudy				
 Title: "Cancer Under Study"				
@@ -44,6 +44,46 @@ required if date of diagnosis known"""
 //--- END				
 //--- END				
 				
+				
+//--------------------------------------------------------------------------------				
+//  Logical Model				
+//--------------------------------------------------------------------------------				
+* diagnosisDate ^comment = """Must be formatted as YYYY-MM-DD. Leave empty if not known. Optional rule : Possible date anonymisation by
+setting the 15th of every month i.e.: YYYY-MM-15. If the month is not known, we set it to June (06)."""				
+* ageAtDiagnosis ^comment = """An integer value > 0. We use the -1 value for unknown. Automatic  calculation from date of birth and date of diagnosis."""				
+* histologyGroup ^comment = """A value in the WHO 2017 H&N classification list."""				
+				
+* histologySubgroup.histologySquamous ^comment = """A value in the WHO 2017 H&N squamous classification list."""				
+* histologySubgroup.histologyAdenocarcinoma ^comment = """A value in the WHO 2017 H&N adenocarcinoma classification list."""				
+* histologySubgroup.histologyNeuroendocrine ^comment = """A value in the WHO 2017 H&N neuroendocrine classification list."""				
+* histologySubgroup.histologyOdontogenicCarcinoma ^comment = """A value in the WHO 2017 H&N odontogenic carcinoma classification list."""				
+* histologySubgroup.histologySNUC ^comment = """A value in the WHO 2017 H&N SNUC classification list."""				
+* siteRare ^comment = """A value in the AJCC Cancer Staging Manual 8th site list"""				
+* siteCommonAndRare ^comment = """A value in the AJCC Cancer Staging Manual 8th site list"""				
+				
+* subSite.nasalCavityAndParanasalSinusesSubsite ^comment = """A string value in the AJCC Cancer Staging Manual 8th subsite list"""				
+* subSite.nasopharynxSubsite ^comment = """A string value in the AJCC Cancer Staging Manual 8th subsite list"""				
+* subSite.hypopharynxSubsite ^comment = """A string value in the AJCC Cancer Staging Manual 8th subsite list"""				
+* subSite.oropharynxSubsite ^comment = """A string value in the AJCC Cancer Staging Manual 8th subsite list"""				
+* subSite.larynxSubsite ^comment = """A string value in the AJCC Cancer Staging Manual 8th subsite list"""				
+* subSite.oralCavitySubsite ^comment = """A string value in the AJCC Cancer Staging Manual 8th subsite list"""				
+* subSite.lipSubsite ^comment = """A string value in the AJCC Cancer Staging Manual 8th subsite list"""				
+* PlasmaticEbvDnaAtBaseline ^comment = """A string value representing whether the test value was positive, negative or it was untested. Empty if unknown."""				
+* PrimerType ^comment = """A string value representing the plasma testing type. Empty if unknown"""				
+* CopyNumber ^comment = """An integer for the number of EBVDNA. Empty if unknown"""				
+* HpvStatus ^comment = """A string value representing whether the result was positive, negative or not tested. Empty if unknown."""				
+* HpvStatusDetectedBy ^comment = """A string value representing which was the used technique. Empty if unknown."""				
+* P16 ^comment = """A string value representing whether the result was positive, negative or not tested. Empty if unknown."""				
+* PdL1 ^comment = """A string value representing whether the result was positive, negative or not tested. Empty if unknown."""				
+* Pd-L1Method ^comment = """A string value representing which was the used technique. Empty if unknown."""				
+* Pd-L1CpsValue ^comment = """An integer for the PDL1CPS test. Empty if unknown."""				
+* Pd-L1TpsValue ^comment = """An integer for the PDL1TPS test. Empty if unknown."""				
+* Crp-CReactiveProteinTested ^comment = """A string value representing whether the result was positive, negative or not tested. Empty if unknown."""				
+* CReactiveProtein-Crp-MgDl ^comment = """An integer for the CRP test. Empty if unknown."""				
+* InstrumentStatus ^comment = """A boolean for the instrument if it was fully compiled or not."""				
+//--- END				
+//--- END				
+//--- END				
 				
 				
 // -------------------------------------------------------------------------------				
