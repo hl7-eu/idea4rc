@@ -1,11 +1,7 @@
 
-### SurPass Overview 
+### IDEA4RC Overview 
 
 The Survivorship Passport (SurPass) is a digital tool based on international clinical guidelines that provides childhood cancer survivors (CCS) and health care professionals (HCPs) with the information needed for long-term follow-up survivorship care, better health promotion, improved late effects management and secondary cancer prevention. The SurPass provides an overview of all relevant personal health data related to the cancer treatment of CCS (e.g. demographics, cancer diagnosis, therapeutic management etc.) in a Treatment Summary together with a personalized Survivorship Care Plan.
-
-<div>
-<img src="surpass-overview.png" alt="SurPass Overview" width="50%"/>
-</div>
 
 <!-- table -->
 

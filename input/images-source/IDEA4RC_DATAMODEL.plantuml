@@ -1,0 +1,157 @@
+@startuml
+entity Patient {
+   patientID: String key
+   name
+   dateOfBirth
+   educationLevel
+   maritalStatus
+   sex
+   race
+   countryOfResidence
+   smoking
+   smokingType
+}
+entity CenterOfExcellence {
+   coeID:String key
+   name: String
+}
+entity PreliminaryPatientData {
+   coeID:String key
+   patientID: String key
+   informedConsent: StringArray
+   dateOfFirstContact Date
+   managedCancerPhases
+   instrumentStatus
+}
+' Discuss whether it needs to be subdivided into SITE ' SUBSITE WHATEVER
+entity PreviousCancer {
+   patientID: String key
+   prevCancerID: String key
+}
+entity PreviousGeneticSyndrome {
+   patientID: String key
+   prevGenSyndromeID: String key
+}
+entity CancerUnderStudy {
+   patientID: String key
+   cusID: String key
+}
+entity Event {
+   patientID: String key
+   cusID: String key
+   type: Codeable ' baseline, recurrence, relapse, persistent disease
+}
+' Subdivide in many?
+entity Staging {
+   patientID: String key
+   cusID: String key
+}
+entity ClinicalStage {
+   clinicalStageID: String key
+   cusID: String key
+}
+entity PathologicalStage {
+   pathologicalStageID: String key
+   cusID: String key
+}
+entity MSite {
+   ' check
+   mSiteID: String key
+}
+' Subdivide in how many??¿?¿
+entity Treatment {
+   patientID: String key
+   cusID: String key
+}
+entity CUSSubsite {
+   patientID: String key
+   cusID: String key
+}
+' Part of treatment
+entity Surgery {
+   patientID: String key
+   ' remove cusID?
+   cusID: String key
+   surgeryID: String key
+}
+entity SystemicTreatment {
+   patientID: String key
+   ' remove cusID?
+   cusID: String key
+   surgeryID: String key
+}
+' Part of treatment
+entity RadioTherapy {
+   patientID: String key
+   ' remove cusID?
+   cusID: String key
+   radioTherapyID: String key
+}
+entity OtherTreatment {
+   patientID: String key
+   ' remove cusID?
+   cusID: String key
+}
+entity TreatmentResponse {
+   patientID: String key
+   ' remove cusID?
+   cusID: String key
+}
+entity PatientIncludedInClinicalTrial {
+   patientID: String key
+   ' remove cusID?
+   cusID: String key
+}
+entity PatientStatus {
+   patientID: String key
+}
+' How to do this?
+entity AdverseEvent {
+   patientID: String key
+   miau
+}
+entity ImagingAvailable {
+   patientID: String key
+   miau
+}
+entity TumourSpecimenAvailable {
+   patientID: String key
+   miau
+}
+entity TumourGeneticTest {
+   patientID: String key
+   miau
+}
+entity Drugs {
+   drugID: String key
+   description
+}
+PreviousCancer "1" -- "N" Drugs
+PreviousGeneticSyndrome "1" -- "N" Drugs
+Patient "1" --  "N" CancerUnderStudy
+CancerUnderStudy "1" --  "N" Event
+CancerUnderStudy "1" --  "1" Staging
+CancerUnderStudy "1" --  "N" Treatment
+Treatment "1" --  "0..N" Surgery
+Treatment "1" -- "0..N" RadioTherapy
+Treatment "1" -- "0..N" SystemicTreatment
+Patient "1" --  "N" PreviousGeneticSyndrome
+Treatment "1" -- "0..N" OtherTreatment
+Treatment "1" -- "0..N"TreatmentResponse
+Treatment "1" -- "0..N" PatientIncludedInClinicalTrial
+Patient "1" --  "1" PatientStatus
+CancerUnderStudy "1" --  "1" CUSSubsite
+Patient "1" --  "N" PreviousCancer
+Staging "1" --  "1" MSite
+CancerUnderStudy "1" -- "0..N" AdverseEvent
+CancerUnderStudy "1" --  "0..N" ImagingAvailable
+CancerUnderStudy "1" -- "0..N" TumourSpecimenAvailable
+CancerUnderStudy "1" -- "0..N" TumourGeneticTest
+Staging "1" --  "1" ClinicalStage
+Staging "1" --  "1" PathologicalStage
+' Ternary relationship
+Class patientCoe
+patientCoe -- "N" Patient
+patientCoe -- "N" CenterOfExcellence
+patientCoe -- "1" PreliminaryPatientData
+@enduml

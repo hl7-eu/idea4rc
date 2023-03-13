@@ -42,7 +42,9 @@ FSHOnly: false
 
 pages:
   index.md:
-    title: IDEA4RC FHIR IG - Home Page   
+    title: IDEA4RC FHIR IG - Home Page
+  model.html:
+    title: IDEA4RC Models    
   # maturity.md:
   #   title: idea4rc Maturity Model
   # logicalModel.md:
@@ -68,10 +70,10 @@ pages:
 menu:
   IG Home: index.html
   Table of Contents: toc.html
-  # Functional Description:
+  Functional Description:
   #   Collaboration diagrams: collaboration.html
   #   Sequence diagrams: sequence.html
-  #   Logical models: logicalModel.html
+    Models: model.html
   # Specifications:
   #   Profiles: profiles.html
   #   Extensions: extensions.html
@@ -79,8 +81,8 @@ menu:
   #   Examples: examples.html
   # Maturity Model: maturity.html
   Artifact Index: artifacts.html			
-  # Support:
-  #   FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
-  #   Report an issue: new-tab https://github.com/hl7-eu/idea4rc/issues
-  #   Downloads: downloads.html
+  Support:
+     FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
+     Report an issue: new-tab https://github.com/hl7-eu/idea4rc/issues
+     Downloads: downloads.html
 	
