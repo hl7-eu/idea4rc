@@ -2,10 +2,12 @@
 
 > Specify **HL7 FHIR logical models** and **profiles** to be used within
 > the European project **IDEA4RC**. This project studies the
-> scale-up and implementation of an intelligent ecosystem to improve the
+> implementation of an intelligent ecosystem to improve the
 > governance, the sharing, and the re-use of health data for rare cancers.
 
 
+> scale-up and implementation of the digital Survivorship Passport to
+> improve people-centred care for childhood cancer survivors.
 
 ### The PancareSurPass Project
 
