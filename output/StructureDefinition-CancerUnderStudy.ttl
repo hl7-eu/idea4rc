@@ -1,0 +1,1481 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/CancerUnderStudy> a fhir:StructureDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CancerUnderStudy"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy\" title=\"Subject of care \nMaturity Level: 0 Draft\">CancerUnderStudy</a><a name=\"CancerUnderStudy\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/types.html#Base\">Base</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Cancer Under Study</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.diagnosisDate\" title=\"Date of the procedure from which the specimen was obtained that allowed the histological diagnosis.\">diagnosisDate</a><a name=\"CancerUnderStudy.diagnosisDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date of diagnosis</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.ageAtDiagnosis\" title=\"Age of the patient at the time of the diagnosis.\nrequired if date of diagnosis known\">ageAtDiagnosis</a><a name=\"CancerUnderStudy.ageAtDiagnosis\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Age at diagnosis</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.histologyGroup\" title=\"Histology of prymary tumour according to WHO 2017 clasification.\">histologyGroup</a><a name=\"CancerUnderStudy.histologyGroup\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Histology (WHO 2017) group</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.histologySubgroup\" title=\"Specifies the histological subgroup\">histologySubgroup</a><a name=\"CancerUnderStudy.histologySubgroup\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">histologySubgroup.histology (WHO 2017) subgroup<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.histologySubgroup.histologySquamous\" title=\"Specifies the histological subgroup for squamous cancers\">histologySquamous</a><a name=\"CancerUnderStudy.histologySubgroup.histologySquamous\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Specifies the histological subgroup for squamous cancers</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.histologySubgroup.histologyAdenocarcinoma\" title=\"Specifies the histological subgroup for adenocarcinomas\">histologyAdenocarcinoma</a><a name=\"CancerUnderStudy.histologySubgroup.histologyAdenocarcinoma\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Specifies the histological subgroup for adenocarcinomas</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.histologySubgroup.histologyNeuroendocrine\" title=\"Specifies the histological subgroup for neuroendocrine cancers\">histologyNeuroendocrine</a><a name=\"CancerUnderStudy.histologySubgroup.histologyNeuroendocrine\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Specifies the histological subgroup for neuroendocrine cancers </td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.histologySubgroup.histologyOdontogenicCarcinoma\" title=\"Specifies the histological subgroup for odontogenic carcinomas\">histologyOdontogenicCarcinoma</a><a name=\"CancerUnderStudy.histologySubgroup.histologyOdontogenicCarcinoma\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Specifies the histological subgroup for odontogenic carcinomas</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.histologySubgroup.histologySNUC\" title=\"Specifies the histological subgroup for sinonasl undifferentiated carcinomas\">histologySNUC</a><a name=\"CancerUnderStudy.histologySubgroup.histologySNUC\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Specifies the histological subgroup for sinonasl undifferentiated carcinomas</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.siteRare\" title=\"Describe the primary tumor site, according to AJCC .\">siteRare</a><a name=\"CancerUnderStudy.siteRare\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Site Rare</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.siteCommonAndRare\" title=\"Describe the primary tumor site, according to AJCC .\">siteCommonAndRare</a><a name=\"CancerUnderStudy.siteCommonAndRare\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Site common and rare</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.subSite\" title=\"Specifies the subsite\">subSite</a><a name=\"CancerUnderStudy.subSite\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Subsite<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.subSite.nasalCavityAndParanasalSinusesSubsite\" title=\"Specifies the subsite for cancers occurred in nasal cavity and paranasal sinusess\">nasalCavityAndParanasalSinusesSubsite</a><a name=\"CancerUnderStudy.subSite.nasalCavityAndParanasalSinusesSubsite\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Nasal cavity and paranasal sinuses subsite</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.subSite.nasopharynxSubsite\" title=\"Specifies the subsite for cancers occurred in nasopharynx\">nasopharynxSubsite</a><a name=\"CancerUnderStudy.subSite.nasopharynxSubsite\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Nasopharynx subsite</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.subSite.hypopharynxSubsite\" title=\"Specifies the subsite for cancers occurred in hypopharynx\">hypopharynxSubsite</a><a name=\"CancerUnderStudy.subSite.hypopharynxSubsite\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Hypopharynx subsite</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.subSite.oropharynxSubsite\" title=\"Specifies the subsite for cancers occurred in oropharynx\">oropharynxSubsite</a><a name=\"CancerUnderStudy.subSite.oropharynxSubsite\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Oropharynx subsite</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.subSite.larynxSubsite\" title=\"Specifies the subsite for cancers occurred in larynx\">larynxSubsite</a><a name=\"CancerUnderStudy.subSite.larynxSubsite\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Larynx subsite</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.subSite.oralCavitySubsite\" title=\"Specifies the subsite for cancers occurred in oral cavity\">oralCavitySubsite</a><a name=\"CancerUnderStudy.subSite.oralCavitySubsite\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Oral cavity subsite</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.subSite.lipSubsite\" title=\"Specifies the subsite for cancers occurred in lip\">lipSubsite</a><a name=\"CancerUnderStudy.subSite.lipSubsite\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lip subsite</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.PlasmaticEbvDnaAtBaseline\" title=\"Describes the result of EBV DNA plasma testing before treatment in NPC type II and III (WHO)\">PlasmaticEbvDnaAtBaseline</a><a name=\"CancerUnderStudy.PlasmaticEbvDnaAtBaseline\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Plasmatic EBV DNA at baseline</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.PrimerType\" title=\"Describes the primer used for EBV DNA plasma testing t in NPC type II and Type III (WHO)\">PrimerType</a><a name=\"CancerUnderStudy.PrimerType\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Primer type</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.CopyNumber\" title=\"Copy number of EBVDNA\">CopyNumber</a><a name=\"CancerUnderStudy.CopyNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Copy Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.HpvStatus\" title=\"Describes the result of HPV tumor testing in oral carcinoma\">HpvStatus</a><a name=\"CancerUnderStudy.HpvStatus\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">HPV status</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.HpvStatusDetectedBy\" title=\"Describes the technique used for HPV tumour testing in orall carcinoma\">HpvStatusDetectedBy</a><a name=\"CancerUnderStudy.HpvStatusDetectedBy\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">HPV status detecection</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.P16\" title=\"Describes the result of p16 tumour testing in oral carcinoma\">P16</a><a name=\"CancerUnderStudy.P16\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">p16</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.PdL1\" title=\"Describes the result of PDL tumour testing in oral carcinoma\">PdL1</a><a name=\"CancerUnderStudy.PdL1\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">PD-L1</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.Pd-L1Method\" title=\"Describes the technique used for PDL tumour testing in oral carcinoma\">Pd-L1Method</a><a name=\"CancerUnderStudy.Pd-L1Method\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">PD-L1 Method</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.Pd-L1CpsValue\" title=\"Result of PDL1CPS testing, when performed\">Pd-L1CpsValue</a><a name=\"CancerUnderStudy.Pd-L1CpsValue\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">PD-L1 CPS</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.Pd-L1TpsValue\" title=\"Result of PDL1TPS testing, when performed\">Pd-L1TpsValue</a><a name=\"CancerUnderStudy.Pd-L1TpsValue\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">PD-L1 TPS</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.Crp-CReactiveProteinTested\" title=\"Describes the result of C reactive protein testing\">Crp-CReactiveProteinTested</a><a name=\"CancerUnderStudy.Crp-CReactiveProteinTested\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">CRP ? C reactive protein tested</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.CReactiveProtein-Crp-MgDl\" title=\"Result of CRP testing, when performed\">CReactiveProtein-Crp-MgDl</a><a name=\"CancerUnderStudy.CReactiveProtein-Crp-MgDl\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Quantity\">Quantity</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">C reactive protein - CRP (mg/dl)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-CancerUnderStudy-definitions.html#CancerUnderStudy.InstrumentStatus\" title=\"Describe if the instument is fully compiled or not\">InstrumentStatus</a><a name=\"CancerUnderStudy.InstrumentStatus\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Instrument status</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/CancerUnderStudy"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CancerUnderStudyI4rc"] ; # 
+  fhir:title [ fhir:v "Cancer Under Study"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-03-19T10:37:36+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "IDEA4RC Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "IDEA4RC Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.idea4rc.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "IDEA4RC Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.idea4rc.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Subject of care \nMaturity Level: 0 Draft"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "150" ] ;
+       fhir:display [ fhir:v "Europe" ]
+     ] )
+  ] ) ; # 
+  fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
+  fhir:mapping ( [
+     fhir:identity [ fhir:v "rim" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/v3"^^xsd:anyURI ] ;
+     fhir:name [ fhir:v "RIM Mapping" ]
+  ] [
+     fhir:identity [ fhir:v "fhir" ] ;
+     fhir:uri [ fhir:v "hl7.org/fhir/r4"^^xsd:anyURI ] ;
+     fhir:name [ fhir:v "Idea4RC Subject model to FHIR R4 Map" ]
+  ] ) ; # 
+  fhir:kind [ fhir:v "logical"] ; # 
+  fhir:abstract [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:type [ fhir:v "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/CancerUnderStudy"^^xsd:anyURI] ; # 
+  fhir:baseDefinition [
+     fhir:v "http://hl7.org/fhir/StructureDefinition/Base"^^xsd:anyURI ;
+     fhir:link <http://hl7.org/fhir/StructureDefinition/Base>
+  ] ; # 
+  fhir:derivation [ fhir:v "specialization"] ; # 
+  fhir:snapshot [
+     fhir:element ( [
+       fhir:id [ fhir:v "CancerUnderStudy" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy" ] ;
+       fhir:short [ fhir:v "Cancer Under Study" ] ;
+       fhir:definition [ fhir:v "Subject of care \nMaturity Level: 0 Draft" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Base" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.diagnosisDate" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.diagnosisDate" ] ;
+       fhir:short [ fhir:v "Date of diagnosis" ] ;
+       fhir:definition [ fhir:v "Date of the procedure from which the specimen was obtained that allowed the histological diagnosis." ] ;
+       fhir:comment [ fhir:v "Must be formatted as YYYY-MM-DD. Leave empty if not known. Optional rule : Possible date anonymisation by\nsetting the 15th of every month i.e.: YYYY-MM-15. If the month is not known, we set it to June (06)." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.diagnosisDate" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "date"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.ageAtDiagnosis" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.ageAtDiagnosis" ] ;
+       fhir:short [ fhir:v "Age at diagnosis" ] ;
+       fhir:definition [ fhir:v "Age of the patient at the time of the diagnosis.\nrequired if date of diagnosis known" ] ;
+       fhir:comment [ fhir:v "An integer value > 0. We use the -1 value for unknown. Automatic  calculation from date of birth and date of diagnosis." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.ageAtDiagnosis" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "integer"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologyGroup" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologyGroup" ] ;
+       fhir:short [ fhir:v "Histology (WHO 2017) group" ] ;
+       fhir:definition [ fhir:v "Histology of prymary tumour according to WHO 2017 clasification." ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.histologyGroup" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup" ] ;
+       fhir:short [ fhir:v "histologySubgroup.histology (WHO 2017) subgroup" ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "BackboneElement"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.id" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.id" ] ;
+       fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
+       fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
+       fhir:definition [ fhir:v "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.id" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "string"^^xsd:anyURI ]
+         ] ) ;
+         fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.extension" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.extension" ] ;
+       fhir:slicing [
+         fhir:discriminator ( [
+           fhir:type [ fhir:v "value" ] ;
+           fhir:path [ fhir:v "url" ]
+         ] ) ;
+         fhir:description [ fhir:v "Extensions are always sliced by (at least) url" ] ;
+         fhir:rules [ fhir:v "open" ]
+       ] ;
+       fhir:short [ fhir:v "Additional content defined by implementations" ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.extension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.modifierExtension" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.modifierExtension" ] ;
+       fhir:short [ fhir:v "Extensions that cannot be ignored even if unrecognized" ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
+       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] [ fhir:v "modifiers" ] ) ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "BackboneElement.modifierExtension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:isModifierReason [ fhir:v "Modifier extensions are expected to modify the meaning or interpretation of the element that contains them" ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "N/A" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.histologySquamous" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologySquamous" ] ;
+       fhir:short [ fhir:v "Specifies the histological subgroup for squamous cancers" ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup for squamous cancers" ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N squamous classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologySquamous" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.histologyAdenocarcinoma" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologyAdenocarcinoma" ] ;
+       fhir:short [ fhir:v "Specifies the histological subgroup for adenocarcinomas" ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup for adenocarcinomas" ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N adenocarcinoma classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologyAdenocarcinoma" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.histologyNeuroendocrine" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologyNeuroendocrine" ] ;
+       fhir:short [ fhir:v "Specifies the histological subgroup for neuroendocrine cancers " ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup for neuroendocrine cancers" ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N neuroendocrine classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologyNeuroendocrine" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.histologyOdontogenicCarcinoma" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologyOdontogenicCarcinoma" ] ;
+       fhir:short [ fhir:v "Specifies the histological subgroup for odontogenic carcinomas" ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup for odontogenic carcinomas" ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N odontogenic carcinoma classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologyOdontogenicCarcinoma" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.histologySNUC" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologySNUC" ] ;
+       fhir:short [ fhir:v "Specifies the histological subgroup for sinonasl undifferentiated carcinomas" ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup for sinonasl undifferentiated carcinomas" ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N SNUC classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologySNUC" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.siteRare" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.siteRare" ] ;
+       fhir:short [ fhir:v "Site Rare" ] ;
+       fhir:definition [ fhir:v "Describe the primary tumor site, according to AJCC ." ] ;
+       fhir:comment [ fhir:v "A value in the AJCC Cancer Staging Manual 8th site list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.siteRare" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.siteCommonAndRare" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.siteCommonAndRare" ] ;
+       fhir:short [ fhir:v "Site common and rare" ] ;
+       fhir:definition [ fhir:v "Describe the primary tumor site, according to AJCC ." ] ;
+       fhir:comment [ fhir:v "A value in the AJCC Cancer Staging Manual 8th site list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.siteCommonAndRare" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite" ] ;
+       fhir:short [ fhir:v "Subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.subSite" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "BackboneElement"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.id" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.id" ] ;
+       fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
+       fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
+       fhir:definition [ fhir:v "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.id" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "string"^^xsd:anyURI ]
+         ] ) ;
+         fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.extension" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.extension" ] ;
+       fhir:slicing [
+         fhir:discriminator ( [
+           fhir:type [ fhir:v "value" ] ;
+           fhir:path [ fhir:v "url" ]
+         ] ) ;
+         fhir:description [ fhir:v "Extensions are always sliced by (at least) url" ] ;
+         fhir:rules [ fhir:v "open" ]
+       ] ;
+       fhir:short [ fhir:v "Additional content defined by implementations" ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.extension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.modifierExtension" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.modifierExtension" ] ;
+       fhir:short [ fhir:v "Extensions that cannot be ignored even if unrecognized" ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ] ;
+       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:requirements [ fhir:v "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ] ;
+       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] [ fhir:v "modifiers" ] ) ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "BackboneElement.modifierExtension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:isModifierReason [ fhir:v "Modifier extensions are expected to modify the meaning or interpretation of the element that contains them" ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "N/A" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.nasalCavityAndParanasalSinusesSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.nasalCavityAndParanasalSinusesSubsite" ] ;
+       fhir:short [ fhir:v "Nasal cavity and paranasal sinuses subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in nasal cavity and paranasal sinusess" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.subSite.nasalCavityAndParanasalSinusesSubsite" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.nasopharynxSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.nasopharynxSubsite" ] ;
+       fhir:short [ fhir:v "Nasopharynx subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in nasopharynx" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.subSite.nasopharynxSubsite" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.hypopharynxSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.hypopharynxSubsite" ] ;
+       fhir:short [ fhir:v "Hypopharynx subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in hypopharynx" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.subSite.hypopharynxSubsite" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.oropharynxSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.oropharynxSubsite" ] ;
+       fhir:short [ fhir:v "Oropharynx subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in oropharynx" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.subSite.oropharynxSubsite" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.larynxSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.larynxSubsite" ] ;
+       fhir:short [ fhir:v "Larynx subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in larynx" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.subSite.larynxSubsite" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.oralCavitySubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.oralCavitySubsite" ] ;
+       fhir:short [ fhir:v "Oral cavity subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in oral cavity" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.subSite.oralCavitySubsite" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.lipSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.lipSubsite" ] ;
+       fhir:short [ fhir:v "Lip subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in lip" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.subSite.lipSubsite" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.PlasmaticEbvDnaAtBaseline" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.PlasmaticEbvDnaAtBaseline" ] ;
+       fhir:short [ fhir:v "Plasmatic EBV DNA at baseline" ] ;
+       fhir:definition [ fhir:v "Describes the result of EBV DNA plasma testing before treatment in NPC type II and III (WHO)" ] ;
+       fhir:comment [ fhir:v "A string value representing whether the test value was positive, negative or it was untested. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.PlasmaticEbvDnaAtBaseline" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.PrimerType" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.PrimerType" ] ;
+       fhir:short [ fhir:v "Primer type" ] ;
+       fhir:definition [ fhir:v "Describes the primer used for EBV DNA plasma testing t in NPC type II and Type III (WHO)" ] ;
+       fhir:comment [ fhir:v "A string value representing the plasma testing type. Empty if unknown" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.PrimerType" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.CopyNumber" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.CopyNumber" ] ;
+       fhir:short [ fhir:v "Copy Number" ] ;
+       fhir:definition [ fhir:v "Copy number of EBVDNA" ] ;
+       fhir:comment [ fhir:v "An integer for the number of EBVDNA. Empty if unknown" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.CopyNumber" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "integer"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.HpvStatus" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.HpvStatus" ] ;
+       fhir:short [ fhir:v "HPV status" ] ;
+       fhir:definition [ fhir:v "Describes the result of HPV tumor testing in oral carcinoma" ] ;
+       fhir:comment [ fhir:v "A string value representing whether the result was positive, negative or not tested. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.HpvStatus" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.HpvStatusDetectedBy" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.HpvStatusDetectedBy" ] ;
+       fhir:short [ fhir:v "HPV status detecection" ] ;
+       fhir:definition [ fhir:v "Describes the technique used for HPV tumour testing in orall carcinoma" ] ;
+       fhir:comment [ fhir:v "A string value representing which was the used technique. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.HpvStatusDetectedBy" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.P16" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.P16" ] ;
+       fhir:short [ fhir:v "p16" ] ;
+       fhir:definition [ fhir:v "Describes the result of p16 tumour testing in oral carcinoma" ] ;
+       fhir:comment [ fhir:v "A string value representing whether the result was positive, negative or not tested. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.P16" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.PdL1" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.PdL1" ] ;
+       fhir:short [ fhir:v "PD-L1" ] ;
+       fhir:definition [ fhir:v "Describes the result of PDL tumour testing in oral carcinoma" ] ;
+       fhir:comment [ fhir:v "A string value representing whether the result was positive, negative or not tested. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.PdL1" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.Pd-L1Method" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.Pd-L1Method" ] ;
+       fhir:short [ fhir:v "PD-L1 Method" ] ;
+       fhir:definition [ fhir:v "Describes the technique used for PDL tumour testing in oral carcinoma" ] ;
+       fhir:comment [ fhir:v "A string value representing which was the used technique. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.Pd-L1Method" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.Pd-L1CpsValue" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.Pd-L1CpsValue" ] ;
+       fhir:short [ fhir:v "PD-L1 CPS" ] ;
+       fhir:definition [ fhir:v "Result of PDL1CPS testing, when performed" ] ;
+       fhir:comment [ fhir:v "An integer for the PDL1CPS test. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.Pd-L1CpsValue" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "integer"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.Pd-L1TpsValue" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.Pd-L1TpsValue" ] ;
+       fhir:short [ fhir:v "PD-L1 TPS" ] ;
+       fhir:definition [ fhir:v "Result of PDL1TPS testing, when performed" ] ;
+       fhir:comment [ fhir:v "An integer for the PDL1TPS test. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.Pd-L1TpsValue" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "integer"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.Crp-CReactiveProteinTested" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.Crp-CReactiveProteinTested" ] ;
+       fhir:short [ fhir:v "CRP ? C reactive protein tested" ] ;
+       fhir:definition [ fhir:v "Describes the result of C reactive protein testing" ] ;
+       fhir:comment [ fhir:v "A string value representing whether the result was positive, negative or not tested. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.Crp-CReactiveProteinTested" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.CReactiveProtein-Crp-MgDl" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.CReactiveProtein-Crp-MgDl" ] ;
+       fhir:short [ fhir:v "C reactive protein - CRP (mg/dl)" ] ;
+       fhir:definition [ fhir:v "Result of CRP testing, when performed" ] ;
+       fhir:comment [ fhir:v "An integer for the CRP test. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.CReactiveProtein-Crp-MgDl" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Quantity"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.InstrumentStatus" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.InstrumentStatus" ] ;
+       fhir:short [ fhir:v "Instrument status" ] ;
+       fhir:definition [ fhir:v "Describe if the instument is fully compiled or not" ] ;
+       fhir:comment [ fhir:v "A boolean for the instrument if it was fully compiled or not." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "CancerUnderStudy.InstrumentStatus" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:differential [
+     fhir:element ( [
+       fhir:id [ fhir:v "CancerUnderStudy" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy" ] ;
+       fhir:short [ fhir:v "Cancer Under Study" ] ;
+       fhir:definition [ fhir:v "Subject of care \nMaturity Level: 0 Draft" ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.diagnosisDate" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.diagnosisDate" ] ;
+       fhir:short [ fhir:v "Date of diagnosis" ] ;
+       fhir:definition [ fhir:v "Date of the procedure from which the specimen was obtained that allowed the histological diagnosis." ] ;
+       fhir:comment [ fhir:v "Must be formatted as YYYY-MM-DD. Leave empty if not known. Optional rule : Possible date anonymisation by\nsetting the 15th of every month i.e.: YYYY-MM-15. If the month is not known, we set it to June (06)." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "date"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.ageAtDiagnosis" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.ageAtDiagnosis" ] ;
+       fhir:short [ fhir:v "Age at diagnosis" ] ;
+       fhir:definition [ fhir:v "Age of the patient at the time of the diagnosis.\nrequired if date of diagnosis known" ] ;
+       fhir:comment [ fhir:v "An integer value > 0. We use the -1 value for unknown. Automatic  calculation from date of birth and date of diagnosis." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "integer"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologyGroup" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologyGroup" ] ;
+       fhir:short [ fhir:v "Histology (WHO 2017) group" ] ;
+       fhir:definition [ fhir:v "Histology of prymary tumour according to WHO 2017 clasification." ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup" ] ;
+       fhir:short [ fhir:v "histologySubgroup.histology (WHO 2017) subgroup" ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "BackboneElement"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.histologySquamous" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologySquamous" ] ;
+       fhir:short [ fhir:v "Specifies the histological subgroup for squamous cancers" ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup for squamous cancers" ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N squamous classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.histologyAdenocarcinoma" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologyAdenocarcinoma" ] ;
+       fhir:short [ fhir:v "Specifies the histological subgroup for adenocarcinomas" ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup for adenocarcinomas" ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N adenocarcinoma classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.histologyNeuroendocrine" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologyNeuroendocrine" ] ;
+       fhir:short [ fhir:v "Specifies the histological subgroup for neuroendocrine cancers " ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup for neuroendocrine cancers" ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N neuroendocrine classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.histologyOdontogenicCarcinoma" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologyOdontogenicCarcinoma" ] ;
+       fhir:short [ fhir:v "Specifies the histological subgroup for odontogenic carcinomas" ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup for odontogenic carcinomas" ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N odontogenic carcinoma classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.histologySubgroup.histologySNUC" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.histologySubgroup.histologySNUC" ] ;
+       fhir:short [ fhir:v "Specifies the histological subgroup for sinonasl undifferentiated carcinomas" ] ;
+       fhir:definition [ fhir:v "Specifies the histological subgroup for sinonasl undifferentiated carcinomas" ] ;
+       fhir:comment [ fhir:v "A value in the WHO 2017 H&N SNUC classification list." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.siteRare" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.siteRare" ] ;
+       fhir:short [ fhir:v "Site Rare" ] ;
+       fhir:definition [ fhir:v "Describe the primary tumor site, according to AJCC ." ] ;
+       fhir:comment [ fhir:v "A value in the AJCC Cancer Staging Manual 8th site list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.siteCommonAndRare" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.siteCommonAndRare" ] ;
+       fhir:short [ fhir:v "Site common and rare" ] ;
+       fhir:definition [ fhir:v "Describe the primary tumor site, according to AJCC ." ] ;
+       fhir:comment [ fhir:v "A value in the AJCC Cancer Staging Manual 8th site list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite" ] ;
+       fhir:short [ fhir:v "Subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "BackboneElement"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.nasalCavityAndParanasalSinusesSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.nasalCavityAndParanasalSinusesSubsite" ] ;
+       fhir:short [ fhir:v "Nasal cavity and paranasal sinuses subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in nasal cavity and paranasal sinusess" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.nasopharynxSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.nasopharynxSubsite" ] ;
+       fhir:short [ fhir:v "Nasopharynx subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in nasopharynx" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.hypopharynxSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.hypopharynxSubsite" ] ;
+       fhir:short [ fhir:v "Hypopharynx subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in hypopharynx" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.oropharynxSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.oropharynxSubsite" ] ;
+       fhir:short [ fhir:v "Oropharynx subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in oropharynx" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.larynxSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.larynxSubsite" ] ;
+       fhir:short [ fhir:v "Larynx subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in larynx" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.oralCavitySubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.oralCavitySubsite" ] ;
+       fhir:short [ fhir:v "Oral cavity subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in oral cavity" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.subSite.lipSubsite" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.subSite.lipSubsite" ] ;
+       fhir:short [ fhir:v "Lip subsite" ] ;
+       fhir:definition [ fhir:v "Specifies the subsite for cancers occurred in lip" ] ;
+       fhir:comment [ fhir:v "A string value in the AJCC Cancer Staging Manual 8th subsite list" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.PlasmaticEbvDnaAtBaseline" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.PlasmaticEbvDnaAtBaseline" ] ;
+       fhir:short [ fhir:v "Plasmatic EBV DNA at baseline" ] ;
+       fhir:definition [ fhir:v "Describes the result of EBV DNA plasma testing before treatment in NPC type II and III (WHO)" ] ;
+       fhir:comment [ fhir:v "A string value representing whether the test value was positive, negative or it was untested. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.PrimerType" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.PrimerType" ] ;
+       fhir:short [ fhir:v "Primer type" ] ;
+       fhir:definition [ fhir:v "Describes the primer used for EBV DNA plasma testing t in NPC type II and Type III (WHO)" ] ;
+       fhir:comment [ fhir:v "A string value representing the plasma testing type. Empty if unknown" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.CopyNumber" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.CopyNumber" ] ;
+       fhir:short [ fhir:v "Copy Number" ] ;
+       fhir:definition [ fhir:v "Copy number of EBVDNA" ] ;
+       fhir:comment [ fhir:v "An integer for the number of EBVDNA. Empty if unknown" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "integer"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.HpvStatus" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.HpvStatus" ] ;
+       fhir:short [ fhir:v "HPV status" ] ;
+       fhir:definition [ fhir:v "Describes the result of HPV tumor testing in oral carcinoma" ] ;
+       fhir:comment [ fhir:v "A string value representing whether the result was positive, negative or not tested. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.HpvStatusDetectedBy" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.HpvStatusDetectedBy" ] ;
+       fhir:short [ fhir:v "HPV status detecection" ] ;
+       fhir:definition [ fhir:v "Describes the technique used for HPV tumour testing in orall carcinoma" ] ;
+       fhir:comment [ fhir:v "A string value representing which was the used technique. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.P16" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.P16" ] ;
+       fhir:short [ fhir:v "p16" ] ;
+       fhir:definition [ fhir:v "Describes the result of p16 tumour testing in oral carcinoma" ] ;
+       fhir:comment [ fhir:v "A string value representing whether the result was positive, negative or not tested. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.PdL1" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.PdL1" ] ;
+       fhir:short [ fhir:v "PD-L1" ] ;
+       fhir:definition [ fhir:v "Describes the result of PDL tumour testing in oral carcinoma" ] ;
+       fhir:comment [ fhir:v "A string value representing whether the result was positive, negative or not tested. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.Pd-L1Method" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.Pd-L1Method" ] ;
+       fhir:short [ fhir:v "PD-L1 Method" ] ;
+       fhir:definition [ fhir:v "Describes the technique used for PDL tumour testing in oral carcinoma" ] ;
+       fhir:comment [ fhir:v "A string value representing which was the used technique. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.Pd-L1CpsValue" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.Pd-L1CpsValue" ] ;
+       fhir:short [ fhir:v "PD-L1 CPS" ] ;
+       fhir:definition [ fhir:v "Result of PDL1CPS testing, when performed" ] ;
+       fhir:comment [ fhir:v "An integer for the PDL1CPS test. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "integer"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.Pd-L1TpsValue" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.Pd-L1TpsValue" ] ;
+       fhir:short [ fhir:v "PD-L1 TPS" ] ;
+       fhir:definition [ fhir:v "Result of PDL1TPS testing, when performed" ] ;
+       fhir:comment [ fhir:v "An integer for the PDL1TPS test. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "integer"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.Crp-CReactiveProteinTested" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.Crp-CReactiveProteinTested" ] ;
+       fhir:short [ fhir:v "CRP ? C reactive protein tested" ] ;
+       fhir:definition [ fhir:v "Describes the result of C reactive protein testing" ] ;
+       fhir:comment [ fhir:v "A string value representing whether the result was positive, negative or not tested. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.CReactiveProtein-Crp-MgDl" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.CReactiveProtein-Crp-MgDl" ] ;
+       fhir:short [ fhir:v "C reactive protein - CRP (mg/dl)" ] ;
+       fhir:definition [ fhir:v "Result of CRP testing, when performed" ] ;
+       fhir:comment [ fhir:v "An integer for the CRP test. Empty if unknown." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Quantity"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "CancerUnderStudy.InstrumentStatus" ] ;
+       fhir:path [ fhir:v "CancerUnderStudy.InstrumentStatus" ] ;
+       fhir:short [ fhir:v "Instrument status" ] ;
+       fhir:definition [ fhir:v "Describe if the instument is fully compiled or not" ] ;
+       fhir:comment [ fhir:v "A boolean for the instrument if it was fully compiled or not." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "fhir" ] ;
+         fhir:map [ fhir:v "TBD" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

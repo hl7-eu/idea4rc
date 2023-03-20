@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Thu, Mar 9, 2023 21:27+0000 for FHIR v5.0.0-cibuild 
+  Generated on Sun, Mar 19, 2023 06:39+0000 for FHIR v5.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -114,11 +114,6 @@
       <xs:enumeration value="MarketingStatus">
         <xs:annotation>
           <xs:documentation xml:lang="en">MarketingStatus</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="Population">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Population</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="ProductShelfLife">
@@ -3349,11 +3344,6 @@
       <xs:enumeration value="PlanDefinition">
         <xs:annotation>
           <xs:documentation xml:lang="en">PlanDefinition</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="Population">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Population</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="positiveInt">
@@ -16643,40 +16633,6 @@ The value of mustSupport SHALL be a FHIRPath resolvable on the type of the DataR
       </xs:complexContent>
     </xs:complexType>
 
-  <xs:complexType name="Population">
-    <xs:annotation>
-      <xs:documentation xml:lang="en">A population of people with some set of grouping criteria.</xs:documentation>
-      <xs:documentation xml:lang="en">If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="BackboneType">
-        <xs:sequence>
-          <xs:choice minOccurs="0" maxOccurs="1">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">The age of the specific population.</xs:documentation>
-            </xs:annotation>
-           <xs:element name="ageRange" type="Range"  maxOccurs="1"/>
-           <xs:element name="ageCodeableConcept" type="CodeableConcept"  maxOccurs="1"/>
-          </xs:choice>
-          <xs:element name="gender" type="CodeableConcept" minOccurs="0" maxOccurs="1">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">The gender of the specific population.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="race" type="CodeableConcept" minOccurs="0" maxOccurs="1">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Race of the specific population.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-          <xs:element name="physiologicalCondition" type="CodeableConcept" minOccurs="0" maxOccurs="1">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">The existing physiological conditions of the specific population to which this applies.</xs:documentation>
-            </xs:annotation>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:complexType name="Ratio">
     <xs:annotation>
       <xs:documentation xml:lang="en">A relationship of two Quantity values - expressed as a numerator and a denominator.</xs:documentation>
@@ -19522,7 +19478,7 @@ A coverage may only be responsible for specific types of charges, and the sequen
           </xs:element>
           <xs:element name="kind" minOccurs="0" maxOccurs="1" type="RequestResourceTypes">
             <xs:annotation>
-              <xs:documentation xml:lang="en">A description of the kind of resource the activity definition is representing. For example, a MedicationRequest, a ServiceRequest, or a CommunicationRequest. Typically, but not always, this is a Request resource.</xs:documentation>
+              <xs:documentation xml:lang="en">A description of the kind of resource the activity definition is representing. For example, a MedicationRequest, a ServiceRequest, or a CommunicationRequest.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="profile" minOccurs="0" maxOccurs="1" type="canonical">
@@ -21965,7 +21921,7 @@ The duration (usually in minutes) could also be provided to indicate the length 
   </xs:simpleType>
   <xs:complexType name="AuditEventAction">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">Indicator for type of action performed during the event that generated the event.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -22020,7 +21976,7 @@ The duration (usually in minutes) could also be provided to indicate the length 
   </xs:simpleType>
   <xs:complexType name="AuditEventSeverity">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">The severity of the audit entry.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -22335,7 +22291,7 @@ into another (possibly the same) biological entity.</xs:documentation>
               <xs:documentation xml:lang="en">Additional notes.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="usageInstruction" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+          <xs:element name="usageInstruction" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
               <xs:documentation xml:lang="en">Specific instructions for use.</xs:documentation>
            </xs:annotation>
@@ -22411,7 +22367,7 @@ into another (possibly the same) biological entity.</xs:documentation>
   </xs:simpleType>
   <xs:complexType name="BiologicallyDerivedProductDispenseCodes">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">A coded concept specifying the state of the dispense event.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -29861,19 +29817,14 @@ of the resource representation.</xs:documentation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
         <xs:sequence>
-          <xs:element name="code" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">This list of codes represents the main clinical acts, such as a colonoscopy or an appendectomy, being documented. In some cases, the event is inherent in the typeCode, such as a &quot;History and Physical Report&quot; in which the procedure being documented is necessarily a &quot;History and Physical&quot; act.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
           <xs:element name="period" minOccurs="0" maxOccurs="1" type="Period">
             <xs:annotation>
               <xs:documentation xml:lang="en">The period of time covered by the documentation. There is no assertion that the documentation is a complete representation for this period, only that it documents events during this time.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="detail" minOccurs="0" maxOccurs="unbounded" type="Reference">
+          <xs:element name="detail" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The description and/or reference of the event(s) being documented. For example, this could be used to document such a colonoscopy or an appendectomy.</xs:documentation>
+              <xs:documentation xml:lang="en">Represents the main clinical acts, such as a colonoscopy or an appendectomy, being documented. In some cases, the event is inherent in the typeCode, such as a &quot;History and Physical Report&quot; in which case the procedure being documented is necessarily a &quot;History and Physical&quot; act. The events may be included as a code or as a reference to an other resource.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -29910,11 +29861,6 @@ of the resource representation.</xs:documentation>
           <xs:element name="text" minOccurs="0" maxOccurs="1" type="Narrative">
             <xs:annotation>
               <xs:documentation xml:lang="en">A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="mode" minOccurs="0" maxOccurs="1" type="ListMode">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">How the entry list was prepared - whether it is a working list that is suitable for being maintained on an ongoing basis, or if it represents a snapshot of a list of items from another source, or whether it is a prepared list where items may be marked as added, modified or deleted.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="orderedBy" minOccurs="0" maxOccurs="1" type="CodeableConcept">
@@ -30008,36 +29954,6 @@ of the resource representation.</xs:documentation>
     <xs:complexContent>
       <xs:extension base="Element">
         <xs:attribute name="value" type="CompositionStatusEnum" use="optional"/>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:simpleType name="ListModeEnum">
-    <xs:restriction base="code-primitive">
-      <xs:enumeration value="working">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Working List</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="snapshot">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Snapshot List</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="changes">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Change List</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:complexType name="ListMode">
-    <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
-      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="Element">
-        <xs:attribute name="value" type="ListModeEnum" use="optional"/>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
@@ -33422,12 +33338,12 @@ of the resource representation.</xs:documentation>
   </xs:complexType>
   <xs:element name="DetectedIssue" type="DetectedIssue">
     <xs:annotation>
-      <xs:documentation xml:lang="en">Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, Ineffective treatment frequency, Procedure-condition conflict, etc.</xs:documentation>
+      <xs:documentation xml:lang="en">Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, Ineffective treatment frequency, Procedure-condition conflict, gaps in care, etc.</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:complexType name="DetectedIssue">
     <xs:annotation>
-      <xs:documentation xml:lang="en">Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, Ineffective treatment frequency, Procedure-condition conflict, etc.</xs:documentation>
+      <xs:documentation xml:lang="en">Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, Ineffective treatment frequency, Procedure-condition conflict, gaps in care, etc.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -33511,7 +33427,7 @@ of the resource representation.</xs:documentation>
   </xs:complexType>
   <xs:complexType name="DetectedIssue.Evidence">
     <xs:annotation>
-      <xs:documentation xml:lang="en">Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, Ineffective treatment frequency, Procedure-condition conflict, etc.</xs:documentation>
+      <xs:documentation xml:lang="en">Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, Ineffective treatment frequency, Procedure-condition conflict, gaps in care, etc.</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
@@ -33532,7 +33448,7 @@ of the resource representation.</xs:documentation>
   </xs:complexType>
   <xs:complexType name="DetectedIssue.Mitigation">
     <xs:annotation>
-      <xs:documentation xml:lang="en">Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, Ineffective treatment frequency, Procedure-condition conflict, etc.</xs:documentation>
+      <xs:documentation xml:lang="en">Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, Ineffective treatment frequency, Procedure-condition conflict, gaps in care, etc.</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
@@ -33781,7 +33697,7 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:element name="gateway" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The linked device acting as a communication/data collector, translator or controller for the current device (e.g., mobile phone application that relays a blood pressure device's data).</xs:documentation>
+              <xs:documentation xml:lang="en">The linked device acting as a communication controller, data collector, translator, or concentrator for the current device (e.g., mobile phone application that relays a blood pressure device's data).</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="note" minOccurs="0" maxOccurs="unbounded" type="Annotation">
@@ -33945,7 +33861,7 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:choice minOccurs="1" maxOccurs="1" >
             <xs:annotation>
-              <xs:documentation xml:lang="en">The value of the property specified by the associated [property.type] code.</xs:documentation>
+              <xs:documentation xml:lang="en">The value of the property specified by the associated property.type code.</xs:documentation>
             </xs:annotation>
             <xs:element name="valueQuantity" type="Quantity"/>
             <xs:element name="valueCodeableConcept" type="CodeableConcept"/>
@@ -34252,7 +34168,7 @@ of the resource representation.</xs:documentation>
           </xs:element>
           <xs:element name="property" type="DeviceDefinition.Property" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The potential, valid configuration settings of a device, e.g., regulation status, time properties.</xs:documentation>
+              <xs:documentation xml:lang="en">Static or essentially fixed characteristics or features of this kind of device that are otherwise not captured in more specific attributes, e.g., time or timing attributes, resolution, accuracy, and physical attributes.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="owner" minOccurs="0" maxOccurs="1" type="Reference">
@@ -34579,12 +34495,12 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
         <xs:sequence>
           <xs:element name="type" minOccurs="1" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Code that specifies the property.</xs:documentation>
+              <xs:documentation xml:lang="en">Code that specifies the property such as a resolution or color being represented.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:choice minOccurs="1" maxOccurs="1" >
             <xs:annotation>
-              <xs:documentation xml:lang="en">Property value - the data type depends on the property type.</xs:documentation>
+              <xs:documentation xml:lang="en">The value of the property specified by the associated property.type code.</xs:documentation>
             </xs:annotation>
             <xs:element name="valueQuantity" type="Quantity"/>
             <xs:element name="valueCodeableConcept" type="CodeableConcept"/>
@@ -34855,12 +34771,12 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:complexType>
   <xs:element name="DeviceDispense" type="DeviceDispense">
     <xs:annotation>
-      <xs:documentation xml:lang="en">A record of dispensation of a device.</xs:documentation>
+      <xs:documentation xml:lang="en">A record of dispensation of a device - i.e., assigning a device to a patient, or to a professional for their use.</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:complexType name="DeviceDispense">
     <xs:annotation>
-      <xs:documentation xml:lang="en">A record of dispensation of a device.</xs:documentation>
+      <xs:documentation xml:lang="en">A record of dispensation of a device - i.e., assigning a device to a patient, or to a professional for their use.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -34961,7 +34877,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
               <xs:documentation xml:lang="en">Extra information about the dispense that could not be conveyed in the other attributes.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="usageInstruction" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="usageInstruction" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">The full representation of the instructions.</xs:documentation>
            </xs:annotation>
@@ -34977,7 +34893,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:complexType>
   <xs:complexType name="DeviceDispense.Performer">
     <xs:annotation>
-      <xs:documentation xml:lang="en">A record of dispensation of a device.</xs:documentation>
+      <xs:documentation xml:lang="en">A record of dispensation of a device - i.e., assigning a device to a patient, or to a professional for their use.</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
@@ -35047,7 +34963,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:simpleType>
   <xs:complexType name="DeviceDispenseStatusCodes">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">A coded concept specifying the state of the dispense event.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -35071,7 +34987,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
         <xs:sequence>
           <xs:element name="identifier" minOccurs="0" maxOccurs="unbounded" type="Identifier">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Unique instance identifiers assigned to a device by the device or gateway software, manufacturers, other organizations or owners. For example: handle ID.</xs:documentation>
+              <xs:documentation xml:lang="en">Instance identifiers assigned to a device, by the device or gateway software, manufacturers, other organizations or owners. For example, handle ID.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="type" minOccurs="1" maxOccurs="1" type="CodeableConcept">
@@ -35094,9 +35010,9 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
               <xs:documentation xml:lang="en">Indicates current operational state of the device. For example: On, Off, Standby, etc.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="color" minOccurs="0" maxOccurs="1" type="DeviceMetricColor">
+          <xs:element name="color" minOccurs="0" maxOccurs="1" type="ColorCodesOrRGB">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Describes the color representation for the metric. This is often used to aid clinicians to track and identify parameter types by color. In practice, consider a Patient Monitor that has ECG/HR and Pleth for example; the parameters are displayed in different characteristic colors, such as HR-blue, BP-green, and PR and SpO2- magenta.</xs:documentation>
+              <xs:documentation xml:lang="en">The preferred color associated with the metric (e.g., display color). This is often used to aid clinicians to track and identify parameter types by color. In practice, consider a Patient Monitor that has ECG/HR and Pleth; the metrics are displayed in different characteristic colors, such as HR in blue, BP in green, and PR and SpO2 in magenta.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="category" minOccurs="1" maxOccurs="1" type="DeviceMetricCategory">
@@ -35144,6 +35060,23 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:simpleType name="ColorCodesOrRGBEnum">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:pattern value="[\s\S]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ColorCodesOrRGB">
+    <xs:annotation>
+      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="Element">
+        <xs:attribute name="value" type="ColorCodesOrRGBEnum" use="optional"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:simpleType name="DeviceMetricCalibrationTypeEnum">
     <xs:restriction base="code-primitive">
       <xs:enumeration value="unspecified">
@@ -35176,61 +35109,6 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
     <xs:complexContent>
       <xs:extension base="Element">
         <xs:attribute name="value" type="DeviceMetricCalibrationTypeEnum" use="optional"/>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:simpleType name="DeviceMetricColorEnum">
-    <xs:restriction base="code-primitive">
-      <xs:enumeration value="black">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Color Black</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="red">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Color Red</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="green">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Color Green</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="yellow">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Color Yellow</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="blue">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Color Blue</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="magenta">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Color Magenta</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="cyan">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Color Cyan</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="white">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Color White</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:complexType name="DeviceMetricColor">
-    <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
-      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="Element">
-        <xs:attribute name="value" type="DeviceMetricColorEnum" use="optional"/>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
@@ -38130,6 +38008,36 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
+  <xs:simpleType name="ListModeEnum">
+    <xs:restriction base="code-primitive">
+      <xs:enumeration value="working">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Working List</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="snapshot">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Snapshot List</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="changes">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Change List</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="ListMode">
+    <xs:annotation>
+      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="Element">
+        <xs:attribute name="value" type="ListModeEnum" use="optional"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:element name="EvidenceVariable" type="EvidenceVariable">
     <xs:annotation>
       <xs:documentation xml:lang="en">The EvidenceVariable resource describes an element that knowledge (Evidence) is about.</xs:documentation>
@@ -40918,12 +40826,12 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:complexType>
   <xs:element name="GenomicStudy" type="GenomicStudy">
     <xs:annotation>
-      <xs:documentation xml:lang="en">A Genomic Study is a set of analysis performed to analyze and generate genomic data.</xs:documentation>
+      <xs:documentation xml:lang="en">A GenomicStudy is a set of analyses performed to analyze and generate genomic data.</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:complexType name="GenomicStudy">
     <xs:annotation>
-      <xs:documentation xml:lang="en">A Genomic Study is a set of analysis performed to analyze and generate genomic data.</xs:documentation>
+      <xs:documentation xml:lang="en">A GenomicStudy is a set of analyses performed to analyze and generate genomic data.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -41010,7 +40918,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:complexType>
   <xs:complexType name="GenomicStudy.Analysis">
     <xs:annotation>
-      <xs:documentation xml:lang="en">A Genomic Study is a set of analysis performed to analyze and generate genomic data.</xs:documentation>
+      <xs:documentation xml:lang="en">A GenomicStudy is a set of analyses performed to analyze and generate genomic data.</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
@@ -41111,7 +41019,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:complexType>
   <xs:complexType name="GenomicStudy.Input">
     <xs:annotation>
-      <xs:documentation xml:lang="en">A Genomic Study is a set of analysis performed to analyze and generate genomic data.</xs:documentation>
+      <xs:documentation xml:lang="en">A GenomicStudy is a set of analyses performed to analyze and generate genomic data.</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
@@ -41139,7 +41047,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:complexType>
   <xs:complexType name="GenomicStudy.Output">
     <xs:annotation>
-      <xs:documentation xml:lang="en">A Genomic Study is a set of analysis performed to analyze and generate genomic data.</xs:documentation>
+      <xs:documentation xml:lang="en">A GenomicStudy is a set of analyses performed to analyze and generate genomic data.</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
@@ -41160,7 +41068,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:complexType>
   <xs:complexType name="GenomicStudy.Performer">
     <xs:annotation>
-      <xs:documentation xml:lang="en">A Genomic Study is a set of analysis performed to analyze and generate genomic data.</xs:documentation>
+      <xs:documentation xml:lang="en">A GenomicStudy is a set of analyses performed to analyze and generate genomic data.</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
@@ -41181,7 +41089,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:complexType>
   <xs:complexType name="GenomicStudy.Device">
     <xs:annotation>
-      <xs:documentation xml:lang="en">A Genomic Study is a set of analysis performed to analyze and generate genomic data.</xs:documentation>
+      <xs:documentation xml:lang="en">A GenomicStudy is a set of analyses performed to analyze and generate genomic data.</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
@@ -44123,7 +44031,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:simpleType>
   <xs:complexType name="ImmunizationStatusCodes">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">A set of codes indicating the current status of an Immunization.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -47410,7 +47318,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:simpleType>
   <xs:complexType name="InventoryItemStatusCodes">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">A coded concept specifying the status of the inventory item.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -47835,7 +47743,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:simpleType>
   <xs:complexType name="CommonLanguages">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">The languages for a description of an item</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -49880,7 +49788,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:simpleType>
   <xs:complexType name="MeasureReportStatus">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">The status of the measure report.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -49915,7 +49823,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:simpleType>
   <xs:complexType name="MeasureReportType">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">The type of the measure report.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -50560,7 +50468,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
   </xs:simpleType>
   <xs:complexType name="MedicationDispenseStatusCodes">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">A coded concept specifying the state of the dispense event.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -52342,7 +52250,7 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
   </xs:simpleType>
   <xs:complexType name="MessageheaderResponseRequest">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">HL7-defined table of codes which identify conditions under which acknowledgments are required to be returned in response to a message.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -54104,7 +54012,7 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
           </xs:element>
           <xs:element name="device" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The device used to generate the observation data.</xs:documentation>
+              <xs:documentation xml:lang="en">A reference to the device that generates the measurements or the device settings for the device.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="referenceRange" type="Observation.ReferenceRange" minOccurs="0" maxOccurs="unbounded">
@@ -61414,7 +61322,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
         <xs:sequence>
           <xs:element name="code" minOccurs="1" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The detail of the order being requested.</xs:documentation>
+              <xs:documentation xml:lang="en">A value representing the additional detail or instructions for the order (e.g., catheter insertion, body elevation, descriptive device configuration and/or setting instructions).</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:choice minOccurs="1" maxOccurs="1" >
@@ -67369,7 +67277,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
   </xs:simpleType>
   <xs:complexType name="TestReportStatus">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">The current status of the test report.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -67409,7 +67317,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
   </xs:simpleType>
   <xs:complexType name="TestReportActionResult">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">The results of executing an action.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -67469,7 +67377,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
   </xs:simpleType>
   <xs:complexType name="TestReportResult">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">The reported execution result.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -68288,7 +68196,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
   </xs:simpleType>
   <xs:complexType name="AssertionManualCompletionType">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">The type of operator to use for assertion.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -68313,7 +68221,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
   </xs:simpleType>
   <xs:complexType name="AssertionDirectionType">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">The type of direction to use for assertion.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -68388,7 +68296,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
   </xs:simpleType>
   <xs:complexType name="AssertionOperatorType">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">The type of operator to use for assertion.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -68623,7 +68531,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
   </xs:simpleType>
   <xs:complexType name="AssertionResponseTypes">
     <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">The type of response code to use for assertion.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
@@ -69735,7 +69643,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">The frequency with which the target must be validated (none; initial; periodic).</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="status" minOccurs="1" maxOccurs="1" type="Status">
+          <xs:element name="status" minOccurs="1" maxOccurs="1" type="VerificationResultStatus">
             <xs:annotation>
               <xs:documentation xml:lang="en">The validation status of the target (attested; validated; in process; requires revalidation; validation failed; revalidation failed).</xs:documentation>
            </xs:annotation>
@@ -69917,7 +69825,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:simpleType name="StatusEnum">
+  <xs:simpleType name="VerificationResultStatusEnum">
     <xs:restriction base="code-primitive">
       <xs:enumeration value="attested">
         <xs:annotation>
@@ -69951,14 +69859,14 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-  <xs:complexType name="Status">
+  <xs:complexType name="VerificationResultStatus">
     <xs:annotation>
       <xs:documentation xml:lang="en"></xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="Element">
-        <xs:attribute name="value" type="StatusEnum" use="optional"/>
+        <xs:attribute name="value" type="VerificationResultStatusEnum" use="optional"/>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>

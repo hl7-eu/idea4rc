@@ -1,0 +1,67 @@
+[
+  {
+    "id" : "hl7.eu.fhir.idea4rc",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/ImplementationGuide/hl7.eu.fhir.idea4rc",
+    "version" : "0.1.0",
+    "name" : "IDEA4RCImplementationGuide"
+  },
+  {
+    "id" : "CancerUnderStudy",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/CancerUnderStudy",
+    "version" : "0.1.0",
+    "name" : "CancerUnderStudyI4rc"
+  },
+  {
+    "id" : "Osiris",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Osiris",
+    "version" : "0.1.0",
+    "name" : "Osiris"
+  },
+  {
+    "id" : "Patient-eu-i4rc",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Patient-eu-i4rc",
+    "version" : "0.1.0",
+    "name" : "PatientI4rc"
+  },
+  {
+    "id" : "Subject",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject",
+    "version" : "0.1.0",
+    "name" : "SubjectI4rc"
+  },
+  {
+    "id" : "individual-recordedSexOrGender",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/individual-recordedSexOrGender",
+    "version" : "0.1.0",
+    "name" : "RecordedSexOrGender",
+    "oids" : ["2.16.840.1.113883.4.642.5.1342"]
+  },
+  {
+    "id" : "patient-sexForClinicalUse",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/patient-sexForClinicalUse",
+    "version" : "0.1.0",
+    "name" : "SexForClinicalUse",
+    "oids" : ["2.16.840.1.113883.4.642.5.1347"]
+  },
+  {
+    "id" : "ConceptMapOsiris2I4rc",
+    "type" : "ConceptMap",
+    "url" : "http://terminology.hl7.it/ConceptMap/ConceptMap-osiris2idea4rc",
+    "version" : "0.1.0",
+    "name" : "Osiris2I4rc"
+  },
+  {
+    "id" : "ConceptMapSubject2Osiris",
+    "type" : "ConceptMap",
+    "url" : "http://terminology.hl7.it/ConceptMap/ConceptMap-subject2osiris",
+    "version" : "0.1.0",
+    "name" : "Subject2Osiris"
+  }
+]

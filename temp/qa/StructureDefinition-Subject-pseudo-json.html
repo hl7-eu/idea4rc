@@ -1,0 +1,22 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-Subject-pseudo-json</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+ // <span style="color: navy; opacity: 0.8">Subject of care</span>
+ {
+  // from Element: <a href="http://hl7.org/fhir/R4/extensibility.html">extension</a>
+    "<a href="StructureDefinition-Subject.html#Subject.dateOfBirth" title="Date of birth as recorded in the patient's identity document or in the hospital record. In the absence of documentation, the one declared by the patient will be recorded" class="dict"><span style="text-decoration: underline">dateOfBirth</span></a>" : { <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Date of birth</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Subject.html#Subject.dateOfBirth.date" title="Date of birth as recorded in the patient's identity document or in the hospital record. In the absence of documentation, the one declared by the patient will be recorded" class="dict"><span style="text-decoration: underline">date</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Date of birth</span>
+      "<a href="StructureDefinition-Subject.html#Subject.dateOfBirth.unknown" title="Describes if day of date of birthday is unknown" class="dict"><span style="text-decoration: underline">unknown</span></a>" : &lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a></span>&gt;, <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Date of birth day unknown</span>
+    },
+    "<a href="StructureDefinition-Subject.html#Subject.maritalStatus" title="Describes the marital status declared by the patient, at the time of diagnosis (section 4, Primary Cancer)" class="dict"><span style="text-decoration: underline">maritalStatus</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></span>}, <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Marital status</span>
+    "<a href="StructureDefinition-Subject.html#Subject.sexOrGender" title="Describes biological sex as recorded in the patient's identity document or in the hospital record. In the absence of documentation, the one declared by the patient will be recorded" class="dict"><span style="text-decoration: underline">sexOrGender</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Gender/Sex</span>
+    "<a href="StructureDefinition-Subject.html#Subject.race" title="Describes race as recorded in  the hospital record, the one declared by the patient,, otherwise, the onerecognized by the observer" class="dict"><span style="text-decoration: underline">race</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Race</span>
+    "<a href="StructureDefinition-Subject.html#Subject.countryOfResidence" title="Country of residence at the time of diagnosis" class="dict"><span style="text-decoration: underline">countryOfResidence</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></span>}] <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Country of Residence </span>
+  }
+</body>
+</html>

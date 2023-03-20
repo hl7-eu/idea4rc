@@ -1,0 +1,675 @@
+﻿<html>
+<head>
+  <title>StructureDefinition-Osiris-pseudo-json</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+ // <span style="color: navy; opacity: 0.8">Osiris Model</span>
+ {
+  // from Element: <a href="http://hl7.org/fhir/R4/extensibility.html">extension</a>
+    "<a href="StructureDefinition-Osiris.html#Osiris.Patient" title="Patient" class="dict"><span style="text-decoration: underline">Patient</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Patient</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Patient.Id" title="Patient ID in the center providing the information
+mandatory" class="dict"><span style="text-decoration: underline">Id</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Patient Id [C1]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Patient.Gender" title="Gender of the patient
+ConceptualDomain: FHIR:AdministrativeGender
+mandatory" class="dict"><span style="text-decoration: underline">Gender</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Gender [C2]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Patient.Ethnicity" title="Ethnicity of the patient
+ConceptualDomain: FHIR:Race
+optional" class="dict"><span style="text-decoration: underline">Ethnicity</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Ethnicity [C3]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Patient.BirthDate" title="Date of birth of the patient
+mandatory" class="dict"><span style="text-decoration: underline">BirthDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Birth Date [C4]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Patient.DeathDate" title="Date of death of the patient
+optional" class="dict"><span style="text-decoration: underline">DeathDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Death Date [C5]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Patient.ProviderCenterId" title="Center ID of the center providing the information
+mandatory" class="dict"><span style="text-decoration: underline">ProviderCenterId</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Provider  Center  Id [C6]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Patient.OriginCenterId" title="Center ID of the center of origin of the patient
+mandatory" class="dict"><span style="text-decoration: underline">OriginCenterId</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Origin  Center  Id [C71]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Patient.CauseOfDeath" title="Description of the cause of death of the patient 
+ConceptualDomain: UMLS:C0007465
+mandatory if DeathDate is set" class="dict"><span style="text-decoration: underline">CauseOfDeath</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Cause of death [C7]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Patient.LastNewsDate" title="Date of last news (= date of last patient visit if there is no other information available) (day is set to the 15th)
+mandatory" class="dict"><span style="text-decoration: underline">LastNewsDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Last News Date [C8]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Patient.LastNewsStatus" title="Indicator of the patient's last known vital status (alive or deceased)
+ConceptualDomain: OSIRIS:LastNewsStatus
+mandatory" class="dict"><span style="text-decoration: underline">LastNewsStatus</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Last News Status [C9]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Consent" title="Consent" class="dict"><span style="text-decoration: underline">Consent</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Consent</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Consent.Date" title="Date of consent signature
+mandatory" class="dict"><span style="text-decoration: underline">Date</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Date [C72]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Consent.GeneticAnalysisAuthorization" title="Consent for genetic analysis
+ConceptualDomain: OSIRIS:Boolean
+mandatory" class="dict"><span style="text-decoration: underline">GeneticAnalysisAuthorization</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Genetic Analysis Authorization [C79]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.RelatedPathology" title="RelatedPathology" class="dict"><span style="text-decoration: underline">RelatedPathology</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">RelatedPathology</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.RelatedPathology.PathologyCode" title="International code for the related disease (other than cancer). 3 characters.
+ConceptualDomain: ICD10
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">PathologyCode</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Pathology Code [C13]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RelatedPathology.DiagnosisDate" title="Date of diagnosis for the related disease.
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">DiagnosisDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Diagnosis Date [C14]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RelatedPathology.PathologyEndDate" title="Date of the end of the related disease (if occuring and known)
+optional" class="dict"><span style="text-decoration: underline">PathologyEndDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Pathology End Date [C15]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.FamilyCancerHistory" title="FamilyCancerHistory" class="dict"><span style="text-decoration: underline">FamilyCancerHistory</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">FamilyCancerHistory</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.FamilyCancerHistory.TopographyCode" title="International code for the localization of the oncologic primary site
+ConceptualDomain: ICDO3:Topography
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">TopographyCode</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Topography Code [C17]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.FamilyCancerHistory.Parentage" title="Family relationship
+ConceptualDomain: OSIRIS:FamilyCancerHistoryParentage
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Parentage</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Parentage [C77]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent" title="TumorPathologyEvent" class="dict"><span style="text-decoration: underline">TumorPathologyEvent</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">TumorPathologyEvent</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.Type" title="The field 'Type' allows to describe the 'Cancer' event as a global disease, as well as the various events constituting this disease (primary tumor, local relapse, metastatic relapse...)
+ConceptualDomain: OSIRIS:EventType
+mandatory" class="dict"><span style="text-decoration: underline">Type</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Type [C20]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.StartDate" title="Date of start of cancer event or disease
+mandatory" class="dict"><span style="text-decoration: underline">StartDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Start Date [C21]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.EndDate" title="Date of end of cancer event or disease
+optional" class="dict"><span style="text-decoration: underline">EndDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">End Date [C82]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.PerformanceStatus" title="Definition of the autonomy scale (Karnofsky scale or OMS)
+ConceptualDomain: OMS:PerformanceStatus
+optional" class="dict"><span style="text-decoration: underline">PerformanceStatus</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Performance Status [C22]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.G8" title="Tool for the evaluation of the general condition of the patient
+optional" class="dict"><span style="text-decoration: underline">G8</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">G8 score [C23]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.HistologicalGradeType" title="List of histological grading scales
+ConceptualDomain: OSIRIS:HistologicalGradeType
+optional, mandatory if HistologicalGradeValue is set" class="dict"><span style="text-decoration: underline">HistologicalGradeType</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Histological Grade Type [C29]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.HistologicalGradeValue" title="Value of histological grade
+ConceptualDomain: OSIRIS:HistologicalGradeValue
+optional, mandatory if HistologicalGradeType is set" class="dict"><span style="text-decoration: underline">HistologicalGradeValue</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Histological Grade Value [C30]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.StadeType" title="List of stage scales
+ConceptualDomain: OSIRIS:StadeType
+optional, mandatory if StadeValue is set" class="dict"><span style="text-decoration: underline">StadeType</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Stade Type [C31]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.StadeValue" title="Stage value
+ConceptualDomain: OSIRIS:StadeValue
+optional, mandatory if StadeType is set" class="dict"><span style="text-decoration: underline">StadeValue</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Stade Value [C32]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.DiagnosisDate" title="Date of diagnosis of the tumor event
+mandatory" class="dict"><span style="text-decoration: underline">DiagnosisDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Diagnosis Date [C33]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.TopographyCode" title="Localisation of the primary tumor
+ConceptualDomain: ICDO3:Topography
+mandatory" class="dict"><span style="text-decoration: underline">TopographyCode</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Topography Code [C34]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.MorphologyCode" title="International code of lesion / histological type / tumor morphology of the tumoral event
+ConceptualDomain: ICDO3:Morphology
+mandatory" class="dict"><span style="text-decoration: underline">MorphologyCode</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Morphology Code [C35]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TumorPathologyEvent.Laterality" title="Laterality of location (if it exists)
+ConceptualDomain: OSIRIS:Laterality
+optional" class="dict"><span style="text-decoration: underline">Laterality</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Laterality [C36]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.TNM" title="TNM" class="dict"><span style="text-decoration: underline">TNM</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">TNM</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.TNM.T" title="Size of the tumor, propagation the site of the primary tumor
+ConceptualDomain: OSIRIS:T_TNM
+optional, mandatory if either N, M or TNMType is set" class="dict"><span style="text-decoration: underline">T</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">T [C83]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TNM.N" title="Propagation at the ganglion level
+ConceptualDomain: OSIRIS:N_TNM
+optional, mandatory if either T, M or TNMType is set" class="dict"><span style="text-decoration: underline">N</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">N [C84]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TNM.M" title="Remote propagation, presence of metastases
+ConceptualDomain: OSIRIS:M_TNM
+optional, mandatory if either T, N or TNMType is set" class="dict"><span style="text-decoration: underline">M</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">M [C85]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TNM.Version" title="TNM classification version
+ConceptualDomain: OSIRIS:TNMVersion
+optional" class="dict"><span style="text-decoration: underline">Version</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">TNM Version [C86]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.TNM.Type" title="c, p, r,...
+ConceptualDomain: OSIRIS:TNMType
+optional, mandatory if either T, N or M is set" class="dict"><span style="text-decoration: underline">Type</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">TNM Type [C87]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Analysis" title="Analysis" class="dict"><span style="text-decoration: underline">Analysis</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Analysis</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Analysis.Code" title="Code of analysis
+optional" class="dict"><span style="text-decoration: underline">Code</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Code [C70]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Analysis.Type" title="Type of analysis
+ConceptualDomain: OSIRIS:AnalysisType
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Type</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Type [C37]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Analysis.Date" title="Date of analysis
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Date</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Date [C38]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.ResponseEvaluation" title="ResponseEvaluation" class="dict"><span style="text-decoration: underline">ResponseEvaluation</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">ResponseEvaluation</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.ResponseEvaluation.Date" title="Date of assessment of treatment response
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Date</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Date [C78]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.ResponseEvaluation.Status" title="Assessment of treatment response
+ConceptualDomain: OSIRIS:RECIST
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Status</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Status [C73]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Biomarker" title="Biomarker" class="dict"><span style="text-decoration: underline">Biomarker</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Biomarker</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Biomarker.Code" title="Biomarker name
+ConceptualDomain: OSIRIS:BiomarkerCode
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Code</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Code [C39]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Biomarker.Value" title="Biomarker value
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Value</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Value [C40]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Biomarker.Unit" title="Biomarker unit
+optional" class="dict"><span style="text-decoration: underline">Unit</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Unit [C81]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Treatment" title="Treatment" class="dict"><span style="text-decoration: underline">Treatment</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Treatment</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Treatment.Type" title="Type of treatment
+ConceptualDomain: OSIRIS:TreatmentType
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Type</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Type [C41]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Treatment.LineNumber" title="Line of treatment
+optional" class="dict"><span style="text-decoration: underline">LineNumber</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Line Number [C74]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Treatment.ActivityCode" title="CCAM code of the medical act
+ConceptualDomain: CCAM
+optional" class="dict"><span style="text-decoration: underline">ActivityCode</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Activity Code [C42]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Treatment.StartDate" title="Date of treatment start
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">StartDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Start Date [C43]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Treatment.EndDate" title="Date of treatment end
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">EndDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">End Date [C44]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Treatment.ClinicalTrialContext" title="Treatment performed in a clinical study setting
+ConceptualDomain: OSIRIS:Boolean
+optional" class="dict"><span style="text-decoration: underline">ClinicalTrialContext</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Clinical Trial Context [C45]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Treatment.ClinicalTrialName" title="Name of the clinical study
+optional, mandatory if ClinicalTrialContext is 'Yes'" class="dict"><span style="text-decoration: underline">ClinicalTrialName</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Clinical Trial Name [C75]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Treatment.ClinicalTrialId" title="NCT identifier of the clinical study
+optional, mandatory if ClinicalTrialContext is 'Yes'" class="dict"><span style="text-decoration: underline">ClinicalTrialId</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Clinical Trial Id [C76]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Treatment.SurgeryResectionQuality" title="Quality of resection (anapath)
+ConceptualDomain: OSIRIS:SurgeryResectionQuality
+optional" class="dict"><span style="text-decoration: underline">SurgeryResectionQuality</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Surgery Resection Quality [C46]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Treatment.SurgeryNature" title="Nature of the surgery
+optional" class="dict"><span style="text-decoration: underline">SurgeryNature</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Surgery Nature [C47]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.AdverseEvent" title="AdverseEvent" class="dict"><span style="text-decoration: underline">AdverseEvent</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">AdverseEvent</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.AdverseEvent.Code" title="International code of the adverse event occurring during treatment (excluding other cancer), only the first 4 letters.
+ConceptualDomain: MedDRA_CTCAE-v5.0
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Code</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Code [C48]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.AdverseEvent.Date" title="Date of the diagnosis of the adverse event
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Date</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Date [C49]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.AdverseEvent.EndDate" title="End date of the adverse event (if known)
+optional" class="dict"><span style="text-decoration: underline">EndDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">End Date [C50]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.AdverseEvent.Grade" title="Grade of the adverse event
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Grade</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Grade [C80]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Drug" title="Drug" class="dict"><span style="text-decoration: underline">Drug</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Drug</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Drug.Code" title="Therapeutic classification code (5th level if possible)
+ConceptualDomain: ATC
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Code</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Code [C51]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Drug.Name" title="Name of the molecule
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Name</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Name [C52]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.BiologicalSample" title="BiologicalSample" class="dict"><span style="text-decoration: underline">BiologicalSample</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">BiologicalSample</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.BiologicalSample.ExternalAccession" title="Unique identifier of the sample
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">ExternalAccession</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Sample External Accession [C53]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.BiologicalSample.ParentExternalAccession" title="Unique identifier of the parent sample (if there is one, example histo#)
+optional" class="dict"><span style="text-decoration: underline">ParentExternalAccession</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Parent sample External Accession [C54]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.BiologicalSample.CollectDate" title="Date of sampling
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">CollectDate</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Collect Date [C56]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.BiologicalSample.TopographyCode" title="Code of tumor localization
+ConceptualDomain: ICDO3:Topography
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">TopographyCode</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Topography Code [C57]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.BiologicalSample.Nature" title="Nature of the sample
+ConceptualDomain: OSIRIS:SampleNature
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Nature</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Nature [C58]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.BiologicalSample.Origin" title="Nature of the original sample (Healthy or Tumoral)
+ConceptualDomain: OSIRIS:SampleOrigin
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Origin</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Origin [C59]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.BiologicalSample.StorageTemperature" title="Mode of preservation
+ConceptualDomain: OSIRIS:StorageTemperature
+optional" class="dict"><span style="text-decoration: underline">StorageTemperature</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Storage Temperature [C60]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.BiologicalSample.TumorCellularity" title="Percentage of tumor cells quantified in the sample
+optional" class="dict"><span style="text-decoration: underline">TumorCellularity</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Tumor Cellularity [C61]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Technology" title="Technology" class="dict"><span style="text-decoration: underline">Technology</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Technology</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Technology.TechnicalProtocol" title="Protocol used for the experiment
+ConceptualDomain: OSIRIS:TechnicalProtocol
+mandatory" class="dict"><span style="text-decoration: underline">TechnicalProtocol</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Technical Protocol [O6]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Technology.PlatformName" title="Technological platform name (provider followed by the platform name)
+ConceptualDomain: OSIRIS:PlatformName
+mandatory" class="dict"><span style="text-decoration: underline">PlatformName</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Platform Name [O7]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Technology.PlatformAccession" title="GEO Identifier of the platform
+optional" class="dict"><span style="text-decoration: underline">PlatformAccession</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Platform Accession [O8]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Technology.DateOfExperiment" title="Date when the experiment was performed
+optional" class="dict"><span style="text-decoration: underline">DateOfExperiment</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Date Of Experiment [O9]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Panel" title="Panel" class="dict"><span style="text-decoration: underline">Panel</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Panel</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Panel.Name" title="Name of the panel targeted by the experimental analysis (provider followed by the panel name)
+ConceptualDomain: OSIRIS:PanelName
+optional" class="dict"><span style="text-decoration: underline">Name</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Name [O10]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.AnalysisProcess" title="AnalysisProcess" class="dict"><span style="text-decoration: underline">AnalysisProcess</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">AnalysisProcess</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.AnalysisProcess.AnalyticPipelineCode" title="Identifier of the pipeline used into the analysis (unique in the center)
+mandatory" class="dict"><span style="text-decoration: underline">AnalyticPipelineCode</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Analytic Pipeline Code [O11]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.OmicAnalysis" title="OmicAnalysis" class="dict"><span style="text-decoration: underline">OmicAnalysis</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">OmicAnalysis</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.OmicAnalysis.AlgorithmicCellularity" title="Calculated percentage of tumor cells in sample
+optional" class="dict"><span style="text-decoration: underline">AlgorithmicCellularity</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Algorithmic Cellularity [O12]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.OmicAnalysis.AlgorithmicPloidy" title="Calculated number of sets of chromosomes in a cell of the sample
+ConceptualDomain: OSIRIS:AlgorithmicPloidy
+optional" class="dict"><span style="text-decoration: underline">AlgorithmicPloidy</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Algorithmic Ploidy [O13]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.OmicAnalysis.NumberOfBreakPoints" title="Calculated number of break points in genomic profile
+optional" class="dict"><span style="text-decoration: underline">NumberOfBreakPoints</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Number Of Break Points [O14]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.AlterationOnSample" title="AlterationOnSample" class="dict"><span style="text-decoration: underline">AlterationOnSample</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">AlterationOnSample</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.AlterationOnSample.AlterationType" title="General type of the detected genetic alteration (high level type)
+ConceptualDomain: OSIRIS:AlterationType
+mandatory" class="dict"><span style="text-decoration: underline">AlterationType</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Alteration Type [O15]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.AlterationOnSample.Pathogenicity" title="Conclusion of the biologist on the pathogenicity of the variant before the Molecular Tumor Board
+ConceptualDomain: OSIRIS:AlterationOnSample_Pathogenicity
+optional" class="dict"><span style="text-decoration: underline">Pathogenicity</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Pathogenicity [O81]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.AlterationOnSample.Actionability" title="Conclusion of the clinicians wether the variant is actionable or not during the Molecular Tumor Board
+ConceptualDomain: OSIRIS:AlterationOnSample_Actionability
+optional" class="dict"><span style="text-decoration: underline">Actionability</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Actionability [O82]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.AlterationOnSample.ProposedForOrientation" title="Is the ClinicalTumorBoardConclusion used to orient the treatment decision ?
+ConceptualDomain: OSIRIS:Boolean
+optional" class="dict"><span style="text-decoration: underline">ProposedForOrientation</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Proposed For Orientation [O83]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Validation" title="Validation" class="dict"><span style="text-decoration: underline">Validation</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Validation</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Validation.Type" title="Type of validation of the detected alteration
+ConceptualDomain: OSIRIS:ValidationType
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Type</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Type [O16]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Validation.Method" title="Validation method depending on the type of validation
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Method</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Method [O17]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Validation.Status" title="Validation status of the detected alteration
+ConceptualDomain: OSIRIS:ValidationStatus
+mandatory if ObjectClass is set" class="dict"><span style="text-decoration: underline">Status</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Status [O18]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Alteration" title="Alteration" class="dict"><span style="text-decoration: underline">Alteration</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Alteration</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Alteration.Chromosome" title="Chromosome containing the genetic finding
+ConceptualDomain: OSIRIS:Chromosome
+mandatory" class="dict"><span style="text-decoration: underline">Chromosome</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Chromosome [O19]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Alteration.GenomicStart" title="Nucleotide location for start of genomic finding on the positive (+) genomics strand, 1-based
+mandatory" class="dict"><span style="text-decoration: underline">GenomicStart</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Genomic Start [O20]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Alteration.GenomicStop" title="Nucleotide location for end of genomic finding on the positive (+) genomic strand, 1-based
+mandatory" class="dict"><span style="text-decoration: underline">GenomicStop</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Genomic Stop [O21]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Alteration.GenomeBuild" title="Genome Build used for reference
+ConceptualDomain: FHIR:Sequence
+mandatory" class="dict"><span style="text-decoration: underline">GenomeBuild</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Genome Build [O22]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Alteration.Cytoband" title="Cytogenetic location
+optional" class="dict"><span style="text-decoration: underline">Cytoband</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Cytoband [O23]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.GenomeEntity" title="GenomeEntity" class="dict"><span style="text-decoration: underline">GenomeEntity</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">GenomeEntity</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.GenomeEntity.Type" title="Type of the genome entity. For eg: gene, mRNA, ncRNA...
+ConceptualDomain: OSIRIS:GenomeEntityType
+mandatory" class="dict"><span style="text-decoration: underline">Type</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Type [O24]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.GenomeEntity.Database" title="Database of the genome entity
+ConceptualDomain: OSIRIS:GenomeEntityDatabase
+mandatory" class="dict"><span style="text-decoration: underline">Database</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Database [O25]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.GenomeEntity.Id" title="Identifier of the genome entity in the genome entity database
+mandatory" class="dict"><span style="text-decoration: underline">Id</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Id [O26]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.GenomeEntity.Symbol" title="Hugo gene symbol
+mandatory if Gene" class="dict"><span style="text-decoration: underline">Symbol</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Symbol [O27]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Fusion" title="Fusion" class="dict"><span style="text-decoration: underline">Fusion</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Fusion</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Fusion.Type" title="Type of the fusion event. For eg: translocation, readthrough
+ConceptualDomain: OSIRIS:FusionType
+optional" class="dict"><span style="text-decoration: underline">Type</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Type [O28]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Fusion.Point5prime" title="Position of the fusion point on the 5 prime partner
+mandatory" class="dict"><span style="text-decoration: underline">Point5prime</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Point 5 prime [O35]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Fusion.Chromosome5prime" title="Chromosome 5 prime
+ConceptualDomain: OSIRIS:Chromosome
+mandatory" class="dict"><span style="text-decoration: underline">Chromosome5prime</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Chromosome 5 prime [O97]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Fusion.Point3prime" title="Position of the fusion point on the 3 prime partner
+mandatory" class="dict"><span style="text-decoration: underline">Point3prime</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Point 3 prime [O40]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Fusion.Chromosome3prime" title="Chromosome 3 prime
+ConceptualDomain: OSIRIS:Chromosome
+mandatory" class="dict"><span style="text-decoration: underline">Chromosome3prime</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Chromosome 3 prime [O98]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Fusion.InFrame" title="Specify whether the fusion is in frame
+ConceptualDomain: OSIRIS:Boolean
+optional" class="dict"><span style="text-decoration: underline">InFrame</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">In Frame [O41]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Fusion.NbSpanningPair" title="Number of reads pairs spanning the fusion
+mandatory" class="dict"><span style="text-decoration: underline">NbSpanningPair</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Nb Spanning Pair [O44]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Fusion.NbSplitReads" title="Number of reads containing the fusion point
+optional" class="dict"><span style="text-decoration: underline">NbSplitReads</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Nb Split Reads [O46]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.CNV" title="CNV" class="dict"><span style="text-decoration: underline">CNV</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">CNV</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.CNV.SegmentIntensity" title="Intensity of the measured signal
+mandatory" class="dict"><span style="text-decoration: underline">SegmentIntensity</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#decimal">decimal</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Segment Intensity [O47]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CNV.SegmentGenomicStatus" title="Copy number status
+ConceptualDomain: OSIRIS:SegmentGenomicStatus
+mandatory" class="dict"><span style="text-decoration: underline">SegmentGenomicStatus</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Segment Genomic Status [O49]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CNV.CopyNumber" title="Estimated DNA copy number
+optional" class="dict"><span style="text-decoration: underline">CopyNumber</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Copy Number [O50]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CNV.LOH" title="Is the segment located in a region of loss of heterozygosity ? (can be independant from copy number information
+ConceptualDomain: OSIRIS:Boolean
+optional" class="dict"><span style="text-decoration: underline">LOH</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">LOH [O51]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CNV.SegmentSize" title="SegmentSize
+optional" class="dict"><span style="text-decoration: underline">SegmentSize</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">SegmentSize []</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Variant" title="Variant" class="dict"><span style="text-decoration: underline">Variant</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Variant</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Variant.ReferenceAllele" title="Plus strand reference allele at this position. Include the sequence deleted for a deletion, or '-' for an insertion.
+mandatory" class="dict"><span style="text-decoration: underline">ReferenceAllele</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Reference Allele [O53]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Variant.AlternativeAllele" title="Plus strand observed alternative allele at this position. Include the sequence inserted for a insertion, or '-' for a deletion.
+mandatory" class="dict"><span style="text-decoration: underline">AlternativeAllele</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Alternative Allele [O54]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Variant.DNASequenceVariationType" title="Codified type of the DNA sequence variation
+ConceptualDomain: LOINC:48019-4
+mandatory" class="dict"><span style="text-decoration: underline">DNASequenceVariationType</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">DNA Sequence Variation Type [O55]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Annotation" title="Annotation" class="dict"><span style="text-decoration: underline">Annotation</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Annotation</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.ReferenceType" title="Reference Type
+ConceptualDomain: OSIRIS:Annotation_ReferenceType
+mandatory if DNASequenceVariation is set" class="dict"><span style="text-decoration: underline">ReferenceType</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Reference Type [O90]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.ReferenceDatabase" title="Reference Database
+ConceptualDomain: OSIRIS:Annotation_ReferenceDatabase
+mandatory if DNASequenceVariation is set" class="dict"><span style="text-decoration: underline">ReferenceDatabase</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Reference Database [O91]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.ReferenceValue" title="Reference Value
+optional" class="dict"><span style="text-decoration: underline">ReferenceValue</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Reference Value [O92]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.MutationPredictionAlgorithm" title="Algorithm to predict the variation effect over the protein
+ConceptualDomain: OSIRIS:MutationPredictionAlgorithm
+optional" class="dict"><span style="text-decoration: underline">MutationPredictionAlgorithm</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Mutation Prediction Algorithm [O63]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.MutationPredictionValue" title="Prediction of the variation effect over the protein
+optional" class="dict"><span style="text-decoration: underline">MutationPredictionValue</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Mutation Prediction Value [O64]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.MutationPredictionScore" title="Level of confidence of the prediction of the variation effect over the protein
+optional" class="dict"><span style="text-decoration: underline">MutationPredictionScore</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#decimal">decimal</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Mutation Prediction Score [O65]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.PfamDomain" title="Pfams domains related to alteration position
+optional" class="dict"><span style="text-decoration: underline">PfamDomain</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Pfam Domain [O58]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.PfamId" title="Identifier of Pfams domains related to alteration position
+optional" class="dict"><span style="text-decoration: underline">PfamId</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Pfam Id [O59]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.DNARegionName" title="Human readable name for the region of interest related to the transcript (eg: exon1, intron1, UTR3')
+optional" class="dict"><span style="text-decoration: underline">DNARegionName</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">DNA Region Name [O66]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.DNASequenceVariation" title="HGVS nomenclature on the chosen transcript
+mandatory" class="dict"><span style="text-decoration: underline">DNASequenceVariation</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">DNA Sequence Variation [O71]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.AminoAcidChange" title="HGVS nomenclature on the chosen protein transcript
+optional" class="dict"><span style="text-decoration: underline">AminoAcidChange</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Amino Acid Change [O72]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.GenomicSequenceVariation" title="HGVS nomenclature on the given GenomeReferenceSequenceId.
+optional" class="dict"><span style="text-decoration: underline">GenomicSequenceVariation</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Genomic Sequence Variation [O73]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.RNASequenceVariation" title="HGVS nomenclature on the given TranscriptReferenceSequenceId and experimentely observed on RNA.
+optional" class="dict"><span style="text-decoration: underline">RNASequenceVariation</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">RNA Sequence Variation [O74]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.AminoAcidChangeType" title="nomenclature of changes at protein-level
+ConceptualDomain: OSIRIS:AminoAcidChangeType
+optional" class="dict"><span style="text-decoration: underline">AminoAcidChangeType</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Amino Acid Change Type [O75]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.FusionPrimeEnd" title="Prime end of the fusion partner
+ConceptualDomain: OSIRIS:Annotation_FusionPrimeEnd
+optional" class="dict"><span style="text-decoration: underline">FusionPrimeEnd</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Fusion Prime End [O93]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.Strand" title="Strand
+ConceptualDomain: OSIRIS:Strand
+optional" class="dict"><span style="text-decoration: underline">Strand</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Strand [O94]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Annotation.OnSplicingSite" title="Indicate wether the variant is on a splicing site
+ConceptualDomain: OSIRIS:Boolean
+optional" class="dict"><span style="text-decoration: underline">OnSplicingSite</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">OnSplicingSite [O95]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.VariantInSample" title="VariantInSample" class="dict"><span style="text-decoration: underline">VariantInSample</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">VariantInSample</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.VariantInSample.PositionReadDepth" title="Total sequencing depth at the variant position observed in the specimen
+mandatory" class="dict"><span style="text-decoration: underline">PositionReadDepth</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Position Read Depth [O76]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.VariantInSample.VariantReadDepth" title="Sequencing depth of the alternative allele at the variant position observed in the specimen
+mandatory" class="dict"><span style="text-decoration: underline">VariantReadDepth</span></a>" : [&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></span>&gt;], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Variant Read Depth [O77]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.VariantInSample.StrandBias" title="Indication of the existence of strand bias at the variant position
+ConceptualDomain: OSIRIS:Boolean
+optional" class="dict"><span style="text-decoration: underline">StrandBias</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Strand Bias [O78]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.VariantInSample.GenomicSourceClass" title="Genomic class of the variant (eg: germline, somatic, and prenatal)
+ConceptualDomain: LOINC:LL378-1
+mandatory" class="dict"><span style="text-decoration: underline">GenomicSourceClass</span></a>" : ["&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;"], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Genomic Source Class [O79]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.VariantInSample.AllelicState" title="Level of allelic occurrence of a DNA Sequence Variation
+ConceptualDomain: LOINC:LL381-5
+optional" class="dict"><span style="text-decoration: underline">AllelicState</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Allelic State [O80]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.GeneExpression" title="GeneExpression" class="dict"><span style="text-decoration: underline">GeneExpression</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">GeneExpression</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.GeneExpression.DataType" title="Type of the expression value corresponding to the level of data processing
+ConceptualDomain: OSIRIS:ExpressionDataType
+mandatory" class="dict"><span style="text-decoration: underline">DataType</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Data Type [O84]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.GeneExpression.Value" title="Numerical value for expression
+mandatory" class="dict"><span style="text-decoration: underline">Value</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: navy; opacity: 0.8">Value [O85]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Equipment" title="Equipment" class="dict"><span style="text-decoration: underline">Equipment</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Equipment</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Equipment.ModelName" title="Manufacturer's model name
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ModelName</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Manufacturer's model name [I1]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Equipment.Manufacturer" title="Manufacturer's name
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">Manufacturer</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Manufacturer's name [I2]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Study" title="Study" class="dict"><span style="text-decoration: underline">Study</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Study</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Study.StudyInstanceUID" title="Study Instance UID
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">StudyInstanceUID</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Study Instance UID [I3]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Study.StudyDescription" title="Study description
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">StudyDescription</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Study description [I4]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Study.AcquisitionDate" title="Acquisition date
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">AcquisitionDate</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Acquisition date [I5]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Study.Location" title="Location" class="dict"><span style="text-decoration: underline">Location</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Location [I6]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Study.InstitutionName" title="Institution's name
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">InstitutionName</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Institution's name [I7]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Study.ModalitiesInStudy" title="Modalities in study
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ModalitiesInStudy</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Modalities in study [I8]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Study.NbStudyRelatedSeries" title="Number of Study Related Series
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">NbStudyRelatedSeries</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Number of Study Related Series [I9]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Series" title="Series" class="dict"><span style="text-decoration: underline">Series</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Series</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Series.SeriesNumber" title="Series Number
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">SeriesNumber</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Series Number [I10]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Series.SeriesInstanceUID" title="Series Instance UID
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">SeriesInstanceUID</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Series Instance UID [I11]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Series.Modality" title="Modality
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">Modality</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Modality [I12]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Series.Description" title="Description
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">Description</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Description [I13]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Series.BodyPartExamined" title="Body Part Examined
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">BodyPartExamined</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Body Part Examined [I14]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Series.NbSeriesRelatedInstances" title="Number of Series Related Instances
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">NbSeriesRelatedInstances</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Number of Series Related Instances [I15]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Series.SoftwareVersion" title="Software's version
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">SoftwareVersion</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Software's version [I16]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.Injection" title="Injection" class="dict"><span style="text-decoration: underline">Injection</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Injection</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.Injection.Radiopharmaceutical" title="Radiopharmaceutical
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">Radiopharmaceutical</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Radiopharmaceutical [I17]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Injection.ContrastBolusAgent" title="Contrast/bolus agent
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ContrastBolusAgent</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Contrast/bolus agent [I18]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Injection.ContrastBolusStartTime" title="Contrast/bolus start time
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ContrastBolusStartTime</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Contrast/bolus start time [I19]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Injection.ContrastBolusStopTime" title="Contrast/bolus stop time
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ContrastBolusStopTime</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Contrast/bolus stop time [I20]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Injection.RadiopharmaceuticalStartTime" title="Radiopharmaceutical start time
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">RadiopharmaceuticalStartTime</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Radiopharmaceutical start time [I21]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.Injection.RadionuclideTotalDose" title="Radionuclide total dose
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">RadionuclideTotalDose</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Radionuclide total dose [I22]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.CommonImage" title="CommonImage" class="dict"><span style="text-decoration: underline">CommonImage</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">CommonImage</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.CommonImage.SOPInstanceUID" title="SOP Instance UID
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">SOPInstanceUID</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">SOP Instance UID [I23]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CommonImage.SliceThickness" title="Slice thickness
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">SliceThickness</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Slice thickness [I24]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CommonImage.PixelSpacing" title="Pixel spacing
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">PixelSpacing</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Pixel spacing [I25]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CommonImage.FieldOfView" title="Field of view" class="dict"><span style="text-decoration: underline">FieldOfView</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Field of view [I26]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CommonImage.Rows" title="rows
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">Rows</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">rows [I27]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CommonImage.Columns" title="columns
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">Columns</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">columns [I28]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.MRImage" title="MRImage" class="dict"><span style="text-decoration: underline">MRImage</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">MRImage</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.MRImage.SequenceName" title="Sequence's name
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">SequenceName</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Sequence's name [I29]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.MRImage.MagneticFieldStrength" title="Magnetic field strength
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">MagneticFieldStrength</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Magnetic field strength [I30]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.MRImage.MRAcquisitionType" title="MR acquisition type
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">MRAcquisitionType</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">MR acquisition type [I31]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.MRImage.RepetitionTime" title="Repetition time
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">RepetitionTime</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Repetition time [I32]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.MRImage.EchoTime" title="EchoTime
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">EchoTime</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">EchoTime [I33]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.MRImage.ImagingFrequency" title="ImagingFrequency
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ImagingFrequency</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ImagingFrequency [I34]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.MRImage.FlipAngle" title="FlipAngle
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">FlipAngle</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">FlipAngle [I35]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.MRImage.InversionTime" title="InversionTime
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">InversionTime</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">InversionTime [I36]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.MRImage.ReceiveCoilName" title="ReceiveCoilName
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ReceiveCoilName</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ReceiveCoilName [I37]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.CTImage" title="CTImage" class="dict"><span style="text-decoration: underline">CTImage</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">CTImage</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.CTImage.KVp" title="KVp
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">KVp</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">KVp [I38]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CTImage.XRayTubeCurrent" title="XRayTubeCurrent
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">XRayTubeCurrent</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">XRayTubeCurrent [I39]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CTImage.ExposureTime" title="ExposureTime
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ExposureTime</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ExposureTime [I40]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CTImage.SpiralPitchFactor" title="SpiralPitchFactor
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">SpiralPitchFactor</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">SpiralPitchFactor [I41]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CTImage.FilterType" title="FilterType
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">FilterType</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">FilterType [I42]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.CTImage.ConvolutionKernel" title="ConvolutionKernel
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ConvolutionKernel</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ConvolutionKernel [I43]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.PTImage" title="PTImage" class="dict"><span style="text-decoration: underline">PTImage</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">PTImage</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.PTImage.AttenuationCorrectionMethod" title="AttenuationCorrectionMethod
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">AttenuationCorrectionMethod</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">AttenuationCorrectionMethod [I44]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.PTImage.ReconstructionMethod" title="ReconstructionMethod
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ReconstructionMethod</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ReconstructionMethod [I45]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.PTImage.ScatterCorrectionMethod" title="ScatterCorrectionMethod
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ScatterCorrectionMethod</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ScatterCorrectionMethod [I46]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.NMImage" title="NMImage" class="dict"><span style="text-decoration: underline">NMImage</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">NMImage</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.NMImage.AttenuationCorrectionMethod" title="AttenuationCorrectionMethod
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">AttenuationCorrectionMethod</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">AttenuationCorrectionMethod [I47]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.NMImage.ReconstructionMethod" title="ReconstructionMethod
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ReconstructionMethod</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ReconstructionMethod [I48]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.NMImage.ScatterCorrectionMethod" title="ScatterCorrectionMethod
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ScatterCorrectionMethod</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ScatterCorrectionMethod [I49]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.DXImage" title="DXImage" class="dict"><span style="text-decoration: underline">DXImage</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">DXImage</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.DXImage.ImageLaterality" title="ImageLaterality
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ImageLaterality</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ImageLaterality [I50]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.DXImage.PatientOrientation" title="PatientOrientation
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">PatientOrientation</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">PatientOrientation [I51]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.DXImage.AnatomicRegionSequenceCodeMeaning" title="AnatomicRegionSequenceCodeMeaning
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">AnatomicRegionSequenceCodeMeaning</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">AnatomicRegionSequenceCodeMeaning [I52]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.DXImage.AnatomicRegionSequenceCodeValue" title="Anatomic Region SequenceCodeValue
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">AnatomicRegionSequenceCodeValue</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Anatomic Region SequenceCodeValue [I53]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.DXImage.KVP" title="KVP
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">KVP</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">KVP [I54]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.DXImage.Exposure" title="Exposure
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">Exposure</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Exposure [I55]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.DXImage.ExposureTime" title="ExposureTime
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ExposureTime</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ExposureTime [I56]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.DXImage.ContrastBolusAgent" title="ContrastBolusAgent
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ContrastBolusAgent</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ContrastBolusAgent [I57]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.ROISegmentation" title="ROISegmentation" class="dict"><span style="text-decoration: underline">ROISegmentation</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">ROISegmentation</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.ROISegmentation.ReferencedSOPInstanceUID" title="ReferencedSOPInstanceUID
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ReferencedSOPInstanceUID</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ReferencedSOPInstanceUID [I58]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.ROISegmentation.ROINumber" title="ROINumber
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ROINumber</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ROINumber [I59]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.ROISegmentation.ROIName" title="ROIName
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ROIName</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ROIName [I60]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.ROISegmentation.ROIDescription" title="ROIDescription
+ConceptualDomain: DICOM" class="dict"><span style="text-decoration: underline">ROIDescription</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ROIDescription [I61]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.ROISegmentation.ROIType" title="ROIType" class="dict"><span style="text-decoration: underline">ROIType</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ROIType [I62]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.ROISegmentation.ROIFilename" title="ROIFilename" class="dict"><span style="text-decoration: underline">ROIFilename</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">ROIFilename [I63]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria" title="RadiomicsCriteria" class="dict"><span style="text-decoration: underline">RadiomicsCriteria</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">RadiomicsCriteria</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.SoftwareName" title="SoftwareName
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">SoftwareName</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">SoftwareName [I64]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.SoftwareVersion" title="SoftwareVersion
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">SoftwareVersion</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">SoftwareVersion [I65]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.Method" title="Method
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">Method</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Method [I66]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.UsedImageFilter" title="UsedImageFilter
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">UsedImageFilter</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">UsedImageFilter [I67]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.DistanceWeighting" title="DistanceWeighting
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">DistanceWeighting</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">DistanceWeighting [I68]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.NumberOfGreyLevels" title="NumberOfGreyLevels
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">NumberOfGreyLevels</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">NumberOfGreyLevels [I69]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.BinSize" title="BinSize
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">BinSize</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">BinSize [I70]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.IntensityResampling" title="IntensityResampling
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">IntensityResampling</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">IntensityResampling [I71]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.LowestIntensity" title="LowestIntensity
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">LowestIntensity</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">LowestIntensity [I72]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.BoundsRangeOfValueAfterDiscretisation" title="BoundsRangeOfValueAfterDiscretisation
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">BoundsRangeOfValueAfterDiscretisation</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">BoundsRangeOfValueAfterDiscretisation [I73]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.SpatialResamplingMethod" title="SpatialResamplingMethod
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">SpatialResamplingMethod</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">SpatialResamplingMethod [I74]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.SpatialResamplingValues" title="SpatialResamplingValues
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">SpatialResamplingValues</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">SpatialResamplingValues [I75]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsCriteria.TextureMatrixAggregation" title="TextureMatrixAggregation
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">TextureMatrixAggregation</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">TextureMatrixAggregation [I76]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsImageFilter" title="RadiomicsImageFilter" class="dict"><span style="text-decoration: underline">RadiomicsImageFilter</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">RadiomicsImageFilter</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsImageFilter.SoftwareName" title="SoftwareName
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">SoftwareName</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">SoftwareName [I77]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsImageFilter.SoftwareVersion" title="SoftwareVersion
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">SoftwareVersion</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">SoftwareVersion [I78]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsImageFilter.FilterName" title="FilterName
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">FilterName</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">FilterName [I79]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsImageFilter.FilterType" title="FilterType
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">FilterType</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">FilterType [I80]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsImageFilter.FilterInterpolation" title="FilterInterpolation
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">FilterInterpolation</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">FilterInterpolation [I81]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsImageFilter.IntensityRounding" title="IntensityRounding
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">IntensityRounding</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">IntensityRounding [I82]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsImageFilter.BoundaryCondition" title="BoundaryCondition
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">BoundaryCondition</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">BoundaryCondition [I83]</span>
+    }],
+    "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsFeature" title="RadiomicsFeature" class="dict"><span style="text-decoration: underline">RadiomicsFeature</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">RadiomicsFeature</span>
+      "extension": [
+      ],
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsFeature.Id" title="Id
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">Id</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Id [I84]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsFeature.Name" title="Name
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">Name</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Name [I85]</span>
+      "<a href="StructureDefinition-Osiris.html#Osiris.RadiomicsFeature.Value" title="Value
+ConceptualDomain: IBSI?" class="dict"><span style="text-decoration: underline">Value</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></span>}], <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Value [I86]</span>
+    }]
+  }
+</body>
+</html>

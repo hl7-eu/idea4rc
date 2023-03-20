@@ -1,0 +1,47 @@
+---
+---
+{% include fragment-pagebegin.html %}
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='ConceptMap' id='ConceptMapSubject2Osiris' active='content' %}
+  <a name="root"> </a>
+
+  <h2 id="root">ConceptMap: {{site.data.pages[page.path].title | escape_once}}
+{% if site.data.resources[resource_].experimental == true %}(Experimental){% endif %}
+  </h2>
+
+{% include fragment-resourceTable.html %}
+
+{%if site.data.resources[resource_].description %}
+<p>
+{{site.data.resources[resource_].description|markdownify}}
+</p>
+{% endif %}
+{%if site.data.resources[resource_].purpose %}
+<p>
+{{site.data.resources[resource_].purpose|markdownify}}
+</p>
+{% endif %}
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='ConceptMap' id='ConceptMapSubject2Osiris' %}
+
+<!--  <p>
+  Formats: <a href="ConceptMap-ConceptMapSubject2Osiris.xml.html">XML</a>, <a href="ConceptMap-ConceptMapSubject2Osiris.json.html">JSON</a>, <a href="ConceptMap-ConceptMapSubject2Osiris.ttl.html">Turtle</a>
+  </p>-->
+{% unless example %}
+  {% if 'ConceptMap' == 'CapabilityStatement' %}
+  <p>
+      <a href="ConceptMapSubject2Osiris.openapi.json" no-download="true">Raw OpenAPI-Swagger Definition file</a> | <a href="ConceptMapSubject2Osiris.openapi.json" download>Download</a>
+  </p>
+  {% endif %}
+{% endunless %}
+
+  {% include ConceptMap-ConceptMapSubject2Osiris-html.xhtml %}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='ConceptMap' id='ConceptMapSubject2Osiris' %}
+
+  {%include ConceptMap-ConceptMapSubject2Osiris-history.xhtml%}
+
+</div>
+{% include fragment-pageend.html %}
