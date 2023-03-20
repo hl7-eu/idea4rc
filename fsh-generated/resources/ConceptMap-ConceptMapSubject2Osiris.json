@@ -1,0 +1,103 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ConceptMapSubject2Osiris",
+  "url": "http://terminology.hl7.it/ConceptMap/ConceptMap-subject2osiris",
+  "name": "Subject2Osiris",
+  "title": "IDEA4RC Subject model to Osiris mapping",
+  "status": "draft",
+  "experimental": true,
+  "description": "IDEA4RC Subject model to Osiris mapping",
+  "purpose": "It shows how the IDEA4RC subject model is mapped into Osiris",
+  "sourceUri": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject",
+  "targetUri": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Osiris",
+  "group": [
+    {
+      "source": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject",
+      "target": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Osiris",
+      "element": [
+        {
+          "code": "Subject",
+          "display": "Subject of care",
+          "target": [
+            {
+              "code": "Osiris.Patient",
+              "display": "Patient",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Subject.dateOfBirth",
+          "display": "Date of birth",
+          "target": [
+            {
+              "code": "Osiris.Patient.BirthDate",
+              "display": "Birth Date [C4]",
+              "equivalence": "relatedto"
+            }
+          ]
+        },
+        {
+          "code": "Subject.dateOfBirth.date",
+          "display": "Date of birth",
+          "target": [
+            {
+              "code": "Osiris.Patient.BirthDate",
+              "display": "Birth Date [C4]",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Subject.dateOfBirth.unknown",
+          "display": "Date of birth day unknown",
+          "target": [
+            {
+              "equivalence": "unmatched"
+            }
+          ]
+        },
+        {
+          "code": "Subject.maritalStatus",
+          "display": "Marital status",
+          "target": [
+            {
+              "equivalence": "unmatched"
+            }
+          ]
+        },
+        {
+          "code": "Subject.sexOrGender",
+          "display": "Gender/Sex",
+          "target": [
+            {
+              "code": "Osiris.Patient.Gender",
+              "display": "Gender [C2]",
+              "equivalence": "narrower"
+            }
+          ]
+        },
+        {
+          "code": "Subject.race",
+          "display": "Race",
+          "target": [
+            {
+              "code": "Osiris.Patient.Ethnicity",
+              "display": "Ethnicity [C3]",
+              "equivalence": "wider"
+            }
+          ]
+        },
+        {
+          "code": "Subject.countryOfResidence",
+          "display": "Country of Residence ",
+          "target": [
+            {
+              "equivalence": "unmatched"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

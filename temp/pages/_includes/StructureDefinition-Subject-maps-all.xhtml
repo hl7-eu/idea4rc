@@ -1,0 +1,29 @@
+{% raw %}<a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>SubjectI4rc</b></td></tr>
+ <tr><td>Subject</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;dateOfBirth</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;date</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unknown</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;maritalStatus</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;sexOrGender</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;race</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;countryOfResidence</td><td></td> </tr>
+</table>
+<a name="fhir"> </a><h3>Mappings for Idea4RC Subject model to FHIR R4 Map (hl7.org/fhir/r4)</h3><table class="grid">
+ <tr><td colspan="3"><b>SubjectI4rc</b></td></tr>
+ <tr><td>Subject</td><td>Patient</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;dateOfBirth</td><td>.birthDate</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;date</td><td>.birthDate</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unknown</td><td>.birthDate.extension('data-absent-reason').where(valueCode = 'unknown')</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;maritalStatus</td><td>.maritalStatus</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;sexOrGender</td><td>.gender, .extension('individual-recordedSexOrGender').value, .extension('patient-sexForClinicalUse').value</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;race</td><td>to be mapped</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;countryOfResidence</td><td>.address.country</td> </tr>
+</table>
+{% endraw %}

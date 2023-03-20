@@ -1,0 +1,682 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "CancerUnderStudy",
+  "url": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/CancerUnderStudy",
+  "version": "0.1.0",
+  "name": "CancerUnderStudyI4rc",
+  "title": "Cancer Under Study",
+  "status": "active",
+  "description": "Subject of care \nMaturity Level: 0 Draft",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "name": "RIM Mapping",
+      "uri": "http://hl7.org/v3"
+    },
+    {
+      "identity": "fhir",
+      "name": "Idea4RC Subject model to FHIR R4 Map",
+      "uri": "hl7.org/fhir/r4"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/CancerUnderStudy",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "CancerUnderStudy",
+        "path": "CancerUnderStudy",
+        "short": "Cancer Under Study",
+        "definition": "Subject of care \nMaturity Level: 0 Draft",
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.diagnosisDate",
+        "path": "CancerUnderStudy.diagnosisDate",
+        "short": "Date of diagnosis",
+        "definition": "Date of the procedure from which the specimen was obtained that allowed the histological diagnosis.",
+        "comment": "Must be formatted as YYYY-MM-DD. Leave empty if not known. Optional rule : Possible date anonymisation by\nsetting the 15th of every month i.e.: YYYY-MM-15. If the month is not known, we set it to June (06).",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.ageAtDiagnosis",
+        "path": "CancerUnderStudy.ageAtDiagnosis",
+        "short": "Age at diagnosis",
+        "definition": "Age of the patient at the time of the diagnosis.\nrequired if date of diagnosis known",
+        "comment": "An integer value > 0. We use the -1 value for unknown. Automatic  calculation from date of birth and date of diagnosis.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.histologyGroup",
+        "path": "CancerUnderStudy.histologyGroup",
+        "short": "Histology (WHO 2017) group",
+        "definition": "Histology of prymary tumour according to WHO 2017 clasification.",
+        "comment": "A value in the WHO 2017 H&N classification list.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.histologySubgroup",
+        "path": "CancerUnderStudy.histologySubgroup",
+        "short": "histologySubgroup.histology (WHO 2017) subgroup",
+        "definition": "Specifies the histological subgroup",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.histologySubgroup.histologySquamous",
+        "path": "CancerUnderStudy.histologySubgroup.histologySquamous",
+        "short": "Specifies the histological subgroup for squamous cancers",
+        "definition": "Specifies the histological subgroup for squamous cancers",
+        "comment": "A value in the WHO 2017 H&N squamous classification list.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.histologySubgroup.histologyAdenocarcinoma",
+        "path": "CancerUnderStudy.histologySubgroup.histologyAdenocarcinoma",
+        "short": "Specifies the histological subgroup for adenocarcinomas",
+        "definition": "Specifies the histological subgroup for adenocarcinomas",
+        "comment": "A value in the WHO 2017 H&N adenocarcinoma classification list.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.histologySubgroup.histologyNeuroendocrine",
+        "path": "CancerUnderStudy.histologySubgroup.histologyNeuroendocrine",
+        "short": "Specifies the histological subgroup for neuroendocrine cancers ",
+        "definition": "Specifies the histological subgroup for neuroendocrine cancers",
+        "comment": "A value in the WHO 2017 H&N neuroendocrine classification list.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.histologySubgroup.histologyOdontogenicCarcinoma",
+        "path": "CancerUnderStudy.histologySubgroup.histologyOdontogenicCarcinoma",
+        "short": "Specifies the histological subgroup for odontogenic carcinomas",
+        "definition": "Specifies the histological subgroup for odontogenic carcinomas",
+        "comment": "A value in the WHO 2017 H&N odontogenic carcinoma classification list.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.histologySubgroup.histologySNUC",
+        "path": "CancerUnderStudy.histologySubgroup.histologySNUC",
+        "short": "Specifies the histological subgroup for sinonasl undifferentiated carcinomas",
+        "definition": "Specifies the histological subgroup for sinonasl undifferentiated carcinomas",
+        "comment": "A value in the WHO 2017 H&N SNUC classification list.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.siteRare",
+        "path": "CancerUnderStudy.siteRare",
+        "short": "Site Rare",
+        "definition": "Describe the primary tumor site, according to AJCC .",
+        "comment": "A value in the AJCC Cancer Staging Manual 8th site list",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.siteCommonAndRare",
+        "path": "CancerUnderStudy.siteCommonAndRare",
+        "short": "Site common and rare",
+        "definition": "Describe the primary tumor site, according to AJCC .",
+        "comment": "A value in the AJCC Cancer Staging Manual 8th site list",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.subSite",
+        "path": "CancerUnderStudy.subSite",
+        "short": "Subsite",
+        "definition": "Specifies the subsite",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.subSite.nasalCavityAndParanasalSinusesSubsite",
+        "path": "CancerUnderStudy.subSite.nasalCavityAndParanasalSinusesSubsite",
+        "short": "Nasal cavity and paranasal sinuses subsite",
+        "definition": "Specifies the subsite for cancers occurred in nasal cavity and paranasal sinusess",
+        "comment": "A string value in the AJCC Cancer Staging Manual 8th subsite list",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.subSite.nasopharynxSubsite",
+        "path": "CancerUnderStudy.subSite.nasopharynxSubsite",
+        "short": "Nasopharynx subsite",
+        "definition": "Specifies the subsite for cancers occurred in nasopharynx",
+        "comment": "A string value in the AJCC Cancer Staging Manual 8th subsite list",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.subSite.hypopharynxSubsite",
+        "path": "CancerUnderStudy.subSite.hypopharynxSubsite",
+        "short": "Hypopharynx subsite",
+        "definition": "Specifies the subsite for cancers occurred in hypopharynx",
+        "comment": "A string value in the AJCC Cancer Staging Manual 8th subsite list",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.subSite.oropharynxSubsite",
+        "path": "CancerUnderStudy.subSite.oropharynxSubsite",
+        "short": "Oropharynx subsite",
+        "definition": "Specifies the subsite for cancers occurred in oropharynx",
+        "comment": "A string value in the AJCC Cancer Staging Manual 8th subsite list",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.subSite.larynxSubsite",
+        "path": "CancerUnderStudy.subSite.larynxSubsite",
+        "short": "Larynx subsite",
+        "definition": "Specifies the subsite for cancers occurred in larynx",
+        "comment": "A string value in the AJCC Cancer Staging Manual 8th subsite list",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.subSite.oralCavitySubsite",
+        "path": "CancerUnderStudy.subSite.oralCavitySubsite",
+        "short": "Oral cavity subsite",
+        "definition": "Specifies the subsite for cancers occurred in oral cavity",
+        "comment": "A string value in the AJCC Cancer Staging Manual 8th subsite list",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.subSite.lipSubsite",
+        "path": "CancerUnderStudy.subSite.lipSubsite",
+        "short": "Lip subsite",
+        "definition": "Specifies the subsite for cancers occurred in lip",
+        "comment": "A string value in the AJCC Cancer Staging Manual 8th subsite list",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.PlasmaticEbvDnaAtBaseline",
+        "path": "CancerUnderStudy.PlasmaticEbvDnaAtBaseline",
+        "short": "Plasmatic EBV DNA at baseline",
+        "definition": "Describes the result of EBV DNA plasma testing before treatment in NPC type II and III (WHO)",
+        "comment": "A string value representing whether the test value was positive, negative or it was untested. Empty if unknown.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.PrimerType",
+        "path": "CancerUnderStudy.PrimerType",
+        "short": "Primer type",
+        "definition": "Describes the primer used for EBV DNA plasma testing t in NPC type II and Type III (WHO)",
+        "comment": "A string value representing the plasma testing type. Empty if unknown",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.CopyNumber",
+        "path": "CancerUnderStudy.CopyNumber",
+        "short": "Copy Number",
+        "definition": "Copy number of EBVDNA",
+        "comment": "An integer for the number of EBVDNA. Empty if unknown",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.HpvStatus",
+        "path": "CancerUnderStudy.HpvStatus",
+        "short": "HPV status",
+        "definition": "Describes the result of HPV tumor testing in oral carcinoma",
+        "comment": "A string value representing whether the result was positive, negative or not tested. Empty if unknown.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.HpvStatusDetectedBy",
+        "path": "CancerUnderStudy.HpvStatusDetectedBy",
+        "short": "HPV status detecection",
+        "definition": "Describes the technique used for HPV tumour testing in orall carcinoma",
+        "comment": "A string value representing which was the used technique. Empty if unknown.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.P16",
+        "path": "CancerUnderStudy.P16",
+        "short": "p16",
+        "definition": "Describes the result of p16 tumour testing in oral carcinoma",
+        "comment": "A string value representing whether the result was positive, negative or not tested. Empty if unknown.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.PdL1",
+        "path": "CancerUnderStudy.PdL1",
+        "short": "PD-L1",
+        "definition": "Describes the result of PDL tumour testing in oral carcinoma",
+        "comment": "A string value representing whether the result was positive, negative or not tested. Empty if unknown.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.Pd-L1Method",
+        "path": "CancerUnderStudy.Pd-L1Method",
+        "short": "PD-L1 Method",
+        "definition": "Describes the technique used for PDL tumour testing in oral carcinoma",
+        "comment": "A string value representing which was the used technique. Empty if unknown.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.Pd-L1CpsValue",
+        "path": "CancerUnderStudy.Pd-L1CpsValue",
+        "short": "PD-L1 CPS",
+        "definition": "Result of PDL1CPS testing, when performed",
+        "comment": "An integer for the PDL1CPS test. Empty if unknown.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.Pd-L1TpsValue",
+        "path": "CancerUnderStudy.Pd-L1TpsValue",
+        "short": "PD-L1 TPS",
+        "definition": "Result of PDL1TPS testing, when performed",
+        "comment": "An integer for the PDL1TPS test. Empty if unknown.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.Crp-CReactiveProteinTested",
+        "path": "CancerUnderStudy.Crp-CReactiveProteinTested",
+        "short": "CRP ? C reactive protein tested",
+        "definition": "Describes the result of C reactive protein testing",
+        "comment": "A string value representing whether the result was positive, negative or not tested. Empty if unknown.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.CReactiveProtein-Crp-MgDl",
+        "path": "CancerUnderStudy.CReactiveProtein-Crp-MgDl",
+        "short": "C reactive protein - CRP (mg/dl)",
+        "definition": "Result of CRP testing, when performed",
+        "comment": "An integer for the CRP test. Empty if unknown.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      },
+      {
+        "id": "CancerUnderStudy.InstrumentStatus",
+        "path": "CancerUnderStudy.InstrumentStatus",
+        "short": "Instrument status",
+        "definition": "Describe if the instument is fully compiled or not",
+        "comment": "A boolean for the instrument if it was fully compiled or not.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "TBD"
+          }
+        ]
+      }
+    ]
+  }
+}

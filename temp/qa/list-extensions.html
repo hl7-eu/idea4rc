@@ -1,0 +1,27 @@
+﻿<html>
+<head>
+  <title>list-extensions</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+ <li><a href="StructureDefinition-individual-recordedSexOrGender.html">recordedSexOrGender</a> <p>This duplicates the 'individual-recordedSexOrGender' extension currently defined for R5.
+The recorded sex and gender is to be used to differentiate existing sex or gender data. This element is used for existing 'sex' or 'gender' elements in a document or record when the intent and meaning is unclear. For example, the individual's birth certificate information, passport information, and national identity document information may all be present. This is necessary because an individual's documents may be updated at different rates or for different reasons. Sex assigned at birth (SAAB), while very common and considered essential in some jurisdictions, is considered a recorded sex and gender entry.</p>
+</li>
+ <li><a href="StructureDefinition-patient-sexForClinicalUse.html">sexForClinicalUse</a> <p>This duplicates the 'patient-sexForClinicalUse' extension currently defined for R5.</p>
+<p><strong>Sex for Clinical Use (SFCU) Overview</strong></p>
+<p>Sex for Clinical Use is a categorization of sex derived from observable information such as an organ inventory, recent hormone lab tests, genetic testing, menstrual status, obstetric history, etc. This property is intended for use in clinical decision making and indicates that treatment or diagnostic tests should consider best practices associated with the relevant reference population.</p>
+<p>While clinical decision-making processes could account for the specific physiological or anatomical attributes of the patient, there are several practical considerations, such as patient privacy and limited capabilities of existing systems which create the need for a categorization that is easy to exchange.  The Sex for Clinical Use categorization is intended to bridge the gap between the hypothetical ideal and the practical needs of operational systems.</p>
+<p><strong>Sex for Clinical Use (SFCU) Contexts</strong></p>
+<p>Sex for Clinical Use is a contextual concept. For example, a patient may generally be categorized as male, but for a specific lab test, the resulting lab should use the reference ranges associated with a female reference population.  In this case, systems may provide a patient-context <a href="extension-patient-sexforclinicaluse.html">sexForClinicalUse</a> that acts as a 'default' for most care and annotate the lab order with a context-specific sexForClinicalUse.  Systems may determine what enclosing contexts are useful, but Patient, Encounter and EpisodeOfCare are three enclosing contexts that may often apply.</p>
+<p>The <a href="extension-patient-sexforclinicaluse.html">sexForClinicalUse</a> extension can be used to communicate a clinical sex category on the on relevant clinical resources (e.g., DiagnosticReport, ServiceRequest) or enclosing contexts (e.g., Patient, Encounter, EpisodeOfCare).</p>
+<p><strong>Sex for Clinical Use (SFCU) Categorization</strong></p>
+<p>For ease of interoperability, a patient’s sex for clinical use is constrained to four possible categories.  Any patient for which special considerations apply should be categorized as 'Specified'.  The 'Specified' category is often represented as 'Other' in existing systems.</p>
+<p><strong>Female</strong> - Available data indicates that diagnostics, analytics, and treatments should consider best practices associated with female reference populations.</p>
+<p><strong>Male</strong> - Available data indicates that diagnostics, analytics, and treatments should consider best practices associated with male reference populations.</p>
+<p><strong>Specified</strong> - Available data indicates that diagnostics, analytics, and treatment best practices may be undefined or not aligned with existing sex-derived reference populations.  Individuals or systems providing care should either use default behavior that is safe for both male and female populations, individually review treatment options with the patient, or carefully inspect relevant observations before proceeding with treatment.</p>
+<p><strong>Unknown</strong> - The sex for clinical use cannot be determined because there are no relevant evidence or documentation, or the evidence or documentation are not sufficient to determine a value. <strong>Sex for Clinical Use (SFCU) History and Practices</strong></p>
+<p>Prior to the definition of Sex for Clinical Use as a concept, systems may have used administrative gender as an approximation of patient-level sex for clinical use.  This practice required pre-coordination among exchange parters to explicitly overload the administrative sex concept for use as a clinical sex concept.  In cases where there was no pre-coordination, some systems may have incorrectly inferred information about a patient's clinical sex from administrative  gender.</p>
+<p>In the context of ordering workflows, systems may use Ask at Order Entry (AOE) questions to collect concepts similar to sex for clinical use.</p>
+</li>
+</body>
+</html>

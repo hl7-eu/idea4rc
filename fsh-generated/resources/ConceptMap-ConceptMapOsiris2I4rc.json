@@ -1,0 +1,128 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ConceptMapOsiris2I4rc",
+  "url": "http://terminology.hl7.it/ConceptMap/ConceptMap-osiris2idea4rc",
+  "name": "Osiris2I4rc",
+  "title": "Osiris to IDEA4RC models mapping",
+  "status": "draft",
+  "experimental": true,
+  "description": "Osiris to IDEA4RC models mapping",
+  "purpose": "Show how the OSIRIS models is covered by the IDEA4RC one",
+  "sourceUri": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Osiris",
+  "targetUri": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject",
+  "group": [
+    {
+      "source": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Osiris",
+      "target": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject",
+      "element": [
+        {
+          "code": "Osiris.Patient",
+          "display": "Patient",
+          "target": [
+            {
+              "code": "Subject",
+              "display": "Subject of care",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Osiris.Patient.Id",
+          "display": "Patient Id [C1]",
+          "target": [
+            {
+              "equivalence": "unmatched"
+            }
+          ]
+        },
+        {
+          "code": "Osiris.Patient.Gender",
+          "display": "Gender [C2]",
+          "target": [
+            {
+              "code": "Subject.sexOrGender",
+              "display": "Gender/Sex",
+              "equivalence": "wider"
+            }
+          ]
+        },
+        {
+          "code": "Osiris.Patient.Ethnicity",
+          "display": "Ethnicity [C3]",
+          "target": [
+            {
+              "code": "Subject.race",
+              "display": "Race",
+              "equivalence": "relatedto"
+            }
+          ]
+        },
+        {
+          "code": "Osiris.Patient.BirthDate",
+          "display": "Birth Date [C4]",
+          "target": [
+            {
+              "code": "Subject.dateOfBirth.date",
+              "display": "Date of birth",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Osiris.Patient.DeathDate",
+          "display": "Death Date [C5]",
+          "target": [
+            {
+              "equivalence": "unmatched"
+            }
+          ]
+        },
+        {
+          "code": "Osiris.Patient.ProviderCenterId",
+          "display": "Provider  Center  Id [C6]",
+          "target": [
+            {
+              "equivalence": "unmatched"
+            }
+          ]
+        },
+        {
+          "code": "Osiris.Patient.OriginCenterId",
+          "display": "Origin  Center  Id [C71]",
+          "target": [
+            {
+              "equivalence": "unmatched"
+            }
+          ]
+        },
+        {
+          "code": "Osiris.Patient.CauseOfDeath",
+          "display": "Cause of death [C7]",
+          "target": [
+            {
+              "equivalence": "unmatched"
+            }
+          ]
+        },
+        {
+          "code": "Osiris.Patient.LastNewsDate",
+          "display": "Last News Date [C8]",
+          "target": [
+            {
+              "equivalence": "unmatched"
+            }
+          ]
+        },
+        {
+          "code": "Osiris.Patient.LastNewsStatus",
+          "display": "Last News Status [C9]",
+          "target": [
+            {
+              "equivalence": "unmatched"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

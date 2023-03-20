@@ -1,0 +1,185 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Subject",
+  "url": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject",
+  "version": "0.1.0",
+  "name": "SubjectI4rc",
+  "title": "Subject of care",
+  "status": "active",
+  "description": "Subject of care \nMaturity Level: 0 Draft",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "name": "RIM Mapping",
+      "uri": "http://hl7.org/v3"
+    },
+    {
+      "identity": "fhir",
+      "name": "Idea4RC Subject model to FHIR R4 Map",
+      "uri": "hl7.org/fhir/r4"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "Subject",
+        "path": "Subject",
+        "short": "Subject of care",
+        "definition": "Subject of care \nMaturity Level: 0 Draft",
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient"
+          }
+        ]
+      },
+      {
+        "id": "Subject.dateOfBirth",
+        "path": "Subject.dateOfBirth",
+        "short": "Date of birth",
+        "definition": "Date of birth as recorded in the patient's identity document or in the hospital record. In the absence of documentation, the one declared by the patient will be recorded",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": ".birthDate"
+          }
+        ]
+      },
+      {
+        "id": "Subject.dateOfBirth.date",
+        "path": "Subject.dateOfBirth.date",
+        "short": "Date of birth",
+        "definition": "Date of birth as recorded in the patient's identity document or in the hospital record. In the absence of documentation, the one declared by the patient will be recorded",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "date"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": ".birthDate"
+          }
+        ]
+      },
+      {
+        "id": "Subject.dateOfBirth.unknown",
+        "path": "Subject.dateOfBirth.unknown",
+        "short": "Date of birth day unknown",
+        "definition": "Describes if day of date of birthday is unknown",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": ".birthDate.extension('data-absent-reason').where(valueCode = 'unknown')"
+          }
+        ]
+      },
+      {
+        "id": "Subject.maritalStatus",
+        "path": "Subject.maritalStatus",
+        "short": "Marital status",
+        "definition": "Describes the marital status declared by the patient, at the time of diagnosis (section 4, Primary Cancer)",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": ".maritalStatus"
+          }
+        ]
+      },
+      {
+        "id": "Subject.sexOrGender",
+        "path": "Subject.sexOrGender",
+        "short": "Gender/Sex",
+        "definition": "Describes biological sex as recorded in the patient's identity document or in the hospital record. In the absence of documentation, the one declared by the patient will be recorded",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": ".gender"
+          },
+          {
+            "identity": "fhir",
+            "map": ".extension('individual-recordedSexOrGender').value"
+          },
+          {
+            "identity": "fhir",
+            "map": ".extension('patient-sexForClinicalUse').value"
+          }
+        ]
+      },
+      {
+        "id": "Subject.race",
+        "path": "Subject.race",
+        "short": "Race",
+        "definition": "Describes race as recorded in  the hospital record, the one declared by the patient,, otherwise, the onerecognized by the observer",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "to be mapped"
+          }
+        ]
+      },
+      {
+        "id": "Subject.countryOfResidence",
+        "path": "Subject.countryOfResidence",
+        "short": "Country of Residence ",
+        "definition": "Country of residence at the time of diagnosis",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": ".address.country"
+          }
+        ]
+      }
+    ]
+  }
+}

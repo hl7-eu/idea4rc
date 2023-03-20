@@ -1,0 +1,48 @@
+{% raw %}<table class="grid">
+ <tr><td><b>Code</b></td><td><b>Value Types</b></td><td><b>Definition</b></td></tr>
+ <tr><td><a href="StructureDefinition-individual-recordedSexOrGender.html">individual-recordedSexOrGender</a></td><td></td><td>This duplicates the 'individual-recordedSexOrGender' extension currently defined for R5.
+ The recorded sex and gender is to be used to differentiate existing sex or gender data. This element is used for existing 'sex' or 'gender' elements in a document or record when the intent and meaning is unclear. For example, the individual's birth certificate information, passport information, and national identity document information may all be present. This is necessary because an individual's documents may be updated at different rates or for different reasons. Sex assigned at birth (SAAB), while very common and considered essential in some jurisdictions, is considered a recorded sex and gender entry.</td></tr>
+ <tr><td>&nbsp;&nbsp;value</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept" title="CodeableConcept">CodeableConcept</a></td><td>A sex or gender property for the individual from a document or other record</td></tr>
+ <tr><td>&nbsp;&nbsp;internationalEquivalent</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept" title="CodeableConcept">CodeableConcept</a></td><td>An international representation of the value found on the document for interoperability and international legal purposes.</td></tr>
+ <tr><td>&nbsp;&nbsp;type</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept" title="CodeableConcept">CodeableConcept</a></td><td>The type or category of sex or gender that is recorded.</td></tr>
+ <tr><td>&nbsp;&nbsp;effectivePeriod</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Period" title="Period">Period</a></td><td>The time period during which the recorded sex or gender value applies to the individual</td></tr>
+ <tr><td>&nbsp;&nbsp;acquisitionDate</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime" title="dateTime">dateTime</a></td><td>The date/time when the sex or gender value was first recorded in the system.</td></tr>
+ <tr><td>&nbsp;&nbsp;sourceDocument</td><td><a href="http://hl7.org/fhir/R4/references.html#Reference" title="Reference">Reference</a></td><td>The reference to the source document or the code representing the type of document where this sex or gender property is initially recorded.</td></tr>
+ <tr><td>&nbsp;&nbsp;sourceField</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#string" title="string">string</a></td><td>The name of the field within the source document where this sex or gender property is initially recorded.</td></tr>
+ <tr><td>&nbsp;&nbsp;jurisdiction</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept" title="CodeableConcept">CodeableConcept</a></td><td>The jurisdiction or organization that issued the document from which the sex or gender was aquired</td></tr>
+ <tr><td>&nbsp;&nbsp;comment</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#string" title="string">string</a></td><td>Further explanation about the context or source of the recorded sex or gender value</td></tr>
+ <tr><td><a href="StructureDefinition-patient-sexForClinicalUse.html">patient-sexForClinicalUse</a></td><td></td><td> This duplicates the 'patient-sexForClinicalUse' extension currently defined for R5.
+
+**Sex for Clinical Use (SFCU) Overview**
+
+ Sex for Clinical Use is a categorization of sex derived from observable information such as an organ inventory, recent hormone lab tests, genetic testing, menstrual status, obstetric history, etc. This property is intended for use in clinical decision making and indicates that treatment or diagnostic tests should consider best practices associated with the relevant reference population.
+
+ While clinical decision-making processes could account for the specific physiological or anatomical attributes of the patient, there are several practical considerations, such as patient privacy and limited capabilities of existing systems which create the need for a categorization that is easy to exchange.  The Sex for Clinical Use categorization is intended to bridge the gap between the hypothetical ideal and the practical needs of operational systems.
+
+ **Sex for Clinical Use (SFCU) Contexts**
+
+ Sex for Clinical Use is a contextual concept. For example, a patient may generally be categorized as male, but for a specific lab test, the resulting lab should use the reference ranges associated with a female reference population.  In this case, systems may provide a patient-context [sexForClinicalUse](extension-patient-sexforclinicaluse.html) that acts as a 'default' for most care and annotate the lab order with a context-specific sexForClinicalUse.  Systems may determine what enclosing contexts are useful, but Patient, Encounter and EpisodeOfCare are three enclosing contexts that may often apply.
+
+ The [sexForClinicalUse](extension-patient-sexforclinicaluse.html) extension can be used to communicate a clinical sex category on the on relevant clinical resources (e.g., DiagnosticReport, ServiceRequest) or enclosing contexts (e.g., Patient, Encounter, EpisodeOfCare).
+
+ **Sex for Clinical Use (SFCU) Categorization**
+
+ For ease of interoperability, a patient’s sex for clinical use is constrained to four possible categories.  Any patient for which special considerations apply should be categorized as 'Specified'.  The 'Specified' category is often represented as 'Other' in existing systems.
+
+ **Female** - Available data indicates that diagnostics, analytics, and treatments should consider best practices associated with female reference populations.
+
+ **Male** - Available data indicates that diagnostics, analytics, and treatments should consider best practices associated with male reference populations.
+
+ **Specified** - Available data indicates that diagnostics, analytics, and treatment best practices may be undefined or not aligned with existing sex-derived reference populations.  Individuals or systems providing care should either use default behavior that is safe for both male and female populations, individually review treatment options with the patient, or carefully inspect relevant observations before proceeding with treatment.
+
+ **Unknown** - The sex for clinical use cannot be determined because there are no relevant evidence or documentation, or the evidence or documentation are not sufficient to determine a value. **Sex for Clinical Use (SFCU) History and Practices**
+
+ Prior to the definition of Sex for Clinical Use as a concept, systems may have used administrative gender as an approximation of patient-level sex for clinical use.  This practice required pre-coordination among exchange parters to explicitly overload the administrative sex concept for use as a clinical sex concept.  In cases where there was no pre-coordination, some systems may have incorrectly inferred information about a patient's clinical sex from administrative  gender.
+
+ In the context of ordering workflows, systems may use Ask at Order Entry (AOE) questions to collect concepts similar to sex for clinical use.</td></tr>
+ <tr><td>&nbsp;&nbsp;value</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept" title="CodeableConcept">CodeableConcept</a></td><td>A context-specific categorization of a patient's sex for the purpose of clinical use</td></tr>
+ <tr><td>&nbsp;&nbsp;period</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Period" title="Period">Period</a></td><td>The time period during which the sex for clinical use applies to the patient</td></tr>
+ <tr><td>&nbsp;&nbsp;comment</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#string" title="string">string</a></td><td>Further explanation about the context for the sex for clinical use</td></tr>
+ <tr><td>&nbsp;&nbsp;supportingInfo</td><td><a href="http://hl7.org/fhir/R4/references.html#Reference" title="Reference">Reference</a></td><td>Other clinical evidence or documentation that was used to determine the sex for clincal use</td></tr>
+</table>
+{% endraw %}

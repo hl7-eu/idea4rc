@@ -1,0 +1,237 @@
+{
+  "ImplementationGuide/hl7.eu.fhir.idea4rc" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 0,
+    "source" : "C:\\Users\\39347\\OneDrive\\Desktop\\tesi\\idea4rc\\fsh-generated\\resources\\ImplementationGuide-hl7.eu.fhir.idea4rc.json",
+    "sourceTail" : "ImplementationGuide-hl7.eu.fhir.idea4rc.json",
+    "path" : "ImplementationGuide-hl7.eu.fhir.idea4rc.html",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/ImplementationGuide/hl7.eu.fhir.idea4rc",
+    "version" : "0.1.0",
+    "name" : "IDEA4RCImplementationGuide",
+    "title" : "IDEA4RC FHIR Implementation Guide",
+    "date" : "2023-03-19T10:37:36+01:00",
+    "description" : "IDEA4RC is an EU project aiming to <..>",
+    "jurisdictions" : [
+      {
+        "code" : "150"
+      }
+    ],
+    "status" : {
+      "class" : "colsd",
+      "owner" : "IDEA4RC Project",
+      "link" : "https://www.idea4rc.eu/",
+      "status" : "Draft"
+    }
+  },
+  "ConceptMap/ConceptMapOsiris2I4rc" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 1,
+    "source" : "fsh-generated/resources/ConceptMap-ConceptMapOsiris2I4rc.json",
+    "sourceTail" : "ConceptMap-ConceptMapOsiris2I4rc.json",
+    "path" : "ConceptMap-ConceptMapOsiris2I4rc.html",
+    "url" : "http://terminology.hl7.it/ConceptMap/ConceptMap-osiris2idea4rc",
+    "version" : "0.1.0",
+    "name" : "Osiris2I4rc",
+    "title" : "Osiris to IDEA4RC models mapping",
+    "experimental" : true,
+    "date" : "2023-03-19T10:37:36+01:00",
+    "description" : "Osiris to IDEA4RC models mapping",
+    "jurisdictions" : [
+      {
+        "code" : "150"
+      }
+    ],
+    "status" : {
+      "class" : "colsd",
+      "owner" : "IDEA4RC Project",
+      "link" : "https://www.idea4rc.eu/",
+      "status" : "Draft"
+    },
+    "purpose" : "Show how the OSIRIS models is covered by the IDEA4RC one"
+  },
+  "ConceptMap/ConceptMapSubject2Osiris" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 2,
+    "source" : "fsh-generated/resources/ConceptMap-ConceptMapSubject2Osiris.json",
+    "sourceTail" : "ConceptMap-ConceptMapSubject2Osiris.json",
+    "path" : "ConceptMap-ConceptMapSubject2Osiris.html",
+    "url" : "http://terminology.hl7.it/ConceptMap/ConceptMap-subject2osiris",
+    "version" : "0.1.0",
+    "name" : "Subject2Osiris",
+    "title" : "IDEA4RC Subject model to Osiris mapping",
+    "experimental" : true,
+    "date" : "2023-03-19T10:37:36+01:00",
+    "description" : "IDEA4RC Subject model to Osiris mapping",
+    "jurisdictions" : [
+      {
+        "code" : "150"
+      }
+    ],
+    "status" : {
+      "class" : "colsd",
+      "owner" : "IDEA4RC Project",
+      "link" : "https://www.idea4rc.eu/",
+      "status" : "Draft"
+    },
+    "purpose" : "It shows how the IDEA4RC subject model is mapped into Osiris"
+  },
+  "StructureDefinition/CancerUnderStudy" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 3,
+    "source" : "fsh-generated/resources/StructureDefinition-CancerUnderStudy.json",
+    "sourceTail" : "StructureDefinition-CancerUnderStudy.json",
+    "path" : "StructureDefinition-CancerUnderStudy.html",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/CancerUnderStudy",
+    "version" : "0.1.0",
+    "name" : "CancerUnderStudyI4rc",
+    "title" : "Cancer Under Study",
+    "date" : "2023-03-19T10:37:36+01:00",
+    "description" : "Subject of care \nMaturity Level: 0 Draft",
+    "jurisdictions" : [
+      {
+        "code" : "150"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "IDEA4RC Project",
+      "link" : "https://www.idea4rc.eu/",
+      "status" : "Active"
+    }
+  },
+  "StructureDefinition/individual-recordedSexOrGender" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 4,
+    "source" : "fsh-generated/resources/StructureDefinition-individual-recordedSexOrGender.json",
+    "sourceTail" : "StructureDefinition-individual-recordedSexOrGender.json",
+    "path" : "StructureDefinition-individual-recordedSexOrGender.html",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/individual-recordedSexOrGender",
+    "identifiers" : "id:\u00a0urn:oid:2.16.840.1.113883.4.642.5.1342",
+    "version" : "0.1.0",
+    "name" : "RecordedSexOrGender",
+    "title" : "recordedSexOrGender",
+    "date" : "2022-01-28",
+    "description" : "This duplicates the 'individual-recordedSexOrGender' extension currently defined for R5.\r\n The recorded sex and gender is to be used to differentiate existing sex or gender data. This element is used for existing 'sex' or 'gender' elements in a document or record when the intent and meaning is unclear. For example, the individual's birth certificate information, passport information, and national identity document information may all be present. This is necessary because an individual's documents may be updated at different rates or for different reasons. Sex assigned at birth (SAAB), while very common and considered essential in some jurisdictions, is considered a recorded sex and gender entry.",
+    "jurisdictions" : [
+      {
+        "code" : "150"
+      }
+    ],
+    "status" : {
+      "class" : "colstu",
+      "owner" : "IDEA4RC Project",
+      "link" : "https://www.idea4rc.eu/",
+      "fmm" : "1",
+      "status" : "Draft"
+    },
+    "fmm" : "1"
+  },
+  "StructureDefinition/Osiris" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 5,
+    "source" : "fsh-generated/resources/StructureDefinition-Osiris.json",
+    "sourceTail" : "StructureDefinition-Osiris.json",
+    "path" : "StructureDefinition-Osiris.html",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Osiris",
+    "version" : "0.1.0",
+    "name" : "Osiris",
+    "title" : "Osiris Model",
+    "date" : "2023-03-19T10:37:36+01:00",
+    "description" : "Osiris Data Element Concept",
+    "jurisdictions" : [
+      {
+        "code" : "150"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "IDEA4RC Project",
+      "link" : "https://www.idea4rc.eu/",
+      "status" : "Active"
+    }
+  },
+  "StructureDefinition/Patient-eu-i4rc" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 6,
+    "source" : "fsh-generated/resources/StructureDefinition-Patient-eu-i4rc.json",
+    "sourceTail" : "StructureDefinition-Patient-eu-i4rc.json",
+    "path" : "StructureDefinition-Patient-eu-i4rc.html",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Patient-eu-i4rc",
+    "version" : "0.1.0",
+    "name" : "PatientI4rc",
+    "title" : "Patient Idea4RC",
+    "date" : "2023-03-19T10:37:36+01:00",
+    "description" : "This profile defines how to represent Patient in FHIR for the purpose of the Idea4RC project.",
+    "jurisdictions" : [
+      {
+        "code" : "150"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "IDEA4RC Project",
+      "link" : "https://www.idea4rc.eu/",
+      "status" : "Active"
+    }
+  },
+  "StructureDefinition/patient-sexForClinicalUse" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 7,
+    "source" : "fsh-generated/resources/StructureDefinition-patient-sexForClinicalUse.json",
+    "sourceTail" : "StructureDefinition-patient-sexForClinicalUse.json",
+    "path" : "StructureDefinition-patient-sexForClinicalUse.html",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/patient-sexForClinicalUse",
+    "identifiers" : "id:\u00a0urn:oid:2.16.840.1.113883.4.642.5.1347",
+    "version" : "0.1.0",
+    "name" : "SexForClinicalUse",
+    "title" : "sexForClinicalUse",
+    "date" : "2022-01-24T16:55:11+11:00",
+    "description" : " This duplicates the 'patient-sexForClinicalUse' extension currently defined for R5.\n\n**Sex for Clinical Use (SFCU) Overview**\n\n Sex for Clinical Use is a categorization of sex derived from observable information such as an organ inventory, recent hormone lab tests, genetic testing, menstrual status, obstetric history, etc. This property is intended for use in clinical decision making and indicates that treatment or diagnostic tests should consider best practices associated with the relevant reference population.\n\n While clinical decision-making processes could account for the specific physiological or anatomical attributes of the patient, there are several practical considerations, such as patient privacy and limited capabilities of existing systems which create the need for a categorization that is easy to exchange.  The Sex for Clinical Use categorization is intended to bridge the gap between the hypothetical ideal and the practical needs of operational systems.\n\n **Sex for Clinical Use (SFCU) Contexts**\n\n Sex for Clinical Use is a contextual concept. For example, a patient may generally be categorized as male, but for a specific lab test, the resulting lab should use the reference ranges associated with a female reference population.  In this case, systems may provide a patient-context [sexForClinicalUse](http://hl7.org/fhir/R4/extension-patient-sexforclinicaluse.html) that acts as a 'default' for most care and annotate the lab order with a context-specific sexForClinicalUse.  Systems may determine what enclosing contexts are useful, but Patient, Encounter and EpisodeOfCare are three enclosing contexts that may often apply.\n\n The [sexForClinicalUse](http://hl7.org/fhir/R4/extension-patient-sexforclinicaluse.html) extension can be used to communicate a clinical sex category on the on relevant clinical resources (e.g., DiagnosticReport, ServiceRequest) or enclosing contexts (e.g., Patient, Encounter, EpisodeOfCare).\n\n **Sex for Clinical Use (SFCU) Categorization**\n\n For ease of interoperability, a patient’s sex for clinical use is constrained to four possible categories.  Any patient for which special considerations apply should be categorized as 'Specified'.  The 'Specified' category is often represented as 'Other' in existing systems.\n\n **Female** - Available data indicates that diagnostics, analytics, and treatments should consider best practices associated with female reference populations.\n\n **Male** - Available data indicates that diagnostics, analytics, and treatments should consider best practices associated with male reference populations.\n\n **Specified** - Available data indicates that diagnostics, analytics, and treatment best practices may be undefined or not aligned with existing sex-derived reference populations.  Individuals or systems providing care should either use default behavior that is safe for both male and female populations, individually review treatment options with the patient, or carefully inspect relevant observations before proceeding with treatment.\n\n **Unknown** - The sex for clinical use cannot be determined because there are no relevant evidence or documentation, or the evidence or documentation are not sufficient to determine a value. **Sex for Clinical Use (SFCU) History and Practices**\n\n Prior to the definition of Sex for Clinical Use as a concept, systems may have used administrative gender as an approximation of patient-level sex for clinical use.  This practice required pre-coordination among exchange parters to explicitly overload the administrative sex concept for use as a clinical sex concept.  In cases where there was no pre-coordination, some systems may have incorrectly inferred information about a patient's clinical sex from administrative  gender.\n\n In the context of ordering workflows, systems may use Ask at Order Entry (AOE) questions to collect concepts similar to sex for clinical use.",
+    "jurisdictions" : [
+      {
+        "code" : "150"
+      }
+    ],
+    "status" : {
+      "class" : "colstu",
+      "owner" : "IDEA4RC Project",
+      "link" : "https://www.idea4rc.eu/",
+      "fmm" : "1",
+      "status" : "Draft"
+    },
+    "fmm" : "1"
+  },
+  "StructureDefinition/Subject" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 8,
+    "source" : "fsh-generated/resources/StructureDefinition-Subject.json",
+    "sourceTail" : "StructureDefinition-Subject.json",
+    "path" : "StructureDefinition-Subject.html",
+    "url" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject",
+    "version" : "0.1.0",
+    "name" : "SubjectI4rc",
+    "title" : "Subject of care",
+    "date" : "2023-03-19T10:37:36+01:00",
+    "description" : "Subject of care \nMaturity Level: 0 Draft",
+    "jurisdictions" : [
+      {
+        "code" : "150"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "IDEA4RC Project",
+      "link" : "https://www.idea4rc.eu/",
+      "status" : "Active"
+    }
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "individual-recordedSexOrGender",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "pa"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
+  "url": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/individual-recordedSexOrGender",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.4.642.5.1342"
+    }
+  ],
+  "version": "0.1.0",
+  "name": "RecordedSexOrGender",
+  "title": "recordedSexOrGender",
+  "status": "draft",
+  "date": "2022-01-28",
+  "publisher": "HL7",
+  "description": "This duplicates the 'individual-recordedSexOrGender' extension currently defined for R5.\r\n The recorded sex and gender is to be used to differentiate existing sex or gender data. This element is used for existing 'sex' or 'gender' elements in a document or record when the intent and meaning is unclear. For example, the individual's birth certificate information, passport information, and national identity document information may all be present. This is necessary because an individual's documents may be updated at different rates or for different reasons. Sex assigned at birth (SAAB), while very common and considered essential in some jurisdictions, is considered a recorded sex and gender entry.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    },
+    {
+      "type": "element",
+      "expression": "RelatedPerson"
+    },
+    {
+      "type": "element",
+      "expression": "Person"
+    },
+    {
+      "type": "element",
+      "expression": "Practitioner"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "A recorded sex or gender property for the individual",
+        "definition": "A sex or gender property for the individual from a document or other record"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:value",
+        "path": "Extension.extension",
+        "sliceName": "value",
+        "short": "The recorded sex or gender property for the individual",
+        "definition": "A sex or gender property for the individual from a document or other record",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:value.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:value.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "value"
+      },
+      {
+        "id": "Extension.extension:value.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://hl7.org/fhir/ValueSet/administrative-gender",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "recordedSexOrGender"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Extension.extension:internationalEquivalent",
+        "path": "Extension.extension",
+        "sliceName": "internationalEquivalent",
+        "short": "An international representation of the value found on the document",
+        "definition": "An international representation of the value found on the document for interoperability and international legal purposes.",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:internationalEquivalent.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:internationalEquivalent.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "internationalEquivalent"
+      },
+      {
+        "id": "Extension.extension:internationalEquivalent.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://terminology.hl7.org/ValueSet/international-civil-aviation-organization-sex-or-gender",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "recordedSexOrGenderInternationalEquivilent"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Extension.extension:type",
+        "path": "Extension.extension",
+        "sliceName": "type",
+        "short": "Type of recorded sex or gender.",
+        "definition": "The type or category of sex or gender that is recorded.",
+        "comment": "Because the recorded sex and gender concept exists primarily as means to exchange sex and gender data concepts that are either use-case specific or that are historically not well defined, the type may either imply the indended use of the sex or gender value, or identify the sex or gender value as based on historical semanitcs.",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:type.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:type.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "type"
+      },
+      {
+        "id": "Extension.extension:type.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://terminology.hl7.org/ValueSet/recorded-sex-or-gender-type",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "recordedSexOrGenderType"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Extension.extension:effectivePeriod",
+        "path": "Extension.extension",
+        "sliceName": "effectivePeriod",
+        "short": "When the recorded sex or gender value applies",
+        "definition": "The time period during which the recorded sex or gender value applies to the individual",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:effectivePeriod.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:effectivePeriod.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "effectivePeriod"
+      },
+      {
+        "id": "Extension.extension:effectivePeriod.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Period"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:acquisitionDate",
+        "path": "Extension.extension",
+        "sliceName": "acquisitionDate",
+        "short": "When the sex or gender value was recorded.",
+        "definition": "The date/time when the sex or gender value was first recorded in the system.",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:acquisitionDate.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:acquisitionDate.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "acquisitionDate"
+      },
+      {
+        "id": "Extension.extension:acquisitionDate.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:sourceDocument",
+        "path": "Extension.extension",
+        "sliceName": "sourceDocument",
+        "short": "The document the sex or gender property was acquired from.",
+        "definition": "The reference to the source document or the code representing the type of document where this sex or gender property is initially recorded.",
+        "comment": "For example, if a driver's license is scanned, this property may reference that scanned document.",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:sourceDocument.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:sourceDocument.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "sourceDocument"
+      },
+      {
+        "id": "Extension.extension:sourceDocument.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:sourceField",
+        "path": "Extension.extension",
+        "sliceName": "sourceField",
+        "short": "The name of the field within the source document where this sex or gender property is initially recorded.",
+        "definition": "The name of the field within the source document where this sex or gender property is initially recorded.",
+        "comment": "For example, if a sex value is acquired from a driver's license, and the name of the field on that driver's license is 'SEX', then a code describing that field can be provided.  If the semantics of the field are known, they may be described in the comment.  For example, if the 'SEX' field on a license in a particular state or province is populated based on an individual's indication of what gender they consider themselves to be, but the field label is 'SEX' for historical reasons, a comment describing that the semantics of the field align with gender identity, even though the field name is 'SEX' can be provided.",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:sourceField.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:sourceField.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "sourceField"
+      },
+      {
+        "id": "Extension.extension:sourceField.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:jurisdiction",
+        "path": "Extension.extension",
+        "sliceName": "jurisdiction",
+        "short": "Who issued the document where the sex or gender was aquired",
+        "definition": "The jurisdiction or organization that issued the document from which the sex or gender was aquired",
+        "comment": "For example, a individual's driver's license or passport would be issued by a specific state or country.",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:jurisdiction.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:jurisdiction.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "jurisdiction"
+      },
+      {
+        "id": "Extension.extension:jurisdiction.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://hl7.org/fhir/ValueSet/jurisdiction",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "Jurisdiction ValueSet"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Extension.extension:comment",
+        "path": "Extension.extension",
+        "sliceName": "comment",
+        "short": "Context or source information about the recorded sex or gender",
+        "definition": "Further explanation about the context or source of the recorded sex or gender value",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:comment.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:comment.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "comment"
+      },
+      {
+        "id": "Extension.extension:comment.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/individual-recordedSexOrGender"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

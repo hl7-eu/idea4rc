@@ -1,0 +1,128 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/idea4rc/ConceptMap/ConceptMapOsiris2I4rc> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMapOsiris2I4rc"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Osiris2I4rc (http://terminology.hl7.it/ConceptMap/ConceptMap-osiris2idea4rc)</h2><p>Mapping from <a href=\"StructureDefinition-Osiris.html\">Osiris Model</a> to <a href=\"StructureDefinition-Subject.html\">Subject of care</a></p><p>DRAFT (not intended for production usage). Published on 2023-03-19 10:37:36+0100 by IDEA4RC Project (IDEA4RC Project: <a href=\"https://www.idea4rc.eu/\">https://www.idea4rc.eu/</a>, IDEA4RC Project: <a href=\"https://www.idea4rc.eu/\">https://www.idea4rc.eu/</a>). </p><div><p>Osiris to IDEA4RC models mapping</p>\n</div><br/><p><b>Group 1</b>Mapping from <a href=\"StructureDefinition-Osiris.html\">Osiris Model</a> to <a href=\"StructureDefinition-Subject.html\">Subject of care</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>Osiris.Patient (Patient)</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Subject (Subject of care)</td></tr><tr><td>Osiris.Patient.Id (Patient Id [C1])</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>Osiris.Patient.Gender (Gender [C2])</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Subject.sexOrGender (Gender/Sex)</td></tr><tr><td>Osiris.Patient.Ethnicity (Ethnicity [C3])</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\" title=\"relatedto\">is related to</a></td><td>Subject.race (Race)</td></tr><tr><td>Osiris.Patient.BirthDate (Birth Date [C4])</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Subject.dateOfBirth.date (Date of birth)</td></tr><tr><td>Osiris.Patient.DeathDate (Death Date [C5])</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>Osiris.Patient.ProviderCenterId (Provider  Center  Id [C6])</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>Osiris.Patient.OriginCenterId (Origin  Center  Id [C71])</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>Osiris.Patient.CauseOfDeath (Cause of death [C7])</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>Osiris.Patient.LastNewsDate (Last News Date [C8])</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>Osiris.Patient.LastNewsStatus (Last News Status [C9])</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://terminology.hl7.it/ConceptMap/ConceptMap-osiris2idea4rc"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Osiris2I4rc"] ; # 
+  fhir:title [ fhir:v "Osiris to IDEA4RC models mapping"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-19T10:37:36+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "IDEA4RC Project"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "IDEA4RC Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.idea4rc.eu/" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "IDEA4RC Project" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.idea4rc.eu/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Osiris to IDEA4RC models mapping"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "150" ] ;
+       fhir:display [ fhir:v "Europe" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "Show how the OSIRIS models is covered by the IDEA4RC one"] ; # 
+  fhir:source [ fhir:v "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Osiris"^^xsd:anyURI] ; # 
+  fhir:target [ fhir:v "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"^^xsd:anyURI] ; # 
+  fhir:group ( [
+     fhir:source [ fhir:v "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Osiris"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"^^xsd:anyURI ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Osiris.Patient" ] ;
+       fhir:display [ fhir:v "Patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Subject" ] ;
+         fhir:display [ fhir:v "Subject of care" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Osiris.Patient.Id" ] ;
+       fhir:display [ fhir:v "Patient Id [C1]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Osiris.Patient.Gender" ] ;
+       fhir:display [ fhir:v "Gender [C2]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Subject.sexOrGender" ] ;
+         fhir:display [ fhir:v "Gender/Sex" ] ;
+         fhir:equivalence [ fhir:v "wider" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Osiris.Patient.Ethnicity" ] ;
+       fhir:display [ fhir:v "Ethnicity [C3]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Subject.race" ] ;
+         fhir:display [ fhir:v "Race" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Osiris.Patient.BirthDate" ] ;
+       fhir:display [ fhir:v "Birth Date [C4]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Subject.dateOfBirth.date" ] ;
+         fhir:display [ fhir:v "Date of birth" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Osiris.Patient.DeathDate" ] ;
+       fhir:display [ fhir:v "Death Date [C5]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Osiris.Patient.ProviderCenterId" ] ;
+       fhir:display [ fhir:v "Provider  Center  Id [C6]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Osiris.Patient.OriginCenterId" ] ;
+       fhir:display [ fhir:v "Origin  Center  Id [C71]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Osiris.Patient.CauseOfDeath" ] ;
+       fhir:display [ fhir:v "Cause of death [C7]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Osiris.Patient.LastNewsDate" ] ;
+       fhir:display [ fhir:v "Last News Date [C8]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Osiris.Patient.LastNewsStatus" ] ;
+       fhir:display [ fhir:v "Last News Status [C9]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
