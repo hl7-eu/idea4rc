@@ -5,7 +5,7 @@
 > implementation of an intelligent ecosystem to improve the
 > governance, the sharing, and the re-use of health data for rare cancers.
 
-### The PancareSurPass Project
+### The IDEA4RC project
 
 #### Overview 
 
@@ -14,13 +14,17 @@ Research and Innovation action aiming to study the scale-up and
 implementation of the digital Survivorship Passport to improve
 people-centred care for childhood cancer survivors.
 
-PanCareSurPass will conduct a robust assessment of the implementation of
-the Survivorship Passport by first conducting a pre-implementation study
-in six countries (Austria, Belgium, Germany, Italy, Lithuania, Spain)
-representing three infrastructural scenarios in Europe. The Survivorship
-Passport is an innovative, digital tool, developed in previous EU-funded
-projects, that can be used to overcome well-known knowledge gaps to
-improve people-centred long-term survivorship care.
+Building on the principles of the European Data strategy, the Rare Cancer
+Data Ecosystem concept proposed by IDEA4RC will unite available data sources
+and equip them with strong data governance controls to lay down the basis
+for an embryonic data spece for rare cancers. This because despite their
+relevance, rare cancers in general get a few scientific consideration and
+financial support. Carrying out clinical studies is difficult, because of
+the small number of sample populations. Therefore, clinical evidence is
+more difficult to build, clinical management is more complex, and shortage
+of accesible cancer registries and data is a fundamental obstacle. These can
+be overcome only through large collaborations exploiting networks
+specializing in rare cancers, that pool knowledge and data together.
 
 #### Objectives
 
