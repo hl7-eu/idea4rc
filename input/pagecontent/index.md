@@ -1,9 +1,9 @@
 ### Scope
 
 > Specify **HL7 FHIR logical models** and **profiles** to be used within
-> the European project **PanCareSurPass**. This project studies the
-> scale-up and implementation of the digital Survivorship Passport to
-> improve people-centred care for childhood cancer survivors.
+> the European project **IDEA4RC**. This project studies the
+> implementation of an intelligent ecosystem to improve the
+> governance, the sharing, and the re-use of health data for rare cancers.
 
 ### The PancareSurPass Project
 
