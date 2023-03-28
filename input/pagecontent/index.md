@@ -1,11 +1,11 @@
 ### Scope
 
 > Specify **HL7 FHIR logical models** and **profiles** to be used within
-> the European project **PanCareSurPass**. This project studies the
-> scale-up and implementation of the digital Survivorship Passport to
-> improve people-centred care for childhood cancer survivors.
+> the European project **IDEA4RC**. This project studies the
+> implementation of an intelligent ecosystem to improve the
+> governance, the sharing, and the re-use of health data for rare cancers.
 
-### The PancareSurPass Project
+### The IDEA4RC project
 
 #### Overview 
 
@@ -14,13 +14,17 @@ Research and Innovation action aiming to study the scale-up and
 implementation of the digital Survivorship Passport to improve
 people-centred care for childhood cancer survivors.
 
-PanCareSurPass will conduct a robust assessment of the implementation of
-the Survivorship Passport by first conducting a pre-implementation study
-in six countries (Austria, Belgium, Germany, Italy, Lithuania, Spain)
-representing three infrastructural scenarios in Europe. The Survivorship
-Passport is an innovative, digital tool, developed in previous EU-funded
-projects, that can be used to overcome well-known knowledge gaps to
-improve people-centred long-term survivorship care.
+Building on the principles of the European Data strategy, the Rare Cancer
+Data Ecosystem concept proposed by IDEA4RC will unite available data sources
+and equip them with strong data governance controls to lay down the basis
+for an embryonic data spece for rare cancers. This because despite their
+relevance, rare cancers in general get a few scientific consideration and
+financial support. Carrying out clinical studies is difficult, because of
+the small number of sample populations. Therefore, clinical evidence is
+more difficult to build, clinical management is more complex, and shortage
+of accesible cancer registries and data is a fundamental obstacle. These can
+be overcome only through large collaborations exploiting networks
+specializing in rare cancers, that pool knowledge and data together.
 
 #### Objectives
 
@@ -31,46 +35,58 @@ Europe.**
 
 ##### Preparation for Implementation
 
-1.  **design and conduct a multi-country pre-implementation study** to
-    assess the barriers and facilitators for scaling up use of the
-    SurPass v2.0
+1.  **exploit the potential of EURACAN and other existing ERNs** for RC
+    data sharing acrosso Europe for rare cancer "data economy" scenarios
+    co-creation and valuation supported by sound data governance policies
+    and a resilient and privacy preserving IT architecture. 
 
-2.  **develop a practical Implementation Strategy** informed by the
-    findings of the pre-implementation activities and **IT technical
-    specifications** for SurPass v2.0 ensuring interoperability and
-    cybersecurity.
+2.  **extend HL7 FHIR concepts to a distributed data sharing enviroment**
+    and realize a set of AI-assisted tools ensuring interoperability and 
+    access to structured data from different sources, as a contribution
+    towards the implementation of a European Health Data Space initiative.
 
-3.  **develop, test and launch SurPass v2.0** using the IT
-    specifications developed use in the multi-country implementation
-    study.
+3.  **establish a federated Virtual Repository Layer**, deployed on a 
+    secure distributed data space for FAIR data management and sharing, and 
+    to facilitate distributed data search and inform on data quality.
 
 ##### Implementation and evaluation
 
-4.  **conduct a multi-country implementation study of SurPass v2.0** for
-    people-centred care with >5-year CCS and to **assess
-    implementation** in terms of people-centred care (e.g. activation,
-    empowerment, satisfaction, increase in knowledge), feasibility and
-    cost effectiveness.
-
-5.  **conduct a parallel observational qualitative study using SurPass
-    v2.0** for delivering people-centred survivorship care to <5-year
-    CCS and >5-year CCS (but with limited treatment data available).
+4.  **leverage on novel AI approaches** for achieving multi-lingual NPL to
+    allow data extraction and standardization of unstructured data from
+    different European centers, and data interpretation and integration
+    with structured datasets.
+  
+5.  **realize an intelligent data navigator** exploiting multimodality,
+    virtual assistance, and smart visualization technologies to support
+    users in finding data and in fast and accurate assessment of data 
+    quality, as well as trust acceptability.
 
 ##### European Future Implementation & Achieving Impact
 
-6.  **develop a Prediction Model** using data from the
-    pre-implementation activities and multi-country implementation study
-    to enable healthcare decision-makers to assess the suitability and
-    costs of SurPass v2.0.
+6.  **implement a data governance framework** for distributed data sharing,
+    facilitating the negotiation of relevant data sharing agreements, the
+    collection of patient consent, the enforcement of accountability, 
+    through the application of certification and trust-building methods 
+    based on blockchain technology.
+       
+7.  **implement the realized ecosystem** in pilot EURACAN sites, to assess
+    user experience and value creation on the basis of real-world clinical 
+    research and public health questions, in different data use and reuse
+    cases conducted on top of a "first-in-the-field" technical deployment
+    of the IDEA4RC Data Ecosystem.
 
-7.  **host an Implementation Toolkit** for further European
-    implementation of the SurPass for people-centred care in various
-    healthcare settings across Europe.
+8.  **investigate and assess translation potential** of pilot experiences
+    toward wider stakeholders' audiences, beyond the centers involved in 
+    the project consortium, and creating a sustainable "Community of 
+    interest" around a continously expanding Data Ecosystem.
 
-8.  **disseminate and communicate the importance of people-centred
-    survivorship care and results of PanCareSurPass** to key
-    stakeholders to promote future implementation of SurPass v2.0 to
-    improve people-centred survivorship care in Europe.
+9.  **build robust knowledge and information sharing channels** to 
+    disseminate scientific and technology results, prepare business planning
+    for exploitable components, inform rare cancer patients and health care
+    providers of the opportunities created by the project, and inform the
+    general public of the effort deployed by IDEA4RC, addressing the
+    urgent needs of rare cancer patients, caregivers and families, with the
+    key support received from the European Commission.
 
 ### Authors and Contributors
 
