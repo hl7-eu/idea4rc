@@ -36,9 +36,10 @@ sharing of health data for rare cancers.**
 ##### Preparation for Implementation
 
 1.  **exploit the potential of EURACAN and other existing ERNs** for RC
-    data sharing acrosso Europe for rare cancer "data economy" scenarios
-    co-creation and valuation supported by sound data governance policies
-    and a resilient and privacy preserving IT architecture. 
+    data sharing across Europe, involving stakeholders for rare cancer 
+    data economy scenarios co-creation and valuation supported by sound 
+    data governance policies and a resilient and privacy preserving IT
+    architecture. 
 
 2.  **extend HL7 FHIR concepts to a distributed data sharing enviroment**
     and realize a set of AI-assisted tools ensuring interoperability and 
