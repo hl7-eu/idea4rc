@@ -9,10 +9,10 @@
 
 #### Overview 
 
-**<span class="underline">PanCareSurPass</span>** is a EU funded
+**<span class="underline">IDEA4RC</span>** is a EU funded
 Research and Innovation action aiming to study the scale-up and
-implementation of the digital Survivorship Passport to improve
-people-centred care for childhood cancer survivors.
+implementation of an ecosystem for the re-use of health data
+related to that portion of population affected by rare cancers.
 
 Building on the principles of the European Data strategy, the Rare Cancer
 Data Ecosystem concept proposed by IDEA4RC will unite available data sources
@@ -28,17 +28,18 @@ specializing in rare cancers, that pool knowledge and data together.
 
 #### Objectives
 
-The overall aim of PanCareSurPass is to **leverage the digital
+The overall aim of IDEA4RC is to **leverage the digital
 transformation of healthcare to improve people-centred survivorship care
-by scaling up and implementing an interoperable SurPass v2.0 across
-Europe.**
+by scaling up and implementing an intelligent ecosystem for improving the
+sharing of health data for rare cancers.**
 
 ##### Preparation for Implementation
 
 1.  **exploit the potential of EURACAN and other existing ERNs** for RC
-    data sharing acrosso Europe for rare cancer "data economy" scenarios
-    co-creation and valuation supported by sound data governance policies
-    and a resilient and privacy preserving IT architecture. 
+    data sharing across Europe, involving stakeholders for rare cancer 
+    data economy scenarios co-creation and valuation supported by sound 
+    data governance policies and a resilient and privacy preserving IT
+    architecture. 
 
 2.  **extend HL7 FHIR concepts to a distributed data sharing enviroment**
     and realize a set of AI-assisted tools ensuring interoperability and 

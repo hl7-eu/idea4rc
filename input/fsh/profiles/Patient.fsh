@@ -45,3 +45,4 @@ Description: "This profile defines how to represent Patient in FHIR for the purp
   * ^definition = "Report here the institution in which most of the treatment was given"
   * identifier ^short = "Business identifier of the Primary treatment center"
   * display ^short = "Short textual description of the Primary treatment center" */
+
