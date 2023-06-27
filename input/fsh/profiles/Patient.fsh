@@ -2,17 +2,23 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  PatientI4rc
 Parent:   Patient
-Id:       Patient-eu-i4rc
+Id:       patient-eu-i4rc
 Title:    "Patient Idea4RC"
 Description: "This profile defines how to represent Patient in FHIR for the purpose of the Idea4RC project."
 //-------------------------------------------------------------------------------------------
 * . ^short = "Information about an individual receiving health care services"
 * . ^definition = "Information about an individual receiving health care services"
 
-* extension contains 
+* extension contains RaceExtension named race 0..1
+* extension[race].value[x] from VsRaceI4RC 
+
+/* 
+IN THIS VERSION THE SEX IS MAPPED IN THE ADMINISTRATIVE GENDER TO BE DISCUSSED
+*/
+/*
    SexForClinicalUse named sexForClinicalUse 0..1
    and RecordedSexOrGender named recordedSexOrGender 0..1
-
+ */
 /* * extension contains 
    $patient-sexForClinicalUse named sexForClinicalUse 0..1
    and $individual-recordedSexOrGender named recordedSexOrGender 0..1 */
@@ -20,17 +26,16 @@ Description: "This profile defines how to represent Patient in FHIR for the purp
 /* * extension[sexForClinicalUse]
 * extension[RecordedSexOrGender] */
 
-// defined in R5 CI build
-
-
 /* * identifier 1.. MS
 * name.family 1.. MS
 * name.given 1.. MS */
 * gender ^short = "Administrative gender"
-* birthDate 1..
-* birthDate.extension contains $data-absent-reason named data-absent-reason 0..1
-* maritalStatus ^short = "Marital status"
+* gender 1..   
+/* * birthDate 1..
+* birthDate.extension contains $data-absent-reason named data-absent-reason 0..1 */
+/* * maritalStatus ^short = "Marital status" */
 * address.country ^short = "Country of Residence"
+/* to enforce the fact tha is the residence we should use a specific extension to be discussed */
 
 /* * contact.telecom 1.. MS
 * generalPractitioner

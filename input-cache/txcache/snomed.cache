@@ -1,0 +1,381 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "219006",
+        "display" : "Current drinker of alcohol"
+      },
+      {
+        "code" : "83261004",
+        "display" : "Lifetime non-drinker of alcohol"
+      },
+      {
+        "code" : "105542008",
+        "display" : "Current non-drinker of alcohol"
+      },
+      {
+        "code" : "66590003",
+        "display" : "Alcohol dependence"
+      },
+      {
+        "code" : "160580001",
+        "display" : "Alcohol consumption unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "22298006",
+        "display" : "Myocardial infarction"
+      },
+      {
+        "code" : "42343007",
+        "display" : "Congestive heart failure"
+      },
+      {
+        "code" : "400047006",
+        "display" : "Peripheral vascular disease"
+      },
+      {
+        "code" : "230690007",
+        "display" : "Cerebrovascular accident // Cerebrovascular accident  (except hemiplegia) not sure it is excldued.."
+      },
+      {
+        "code" : "52448006",
+        "display" : "Dementia"
+      },
+      {
+        "code" : "413839001",
+        "display" : "Chronic lung disease"
+      },
+      {
+        "code" : "105969002",
+        "display" : "Disorder of connective tissue"
+      },
+      {
+        "code" : "429040005",
+        "display" : "Ulcer"
+      },
+      {
+        "code" : "235856003",
+        "display" : "Disorder of liver"
+      },
+      {
+        "code" : "73211009",
+        "display" : "Diabetes mellitus"
+      },
+      {
+        "code" : "50582007",
+        "display" : "Hemiplegia"
+      },
+      {
+        "code" : "90708001",
+        "display" : "Kidney diseas"
+      },
+      {
+        "code" : "93143009",
+        "display" : "Leukemia"
+      },
+      {
+        "code" : "118600007",
+        "display" : "Malignant lymphoma"
+      },
+      {
+        "code" : "109989006",
+        "display" : "Multiple myeloma"
+      },
+      {
+        "code" : "62479008",
+        "display" : "Acquired immune deficiency syndrome"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "254505000"
+      },
+      {
+        "code" : "126687001"
+      },
+      {
+        "code" : "126691006"
+      },
+      {
+        "code" : "126688006"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "126693009"
+      },
+      {
+        "code" : "126696001"
+      },
+      {
+        "code" : "126697005"
+      },
+      {
+        "code" : "254528004"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "254389005"
+      },
+      {
+        "code" : "92795001"
+      },
+      {
+        "code" : "254390001"
+      },
+      {
+        "code" : "187606005"
+      },
+      {
+        "code" : "271568003"
+      },
+      {
+        "code" : "187622006"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "126670003"
+      },
+      {
+        "code" : "126676009"
+      },
+      {
+        "code" : "126677000"
+      },
+      {
+        "code" : "126678005"
+      },
+      {
+        "code" : "126679002"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "126684008"
+      },
+      {
+        "code" : "126683002"
+      },
+      {
+        "code" : "126682007"
+      },
+      {
+        "code" : "126681000"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "275490009"
+      },
+      {
+        "code" : "92768006"
+      },
+      {
+        "code" : "275394001"
+      },
+      {
+        "code" : "126804008"
+      },
+      {
+        "code" : "254424004"
+      },
+      {
+        "code" : "254425003"
+      },
+      {
+        "code" : "254426002"
+      },
+      {
+        "code" : "254430004"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "126813005"
+      },
+      {
+        "code" : "126779009"
+      },
+      {
+        "code" : "126815003"
+      },
+      {
+        "code" : "126816002"
+      },
+      {
+        "code" : "126811007"
+      },
+      {
+        "code" : "126807001"
+      },
+      {
+        "code" : "126808006"
+      },
+      {
+        "code" : "126810008"
+      },
+      {
+        "code" : "126812000"
+      },
+      {
+        "code" : "448868009"
+      },
+      {
+        "code" : "363396004"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "126670003"
+      },
+      {
+        "code" : "126680004"
+      },
+      {
+        "code" : "126788000"
+      },
+      {
+        "code" : "126789008"
+      },
+      {
+        "code" : "126790004"
+      },
+      {
+        "code" : "127006003"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "416237000"
+      },
+      {
+        "code" : "10828004"
+      },
+      {
+        "code" : "260385009"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------

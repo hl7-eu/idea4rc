@@ -32,8 +32,8 @@ Usage: #definition
 * group[=].element[=].target.code = #Subject.sexOrGender					
 * group[=].element[=].target.display = "Gender/Sex"					
 * group[=].element[=].target.equivalence = #wider					
-* group[=].element[+].code = #Osiris.Patient.Ethnicity					
-* group[=].element[=].display = "Ethnicity [C3]"					
+* group[=].element[+].code = #Osiris.Patient.Race					
+* group[=].element[=].display = "Race [C3]"					
 * group[=].element[=].target.code = #Subject.race					
 * group[=].element[=].target.display = "Race"					
 * group[=].element[=].target.equivalence = #relatedto					

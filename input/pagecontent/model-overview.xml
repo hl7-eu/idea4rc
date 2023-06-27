@@ -1,0 +1,23 @@
+<div xmlns="http://www.w3.org/1999/xhtml"
+   	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   	xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+	
+	<h3 id="overview">IDEA4RC Overview</h3>
+	<a> </a>
+	<p>	
+
+IDEA4RC aims at developing an IT infrastructure to facilitate the sharing and re-use of health data among clinical centers to promote research on rare cancers and improve patients’ access to high quality care. Our challenge is building a new tool to overcome interoperability issues and make it easier to comply with privacy regulations.
+
+To achive this result a common data model has been agreed.</p>
+<p>
+
+An overview of this model is provided hereafter; a detailed ERD is instead shown in the <a href="model-erd.html">IDEA4RC Detailed ERD Model page.</a>
+</p>
+<p>The IDEA4RC model has been then formalized as HL7 FHIR Logical Models, listed in the <a href="logicalModel.html">IDEA4RC Logical Models page.</a></p>
+	
+	<h3 id="overview">Model Overview</h3>
+	<a> </a>
+	<p>The following diagram provide a high level description of the IDEA4RC MODEL</p>
+	<p>{% include IDEA4RC_ModelOverview.svg %}</p>
+	
+</div>

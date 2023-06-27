@@ -1,9 +1,9 @@
 <div xmlns="http://www.w3.org/1999/xhtml"
    	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    	xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
-	<h3 id="overview">Overview</h3>
+	<h3 id="overview">IDEA4RC Common data Model (ERD)</h3>
 	<a> </a>
-	<p>The following diagram provide a high level description of the IDEA4RC MODEL</p>
+	<p>The following diagram provide a description of the IDEA4RC MODEL expressed as ERD</p>
 	<p>{% include IDEA4RC_DATAMODEL.svg %}</p>
 	
 </div>

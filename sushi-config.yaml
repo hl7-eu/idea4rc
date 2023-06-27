@@ -24,12 +24,14 @@ contact:
     telecom:
       - system: url
         value: https://www.idea4rc.eu/
-description: IDEA4RC is an EU project aiming to <..>
+description: IDEA4RC is an EU project aiming at at developing an IT infrastructure to facilitate the sharing and re-use of health data among clinical centers to promote research on rare cancers and improve patients’ access to high quality care. Our challenge is building a new tool to overcome interoperability issues and make it easier to comply with privacy regulations.
+
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe"
 license: CC-BY-SA-4.0
 
 dependencies:
   hl7.fhir.extensions.r5: 4.0.1
+  hl7.fhir.us.mcode: current
 
 fhirVersion: 4.0.1
 parameters:
@@ -43,12 +45,14 @@ FSHOnly: false
 pages:
   index.md:
     title: IDEA4RC FHIR IG - Home Page
-  model.html:
-    title: IDEA4RC Models    
+  model-overview.html:
+    title: IDEA4RC Model Overview
+  model-erd.html:
+    title: IDEA4RC Detailed ERD Model
+  logicalModel.md:
+    title: IDEA4RC Logical Models 
   # maturity.md:
   #   title: idea4rc Maturity Model
-  # logicalModel.md:
-  #   title: Logical Models 
   # sequence.html:
   #   title: Sequence diagrams
   # collaboration.md:
@@ -70,10 +74,12 @@ pages:
 menu:
   IG Home: index.html
   Table of Contents: toc.html
-  Functional Description:
+  Common Model:
   #   Collaboration diagrams: collaboration.html
   #   Sequence diagrams: sequence.html
-    Models: model.html
+    Model Overview: model-overview.html
+    Logical Model: logical-model.html
+    Detailed ERD: model-erd.html
   # Specifications:
   #   Profiles: profiles.html
   #   Extensions: extensions.html

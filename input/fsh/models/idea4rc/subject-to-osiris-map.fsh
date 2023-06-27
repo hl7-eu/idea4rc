@@ -49,8 +49,8 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #narrower					
 * group[=].element[+].code = #Subject.race					
 * group[=].element[=].display = "Race"					
-* group[=].element[=].target.code = #Osiris.Patient.Ethnicity					
-* group[=].element[=].target.display = "Ethnicity [C3]"					
+* group[=].element[=].target.code = #Osiris.Patient.Race					
+* group[=].element[=].target.display = "Race [C3]"					
 * group[=].element[=].target.equivalence = #wider					
 * group[=].element[+].code = #Subject.countryOfResidence					
 * group[=].element[=].display = "Country of Residence "					

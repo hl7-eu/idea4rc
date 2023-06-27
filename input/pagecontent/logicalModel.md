@@ -1,7 +1,13 @@
 
 ### IDEA4RC Overview 
 
-The Survivorship Passport (SurPass) is a digital tool based on international clinical guidelines that provides childhood cancer survivors (CCS) and health care professionals (HCPs) with the information needed for long-term follow-up survivorship care, better health promotion, improved late effects management and secondary cancer prevention. The SurPass provides an overview of all relevant personal health data related to the cancer treatment of CCS (e.g. demographics, cancer diagnosis, therapeutic management etc.) in a Treatment Summary together with a personalized Survivorship Care Plan.
+IDEA4RC aims at developing an IT infrastructure to facilitate the sharing and re-use of health data among clinical centers to promote research on rare cancers and improve patients’ access to high quality care. Our challenge is building a new tool to overcome interoperability issues and make it easier to comply with privacy regulations.
+
+To achive this result a common data model has been agreed.
+
+An overview of this model is provided in the [IDEA4RC Model Overview page](model-overview.html).
+
+The IDEA4RC model has been formalized as HL7 FHIR Logical Models, listed in the following section.
 
 <!-- table -->
 

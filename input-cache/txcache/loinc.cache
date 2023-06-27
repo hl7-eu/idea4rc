@@ -1,13 +1,46 @@
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "5792-7"
-}, "valueSet" :{
-  "resourceType" : "ValueSet"
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "severity" : "error",
-  "error" : "Error from server: Unable to resolve value set \"http://terminology.hl7.org/ValueSet/international-civil-aviation-organization-sex-or-gender\"",
-  "class" : "SERVER_ERROR"
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA18976-3",
+        "display" : "Current every day smoker"
+      },
+      {
+        "code" : "LA18977-1",
+        "display" : "Current some day smoker"
+      },
+      {
+        "code" : "LA15920-4",
+        "display" : "Former smoker"
+      },
+      {
+        "code" : "LA18978-9",
+        "display" : "Never smoker"
+      },
+      {
+        "code" : "LA18979-7",
+        "display" : "Smoker, current status unknown"
+      },
+      {
+        "code" : "LA18980-5",
+        "display" : "Unknown if ever smoked"
+      },
+      {
+        "code" : "LA18981-3",
+        "display" : "Heavy tobacco smoker"
+      },
+      {
+        "code" : "LA18982-1",
+        "display" : "Light tobacco smoker"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
 }
 -------------------------------------------------------------------------------------

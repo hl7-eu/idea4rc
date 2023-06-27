@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://athena.ohdsi.org",
+      "concept" : [{
+        "code" : "8527",
+        "display" : "White"
+      },
+      {
+        "code" : "8516",
+        "display" : "Black"
+      },
+      {
+        "code" : "8515",
+        "display" : "Asian/Pacific Islanders"
+      },
+      {
+        "code" : "8657",
+        "display" : "American Indian/Alaska Native"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://athena.ohdsi.org",
+      "concept" : [{
+        "code" : "36716475",
+        "display" : "Cigarettes"
+      },
+      {
+        "code" : "36716476",
+        "display" : "Cigar"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------

@@ -1,11 +1,15 @@
 
 Alias: $radiotherapy-energy-units = http://hl7.org/fhir/us/codex-radiation-therapy/ValueSet/radiotherapy-energy-units
 Alias: $codex-radiotherapy-isotopes = http://hl7.org/fhir/us/codex-radiation-therapy/ValueSet/codex-radiotherapy-isotopes
+Alias: $mcode-comorbidities = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-comorbidities
+Alias: $mcode-related-condition = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition
+Alias: $mcode-related-condition-absent = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition-absent
 
 //============== ALIAS ===============
-Alias: $igUri = http://hl7.eu/fhir/ig/idea4rc
+// Alias: $igUri = http://hl7.eu/fhir/ig/idea4rc
 
 // --- Code Systems
+Alias: $athena = http://athena.ohdsi.org
 Alias: $ajcc = http://cancerstaging.org
 Alias: $atc = http://www.whocc.no/atc
 Alias: $dicomOntology = http://dicom.nema.org/resources/ontology/DCM
