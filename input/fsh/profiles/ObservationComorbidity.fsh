@@ -1,7 +1,7 @@
 Profile: ObservationComorbidities
 Parent: Observation
-Id: Observation-comorbidity-eu-i4rc
-Title: "Observation - Comorbidities"
+Id: observation-comorbidity-eu-i4rc
+Title: "Observation: Comorbidities"
 Description: """This profile constrains the Observation resource to represent Comorbidities for the purpose of the IDEA4RC project.
 This profiles is adapted from the mCode FHIR Implementation Guide
 """
@@ -16,8 +16,7 @@ This profiles is adapted from the mCode FHIR Implementation Guide
 * focus ^definition = "Comorbid conditions are typically defined with respect to a specific 'index' condition. For example, the US Centers for Disease Control (CDC) has provided a list of comorbid conditions important to COVID-19. In this case, the focus would be COVID-19 and the comorbid condition categories would be those specified by CDC, namely obesity, renal disease, respiratory disease, etc." 
 
 */
-* subject 1..
-* subject only Reference(PatientI4rc)
+* insert SubjectRules
 * subject ^definition = "The patient whose comorbidities are recorded."
 
 // We cannot use hasMember because that element does not allow Reference(Condition) or CodeableConcept as a type
@@ -27,15 +26,16 @@ This profiles is adapted from the mCode FHIR Implementation Guide
 * extension contains $mcode-related-condition-absent named comorbidConditionAbsent 0..*
 
 * extension[comorbidConditionPresent].valueCodeableConcept from VsComorbiditiesI4RC
+* extension[comorbidConditionPresent].valueCodeableConcept 1..
 * extension[comorbidConditionAbsent].valueCodeableConcept from VsComorbiditiesI4RC
 
-/* ==> ADD VOC BINDINGS WHEN AVAILABLE */
-
 * value[x] only Quantity or integer
+* value[x] ^short = "Comorbidity score or risk index"
 * value[x] ^definition = "Comorbidity score or risk index"
 * bodySite 0..0
 * specimen 0..0
 * device 0..0
+
 /* 
 * Design options considered and rejected
 * 1. Why not use component?

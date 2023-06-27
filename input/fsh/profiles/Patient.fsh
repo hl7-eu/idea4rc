@@ -3,8 +3,8 @@
 Profile:  PatientI4rc
 Parent:   Patient
 Id:       patient-eu-i4rc
-Title:    "Patient Idea4RC"
-Description: "This profile defines how to represent Patient in FHIR for the purpose of the Idea4RC project."
+Title:    "Patient: IDEA4RC"
+Description: "This profile defines how to represent Patient in FHIR for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 * . ^short = "Information about an individual receiving health care services"
 * . ^definition = "Information about an individual receiving health care services"

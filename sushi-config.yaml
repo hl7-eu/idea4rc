@@ -92,3 +92,37 @@ menu:
      Report an issue: new-tab https://github.com/hl7-eu/idea4rc/issues
      Downloads: downloads.html
 	
+  #
+# Groups can control certain aspects of the IG generation.  The IG
+# documentation recommends that authors use the default groups that
+# are provided by the templating framework, but if authors want to
+# use their own instead, they can use the mechanism below.  This will
+# create IG.definition.grouping entries and associate the individual
+# resource entries with the corresponding groupIds. If a resource
+# is specified by id or name, SUSHI will replace it with the correct
+# URL when generating the IG JSON.
+
+groups:
+  eHNGuidelines:
+    name:  IDEA4RC Common Models
+    description: Logical models representing the IDEA4RC Common Models
+    resources:
+      - StructureDefinition/Subject
+      - StructureDefinition/Treatment
+      - StructureDefinition/CancerUnderStudy
+      - StructureDefinition/CancerUnderStudyTreatment
+      - StructureDefinition/ProgressionRelapse      
+      - StructureDefinition/Staging      
+      - StructureDefinition/StagingProcedureandStage
+
+
+  patientImplementation:
+    name:  HL7 FHIR Profile implementing the Subject (Patient) model
+    description: HL7 FHIR Profile implementing the Subject (Patient) model
+    resources:
+      - StructureDefinition/patient-eu-i4rc
+      - StructureDefinition/observation-tobaccouse-eu-i4rc
+      - StructureDefinition/observation-alcoholuse-eu-i4rc
+      - StructureDefinition/observation-karnofsky-performance-statuseu-i4rc
+      - StructureDefinition/observation-ecog-performance-status-eu-i4rc
+      - StructureDefinition/observation-comorbidity-eu-i4rc

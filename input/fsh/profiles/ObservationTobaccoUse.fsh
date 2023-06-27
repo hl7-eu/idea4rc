@@ -1,13 +1,13 @@
 Profile: ObservationTobaccoUseI4rc
 Parent: Observation
-Id: Observation-tobaccouse-eu-i4rc
-Title: "Observation - SH: tobacco use"
+Id: observation-tobaccouse-eu-i4rc
+Title: "Observation: tobacco use"
 Description: "This profile constrains the Observation resource to represent Tobacco use assessment for the purpose of the IDEA4RC project."
 * code 1..1
 * code = $loinc#88028-6 "Tobacco use panel"
 
-* subject 1..
-* subject only Reference(PatientI4rc)
+* insert SubjectRules
+
 /* * effective[x] 1..1 MS
 * effective[x] only dateTime
 * effective[x].extension contains $data-absent-reason named data-absent-reason 0..1 MS

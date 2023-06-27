@@ -29,7 +29,64 @@
   }
 }}####
 e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ef83a406-629c-4b6a-8a0a-f6fa9dc3a160",
+    "timestamp" : "2023-06-27T14:35:02.473Z",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "219006",
+      "display" : "Current drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105542008",
+      "display" : "Current non-drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "66590003",
+      "display" : "Alcohol dependence"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160580001",
+      "display" : "Alcohol consumption unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "83261004"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Unable to find code 83261004 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code '83261004' in the system 'http://snomed.info/sct'; The provided code http://snomed.info/sct#83261004 is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
+  "class" : "UNKNOWN"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -106,7 +163,108 @@ e: {
   }
 }}####
 e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:017e6251-3945-45e5-9700-56342a80d88c",
+    "timestamp" : "2023-06-27T14:35:02.816Z",
+    "total" : 16,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "22298006",
+      "display" : "Myocardial infarction"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "42343007",
+      "display" : "Congestive heart failure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "400047006",
+      "display" : "Peripheral vascular disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "230690007",
+      "display" : "Cerebrovascular accident // Cerebrovascular accident  (except hemiplegia) not sure it is excldued.."
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "52448006",
+      "display" : "Dementia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413839001",
+      "display" : "Chronic lung disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105969002",
+      "display" : "Disorder of connective tissue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429040005",
+      "display" : "Ulcer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "235856003",
+      "display" : "Disorder of liver"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "73211009",
+      "display" : "Diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "50582007",
+      "display" : "Hemiplegia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "90708001",
+      "display" : "Kidney diseas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "93143009",
+      "display" : "Leukemia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "118600007",
+      "display" : "Malignant lymphoma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "109989006",
+      "display" : "Multiple myeloma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "62479008",
+      "display" : "Acquired immune deficiency syndrome"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -131,7 +289,48 @@ e: {
   }
 }}####
 e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d8337aff-7813-4d2d-b7c2-d3e21b44974b",
+    "timestamp" : "2023-06-27T14:35:03.176Z",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "254505000",
+      "display" : "Tumour of aryepiglottic fold - hypopharyngeal aspect"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126687001",
+      "display" : "Neoplasm of postcricoid region"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126691006",
+      "display" : "Neoplasm of posterior hypopharyngeal wall"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126688006",
+      "display" : "Neoplasm of pyriform sinus"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -156,7 +355,48 @@ e: {
   }
 }}####
 e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:17e470ea-ce70-4416-8c37-8486c99888f6",
+    "timestamp" : "2023-06-27T14:35:03.348Z",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "126693009",
+      "display" : "Neoplasm of glottis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126696001",
+      "display" : "Neoplasm of subglottis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126697005",
+      "display" : "Neoplasm of supraglottis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254528004",
+      "display" : "Tumor of laryngeal cartilage"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -187,7 +427,58 @@ e: {
   }
 }}####
 e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:358e75c5-8f54-41e8-a02d-a4ea6b1bed81",
+    "timestamp" : "2023-06-27T14:35:03.519Z",
+    "total" : 6,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "254389005",
+      "display" : "Carcinoma of vermilion border of upper lip"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "92795001",
+      "display" : "Carcinoma in situ of vermilion border of lip"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254390001",
+      "display" : "Carcinoma of lipstick area of lower lip"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "187606005",
+      "display" : "Malignant tumour of oral aspect of upper lip"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "271568003",
+      "display" : "Malig neoplasm of lower lip, oral aspect"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "187622006",
+      "display" : "Malignant tumor of labial mucosa"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -215,7 +506,53 @@ e: {
   }
 }}####
 e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:224685ef-c6d0-499e-b02b-f602913c5f13",
+    "timestamp" : "2023-06-27T14:35:03.707Z",
+    "total" : 5,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "126670003",
+      "display" : "Neoplasm of nasal cavity"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126676009",
+      "display" : "Neoplasm of maxillary sinus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126677000",
+      "display" : "Neoplasm of ethmoidal sinus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126678005",
+      "display" : "Neoplasm of frontal sinus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126679002",
+      "display" : "Neoplasm of sphenoidal sinus"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -240,7 +577,48 @@ e: {
   }
 }}####
 e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:bfdfc817-9fc5-40f3-b4ba-67d057fe3fde",
+    "timestamp" : "2023-06-27T14:35:03.879Z",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "126684008",
+      "display" : "Neoplasm of anterior wall of nasopharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126683002",
+      "display" : "Neoplasm of lateral wall of nasopharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126682007",
+      "display" : "Neoplasm of posterior wall of nasopharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126681000",
+      "display" : "Neoplasm of superior wall of nasopharynx"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -277,7 +655,68 @@ e: {
   }
 }}####
 e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d2799475-5be4-448e-8944-32e276e042a4",
+    "timestamp" : "2023-06-27T14:35:04.051Z",
+    "total" : 8,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "275490009",
+      "display" : "Carcinoma of tongue base - dorsal surface"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "92768006",
+      "display" : "Carcinoma in situ of tip AND/OR lateral border of tongue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "275394001",
+      "display" : "Carcinoma ventral surface of tongue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126804008",
+      "display" : "Neoplasm of retromolar area"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254424004",
+      "display" : "Carcinoma of upper gum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254425003",
+      "display" : "Carcinoma of lower gum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254426002",
+      "display" : "Tumour of anterior floor of mouth"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254430004",
+      "display" : "Tumor of lateral floor of mouth"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -323,7 +762,83 @@ e: {
   }
 }}####
 e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:8bbcfda8-225d-48c0-a74a-aa04de16b070",
+    "timestamp" : "2023-06-27T14:35:04.254Z",
+    "total" : 11,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "126813005",
+      "display" : "Neoplasm of anterior aspect of epiglottis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126779009",
+      "display" : "Neoplasm of base of tongue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126815003",
+      "display" : "Neoplasm of lateral wall of oropharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126816002",
+      "display" : "Neoplasm of posterior wall of oropharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126811007",
+      "display" : "Neoplasm of tonsillar pillar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126807001",
+      "display" : "Neoplasm of soft palate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126808006",
+      "display" : "Neoplasm of uvula"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126810008",
+      "display" : "Neoplasm of tonsillar fossa"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126812000",
+      "display" : "Neoplasm of vallecula"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "448868009",
+      "display" : "Malignant neoplasm of lateral wall of oropharynx (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "363396004",
+      "display" : "Malignant tumour of branchial cleft"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -354,7 +869,58 @@ e: {
   }
 }}####
 e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:e3ecbc36-6d79-454a-8f95-4cec780debb5",
+    "timestamp" : "2023-06-27T14:35:04.910Z",
+    "total" : 6,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "126670003",
+      "display" : "Neoplasm of nasal cavity"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126680004",
+      "display" : "Neoplasm of nasopharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126788000",
+      "display" : "Neoplasm of parotid gland"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126789008",
+      "display" : "Neoplasm of submaxillary gland"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126790004",
+      "display" : "Neoplasm of sublingual gland"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "127006003",
+      "display" : "Neoplasm of middle ear"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -376,6 +942,2198 @@ e: {
   }
 }}####
 e: {
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:0ca0f986-dba9-4a4b-899e-3b890a30ece8",
+    "timestamp" : "2023-06-27T14:35:05.082Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "416237000",
+      "display" : "Procedure not done"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10828004",
+      "display" : "Positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260385009",
+      "display" : "Negative"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "219006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Alcohol user",
+  "code" : "219006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "105542008"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Abstinent",
+  "code" : "105542008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "66590003"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Alcohol dependence",
+  "code" : "66590003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "160580001"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Alcohol consumption unknown",
+  "code" : "160580001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "22298006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Myocardial infarction",
+  "code" : "22298006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "42343007"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Congestive heart failure",
+  "code" : "42343007",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "400047006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Peripheral vascular disease (disorder)",
+  "code" : "400047006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "230690007"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "CVA - Cerebrovascular accident",
+  "code" : "230690007",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "52448006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Dementia",
+  "code" : "52448006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "413839001"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Chronic lung disease (disorder)",
+  "code" : "413839001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "105969002"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Connective tissue disease",
+  "code" : "105969002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "429040005"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Ulcer (disorder)",
+  "code" : "429040005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "235856003"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Hepatopathy",
+  "code" : "235856003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "73211009"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Diabetes mellitus",
+  "code" : "73211009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "50582007"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Hemiplegia",
+  "code" : "50582007",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "90708001"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Kidney disease",
+  "code" : "90708001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "93143009"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Leukaemia",
+  "code" : "93143009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "118600007"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Malignant lymphoma (disorder)",
+  "code" : "118600007",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "109989006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Multiple myeloma (clinical)",
+  "code" : "109989006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "62479008"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "AIDS",
+  "code" : "62479008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "254505000"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tumour of aryepiglottic fold - hypopharyngeal aspect",
+  "code" : "254505000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126687001"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of postcricoid region",
+  "code" : "126687001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126691006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of posterior hypopharyngeal wall",
+  "code" : "126691006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126688006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of pyriform sinus",
+  "code" : "126688006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126693009"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of glottis",
+  "code" : "126693009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126696001"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of subglottis",
+  "code" : "126696001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126697005"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of supraglottis",
+  "code" : "126697005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "254528004"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tumor of laryngeal cartilage",
+  "code" : "254528004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "254389005"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Carcinoma of vermilion border of upper lip",
+  "code" : "254389005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "92795001"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Carcinoma in situ of vermilion border of lip",
+  "code" : "92795001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "254390001"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Carcinoma of lipstick area of lower lip",
+  "code" : "254390001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "187606005"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Malignant tumour of oral aspect of upper lip",
+  "code" : "187606005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "271568003"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Malig neoplasm of lower lip, oral aspect",
+  "code" : "271568003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "187622006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Malignant tumor of labial mucosa",
+  "code" : "187622006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126670003"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of nasal cavity",
+  "code" : "126670003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126676009"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of maxillary sinus",
+  "code" : "126676009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126677000"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of ethmoidal sinus",
+  "code" : "126677000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126678005"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of frontal sinus",
+  "code" : "126678005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126679002"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of sphenoidal sinus",
+  "code" : "126679002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126684008"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of anterior wall of nasopharynx",
+  "code" : "126684008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126683002"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of lateral wall of nasopharynx",
+  "code" : "126683002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126682007"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of posterior wall of nasopharynx",
+  "code" : "126682007",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126681000"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of superior wall of nasopharynx",
+  "code" : "126681000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "275490009"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Carcinoma of tongue base - dorsal surface",
+  "code" : "275490009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "92768006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Carcinoma in situ of tip AND/OR lateral border of tongue",
+  "code" : "92768006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "275394001"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Carcinoma ventral surface of tongue",
+  "code" : "275394001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126804008"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of retromolar area",
+  "code" : "126804008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "254424004"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Carcinoma of upper gum",
+  "code" : "254424004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "254425003"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Carcinoma of lower gum",
+  "code" : "254425003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "254426002"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tumour of anterior floor of mouth",
+  "code" : "254426002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "254430004"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tumor of lateral floor of mouth",
+  "code" : "254430004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126813005"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of anterior aspect of epiglottis",
+  "code" : "126813005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126779009"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of base of tongue",
+  "code" : "126779009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126815003"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of lateral wall of oropharynx",
+  "code" : "126815003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126816002"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of posterior wall of oropharynx",
+  "code" : "126816002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126811007"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of tonsillar pillar",
+  "code" : "126811007",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126807001"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of soft palate",
+  "code" : "126807001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126808006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of uvula",
+  "code" : "126808006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126810008"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of tonsillar fossa",
+  "code" : "126810008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126812000"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of vallecula",
+  "code" : "126812000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "448868009"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Malignant neoplasm of lateral wall of oropharynx (disorder)",
+  "code" : "448868009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "363396004"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Malignant tumour of branchial cleft",
+  "code" : "363396004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126680004"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of nasopharynx",
+  "code" : "126680004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126788000"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of parotid gland",
+  "code" : "126788000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126789008"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of submaxillary gland",
+  "code" : "126789008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126790004"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of sublingual gland",
+  "code" : "126790004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "127006003"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm of middle ear",
+  "code" : "127006003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "416237000"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Procedure not done",
+  "code" : "416237000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "10828004"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Positive",
+  "code" : "10828004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260385009"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Negative",
+  "code" : "260385009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "219006",
+        "display" : "Current drinker of alcohol"
+      },
+      {
+        "code" : "83261004",
+        "display" : "Lifetime non-drinker of alcohol"
+      },
+      {
+        "code" : "105542008",
+        "display" : "Current non-drinker of alcohol"
+      },
+      {
+        "code" : "66590003",
+        "display" : "Alcohol dependence"
+      },
+      {
+        "code" : "160580001",
+        "display" : "Alcohol consumption unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ffeb499a-0819-493e-bdc2-40577cfc273e",
+    "timestamp" : "2023-06-27T14:43:46.708Z",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "219006",
+      "display" : "Current drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105542008",
+      "display" : "Current non-drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "66590003",
+      "display" : "Alcohol dependence"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160580001",
+      "display" : "Alcohol consumption unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "22298006",
+        "display" : "Myocardial infarction"
+      },
+      {
+        "code" : "42343007",
+        "display" : "Congestive heart failure"
+      },
+      {
+        "code" : "400047006",
+        "display" : "Peripheral vascular disease"
+      },
+      {
+        "code" : "230690007",
+        "display" : "Cerebrovascular accident // Cerebrovascular accident  (except hemiplegia) not sure it is excldued.."
+      },
+      {
+        "code" : "52448006",
+        "display" : "Dementia"
+      },
+      {
+        "code" : "413839001",
+        "display" : "Chronic lung disease"
+      },
+      {
+        "code" : "105969002",
+        "display" : "Disorder of connective tissue"
+      },
+      {
+        "code" : "429040005",
+        "display" : "Ulcer"
+      },
+      {
+        "code" : "235856003",
+        "display" : "Disorder of liver"
+      },
+      {
+        "code" : "73211009",
+        "display" : "Diabetes mellitus"
+      },
+      {
+        "code" : "50582007",
+        "display" : "Hemiplegia"
+      },
+      {
+        "code" : "90708001",
+        "display" : "Kidney diseas"
+      },
+      {
+        "code" : "93143009",
+        "display" : "Leukemia"
+      },
+      {
+        "code" : "118600007",
+        "display" : "Malignant lymphoma"
+      },
+      {
+        "code" : "109989006",
+        "display" : "Multiple myeloma"
+      },
+      {
+        "code" : "62479008",
+        "display" : "Acquired immune deficiency syndrome"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:1aa381b4-4408-41ee-af1d-9156219732c2",
+    "timestamp" : "2023-06-27T14:43:48.239Z",
+    "total" : 16,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "22298006",
+      "display" : "Myocardial infarction"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "42343007",
+      "display" : "Congestive heart failure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "400047006",
+      "display" : "Peripheral vascular disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "230690007",
+      "display" : "Cerebrovascular accident // Cerebrovascular accident  (except hemiplegia) not sure it is excldued.."
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "52448006",
+      "display" : "Dementia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413839001",
+      "display" : "Chronic lung disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105969002",
+      "display" : "Disorder of connective tissue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429040005",
+      "display" : "Ulcer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "235856003",
+      "display" : "Disorder of liver"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "73211009",
+      "display" : "Diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "50582007",
+      "display" : "Hemiplegia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "90708001",
+      "display" : "Kidney diseas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "93143009",
+      "display" : "Leukemia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "118600007",
+      "display" : "Malignant lymphoma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "109989006",
+      "display" : "Multiple myeloma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "62479008",
+      "display" : "Acquired immune deficiency syndrome"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "254505000"
+      },
+      {
+        "code" : "126687001"
+      },
+      {
+        "code" : "126691006"
+      },
+      {
+        "code" : "126688006"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:4a436403-f200-4657-901c-d055a11ab0b3",
+    "timestamp" : "2023-06-27T14:43:50.552Z",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "254505000",
+      "display" : "Tumour of aryepiglottic fold - hypopharyngeal aspect"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126687001",
+      "display" : "Neoplasm of postcricoid region"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126691006",
+      "display" : "Neoplasm of posterior hypopharyngeal wall"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126688006",
+      "display" : "Neoplasm of pyriform sinus"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "126693009"
+      },
+      {
+        "code" : "126696001"
+      },
+      {
+        "code" : "126697005"
+      },
+      {
+        "code" : "254528004"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:504e569c-2a66-4888-961b-f532e72dddea",
+    "timestamp" : "2023-06-27T14:43:53.708Z",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "126693009",
+      "display" : "Neoplasm of glottis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126696001",
+      "display" : "Neoplasm of subglottis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126697005",
+      "display" : "Neoplasm of supraglottis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254528004",
+      "display" : "Tumor of laryngeal cartilage"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "254389005"
+      },
+      {
+        "code" : "92795001"
+      },
+      {
+        "code" : "254390001"
+      },
+      {
+        "code" : "187606005"
+      },
+      {
+        "code" : "271568003"
+      },
+      {
+        "code" : "187622006"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:9caf7f63-a05b-4856-9348-31bd62248820",
+    "timestamp" : "2023-06-27T14:43:54.849Z",
+    "total" : 6,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "254389005",
+      "display" : "Carcinoma of vermilion border of upper lip"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "92795001",
+      "display" : "Carcinoma in situ of vermilion border of lip"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254390001",
+      "display" : "Carcinoma of lipstick area of lower lip"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "187606005",
+      "display" : "Malignant tumour of oral aspect of upper lip"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "271568003",
+      "display" : "Malig neoplasm of lower lip, oral aspect"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "187622006",
+      "display" : "Malignant tumor of labial mucosa"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "126670003"
+      },
+      {
+        "code" : "126676009"
+      },
+      {
+        "code" : "126677000"
+      },
+      {
+        "code" : "126678005"
+      },
+      {
+        "code" : "126679002"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:43fdb13b-7bd3-4f7d-946b-7e90523eb311",
+    "timestamp" : "2023-06-27T14:43:56.114Z",
+    "total" : 5,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "126670003",
+      "display" : "Neoplasm of nasal cavity"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126676009",
+      "display" : "Neoplasm of maxillary sinus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126677000",
+      "display" : "Neoplasm of ethmoidal sinus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126678005",
+      "display" : "Neoplasm of frontal sinus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126679002",
+      "display" : "Neoplasm of sphenoidal sinus"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "126684008"
+      },
+      {
+        "code" : "126683002"
+      },
+      {
+        "code" : "126682007"
+      },
+      {
+        "code" : "126681000"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:a0c9d6bb-05d0-446e-9e6d-ab5fee26b6be",
+    "timestamp" : "2023-06-27T14:43:57.536Z",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "126684008",
+      "display" : "Neoplasm of anterior wall of nasopharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126683002",
+      "display" : "Neoplasm of lateral wall of nasopharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126682007",
+      "display" : "Neoplasm of posterior wall of nasopharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126681000",
+      "display" : "Neoplasm of superior wall of nasopharynx"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "275490009"
+      },
+      {
+        "code" : "92768006"
+      },
+      {
+        "code" : "275394001"
+      },
+      {
+        "code" : "126804008"
+      },
+      {
+        "code" : "254424004"
+      },
+      {
+        "code" : "254425003"
+      },
+      {
+        "code" : "254426002"
+      },
+      {
+        "code" : "254430004"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:b5227e06-7c97-4074-8e84-d97707561489",
+    "timestamp" : "2023-06-27T14:43:58.895Z",
+    "total" : 8,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "275490009",
+      "display" : "Carcinoma of tongue base - dorsal surface"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "92768006",
+      "display" : "Carcinoma in situ of tip AND/OR lateral border of tongue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "275394001",
+      "display" : "Carcinoma ventral surface of tongue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126804008",
+      "display" : "Neoplasm of retromolar area"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254424004",
+      "display" : "Carcinoma of upper gum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254425003",
+      "display" : "Carcinoma of lower gum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254426002",
+      "display" : "Tumour of anterior floor of mouth"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254430004",
+      "display" : "Tumor of lateral floor of mouth"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "126813005"
+      },
+      {
+        "code" : "126779009"
+      },
+      {
+        "code" : "126815003"
+      },
+      {
+        "code" : "126816002"
+      },
+      {
+        "code" : "126811007"
+      },
+      {
+        "code" : "126807001"
+      },
+      {
+        "code" : "126808006"
+      },
+      {
+        "code" : "126810008"
+      },
+      {
+        "code" : "126812000"
+      },
+      {
+        "code" : "448868009"
+      },
+      {
+        "code" : "363396004"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:7870e700-d770-46e2-836c-fba071525efc",
+    "timestamp" : "2023-06-27T14:43:59.942Z",
+    "total" : 11,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "126813005",
+      "display" : "Neoplasm of anterior aspect of epiglottis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126779009",
+      "display" : "Neoplasm of base of tongue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126815003",
+      "display" : "Neoplasm of lateral wall of oropharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126816002",
+      "display" : "Neoplasm of posterior wall of oropharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126811007",
+      "display" : "Neoplasm of tonsillar pillar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126807001",
+      "display" : "Neoplasm of soft palate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126808006",
+      "display" : "Neoplasm of uvula"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126810008",
+      "display" : "Neoplasm of tonsillar fossa"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126812000",
+      "display" : "Neoplasm of vallecula"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "448868009",
+      "display" : "Malignant neoplasm of lateral wall of oropharynx (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "363396004",
+      "display" : "Malignant tumour of branchial cleft"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "126670003"
+      },
+      {
+        "code" : "126680004"
+      },
+      {
+        "code" : "126788000"
+      },
+      {
+        "code" : "126789008"
+      },
+      {
+        "code" : "126790004"
+      },
+      {
+        "code" : "127006003"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:772d9aa6-0f3d-440b-a3cf-79f27ff42875",
+    "timestamp" : "2023-06-27T14:44:04.567Z",
+    "total" : 6,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "126670003",
+      "display" : "Neoplasm of nasal cavity"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126680004",
+      "display" : "Neoplasm of nasopharynx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126788000",
+      "display" : "Neoplasm of parotid gland"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126789008",
+      "display" : "Neoplasm of submaxillary gland"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126790004",
+      "display" : "Neoplasm of sublingual gland"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "127006003",
+      "display" : "Neoplasm of middle ear"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "416237000"
+      },
+      {
+        "code" : "10828004"
+      },
+      {
+        "code" : "260385009"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:7449f29a-0f13-436c-9c95-f1df4d07c894",
+    "timestamp" : "2023-06-27T14:44:05.583Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "416237000",
+      "display" : "Procedure not done"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10828004",
+      "display" : "Positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260385009",
+      "display" : "Negative"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
