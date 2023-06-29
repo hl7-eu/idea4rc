@@ -65,8 +65,8 @@ pages:
   #   title: Extensions
   # examples.md:
   #   title: Examples
-  # downloads.html:
-  #   title: Useful Downloads
+  downloads.html:
+    title: Useful Downloads
   # changes.html:
   #   title: IG Change History
 
@@ -78,7 +78,7 @@ menu:
   #   Collaboration diagrams: collaboration.html
   #   Sequence diagrams: sequence.html
     Model Overview: model-overview.html
-    Logical Model: logical-model.html
+    Logical Model: logicalModel.html
     Detailed ERD: model-erd.html
   # Specifications:
   #   Profiles: profiles.html
@@ -126,3 +126,4 @@ groups:
       - StructureDefinition/observation-karnofsky-performance-statuseu-i4rc
       - StructureDefinition/observation-ecog-performance-status-eu-i4rc
       - StructureDefinition/observation-comorbidity-eu-i4rc
+      
