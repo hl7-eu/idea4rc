@@ -32,6 +32,7 @@ license: CC-BY-SA-4.0
 dependencies:
   hl7.fhir.extensions.r5: 4.0.1
   hl7.fhir.us.mcode: current
+  hl7.fhir.uv.ips: current
 
 fhirVersion: 4.0.1
 parameters:
@@ -108,12 +109,12 @@ groups:
     description: Logical models representing the IDEA4RC Common Models
     resources:
       - StructureDefinition/Subject
-      - StructureDefinition/Treatment
-      - StructureDefinition/CancerUnderStudy
-      - StructureDefinition/CancerUnderStudyTreatment
-      - StructureDefinition/ProgressionRelapse      
-      - StructureDefinition/Staging      
-      - StructureDefinition/StagingProcedureandStage
+ #     - StructureDefinition/Treatment
+ #     - StructureDefinition/CancerUnderStudy
+ #     - StructureDefinition/CancerUnderStudyTreatment
+ #     - StructureDefinition/ProgressionRelapse      
+ #     - StructureDefinition/Staging      
+ #     - StructureDefinition/StagingProcedureandStage
 
 
   patientImplementation:

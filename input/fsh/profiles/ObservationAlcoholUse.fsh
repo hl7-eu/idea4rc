@@ -1,7 +1,7 @@
 Profile: ObservationAlcoholUse
 Parent: Observation
 Id: observation-alcoholuse-eu-i4rc
-Title: "Observation: alcohol use"
+Title: "Observation: Alcohol use"
 Description: "This profile constrains the Observation resource to represent alcohol use assessment for the purpose of the IDEA4RC project."
 * code 1..1
 * code = $loinc#11331-6 "History of Alcohol use" // to be checked 

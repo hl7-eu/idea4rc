@@ -1,7 +1,7 @@
 Profile: ObservationTobaccoUseI4rc
 Parent: Observation
 Id: observation-tobaccouse-eu-i4rc
-Title: "Observation: tobacco use"
+Title: "Observation: Tobacco use"
 Description: "This profile constrains the Observation resource to represent Tobacco use assessment for the purpose of the IDEA4RC project."
 * code 1..1
 * code = $loinc#88028-6 "Tobacco use panel"

@@ -35,6 +35,7 @@ RuleSet: MustSupportOnReference(path, refIndex)
 * {path} ^type[0].targetProfile[{refIndex}].extension[0].valueBoolean = true
 
 RuleSet: NotUsed(path)
+* {path} 0..0
 * {path} ^short = "Not used in this profile"
 * {path} ^definition = "Not used in this profile"
 

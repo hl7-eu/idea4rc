@@ -21,7 +21,6 @@ Description: "Describe the primary tumor site"
 * $sct#126670003 // Neoplasm of nasal cavity (disorder)
 * $sct#126680004 // Neoplasm of nasopharynx (disorder)
 * $sct#126788000 // Neoplasm of parotid gland (disorder)
-* $sct#126788000 // Neoplasm of parotid gland (disorder)
 * $sct#126789008 // Neoplasm of submaxillary gland (disorder)
 * $sct#126790004 // Neoplasm of sublingual gland (disorder)
 * $sct#127006003 // Neoplasm of middle ear (disorder)
@@ -84,10 +83,8 @@ Description: "Specifies the subsite for cancers occured in Oropharynx"
 * $sct#126807001 // Neoplasm of soft palate (disorder)
 * $sct#126808006 // Neoplasm of uvula (disorder)
 * $sct#126810008 // Neoplasm of tonsillar fossa (disorder)
-* $sct#126811007 // Neoplasm of tonsillar pillar (disorder)
 * $sct#126812000 // Neoplasm of vallecula (disorder)
 * $sct#448868009 // Malignant neoplasm of lateral wall of oropharynx (disorder)
-* $sct#126816002 // Neoplasm of posterior wall of oropharynx (disorder)
 * $sct#363396004 // Malignant tumor of branchial cleft (disorder)
 
 
