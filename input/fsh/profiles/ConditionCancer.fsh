@@ -221,6 +221,8 @@ This profile should be also used for documenting primary cancer relapses during 
  
   * code = $sct#32895009 "Hereditary disease" // check if it needs to be changed with a Value Set
   /* * code from HereditaryPredispositionDisease */
+  
+  /* 
   * detail only Reference (Condition or Observation or FamilyMemberHistory or DocumentReference)
   * detail.display ^short = "Text alternative for the resource (predisposition)"
   
