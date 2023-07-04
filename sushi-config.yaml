@@ -92,7 +92,39 @@ menu:
      FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
      Report an issue: new-tab https://github.com/hl7-eu/idea4rc/issues
      Downloads: downloads.html
-	
+
+# The resources property corresponds to IG.definition.resource.
+# SUSHI can auto-generate all of the resource entries based on
+# the FSH definitions and/or information in any user-provided
+# JSON or XML resource files. If the generated entries are not
+# sufficient or complete, however, the author can add entries
+# here. If the reference matches a generated entry, it will
+# replace the generated entry. If it doesn't match any generated
+# entries, it will be added to the generated entries. The format
+# follows IG.definition.resource with the following differences:
+#   * use IG.definition.resource.reference.reference as the YAML key.
+#   * if the key is an id or name, SUSHI will replace it with the
+#     correct URL when generating the IG JSON.
+#   * specify "omit" to omit a FSH-generated resource from the
+#     resource list.
+#   * if the exampleCanonical is an id or name, SUSHI will replace
+#     it with the correct canonical when generating the IG JSON.
+#   * groupingId can be used, but top-level groups syntax may be a
+#     better option (see below).
+# The following are simple examples to demonstrate what this might
+# look like:
+
+resources: 
+
+  ConceptMap/cancerEpisode2FHIR:
+    name: Cancer Episode Model to this guide Map
+    description: It shows how the Cancer Episode model is mapped into this guide
+
+  ConceptMap/subject2FHIR:
+    name: Patient (Subject) Model to this guide Map
+    description: It shows how the Patient (Subject) model is mapped into this guide
+
+
   #
 # Groups can control certain aspects of the IG generation.  The IG
 # documentation recommends that authors use the default groups that
@@ -104,18 +136,25 @@ menu:
 # URL when generating the IG JSON.
 
 groups:
-  eHNGuidelines:
+  LogicalModelI4RC:
     name:  IDEA4RC Common Models
     description: Logical models representing the IDEA4RC Common Models
     resources:
       - StructureDefinition/Subject
  #     - StructureDefinition/Treatment
- #     - StructureDefinition/CancerUnderStudy
+      - StructureDefinition/CancerEpisode
  #     - StructureDefinition/CancerUnderStudyTreatment
  #     - StructureDefinition/ProgressionRelapse      
  #     - StructureDefinition/Staging      
  #     - StructureDefinition/StagingProcedureandStage
 
+
+  LogicalModel2FHIR:
+    name:  IDEA4RC Common Models Maps
+    description: Model Mapping from the IDEA4RC Logical models and this guide
+    resources:
+      - ConceptMap/subject2FHIR
+      - ConceptMap/cancerEpisode2FHIR
 
   patientImplementation:
     name:  HL7 FHIR Profile implementing the Subject (Patient) model
@@ -128,3 +167,9 @@ groups:
       - StructureDefinition/observation-ecog-performance-status-eu-i4rc
       - StructureDefinition/observation-comorbidity-eu-i4rc
       
+  cancerEpisodeImplementation:
+    name:  HL7 FHIR Profile implementing the Cancer Episode model
+    description: HL7 FHIR Profile implementing the Cancer Episode model
+    resources:
+      - StructureDefinition/Condition-primaryCancer-eu-i4rc
+      - StructureDefinition/Observation-diagnosis-eu-i4rc

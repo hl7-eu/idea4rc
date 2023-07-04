@@ -197,16 +197,16 @@ This profile should be also used for documenting primary cancer relapses during 
 * evidence ^slicing.description = "Slice based on the coding.code pattern"
 * evidence contains 
 	diagnosisDetails 0..1 
-	and geneticMarker 0..1
+/* 	and geneticMarker 0..1
 	and immunology 0..1
-	and predisposition 0..1
+	and predisposition 0..1 */
 	
 * evidence[diagnosisDetails]
   * ^short = "Diagnosis details"
   /* * code from ICCC3Vs */
   * code ^short = "add binding"
   * detail only Reference (ObservationDiagnosisI4rc)
-* evidence[geneticMarker]
+/* * evidence[geneticMarker]
   * ^short = "Genetic Marker"
   * code = $sct#106221001 "Genetic finding"
   * detail only Reference (Observation or DocumentReference or DiagnosticReport)
@@ -230,7 +230,7 @@ This profile should be also used for documenting primary cancer relapses during 
   * detail ^slicing.description = "Slice based on the reference type"
   * detail contains 
 	observation	0..1 MS
-  * detail[observation] only Reference (ObservationHereditaryPredispositionI4rc)
+  * detail[observation] only Reference (ObservationHereditaryPredispositionI4rc) */
 
 * note ^short = "Additional information about the Cancer Condition"
 
