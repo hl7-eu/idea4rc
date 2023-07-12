@@ -3226,3 +3226,359 @@ v: {
   "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "22298006",
+        "display" : "Myocardial infarction"
+      },
+      {
+        "code" : "42343007",
+        "display" : "Congestive heart failure"
+      },
+      {
+        "code" : "400047006",
+        "display" : "Peripheral vascular disease"
+      },
+      {
+        "code" : "230690007",
+        "display" : "Cerebrovascular accident"
+      },
+      {
+        "code" : "52448006",
+        "display" : "Dementia"
+      },
+      {
+        "code" : "413839001",
+        "display" : "Chronic lung disease"
+      },
+      {
+        "code" : "105969002",
+        "display" : "Disorder of connective tissue"
+      },
+      {
+        "code" : "429040005",
+        "display" : "Ulcer"
+      },
+      {
+        "code" : "235856003",
+        "display" : "Disorder of liver"
+      },
+      {
+        "code" : "73211009",
+        "display" : "Diabetes mellitus"
+      },
+      {
+        "code" : "50582007",
+        "display" : "Hemiplegia"
+      },
+      {
+        "code" : "90708001",
+        "display" : "Kidney diseas"
+      },
+      {
+        "code" : "93143009",
+        "display" : "Leukemia"
+      },
+      {
+        "code" : "118600007",
+        "display" : "Malignant lymphoma"
+      },
+      {
+        "code" : "109989006",
+        "display" : "Multiple myeloma"
+      },
+      {
+        "code" : "62479008",
+        "display" : "Acquired immune deficiency syndrome"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:dc2f78fa-728f-4e81-9b8c-a93e4d101b40",
+    "timestamp" : "2023-07-11T16:08:11.902Z",
+    "total" : 16,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "22298006",
+      "display" : "Myocardial infarction"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "42343007",
+      "display" : "Congestive heart failure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "400047006",
+      "display" : "Peripheral vascular disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "230690007",
+      "display" : "Cerebrovascular accident"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "52448006",
+      "display" : "Dementia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413839001",
+      "display" : "Chronic lung disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105969002",
+      "display" : "Disorder of connective tissue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429040005",
+      "display" : "Ulcer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "235856003",
+      "display" : "Disorder of liver"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "73211009",
+      "display" : "Diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "50582007",
+      "display" : "Hemiplegia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "90708001",
+      "display" : "Kidney diseas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "93143009",
+      "display" : "Leukemia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "118600007",
+      "display" : "Malignant lymphoma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "109989006",
+      "display" : "Multiple myeloma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "62479008",
+      "display" : "Acquired immune deficiency syndrome"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "22298006",
+        "display" : "Myocardial infarction"
+      },
+      {
+        "code" : "42343007",
+        "display" : "Congestive heart failure"
+      },
+      {
+        "code" : "400047006",
+        "display" : "Peripheral vascular disease"
+      },
+      {
+        "code" : "230690007",
+        "display" : "Cerebrovascular accident"
+      },
+      {
+        "code" : "52448006",
+        "display" : "Dementia"
+      },
+      {
+        "code" : "413839001",
+        "display" : "Chronic lung disease"
+      },
+      {
+        "code" : "105969002",
+        "display" : "Disorder of connective tissue"
+      },
+      {
+        "code" : "429040005",
+        "display" : "Ulcer"
+      },
+      {
+        "code" : "235856003",
+        "display" : "Disorder of liver"
+      },
+      {
+        "code" : "73211009",
+        "display" : "Diabetes mellitus"
+      },
+      {
+        "code" : "50582007",
+        "display" : "Hemiplegia"
+      },
+      {
+        "code" : "90708001",
+        "display" : "Kidney diseas"
+      },
+      {
+        "code" : "93143009",
+        "display" : "Leukemia"
+      },
+      {
+        "code" : "118600007",
+        "display" : "Malignant lymphoma"
+      },
+      {
+        "code" : "109989006",
+        "display" : "Multiple myeloma"
+      },
+      {
+        "code" : "62479008",
+        "display" : "Acquired immune deficiency syndrome"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:a82a2126-16fb-49e1-8d6b-3c5494ee2818",
+    "timestamp" : "2023-07-11T16:13:02.604Z",
+    "total" : 16,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "22298006",
+      "display" : "Myocardial infarction"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "42343007",
+      "display" : "Congestive heart failure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "400047006",
+      "display" : "Peripheral vascular disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "230690007",
+      "display" : "Cerebrovascular accident"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "52448006",
+      "display" : "Dementia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413839001",
+      "display" : "Chronic lung disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105969002",
+      "display" : "Disorder of connective tissue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429040005",
+      "display" : "Ulcer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "235856003",
+      "display" : "Disorder of liver"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "73211009",
+      "display" : "Diabetes mellitus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "50582007",
+      "display" : "Hemiplegia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "90708001",
+      "display" : "Kidney diseas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "93143009",
+      "display" : "Leukemia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "118600007",
+      "display" : "Malignant lymphoma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "109989006",
+      "display" : "Multiple myeloma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "62479008",
+      "display" : "Acquired immune deficiency syndrome"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

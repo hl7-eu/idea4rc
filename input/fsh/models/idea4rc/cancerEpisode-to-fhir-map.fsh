@@ -33,7 +33,7 @@ Usage: #definition
 * group[=].element[=].target.code = #Condition.evidence:diagnosisDetails.detail.performer					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "detail  ofType Observation conformsTo http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Observation-diagnosis-eu-i4rc"					
+* group[=].element[=].target.comment = "detail  id ofType Observation and conformsTo http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Observation-diagnosis-eu-i4rc"					
 * group[=].element[+].code = #CancerEpisode.ageAtDiagnosis					
 * group[=].element[=].display = "Age at diagnosis"					
 * group[=].element[=].target.code = #Condition.onsetAge					
@@ -51,7 +51,7 @@ Usage: #definition
 * group[=].element[=].target.code = #Condition.extension:histologyMorphologyBehavior.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "to be checked. How to manage this with the other subgroups. To be seen if a multiconding apporach is sufficient"					
+* group[=].element[=].target.comment = "to be checked. How to manage this with the other subgroups. To be seen if a multiconding approach is sufficient"					
 * group[=].element[+].code = #CancerEpisode.histologySubGroup					
 * group[=].element[=].display = "Histology Subgroups"					
 * group[=].element[=].target.code = #Condition.extension:histologyMorphologyBehavior.valueCodeableConcept					
@@ -132,22 +132,25 @@ Usage: #definition
 * group[=].element[=].target.comment = "see above"					
 * group[=].element[+].code = #CancerEpisode.plasmaticEbvDnaAtBaseline					
 * group[=].element[=].display = "Plasmatic EBV DNA at baseline"					
-* group[=].element[=].target.code = #Condition.evidence:plasmaticEbvDnaAtBaseline					
+* group[=].element[=].target.code = #Condition.evidence:plasmaticEbvDnaAtBaseline.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "not specified yet"					
+* group[=].element[=].target.comment = "Where Observation.code is 43730-1 EBV DNA NAA+probe Qn.
+NOTE : code to be changed !"					
 * group[=].element[+].code = #CancerEpisode.hpvStatus					
 * group[=].element[=].display = "HPV status"					
-* group[=].element[=].target.code = #Condition.evidence:hpvStatus					
+* group[=].element[=].target.code = #Condition.evidence:hpvStatus.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "not specified yet"					
+* group[=].element[=].target.comment = "Where Observation.code is 77377-0 HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]
+NOTE : code to be checked !"					
 * group[=].element[+].code = #CancerEpisode.crpCReactiveProteinTested					
 * group[=].element[=].display = "CRP ? C reactive protein tested "					
-* group[=].element[=].target.code = #Condition.evidence:crpCReactiveProteinTested					
+* group[=].element[=].target.code = #Condition.evidence:crpCReactiveProteinTested.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "not specified yet"					
+* group[=].element[=].target.comment = "Where Observation.code is 11039-5 C reactive protein [Presence] in Serum or Plasma
+NOTE : code to be checked !"					
 //---END					
 //---END					
 //---END					

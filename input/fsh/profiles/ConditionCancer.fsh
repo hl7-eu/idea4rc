@@ -195,17 +195,38 @@ This profile should be also used for documenting primary cancer relapses during 
 * evidence ^slicing.discriminator.path = "code"
 * evidence ^slicing.rules = #open
 * evidence ^slicing.description = "Slice based on the coding.code pattern"
-* evidence contains 
-	diagnosisDetails 0..1 
-/* 	and geneticMarker 0..1
-	and immunology 0..1
-	and predisposition 0..1 */
-	
+* evidence contains diagnosisDetails 0..1 
 * evidence[diagnosisDetails]
   * ^short = "Diagnosis details"
   /* * code from ICCC3Vs */
   * code ^short = "add binding"
   * detail only Reference (ObservationDiagnosisI4rc)
+
+* evidence contains lab-test  1..3 
+* evidence[lab-test]
+  * ^short = "Laboratory Test results"
+  * ^definition = """It includes the results of:
+  - EBV DNA plasma testing before treatment in NPC type II and III (WHO)
+  - HPV tumor testing in oral carcinoma
+  - C reactive protein testing.
+  
+  Positive; Negative; Not tested"""
+  /* * code from ICCC3Vs */
+  * code ^short = "add binding"
+  * detail only Reference (ObservationLabTest) 
+
+/* * evidence contains hpvStatus  0..1 
+* evidence[ hpvStatus ]
+  * ^short = "HPV status"
+  * code ^short = "add binding"
+  * detail only Reference (Observation) // add Profile
+
+* evidence contains crpCReactiveProteinTested  0..1 
+* evidence[ crpCReactiveProteinTested ]
+  * ^short = "CRP C reactive protein tested"
+   * code ^short = "add binding"
+  * detail only Reference (Observation) // add Profile */
+
 /* * evidence[geneticMarker]
   * ^short = "Genetic Marker"
   * code = $sct#106221001 "Genetic finding"

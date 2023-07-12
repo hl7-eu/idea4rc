@@ -6,12 +6,12 @@ Description: "Comorbidities"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = false
+* ^experimental = true
 
 * $sct#22298006 "Myocardial infarction"
 * $sct#42343007 "Congestive heart failure"
 * $sct#400047006 "Peripheral vascular disease"
-* $sct#230690007 "Cerebrovascular accident // Cerebrovascular accident  (except hemiplegia) not sure it is excldued.."
+* $sct#230690007 "Cerebrovascular accident" // Cerebrovascular accident  (except hemiplegia) not sure it is excldued..
 * $sct#52448006 "Dementia"
 * $sct#413839001 "Chronic lung disease" // Chronic pulmonary disease check if  13645005 Chronic obstructive lung disease or 79955004 Chronic cardiopulmonary disease
 * $sct#105969002 "Disorder of connective tissue"

@@ -124,6 +124,22 @@ resources:
     name: Patient (Subject) Model to this guide Map
     description: It shows how the Patient (Subject) model is mapped into this guide
 
+  StructureDefinition/CancerEpisode:
+    name: Cancer Episode
+    description: IDEA4RC Cancer Episode common model
+
+  StructureDefinition/EpisodeEvent:
+    name: Episode Event
+    description: IDEA4RC Episode Event common model
+
+  StructureDefinition/ClinicalStage:
+    name: Clinical Stage
+    description: IDEA4RC Clinical Stage common model
+    
+  StructureDefinition/PathologicalStage:
+    name: Pathological Stage
+    description: IDEA4RC Pathological Stage common model
+
 
   #
 # Groups can control certain aspects of the IG generation.  The IG
@@ -141,12 +157,11 @@ groups:
     description: Logical models representing the IDEA4RC Common Models
     resources:
       - StructureDefinition/Subject
- #     - StructureDefinition/Treatment
       - StructureDefinition/CancerEpisode
- #     - StructureDefinition/CancerUnderStudyTreatment
- #     - StructureDefinition/ProgressionRelapse      
- #     - StructureDefinition/Staging      
- #     - StructureDefinition/StagingProcedureandStage
+      - StructureDefinition/EpisodeEvent
+      - StructureDefinition/ClinicalStage
+      - StructureDefinition/PathologicalStage
+
 
 
   LogicalModel2FHIR:

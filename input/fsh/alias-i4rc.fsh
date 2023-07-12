@@ -9,7 +9,7 @@ Alias: $mcode-related-condition-absent = http://hl7.org/fhir/us/mcode/StructureD
 // Alias: $igUri = http://hl7.eu/fhir/ig/idea4rc
 
 // --- Code Systems
-Alias: $athena = http://athena.ohdsi.org
+Alias: $athena = http://fhir.ohdsi.org/CodeSystem/concepts // http://athena.ohdsi.org
 Alias: $ajcc = http://cancerstaging.org
 Alias: $atc = http://www.whocc.no/atc
 Alias: $dicomOntology = http://dicom.nema.org/resources/ontology/DCM
@@ -31,9 +31,6 @@ Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-cli
 Alias: $product-category = http://hl7.org/fhir/CodeSystem/product-category
 Alias: $plan-definition-type = http://terminology.hl7.org/CodeSystem/plan-definition-type
 Alias: $bcp47 = urn:ietf:bcp:47
-
-
-
 
 
 // --- Value Sets
