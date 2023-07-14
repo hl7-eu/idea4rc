@@ -120,9 +120,21 @@ resources:
     name: Cancer Episode Model to this guide Map
     description: It shows how the Cancer Episode model is mapped into this guide
 
+  ConceptMap/episodeEvent2FHIR:
+    name: Episode Event Model to this guide Map
+    description: It shows how the Episode Event model is mapped into this guide
+
   ConceptMap/subject2FHIR:
     name: Patient (Subject) Model to this guide Map
     description: It shows how the Patient (Subject) model is mapped into this guide
+
+  ConceptMap/clinicalStage2FHIR:
+    name: Clinical Stage Model to this guide Map
+    description: It shows how the Clinical Stage model is mapped into this guide
+
+  ConceptMap/pathologicalStage2FHIR:
+    name: Pathological Stage Model to this guide Map
+    description: It shows how the Pathological Stage model is mapped into this guide
 
   StructureDefinition/CancerEpisode:
     name: Cancer Episode
@@ -162,14 +174,15 @@ groups:
       - StructureDefinition/ClinicalStage
       - StructureDefinition/PathologicalStage
 
-
-
   LogicalModel2FHIR:
     name:  IDEA4RC Common Models Maps
     description: Model Mapping from the IDEA4RC Logical models and this guide
     resources:
       - ConceptMap/subject2FHIR
       - ConceptMap/cancerEpisode2FHIR
+      - ConceptMap/clinicalStage2FHIR
+      - ConceptMap/pathologicalStage2FHIR
+      - ConceptMap/episodeEvent2FHIR
 
   patientImplementation:
     name:  HL7 FHIR Profile implementing the Subject (Patient) model
@@ -182,9 +195,19 @@ groups:
       - StructureDefinition/observation-ecog-performance-status-eu-i4rc
       - StructureDefinition/observation-comorbidity-eu-i4rc
       
-  cancerEpisodeImplementation:
-    name:  HL7 FHIR Profile implementing the Cancer Episode model
-    description: HL7 FHIR Profile implementing the Cancer Episode model
+  cancerEpisodeEventImplementation:
+    name:  HL7 FHIR Profile implementing the Cancer Episode and Episode Event models
+    description: HL7 FHIR Profile implementing the Cancer Episode and Episode Event models
     resources:
       - StructureDefinition/Condition-primaryCancer-eu-i4rc
       - StructureDefinition/Observation-diagnosis-eu-i4rc
+      - StructureDefinition/Condition-secondaryCancer-eu-i4rc
+
+  cancerStageImplementation:
+    name:  HL7 FHIR Profile implementing the Clincal and Pathological Stage models
+    description: HL7 FHIR Profile implementing the Clincal and Pathological Stage models
+    resources:
+      - StructureDefinition/mcode-cancer-stage-group
+      - StructureDefinition/mcode-tnm-primary-tumor-category
+      - StructureDefinition/mcode-tnm-regional-nodes-category
+      - StructureDefinition/mcode-tnm-distant-metastases-category

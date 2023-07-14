@@ -301,10 +301,9 @@ Parent: Observation
 Title: "Observation: Cancer Stage Group"
 Description: "The extent of the cancer in the body, according to a given cancer staging classification system, based on evidence such as physical examination, imaging, and/or biopsy or based on pathologic analysis of a specimen."
 * insert CancerStageCommonRules
-* code ^short = "ADD BINDING"
-* value[x] ^short = "ADD BINDING"
-/* * code from ObservationCodesStageGroupVS (required) 
-* value[x] from CancerStageGroupVS (preferred) */
+
+* code from ObservationCodesStageGroupVS (preferred) 
+* valueCodeableConcept from CancerStageGroupVS (preferred) 
 * hasMember MS
 * hasMember only Reference(Observation)
 * insert ObservationHasMemberSlicingRules
@@ -333,8 +332,8 @@ Title: "Observation: TNM Primary Tumor Category"
 Description: "Category of the primary tumor, based on its size and extent, based on evidence such as physical examination, imaging, and/or biopsy."
 * insert CancerStageCommonRules
 * insert NotUsed(hasMember)
-/* * code from ObservationCodesPrimaryTumorVS (required)
-* value[x] from TNMPrimaryTumorCategoryVS (preferred) */
+* code from ObservationCodesPrimaryTumorVS (required)
+* value[x] from TNMPrimaryTumorCategoryVS (preferred)
 
 * code ^short = "add binding"
 * value[x] ^short = "add binding"
@@ -346,11 +345,10 @@ Title: "Observation: TNM Regional Nodes Category"
 Description: "Category of the presence or absence of metastases in regional lymph nodes, based on evidence such as physical examination, imaging, and/or biopsy."
 * insert CancerStageCommonRules
 * insert NotUsed(hasMember)
-/* * code from ObservationCodesRegionalNodesVS (required)
-* value[x] from TNMRegionalNodesCategoryVS (preferred) */
-
-* code ^short = "ADD BINDING"
-* value[x] ^short = "ADD BINDING"
+* code from ObservationCodesRegionalNodesVS (required)
+* value[x] from TNMRegionalNodesCategoryVS (preferred)
+* code from ObservationCodesRegionalNodesVS (required)
+* value[x] from TNMRegionalNodesCategoryVS (preferred)
 
 
 Profile:  TNMDistantMetastasesCategory
@@ -360,8 +358,8 @@ Title: "Observation: TNM Distant Metastases Category"
 Description: "Category describing the extent of a tumor metastasis in remote anatomical locations, based on evidence such as physical examination, imaging, and/or biopsy."
 * insert CancerStageCommonRules
 * insert NotUsed(hasMember)
-/* * code from ObservationCodesDistantMetastasesVS (required)
-* value[x] from TNMDistantMetastasesCategoryVS (preferred) */
+* code from ObservationCodesDistantMetastasesVS (required)
+* value[x] from TNMDistantMetastasesCategoryVS (preferred)
 
-* code ^short = "ADD BINDING"
-* value[x] ^short = "ADD BINDING"
+* code from ObservationCodesDistantMetastasesVS (required)
+* value[x] from TNMDistantMetastasesCategoryVS (preferred)

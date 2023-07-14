@@ -885,3 +885,695 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21907-1",
+        "display" : "Distant metastases.clinical [Class] Cancer"
+      },
+      {
+        "code" : "21901-4",
+        "display" : "Distant metastases.pathology [Class] Cancer"
+      },
+      {
+        "code" : "21913-9",
+        "display" : "Distant metastases.other [Class] Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:cc0c2d1b-938b-4d55-ab00-5a7ebbe29be0",
+    "timestamp" : "2023-07-14T17:19:31.728Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21907-1",
+      "display" : "Distant metastases.clinical [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21901-4",
+      "display" : "Distant metastases.pathology [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21913-9",
+      "display" : "Distant metastases.other [Class] Cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21905-5",
+        "display" : "Primary tumor.clinical [Class] Cancer"
+      },
+      {
+        "code" : "21899-0",
+        "display" : "Primary tumor.pathology Cancer"
+      },
+      {
+        "code" : "21911-3",
+        "display" : "Primary tumor.other [Class] Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:a46e6310-1824-4f6f-a874-385d9d526420",
+    "timestamp" : "2023-07-14T17:19:31.885Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21905-5",
+      "display" : "Primary tumor.clinical [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21899-0",
+      "display" : "Primary tumor.pathology Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21911-3",
+      "display" : "Primary tumor.other [Class] Cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21906-3",
+        "display" : "Regional lymph nodes.clinical [Class] Cancer"
+      },
+      {
+        "code" : "21900-6",
+        "display" : "Regional lymph nodes.pathology [Class] Cancer"
+      },
+      {
+        "code" : "21912-1",
+        "display" : "Regional lymph nodes.other [Class] Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:fdc4a284-e180-4bdd-a330-5745ed49909f",
+    "timestamp" : "2023-07-14T17:19:32.041Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21906-3",
+      "display" : "Regional lymph nodes.clinical [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21900-6",
+      "display" : "Regional lymph nodes.pathology [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21912-1",
+      "display" : "Regional lymph nodes.other [Class] Cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21908-9",
+        "display" : "Stage group.clinical Cancer"
+      },
+      {
+        "code" : "21902-2",
+        "display" : "Stage group.pathology Cancer"
+      },
+      {
+        "code" : "21914-7",
+        "display" : "Stage group.other Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:e4c69d3d-d06d-4b00-a898-c834f3cc78ca",
+    "timestamp" : "2023-07-14T17:19:32.181Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21908-9",
+      "display" : "Stage group.clinical Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21902-2",
+      "display" : "Stage group.pathology Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21914-7",
+      "display" : "Stage group.other Cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21907-1"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Distant metastases.clinical [Class] Cancer",
+  "code" : "21907-1",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21901-4"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Distant metastases.pathology [Class] Cancer",
+  "code" : "21901-4",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21913-9"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Distant metastases.other [Class] Cancer",
+  "code" : "21913-9",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21905-5"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Primary tumor.clinical [Class] Cancer",
+  "code" : "21905-5",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21899-0"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Primary tumor.pathology Cancer",
+  "code" : "21899-0",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21911-3"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Primary tumor.other [Class] Cancer",
+  "code" : "21911-3",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21906-3"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Regional lymph nodes.clinical [Class] Cancer",
+  "code" : "21906-3",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21900-6"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Regional lymph nodes.pathology [Class] Cancer",
+  "code" : "21900-6",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21912-1"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Regional lymph nodes.other [Class] Cancer",
+  "code" : "21912-1",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21908-9"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Stage group.clinical Cancer",
+  "code" : "21908-9",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21902-2"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Stage group.pathology Cancer",
+  "code" : "21902-2",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21914-7"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Stage group.other Cancer",
+  "code" : "21914-7",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21907-1",
+        "display" : "Distant metastases.clinical [Class] Cancer"
+      },
+      {
+        "code" : "21901-4",
+        "display" : "Distant metastases.pathology [Class] Cancer"
+      },
+      {
+        "code" : "21913-9",
+        "display" : "Distant metastases.other [Class] Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:0e75965a-0387-4a61-a037-ea7f978cec4a",
+    "timestamp" : "2023-07-14T17:22:37.385Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21907-1",
+      "display" : "Distant metastases.clinical [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21901-4",
+      "display" : "Distant metastases.pathology [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21913-9",
+      "display" : "Distant metastases.other [Class] Cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21905-5",
+        "display" : "Primary tumor.clinical [Class] Cancer"
+      },
+      {
+        "code" : "21899-0",
+        "display" : "Primary tumor.pathology Cancer"
+      },
+      {
+        "code" : "21911-3",
+        "display" : "Primary tumor.other [Class] Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:a1b339b8-e5db-499d-81db-1fe88eb5e308",
+    "timestamp" : "2023-07-14T17:22:37.791Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21905-5",
+      "display" : "Primary tumor.clinical [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21899-0",
+      "display" : "Primary tumor.pathology Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21911-3",
+      "display" : "Primary tumor.other [Class] Cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21906-3",
+        "display" : "Regional lymph nodes.clinical [Class] Cancer"
+      },
+      {
+        "code" : "21900-6",
+        "display" : "Regional lymph nodes.pathology [Class] Cancer"
+      },
+      {
+        "code" : "21912-1",
+        "display" : "Regional lymph nodes.other [Class] Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:e3455a8c-37a2-4d1e-bd3e-f745cb3f3884",
+    "timestamp" : "2023-07-14T17:22:38.166Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21906-3",
+      "display" : "Regional lymph nodes.clinical [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21900-6",
+      "display" : "Regional lymph nodes.pathology [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21912-1",
+      "display" : "Regional lymph nodes.other [Class] Cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21908-9",
+        "display" : "Stage group.clinical Cancer"
+      },
+      {
+        "code" : "21902-2",
+        "display" : "Stage group.pathology Cancer"
+      },
+      {
+        "code" : "21914-7",
+        "display" : "Stage group.other Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:17686e2f-1004-4d60-9952-8d2de6b65435",
+    "timestamp" : "2023-07-14T17:22:38.526Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21908-9",
+      "display" : "Stage group.clinical Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21902-2",
+      "display" : "Stage group.pathology Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21914-7",
+      "display" : "Stage group.other Cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
