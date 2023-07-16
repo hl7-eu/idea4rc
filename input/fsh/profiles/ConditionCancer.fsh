@@ -13,7 +13,7 @@ RuleSet: CancerConditionCommonRules
 
 * extension[histologyMorphologyBehavior].value[x]
 
-/* * extension[histologyMorphologyBehavior].value[x] from ICDO3MorphologyVs (required) */
+/* * extension[histologyMorphologyBehavior].value[x] from VsICDO3Morphology (required) */
 * extension[previousStatus]
 /* * extension[relapseType].value[x] from RelapseTypeVS (preferred) */
 * extension[relapseType].value[x]
@@ -174,7 +174,7 @@ This profile should be also used for documenting primary cancer relapses during 
 * code.coding contains 
 	iccc3-classification 0..1 MS 
 	and exceptions 0..1
-* code.coding[iccc3-classification] from ICCC3Vs
+* code.coding[iccc3-classification] from VsICCC3
 * code.coding[exceptions] from $v3-ClassNullFlavor */
 
 * onset[x] MS
@@ -198,7 +198,7 @@ This profile should be also used for documenting primary cancer relapses during 
 * evidence contains diagnosisDetails 0..1 
 * evidence[diagnosisDetails]
   * ^short = "Diagnosis details"
-  /* * code from ICCC3Vs */
+  /* * code from VsICCC3 */
   * code ^short = "add binding"
   * detail only Reference (ObservationDiagnosisI4rc)
 
@@ -211,7 +211,7 @@ This profile should be also used for documenting primary cancer relapses during 
   - C reactive protein testing.
   
   Positive; Negative; Not tested"""
-  /* * code from ICCC3Vs */
+  /* * code from VsICCC3 */
   * code ^short = "add binding"
   * detail only Reference (ObservationLabTest) 
 

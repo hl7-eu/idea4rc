@@ -1,7 +1,7 @@
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsRaceI4RC
-Id: valueSet-Race-i4rc
+Id: Race-i4rc
 Title: "Race"
 Description: "Race value set based on the Athena system"
 //-------------------------------------------------------------------------------------------

@@ -13,4 +13,4 @@ Description: "This profile constrains the Observation resource to represent Lab 
 * effective[x].extension[data-absent-reason] ^short = "effective[x] absence reason"
 * effective[x].extension[data-absent-reason] ^definition = "Provides a reason why the effectiveTime is missing." */
 * valueCodeableConcept 1..
-* valueCodeableConcept from VsPositiveNegativeNottestedI4RC
+* valueCodeableConcept from VsPositiveNegativeNTAthenaI4RC

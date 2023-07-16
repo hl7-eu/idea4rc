@@ -1,0 +1,11 @@
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsPlasmaticEBVDNAatBaselineI4RC
+Id: plasmatic-ebv-dna-baseline-i4rc
+Title: "Plasmatic EBV DNA at baseline"
+Description: "Describes the result of EBV DNA plasma testing before treatment in NPC type II and III"
+//-------------------------------------------------------------------------------------------
+
+
+* $athena#9191 "positive"
+* $athena#9189 "negative"
+* $athena#45878602 "not tested"

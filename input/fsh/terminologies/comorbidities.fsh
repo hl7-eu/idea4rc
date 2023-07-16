@@ -1,6 +1,6 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsComorbiditiesI4RC
-Id: valueSet-comorbidities-eu-i4rc
+Id: comorbidities-eu-i4rc
 Title: "Comorbidities"
 Description: "Comorbidities"
 //-------------------------------------------------------------------------------------------

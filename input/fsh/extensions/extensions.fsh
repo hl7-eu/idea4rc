@@ -82,7 +82,7 @@ by the maximum energy, the maximum accelaration voltage, or the used isotope. Th
 * value[x] only CodeableConcept or SimpleQuantity
 * valueQuantity 0..1
 * valueQuantity only SimpleQuantity
-/* * valueQuantity from RadioUnitsVs (required) */
+/* * valueQuantity from VsRadioUnits (required) */
 * valueQuantity ^short = "The spectrum of radiation energy characterized by a maximum value.\nFor electrons, the maximum energy is given in MeV. For photons, the maximum acceleration voltage is given in MV or kV, although those are not units of energy."
 * valueCodeableConcept 0..1
 * valueCodeableConcept only CodeableConcept
@@ -97,7 +97,7 @@ Description: "Organs are 'sacrified' either to allow a radical excision of the t
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * insert ExtensionContext(Procedure)
 * value[x] only CodeableConcept 
-/* * valueCodeableConcept from SacrifiedOrganVs (extensible) */
+/* * valueCodeableConcept from VsSacrifiedOrgan (extensible) */
 
 // ------------------------------------
 
@@ -168,7 +168,7 @@ Description: "An extension describing the morphologic and behavioral characteris
 * mcode-histology-morphology-behavior
 * insert ExtensionContext(Condition)
 * value[x] only CodeableConcept
-* value[x] from ICDO3MorphologyVs (required)
+* value[x] from VsICDO3Morphology (required)
 * value[x] 1..1
 ===== END */
 

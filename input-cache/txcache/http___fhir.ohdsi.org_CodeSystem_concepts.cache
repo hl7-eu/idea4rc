@@ -107,7 +107,7 @@ e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/valueSet-pos-neg-nottested-eu-i4rc", "version": "0.1.0"}####
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pos-neg-nottested-eu-i4rc", "version": "0.1.0"}####
 e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
@@ -145,7 +145,7 @@ e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/valueSet-Race-i4rc", "version": "0.1.0"}####
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/Race-i4rc", "version": "0.1.0"}####
 e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
@@ -175,7 +175,605 @@ e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/valueSet-tobacco-product-eu-i4rc", "version": "0.1.0"}####
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/tobacco-product-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4147741",
+        "display" : "postcricoid region"
+      },
+      {
+        "code" : "4262980",
+        "display" : "hypopharyngeal aspect of aryepiglottic fold"
+      },
+      {
+        "code" : "4102600",
+        "display" : "posterior wall of hypopharynx"
+      },
+      {
+        "code" : "4268741",
+        "display" : "pyriform sinus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4047227",
+        "display" : "glottis"
+      },
+      {
+        "code" : "4177005",
+        "display" : "supraglottis"
+      },
+      {
+        "code" : "4002724",
+        "display" : "subglottis"
+      },
+      {
+        "code" : "4279711",
+        "display" : "laryngeal cartilage"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4027546",
+        "display" : "external lower lip"
+      },
+      {
+        "code" : "4134589",
+        "display" : "external upper lip"
+      },
+      {
+        "code" : "4027545",
+        "display" : "external lip"
+      },
+      {
+        "code" : "36769700",
+        "display" : "mucosa of upper lip"
+      },
+      {
+        "code" : "36768548",
+        "display" : "mucosa of lower lip"
+      },
+      {
+        "code" : "4245168",
+        "display" : "mucosa of lip"
+      },
+      {
+        "code" : "4307358",
+        "display" : "commisure of lip"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4088327",
+        "display" : "nasal cavity"
+      },
+      {
+        "code" : "4050631",
+        "display" : "maxillary sinus"
+      },
+      {
+        "code" : "4182234",
+        "display" : "ethmoid sinus"
+      },
+      {
+        "code" : "4204534",
+        "display" : "frontal sinus"
+      },
+      {
+        "code" : "4097172",
+        "display" : "sphenoid sinus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4068978",
+        "display" : "superior wall of nasopharynx"
+      },
+      {
+        "code" : "4146741",
+        "display" : "posterior wall of nasopharynx"
+      },
+      {
+        "code" : "4323979",
+        "display" : "lateral wall of nasopharynx"
+      },
+      {
+        "code" : "4220236",
+        "display" : "anterior wall of nasopharynx"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "36769609",
+        "display" : "dorsal surface tongue"
+      },
+      {
+        "code" : "4077986",
+        "display" : "border of tongue"
+      },
+      {
+        "code" : "4172794",
+        "display" : "ventral surface of tongue"
+      },
+      {
+        "code" : "4047029",
+        "display" : "upper gum"
+      },
+      {
+        "code" : "4210919",
+        "display" : "lower gum"
+      },
+      {
+        "code" : "4181419",
+        "display" : "anterior floor of mouth"
+      },
+      {
+        "code" : "4103066",
+        "display" : "lateral floor of mouth"
+      },
+      {
+        "code" : "44498949",
+        "display" : "overlapping lesion of floor of mouth"
+      },
+      {
+        "code" : "4234542",
+        "display" : "hard palate"
+      },
+      {
+        "code" : "4057160",
+        "display" : "cheek mucosa"
+      },
+      {
+        "code" : "4144069",
+        "display" : "vestibule of mouth"
+      },
+      {
+        "code" : "36769865",
+        "display" : "retromolar area"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4169910",
+        "display" : "base of tongue"
+      },
+      {
+        "code" : "4177005",
+        "display" : "soft palate NOS"
+      },
+      {
+        "code" : "4095284",
+        "display" : "Uvula"
+      },
+      {
+        "code" : "4138234",
+        "display" : "tonsilla fossa"
+      },
+      {
+        "code" : "4068841",
+        "display" : "lingual tonsil"
+      },
+      {
+        "code" : "4065073",
+        "display" : "tonsillar pillar"
+      },
+      {
+        "code" : "4173123",
+        "display" : "Vallecula"
+      },
+      {
+        "code" : "4283238",
+        "display" : "anterior surface of epiglottis"
+      },
+      {
+        "code" : "4078066",
+        "display" : "lateral wall oropharynx"
+      },
+      {
+        "code" : "4045435",
+        "display" : "posterior wall oropharynx"
+      },
+      {
+        "code" : "4235649",
+        "display" : "branchial cleft"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4147741",
+        "display" : "postcricoid region"
+      },
+      {
+        "code" : "4262980",
+        "display" : "hypopharyngeal aspect of aryepiglottic fold"
+      },
+      {
+        "code" : "4102600",
+        "display" : "posterior wall of hypopharynx"
+      },
+      {
+        "code" : "4268741",
+        "display" : "pyriform sinus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/hypopharynx-subsite-athena-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4047227",
+        "display" : "glottis"
+      },
+      {
+        "code" : "4177005",
+        "display" : "supraglottis"
+      },
+      {
+        "code" : "4002724",
+        "display" : "subglottis"
+      },
+      {
+        "code" : "4279711",
+        "display" : "laryngeal cartilage"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/larynx-subsite-athena-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4027546",
+        "display" : "external lower lip"
+      },
+      {
+        "code" : "4134589",
+        "display" : "external upper lip"
+      },
+      {
+        "code" : "4027545",
+        "display" : "external lip"
+      },
+      {
+        "code" : "36769700",
+        "display" : "mucosa of upper lip"
+      },
+      {
+        "code" : "36768548",
+        "display" : "mucosa of lower lip"
+      },
+      {
+        "code" : "4245168",
+        "display" : "mucosa of lip"
+      },
+      {
+        "code" : "4307358",
+        "display" : "commisure of lip"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/lip-subsite-athena-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4088327",
+        "display" : "nasal cavity"
+      },
+      {
+        "code" : "4050631",
+        "display" : "maxillary sinus"
+      },
+      {
+        "code" : "4182234",
+        "display" : "ethmoid sinus"
+      },
+      {
+        "code" : "4204534",
+        "display" : "frontal sinus"
+      },
+      {
+        "code" : "4097172",
+        "display" : "sphenoid sinus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/nasal-paranasal-subsite-athena-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4068978",
+        "display" : "superior wall of nasopharynx"
+      },
+      {
+        "code" : "4146741",
+        "display" : "posterior wall of nasopharynx"
+      },
+      {
+        "code" : "4323979",
+        "display" : "lateral wall of nasopharynx"
+      },
+      {
+        "code" : "4220236",
+        "display" : "anterior wall of nasopharynx"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/nasopharynx-subsite-athena-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "36769609",
+        "display" : "dorsal surface tongue"
+      },
+      {
+        "code" : "4077986",
+        "display" : "border of tongue"
+      },
+      {
+        "code" : "4172794",
+        "display" : "ventral surface of tongue"
+      },
+      {
+        "code" : "4047029",
+        "display" : "upper gum"
+      },
+      {
+        "code" : "4210919",
+        "display" : "lower gum"
+      },
+      {
+        "code" : "4181419",
+        "display" : "anterior floor of mouth"
+      },
+      {
+        "code" : "4103066",
+        "display" : "lateral floor of mouth"
+      },
+      {
+        "code" : "44498949",
+        "display" : "overlapping lesion of floor of mouth"
+      },
+      {
+        "code" : "4234542",
+        "display" : "hard palate"
+      },
+      {
+        "code" : "4057160",
+        "display" : "cheek mucosa"
+      },
+      {
+        "code" : "4144069",
+        "display" : "vestibule of mouth"
+      },
+      {
+        "code" : "36769865",
+        "display" : "retromolar area"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/oralCavity-subsite-athena-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4169910",
+        "display" : "base of tongue"
+      },
+      {
+        "code" : "4177005",
+        "display" : "soft palate NOS"
+      },
+      {
+        "code" : "4095284",
+        "display" : "Uvula"
+      },
+      {
+        "code" : "4138234",
+        "display" : "tonsilla fossa"
+      },
+      {
+        "code" : "4068841",
+        "display" : "lingual tonsil"
+      },
+      {
+        "code" : "4065073",
+        "display" : "tonsillar pillar"
+      },
+      {
+        "code" : "4173123",
+        "display" : "Vallecula"
+      },
+      {
+        "code" : "4283238",
+        "display" : "anterior surface of epiglottis"
+      },
+      {
+        "code" : "4078066",
+        "display" : "lateral wall oropharynx"
+      },
+      {
+        "code" : "4045435",
+        "display" : "posterior wall oropharynx"
+      },
+      {
+        "code" : "4235649",
+        "display" : "branchial cleft"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/oropharynx-subsite-athena-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pos-neg-nt-athena-eu-i4rc", "version": "0.1.0"}####
 e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }

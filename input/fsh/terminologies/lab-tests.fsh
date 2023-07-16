@@ -1,6 +1,6 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsLabTestI4RC
-Id: valueSet-lab-test-eu-i4rc
+Id: lab-test-eu-i4rc
 Title: "Laboratory tests"
 Description: """Laboratory tests:
   - EBV DNA plasma testing before treatment in NPC type II and III (WHO)
@@ -17,10 +17,10 @@ Description: """Laboratory tests:
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsPositiveNegativeNottestedI4RC
-Id: valueSet-pos-neg-nottested-eu-i4rc
-Title: "Positive-Negative-Not tested"
-Description: """Laboratory test results: Positive-Negative-Not tested"""
+ValueSet: VsPositiveNegativeNTAthenaI4RC
+Id: pos-neg-nt-athena-eu-i4rc
+Title: "Positive-Negative-No Test: Athena"
+Description: """Laboratory test results: Positive-Negative-Not tested: Athena"""
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
@@ -29,3 +29,15 @@ Description: """Laboratory test results: Positive-Negative-Not tested"""
 * $athena#9191 "Positive" 
 * $athena#9189 "Negative" 
 * $athena#45878602 "Not tested"
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsPositiveNegativeNTSnomedI4RC
+Id: pos-neg-nt-sct-eu-i4rc
+Title: "Positive-Negative-No Test: Snomed CT"
+Description: """Laboratory test results: Positive-Negative-Not tested: Snomed CT"""
+
+//-------------------------------------------------------------------------------------------
+
+* $sct#416237000 // patient not tested (situation)
+* $sct#10828004 // positive patient (qualifier value)
+* $sct#260385009 // negative patient (qualifier value)
