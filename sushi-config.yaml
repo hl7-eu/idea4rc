@@ -136,6 +136,10 @@ resources:
     name: Pathological Stage Model to this guide Map
     description: It shows how the Pathological Stage model is mapped into this guide
 
+  StructureDefinition/Subject:
+    name: Patient
+    description: IDEA4RC Patient common model
+  
   StructureDefinition/CancerEpisode:
     name: Cancer Episode
     description: IDEA4RC Cancer Episode common model
@@ -151,7 +155,18 @@ resources:
   StructureDefinition/PathologicalStage:
     name: Pathological Stage
     description: IDEA4RC Pathological Stage common model
-
+    
+  StructureDefinition/SystemicTreatment:
+    name: Systemic Treatment
+    description: IDEA4RC Systemic Treatment common model
+    
+  StructureDefinition/Surgery:
+    name: Surgery
+    description: IDEA4RC Surgery common model
+        
+  StructureDefinition/Radiotherapy:
+    name: Radiotherapy
+    description: IDEA4RC Radiotherapy common model
 
   #
 # Groups can control certain aspects of the IG generation.  The IG
@@ -173,6 +188,9 @@ groups:
       - StructureDefinition/EpisodeEvent
       - StructureDefinition/ClinicalStage
       - StructureDefinition/PathologicalStage
+      - StructureDefinition/SystemicTreatment
+      - StructureDefinition/Surgery
+      - StructureDefinition/Radiotherapy
 
   LogicalModel2FHIR:
     name:  IDEA4RC Common Models Maps

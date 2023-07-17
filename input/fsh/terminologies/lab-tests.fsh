@@ -31,6 +31,20 @@ Description: """Laboratory test results: Positive-Negative-Not tested: Athena"""
 * $athena#45878602 "Not tested"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsYesNoUnkAthenaI4RC
+Id: yes-no-unk-athena-eu-i4rc
+Title: "Yes-No-Unk: Athena"
+Description: """Laboratory test results: Yes-No-Unkwnon: Athena"""
+//-------------------------------------------------------------------------------------------
+
+* ^status = #active
+* ^experimental = true
+
+* $athena#4188539 "yes"
+* $athena#4188540 "no"
+* $athena#4129922 "unknown"
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsPositiveNegativeNTSnomedI4RC
 Id: pos-neg-nt-sct-eu-i4rc
 Title: "Positive-Negative-No Test: Snomed CT"
