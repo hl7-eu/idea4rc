@@ -6,16 +6,16 @@
     "include" : [{
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
       "concept" : [{
-        "code" : "9191",
-        "display" : "Positive"
+        "code" : "4100366",
+        "display" : "baseline"
       },
       {
-        "code" : "9189",
-        "display" : "Negative"
+        "code" : "4168352",
+        "display" : "progression"
       },
       {
-        "code" : "45878602",
-        "display" : "Not tested"
+        "code" : "4097297",
+        "display" : "recurrence"
       }]
     }]
   }
@@ -31,151 +31,20 @@ e: {
     "include" : [{
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
       "concept" : [{
-        "code" : "8527",
-        "display" : "White"
+        "code" : "36769946",
+        "display" : "ENE-"
       },
       {
-        "code" : "8516",
-        "display" : "Black"
-      },
-      {
-        "code" : "8515",
-        "display" : "Asian/Pacific Islanders"
-      },
-      {
-        "code" : "8657",
-        "display" : "American Indian/Alaska Native"
+        "code" : "36770618",
+        "display" : "ENE+"
       },
       {
         "code" : "4129922",
-        "display" : "Unknown"
+        "display" : "unknown"
       }]
     }]
   }
 }}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "36716475",
-        "display" : "Cigarettes"
-      },
-      {
-        "code" : "36716476",
-        "display" : "Cigar"
-      },
-      {
-        "code" : "4129922",
-        "display" : "Unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "9191",
-        "display" : "Positive"
-      },
-      {
-        "code" : "9189",
-        "display" : "Negative"
-      },
-      {
-        "code" : "45878602",
-        "display" : "Not tested"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pos-neg-nottested-eu-i4rc", "version": "0.1.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "8527",
-        "display" : "White"
-      },
-      {
-        "code" : "8516",
-        "display" : "Black"
-      },
-      {
-        "code" : "8515",
-        "display" : "Asian/Pacific Islanders"
-      },
-      {
-        "code" : "8657",
-        "display" : "American Indian/Alaska Native"
-      },
-      {
-        "code" : "4129922",
-        "display" : "Unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/Race-i4rc", "version": "0.1.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "36716475",
-        "display" : "Cigarettes"
-      },
-      {
-        "code" : "36716476",
-        "display" : "Cigar"
-      },
-      {
-        "code" : "4129922",
-        "display" : "Unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/tobacco-product-eu-i4rc", "version": "0.1.0"}####
 e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
@@ -455,6 +324,358 @@ e: {
     }]
   }
 }}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4149726",
+        "display" : "M0"
+      },
+      {
+        "code" : "4205430",
+        "display" : "M1"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4195718",
+        "display" : "Nx"
+      },
+      {
+        "code" : "4266674",
+        "display" : "N0"
+      },
+      {
+        "code" : "4203608",
+        "display" : "N1"
+      },
+      {
+        "code" : "4263599",
+        "display" : "N2"
+      },
+      {
+        "code" : "4135247",
+        "display" : "N2a"
+      },
+      {
+        "code" : "4119012",
+        "display" : "N2b"
+      },
+      {
+        "code" : "4118508",
+        "display" : "N2c"
+      },
+      {
+        "code" : "4239307",
+        "display" : "N3"
+      },
+      {
+        "code" : "4240556",
+        "display" : "N3a"
+      },
+      {
+        "code" : "4240557",
+        "display" : "N3b"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4282467",
+        "display" : "Tx"
+      },
+      {
+        "code" : "4195922",
+        "display" : "Tis"
+      },
+      {
+        "code" : "4243213",
+        "display" : "T0"
+      },
+      {
+        "code" : "4052407",
+        "display" : "T1"
+      },
+      {
+        "code" : "4194614",
+        "display" : "T2"
+      },
+      {
+        "code" : "4032012",
+        "display" : "T3"
+      },
+      {
+        "code" : "4278513",
+        "display" : "T4"
+      },
+      {
+        "code" : "4127612",
+        "display" : "T4a"
+      },
+      {
+        "code" : "4129920",
+        "display" : "T4b"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "9191",
+        "display" : "Positive"
+      },
+      {
+        "code" : "9189",
+        "display" : "Negative"
+      },
+      {
+        "code" : "45878602",
+        "display" : "Not tested"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "8527",
+        "display" : "White"
+      },
+      {
+        "code" : "8516",
+        "display" : "Black"
+      },
+      {
+        "code" : "8515",
+        "display" : "Asian/Pacific Islanders"
+      },
+      {
+        "code" : "8657",
+        "display" : "American Indian/Alaska Native"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "87784001",
+        "display" : "soft tissue"
+      },
+      {
+        "code" : "59441001",
+        "display" : "distant lymph node"
+      },
+      {
+        "code" : "39607008",
+        "display" : "lung"
+      },
+      {
+        "code" : "119186007",
+        "display" : "bone"
+      },
+      {
+        "code" : "10200004",
+        "display" : "liver"
+      },
+      {
+        "code" : "3120008",
+        "display" : "pleura"
+      },
+      {
+        "code" : "15425007",
+        "display" : "peritoneum"
+      },
+      {
+        "code" : "12738006",
+        "display" : "brain"
+      },
+      {
+        "code" : "261665006",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "36716475",
+        "display" : "Cigarettes"
+      },
+      {
+        "code" : "36716476",
+        "display" : "Cigar"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4188539",
+        "display" : "yes"
+      },
+      {
+        "code" : "4188540",
+        "display" : "no"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4100366",
+        "display" : "baseline"
+      },
+      {
+        "code" : "4168352",
+        "display" : "progression"
+      },
+      {
+        "code" : "4097297",
+        "display" : "recurrence"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/event-type-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "36769946",
+        "display" : "ENE-"
+      },
+      {
+        "code" : "36770618",
+        "display" : "ENE+"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/extranodal-extension-i4rc", "version": "0.1.0"}####
 e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
@@ -773,184 +994,207 @@ e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4149726",
+        "display" : "M0"
+      },
+      {
+        "code" : "4205430",
+        "display" : "M1"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pathologicalM-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4195718",
+        "display" : "Nx"
+      },
+      {
+        "code" : "4266674",
+        "display" : "N0"
+      },
+      {
+        "code" : "4203608",
+        "display" : "N1"
+      },
+      {
+        "code" : "4263599",
+        "display" : "N2"
+      },
+      {
+        "code" : "4135247",
+        "display" : "N2a"
+      },
+      {
+        "code" : "4119012",
+        "display" : "N2b"
+      },
+      {
+        "code" : "4118508",
+        "display" : "N2c"
+      },
+      {
+        "code" : "4239307",
+        "display" : "N3"
+      },
+      {
+        "code" : "4240556",
+        "display" : "N3a"
+      },
+      {
+        "code" : "4240557",
+        "display" : "N3b"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pathologicalN-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4282467",
+        "display" : "Tx"
+      },
+      {
+        "code" : "4195922",
+        "display" : "Tis"
+      },
+      {
+        "code" : "4243213",
+        "display" : "T0"
+      },
+      {
+        "code" : "4052407",
+        "display" : "T1"
+      },
+      {
+        "code" : "4194614",
+        "display" : "T2"
+      },
+      {
+        "code" : "4032012",
+        "display" : "T3"
+      },
+      {
+        "code" : "4278513",
+        "display" : "T4"
+      },
+      {
+        "code" : "4127612",
+        "display" : "T4a"
+      },
+      {
+        "code" : "4129920",
+        "display" : "T4b"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pathologicalT-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "9191",
+        "display" : "Positive"
+      },
+      {
+        "code" : "9189",
+        "display" : "Negative"
+      },
+      {
+        "code" : "45878602",
+        "display" : "Not tested"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pos-neg-nt-athena-eu-i4rc", "version": "0.1.0"}####
 e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
+{"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
     "inactive" : true,
     "include" : [{
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
       "concept" : [{
-        "code" : "4100366",
-        "display" : "baseline"
+        "code" : "8527",
+        "display" : "White"
       },
       {
-        "code" : "4168352",
-        "display" : "progression"
+        "code" : "8516",
+        "display" : "Black"
       },
       {
-        "code" : "4097297",
-        "display" : "recurrence"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "36769946",
-        "display" : "ENE-"
+        "code" : "8515",
+        "display" : "Asian/Pacific Islanders"
       },
       {
-        "code" : "36770618",
-        "display" : "ENE+"
-      },
-      {
-        "code" : "4129922",
-        "display" : "unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "4149726",
-        "display" : "M0"
-      },
-      {
-        "code" : "4205430",
-        "display" : "M1"
-      },
-      {
-        "code" : "4129922",
-        "display" : "unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "4195718",
-        "display" : "Nx"
-      },
-      {
-        "code" : "4266674",
-        "display" : "N0"
-      },
-      {
-        "code" : "4203608",
-        "display" : "N1"
-      },
-      {
-        "code" : "4263599",
-        "display" : "N2"
-      },
-      {
-        "code" : "4135247",
-        "display" : "N2a"
-      },
-      {
-        "code" : "4119012",
-        "display" : "N2b"
-      },
-      {
-        "code" : "4118508",
-        "display" : "N2c"
-      },
-      {
-        "code" : "4239307",
-        "display" : "N3"
-      },
-      {
-        "code" : "4240556",
-        "display" : "N3a"
-      },
-      {
-        "code" : "4240557",
-        "display" : "N3b"
-      },
-      {
-        "code" : "4129922",
-        "display" : "unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "4282467",
-        "display" : "Tx"
-      },
-      {
-        "code" : "4195922",
-        "display" : "Tis"
-      },
-      {
-        "code" : "4243213",
-        "display" : "T0"
-      },
-      {
-        "code" : "4052407",
-        "display" : "T1"
-      },
-      {
-        "code" : "4194614",
-        "display" : "T2"
-      },
-      {
-        "code" : "4032012",
-        "display" : "T3"
-      },
-      {
-        "code" : "4278513",
-        "display" : "T4"
-      },
-      {
-        "code" : "4127612",
-        "display" : "T4a"
-      },
-      {
-        "code" : "4129920",
-        "display" : "T4b"
+        "code" : "8657",
+        "display" : "American Indian/Alaska Native"
       },
       {
         "code" : "4129922",
@@ -963,286 +1207,7 @@ e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "87784001",
-        "display" : "soft tissue"
-      },
-      {
-        "code" : "59441001",
-        "display" : "distant lymph node"
-      },
-      {
-        "code" : "39607008",
-        "display" : "lung"
-      },
-      {
-        "code" : "119186007",
-        "display" : "bone"
-      },
-      {
-        "code" : "10200004",
-        "display" : "liver"
-      },
-      {
-        "code" : "3120008",
-        "display" : "pleura"
-      },
-      {
-        "code" : "15425007",
-        "display" : "peritoneum"
-      },
-      {
-        "code" : "12738006",
-        "display" : "brain"
-      },
-      {
-        "code" : "261665006",
-        "display" : "unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "4188539",
-        "display" : "yes"
-      },
-      {
-        "code" : "4188540",
-        "display" : "no"
-      },
-      {
-        "code" : "4129922",
-        "display" : "unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "4100366",
-        "display" : "baseline"
-      },
-      {
-        "code" : "4168352",
-        "display" : "progression"
-      },
-      {
-        "code" : "4097297",
-        "display" : "recurrence"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/event-type-eu-i4rc", "version": "0.1.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "36769946",
-        "display" : "ENE-"
-      },
-      {
-        "code" : "36770618",
-        "display" : "ENE+"
-      },
-      {
-        "code" : "4129922",
-        "display" : "unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/extranodal-extension-i4rc", "version": "0.1.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "4149726",
-        "display" : "M0"
-      },
-      {
-        "code" : "4205430",
-        "display" : "M1"
-      },
-      {
-        "code" : "4129922",
-        "display" : "unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pM-i4rc", "version": "0.1.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "4195718",
-        "display" : "Nx"
-      },
-      {
-        "code" : "4266674",
-        "display" : "N0"
-      },
-      {
-        "code" : "4203608",
-        "display" : "N1"
-      },
-      {
-        "code" : "4263599",
-        "display" : "N2"
-      },
-      {
-        "code" : "4135247",
-        "display" : "N2a"
-      },
-      {
-        "code" : "4119012",
-        "display" : "N2b"
-      },
-      {
-        "code" : "4118508",
-        "display" : "N2c"
-      },
-      {
-        "code" : "4239307",
-        "display" : "N3"
-      },
-      {
-        "code" : "4240556",
-        "display" : "N3a"
-      },
-      {
-        "code" : "4240557",
-        "display" : "N3b"
-      },
-      {
-        "code" : "4129922",
-        "display" : "unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pN-i4rc", "version": "0.1.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "concept" : [{
-        "code" : "4282467",
-        "display" : "Tx"
-      },
-      {
-        "code" : "4195922",
-        "display" : "Tis"
-      },
-      {
-        "code" : "4243213",
-        "display" : "T0"
-      },
-      {
-        "code" : "4052407",
-        "display" : "T1"
-      },
-      {
-        "code" : "4194614",
-        "display" : "T2"
-      },
-      {
-        "code" : "4032012",
-        "display" : "T3"
-      },
-      {
-        "code" : "4278513",
-        "display" : "T4"
-      },
-      {
-        "code" : "4127612",
-        "display" : "T4a"
-      },
-      {
-        "code" : "4129920",
-        "display" : "T4b"
-      },
-      {
-        "code" : "4129922",
-        "display" : "Unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pT-i4rc", "version": "0.1.0"}####
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/Race-i4rc", "version": "0.1.0"}####
 e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
@@ -1308,6 +1273,36 @@ e: {
     "include" : [{
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
       "concept" : [{
+        "code" : "36716475",
+        "display" : "Cigarettes"
+      },
+      {
+        "code" : "36716476",
+        "display" : "Cigar"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/tobacco-product-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
         "code" : "4188539",
         "display" : "yes"
       },
@@ -1327,21 +1322,6 @@ e: {
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/yes-no-unk-athena-eu-i4rc", "version": "0.1.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pathologicalM-i4rc", "version": "0.1.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pathologicalN-i4rc", "version": "0.1.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/pathologicalT-i4rc", "version": "0.1.0"}####
 e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }

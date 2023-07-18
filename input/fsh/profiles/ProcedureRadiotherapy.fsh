@@ -1,28 +1,29 @@
 //====== RuleSet =====================================
 
-RuleSet: ProcedureRadiotherapyPcspRules
-* extension contains 
+RuleSet: ProcedureRadiotherapyI4rcRules
+/* * extension contains 
 	ResourceRelatedInfo named relatedDose 0..*
 	and $procedure-method named procedureMethod 0..1
 	and RadiotherapyEnergyOrIsotope named energyOrIsotope 0..*
 	and PerformedTiming named performedTiming 0..1
 	
-* extension[relatedDose].valueReference only Reference(TotalDoseRadObsPcsp)
+* extension[relatedDose].valueReference only Reference(TotalDoseRadObsI4rc)
 * extension[energyOrIsotope]
 * extension[procedureMethod].valueCodeableConcept from BrachytherapyType
-* extension[performedTiming].valueTiming.repeat.count ^short = "Number of repetitions"
+* extension[performedTiming].valueTiming.repeat.count ^short = "Number of repetitions" */
 
 * identifier ^short = "External Identifiers for this radiotherapy / boost"
 * status ^short = "Procedure status"
 * category 1..1 
 // * category = $sct#108290001 "Radiotherapy" // part of GPS
 * code 1..1  // TYPE - add 1 => External beam (33195004 | External beam radiotherapy); 2 => Brachytherapy (152198000 | Brachytherapy ); 3 => Metabolic/radionuclide therapy (399315003 | Radionuclide therapy)
-* code from RadiotherapyTypeVs (extensible)
+// * code from RadiotherapyTypeVs (extensible)
+* code ^short = "ADD VOC BINDING"
 // add slice on coding to allow more precise data
-* subject only Reference(PatientPcsp)	
+* subject only Reference(PatientI4rc)	
 * performedPeriod 1.. 
 * reasonReference 1..  // add reference to the diagnosis
-* reasonReference only Reference(ConditionPrimaryCancerPcsp)
+* reasonReference only Reference(ConditionPrimaryCancerI4rc)
 * bodySite 0..
   * ^short = "required for Brachytherapy and External beam"
 * insert RadiotherapyBodySiteExt
@@ -40,30 +41,31 @@ RuleSet: RadiotherapyBodySiteExt
 	 // $mcode-body-location-qualifier named locationQualifier 0..* 
 	// $mcode-laterality-qualifier named lateralityQualifier 0..1
     
-* bodySite from VsRadiotherapy
+// * bodySite from VsRadiotherapy ADD VOC BIDNIGN
+* bodySite ^short = "ADD VOC BINDING"
 // * extension and bodySite and bodySite.extension[lateralityQualifier] MS
-* bodySite.extension[locationQualifier].valueCodeableConcept from FromToPosteriorAnteriorVs
+// * bodySite.extension[locationQualifier].valueCodeableConcept from FromToPosteriorAnteriorVs
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  ProcedureRadiotherapyPcsp
+Profile:  ProcedureRadiotherapyI4rc
 Parent:   Procedure 
 Id:       Procedure-radiotheraphy-eu-pcsp
 Title:    "Procedure: Radiotherapy"
 Description: "This profile defines how to represent Procedures in FHIR for describing a set of Radiotherapy data required by the PanCareSurPass algorithm to generate the care plan."
 //-------------------------------------------------------------------------------------------
 
-* insert ProcedureRadiotherapyPcspRules
+* insert ProcedureRadiotherapyI4rcRules
 * category = $sct#108290001 "Radiotherapy" // part of GPS
-* location only Reference(LocationPcsp)
+* location only Reference(Location) // add profile if needed
 * usedCode ^short = "Coded items used during the procedure"
-* usedCode from RadiotherapyDeviceType (extensible) // update the value set
+// * usedCode from RadiotherapyDeviceType (extensible) // update the value set
 
 
-
+/* 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  ProcedureRadiotherapyShieldingPcsp
+Profile:  ProcedureRadiotherapyShieldingI4rc
 Parent:   Procedure 
 Id:       Procedure-radiotheraphyShield-eu-pcsp	
 Title:    "Procedure: Radiotherapy Shielding"
@@ -77,11 +79,11 @@ Description: "This profile defines how to represent Shielding Procedures in FHIR
 // * code 1..1  // TYPE - add 1 => External beam (33195004 | External beam radiotherapy); 2 => Brachytherapy (152198000 | Brachytherapy ); 3 => Metabolic/radionuclide therapy (399315003 | Radionuclide therapy)
 * code = $sct#228720004 "Making of shielding block for radiotherapy"
 * partOf 1..1
-* partOf only Reference (ProcedureRadiotherapyPcsp)
+* partOf only Reference (ProcedureRadiotherapyI4rc)
 // add slice on coding to allow more precise data
-* subject only Reference(PatientPcsp)	
+* subject only Reference(PatientI4rc)	
 * reasonReference 1..  // add reference to the diagnosis
-* reasonReference only Reference(ConditionPrimaryCancerPcsp)
+* reasonReference only Reference(ConditionPrimaryCancerI4rc)
 * bodySite 1..*
 * insert RadiotherapyBodySiteExt
 * note ^short = "Additional information about the Radiotherapy" 
@@ -93,14 +95,14 @@ Description: "This profile defines how to represent Shielding Procedures in FHIR
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  ProcedureRadiotherapyBoostPcsp
+Profile:  ProcedureRadiotherapyBoostI4rc
 Parent:   Procedure 
 Id:       Procedure-radiotheraphyBoost-eu-pcsp
 Title:    "Procedure: Radiotherapy Boost"
 Description: "This profile defines how to represent Procedures in FHIR for describing a set of data required by PanCareSurPass for Radiotherapy Boosts" //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-* insert ProcedureRadiotherapyPcspRules
+* insert ProcedureRadiotherapyI4rcRules
 * category 1..1 
 * category.coding ^slicing.discriminator.type = #pattern
 * category.coding ^slicing.discriminator.path = "$this"
@@ -113,10 +115,10 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 * category.coding[boost] = $sct#445232009 "Boost radiation therapy"
 
 * partOf 1..1
-* partOf only Reference (ProcedureRadiotherapyPcsp)
+* partOf only Reference (ProcedureRadiotherapyI4rc)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  TotalDoseRadObsPcsp
+Profile:  TotalDoseRadObsI4rc
 Parent:   Observation
 Id:       Observation-totalDoseRad-eu-pcsp
 Title:    "Observation: Radiotherapy Total Dose PCSP"
@@ -133,18 +135,4 @@ Description: "This profile defines how to represent Radiotherapy Total Dose in F
   * ^short = "required for Brachytherapy and External beam"
 * insert RadiotherapyBodySiteExt
 
-
-/* ======
-
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  ProcedureRadiotherapyMinPcsp
-Parent:   Procedure 
-Id:       Procedure-radiotheraphy-min-eu-pcsp
-Title:    "Procedure: Radiotherapy (Minimal Set)"
-Description: "This profile defines how to represent Procedures in FHIR for describing a Minimal set of Radiotherapy data required by the PanCareSurPass algorithm to generate the care plan."
-//-------------------------------------------------------------------------------------------
-* insert ProcedureRadiotherapyPcspRules
-
-
-
-==== */
+ */

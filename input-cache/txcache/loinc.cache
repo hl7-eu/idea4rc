@@ -45,8 +45,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:d970706b-a11c-4876-90fd-d3d846f73396",
-    "timestamp" : "2023-06-27T14:35:03.004Z",
+    "identifier" : "urn:uuid:4ac90c0b-4b62-427d-93c1-cee3a2e5066c",
+    "timestamp" : "2023-07-18T15:41:12.176Z",
     "total" : 8,
     "parameter" : [{
       "name" : "limitedExpansion",
@@ -99,6 +99,311 @@ e: {
       "system" : "http://loinc.org",
       "code" : "LA18982-1",
       "display" : "Light tobacco smoker"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "43730-1",
+        "display" : "EBV DNA NAA+probe Qn"
+      },
+      {
+        "code" : "77377-0",
+        "display" : "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]"
+      },
+      {
+        "code" : "11039-5",
+        "display" : "C reactive protein [Presence] in Serum or Plasma"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:5d99cea5-6541-4f93-9619-a7387f8b34fc",
+    "timestamp" : "2023-07-18T15:41:13.941Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "43730-1",
+      "display" : "EBV DNA NAA+probe Qn"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "77377-0",
+      "display" : "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "11039-5",
+      "display" : "C reactive protein [Presence] in Serum or Plasma"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21907-1",
+        "display" : "Distant metastases.clinical [Class] Cancer"
+      },
+      {
+        "code" : "21901-4",
+        "display" : "Distant metastases.pathology [Class] Cancer"
+      },
+      {
+        "code" : "21913-9",
+        "display" : "Distant metastases.other [Class] Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:c9bb515b-edc3-483e-b45f-34b407c44dd8",
+    "timestamp" : "2023-07-18T15:41:15.457Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21907-1",
+      "display" : "Distant metastases.clinical [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21901-4",
+      "display" : "Distant metastases.pathology [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21913-9",
+      "display" : "Distant metastases.other [Class] Cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21905-5",
+        "display" : "Primary tumor.clinical [Class] Cancer"
+      },
+      {
+        "code" : "21899-0",
+        "display" : "Primary tumor.pathology Cancer"
+      },
+      {
+        "code" : "21911-3",
+        "display" : "Primary tumor.other [Class] Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:6edfc483-66b5-451e-adb9-64d1a6a4896c",
+    "timestamp" : "2023-07-18T15:41:15.597Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21905-5",
+      "display" : "Primary tumor.clinical [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21899-0",
+      "display" : "Primary tumor.pathology Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21911-3",
+      "display" : "Primary tumor.other [Class] Cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21906-3",
+        "display" : "Regional lymph nodes.clinical [Class] Cancer"
+      },
+      {
+        "code" : "21900-6",
+        "display" : "Regional lymph nodes.pathology [Class] Cancer"
+      },
+      {
+        "code" : "21912-1",
+        "display" : "Regional lymph nodes.other [Class] Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:42fa545b-08a9-4ecd-a2c5-5d6ce6e8bc55",
+    "timestamp" : "2023-07-18T15:41:15.738Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21906-3",
+      "display" : "Regional lymph nodes.clinical [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21900-6",
+      "display" : "Regional lymph nodes.pathology [Class] Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21912-1",
+      "display" : "Regional lymph nodes.other [Class] Cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "21908-9",
+        "display" : "Stage group.clinical Cancer"
+      },
+      {
+        "code" : "21902-2",
+        "display" : "Stage group.pathology Cancer"
+      },
+      {
+        "code" : "21914-7",
+        "display" : "Stage group.other Cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:bfb658c1-b927-4693-b116-ff42df2d86bf",
+    "timestamp" : "2023-07-18T15:41:15.879Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "21908-9",
+      "display" : "Stage group.clinical Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21902-2",
+      "display" : "Stage group.pathology Cancer"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "21914-7",
+      "display" : "Stage group.other Cancer"
     }]
   }
 },
@@ -243,538 +548,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "11331-6",
-  "display" : "History of Alcohol use"
-}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "History of Alcohol use",
-  "code" : "11331-6",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "75618-9",
-  "display" : "Comorbid condition"
-}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Comorbid condition",
-  "code" : "75618-9",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "89247-1"
-}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "ECOG Performance Status score",
-  "code" : "89247-1",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "5792-7"
-}, "valueSet" :{
-  "resourceType" : "ValueSet"
-}, "langs":"[]", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "severity" : "error",
-  "error" : "The provided code http://loinc.org#5792-7 is not in the value set 'http://loinc.org/vs/LL529-9|2.74' (from Tx-Server)",
-  "class" : "UNKNOWN"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "89243-0"
-}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Karnofsky Performance Status score",
-  "code" : "89243-0",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "88028-6",
-  "display" : "Tobacco use panel"
-}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Tobacco use panel",
-  "code" : "88028-6",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "72166-2",
-  "display" : "Tobacco smoking status"
-}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Tobacco smoking status",
-  "code" : "72166-2",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "81228-9",
-  "display" : "Tobacco product"
-}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Tobacco product",
-  "code" : "81228-9",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "64218-1",
-  "display" : "How many cigarettes do you smoke per day now"
-}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "severity" : "error",
-  "error" : "Wrong Display Name 'How many cigarettes do you smoke per day now' for http://loinc.org#64218-1 - should be one of 38 choices: ''How many cigarettes do you smoke per day now [PhenX]', '\"Cigarettes quant D now nRate PhenX\"', '\"Consensus measures for Phenotypes and eXposures\" (zh-CN)', '\"PhenX\" (zh-CN)', '\"暴露\" (zh-CN)', '\"接触\" (zh-CN)', '\"表型与暴露共识指标\" (zh-CN)', '\"表现型与暴露共识指标\" (zh-CN)', '\"表型与暴露公认指标 Rh\" (zh-CN)', '\"Rhesus\" (zh-CN)', '\"恒河猴\" (zh-CN)', '\"猕猴\" (zh-CN)', '\"罗猴 医疗服务对象\" (zh-CN)', '\"客户\" (zh-CN)', '\"病人\" (zh-CN)', '\"病患\" (zh-CN)', '\"病号\" (zh-CN)', '\"超系统 - 病人 单位时间内的数量或计数\" (zh-CN)', '\"数量/时间\" (zh-CN)', '\"数量型速率\" (zh-CN)', '\"数量型速率或计数型速率\" (zh-CN)', '\"数量型速率或计数型速率(单位时间)\" (zh-CN)', '\"数量或计数型速率\" (zh-CN)', '\"计数/时间\" (zh-CN)', '\"计数型速率(单位时间)\" (zh-CN)', '\"数量或计数型速率(单位时间) 可用数量表示的\" (zh-CN)', '\"定量性\" (zh-CN)', '\"数值型\" (zh-CN)', '\"数量型\" (zh-CN)', '\"连续数值型标尺 时刻\" (zh-CN)', '\"随机\" (zh-CN)', '\"随意\" (zh-CN)', '\"瞬间 现在您每天抽多少支卷烟\" (zh-CN)', '\"现在您每天抽多少支纸烟\" (zh-CN)', '\"现在您每天吸多少根香烟\" (zh-CN)', '\"Indice numerico paziente PhenX Punto nel tempo (episodio) Quante sigarette fuma attualmente al giorno\" (it-IT)', '\"Количественный Количество скорость Точка во времени\" (ru-RU)' or '\"Момент\" (ru-RU)'' for the language(s) '--' (from Tx-Server)",
-  "class" : "UNKNOWN"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "88029-4",
-  "display" : "Tobacco use duration"
-}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Tobacco use duration",
-  "code" : "88029-4",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "LA18976-3",
-        "display" : "Current every day smoker"
-      },
-      {
-        "code" : "LA18977-1",
-        "display" : "Current some day smoker"
-      },
-      {
-        "code" : "LA15920-4",
-        "display" : "Former smoker"
-      },
-      {
-        "code" : "LA18978-9",
-        "display" : "Never smoker"
-      },
-      {
-        "code" : "LA18979-7",
-        "display" : "Smoker, current status unknown"
-      },
-      {
-        "code" : "LA18980-5",
-        "display" : "Unknown if ever smoked"
-      },
-      {
-        "code" : "LA18981-3",
-        "display" : "Heavy tobacco smoker"
-      },
-      {
-        "code" : "LA18982-1",
-        "display" : "Light tobacco smoker"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:3670544d-a472-4591-a685-16edf45f962b",
-    "timestamp" : "2023-06-27T14:43:49.427Z",
-    "total" : 8,
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : false
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "LA18976-3",
-      "display" : "Current every day smoker"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "LA18977-1",
-      "display" : "Current some day smoker"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "LA15920-4",
-      "display" : "Former smoker"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "LA18978-9",
-      "display" : "Never smoker"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "LA18979-7",
-      "display" : "Smoker, current status unknown"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "LA18980-5",
-      "display" : "Unknown if ever smoked"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "LA18981-3",
-      "display" : "Heavy tobacco smoker"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "LA18982-1",
-      "display" : "Light tobacco smoker"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "11331-6"
-}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "History of Alcohol use",
-  "code" : "11331-6",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "75618-9"
-}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Comorbid condition",
-  "code" : "75618-9",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "89247-1"
-}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "ECOG Performance Status score",
-  "code" : "89247-1",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "89243-0"
-}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Karnofsky Performance Status score",
-  "code" : "89243-0",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "88028-6"
-}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Tobacco use panel",
-  "code" : "88028-6",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "72166-2"
-}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Tobacco smoking status",
-  "code" : "72166-2",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "81228-9"
-}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Tobacco product",
-  "code" : "81228-9",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "64218-1"
-}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "How many cigarettes do you smoke per day now [PhenX]",
-  "code" : "64218-1",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "88029-4"
-}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Tobacco use duration",
-  "code" : "88029-4",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "29308-4",
-  "display" : "Diagnosis"
-}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Diagnosis",
-  "code" : "29308-4",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "29308-4"
-}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Diagnosis",
-  "code" : "29308-4",
-  "system" : "http://loinc.org",
-  "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "43730-1",
-        "display" : "EBV DNA NAA+probe Qn"
-      },
-      {
-        "code" : "77377-0",
-        "display" : "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]"
-      },
-      {
-        "code" : "11039-5",
-        "display" : "C reactive protein [Presence] in Serum or Plasma"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:a68d1db3-030e-4928-a8e1-de143b46995d",
-    "timestamp" : "2023-07-11T16:08:12.105Z",
-    "total" : 3,
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "43730-1",
-      "display" : "EBV DNA NAA+probe Qn"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "77377-0",
-      "display" : "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "11039-5",
-      "display" : "C reactive protein [Presence] in Serum or Plasma"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "43730-1"
 }, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
@@ -822,311 +595,6 @@ v: {
   "code" : "11039-5",
   "system" : "http://loinc.org",
   "version" : "2.74"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "43730-1",
-        "display" : "EBV DNA NAA+probe Qn"
-      },
-      {
-        "code" : "77377-0",
-        "display" : "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]"
-      },
-      {
-        "code" : "11039-5",
-        "display" : "C reactive protein [Presence] in Serum or Plasma"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:5a633d97-2df6-4eda-9d1e-e98fde866018",
-    "timestamp" : "2023-07-11T16:13:05.557Z",
-    "total" : 3,
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : false
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "43730-1",
-      "display" : "EBV DNA NAA+probe Qn"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "77377-0",
-      "display" : "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "11039-5",
-      "display" : "C reactive protein [Presence] in Serum or Plasma"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "21907-1",
-        "display" : "Distant metastases.clinical [Class] Cancer"
-      },
-      {
-        "code" : "21901-4",
-        "display" : "Distant metastases.pathology [Class] Cancer"
-      },
-      {
-        "code" : "21913-9",
-        "display" : "Distant metastases.other [Class] Cancer"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:cc0c2d1b-938b-4d55-ab00-5a7ebbe29be0",
-    "timestamp" : "2023-07-14T17:19:31.728Z",
-    "total" : 3,
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "21907-1",
-      "display" : "Distant metastases.clinical [Class] Cancer"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "21901-4",
-      "display" : "Distant metastases.pathology [Class] Cancer"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "21913-9",
-      "display" : "Distant metastases.other [Class] Cancer"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "21905-5",
-        "display" : "Primary tumor.clinical [Class] Cancer"
-      },
-      {
-        "code" : "21899-0",
-        "display" : "Primary tumor.pathology Cancer"
-      },
-      {
-        "code" : "21911-3",
-        "display" : "Primary tumor.other [Class] Cancer"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:a46e6310-1824-4f6f-a874-385d9d526420",
-    "timestamp" : "2023-07-14T17:19:31.885Z",
-    "total" : 3,
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "21905-5",
-      "display" : "Primary tumor.clinical [Class] Cancer"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "21899-0",
-      "display" : "Primary tumor.pathology Cancer"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "21911-3",
-      "display" : "Primary tumor.other [Class] Cancer"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "21906-3",
-        "display" : "Regional lymph nodes.clinical [Class] Cancer"
-      },
-      {
-        "code" : "21900-6",
-        "display" : "Regional lymph nodes.pathology [Class] Cancer"
-      },
-      {
-        "code" : "21912-1",
-        "display" : "Regional lymph nodes.other [Class] Cancer"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:fdc4a284-e180-4bdd-a330-5745ed49909f",
-    "timestamp" : "2023-07-14T17:19:32.041Z",
-    "total" : 3,
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "21906-3",
-      "display" : "Regional lymph nodes.clinical [Class] Cancer"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "21900-6",
-      "display" : "Regional lymph nodes.pathology [Class] Cancer"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "21912-1",
-      "display" : "Regional lymph nodes.other [Class] Cancer"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "21908-9",
-        "display" : "Stage group.clinical Cancer"
-      },
-      {
-        "code" : "21902-2",
-        "display" : "Stage group.pathology Cancer"
-      },
-      {
-        "code" : "21914-7",
-        "display" : "Stage group.other Cancer"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:e4c69d3d-d06d-4b00-a898-c834f3cc78ca",
-    "timestamp" : "2023-07-14T17:19:32.181Z",
-    "total" : 3,
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://loinc.org|2.74"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "21908-9",
-      "display" : "Stage group.clinical Cancer"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "21902-2",
-      "display" : "Stage group.pathology Cancer"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "21914-7",
-      "display" : "Stage group.other Cancer"
-    }]
-  }
-},
-  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -1333,6 +801,368 @@ v: {
   "version" : "2.74"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "11331-6",
+  "display" : "History of Alcohol use"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "History of Alcohol use",
+  "code" : "11331-6",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "75618-9",
+  "display" : "Comorbid condition"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Comorbid condition",
+  "code" : "75618-9",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "29308-4",
+  "display" : "Diagnosis"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Diagnosis",
+  "code" : "29308-4",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "89247-1"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "ECOG Performance Status score",
+  "code" : "89247-1",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5792-7"
+}, "valueSet" :{
+  "resourceType" : "ValueSet"
+}, "langs":"[]", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "The provided code http://loinc.org#5792-7 is not in the value set 'http://loinc.org/vs/LL529-9|2.74' (from Tx-Server)",
+  "class" : "UNKNOWN"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "89243-0"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Karnofsky Performance Status score",
+  "code" : "89243-0",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "88028-6",
+  "display" : "Tobacco use panel"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tobacco use panel",
+  "code" : "88028-6",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "72166-2",
+  "display" : "Tobacco smoking status"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tobacco smoking status",
+  "code" : "72166-2",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "81228-9",
+  "display" : "Tobacco product"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tobacco product",
+  "code" : "81228-9",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "64218-1",
+  "display" : "How many cigarettes do you smoke per day now"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Wrong Display Name 'How many cigarettes do you smoke per day now' for http://loinc.org#64218-1 - should be one of 38 choices: ''How many cigarettes do you smoke per day now [PhenX]', '\"Cigarettes quant D now nRate PhenX\"', '\"Consensus measures for Phenotypes and eXposures\" (zh-CN)', '\"PhenX\" (zh-CN)', '\"暴露\" (zh-CN)', '\"接触\" (zh-CN)', '\"表型与暴露共识指标\" (zh-CN)', '\"表现型与暴露共识指标\" (zh-CN)', '\"表型与暴露公认指标 Rh\" (zh-CN)', '\"Rhesus\" (zh-CN)', '\"恒河猴\" (zh-CN)', '\"猕猴\" (zh-CN)', '\"罗猴 医疗服务对象\" (zh-CN)', '\"客户\" (zh-CN)', '\"病人\" (zh-CN)', '\"病患\" (zh-CN)', '\"病号\" (zh-CN)', '\"超系统 - 病人 单位时间内的数量或计数\" (zh-CN)', '\"数量/时间\" (zh-CN)', '\"数量型速率\" (zh-CN)', '\"数量型速率或计数型速率\" (zh-CN)', '\"数量型速率或计数型速率(单位时间)\" (zh-CN)', '\"数量或计数型速率\" (zh-CN)', '\"计数/时间\" (zh-CN)', '\"计数型速率(单位时间)\" (zh-CN)', '\"数量或计数型速率(单位时间) 可用数量表示的\" (zh-CN)', '\"定量性\" (zh-CN)', '\"数值型\" (zh-CN)', '\"数量型\" (zh-CN)', '\"连续数值型标尺 时刻\" (zh-CN)', '\"随机\" (zh-CN)', '\"随意\" (zh-CN)', '\"瞬间 现在您每天抽多少支卷烟\" (zh-CN)', '\"现在您每天抽多少支纸烟\" (zh-CN)', '\"现在您每天吸多少根香烟\" (zh-CN)', '\"Indice numerico paziente PhenX Punto nel tempo (episodio) Quante sigarette fuma attualmente al giorno\" (it-IT)', '\"Количественный Количество скорость Точка во времени\" (ru-RU)' or '\"Момент\" (ru-RU)'' for the language(s) '--' (from Tx-Server)",
+  "class" : "UNKNOWN"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "88029-4",
+  "display" : "Tobacco use duration"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tobacco use duration",
+  "code" : "88029-4",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA18976-3",
+        "display" : "Current every day smoker"
+      },
+      {
+        "code" : "LA18977-1",
+        "display" : "Current some day smoker"
+      },
+      {
+        "code" : "LA15920-4",
+        "display" : "Former smoker"
+      },
+      {
+        "code" : "LA18978-9",
+        "display" : "Never smoker"
+      },
+      {
+        "code" : "LA18979-7",
+        "display" : "Smoker, current status unknown"
+      },
+      {
+        "code" : "LA18980-5",
+        "display" : "Unknown if ever smoked"
+      },
+      {
+        "code" : "LA18981-3",
+        "display" : "Heavy tobacco smoker"
+      },
+      {
+        "code" : "LA18982-1",
+        "display" : "Light tobacco smoker"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:996f2e1b-dfeb-4a99-83fb-e40510a7f90c",
+    "timestamp" : "2023-07-18T15:46:31.706Z",
+    "total" : 8,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA18976-3",
+      "display" : "Current every day smoker"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA18977-1",
+      "display" : "Current some day smoker"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA15920-4",
+      "display" : "Former smoker"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA18978-9",
+      "display" : "Never smoker"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA18979-7",
+      "display" : "Smoker, current status unknown"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA18980-5",
+      "display" : "Unknown if ever smoked"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA18981-3",
+      "display" : "Heavy tobacco smoker"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA18982-1",
+      "display" : "Light tobacco smoker"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "43730-1",
+        "display" : "EBV DNA NAA+probe Qn"
+      },
+      {
+        "code" : "77377-0",
+        "display" : "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]"
+      },
+      {
+        "code" : "11039-5",
+        "display" : "C reactive protein [Presence] in Serum or Plasma"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:5da2ab51-3263-4082-bf71-625377a98c87",
+    "timestamp" : "2023-07-18T15:46:36.784Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "43730-1",
+      "display" : "EBV DNA NAA+probe Qn"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "77377-0",
+      "display" : "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "11039-5",
+      "display" : "C reactive protein [Presence] in Serum or Plasma"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -1359,8 +1189,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0e75965a-0387-4a61-a037-ea7f978cec4a",
-    "timestamp" : "2023-07-14T17:22:37.385Z",
+    "identifier" : "urn:uuid:04be92aa-0a10-4d13-930f-344bcee61450",
+    "timestamp" : "2023-07-18T15:46:42.347Z",
     "total" : 3,
     "parameter" : [{
       "name" : "limitedExpansion",
@@ -1420,8 +1250,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a1b339b8-e5db-499d-81db-1fe88eb5e308",
-    "timestamp" : "2023-07-14T17:22:37.791Z",
+    "identifier" : "urn:uuid:4d7e4840-cd93-40b9-8607-79d349219bb5",
+    "timestamp" : "2023-07-18T15:46:42.753Z",
     "total" : 3,
     "parameter" : [{
       "name" : "limitedExpansion",
@@ -1481,8 +1311,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:e3455a8c-37a2-4d1e-bd3e-f745cb3f3884",
-    "timestamp" : "2023-07-14T17:22:38.166Z",
+    "identifier" : "urn:uuid:6f451e70-2e6d-41e0-a35e-7fda2ba6b75f",
+    "timestamp" : "2023-07-18T15:46:43.237Z",
     "total" : 3,
     "parameter" : [{
       "name" : "limitedExpansion",
@@ -1542,8 +1372,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:17686e2f-1004-4d60-9952-8d2de6b65435",
-    "timestamp" : "2023-07-14T17:22:38.526Z",
+    "identifier" : "urn:uuid:8dfc330d-6a1f-4721-8689-4c100b1e0fca",
+    "timestamp" : "2023-07-18T15:46:43.659Z",
     "total" : 3,
     "parameter" : [{
       "name" : "limitedExpansion",
@@ -1575,5 +1405,175 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "11331-6"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "History of Alcohol use",
+  "code" : "11331-6",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "75618-9"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Comorbid condition",
+  "code" : "75618-9",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "29308-4"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Diagnosis",
+  "code" : "29308-4",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "89247-1"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "ECOG Performance Status score",
+  "code" : "89247-1",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "89243-0"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Karnofsky Performance Status score",
+  "code" : "89243-0",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "88028-6"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tobacco use panel",
+  "code" : "88028-6",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "72166-2"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tobacco smoking status",
+  "code" : "72166-2",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "81228-9"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tobacco product",
+  "code" : "81228-9",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "64218-1"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "How many cigarettes do you smoke per day now [PhenX]",
+  "code" : "64218-1",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "88029-4"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Tobacco use duration",
+  "code" : "88029-4",
+  "system" : "http://loinc.org",
+  "version" : "2.74"
 }
 -------------------------------------------------------------------------------------

@@ -1,0 +1,80 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "concept" : [{
+        "code" : "orthovoltage",
+        "display" : "Orthovoltage"
+      },
+      {
+        "code" : "linac-mv",
+        "display" : "Linac MV"
+      },
+      {
+        "code" : "linac-el",
+        "display" : "Linac electrons"
+      },
+      {
+        "code" : "cobalt",
+        "display" : "Cobalt MV"
+      },
+      {
+        "code" : "proton-beam",
+        "display" : "Proton Beam"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:7137b598-a5cd-4d97-b376-f5346bd699cc",
+    "timestamp" : "2023-07-18T15:41:22.379Z",
+    "total" : 5,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp|0.1.0"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "code" : "orthovoltage",
+      "display" : "Orthovoltage"
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "code" : "linac-mv",
+      "display" : "Linac MV"
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "code" : "linac-el",
+      "display" : "Linac electrons"
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "code" : "cobalt",
+      "display" : "Cobalt MV"
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "code" : "proton-beam",
+      "display" : "Proton Beam"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

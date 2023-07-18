@@ -1,7 +1,7 @@
 // -------------------------------------------------------------------------------					
 //  Concept Model. File: 					surgery-to-fhir-map.fsh
 // -------------------------------------------------------------------------------					
-Instance: Surgery2FHIR					
+Instance: surgery2FHIR					
 InstanceOf: ConceptMap					
 Usage: #definition					
 // * url = "http://terminology.hl7.it/ConceptMap/ConceptMap-subject2osiris"					
@@ -30,7 +30,7 @@ Usage: #definition
 * group[=].element[=].target.comment = "to be analyzed: add a slice to the category.coding or derive this from a combination of elements or use other cathegories (R5 extension)"					
 * group[=].element[+].code = #Surgery.dateOfSurgery					
 * group[=].element[=].display = "Date of surgery"					
-* group[=].element[=].target.code = #Procedure.ÿperformedDateTime					
+* group[=].element[=].target.code = #Procedure.ï¿½performedDateTime					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 					
@@ -66,7 +66,7 @@ Usage: #definition
 * group[=].element[=].target.comment = "a surgical proceudre exists with bodySite = neck"					
 * group[=].element[+].code = #Surgery.dateOfNeckSurgey					
 * group[=].element[=].display = "Date of Neck surgey"					
-* group[=].element[=].target.code = #Procedure.ÿperformedDateTime					
+* group[=].element[=].target.code = #Procedure.ï¿½performedDateTime					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 * group[=].element[=].target.comment = "how this differs fomr the dateOfSurgery ?"					

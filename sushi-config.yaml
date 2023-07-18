@@ -136,6 +136,10 @@ resources:
     name: Pathological Stage Model to this guide Map
     description: It shows how the Pathological Stage model is mapped into this guide
 
+  ConceptMap/surgery2FHIR:
+    name: Surgery Model to this guide Map
+    description: It shows how the Surgery model is mapped into this guide
+
   StructureDefinition/Subject:
     name: Patient
     description: IDEA4RC Patient common model
@@ -201,6 +205,7 @@ groups:
       - ConceptMap/clinicalStage2FHIR
       - ConceptMap/pathologicalStage2FHIR
       - ConceptMap/episodeEvent2FHIR
+      - ConceptMap/surgery2FHIR
 
   patientImplementation:
     name:  HL7 FHIR Profile implementing the Subject (Patient) model
@@ -229,3 +234,9 @@ groups:
       - StructureDefinition/mcode-tnm-primary-tumor-category
       - StructureDefinition/mcode-tnm-regional-nodes-category
       - StructureDefinition/mcode-tnm-distant-metastases-category
+  
+  surgeryImplementation:
+    name:  HL7 FHIR Profile implementing the Surgery model
+    description: HL7 FHIR Profile implementing the Surgery model
+    resources:
+      - StructureDefinition/Procedure-surgery-eu-i4rc

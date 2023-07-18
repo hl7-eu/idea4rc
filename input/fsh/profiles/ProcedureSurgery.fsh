@@ -3,14 +3,14 @@ Profile:  ProcedureSurgeryI4rc
 Parent:   Procedure 
 Id:       Procedure-surgery-eu-i4rc
 Title:    "Procedure: Surgery"
-Description: "This profile defines how to represent Procedures in FHIR for describing a set of Surgery data required by the PanCareSurPass algorithm to generate the care plan. It is used also to provide inforamtion about shunt, amputation, and other procedures"
+Description: "This profile defines how to represent Procedures in FHIR for describing a set of Surgery data required by the IDEA4RC project. This porfiles is adapted from the PanCareSurPass Procedure Surgery profile."
 //-------------------------------------------------------------------------------------------
 
 /* * extension contains 
    SacrifiedOrgan named sacrifiedOrgan 0..1
 * extension[sacrifiedOrgan] */
 
-* extension contains $procedure-category-r5 named ProcedureCategoryR5 1..1
+* extension contains $procedure-category-r5 named ProcedureCategoryR5 0..*
 
 * extension[ProcedureCategoryR5].valueCodeableConcept 1..1
   * ^short = "ADD VOC BINDING"
