@@ -1,5 +1,5 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsNasalandParanasalSubsiteAthenaI4RC
+ValueSet: VsNasalandParanasalSubsiteAthenaI4rc
 Id: nasal-paranasal-subsite-athena-i4rc
 Title: "Nasal cavity and paranasal sinuses subsite: Athena"
 Description: "Specifies the subsite for cancers occured in nasal cavity and paranasal sinusess: Athena"
@@ -13,7 +13,7 @@ Description: "Specifies the subsite for cancers occured in nasal cavity and para
 * $athena#4097172    "sphenoid sinus"  
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsNasalandParanasalSubsiteSnomedI4RC
+ValueSet: VsNasalandParanasalSubsiteSnomedI4rc
 Id: nasal-paranasal-subsite-sct-i4rc
 Title: "Nasal cavity and paranasal sinuses subsite: Snomed CT"
 Description: "Specifies the subsite for cancers occured in nasal cavity and paranasal sinusess: Snomed CT"
@@ -27,7 +27,7 @@ Description: "Specifies the subsite for cancers occured in nasal cavity and para
 * $sct#126679002 // Neoplasm of sphenoidal sinus (disorder)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsNasopharynxSubsiteAthenaI4RC
+ValueSet: VsNasopharynxSubsiteAthenaI4rc
 Id: nasopharynx-subsite-athena-i4rc
 Title: "Nasopharynx subsite: Athena"
 Description: "Specifies the subsite for cancers occured in nasopharynx: Athena"
@@ -42,7 +42,7 @@ Description: "Specifies the subsite for cancers occured in nasopharynx: Athena"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsNasopharynxSubsiteSnomedI4RC
+ValueSet: VsNasopharynxSubsiteSnomedI4rc
 Id: nasopharynx-subsite-sct-i4rc
 Title: "Nasopharynx subsite: Snomed CT"
 Description: "Specifies the subsite for cancers occured in nasopharynx: Snomed CT"
@@ -56,7 +56,7 @@ Description: "Specifies the subsite for cancers occured in nasopharynx: Snomed C
 * $sct#126681000 // Neoplasm of superior wall of nasopharynx (disorder)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsHypopharynxSubsiteAthenaI4RC
+ValueSet: VsHypopharynxSubsiteAthenaI4rc
 Id: hypopharynx-subsite-athena-i4rc
 Title: "Hypopharynx subsite: Athena"
 Description: "Specifies the subsite for cancers occured in hypopharynx: Athena"
@@ -71,7 +71,7 @@ Description: "Specifies the subsite for cancers occured in hypopharynx: Athena"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsHypopharynxSubsiteSnomedI4RC
+ValueSet: VsHypopharynxSubsiteSnomedI4rc
 Id: hypopharynx-subsite-sct-i4rc
 Title: "Hypopharynx subsite: Snomed CT"
 Description: "Specifies the subsite for cancers occured in hypopharynx: Snomed CT"
@@ -85,7 +85,7 @@ Description: "Specifies the subsite for cancers occured in hypopharynx: Snomed C
 * $sct#126688006 // Neoplasm of pyriform sinus (disorder)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsOropharynxSubsiteAthenaI4RC
+ValueSet: VsOropharynxSubsiteAthenaI4rc
 Id: oropharynx-subsite-athena-i4rc
 Title: "Oropharynx subsite: Athena"
 Description: "Specifies the subsite for cancers occured in Oropharynx: Athena"
@@ -108,7 +108,7 @@ Description: "Specifies the subsite for cancers occured in Oropharynx: Athena"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsOropharynxSubsiteSnomedI4RC
+ValueSet: VsOropharynxSubsiteSnomedI4rc
 Id: oropharynx-subsite-sct-i4rc
 Title: "Oropharynx subsite: Snomed CT"
 Description: "Specifies the subsite for cancers occured in Oropharynx: Snomed CT"
@@ -130,7 +130,7 @@ Description: "Specifies the subsite for cancers occured in Oropharynx: Snomed CT
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsLarynxSubsiteAthenaI4RC
+ValueSet: VsLarynxSubsiteAthenaI4rc
 Id: larynx-subsite-athena-i4rc
 Title: "Larynx subsite: Athena"
 Description: "Specifies the subsite for cancers occured in Larynx: Athena"
@@ -144,7 +144,7 @@ Description: "Specifies the subsite for cancers occured in Larynx: Athena"
 * $athena#4279711    "laryngeal cartilage"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsLarynxSubsiteSnomedI4RC
+ValueSet: VsLarynxSubsiteSnomedI4rc
 Id: larynx-subsite-sct-i4rc
 Title: "Larynx subsite: Snomed CT"
 Description: "Specifies the subsite for cancers occured in Larynx: Snomed CT"
@@ -158,7 +158,7 @@ Description: "Specifies the subsite for cancers occured in Larynx: Snomed CT"
 * $sct#254528004 // Tumor of laryngeal cartilage (disorder)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsOralCavitySubsiteAthenaI4RC
+ValueSet: VsOralCavitySubsiteAthenaI4rc
 Id: oralCavity-subsite-athena-i4rc
 Title: "Oral cavity subsite: Athena"
 Description: "Specifies the subsite for cancers occured in oral cavity: Athena"
@@ -181,7 +181,7 @@ Description: "Specifies the subsite for cancers occured in oral cavity: Athena"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsOralCavitySubsiteSnomedI4RC
+ValueSet: VsOralCavitySubsiteSnomedI4rc
 Id: oralCavity-subsite-sct-i4rc
 Title: "Oral cavity subsite: Snomed CT"
 Description: "Specifies the subsite for cancers occured in oral cavity: Snomed CT"
@@ -199,7 +199,7 @@ Description: "Specifies the subsite for cancers occured in oral cavity: Snomed C
 * $sct#254430004 // Tumor of lateral floor of mouth (disorder)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsLipSubsiteAthenaI4RC
+ValueSet: VsLipSubsiteAthenaI4rc
 Id: lip-subsite-athena-i4rc
 Title: "Lip subsite: Athena"
 Description: "Specifies the subsite for cancers occured in lip: Athena"
@@ -216,7 +216,7 @@ Description: "Specifies the subsite for cancers occured in lip: Athena"
 * $athena#4307358    "commisure of lip"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsLipSubsiteSnomedI4RC
+ValueSet: VsLipSubsiteSnomedI4rc
 Id: lip-subsite-sct-i4rc
 Title: "Lip subsite: Snomed CT"
 Description: "Specifies the subsite for cancers occured in lip: Snomed CT"

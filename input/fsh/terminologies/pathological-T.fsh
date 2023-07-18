@@ -1,8 +1,8 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VspTI4RC
-Id: pT-i4rc
+ValueSet: VsPathologicalTI4rc
+Id: pathologicalT-i4rc
 Title: "Pathological T"
-Description: "Pathological T"
+Description: "Pathological T (Primary Tumor)"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active

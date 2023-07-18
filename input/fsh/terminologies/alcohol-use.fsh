@@ -1,5 +1,5 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsAlcoholUsageStatusI4RC
+ValueSet: VsAlcoholUsageStatusI4rc
 Id: alcohol-usage-status-eu-i4rc
 Title: "Alcohol Usage Status"
 Description: "Alcohol Usage Status"

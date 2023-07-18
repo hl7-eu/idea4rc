@@ -1,6 +1,6 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VspMI4RC
-Id: pM-i4rc
+ValueSet: VsPathologicalMI4rc
+Id: pathologicalM-i4rc
 Title: "Pathological M"
 Description: "Describes whether capsular extension is present by histopathologic examination or not"
 //-------------------------------------------------------------------------------------------

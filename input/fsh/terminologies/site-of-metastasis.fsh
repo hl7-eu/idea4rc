@@ -1,5 +1,5 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsSiteOfMetastasisI4RC
+ValueSet: VsSiteOfMetastasisI4rc
 Id: site-of-metastasis-i4rc
 Title: "Site of metastasis"
 Description: "describes the site of metastasis"

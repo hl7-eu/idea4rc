@@ -24,12 +24,12 @@ Description: "This profile constrains the Observation resource to represent Toba
 * component contains smokingStatus 0..1 
 * component[smokingStatus]
   * code = $loinc#72166-2 "Tobacco smoking status"
-  * valueCodeableConcept from VsCurrentSmokingStatusI4RC (required) // value set to be revised
+  * valueCodeableConcept from VsCurrentSmokingStatusI4rc (required) // value set to be revised
 
 * component contains tobaccoProduct 0..1 
 * component[tobaccoProduct]
   * code = $loinc#81228-9 "Tobacco product"
-  * valueCodeableConcept from VsTobaccoProductI4RC (required) // value set to be revised
+  * valueCodeableConcept from VsTobaccoProductI4rc (required) // value set to be revised
 
 * component contains numberPerDay 0..1 
 * component[numberPerDay]

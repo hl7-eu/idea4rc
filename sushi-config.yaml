@@ -179,7 +179,7 @@ resources:
 # URL when generating the IG JSON.
 
 groups:
-  LogicalModelI4RC:
+  LogicalModelI4rc:
     name:  IDEA4RC Common Models
     description: Logical models representing the IDEA4RC Common Models
     resources:

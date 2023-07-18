@@ -1,3 +1,11 @@
+RuleSet: AdditionalBinding (purposeCode, valueset, documentation)
+*  ^binding.extension[+].extension[+].url = "purpose"
+*  ^binding.extension[=].extension[=].valueCode = #{purposeCode}
+*  ^binding.extension[=].extension[+].url = "valueSet"
+*  ^binding.extension[=].extension[=].valueCanonical = Canonical({valueset})
+*  ^binding.extension[=].extension[+].url = "documentation"
+*  ^binding.extension[=].extension[=].valueMarkdown = "{documentation}"
+
 RuleSet: SubjectRules
 * subject 1..
 * subject only Reference(PatientI4rc)

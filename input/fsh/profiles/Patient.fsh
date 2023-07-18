@@ -10,7 +10,7 @@ Description: "This profile defines how to represent Patient in FHIR for the purp
 * . ^definition = "Information about an individual receiving health care services"
 
 * extension contains RaceExtension named race 0..1
-* extension[race].value[x] from VsRaceI4RC 
+* extension[race].value[x] from VsRaceI4rc 
 
 /* 
 IN THIS VERSION THE SEX IS MAPPED IN THE ADMINISTRATIVE GENDER TO BE DISCUSSED

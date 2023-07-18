@@ -25,9 +25,9 @@ This profiles is adapted from the mCode FHIR Implementation Guide
 * extension contains $mcode-related-condition named comorbidConditionPresent 0..*
 * extension contains $mcode-related-condition-absent named comorbidConditionAbsent 0..*
 
-* extension[comorbidConditionPresent].valueCodeableConcept from VsComorbiditiesI4RC
+* extension[comorbidConditionPresent].valueCodeableConcept from VsComorbiditiesI4rc
 * extension[comorbidConditionPresent].valueCodeableConcept 1..
-* extension[comorbidConditionAbsent].valueCodeableConcept from VsComorbiditiesI4RC
+* extension[comorbidConditionAbsent].valueCodeableConcept from VsComorbiditiesI4rc
 
 * value[x] only Quantity or integer
 * value[x] ^short = "Comorbidity score or risk index"

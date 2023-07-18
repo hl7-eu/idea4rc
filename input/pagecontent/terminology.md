@@ -10,7 +10,7 @@ These value sets have been defined for this implementation guide:
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: TestResult
-Id: Test-Result-I4RC
+Id: Test-Result-I4rc
 Title: "Test Result (IDEA4RC)"
 Description: "Test result used in the IDEA4RC project to determine a positive, negative or not tested patient"
 
@@ -22,7 +22,7 @@ Description: "Test result used in the IDEA4RC project to determine a positive, n
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: Site rare
-Id: Site-rare-I4RC
+Id: Site-rare-I4rc
 Title: "Site rare (IDEA4RC)"
 Description: "Describe the primary tumor site"
 
@@ -38,7 +38,7 @@ Description: "Describe the primary tumor site"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: Nasal cavity and paranasal sinuses subsite
-Id: Nasalcavity-and-paranasal-sinuses-subsite-I4RC
+Id: Nasalcavity-and-paranasal-sinuses-subsite-I4rc
 Title: "Nasal cavity and paranasal sinuses subsite (IDEA4RC)"
 Description: "Specifies the subsite for cancers occured in nasopharynx"
 
@@ -53,7 +53,7 @@ Description: "Specifies the subsite for cancers occured in nasopharynx"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: Nasopharynx subsite
-Id: Nasopharynx-subsite-I4RC
+Id: Nasopharynx-subsite-I4rc
 Title: "Nasopharynx subsite (IDEA4RC)"
 Description: "Specifies the subsite for cancers occured in nasopharynx"
 
@@ -66,7 +66,7 @@ Description: "Specifies the subsite for cancers occured in nasopharynx"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: Hypopharynx subsite
-Id: Hypopharynx-subsite-I4RC
+Id: Hypopharynx-subsite-I4rc
 Title: "Hypopharynx subsite (IDEA4RC)"
 Description: "Specifies the subsite for cancers occured in hypopharynx"
 
@@ -79,7 +79,7 @@ Description: "Specifies the subsite for cancers occured in hypopharynx"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: Oropharynx subsite
-Id: Oropharynx-subsite-I4RC
+Id: Oropharynx-subsite-I4rc
 Title: "Oropharynx subsite (IDEA4RC)"
 Description: "Specifies the subsite for cancers occured in Oropharynx"
 
@@ -102,7 +102,7 @@ Description: "Specifies the subsite for cancers occured in Oropharynx"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: Larynx subsite
-Id: Larynx-subsite-I4RC
+Id: Larynx-subsite-I4rc
 Title: "Larynx subsite (IDEA4RC)"
 Description: "Specifies the subsite for cancers occured in Larynx"
 
@@ -115,7 +115,7 @@ Description: "Specifies the subsite for cancers occured in Larynx"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: Oral cavity subsite
-Id: Oralcavity-subsite-I4RC
+Id: Oralcavity-subsite-I4rc
 Title: "Oral cavity subsite (IDEA4RC)"
 Description: "Specifies the subsite for cancers occured in oral cavity"
 
@@ -134,7 +134,7 @@ Description: "Specifies the subsite for cancers occured in oral cavity"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: Lip subsite
-Id: Lip-subsite-I4RC
+Id: Lip-subsite-I4rc
 Title: "Lip subsite (IDEA4RC)"
 Description: "Specifies the subsite for cancers occured in lip"
 

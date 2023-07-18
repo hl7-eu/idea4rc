@@ -12,5 +12,5 @@ Description: "This profile constrains the Observation resource to represent alco
 * effective[x].extension contains $data-absent-reason named data-absent-reason 0..1 MS
 * effective[x].extension[data-absent-reason] ^short = "effective[x] absence reason"
 * effective[x].extension[data-absent-reason] ^definition = "Provides a reason why the effectiveTime is missing." */
-* valueCodeableConcept from VsAlcoholUsageStatusI4RC 
+* valueCodeableConcept from VsAlcoholUsageStatusI4rc 
 * component ..0

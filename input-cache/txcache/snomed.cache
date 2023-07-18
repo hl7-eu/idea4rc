@@ -4341,3 +4341,456 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "32849002",
+        "display" : "Oesophagus"
+      },
+      {
+        "code" : "818983003",
+        "display" : "Abdomen"
+      },
+      {
+        "code" : "12738006",
+        "display" : "Brain"
+      },
+      {
+        "code" : "89545001",
+        "display" : "Face"
+      },
+      {
+        "code" : "10200004",
+        "display" : "Liver"
+      },
+      {
+        "code" : "421060004",
+        "display" : "Spine"
+      },
+      {
+        "code" : "2748008",
+        "display" : "Spinal Cord"
+      },
+      {
+        "code" : "90456006",
+        "display" : "Sympathetic nerve"
+      },
+      {
+        "code" : "51185008",
+        "display" : "Thoracic structure"
+      },
+      {
+        "code" : "12921003",
+        "display" : "Pelvis"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:0d5d6713-830f-4e96-8580-6715d1f7d9db",
+    "timestamp" : "2023-07-17T15:44:11.170Z",
+    "total" : 10,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "32849002",
+      "display" : "Oesophagus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "818983003",
+      "display" : "Abdomen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12738006",
+      "display" : "Brain"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "89545001",
+      "display" : "Face"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10200004",
+      "display" : "Liver"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "421060004",
+      "display" : "Spine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2748008",
+      "display" : "Spinal Cord"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "90456006",
+      "display" : "Sympathetic nerve"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "51185008",
+      "display" : "Thoracic structure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12921003",
+      "display" : "Pelvis"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "32849002"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Esophagus",
+  "code" : "32849002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "818983003"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Abdomen",
+  "code" : "818983003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "12738006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Brain",
+  "code" : "12738006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "89545001"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Face",
+  "code" : "89545001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "10200004"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Liver",
+  "code" : "10200004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "421060004"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Structure of vertebral column (body structure)",
+  "code" : "421060004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "2748008"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Spinal cord",
+  "code" : "2748008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "90456006"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Sympathetic nerve",
+  "code" : "90456006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "51185008"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Thorax",
+  "code" : "51185008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "12921003"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Pelvis",
+  "code" : "12921003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "387713003"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Surgical procedure (procedure)",
+  "code" : "387713003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "387713003",
+  "display" : "Surgical procedure"
+}, "valueSet" :null, "langs":"[en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Surgical procedure (procedure)",
+  "code" : "387713003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "32849002",
+        "display" : "Oesophagus"
+      },
+      {
+        "code" : "818983003",
+        "display" : "Abdomen"
+      },
+      {
+        "code" : "12738006",
+        "display" : "Brain"
+      },
+      {
+        "code" : "89545001",
+        "display" : "Face"
+      },
+      {
+        "code" : "10200004",
+        "display" : "Liver"
+      },
+      {
+        "code" : "421060004",
+        "display" : "Spine"
+      },
+      {
+        "code" : "2748008",
+        "display" : "Spinal Cord"
+      },
+      {
+        "code" : "90456006",
+        "display" : "Sympathetic nerve"
+      },
+      {
+        "code" : "51185008",
+        "display" : "Thoracic structure"
+      },
+      {
+        "code" : "12921003",
+        "display" : "Pelvis"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:bab3a984-27de-45b1-bad6-658748755fb8",
+    "timestamp" : "2023-07-17T15:54:11.656Z",
+    "total" : 10,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "32849002",
+      "display" : "Oesophagus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "818983003",
+      "display" : "Abdomen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12738006",
+      "display" : "Brain"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "89545001",
+      "display" : "Face"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10200004",
+      "display" : "Liver"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "421060004",
+      "display" : "Spine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2748008",
+      "display" : "Spinal Cord"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "90456006",
+      "display" : "Sympathetic nerve"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "51185008",
+      "display" : "Thoracic structure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12921003",
+      "display" : "Pelvis"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

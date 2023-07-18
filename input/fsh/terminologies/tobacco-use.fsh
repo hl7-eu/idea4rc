@@ -1,5 +1,5 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsCurrentSmokingStatusI4RC
+ValueSet: VsCurrentSmokingStatusI4rc
 Id: current-smoking-status-eu-i4rc
 Title: "Current Smoking Status"
 Description: "HL7 LOINC value set for smoking status.  Based on the HL7 Vocab and Structured Doc WG (formerly TC) consensus - per US CDC submission 7/12/2012 for smoking status terms."
@@ -21,7 +21,7 @@ Description: "HL7 LOINC value set for smoking status.  Based on the HL7 Vocab an
 * $loinc#LA18982-1  "Light tobacco smoker"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsTobaccoProductI4RC
+ValueSet: VsTobaccoProductI4rc
 Id: tobacco-product-eu-i4rc
 Title: "Tobacco Product"
 Description: "Tobacco Product based on the Athena system"

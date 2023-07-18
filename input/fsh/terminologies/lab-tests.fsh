@@ -1,5 +1,5 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsLabTestI4RC
+ValueSet: VsLabTestI4rc
 Id: lab-test-eu-i4rc
 Title: "Laboratory tests"
 Description: """Laboratory tests:
@@ -17,7 +17,7 @@ Description: """Laboratory tests:
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsPositiveNegativeNTAthenaI4RC
+ValueSet: VsPositiveNegativeNTAthenaI4rc
 Id: pos-neg-nt-athena-eu-i4rc
 Title: "Positive-Negative-No Test: Athena"
 Description: """Laboratory test results: Positive-Negative-Not tested: Athena"""
@@ -31,7 +31,7 @@ Description: """Laboratory test results: Positive-Negative-Not tested: Athena"""
 * $athena#45878602 "Not tested"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsYesNoUnkAthenaI4RC
+ValueSet: VsYesNoUnkAthenaI4rc
 Id: yes-no-unk-athena-eu-i4rc
 Title: "Yes-No-Unk: Athena"
 Description: """Laboratory test results: Yes-No-Unkwnon: Athena"""
@@ -45,7 +45,7 @@ Description: """Laboratory test results: Yes-No-Unkwnon: Athena"""
 * $athena#4129922 "unknown"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsPositiveNegativeNTSnomedI4RC
+ValueSet: VsPositiveNegativeNTSnomedI4rc
 Id: pos-neg-nt-sct-eu-i4rc
 Title: "Positive-Negative-No Test: Snomed CT"
 Description: """Laboratory test results: Positive-Negative-Not tested: Snomed CT"""

@@ -49,7 +49,11 @@ RuleSet: CancerConditionCommonRules
 
 RuleSet: CancerStageCommonRules
 * value[x] only CodeableConcept
-* value[x] ^comment = ""    // suppress QA error on #notes link
+// * value[x] ^comment = ""    // suppress QA error on #notes link
+* status ^short = "The status of the result"
+* code ^short = "What was observed"
+* effective[x] ^short = "Clinically relevant time for observation"
+* value[x] ^short = "Actual result."
 * insert NotUsed(device)
 * insert NotUsed(referenceRange)
 * insert NotUsed(component)
@@ -58,7 +62,7 @@ RuleSet: CancerStageCommonRules
 * method ^short = "ADD BINDING"
 /* * method from CancerStagingSystemVS (extensible) */
 // MS flags -- for Pathological staging, they might be redundant with US Core Lab Observation (but that's harmless)
-* status and code and subject and effective[x] and value[x] and method and focus MS
+// * status and code and subject and effective[x] and value[x] and method and focus MS
 
 //====== Profiles =====================================
 
@@ -304,13 +308,12 @@ Description: "The extent of the cancer in the body, according to a given cancer 
 
 * code from ObservationCodesStageGroupVS (preferred) 
 * valueCodeableConcept from CancerStageGroupVS (preferred) 
-* hasMember MS
 * hasMember only Reference(Observation)
 * insert ObservationHasMemberSlicingRules
 * hasMember contains
-    tnmPrimaryTumorCategory 0..1 MS and
-    tnmRegionalNodesCategory 0..1 MS and
-    tnmDistantMetastasesCategory 0..1 MS
+    tnmPrimaryTumorCategory 0..1  and
+    tnmRegionalNodesCategory 0..1  and
+    tnmDistantMetastasesCategory 0..1 
 // Set metadata attributes that show up in the IG
 * hasMember[tnmPrimaryTumorCategory] only Reference(TNMPrimaryTumorCategory)
 * hasMember[tnmPrimaryTumorCategory] ^short = "TNM Primary Tumor Category"
@@ -333,10 +336,11 @@ Description: "Category of the primary tumor, based on its size and extent, based
 * insert CancerStageCommonRules
 * insert NotUsed(hasMember)
 * code from ObservationCodesPrimaryTumorVS (required)
-* value[x] from TNMPrimaryTumorCategoryVS (preferred)
+* value[x] from TNMPrimaryTumorCategoryVS (example) 
+  * insert AdditionalBinding (preferred, VsPathologicalTI4rc, Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+  * insert AdditionalBinding (preferred, VsPathologicalTI4rc, Vocabulary binding used for Pathological Stage)
 
-* code ^short = "add binding"
-* value[x] ^short = "add binding"
+
 
 Profile:  TNMRegionalNodesCategory
 Id: mcode-tnm-regional-nodes-category
@@ -346,9 +350,9 @@ Description: "Category of the presence or absence of metastases in regional lymp
 * insert CancerStageCommonRules
 * insert NotUsed(hasMember)
 * code from ObservationCodesRegionalNodesVS (required)
-* value[x] from TNMRegionalNodesCategoryVS (preferred)
-* code from ObservationCodesRegionalNodesVS (required)
-* value[x] from TNMRegionalNodesCategoryVS (preferred)
+* value[x] from TNMRegionalNodesCategoryVS (example)
+  * insert AdditionalBinding (preferred, VsPathologicalNI4rc, Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+  * insert AdditionalBinding (preferred, VsPathologicalNI4rc, Vocabulary binding used for Pathological Stage)
 
 
 Profile:  TNMDistantMetastasesCategory
@@ -360,6 +364,5 @@ Description: "Category describing the extent of a tumor metastasis in remote ana
 * insert NotUsed(hasMember)
 * code from ObservationCodesDistantMetastasesVS (required)
 * value[x] from TNMDistantMetastasesCategoryVS (preferred)
-
-* code from ObservationCodesDistantMetastasesVS (required)
-* value[x] from TNMDistantMetastasesCategoryVS (preferred)
+  * insert AdditionalBinding (preferred, VsPathologicalMI4rc, Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+  * insert AdditionalBinding (preferred, VsPathologicalMI4rc, Vocabulary binding used for Pathological Stage)

@@ -1,6 +1,6 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VspNI4RC
-Id: pN-i4rc
+ValueSet: VsPathologicalNI4rc
+Id: pathologicalN-i4rc
 Title: "Pathological N"
 Description: "Pathological N"
 //-------------------------------------------------------------------------------------------

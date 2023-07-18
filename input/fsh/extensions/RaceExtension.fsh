@@ -20,4 +20,4 @@ Description: "Concepts classifying the person into a named category of humans sh
 * extension ^slicing.rules = #open
 * extension.value[x] 1..1
 * extension.value[x] only CodeableConcept
-* extension.value[x] from VsRaceI4RC (preferred)
+* extension.value[x] from VsRaceI4rc (preferred)

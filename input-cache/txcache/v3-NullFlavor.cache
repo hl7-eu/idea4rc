@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "concept" : [{
+        "code" : "OTH",
+        "display" : "Other"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:7a4a0267-ecb0-4982-80fa-625e77c1cd2b",
+    "timestamp" : "2023-07-17T15:44:11.904Z",
+    "total" : 1,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor|2.1.0"
+    }],
+    "contains" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "code" : "OTH",
+      "display" : "Other"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

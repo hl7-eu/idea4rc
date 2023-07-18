@@ -1,5 +1,5 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsSiteRareI4RC
+ValueSet: VsSiteRareI4rc
 Id: siteRare-i4rc
 Title: "Site rare (IDEA4RC)"
 Description: "Describe the primary tumor site"

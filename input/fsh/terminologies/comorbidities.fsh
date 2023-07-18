@@ -1,5 +1,5 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsComorbiditiesI4RC
+ValueSet: VsComorbiditiesI4rc
 Id: comorbidities-eu-i4rc
 Title: "Comorbidities"
 Description: "Comorbidities"
