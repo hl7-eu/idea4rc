@@ -4,6 +4,8 @@ Alias: $codex-radiotherapy-isotopes = http://hl7.org/fhir/us/codex-radiation-the
 Alias: $mcode-comorbidities = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-comorbidities
 Alias: $mcode-related-condition = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition
 Alias: $mcode-related-condition-absent = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition-absent
+Alias: $procedure-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category
+
 
 //============== ALIAS ===============
 // Alias: $igUri = http://hl7.eu/fhir/ig/idea4rc

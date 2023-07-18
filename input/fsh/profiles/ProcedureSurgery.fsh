@@ -1,7 +1,3 @@
-
-
-
-
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ProcedureSurgeryI4rc
 Parent:   Procedure 
@@ -14,7 +10,11 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
    SacrifiedOrgan named sacrifiedOrgan 0..1
 * extension[sacrifiedOrgan] */
 
+* extension contains $procedure-category-r5 named ProcedureCategoryR5 1..1
 
+* extension[ProcedureCategoryR5].valueCodeableConcept 1..1
+  * ^short = "ADD VOC BINDING"
+// * extension[ProcedureCategoryR5].valueCodeableConcept from XXXX
 
 * text ^short = "Textual description of the surgical procedure"
 * identifier ^short = "External Identifiers for this surgical procedure"
@@ -29,13 +29,11 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 * code from SurgicalProcedureTypeVs (extensible)
 // * code from SurgeryTypeVs 
 // add slice on coding to allow more precise data
-* subject only Reference(PatientI4rc)	
-* subject MS
-
+* insert SubjectRules
 // * performed[x] 1..
 * performedDateTime 1..
   * ^short = "Date of the surgical procedure"
-* reasonReference 1.. MS // add reference to the diagnosis
+* reasonReference 1..  // add reference to the diagnosis
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
 // * bodySite 0..1 MS 
 * bodySite from AffectedOrganVs (extensible)
@@ -43,6 +41,9 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
   * extension[laterality].valueCodeableConcept from LateralityQualifierVS 
 
 * location only Reference(Location) // add profile 
+* complication ^short = "ADD VOC BINDING"
+* outcome ^short = "ADD VOC BINDING"
+
 /* * focalDevice ^short = "Implanted or removed device"
   * action from SurgicalActionVs (extensible)
   * manipulated ^short = "Device manipulated" */
