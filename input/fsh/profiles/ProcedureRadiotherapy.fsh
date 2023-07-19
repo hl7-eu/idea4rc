@@ -12,6 +12,12 @@ RuleSet: ProcedureRadiotherapyI4rcRules
 * extension[procedureMethod].valueCodeableConcept from BrachytherapyType
 * extension[performedTiming].valueTiming.repeat.count ^short = "Number of repetitions" */
 
+* extension contains RadiotherapyModalityAndTechnique named modalityAndTechnique 0..*
+* extension[modalityAndTechnique]
+* extension[modalityAndTechnique].extension[modality] ^short = "Modality of external beam or brachytherapy radiation procedures"
+* extension[modalityAndTechnique].extension[technique] ^short = "Technique of external beam or brachytherapy radiation procedures"
+
+
 * identifier ^short = "External Identifiers for this radiotherapy / boost"
 * status ^short = "Procedure status"
 * category 1..1 

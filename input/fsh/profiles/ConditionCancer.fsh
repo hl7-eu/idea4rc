@@ -184,7 +184,7 @@ This profile should be also used for documenting primary cancer relapses during 
 * onset[x] MS
 * encounter only Reference (Encounter or EncounterI4rc)
 * stage.assessment only Reference(CancerStageGroup)
-* stage MS
+// * stage MS
 // and stage.assessment MS
 * stage.summary ^short = "Most recent Stage Group"
 * stage.summary ^definition = "As for mCODE, in PCSP staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the stage group MAY appear in this element, copied from the CancerStageGroup, but Data Senders and Receivers MAY ignore it."
