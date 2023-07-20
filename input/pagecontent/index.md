@@ -89,6 +89,21 @@ sharing of health data for rare cancers.**
     urgent needs of rare cancer patients, caregivers and families, with the
     key support received from the European Commission.
 
+
+### Dependencies
+
+{% include dependency-table.xhtml %}
+
+
+### Cross Version Analysis
+
+{% include cross-version-analysis.xhtml %}
+
+### Global Profiles
+
+{% include globals-table.xhtml %}
+
+
 ### Authors and Contributors
 
 <table>

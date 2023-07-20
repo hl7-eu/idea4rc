@@ -24,22 +24,22 @@ Bilateral: when both sides of the neck have been treated"""
 * surgeryOnM 1..1 CodeableConcept "Surgery on M" """Describes whether surgery is performed to treat the Metastasis"""				
 * dateOfSurgeryOnM 1..1 date "Date of surgery on M" """Date of the surgery on the metastasis"""				
 * siteOfSurgeryOnMetastasis 1..1 BackboneElement "Site of surgery on metastasis" """Describes the site of surgery on metastasis"""				
-* siteOfSurgeryOnMetastasis.SoftTissue 0..1 boolean "Site of surgery on metastasis_soft tissue" """Describes if site of surgery on metastasis  is soft tissue"""				
-* siteOfSurgeryOnMetastasis.DistantLymphNodes 0..1 boolean "Site of surgery on metastasis_distant lymph nodes" """Describes if site of surgery on metastasis  is dystan lymph node"""				
-* siteOfSurgeryOnMetastasis.Lung 0..1 boolean "Site of surgery on metastasis_lung" """Describes if site of surgery on metastasis  is lung"""				
-* siteOfSurgeryOnMetastasis.Bone 0..1 boolean "Site of surgery on metastasis_bone" """Describes if site of surgery on metastasis  is bone"""				
-* siteOfSurgeryOnMetastasis.Liver 0..1 boolean "Site of surgery on metastasis_liver" """Describes if site of surgery on metastasis  is liver"""				
-* siteOfSurgeryOnMetastasis.Pleura 0..1 boolean "Site of surgery on metastasis_pleura" """Describes if site of surgery on metastasis  is pleura"""				
-* siteOfSurgeryOnMetastasis.Peritoneum 0..1 boolean "Site of surgery on metastasis_peritoneum" """Describes if site of surgery on metastasis  is peritoneum"""				
-* siteOfSurgeryOnMetastasis.Brain 0..1 boolean "Site of surgery on metastasis_brain" """Describes if site of surgery on metastasis  is brain"""				
-* siteOfSurgeryOnMetastasis.OtherViscera 0..1 boolean "Site of surgery on metastasis_other viscera" """Describes if site of surgery on metastasis  is other viscera"""				
-* siteOfSurgeryOnMetastasis.Unknown 0..1 boolean "Site of surgery on metastasis_unknown" """Describes if site of surgery on metastasis  is unknown"""				
+* siteOfSurgeryOnMetastasis.softTissue 0..1 boolean "Site of surgery on metastasis_soft tissue" """Describes if site of surgery on metastasis  is soft tissue"""				
+* siteOfSurgeryOnMetastasis.distantLymphNodes 0..1 boolean "Site of surgery on metastasis_distant lymph nodes" """Describes if site of surgery on metastasis  is dystan lymph node"""				
+* siteOfSurgeryOnMetastasis.lung 0..1 boolean "Site of surgery on metastasis_lung" """Describes if site of surgery on metastasis  is lung"""				
+* siteOfSurgeryOnMetastasis.bone 0..1 boolean "Site of surgery on metastasis_bone" """Describes if site of surgery on metastasis  is bone"""				
+* siteOfSurgeryOnMetastasis.liver 0..1 boolean "Site of surgery on metastasis_liver" """Describes if site of surgery on metastasis  is liver"""				
+* siteOfSurgeryOnMetastasis.pleura 0..1 boolean "Site of surgery on metastasis_pleura" """Describes if site of surgery on metastasis  is pleura"""				
+* siteOfSurgeryOnMetastasis.peritoneum 0..1 boolean "Site of surgery on metastasis_peritoneum" """Describes if site of surgery on metastasis  is peritoneum"""				
+* siteOfSurgeryOnMetastasis.brain 0..1 boolean "Site of surgery on metastasis_brain" """Describes if site of surgery on metastasis  is brain"""				
+* siteOfSurgeryOnMetastasis.otherViscera 0..1 boolean "Site of surgery on metastasis_other viscera" """Describes if site of surgery on metastasis  is other viscera"""				
+* siteOfSurgeryOnMetastasis.unknown 0..1 boolean "Site of surgery on metastasis_unknown" """Describes if site of surgery on metastasis  is unknown"""				
 * surgicalComplicationsClavienDindoClassification 1..1 CodeableConcept "Surgical complications (Clavien-Dindo Classification)" """Describes presence and grade of complications after a surgical procedure,"""				
 //--- END				
 //--- END				
 //--- END				
-				
-				
+//--- END				
+//--- END				
 				
 //--------------------------------------------------------------------------------				
 //  Logical Model - Comments				

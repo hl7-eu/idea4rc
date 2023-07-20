@@ -5,6 +5,7 @@ RuleSet: AdditionalBinding (purposeCode, valueset, documentation)
 *  ^binding.extension[=].extension[=].valueCanonical = Canonical({valueset})
 *  ^binding.extension[=].extension[+].url = "documentation"
 *  ^binding.extension[=].extension[=].valueMarkdown = "{documentation}"
+*  ^binding.extension[=].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
 
 RuleSet: SubjectRules
 * subject 1..

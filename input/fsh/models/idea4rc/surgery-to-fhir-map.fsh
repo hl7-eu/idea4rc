@@ -30,7 +30,7 @@ Usage: #definition
 * group[=].element[=].target.comment = "to be analyzed: add a slice to the category.coding or derive this from a combination of elements or use other cathegories (R5 extension)"					
 * group[=].element[+].code = #Surgery.dateOfSurgery					
 * group[=].element[=].display = "Date of surgery"					
-* group[=].element[=].target.code = #Procedure.ï¿½performedDateTime					
+* group[=].element[=].target.code = #Procedure.ÿperformedDateTime					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 					
@@ -66,7 +66,7 @@ Usage: #definition
 * group[=].element[=].target.comment = "a surgical proceudre exists with bodySite = neck"					
 * group[=].element[+].code = #Surgery.dateOfNeckSurgey					
 * group[=].element[=].display = "Date of Neck surgey"					
-* group[=].element[=].target.code = #Procedure.ï¿½performedDateTime					
+* group[=].element[=].target.code = #Procedure.ÿperformedDateTime					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 * group[=].element[=].target.comment = "how this differs fomr the dateOfSurgery ?"					
@@ -96,61 +96,61 @@ or a surgical proceudre exists with  reasonCode = metastatis"
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.SoftTissue					
+* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.softTissue					
 * group[=].element[=].display = "Site of surgery on metastasis_soft tissue"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.DistantLymphNodes					
+* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.distantLymphNodes					
 * group[=].element[=].display = "Site of surgery on metastasis_distant lymph nodes"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.Lung					
+* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.lung					
 * group[=].element[=].display = "Site of surgery on metastasis_lung"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.Bone					
+* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.bone					
 * group[=].element[=].display = "Site of surgery on metastasis_bone"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.Liver					
+* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.liver					
 * group[=].element[=].display = "Site of surgery on metastasis_liver"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.Pleura					
+* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.pleura					
 * group[=].element[=].display = "Site of surgery on metastasis_pleura"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.Peritoneum					
+* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.peritoneum					
 * group[=].element[=].display = "Site of surgery on metastasis_peritoneum"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.Brain					
+* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.brain					
 * group[=].element[=].display = "Site of surgery on metastasis_brain"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.OtherViscera					
+* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.otherViscera					
 * group[=].element[=].display = "Site of surgery on metastasis_other viscera"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.Unknown					
+* group[=].element[+].code = #Surgery.siteOfSurgeryOnMetastasis.unknown					
 * group[=].element[=].display = "Site of surgery on metastasis_unknown"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					

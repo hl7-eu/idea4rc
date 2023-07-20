@@ -4402,3 +4402,178 @@ v: {
   "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "219006",
+        "display" : "Current drinker of alcohol"
+      },
+      {
+        "code" : "783261004",
+        "display" : "Lifetime non-drinker of alcohol"
+      },
+      {
+        "code" : "105542008",
+        "display" : "Current non-drinker of alcohol"
+      },
+      {
+        "code" : "66590003",
+        "display" : "Alcohol dependence"
+      },
+      {
+        "code" : "160580001",
+        "display" : "Alcohol consumption unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:38da4f35-978c-404f-a3b6-aec25a09c42a",
+    "timestamp" : "2023-07-20T12:31:49.269Z",
+    "total" : 5,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "219006",
+      "display" : "Current drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "783261004",
+      "display" : "Lifetime non-drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105542008",
+      "display" : "Current non-drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "66590003",
+      "display" : "Alcohol dependence"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160580001",
+      "display" : "Alcohol consumption unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "783261004"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Lifetime non-drinker of alcohol (finding)",
+  "code" : "783261004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "219006",
+        "display" : "Current drinker of alcohol"
+      },
+      {
+        "code" : "783261004",
+        "display" : "Lifetime non-drinker of alcohol"
+      },
+      {
+        "code" : "105542008",
+        "display" : "Current non-drinker of alcohol"
+      },
+      {
+        "code" : "66590003",
+        "display" : "Alcohol dependence"
+      },
+      {
+        "code" : "160580001",
+        "display" : "Alcohol consumption unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:de0426b2-9f9f-4ea6-8131-52924e2df477",
+    "timestamp" : "2023-07-20T12:37:59.457Z",
+    "total" : 5,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "219006",
+      "display" : "Current drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "783261004",
+      "display" : "Lifetime non-drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105542008",
+      "display" : "Current non-drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "66590003",
+      "display" : "Alcohol dependence"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160580001",
+      "display" : "Alcohol consumption unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

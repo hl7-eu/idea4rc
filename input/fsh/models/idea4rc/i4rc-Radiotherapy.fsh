@@ -10,7 +10,7 @@ Description:  """Radiotherapy"""
 * intent 1..1 CodeableConcept "Intent" """Radiotherapy intent refers to whether the intention of treatment is to cure the patient or to treat symptoms and palliate"""				
 * setting 0..1 CodeableConcept "Setting" """Whether radiotherapy is delivered as the main treatment modality (definitive) or if it is delivered before or after another treatment such as surgery"""				
 * beamQuality 1..1 CodeableConcept "Beam quality" """Describes the type of radiation therapy given. If external beam, please specify if delivered with Photons (most common), electrons, carbon, or protons."""				
-* otherSpecify 0..1 string "Other; specify" """"""				
+* otherSpecify 0..1 string "Other; specify" """Other; specify"""				
 * treatmentTechnique 1..1 CodeableConcept "Treatment technique" """Refers to the type of radiotherapy treatment delivered"""				
 * totalDoseTdGy 1..1 decimal "Total Dose (TD) Gy" """Refers to the total dose delivered to the patient in Gy"""				
 * fractionSizeFs 1..1 decimal "Fraction Size (FS)" """Refers to the Dose per fraction delivered to the patient."""				
@@ -26,21 +26,11 @@ Description:  """Radiotherapy"""
 * treatmentSites.primaryAndBilateralNeck 1..1 boolean "Primary and Bilateral Neck" """Primary and Bilateral Neck"""				
 * treatmentSites.distantMetastasis 1..1 boolean "Distant Metastasis" """Distant Metastasis"""				
 * metastaticTreatmentSites 0..1 BackboneElement "Metastatic Treatment Sites:" """Designates which treatment sites were irradiated. Lung Vs Mediastinum Vs Bone Vs soft tissue vs liver Vs other."""				
-* metastaticTreatmentSites.lung 0..1 boolean "Lung
-" """Lung
-"""				
-* metastaticTreatmentSites.mediastinum 0..1 boolean "Mediastinum
-" """Mediastinum
-"""				
-* metastaticTreatmentSites.bone 0..1 boolean "Bone
-" """Bone
-"""				
-* metastaticTreatmentSites.softTissue 0..1 boolean "Soft Tissue
-" """Soft Tissue
-"""				
-* metastaticTreatmentSites.liver 0..1 boolean "Liver
-" """Liver
-"""				
+* metastaticTreatmentSites.lung 0..1 boolean "Lung" """Lung"""				
+* metastaticTreatmentSites.mediastinum 0..1 boolean "Mediastinum" """Mediastinum"""				
+* metastaticTreatmentSites.bone 0..1 boolean "Bone" """Bone"""				
+* metastaticTreatmentSites.softTissue 0..1 boolean "Soft Tissue" """Soft Tissue"""				
+* metastaticTreatmentSites.liver 0..1 boolean "Liver" """Liver"""				
 * treatmentCompletedAsPlanned 1..1 CodeableConcept "Treatment Completed as Planned?" """Refers to whether patient completed all treatment as planned or if it had to be interrupted due to several reasons including toxicity, a co-morbidity preventing the delivery of radiation (pulmonary embolism, failure to thrive during RT), death due to progression of the cancer or patient decision"""				
 //--- END				
 //--- END				

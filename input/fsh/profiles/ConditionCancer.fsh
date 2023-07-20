@@ -338,9 +338,12 @@ Description: "Category of the primary tumor, based on its size and extent, based
 * insert NotUsed(hasMember)
 * code from ObservationCodesPrimaryTumorVS (required)
 * value[x] from TNMPrimaryTumorCategoryVS (example) 
-  * insert AdditionalBinding (preferred, VsPathologicalTI4rc, Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred, VsPathologicalTI4rc, Vocabulary binding used for Pathological Stage)
-
+  * insert AdditionalBinding (preferred,
+                              VsPathologicalTI4rc, 
+                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+  * insert AdditionalBinding (preferred,
+                              VsPathologicalTI4rc, 
+                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
 
 
 Profile:  TNMRegionalNodesCategory
@@ -352,8 +355,12 @@ Description: "Category of the presence or absence of metastases in regional lymp
 * insert NotUsed(hasMember)
 * code from ObservationCodesRegionalNodesVS (required)
 * value[x] from TNMRegionalNodesCategoryVS (example)
-  * insert AdditionalBinding (preferred, VsPathologicalNI4rc, Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred, VsPathologicalNI4rc, Vocabulary binding used for Pathological Stage)
+  * insert AdditionalBinding (preferred,
+                              VsPathologicalTI4rc, 
+                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+  * insert AdditionalBinding (preferred,
+                              VsPathologicalTI4rc, 
+                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
 
 
 Profile:  TNMDistantMetastasesCategory
@@ -365,5 +372,9 @@ Description: "Category describing the extent of a tumor metastasis in remote ana
 * insert NotUsed(hasMember)
 * code from ObservationCodesDistantMetastasesVS (required)
 * value[x] from TNMDistantMetastasesCategoryVS (preferred)
-  * insert AdditionalBinding (preferred, VsPathologicalMI4rc, Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred, VsPathologicalMI4rc, Vocabulary binding used for Pathological Stage)
+  * insert AdditionalBinding (preferred,
+                              VsPathologicalTI4rc, 
+                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+  * insert AdditionalBinding (preferred,
+                              VsPathologicalTI4rc, 
+                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
