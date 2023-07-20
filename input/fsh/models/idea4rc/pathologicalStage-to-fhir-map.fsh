@@ -16,104 +16,122 @@ Usage: #definition
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/ClinicalStage"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-cancer-stage-group"					
 					
-* group[=].element[+].code = #ClinicalStage.episodeEvent					
-* group[=].element[=].display = "Episode Event"					
+* group[=].element[+].code = #PathologicalStage.episodeEventReference					
+* group[=].element[=].display = "Episode Event Reference"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "Condition.stage.assessment"					
-* group[=].element[+].code = #ClinicalStage.cT					
-* group[=].element[=].display = "cT"					
+* group[=].element[+].code = #PathologicalStage.pT					
+* group[=].element[=].display = "pT"					
 * group[=].element[=].target.code = #Observation.hasMember:tnmPrimaryTumorCategory					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "where code = 21902-2	 'Stage group.pathology'"					
-* group[=].element[+].code = #ClinicalStage.cN					
-* group[=].element[=].display = "cN"					
+* group[=].element[+].code = #PathologicalStage.pN					
+* group[=].element[=].display = "pN"					
 * group[=].element[=].target.code = #Observation.hasMember:tnmRegionalNodesCategory					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "where code = 21902-2	 'Stage group.pathology'"					
-* group[=].element[+].code = #ClinicalStage.radiologicalExtraNodalExtension					
-* group[=].element[=].display = "Radiological Extra-nodal extension (rENE)"					
-* group[=].element[=].target.code = #Observation.					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TO BE DEFINED"					
-* group[=].element[+].code = #ClinicalStage.cM					
-* group[=].element[=].display = "cM"					
+* group[=].element[+].code = #PathologicalStage.pM					
+* group[=].element[=].display = "pM"					
 * group[=].element[=].target.code = #Observation.hasMember:tnmDistantMetastasesCategory					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 * group[=].element[=].target.comment = "where code = 21902-2	 'Stage group.pathology'"					
-* group[=].element[+].code = #ClinicalStage.clinicalStaging					
-* group[=].element[=].display = "Clinical staging"					
+* group[=].element[+].code = #PathologicalStage.extranodalExtension					
+* group[=].element[=].display = "Extranodal extension (ENE)"					
+* group[=].element[=].target.code = #Observation.					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.comment = "CLARIFY MAPPING"					
+* group[=].element[+].code = #PathologicalStage.extranodalExtent					
+* group[=].element[=].display = "Extranodal Extent"					
+* group[=].element[=].target.code = #Observation.					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.comment = "CLARIFY MAPPING"					
+* group[=].element[+].code = #PathologicalStage.sentinelNode					
+* group[=].element[=].display = "Sentinel node"					
+* group[=].element[=].target.code = #Observation.					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.comment = "CLARIFY MAPPING"					
+* group[=].element[+].code = #PathologicalStage.neckDissection					
+* group[=].element[=].display = "Neck dissection"					
+* group[=].element[=].target.code = #Observation.					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.comment = "CLARIFY MAPPING"					
+* group[=].element[+].code = #PathologicalStage.pathologicalStaging					
+* group[=].element[=].display = "Pathological staging"					
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #equivalent					
+* group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "where code = 21902-2	 'Stage group.pathology'"					
-* group[=].element[+].code = #ClinicalStage.ajccEdition					
+* group[=].element[+].code = #PathologicalStage.ajccEdition					
 * group[=].element[=].display = "Ajcc edition"					
 * group[=].element[=].target.code = #Observation.valueCodeableConcept.coding.system					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "where code = 21902-2	 'Stage group.pathology'
 a code system version can be specifed as part of the system"					
-* group[=].element[+].code = #ClinicalStage.softTissue					
-* group[=].element[=].display = "Soft tissue"					
+* group[=].element[+].code = #PathologicalStage.softTissue					
+* group[=].element[=].display = "Soft Tissue"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "CLARIFY HOW THIS DIFFERS FROM THE EQUIVALENT DATA IN EPISODE EVENT"					
-* group[=].element[+].code = #ClinicalStage.distantLymphNode					
+* group[=].element[+].code = #PathologicalStage.distantLymphNode					
 * group[=].element[=].display = "distant lymph node"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "CLARIFY HOW THIS DIFFERS FROM THE EQUIVALENT DATA IN EPISODE EVENT"					
-* group[=].element[+].code = #ClinicalStage.lung					
+* group[=].element[+].code = #PathologicalStage.lung					
 * group[=].element[=].display = "lung"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "CLARIFY HOW THIS DIFFERS FROM THE EQUIVALENT DATA IN EPISODE EVENT"					
-* group[=].element[+].code = #ClinicalStage.bone					
+* group[=].element[+].code = #PathologicalStage.bone					
 * group[=].element[=].display = "bone"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "CLARIFY HOW THIS DIFFERS FROM THE EQUIVALENT DATA IN EPISODE EVENT"					
-* group[=].element[+].code = #ClinicalStage.liver					
+* group[=].element[+].code = #PathologicalStage.liver					
 * group[=].element[=].display = "liver"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "CLARIFY HOW THIS DIFFERS FROM THE EQUIVALENT DATA IN EPISODE EVENT"					
-* group[=].element[+].code = #ClinicalStage.pleura					
+* group[=].element[+].code = #PathologicalStage.pleura					
 * group[=].element[=].display = "pleura"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "CLARIFY HOW THIS DIFFERS FROM THE EQUIVALENT DATA IN EPISODE EVENT"					
-* group[=].element[+].code = #ClinicalStage.peritoneum					
+* group[=].element[+].code = #PathologicalStage.peritoneum					
 * group[=].element[=].display = "peritoneum"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "CLARIFY HOW THIS DIFFERS FROM THE EQUIVALENT DATA IN EPISODE EVENT"					
-* group[=].element[+].code = #ClinicalStage.brain					
+* group[=].element[+].code = #PathologicalStage.brain					
 * group[=].element[=].display = "brain"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "CLARIFY HOW THIS DIFFERS FROM THE EQUIVALENT DATA IN EPISODE EVENT"					
-* group[=].element[+].code = #ClinicalStage.otherViscera					
+* group[=].element[+].code = #PathologicalStage.otherViscera					
 * group[=].element[=].display = "other viscera"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "CLARIFY HOW THIS DIFFERS FROM THE EQUIVALENT DATA IN EPISODE EVENT"					
-* group[=].element[+].code = #ClinicalStage.unknown					
+* group[=].element[+].code = #PathologicalStage.unknown					
 * group[=].element[=].display = "unknown"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
@@ -122,43 +140,9 @@ a code system version can be specifed as part of the system"
 //---END					
 //---END					
 //---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
-//---END					
+					
+					
+					
 					
 					
 					
@@ -166,24 +150,13 @@ a code system version can be specifed as part of the system"
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/ClinicalStage"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-primary-tumor-category"					
 					
-* group[=].element[+].code = #ClinicalStage.cT					
+* group[=].element[+].code = #PathologicalStage.cT					
 * group[=].element[=].display = "cT"					
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-					
-* group[=].element[+].code = #ClinicalStage.cN					
-* group[=].element[=].display = "cN"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #ClinicalStage.radiologicalExtraNodalExtension					
-* group[=].element[=].display = "Radiological Extra-nodal extension (rENE)"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
+* group[=].element[=].target.comment = "where code = 21902-2	 'Stage group.pathology'"					
+//---END					
 //---END					
 //---END					
 //---END					
@@ -193,65 +166,27 @@ a code system version can be specifed as part of the system"
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/ClinicalStage"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-regional-nodes-category"					
 					
-* group[=].element[+].code = #ClinicalStage.cT					
-* group[=].element[=].display = "cT"					
+* group[=].element[+].code = #PathologicalStage.cN					
+* group[=].element[=].display = "cN"					
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-					
-* group[=].element[+].code = #ClinicalStage.cN					
-* group[=].element[=].display = "cN"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #ClinicalStage.radiologicalExtraNodalExtension					
-* group[=].element[=].display = "Radiological Extra-nodal extension (rENE)"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #ClinicalStage.cM					
-* group[=].element[=].display = "cM"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
+* group[=].element[=].target.comment = "where code = 21902-2	 'Stage group.pathology'"					
 //---END					
 //---END					
 //---END					
 //---END					
-					
+//---END					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/ClinicalStage"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-distant-metastases-category"					
 					
-* group[=].element[+].code = #ClinicalStage.cT					
-* group[=].element[=].display = "cT"					
+* group[=].element[+].code = #PathologicalStage.cM					
+* group[=].element[=].display = "cM"					
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					
-* group[=].element[+].code = #ClinicalStage.cN					
-* group[=].element[=].display = "cN"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #ClinicalStage.radiologicalExtraNodalExtension					
-* group[=].element[=].display = "Radiological Extra-nodal extension (rENE)"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #ClinicalStage.cM					
-* group[=].element[=].display = "cM"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-//---END					
-//---END					
 //---END					
 //---END					
 //---END					

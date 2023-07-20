@@ -12,7 +12,7 @@ Usage: #definition
 * description = "Subject Model to this guide Map"					
 * purpose = "It shows how the Subject model is mapped into this guide"					
 * sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
-* targetUri = "http://hl7.org/fhir"					
+* targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/patient-eu-i4rc"					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/patient-eu-i4rc"					
 					
