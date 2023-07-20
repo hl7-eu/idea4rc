@@ -6,6 +6,9 @@ Description: "Describe the primary tumor site"
 
 //-------------------------------------------------------------------------------------------
 
+* ^status = #active
+* ^experimental = true
+
 * $sct#126670003 // Neoplasm of nasal cavity (disorder)
 * $sct#126680004 // Neoplasm of nasopharynx (disorder)
 * $sct#126788000 // Neoplasm of parotid gland (disorder)

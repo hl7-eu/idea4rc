@@ -52,6 +52,8 @@ Description: """Laboratory test results: Positive-Negative-Not tested: Snomed CT
 
 //-------------------------------------------------------------------------------------------
 
+* ^status = #active
+* ^experimental = true
 * $sct#416237000 // patient not tested (situation)
 * $sct#10828004 // positive patient (qualifier value)
 * $sct#260385009 // negative patient (qualifier value)

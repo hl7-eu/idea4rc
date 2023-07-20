@@ -37,14 +37,15 @@ RuleSet: CancerConditionCommonRules
 
 * bodySite.extension[lateralityQualifier].valueCodeableConcept
 
-* bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[0].url = "purpose"
+// === ADD VS BINDING =====
+/* * bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[0].url = "purpose"
 * bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[=].valueCode = #candidate
 * bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[+].url = "valueSet"
 * bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[=].valueCanonical = $mcode-laterality-qualifier-vs
 * bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[+].url = "documentation"
 * bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[=].valueMarkdown = "Qualifiers to specify laterality."
 * bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
-* bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.description = "Qualifiers to specify laterality."
+* bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.description = "Qualifiers to specify laterality." */
 
 
 RuleSet: CancerStageCommonRules

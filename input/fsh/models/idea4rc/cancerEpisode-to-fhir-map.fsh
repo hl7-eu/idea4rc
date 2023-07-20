@@ -12,7 +12,7 @@ Usage: #definition
 * description = "Cancer Episode Model to this guide Map"					
 * purpose = "It shows how the Cancer Episode model is mapped into this guide"					
 * sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/CancerEpisode"					
-* targetUri = "http://hl7.org/fhir"					
+* targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/CancerEpisode"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"					
 					
@@ -145,7 +145,7 @@ NOTE : code to be changed !"
 * group[=].element[=].target.comment = "Where Observation.code is 77377-0 HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]
 NOTE : code to be checked !"					
 * group[=].element[+].code = #CancerEpisode.crpCReactiveProteinTested					
-* group[=].element[=].display = "CRP ? C reactive protein tested "					
+* group[=].element[=].display = "CRP - C reactive protein tested"					
 * group[=].element[=].target.code = #Condition.evidence:crpCReactiveProteinTested.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					

@@ -28,12 +28,14 @@ Description: "This profile constrains the Observation resource to represent Toba
 
 * component contains tobaccoProduct 0..1 
 * component[tobaccoProduct]
-  * code = $loinc#81228-9 "Tobacco product"
+  * ^short = "Tobacco product"
+  * code = $loinc#81228-9 // "Tobacco product"
   * valueCodeableConcept from VsTobaccoProductI4rc (required) // value set to be revised
 
 * component contains numberPerDay 0..1 
 * component[numberPerDay]
-  * code = $loinc#64218-1 "How many cigarettes do you smoke per day now" // to be checked 
+  * ^short = "How many cigarettes do you smoke per day now"
+  * code = $loinc#64218-1 // "How many cigarettes do you smoke per day now" // to be checked 
   // there is also the 8663-7 Cigarettes smoked current (pack per day) - Reported
   * value[x] only Quantity 
 // Cigarettes/cigars smoked per day
@@ -41,7 +43,8 @@ Description: "This profile constrains the Observation resource to represent Toba
 
 * component contains yearsAsSmoker 0..1 
 * component[yearsAsSmoker]
-  * code = $loinc#88029-4 "Tobacco use duration" 
+  * ^short = "Tobacco use duration"
+  * code = $loinc#88029-4 // "Tobacco use duration" 
   // there is also the 8663-7 Cigarettes smoked current (pack per day) - Reported
   * value[x] only Quantity
   * valueQuantity

@@ -3,7 +3,7 @@
 //===================================================				
 Logical: CancerEpisodeI4rc				
 Id: CancerEpisode				
-Title: "Cancer  "				
+Title: "Cancer  Episode"				
 Description:  """Cancer Episode
 Maturity Level: 0 Draft"""				
 * patient 1..1 http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject "Patient" """Patient element containing the data regarding the patient followed by the hospital"""				
@@ -27,7 +27,7 @@ Maturity Level: 0 Draft"""
 * histologySubGroup.lipSubsite 1..1 CodeableConcept "Lip subsite" """Specifies the subsite for cancers occurred in lip"""				
 * plasmaticEbvDnaAtBaseline 0..1 CodeableConcept "Plasmatic EBV DNA at baseline" """Describes the result of EBV DNA plasma testing before treatment in NPC type II and III (WHO) """				
 * hpvStatus 0..1 CodeableConcept "HPV status" """Describes the result of HPV tumor testing in oral carcinoma """				
-* crpCReactiveProteinTested 0..1 CodeableConcept "CRP ? C reactive protein tested " """Describes the result of C reactive protein testing"""				
+* crpCReactiveProteinTested 0..1 CodeableConcept "CRP - C reactive protein tested" """Describes the result of C reactive protein testing"""				
 //--- END				
 //--- END				
 //--- END				
