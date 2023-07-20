@@ -1326,3 +1326,547 @@ e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4121182",
+        "display" : "R0 (microscopic negative)"
+      },
+      {
+        "code" : "4175704",
+        "display" : "R1 (microscopic positive)"
+      },
+      {
+        "code" : "4081832",
+        "display" : "R2 (macroscopic positive)"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4058777",
+        "display" : "completion"
+      },
+      {
+        "code" : "438028",
+        "display" : "toxicity"
+      },
+      {
+        "code" : "4122706",
+        "display" : "comorbidity"
+      },
+      {
+        "code" : "4105297",
+        "display" : "patient intolerance"
+      },
+      {
+        "code" : "4306655",
+        "display" : "death"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4179711",
+        "display" : "palliative"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4188540",
+        "display" : "no complication"
+      },
+      {
+        "code" : "40459832",
+        "display" : "grade I"
+      },
+      {
+        "code" : "40459833",
+        "display" : "grade II"
+      },
+      {
+        "code" : "40459834",
+        "display" : "grade III"
+      },
+      {
+        "code" : "40459835",
+        "display" : "grade IV"
+      },
+      {
+        "code" : "40459836",
+        "display" : "grade V"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4163135",
+        "display" : "complete response"
+      },
+      {
+        "code" : "4161302",
+        "display" : "partial response"
+      },
+      {
+        "code" : "4241442",
+        "display" : "stable disease"
+      },
+      {
+        "code" : "4168352",
+        "display" : "progression"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "44808409",
+        "display" : "neo-adjuvant"
+      },
+      {
+        "code" : "44804498",
+        "display" : "adjuvant"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4236080",
+        "display" : "external/open"
+      },
+      {
+        "code" : "4050374",
+        "display" : "transnasal"
+      },
+      {
+        "code" : "4044897",
+        "display" : "transorbital"
+      },
+      {
+        "code" : "4038679",
+        "display" : "transoral"
+      },
+      {
+        "code" : "4333339",
+        "display" : "craniofacial"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4273629",
+        "display" : "chemotherapy"
+      },
+      {
+        "code" : "40310107",
+        "display" : "immunotherapy"
+      },
+      {
+        "code" : "40488979",
+        "display" : "target therapy"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4121182",
+        "display" : "R0 (microscopic negative)"
+      },
+      {
+        "code" : "4175704",
+        "display" : "R1 (microscopic positive)"
+      },
+      {
+        "code" : "4081832",
+        "display" : "R2 (macroscopic positive)"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/margins-after-surgery-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4058777",
+        "display" : "completion"
+      },
+      {
+        "code" : "438028",
+        "display" : "toxicity"
+      },
+      {
+        "code" : "4122706",
+        "display" : "comorbidity"
+      },
+      {
+        "code" : "4105297",
+        "display" : "patient intolerance"
+      },
+      {
+        "code" : "4306655",
+        "display" : "death"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/reason-for-end-of-treatment-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4179711",
+        "display" : "palliative"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/surgery-intention-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4188540",
+        "display" : "no complication"
+      },
+      {
+        "code" : "40459832",
+        "display" : "grade I"
+      },
+      {
+        "code" : "40459833",
+        "display" : "grade II"
+      },
+      {
+        "code" : "40459834",
+        "display" : "grade III"
+      },
+      {
+        "code" : "40459835",
+        "display" : "grade IV"
+      },
+      {
+        "code" : "40459836",
+        "display" : "grade V"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/surgical-complications-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4163135",
+        "display" : "complete response"
+      },
+      {
+        "code" : "4161302",
+        "display" : "partial response"
+      },
+      {
+        "code" : "4241442",
+        "display" : "stable disease"
+      },
+      {
+        "code" : "4168352",
+        "display" : "progression"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/treatment-response-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "44808409",
+        "display" : "neo-adjuvant"
+      },
+      {
+        "code" : "44804498",
+        "display" : "adjuvant"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/treatment-setting-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4236080",
+        "display" : "external/open"
+      },
+      {
+        "code" : "4050374",
+        "display" : "transnasal"
+      },
+      {
+        "code" : "4044897",
+        "display" : "transorbital"
+      },
+      {
+        "code" : "4038679",
+        "display" : "transoral"
+      },
+      {
+        "code" : "4333339",
+        "display" : "craniofacial"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/type-of-surgical-approach-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4273629",
+        "display" : "chemotherapy"
+      },
+      {
+        "code" : "40310107",
+        "display" : "immunotherapy"
+      },
+      {
+        "code" : "40488979",
+        "display" : "target therapy"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/type-of-systemic-treatment-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
