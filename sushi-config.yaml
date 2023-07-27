@@ -140,6 +140,14 @@ resources:
     name: Surgery Model to this guide Map
     description: It shows how the Surgery model is mapped into this guide
 
+  ConceptMap/radiotherapy2FHIR:
+    name: Radiotherapy Model to this guide Map
+    description: It shows how the Radiotherapy model is mapped into this guide
+
+  ConceptMap/systemicTreatment2FHIR:
+    name: Systemic Treatment Model to this guide Map
+    description: It shows how the Systemic Treatment model is mapped into this guide
+
   StructureDefinition/Subject:
     name: Patient
     description: IDEA4RC Patient common model
@@ -206,6 +214,8 @@ groups:
       - ConceptMap/pathologicalStage2FHIR
       - ConceptMap/episodeEvent2FHIR
       - ConceptMap/surgery2FHIR
+      - ConceptMap/radiotherapy2FHIR
+      - ConceptMap/systemicTreatment2FHIR
 
   patientImplementation:
     name:  HL7 FHIR Profile implementing the Subject (Patient) model
@@ -240,3 +250,15 @@ groups:
     description: HL7 FHIR Profile implementing the Surgery model
     resources:
       - StructureDefinition/Procedure-surgery-eu-i4rc
+
+  radiotherapyImplementation:
+    name:  HL7 FHIR Profile implementing the Radiotherapy model
+    description: HL7 FHIR Profile implementing the Radiotherapy model
+    resources:
+      - StructureDefinition/Procedure-radiotheraphy-eu-i4rc
+
+  systemicTreatmentImplementation:
+    name:  HL7 FHIR Profile implementing the Systemic Treatment model
+    description: HL7 FHIR Profile implementing the Systemic Treatment model (mapping to be further analyzed)
+    resources:
+      - StructureDefinition/MedicationAdministration-eu-i4rc

@@ -1,10 +1,10 @@
 //====== RuleSet =====================================
 
 RuleSet: MedicationAdministrationI4rcRules
-* extension contains 
+/* * extension contains 
 		ResourceRelatedInfo named relatedCumulativeDose 0..1 
-		and EventLocation named location 0..1
-* extension[relatedCumulativeDose].valueReference only Reference(CumulativeDoseChemoObsI4rc)
+		and EventLocation named location 0..1 */
+/* * extension[relatedCumulativeDose].valueReference only Reference(CumulativeDoseChemoObsI4rc) */
 /* * extension[location].valueReference only Reference(LocationI4rc) */
 * status MS
 * subject 1..
@@ -33,7 +33,7 @@ RuleSet: CumulativeDoseObsRules
 * valueCodeableConcept = $data-absent-reason#unknown "Unknown" 
 * component 0..
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/* //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  CumulativeDoseChemoObsI4rc
 Parent:   Observation
 Id:       Observation-cumulativeDoseChemo-eu-i4rc
@@ -52,7 +52,7 @@ Description: "This profile defines how to represent Chemotherapy Cumulative Dose
 * valueQuantity 0.. 
   * ^short = "Chemotherapy Cumulative Dose"
   * code from ChemoUnitsVs
-* dataAbsentReason ^short = "Not calculated or not known dose"
+* dataAbsentReason ^short = "Not calculated or not known dose" */
 /* * dataAbsentReason from NotPerformedUnknownVs
 * method from CalculatedEstimatedVs */
 
@@ -83,7 +83,7 @@ Description: "This profile defines how to represent MedicationAdministration in 
   * code 1.. MS 
   * unit MS 
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/* //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  MedicationStatementI4rc
 Parent:   MedicationStatement 
 Id:       MedicationStatement-eu-i4rc
@@ -112,4 +112,4 @@ Description: "This profile defines how to represent MedicationStatement in FHIR 
   
 // 20042000 edqm Intrathecal use
 * dosage.timing.repeat.count ^short = "Number of administration"
-* dosage.timing.repeat.boundsDuration ^short = "Length/Range of lengths, or (Start and/or end) limits."
+* dosage.timing.repeat.boundsDuration ^short = "Length/Range of lengths, or (Start and/or end) limits." */

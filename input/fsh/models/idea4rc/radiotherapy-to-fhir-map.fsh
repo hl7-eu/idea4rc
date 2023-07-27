@@ -12,9 +12,9 @@ Usage: #definition
 * description = "Radiotherapy Model to this guide Map"					
 * purpose = "It shows how the Radiotherapy model is mapped into this guide"					
 * sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Radiotherapy"					
-* targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-pcsp"					
+* targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc"					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Radiotherapy"					
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-pcsp"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc"					
 					
 * group[=].element[+].code = #Radiotherapy.episodeEventReference					
 * group[=].element[=].display = "Episode Event reference"					
