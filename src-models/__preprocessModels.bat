@@ -13,7 +13,7 @@ for /R ..\input\fsh\models\idea4rc %%f in (*.fsh) do (
  fart %~1  ##334#\" \"\"\"
  fart %~1  ##334# \"\"\"
  fart %~1  ##34#\" \"
- fart %~1  ##34# \" 
+ fart %~1  ##34# \"
  
  GOTO :EOF
 

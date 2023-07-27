@@ -180,6 +180,26 @@ resources:
     name: Radiotherapy
     description: IDEA4RC Radiotherapy common model
 
+  StructureDefinition/GeneticTestExpression:
+    name: Genetic Test Expression
+    description: IDEA4RC Genetic Test Expression common model
+
+  StructureDefinition/TreatmentResponse:
+    name: Treatment Response
+    description: IDEA4RC Treatment Response common model
+
+  StructureDefinition/AdverseEvent:
+    name: Adverse Event
+    description: IDEA4RC Adverse Event common model
+
+  StructureDefinition/HospitalPatientRecords:
+    name: Hospital Patient Records
+    description: IDEA4RC Hospital Patient Records common model. This includes aslo the HospitalData model.
+
+  StructureDefinition/PatientFollowUp:
+    name: Patient Follow-Up
+    description: IDEA4RC Patient Follow Up common model
+
   #
 # Groups can control certain aspects of the IG generation.  The IG
 # documentation recommends that authors use the default groups that
@@ -203,6 +223,11 @@ groups:
       - StructureDefinition/SystemicTreatment
       - StructureDefinition/Surgery
       - StructureDefinition/Radiotherapy
+      - StructureDefinition/GeneticTestExpression
+      - StructureDefinition/TreatmentResponse
+      - StructureDefinition/AdverseEvent
+      - StructureDefinition/HospitalPatientRecords
+      - StructureDefinition/PatientFollowUp
 
   LogicalModel2FHIR:
     name:  IDEA4RC Common Models Maps
