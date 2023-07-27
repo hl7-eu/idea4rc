@@ -4577,3 +4577,141 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "703858009",
+        "display" : "Numeric estimation technique"
+      },
+      {
+        "code" : "702873001",
+        "display" : "Calculation technique"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:4b1cc41c-a3a8-42df-a8bc-468b7b71fb3c",
+    "timestamp" : "2023-07-27T08:21:26.994Z",
+    "total" : 2,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "703858009",
+      "display" : "Numeric estimation technique"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702873001",
+      "display" : "Calculation technique"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "703858009"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Numeric estimation technique (qualifier value)",
+  "code" : "703858009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "702873001"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Calculation technique (qualifier value)",
+  "code" : "702873001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "703858009",
+        "display" : "Numeric estimation technique"
+      },
+      {
+        "code" : "702873001",
+        "display" : "Calculation technique"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:4af5c3ad-3ff8-4bd4-a490-c35fc07e27fe",
+    "timestamp" : "2023-07-27T08:25:52.400Z",
+    "total" : 2,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "703858009",
+      "display" : "Numeric estimation technique"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702873001",
+      "display" : "Calculation technique"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

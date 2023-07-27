@@ -16,3 +16,170 @@ v: {
   "version" : "2.0.1"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "mg/m2"
+      },
+      {
+        "code" : "g/m2"
+      },
+      {
+        "code" : "[iU]/m2"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:fe1f3935-8c9a-4617-80d4-561d24fb414d",
+    "timestamp" : "2023-07-27T08:21:24.150Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg/m2",
+      "display" : "mg/m2"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g/m2",
+      "display" : "g/m2"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "[iU]/m2",
+      "display" : "[iU]/m2"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mg/m2"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "mg/m2",
+  "code" : "mg/m2",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.0.1"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "g/m2"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "g/m2",
+  "code" : "g/m2",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.0.1"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "[iU]/m2"
+}, "valueSet" :null, "langs":"[en-US, en]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "[iU]/m2",
+  "code" : "[iU]/m2",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.0.1"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "mg/m2"
+      },
+      {
+        "code" : "g/m2"
+      },
+      {
+        "code" : "[iU]/m2"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:1f861aae-e46b-459f-b9f4-82b1253a005d",
+    "timestamp" : "2023-07-27T08:25:35.057Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg/m2",
+      "display" : "mg/m2"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g/m2",
+      "display" : "g/m2"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "[iU]/m2",
+      "display" : "[iU]/m2"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

@@ -16,3 +16,50 @@ e: {
   "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+      "concept" : [{
+        "code" : "unknown",
+        "display" : "Unknown"
+      },
+      {
+        "code" : "not-performed",
+        "display" : "Not Performed"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+      "concept" : [{
+        "code" : "unknown",
+        "display" : "Unknown"
+      },
+      {
+        "code" : "not-performed",
+        "display" : "Not Performed"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/vs-npunk-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+}
+-------------------------------------------------------------------------------------
