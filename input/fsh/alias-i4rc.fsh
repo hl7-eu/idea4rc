@@ -5,8 +5,10 @@ Alias: $mcode-comorbidities = http://hl7.org/fhir/us/mcode/StructureDefinition/m
 Alias: $mcode-related-condition = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition
 Alias: $mcode-related-condition-absent = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition-absent
 Alias: $procedure-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category
-
-
+Alias: $mcode-procedure-intent = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent
+Alias: $mcode-radiotherapy-dose-delivered-to-volume = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume
+Alias: $mcode-treatment-termination-reason = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-termination-reason
+Alias: $procedure-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category
 //============== ALIAS ===============
 // Alias: $igUri = http://hl7.eu/fhir/ig/idea4rc
 

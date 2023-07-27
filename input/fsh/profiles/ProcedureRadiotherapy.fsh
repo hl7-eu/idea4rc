@@ -12,11 +12,32 @@ RuleSet: ProcedureRadiotherapyI4rcRules
 * extension[procedureMethod].valueCodeableConcept from BrachytherapyType
 * extension[performedTiming].valueTiming.repeat.count ^short = "Number of repetitions" */
 
+* extension contains $procedure-category-r5 named procedureCategoryR5 0..*
+* extension[procedureCategoryR5] // add bindings
+
 * extension contains RadiotherapyModalityAndTechnique named modalityAndTechnique 0..*
 * extension[modalityAndTechnique]
 * extension[modalityAndTechnique].extension[modality] ^short = "Modality of external beam or brachytherapy radiation procedures"
 * extension[modalityAndTechnique].extension[technique] ^short = "Technique of external beam or brachytherapy radiation procedures"
 
+/* THIS EXTENSION SHALL BE REVIEWED SINCE VOLUME IS 1.. AND THIS IS NOT USED */
+
+* extension contains $mcode-radiotherapy-dose-delivered-to-volume named doseToVolume 0..1
+* extension[doseToVolume].extension[volume]
+* extension[doseToVolume].extension[totalDoseDelivered]
+* extension[doseToVolume].extension[fractionsDelivered] 
+
+
+/* THIS EXTENSION SHALL BE REDEFINED IN ORDER TO ADD THE PROPER VALUE SET */
+
+* extension contains $mcode-treatment-termination-reason named terminationReason 0..*
+* extension[terminationReason] 
+
+
+//===================================
+
+* extension contains  $mcode-procedure-intent named procedureIntent 0..1
+* extension[procedureIntent]
 
 * identifier ^short = "External Identifiers for this radiotherapy / boost"
 * status ^short = "Procedure status"
@@ -56,7 +77,7 @@ RuleSet: RadiotherapyBodySiteExt
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ProcedureRadiotherapyI4rc
 Parent:   Procedure 
-Id:       Procedure-radiotheraphy-eu-pcsp
+Id:       Procedure-radiotheraphy-eu-i4rc
 Title:    "Procedure: Radiotherapy"
 Description: "This profile defines how to represent Procedures in FHIR for describing a set of Radiotherapy data required by the PanCareSurPass algorithm to generate the care plan."
 //-------------------------------------------------------------------------------------------
@@ -73,7 +94,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ProcedureRadiotherapyShieldingI4rc
 Parent:   Procedure 
-Id:       Procedure-radiotheraphyShield-eu-pcsp	
+Id:       Procedure-radiotheraphyShield-eu-i4rc	
 Title:    "Procedure: Radiotherapy Shielding"
 Description: "This profile defines how to represent Shielding Procedures in FHIR for describing a set of Radiotherapy data required by the PanCareSurPass algorithm to generate the care plan."
 //-------------------------------------------------------------------------------------------
@@ -103,7 +124,7 @@ Description: "This profile defines how to represent Shielding Procedures in FHIR
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ProcedureRadiotherapyBoostI4rc
 Parent:   Procedure 
-Id:       Procedure-radiotheraphyBoost-eu-pcsp
+Id:       Procedure-radiotheraphyBoost-eu-i4rc
 Title:    "Procedure: Radiotherapy Boost"
 Description: "This profile defines how to represent Procedures in FHIR for describing a set of data required by PanCareSurPass for Radiotherapy Boosts" //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -126,7 +147,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  TotalDoseRadObsI4rc
 Parent:   Observation
-Id:       Observation-totalDoseRad-eu-pcsp
+Id:       Observation-totalDoseRad-eu-i4rc
 Title:    "Observation: Radiotherapy Total Dose PCSP"
 Description: "This profile defines how to represent Radiotherapy Total Dose in FHIR for the purpose of the PanCareSurPass project."
 //-------------------------------------------------------------------------------------------

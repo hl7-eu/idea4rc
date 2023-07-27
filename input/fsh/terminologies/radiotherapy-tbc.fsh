@@ -1,7 +1,7 @@
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   CodeSystem:  CsGenericPcsp
-  Id: cs-generic-eu-pcsp
+  Id: cs-generic-eu-i4rc
   Title: "PCSP Code System"
   Description:  "Coded concepts specified by the PancareSurPass Project. TO BE UPDATED"
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -24,7 +24,7 @@
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: RadiotherapyDeviceType
-Id: vs-radiotherapyDeviceType-eu-pcsp
+Id: vs-radiotherapyDeviceType-eu-i4rc
 Title: "Radiotherapy Device Type"
 Description: "Radiotherapy device type this procedure is referring to. TO BE UPDATED"
 //-------------------------------------------------------------------------------------------

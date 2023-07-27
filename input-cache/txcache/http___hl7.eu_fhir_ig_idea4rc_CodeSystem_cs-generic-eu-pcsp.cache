@@ -4,7 +4,7 @@
   "compose" : {
     "inactive" : true,
     "include" : [{
-      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc",
       "concept" : [{
         "code" : "orthovoltage",
         "display" : "Orthovoltage"
@@ -46,30 +46,30 @@ e: {
     },
     {
       "name" : "version",
-      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp|0.1.0"
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc|0.1.0"
     }],
     "contains" : [{
-      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc",
       "code" : "orthovoltage",
       "display" : "Orthovoltage"
     },
     {
-      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc",
       "code" : "linac-mv",
       "display" : "Linac MV"
     },
     {
-      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc",
       "code" : "linac-el",
       "display" : "Linac electrons"
     },
     {
-      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc",
       "code" : "cobalt",
       "display" : "Cobalt MV"
     },
     {
-      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-pcsp",
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc",
       "code" : "proton-beam",
       "display" : "Proton Beam"
     }]
