@@ -1870,3 +1870,327 @@ e: {
   "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "607996",
+        "display" : "external beam RT photons"
+      },
+      {
+        "code" : "4165039",
+        "display" : "external beams RT electrons"
+      },
+      {
+        "code" : "4024005",
+        "display" : "external beam RT protons "
+      },
+      {
+        "code" : "4012485",
+        "display" : "brachytherapy interstitial endocavitary contact"
+      },
+      {
+        "code" : "4161415",
+        "display" : "radionuclide therapy"
+      },
+      {
+        "code" : "405801",
+        "display" : "boron neuton capture therapy"
+      },
+      {
+        "code" : "4077953",
+        "display" : "other"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4059384",
+        "display" : "preoperative"
+      },
+      {
+        "code" : "4058775",
+        "display" : "postoperative"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4058777",
+        "display" : "completion"
+      },
+      {
+        "code" : "438028",
+        "display" : "toxicity"
+      },
+      {
+        "code" : "4162706",
+        "display" : "comorbidity"
+      },
+      {
+        "code" : "4105297",
+        "display" : "patient intolerance"
+      },
+      {
+        "code" : "4306655",
+        "display" : "death"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "603132",
+        "display" : "2D"
+      },
+      {
+        "code" : "4043011",
+        "display" : "3D"
+      },
+      {
+        "code" : "40480519",
+        "display" : "IMRT conventional"
+      },
+      {
+        "code" : "603135",
+        "display" : "VMAT"
+      },
+      {
+        "code" : "3662120",
+        "display" : "tomotherapy"
+      },
+      {
+        "code" : "4215577",
+        "display" : "SBRT"
+      },
+      {
+        "code" : "4077990",
+        "display" : "other"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "607996",
+        "display" : "external beam RT photons"
+      },
+      {
+        "code" : "4165039",
+        "display" : "external beams RT electrons"
+      },
+      {
+        "code" : "4024005",
+        "display" : "external beam RT protons "
+      },
+      {
+        "code" : "4012485",
+        "display" : "brachytherapy interstitial endocavitary contact"
+      },
+      {
+        "code" : "4161415",
+        "display" : "radionuclide therapy"
+      },
+      {
+        "code" : "405801",
+        "display" : "boron neuton capture therapy"
+      },
+      {
+        "code" : "4077953",
+        "display" : "other"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/beam-quality-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4059384",
+        "display" : "preoperative"
+      },
+      {
+        "code" : "4058775",
+        "display" : "postoperative"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/setting-radiotherapy-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4058777",
+        "display" : "completion"
+      },
+      {
+        "code" : "438028",
+        "display" : "toxicity"
+      },
+      {
+        "code" : "4162706",
+        "display" : "comorbidity"
+      },
+      {
+        "code" : "4105297",
+        "display" : "patient intolerance"
+      },
+      {
+        "code" : "4306655",
+        "display" : "death"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/treatment-completed-as-planned-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "603132",
+        "display" : "2D"
+      },
+      {
+        "code" : "4043011",
+        "display" : "3D"
+      },
+      {
+        "code" : "40480519",
+        "display" : "IMRT conventional"
+      },
+      {
+        "code" : "603135",
+        "display" : "VMAT"
+      },
+      {
+        "code" : "3662120",
+        "display" : "tomotherapy"
+      },
+      {
+        "code" : "4215577",
+        "display" : "SBRT"
+      },
+      {
+        "code" : "4077990",
+        "display" : "other"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/treatment-technique-i4rc", "version": "0.1.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://fhir.ohdsi.org/CodeSystem/concepts"
+}
+-------------------------------------------------------------------------------------

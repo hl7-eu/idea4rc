@@ -38,7 +38,7 @@ Profile:  CumulativeDoseChemoObsI4rc
 Parent:   Observation
 Id:       Observation-cumulativeDoseChemo-eu-i4rc
 Title:    "Observation: Chemotherapy Cumulative Dose"
-Description: "This profile defines how to represent Chemotherapy Cumulative Dose in FHIR for the purpose of the PanCareSurPass project."
+Description: "This profile defines how to represent Chemotherapy Cumulative Dose in FHIR for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 * insert CumulativeDoseObsRules
 * extension contains $event-statusReason named statusReason 0..1
@@ -63,7 +63,7 @@ Profile:  MedicationAdministrationI4rc
 Parent:   MedicationAdministration 
 Id:       MedicationAdministration-eu-i4rc
 Title:    "MedicationAdministration: Chemotherapy"
-Description: "This profile defines how to represent MedicationAdministration in HL7 FHIR for describing Chemotherapy data for the purpose of the PanCareSurPass project."
+Description: "This profile defines how to represent MedicationAdministration in HL7 FHIR for describing Chemotherapy data for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 
 * insert MedicationAdministrationI4rcRules
@@ -88,7 +88,7 @@ Profile:  MedicationStatementI4rc
 Parent:   MedicationStatement 
 Id:       MedicationStatement-eu-i4rc
 Title:    "MedicationStatement: Chemotherapy"
-Description: "This profile defines how to represent MedicationStatement in FHIR for describing minimal information about provided medications for the purpose of the PanCareSurPass project."
+Description: "This profile defines how to represent MedicationStatement in FHIR for describing minimal information about provided medications for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 * status ^short = "active | completed | entered-in-error | intended | stopped | on-hold | unknown |not-taken"
 

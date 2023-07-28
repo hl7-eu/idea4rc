@@ -72,7 +72,7 @@ Profile:  ObservationHereditaryPredispositionI4rc
 Parent:   Observation
 Id:       Observation-predisposition-eu-i4rc
 Title:    "Observation: Hereditary Predisposition"
-Description: "This profile defines how to represent Hereditary Predispositions in HL7 FHIR for the purpose of the PanCareSurPass project."
+Description: "This profile defines how to represent Hereditary Predispositions in HL7 FHIR for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 * subject 1..
 * subject only Reference(PatientI4rc)
@@ -101,7 +101,7 @@ Profile:  ObservationDiagnosisI4rc
 Parent:   Observation
 Id:       Observation-diagnosis-eu-i4rc
 Title:    "Observation: Diagnosis details"
-Description: "This profile defines how to represent diagnosis details (when the diagnosis was made; who made it;...) in FHIR for the purpose of the PanCareSurPass project."
+Description: "This profile defines how to represent diagnosis details (when the diagnosis was made; who made it;...) in FHIR for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 * subject 1..
 * subject only Reference(PatientI4rc)
@@ -129,7 +129,7 @@ Profile:  EncounterI4rc
 Parent:   Encounter
 Id:       Encounter-eu-i4rc
 Title:    "Encounter: Treatment Center"
-Description: "This profile defines how to represent data of arrival to the center and Center information in FHIR for the purpose of the PanCareSurPass project."
+Description: "This profile defines how to represent data of arrival to the center and Center information in FHIR for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 * status MS 
 * class MS
@@ -152,7 +152,7 @@ Profile:  ConditionPrimaryCancerI4rc
 Parent:   Condition
 Id:       Condition-primaryCancer-eu-i4rc
 Title:    "Condition: Primary Cancer"
-Description: "This profile defines how to represent Primary Cancer Condition in HL7 FHIR for the purpose of the PanCareSurPass project. 
+Description: "This profile defines how to represent Primary Cancer Condition in HL7 FHIR for the purpose of the IDEA4RC project. 
 This profile is inspired from the [mCode IG](http://build.fhir.org/ig/HL7/fhir-mCODE-ig). 
 A primary cancer condition, the original or first tumor in the body (Definition from: [NCI Dictionary of Cancer Terms]( https://www.cancer.gov/publications/dictionaries/cancer-terms/def/primary-tumor)).  Cancers that are not clearly secondary (i.e., of uncertain origin or behavior) should be documented as primary.
 This profile should be also used for documenting primary cancer relapses during or after FLT."
@@ -269,7 +269,7 @@ Profile:  ConditionSecondaryCancerI4rc
 Parent:   Condition
 Id:       Condition-secondaryCancer-eu-i4rc
 Title:    "Condition: Metastatic Cancer"
-Description: "This profile defines how to represent metastatic cancer in FHIR for the purpose of the PanCareSurPass project. 
+Description: "This profile defines how to represent metastatic cancer in FHIR for the purpose of the IDEA4RC project. 
 This profile is inspired from the [mCode IG](http://build.fhir.org/ig/HL7/fhir-mCODE-ig). 
 Records the history of secondary neoplasms, including location(s) and the date of onset of metastases. A secondary cancer results from the spread (metastasization) of cancer from its original site (Definition from: NCI Dictionary of Cancer Terms)."
 //-------------------------------------------------------------------------------------------
@@ -290,7 +290,7 @@ Profile:  OrganizationCenterI4rc
 Parent:   $Organization-uv-ips
 Id:       Organization-center-eu-i4rc
 Title:    "Organization: Primary Treatment Center / Center of diagnosis"
-Description: "This profile defines how to represent the Primary Treatment Center or the Center of diagnosis in FHIR for the purpose of the PanCareSurPass project."
+Description: "This profile defines how to represent the Primary Treatment Center or the Center of diagnosis in FHIR for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 * identifier ^short = "Identifier of the center"
 * name ^short = "Name of the Center"

@@ -1,10 +1,10 @@
 {
-  "name": "hl7.eu.fhir.pscp.template",
+  "name": "hl7.eu.fhir.i4rc.template",
   "version": "0.0.1",
   "type": "fhir.template",
   "license": "CC0-1.0",
-  "description": "PSCP FHIR Template",
-  "author": "PanCareSurPass",
+  "description": "IDEA4RC Project FHIR Template",
+  "author": "IDEA4RC Project",
 	"base": "fhir.base.template",
 	"dependencies": {
 		"fhir.base.template": "current"

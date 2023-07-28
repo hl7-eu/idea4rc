@@ -194,7 +194,7 @@ resources:
 
   StructureDefinition/HospitalPatientRecords:
     name: Hospital Patient Records
-    description: IDEA4RC Hospital Patient Records common model. This includes aslo the HospitalData model.
+    description: IDEA4RC Hospital Patient Records common model. This includes also the HospitalData model.
 
   StructureDefinition/PatientFollowUp:
     name: Patient Follow-Up

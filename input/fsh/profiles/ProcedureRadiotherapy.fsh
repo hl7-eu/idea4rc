@@ -149,7 +149,7 @@ Profile:  TotalDoseRadObsI4rc
 Parent:   Observation
 Id:       Observation-totalDoseRad-eu-i4rc
 Title:    "Observation: Radiotherapy Total Dose PCSP"
-Description: "This profile defines how to represent Radiotherapy Total Dose in FHIR for the purpose of the PanCareSurPass project."
+Description: "This profile defines how to represent Radiotherapy Total Dose in FHIR for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 
 * insert CumulativeDoseObsRules
