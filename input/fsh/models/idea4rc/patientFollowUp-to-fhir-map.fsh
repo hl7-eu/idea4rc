@@ -14,7 +14,7 @@ Usage: #definition
 * sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUpI4rc"					
 * targetUri = "http://hl7.org/fhir/StrcutureDefinition/DomainResource"					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUpI4rc"					
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/encounter-followup-eu-i4rc"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Encounter-eu-i4rc"					
 					
 * group[=].element[+].code = #PatientFollowUpI4rc.patient					
 * group[=].element[=].display = "Patient"					

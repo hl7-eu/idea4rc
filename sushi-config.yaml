@@ -149,6 +149,19 @@ resources:
     name: Systemic Treatment Model to this guide Map
     description: It shows how the Systemic Treatment model is mapped into this guide
 
+  ConceptMap/followup2FHIR:
+    name: Patient Follow up Model to this guide Map
+    description: It shows how the Patient Follow up model is mapped into this guide
+
+  ConceptMap/geneticTestExpression2FHIR:
+    name: Genetic Test Expression Model to this guide Map
+    description: It shows how the Genetic Test Expression model is mapped into this guide
+
+  ConceptMap/hospitalPatientRecords2FHIR:
+    name: Hospital Patient Records Model to this guide Map
+    description: It shows how the Hospital Patient Records model is mapped into this guide
+
+
   StructureDefinition/Subject:
     name: Patient
     description: IDEA4RC Patient common model
@@ -242,6 +255,9 @@ groups:
       - ConceptMap/surgery2FHIR
       - ConceptMap/radiotherapy2FHIR
       - ConceptMap/systemicTreatment2FHIR
+      - ConceptMap/followup2FHIR
+      - ConceptMap/geneticTestExpression2FHIR
+      - ConceptMap/hospitalPatientRecords2FHIR
 
   patientImplementation:
     name:  HL7 FHIR Profile implementing the Subject (Patient) model
@@ -288,3 +304,21 @@ groups:
     description: HL7 FHIR Profile implementing the Systemic Treatment model (mapping to be further analyzed)
     resources:
       - StructureDefinition/MedicationAdministration-eu-i4rc
+
+  followupImplementation:
+    name:  HL7 FHIR Profile implementing the Patient Follow up model
+    description: HL7 FHIR Profile implementing the Patient Follow up model
+    resources:
+      - StructureDefinition/Encounter-eu-i4rc
+
+  geneticTestExpressionImplementation:
+    name:  HL7 FHIR Profile implementing the Genetic Test Expression model
+    description: HL7 FHIR Profile implementing the Genetic Test Expression model
+    resources:
+      - StructureDefinition/mcode-genomic-variant
+
+  hospitalPatientRecordsImplementation:
+    name:  HL7 FHIR Profile implementing the Hospital Patient Records model
+    description: HL7 FHIR Profile implementing the Hospital Patient Records model
+    resources:
+      - StructureDefinition/episodeOfCare-eu-i4rc
