@@ -113,8 +113,7 @@ Description: "This profile defines how to represent diagnosis details (when the 
 * performer ^slicing.discriminator.path = "$this.resolve()"
 * performer ^slicing.rules = #open
 * performer ^slicing.description = "Slice based on the reference type"
-* performer contains 
-	primaryCenter	0..1 MS
+* performer contains primaryCenter	0..1 MS
   // ==> TO BE UPDATED ======
 /* * performer[primaryCenter] only Reference (OrganizationCenter) */
 * performer[primaryCenter] only Reference (Organization)
@@ -124,27 +123,6 @@ Description: "This profile defines how to represent diagnosis details (when the 
   * display ^short = "Short textual description of the Center of diagnosis"
 * component 0..0 
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  EncounterI4rc
-Parent:   Encounter
-Id:       Encounter-eu-i4rc
-Title:    "Encounter: Treatment Center"
-Description: "This profile defines how to represent data of arrival to the center and Center information in FHIR for the purpose of the IDEA4RC project."
-//-------------------------------------------------------------------------------------------
-* status MS 
-* class MS
-* period.start MS 
-
-// == COMMENTED 
-/* * serviceProvider only Reference (OrganizationCenter) */
-
-* serviceProvider only Reference (Organization)
-  * ^short = "Primary treatment center"
-  * ^definition = "Report here the institution in which most of the treatment was given"
-  * identifier ^short = "Business identifier of the Primary treatment center"
-  * display ^short = "Short textual description of the Primary treatment center"
-  
-// * diagnosis.condition = Reference ( ConditionPrimaryCancerI4rc )
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -183,7 +161,11 @@ This profile should be also used for documenting primary cancer relapses during 
 * code.coding[exceptions] from $v3-ClassNullFlavor */
 
 * onset[x] MS
-* encounter only Reference (Encounter or EncounterI4rc)
+* encounter only Reference (EncounterI4rc) // Link this cancer with a follow up encounter.
+  * ^short = "Encounter this primary cancer has been identified"
+  * ^definition = """Encounter this primary cancer has been identified.
+  To be used for subsequent primary cancers."""
+
 * stage.assessment only Reference(CancerStageGroup)
 // * stage MS
 // and stage.assessment MS
@@ -194,12 +176,16 @@ This profile should be also used for documenting primary cancer relapses during 
 // * stage.type from ObservationCodesStageGroupVS (required)
 
 
+
+
 * evidence ^slicing.discriminator.type = #pattern
 * evidence ^slicing.discriminator.path = "$this.resolve()"
 * evidence ^slicing.discriminator.type = #pattern
 * evidence ^slicing.discriminator.path = "code"
 * evidence ^slicing.rules = #open
 * evidence ^slicing.description = "Slice based on the coding.code pattern"
+
+// Diagnosis details
 * evidence contains diagnosisDetails 0..1 
 * evidence[diagnosisDetails]
   * ^short = "Diagnosis details"
@@ -207,6 +193,7 @@ This profile should be also used for documenting primary cancer relapses during 
   * code ^short = "add binding"
   * detail only Reference (ObservationDiagnosisI4rc)
 
+// Lab Test performed
 * evidence contains lab-test  1..3 
 * evidence[lab-test]
   * ^short = "Laboratory Test results"
@@ -219,6 +206,14 @@ This profile should be also used for documenting primary cancer relapses during 
   /* * code from VsICCC3 */
   * code ^short = "add binding"
   * detail only Reference (ObservationLabTest) 
+
+
+* evidence contains genetic-test 0..
+* evidence[genetic-test]
+  * ^short = "Genetic Test perfomed"
+  * ^definition = """It documents the Genetic Test perfomed"""
+  * code ^short = "add binding"
+  * detail only Reference (ObservationGenomicVariant) // Profile to be reviewed
 
 /* * evidence contains hpvStatus  0..1 
 * evidence[ hpvStatus ]

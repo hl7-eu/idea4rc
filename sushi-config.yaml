@@ -33,6 +33,7 @@ dependencies:
   hl7.fhir.extensions.r5: 4.0.1
   hl7.fhir.us.mcode: current
   hl7.fhir.uv.ips: current
+  hl7.fhir.uv.genomics-reporting: 2.0.0 # REMOVE IF NOT NEEDED
 
 fhirVersion: 4.0.1
 parameters:

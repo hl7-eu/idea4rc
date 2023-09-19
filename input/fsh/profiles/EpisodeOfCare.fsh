@@ -10,6 +10,7 @@ Description: "This profile defines how to represent the Hospital Patient Records
 * status ^short = "Status of the EpisodeOfCare"
 * patient 1..
 * patient only Reference (PatientI4rc)
+* diagnosis.condition only Reference (ConditionPrimaryCancerI4rc)
 * managingOrganization	1..
 * managingOrganization.display 1..
   * ^short = "Hospital Name"

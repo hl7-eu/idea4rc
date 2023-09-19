@@ -33,8 +33,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:d6b7f0d2-9068-4cc1-9654-a7dce10b749e",
-    "timestamp" : "2023-07-28T09:03:36.588Z",
+    "identifier" : "urn:uuid:49d4f180-327a-4fe7-b7ea-73f8fe82dc6f",
+    "timestamp" : "2023-09-19T07:07:37.615Z",
     "total" : 5,
     "parameter" : [{
       "name" : "limitedExpansion",
@@ -43,6 +43,14 @@ e: {
     {
       "name" : "excludeNested",
       "valueBoolean" : true
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc|0.1.0"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc|0.1.0"
     },
     {
       "name" : "version",

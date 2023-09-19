@@ -13,7 +13,11 @@
 v: {
   "display" : "Europe",
   "code" : "150",
-  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/vs-affectedOrgan-eu-i4rc", "version": "0.1.0"}####
@@ -24,5 +28,27 @@ e: {
 {"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/vs-calcest-eu-i4rc", "version": "0.1.0"}####
 e: {
   "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "code" : "150",
+  "display" : "Europe"
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Europe",
+  "code" : "150",
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
 }
 -------------------------------------------------------------------------------------
