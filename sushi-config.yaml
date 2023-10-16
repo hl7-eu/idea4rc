@@ -202,7 +202,7 @@ resources:
     name: Treatment Response
     description: IDEA4RC Treatment Response common model
 
-  StructureDefinition/AdverseEvent:
+  StructureDefinition/AdverseEventMedicationI4RC:
     name: Adverse Event
     description: IDEA4RC Adverse Event common model
 
@@ -239,7 +239,7 @@ groups:
       - StructureDefinition/Radiotherapy
       - StructureDefinition/GeneticTestExpression
       - StructureDefinition/TreatmentResponse
-      - StructureDefinition/AdverseEvent
+      - StructureDefinition/AdverseEventMedicationI4RC
       - StructureDefinition/HospitalPatientRecords
       - StructureDefinition/PatientFollowUp
 

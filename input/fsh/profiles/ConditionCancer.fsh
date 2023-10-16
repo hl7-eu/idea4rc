@@ -271,7 +271,7 @@ Records the history of secondary neoplasms, including location(s) and the date o
 * ^abstract = false
 * insert CancerConditionCommonRules
 * clinicalStatus and verificationStatus MS
-* extension contains $condition-related named relatedPrimaryCancerCondition 1..1
+* extension contains $condition-related named relatedPrimaryCancerCondition 1..1 // condition related or following ? http://hl7.org/fhir/R4/extension-condition-occurredfollowing.html
 * extension[relatedPrimaryCancerCondition].valueReference only Reference(ConditionPrimaryCancerI4rc)
 * extension[relatedPrimaryCancerCondition] ^short = "Related Primary Cancer Condition"
 * extension[relatedPrimaryCancerCondition] ^definition = "A reference to the primary cancer condition that provides context for this resource."
