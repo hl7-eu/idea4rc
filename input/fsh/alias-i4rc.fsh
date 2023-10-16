@@ -8,7 +8,7 @@ Alias: $procedure-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/exte
 Alias: $mcode-procedure-intent = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent
 Alias: $mcode-radiotherapy-dose-delivered-to-volume = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume
 Alias: $mcode-treatment-termination-reason = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-termination-reason
-Alias: $procedure-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category
+Alias: $adverseEventOccurrence-R5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.occurrence[x]
 //============== ALIAS ===============
 // Alias: $igUri = http://hl7.eu/fhir/ig/idea4rc
 

@@ -15,6 +15,6 @@ Description: "treatment response"
 * $athena#4129922 "unknown"
 
 
-
+// use also snomed codes ?
 
 

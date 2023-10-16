@@ -1,8 +1,8 @@
 //===================================================
 //  Logical Modeli4rc-AdverseEvent.fsh
 //===================================================
-Logical: AdverseEventI4rc
-Id: AdverseEvent
+Logical: AdverseEventMedicationI4rc
+Id: AdverseEventMedicationI4RC
 Title: "Adverse Event"
 Description:  """Adverse Event"""
 * episodeEventReference 1..1 http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/EpisodeEvent "Episode Event reference" """EpisodeEvent element containing the data regarding the patient's cancer"""
