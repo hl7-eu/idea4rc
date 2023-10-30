@@ -1,8 +1,42 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsComorbiditiesI4rc
-Id: comorbidities-eu-i4rc
-Title: "Comorbidities"
-Description: "Comorbidities"
+ValueSet: VsComorbiditiesAthenaI4rc
+Id: comorbidities-athena-eu-i4rc
+Title: "Comorbidities: Athena"
+Description: """Comorbidities: Athena"""
+//-------------------------------------------------------------------------------------------
+
+* ^status = #active
+* ^experimental = true
+
+* $athena#4329847  "Myocardial infarction"
+* $athena#319835  "Congestive heart failure"
+* $athena#321052  "Peripheral vascular disease"
+* $athena#381316  "Cerebrovascular accident"
+* $athena#4182210  "Dementia"
+* $athena#1620830  "Chronic pulmonary disease"
+* $athena#4344165  "Undifferentiated connective tissue disease"
+* $athena#4177703  "Ulcer"
+* $athena#1621281  "Mild liver disease"
+* $athena#1620421  "Moderate or severe liver or renal disease"
+* $athena#1620816  "Diabetes (without complications)"
+* $athena#1620753  "Diabetes with end organ damage"
+* $athena#374022  "Hemiplegia"
+* CsGenericI4rc#1620421-liver  "Moderate or severe liver disease"
+* CsGenericI4rc#1620421-renal  "Moderate or severe renal disease"
+* CsGenericI4rc#solid-tumor "Solid tumor (non metastatic)"
+* $athena#1621181  "Metastatic solid tumor"
+* $athena#317510  "Leukemia"
+* $athena#45881968  "Lymphoma"
+* $athena#437233  "Multiple myeloma"
+* $athena#45884125  "AIDS"
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsComorbiditiesSctI4rc
+Id: comorbidities-sct-eu-i4rc
+Title: "Comorbidities: SNOMED"
+Description: """Comorbidities: SNOMED CT"""
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active

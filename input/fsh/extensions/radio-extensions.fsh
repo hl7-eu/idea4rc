@@ -165,7 +165,7 @@ Description: "Dose delivered to a given radiotherapy volume."
     fractionsDelivered 0..1 MS
 * extension[volume].value[x] only Reference(RadiotherapyVolume)
 * extension[totalDoseDelivered].value[x] only Quantity
-* extension[totalDoseDelivered].valueQuantity = UCUM#cGy
+* extension[totalDoseDelivered].valueQuantity = $ucum#cGy
 * extension[fractionsDelivered].value[x] only unsignedInt
 // Definitions of in-line extensions
 * extension[volume] ^short = "Volume in the body where radiation was delivered"

@@ -7,6 +7,15 @@ RuleSet: AdditionalBinding (purposeCode, valueset, documentation)
 *  ^binding.extension[=].extension[=].valueMarkdown = "{documentation}"
 *  ^binding.extension[=].url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
 
+RuleSet: ObligationActorAndCode(actor, code)
+* ^extension[$obligation][+].extension[code].valueCode = {code}
+* ^extension[$obligation][=].extension[actor].valueCanonical = {actor}
+
+RuleSet: ObligationElement(element)
+// Used for profile level obligations. Insert after obligation code and actor
+* ^extension[$obligation][=].extension[elementId].valueString = {element}
+
+
 RuleSet: SubjectRules
 * subject 1..
 * subject only Reference(PatientI4rc)

@@ -12101,7 +12101,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XC04' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XC04' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12122,7 +12121,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE01' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE01' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12143,7 +12141,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE02' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE02' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12164,7 +12161,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE03' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE03' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12185,7 +12181,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE04' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE04' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12206,7 +12201,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE05' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE05' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12227,7 +12221,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE06' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE06' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12248,7 +12241,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE07' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE07' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12269,7 +12261,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE08' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE08' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12290,7 +12281,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE09' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE09' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12311,7 +12301,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE10' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE10' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12332,7 +12321,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE11' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE11' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12353,7 +12341,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE12' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE12' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12374,7 +12361,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE13' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE13' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12395,7 +12381,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE14' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE14' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12416,7 +12401,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE15' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE15' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12437,7 +12421,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE16' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE16' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12458,7 +12441,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE17' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE17' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12479,7 +12461,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE18' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE18' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12500,7 +12481,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE19' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE19' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12521,7 +12501,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE21' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE21' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12542,7 +12521,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE22' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE22' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12563,7 +12541,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE23' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE23' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12584,7 +12561,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE24' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE24' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12605,7 +12581,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE25' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE25' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12626,7 +12601,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE26' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE26' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12647,7 +12621,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE27' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE27' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12668,7 +12641,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE28' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE28' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12689,7 +12661,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE29' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE29' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12710,7 +12681,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE31' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE31' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12731,7 +12701,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE32' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE32' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12752,7 +12721,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE33' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE33' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12773,7 +12741,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE34' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE34' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12794,7 +12761,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE35' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE35' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12815,7 +12781,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE36' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE36' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12836,7 +12801,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE37' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE37' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12857,7 +12821,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE38' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE38' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12878,7 +12841,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE39' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE39' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12899,7 +12861,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XE40' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XE40' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12920,7 +12881,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX09' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX09' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12941,7 +12901,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX14' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX14' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12962,7 +12921,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX17' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX17' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12983,7 +12941,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX19' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX19' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13004,7 +12961,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX22' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX22' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13025,7 +12981,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX25' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX25' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13046,7 +13001,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX32' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX32' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13067,7 +13021,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX38' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX38' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13088,7 +13041,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX39' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX39' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13109,7 +13061,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX42' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX42' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13130,7 +13081,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX43' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX43' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13151,7 +13101,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX45' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX45' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13172,7 +13121,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX46' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX46' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13193,7 +13141,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX47' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX47' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13214,7 +13161,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX48' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX48' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13235,7 +13181,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX49' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX49' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13256,7 +13201,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L01XX50' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L01XX50' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13277,7 +13221,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L03AB90' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L03AB90' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13298,7 +13241,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'L04AC06' in the system 'http://www.whocc.no/atc|2020-05'; The provided code 'http://www.whocc.no/atc#L04AC06' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13319,7 +13261,6 @@ v: {
   "code" : "L01AA01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13340,7 +13281,6 @@ v: {
   "code" : "L01AA02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13361,7 +13301,6 @@ v: {
   "code" : "L01AA03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13382,7 +13321,6 @@ v: {
   "code" : "L01AA05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13403,7 +13341,6 @@ v: {
   "code" : "L01AA06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13424,7 +13361,6 @@ v: {
   "code" : "L01AA07",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13445,7 +13381,6 @@ v: {
   "code" : "L01AA08",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13466,7 +13401,6 @@ v: {
   "code" : "L01AA09",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13487,7 +13421,6 @@ v: {
   "code" : "L01AB01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13508,7 +13441,6 @@ v: {
   "code" : "L01AB02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13529,7 +13461,6 @@ v: {
   "code" : "L01AB03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13550,7 +13481,6 @@ v: {
   "code" : "L01AC01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13571,7 +13501,6 @@ v: {
   "code" : "L01AC02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13592,7 +13521,6 @@ v: {
   "code" : "L01AC03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13613,7 +13541,6 @@ v: {
   "code" : "L01AD01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13634,7 +13561,6 @@ v: {
   "code" : "L01AD02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13655,7 +13581,6 @@ v: {
   "code" : "L01AD03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13676,7 +13601,6 @@ v: {
   "code" : "L01AD04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13697,7 +13621,6 @@ v: {
   "code" : "L01AD05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13718,7 +13641,6 @@ v: {
   "code" : "L01AD06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13739,7 +13661,6 @@ v: {
   "code" : "L01AD07",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13760,7 +13681,6 @@ v: {
   "code" : "L01AG01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13781,7 +13701,6 @@ v: {
   "code" : "L01AX",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13802,7 +13721,6 @@ v: {
   "code" : "L01AX01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13823,7 +13741,6 @@ v: {
   "code" : "L01AX02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13844,7 +13761,6 @@ v: {
   "code" : "L01AX03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13865,7 +13781,6 @@ v: {
   "code" : "L01AX04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13886,7 +13801,6 @@ v: {
   "code" : "L01BA01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13907,7 +13821,6 @@ v: {
   "code" : "L01BA03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13928,7 +13841,6 @@ v: {
   "code" : "L01BA04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13949,7 +13861,6 @@ v: {
   "code" : "L01BA05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13970,7 +13881,6 @@ v: {
   "code" : "L01BB02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13991,7 +13901,6 @@ v: {
   "code" : "L01BB03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14012,7 +13921,6 @@ v: {
   "code" : "L01BB04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14033,7 +13941,6 @@ v: {
   "code" : "L01BB05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14054,7 +13961,6 @@ v: {
   "code" : "L01BB06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14075,7 +13981,6 @@ v: {
   "code" : "L01BB07",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14096,7 +14001,6 @@ v: {
   "code" : "L01BC01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14117,7 +14021,6 @@ v: {
   "code" : "L01BC02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14138,7 +14041,6 @@ v: {
   "code" : "L01BC03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14159,7 +14061,6 @@ v: {
   "code" : "L01BC04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14180,7 +14081,6 @@ v: {
   "code" : "L01BC05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14201,7 +14101,6 @@ v: {
   "code" : "L01BC06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14222,7 +14121,6 @@ v: {
   "code" : "L01BC07",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14243,7 +14141,6 @@ v: {
   "code" : "L01BC08",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14264,7 +14161,6 @@ v: {
   "code" : "L01BC52",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14285,7 +14181,6 @@ v: {
   "code" : "L01BC53",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14306,7 +14201,6 @@ v: {
   "code" : "L01BC59",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14327,7 +14221,6 @@ v: {
   "code" : "L01CA01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14348,7 +14241,6 @@ v: {
   "code" : "L01CA02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14369,7 +14261,6 @@ v: {
   "code" : "L01CA03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14390,7 +14281,6 @@ v: {
   "code" : "L01CA04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14411,7 +14301,6 @@ v: {
   "code" : "L01CA05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14432,7 +14321,6 @@ v: {
   "code" : "L01CA06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14453,7 +14341,6 @@ v: {
   "code" : "L01CB01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14474,7 +14361,6 @@ v: {
   "code" : "L01CB02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14495,7 +14381,6 @@ v: {
   "code" : "L01CC01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14516,7 +14401,6 @@ v: {
   "code" : "L01CD01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14537,7 +14421,6 @@ v: {
   "code" : "L01CD02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14558,7 +14441,6 @@ v: {
   "code" : "L01CD03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14579,7 +14461,6 @@ v: {
   "code" : "L01CD04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14600,7 +14481,6 @@ v: {
   "code" : "L01CX01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14621,7 +14501,6 @@ v: {
   "code" : "L01DA01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14642,7 +14521,6 @@ v: {
   "code" : "L01DB01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14663,7 +14541,6 @@ v: {
   "code" : "L01DB02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14684,7 +14561,6 @@ v: {
   "code" : "L01DB03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14705,7 +14581,6 @@ v: {
   "code" : "L01DB04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14726,7 +14601,6 @@ v: {
   "code" : "L01DB05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14747,7 +14621,6 @@ v: {
   "code" : "L01DB06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14768,7 +14641,6 @@ v: {
   "code" : "L01DB07",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14789,7 +14661,6 @@ v: {
   "code" : "L01DB08",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14810,7 +14681,6 @@ v: {
   "code" : "L01DB09",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14831,7 +14701,6 @@ v: {
   "code" : "L01DB10",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14852,7 +14721,6 @@ v: {
   "code" : "L01DB11",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14873,7 +14741,6 @@ v: {
   "code" : "L01DC01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14894,7 +14761,6 @@ v: {
   "code" : "L01DC02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14915,7 +14781,6 @@ v: {
   "code" : "L01DC03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14936,7 +14801,6 @@ v: {
   "code" : "L01DC04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14957,7 +14821,6 @@ v: {
   "code" : "L01XA01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14978,7 +14841,6 @@ v: {
   "code" : "L01XA02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14999,7 +14861,6 @@ v: {
   "code" : "L01XA03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15020,7 +14881,6 @@ v: {
   "code" : "L01XA04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15041,7 +14901,6 @@ v: {
   "code" : "L01XA05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15062,7 +14921,6 @@ v: {
   "code" : "L01XB01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15083,7 +14941,6 @@ v: {
   "code" : "L01XC01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15104,7 +14961,6 @@ v: {
   "code" : "L01XC02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15125,7 +14981,6 @@ v: {
   "code" : "L01XC03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15146,7 +15001,6 @@ v: {
   "code" : "L01XC05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15167,7 +15021,6 @@ v: {
   "code" : "L01XC06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15188,7 +15041,6 @@ v: {
   "code" : "L01XC07",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15209,7 +15061,6 @@ v: {
   "code" : "L01XC08",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15230,7 +15081,6 @@ v: {
   "code" : "L01XC09",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15251,7 +15101,6 @@ v: {
   "code" : "L01XC10",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15272,7 +15121,6 @@ v: {
   "code" : "L01XC11",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15293,7 +15141,6 @@ v: {
   "code" : "L01XC12",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15314,7 +15161,6 @@ v: {
   "code" : "L01XC13",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15335,7 +15181,6 @@ v: {
   "code" : "L01XC14",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15356,7 +15201,6 @@ v: {
   "code" : "L01XC15",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15377,7 +15221,6 @@ v: {
   "code" : "L01XC16",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15398,7 +15241,6 @@ v: {
   "code" : "L01XC17",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15419,7 +15261,6 @@ v: {
   "code" : "L01XC18",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15440,7 +15281,6 @@ v: {
   "code" : "L01XC19",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15461,7 +15301,6 @@ v: {
   "code" : "L01XC21",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15482,7 +15321,6 @@ v: {
   "code" : "L01XC22",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15503,7 +15341,6 @@ v: {
   "code" : "L01XC23",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15524,7 +15361,6 @@ v: {
   "code" : "L01XC24",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15545,7 +15381,6 @@ v: {
   "code" : "L01XC25",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15566,7 +15401,6 @@ v: {
   "code" : "L01XC26",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15587,7 +15421,6 @@ v: {
   "code" : "L01XC27",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15608,7 +15441,6 @@ v: {
   "code" : "L01XD01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15629,7 +15461,6 @@ v: {
   "code" : "L01XD03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15650,7 +15481,6 @@ v: {
   "code" : "L01XD04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15671,7 +15501,6 @@ v: {
   "code" : "L01XD05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15692,7 +15521,6 @@ v: {
   "code" : "L01XD06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15713,7 +15541,6 @@ v: {
   "code" : "L01XX",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15734,7 +15561,6 @@ v: {
   "code" : "L01XX01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15755,7 +15581,6 @@ v: {
   "code" : "L01XX02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15776,7 +15601,6 @@ v: {
   "code" : "L01XX03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15797,7 +15621,6 @@ v: {
   "code" : "L01XX05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15818,7 +15641,6 @@ v: {
   "code" : "L01XX07",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15839,7 +15661,6 @@ v: {
   "code" : "L01XX08",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15860,7 +15681,6 @@ v: {
   "code" : "L01XX10",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15881,7 +15701,6 @@ v: {
   "code" : "L01XX11",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15902,7 +15721,6 @@ v: {
   "code" : "L01XX16",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15923,7 +15741,6 @@ v: {
   "code" : "L01XX18",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15944,7 +15761,6 @@ v: {
   "code" : "L01XX23",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15965,7 +15781,6 @@ v: {
   "code" : "L01XX24",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15986,7 +15801,6 @@ v: {
   "code" : "L01XX27",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16007,7 +15821,6 @@ v: {
   "code" : "L01XX29",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16028,7 +15841,6 @@ v: {
   "code" : "L01XX33",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16049,7 +15861,6 @@ v: {
   "code" : "L01XX35",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16070,7 +15881,6 @@ v: {
   "code" : "L01XX36",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16091,7 +15901,6 @@ v: {
   "code" : "L01XX37",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16112,7 +15921,6 @@ v: {
   "code" : "L01XX40",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16133,7 +15941,6 @@ v: {
   "code" : "L01XX41",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16154,7 +15961,6 @@ v: {
   "code" : "L01XX44",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16175,7 +15981,6 @@ v: {
   "code" : "L01XX51",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16196,7 +16001,6 @@ v: {
   "code" : "L01XX52",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16217,7 +16021,6 @@ v: {
   "code" : "L01XX53",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16238,7 +16041,6 @@ v: {
   "code" : "L01XY",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16259,7 +16061,6 @@ v: {
   "code" : "L02AA01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16280,7 +16081,6 @@ v: {
   "code" : "L02AA02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16301,7 +16101,6 @@ v: {
   "code" : "L02AA03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16322,7 +16121,6 @@ v: {
   "code" : "L02AA04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16343,7 +16141,6 @@ v: {
   "code" : "L02AB01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16364,7 +16161,6 @@ v: {
   "code" : "L02AB02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16385,7 +16181,6 @@ v: {
   "code" : "L02AB03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16406,7 +16201,6 @@ v: {
   "code" : "L02AE01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16427,7 +16221,6 @@ v: {
   "code" : "L02AE02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16448,7 +16241,6 @@ v: {
   "code" : "L02AE03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16469,7 +16261,6 @@ v: {
   "code" : "L02AE04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16490,7 +16281,6 @@ v: {
   "code" : "L02AE05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16511,7 +16301,6 @@ v: {
   "code" : "L02BA01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16532,7 +16321,6 @@ v: {
   "code" : "L02BA02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16553,7 +16341,6 @@ v: {
   "code" : "L02BA03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16574,7 +16361,6 @@ v: {
   "code" : "L02BB01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16595,7 +16381,6 @@ v: {
   "code" : "L02BB02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16616,7 +16401,6 @@ v: {
   "code" : "L02BB03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16637,7 +16421,6 @@ v: {
   "code" : "L02BB04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16658,7 +16441,6 @@ v: {
   "code" : "L02BG01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16679,7 +16461,6 @@ v: {
   "code" : "L02BG02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16700,7 +16481,6 @@ v: {
   "code" : "L02BG03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16721,7 +16501,6 @@ v: {
   "code" : "L02BG04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16742,7 +16521,6 @@ v: {
   "code" : "L02BG05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16763,7 +16541,6 @@ v: {
   "code" : "L02BG06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16784,7 +16561,6 @@ v: {
   "code" : "L02BX01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16805,7 +16581,6 @@ v: {
   "code" : "L02BX02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16826,7 +16601,6 @@ v: {
   "code" : "L02BX03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16847,7 +16621,6 @@ v: {
   "code" : "L03AA02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16868,7 +16641,6 @@ v: {
   "code" : "L03AA03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16889,7 +16661,6 @@ v: {
   "code" : "L03AA09",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16910,7 +16681,6 @@ v: {
   "code" : "L03AA10",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16931,7 +16701,6 @@ v: {
   "code" : "L03AA12",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16952,7 +16721,6 @@ v: {
   "code" : "L03AA13",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16973,7 +16741,6 @@ v: {
   "code" : "L03AA14",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16994,7 +16761,6 @@ v: {
   "code" : "L03AA15",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17015,7 +16781,6 @@ v: {
   "code" : "L03AA16",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17036,7 +16801,6 @@ v: {
   "code" : "L03AB01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17057,7 +16821,6 @@ v: {
   "code" : "L03AB02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17078,7 +16841,6 @@ v: {
   "code" : "L03AB03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17099,7 +16861,6 @@ v: {
   "code" : "L03AB04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17120,7 +16881,6 @@ v: {
   "code" : "L03AB05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17141,7 +16901,6 @@ v: {
   "code" : "L03AB06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17162,7 +16921,6 @@ v: {
   "code" : "L03AB07",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17183,7 +16941,6 @@ v: {
   "code" : "L03AB08",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17204,7 +16961,6 @@ v: {
   "code" : "L03AB09",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17225,7 +16981,6 @@ v: {
   "code" : "L03AB10",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17246,7 +17001,6 @@ v: {
   "code" : "L03AB11",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17267,7 +17021,6 @@ v: {
   "code" : "L03AB12",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17288,7 +17041,6 @@ v: {
   "code" : "L03AB13",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17309,7 +17061,6 @@ v: {
   "code" : "L03AB14",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17330,7 +17081,6 @@ v: {
   "code" : "L03AB60",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17351,7 +17101,6 @@ v: {
   "code" : "L03AB61",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17372,7 +17121,6 @@ v: {
   "code" : "L03AC01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17393,7 +17141,6 @@ v: {
   "code" : "L03AC02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17414,7 +17161,6 @@ v: {
   "code" : "L03AX01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17435,7 +17181,6 @@ v: {
   "code" : "L03AX02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17456,7 +17201,6 @@ v: {
   "code" : "L03AX03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17477,7 +17221,6 @@ v: {
   "code" : "L03AX04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17498,7 +17241,6 @@ v: {
   "code" : "L03AX05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17519,7 +17261,6 @@ v: {
   "code" : "L03AX07",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17540,7 +17281,6 @@ v: {
   "code" : "L03AX08",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17561,7 +17301,6 @@ v: {
   "code" : "L03AX09",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17582,7 +17321,6 @@ v: {
   "code" : "L03AX10",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17603,7 +17341,6 @@ v: {
   "code" : "L03AX11",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17624,7 +17361,6 @@ v: {
   "code" : "L03AX12",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17645,7 +17381,6 @@ v: {
   "code" : "L03AX13",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17666,7 +17401,6 @@ v: {
   "code" : "L03AX14",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17687,7 +17421,6 @@ v: {
   "code" : "L03AX15",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17708,7 +17441,6 @@ v: {
   "code" : "L03AX16",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17729,7 +17461,6 @@ v: {
   "code" : "L03AX17",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17750,7 +17481,6 @@ v: {
   "code" : "L03AX18",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17771,7 +17501,6 @@ v: {
   "code" : "L03AX19",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17792,7 +17521,6 @@ v: {
   "code" : "L04AA02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17813,7 +17541,6 @@ v: {
   "code" : "L04AA03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17834,7 +17561,6 @@ v: {
   "code" : "L04AA04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17855,7 +17581,6 @@ v: {
   "code" : "L04AA06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17876,7 +17601,6 @@ v: {
   "code" : "L04AA10",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17897,7 +17621,6 @@ v: {
   "code" : "L04AA13",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17918,7 +17641,6 @@ v: {
   "code" : "L04AA15",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17939,7 +17661,6 @@ v: {
   "code" : "L04AA18",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17960,7 +17681,6 @@ v: {
   "code" : "L04AA19",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17981,7 +17701,6 @@ v: {
   "code" : "L04AA21",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18002,7 +17721,6 @@ v: {
   "code" : "L04AA22",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18023,7 +17741,6 @@ v: {
   "code" : "L04AA23",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18044,7 +17761,6 @@ v: {
   "code" : "L04AA24",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18065,7 +17781,6 @@ v: {
   "code" : "L04AA25",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18086,7 +17801,6 @@ v: {
   "code" : "L04AA26",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18107,7 +17821,6 @@ v: {
   "code" : "L04AA27",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18128,7 +17841,6 @@ v: {
   "code" : "L04AA28",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18149,7 +17861,6 @@ v: {
   "code" : "L04AA29",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18170,7 +17881,6 @@ v: {
   "code" : "L04AA31",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18191,7 +17901,6 @@ v: {
   "code" : "L04AA32",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18212,7 +17921,6 @@ v: {
   "code" : "L04AA33",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18233,7 +17941,6 @@ v: {
   "code" : "L04AA34",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18254,7 +17961,6 @@ v: {
   "code" : "L04AA35",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18275,7 +17981,6 @@ v: {
   "code" : "L04AA36",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18296,7 +18001,6 @@ v: {
   "code" : "L04AA37",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18317,7 +18021,6 @@ v: {
   "code" : "L04AB01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18338,7 +18041,6 @@ v: {
   "code" : "L04AB02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18359,7 +18061,6 @@ v: {
   "code" : "L04AB03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18380,7 +18081,6 @@ v: {
   "code" : "L04AB04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18401,7 +18101,6 @@ v: {
   "code" : "L04AB05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18422,7 +18121,6 @@ v: {
   "code" : "L04AB06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18443,7 +18141,6 @@ v: {
   "code" : "L04AC01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18464,7 +18161,6 @@ v: {
   "code" : "L04AC02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18485,7 +18181,6 @@ v: {
   "code" : "L04AC03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18506,7 +18201,6 @@ v: {
   "code" : "L04AC04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18527,7 +18221,6 @@ v: {
   "code" : "L04AC05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18548,7 +18241,6 @@ v: {
   "code" : "L04AC07",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18569,7 +18261,6 @@ v: {
   "code" : "L04AC08",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18590,7 +18281,6 @@ v: {
   "code" : "L04AC09",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18611,7 +18301,6 @@ v: {
   "code" : "L04AC10",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18632,7 +18321,6 @@ v: {
   "code" : "L04AC11",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18653,7 +18341,6 @@ v: {
   "code" : "L04AC12",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18674,7 +18361,6 @@ v: {
   "code" : "L04AC13",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18695,7 +18381,6 @@ v: {
   "code" : "L04AC14",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18716,7 +18401,6 @@ v: {
   "code" : "L04AD01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18737,7 +18421,6 @@ v: {
   "code" : "L04AD02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18758,7 +18441,6 @@ v: {
   "code" : "L04AD03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18779,7 +18461,6 @@ v: {
   "code" : "L04AX01",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18800,7 +18481,6 @@ v: {
   "code" : "L04AX02",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18821,7 +18501,6 @@ v: {
   "code" : "L04AX03",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18842,7 +18521,6 @@ v: {
   "code" : "L04AX04",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18863,7 +18541,6 @@ v: {
   "code" : "L04AX05",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18884,10 +18561,1319 @@ v: {
   "code" : "L04AX06",
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "L01AA01",
+        "display" : "Cyclophosphamide"
+      },
+      {
+        "code" : "L01AA02",
+        "display" : "Chlorambucil"
+      },
+      {
+        "code" : "L01AA03",
+        "display" : "Melphalan"
+      },
+      {
+        "code" : "L01AA05",
+        "display" : "Chlormethine"
+      },
+      {
+        "code" : "L01AA06",
+        "display" : "Ifosfamide"
+      },
+      {
+        "code" : "L01AA07",
+        "display" : "Trofosfamide"
+      },
+      {
+        "code" : "L01AA08",
+        "display" : "Prednimustine"
+      },
+      {
+        "code" : "L01AA09",
+        "display" : "Bendamustine"
+      },
+      {
+        "code" : "L01AB01",
+        "display" : "Busulfan"
+      },
+      {
+        "code" : "L01AB02",
+        "display" : "Treosulfan"
+      },
+      {
+        "code" : "L01AB03",
+        "display" : "Mannosulfan"
+      },
+      {
+        "code" : "L01AC01",
+        "display" : "Thiotepa"
+      },
+      {
+        "code" : "L01AC02",
+        "display" : "Triaziquone"
+      },
+      {
+        "code" : "L01AC03",
+        "display" : "Carboquone"
+      },
+      {
+        "code" : "L01AD01",
+        "display" : "Carmustine"
+      },
+      {
+        "code" : "L01AD02",
+        "display" : "Lomustine"
+      },
+      {
+        "code" : "L01AD03",
+        "display" : "Semustine"
+      },
+      {
+        "code" : "L01AD04",
+        "display" : "Streptozocin"
+      },
+      {
+        "code" : "L01AD05",
+        "display" : "Fotemustine"
+      },
+      {
+        "code" : "L01AD06",
+        "display" : "Nimustine"
+      },
+      {
+        "code" : "L01AD07",
+        "display" : "Ranimustine"
+      },
+      {
+        "code" : "L01AG01",
+        "display" : "Etoglucid"
+      },
+      {
+        "code" : "L01AX",
+        "display" : "Peptichemio"
+      },
+      {
+        "code" : "L01AX01",
+        "display" : "Mitobronitol"
+      },
+      {
+        "code" : "L01AX02",
+        "display" : "Pipobroman"
+      },
+      {
+        "code" : "L01AX03",
+        "display" : "Temozolomide"
+      },
+      {
+        "code" : "L01AX04",
+        "display" : "Dacarbazine"
+      },
+      {
+        "code" : "L01BA01",
+        "display" : "Methotrexate"
+      },
+      {
+        "code" : "L01BA03",
+        "display" : "Raltitrexed"
+      },
+      {
+        "code" : "L01BA04",
+        "display" : "Pemetrexed"
+      },
+      {
+        "code" : "L01BA05",
+        "display" : "Pralatrexate"
+      },
+      {
+        "code" : "L01BB02",
+        "display" : "Mercaptopurine"
+      },
+      {
+        "code" : "L01BB03",
+        "display" : "Thioguanine"
+      },
+      {
+        "code" : "L01BB04",
+        "display" : "Cladribine"
+      },
+      {
+        "code" : "L01BB05",
+        "display" : "Fludarabine"
+      },
+      {
+        "code" : "L01BB06",
+        "display" : "Clofarabine"
+      },
+      {
+        "code" : "L01BB07",
+        "display" : "Nelarabine"
+      },
+      {
+        "code" : "L01BC01",
+        "display" : "Cytarabine"
+      },
+      {
+        "code" : "L01BC02",
+        "display" : "Fluorouracil"
+      },
+      {
+        "code" : "L01BC03",
+        "display" : "Tegafur"
+      },
+      {
+        "code" : "L01BC04",
+        "display" : "Carmofur"
+      },
+      {
+        "code" : "L01BC05",
+        "display" : "Gemcitabine"
+      },
+      {
+        "code" : "L01BC06",
+        "display" : "Capecitabine"
+      },
+      {
+        "code" : "L01BC07",
+        "display" : "Azacitidine"
+      },
+      {
+        "code" : "L01BC08",
+        "display" : "Decitabine"
+      },
+      {
+        "code" : "L01BC52",
+        "display" : "Fluorouracil, combinations"
+      },
+      {
+        "code" : "L01BC53",
+        "display" : "Tegafur, combinations"
+      },
+      {
+        "code" : "L01BC59",
+        "display" : "Trifluridine, combinations"
+      },
+      {
+        "code" : "L01CA01",
+        "display" : "Vinblastine"
+      },
+      {
+        "code" : "L01CA02",
+        "display" : "Vincristine"
+      },
+      {
+        "code" : "L01CA03",
+        "display" : "Vindesine"
+      },
+      {
+        "code" : "L01CA04",
+        "display" : "Vinorelbine"
+      },
+      {
+        "code" : "L01CA05",
+        "display" : "Vinflunine"
+      },
+      {
+        "code" : "L01CA06",
+        "display" : "Vintafolide"
+      },
+      {
+        "code" : "L01CB01",
+        "display" : "Etoposide"
+      },
+      {
+        "code" : "L01CB02",
+        "display" : "Teniposide"
+      },
+      {
+        "code" : "L01CC01",
+        "display" : "Demecolcine"
+      },
+      {
+        "code" : "L01CD01",
+        "display" : "Paclitaxel"
+      },
+      {
+        "code" : "L01CD02",
+        "display" : "Docetaxel"
+      },
+      {
+        "code" : "L01CD03",
+        "display" : "Paclitaxel poliglumex"
+      },
+      {
+        "code" : "L01CD04",
+        "display" : "Cabazitaxel"
+      },
+      {
+        "code" : "L01CX01",
+        "display" : "Trabectedin"
+      },
+      {
+        "code" : "L01DA01",
+        "display" : "Dactinomycin"
+      },
+      {
+        "code" : "L01DB01",
+        "display" : "Doxorubicin"
+      },
+      {
+        "code" : "L01DB02",
+        "display" : "Daunorubicin"
+      },
+      {
+        "code" : "L01DB03",
+        "display" : "Epirubicin"
+      },
+      {
+        "code" : "L01DB04",
+        "display" : "Aclarubicin"
+      },
+      {
+        "code" : "L01DB05",
+        "display" : "Zorubicin"
+      },
+      {
+        "code" : "L01DB06",
+        "display" : "Idarubicin"
+      },
+      {
+        "code" : "L01DB07",
+        "display" : "Mitoxantrone"
+      },
+      {
+        "code" : "L01DB08",
+        "display" : "Pirarubicin"
+      },
+      {
+        "code" : "L01DB09",
+        "display" : "Valrubicin"
+      },
+      {
+        "code" : "L01DB10",
+        "display" : "Amrubicin"
+      },
+      {
+        "code" : "L01DB11",
+        "display" : "Pixantrone"
+      },
+      {
+        "code" : "L01DC01",
+        "display" : "Bleomycin"
+      },
+      {
+        "code" : "L01DC02",
+        "display" : "Mithramycin"
+      },
+      {
+        "code" : "L01DC03",
+        "display" : "Mitomycin"
+      },
+      {
+        "code" : "L01DC04",
+        "display" : "Ixabepilone"
+      },
+      {
+        "code" : "L01XA01",
+        "display" : "Cisplatin"
+      },
+      {
+        "code" : "L01XA02",
+        "display" : "Carboplatin"
+      },
+      {
+        "code" : "L01XA03",
+        "display" : "Oxaliplatin"
+      },
+      {
+        "code" : "L01XA04",
+        "display" : "Satraplatin"
+      },
+      {
+        "code" : "L01XA05",
+        "display" : "Polyplatillen"
+      },
+      {
+        "code" : "L01XB01",
+        "display" : "Procarbazine"
+      },
+      {
+        "code" : "L01XC01",
+        "display" : "Edrecolomab"
+      },
+      {
+        "code" : "L01XC02",
+        "display" : "Rituximab"
+      },
+      {
+        "code" : "L01XC03",
+        "display" : "Trastuzumab"
+      },
+      {
+        "code" : "L01XC04",
+        "display" : "Alemtuzumab"
+      },
+      {
+        "code" : "L01XC05",
+        "display" : "Gemtuzumab"
+      },
+      {
+        "code" : "L01XC06",
+        "display" : "Cetuximab"
+      },
+      {
+        "code" : "L01XC07",
+        "display" : "Bevacizumab"
+      },
+      {
+        "code" : "L01XC08",
+        "display" : "Panitumumab"
+      },
+      {
+        "code" : "L01XC09",
+        "display" : "Catumaxomab"
+      },
+      {
+        "code" : "L01XC10",
+        "display" : "Ofatumumab"
+      },
+      {
+        "code" : "L01XC11",
+        "display" : "Ipilimumab"
+      },
+      {
+        "code" : "L01XC12",
+        "display" : "Brentuximab vedotin"
+      },
+      {
+        "code" : "L01XC13",
+        "display" : "Pertuzumab"
+      },
+      {
+        "code" : "L01XC14",
+        "display" : "Trastuzumab emtansine"
+      },
+      {
+        "code" : "L01XC15",
+        "display" : "Obinutuzumab"
+      },
+      {
+        "code" : "L01XC16",
+        "display" : "Dinutuximab"
+      },
+      {
+        "code" : "L01XC17",
+        "display" : "Nivolumab"
+      },
+      {
+        "code" : "L01XC18",
+        "display" : "Pembrolizumab"
+      },
+      {
+        "code" : "L01XC19",
+        "display" : "Blinatumomab"
+      },
+      {
+        "code" : "L01XC21",
+        "display" : "Ramucirumab"
+      },
+      {
+        "code" : "L01XC22",
+        "display" : "Necitumumab"
+      },
+      {
+        "code" : "L01XC23",
+        "display" : "Elotuzumab"
+      },
+      {
+        "code" : "L01XC24",
+        "display" : "Daratumumab"
+      },
+      {
+        "code" : "L01XC25",
+        "display" : "Mogamulizumab"
+      },
+      {
+        "code" : "L01XC26",
+        "display" : "Inotuzumab ozogamicin"
+      },
+      {
+        "code" : "L01XC27",
+        "display" : "Olaratumab"
+      },
+      {
+        "code" : "L01XD01",
+        "display" : "Porfimer sodium"
+      },
+      {
+        "code" : "L01XD03",
+        "display" : "Methyl aminolevulinate"
+      },
+      {
+        "code" : "L01XD04",
+        "display" : "Aminolevulinic acid"
+      },
+      {
+        "code" : "L01XD05",
+        "display" : "Temoporfin"
+      },
+      {
+        "code" : "L01XD06",
+        "display" : "Efaproxiral"
+      },
+      {
+        "code" : "L01XE01",
+        "display" : "Imatinib"
+      },
+      {
+        "code" : "L01XE02",
+        "display" : "Gefitinib"
+      },
+      {
+        "code" : "L01XE03",
+        "display" : "Erlotinib"
+      },
+      {
+        "code" : "L01XE04",
+        "display" : "Sunitinib\u00a0"
+      },
+      {
+        "code" : "L01XE05",
+        "display" : "Sorafenib\u00a0"
+      },
+      {
+        "code" : "L01XE06",
+        "display" : "Dasatinib"
+      },
+      {
+        "code" : "L01XE07",
+        "display" : "Lapatinib"
+      },
+      {
+        "code" : "L01XE08",
+        "display" : "Nilotinib"
+      },
+      {
+        "code" : "L01XE09",
+        "display" : "Temsirolimus"
+      },
+      {
+        "code" : "L01XE10",
+        "display" : "Everolimus"
+      },
+      {
+        "code" : "L01XE11",
+        "display" : "Pazopanib"
+      },
+      {
+        "code" : "L01XE12",
+        "display" : "Vandetanib"
+      },
+      {
+        "code" : "L01XE13",
+        "display" : "Afatinib"
+      },
+      {
+        "code" : "L01XE14",
+        "display" : "Bosutinib"
+      },
+      {
+        "code" : "L01XE15",
+        "display" : "Vemurafenib"
+      },
+      {
+        "code" : "L01XE16",
+        "display" : "Crizotinib"
+      },
+      {
+        "code" : "L01XE17",
+        "display" : "Axitinib"
+      },
+      {
+        "code" : "L01XE18",
+        "display" : "Ruxolitinib"
+      },
+      {
+        "code" : "L01XE19",
+        "display" : "Ridaforolimus"
+      },
+      {
+        "code" : "L01XE21",
+        "display" : "Regorafenib"
+      },
+      {
+        "code" : "L01XE22",
+        "display" : "Masitinib"
+      },
+      {
+        "code" : "L01XE23",
+        "display" : "Dabrafenib"
+      },
+      {
+        "code" : "L01XE24",
+        "display" : "Ponatinib"
+      },
+      {
+        "code" : "L01XE25",
+        "display" : "Trametinib"
+      },
+      {
+        "code" : "L01XE26",
+        "display" : "Cabozantinib"
+      },
+      {
+        "code" : "L01XE27",
+        "display" : "Ibrutinib"
+      },
+      {
+        "code" : "L01XE28",
+        "display" : "Ceritinib"
+      },
+      {
+        "code" : "L01XE29",
+        "display" : "Lenvatinib"
+      },
+      {
+        "code" : "L01XE31",
+        "display" : "Nintedanib"
+      },
+      {
+        "code" : "L01XE32",
+        "display" : "Cediranib"
+      },
+      {
+        "code" : "L01XE33",
+        "display" : "Palbociclib"
+      },
+      {
+        "code" : "L01XE34",
+        "display" : "Tivozanib"
+      },
+      {
+        "code" : "L01XE35",
+        "display" : "Osimertinib"
+      },
+      {
+        "code" : "L01XE36",
+        "display" : "Alectinib"
+      },
+      {
+        "code" : "L01XE37",
+        "display" : "Rociletinib"
+      },
+      {
+        "code" : "L01XE38",
+        "display" : "Cobimetinib"
+      },
+      {
+        "code" : "L01XE39",
+        "display" : "Midostaurin"
+      },
+      {
+        "code" : "L01XE40",
+        "display" : "Olmutinib"
+      },
+      {
+        "code" : "L01XX",
+        "display" : "Other antineoplastic agent"
+      },
+      {
+        "code" : "L01XX01",
+        "display" : "Amsacrine"
+      },
+      {
+        "code" : "L01XX02",
+        "display" : "Asparaginase"
+      },
+      {
+        "code" : "L01XX03",
+        "display" : "Altretamine"
+      },
+      {
+        "code" : "L01XX05",
+        "display" : "Hydroxycarbamide"
+      },
+      {
+        "code" : "L01XX07",
+        "display" : "Lonidamine"
+      },
+      {
+        "code" : "L01XX08",
+        "display" : "Pentostatin"
+      },
+      {
+        "code" : "L01XX09",
+        "display" : "Miltefosine"
+      },
+      {
+        "code" : "L01XX10",
+        "display" : "Masoprocol"
+      },
+      {
+        "code" : "L01XX11",
+        "display" : "Estramustine"
+      },
+      {
+        "code" : "L01XX14",
+        "display" : "Tretinoin"
+      },
+      {
+        "code" : "L01XX16",
+        "display" : "Mitoguazone"
+      },
+      {
+        "code" : "L01XX17",
+        "display" : "Topotecan"
+      },
+      {
+        "code" : "L01XX18",
+        "display" : "Tiazofurine"
+      },
+      {
+        "code" : "L01XX19",
+        "display" : "Irinotecan"
+      },
+      {
+        "code" : "L01XX22",
+        "display" : "Alitretinoin"
+      },
+      {
+        "code" : "L01XX23",
+        "display" : "Mitotane"
+      },
+      {
+        "code" : "L01XX24",
+        "display" : "Pegaspargase"
+      },
+      {
+        "code" : "L01XX25",
+        "display" : "Bexarotene"
+      },
+      {
+        "code" : "L01XX27",
+        "display" : "Arsenic trioxide"
+      },
+      {
+        "code" : "L01XX29",
+        "display" : "Denileukin diftitox"
+      },
+      {
+        "code" : "L01XX32",
+        "display" : "Bortezomib"
+      },
+      {
+        "code" : "L01XX33",
+        "display" : "Celecoxib"
+      },
+      {
+        "code" : "L01XX35",
+        "display" : "Anagrelide"
+      },
+      {
+        "code" : "L01XX36",
+        "display" : "Oblimersen"
+      },
+      {
+        "code" : "L01XX37",
+        "display" : "Sitimagene ceradenovec"
+      },
+      {
+        "code" : "L01XX38",
+        "display" : "Vorinostat"
+      },
+      {
+        "code" : "L01XX39",
+        "display" : "Romidepsin"
+      },
+      {
+        "code" : "L01XX40",
+        "display" : "Omacetaxine mepesuccinate"
+      },
+      {
+        "code" : "L01XX41",
+        "display" : "Eribulin"
+      },
+      {
+        "code" : "L01XX42",
+        "display" : "Panobinostat"
+      },
+      {
+        "code" : "L01XX43",
+        "display" : "Vismodegib"
+      },
+      {
+        "code" : "L01XX44",
+        "display" : "Aflibercept"
+      },
+      {
+        "code" : "L01XX45",
+        "display" : "Carfilzomib"
+      },
+      {
+        "code" : "L01XX46",
+        "display" : "Olaparib"
+      },
+      {
+        "code" : "L01XX47",
+        "display" : "Idelalisib"
+      },
+      {
+        "code" : "L01XX48",
+        "display" : "Sonidegib"
+      },
+      {
+        "code" : "L01XX49",
+        "display" : "Belinostat"
+      },
+      {
+        "code" : "L01XX50",
+        "display" : "Ixazomib"
+      },
+      {
+        "code" : "L01XX51",
+        "display" : "Talimogene laherparepvec"
+      },
+      {
+        "code" : "L01XX52",
+        "display" : "Venetoclax"
+      },
+      {
+        "code" : "L01XX53",
+        "display" : "Vosaroxin"
+      },
+      {
+        "code" : "L01XY",
+        "display" : "Combination of antineoplastic agents"
+      },
+      {
+        "code" : "L02AA01",
+        "display" : "Diethylstilbestrol"
+      },
+      {
+        "code" : "L02AA02",
+        "display" : "Polyestradiol phosphate"
+      },
+      {
+        "code" : "L02AA03",
+        "display" : "Ethinylestradiol"
+      },
+      {
+        "code" : "L02AA04",
+        "display" : "Fosfestrol"
+      },
+      {
+        "code" : "L02AB01",
+        "display" : "Megestrol"
+      },
+      {
+        "code" : "L02AB02",
+        "display" : "Medroxyprogesterone"
+      },
+      {
+        "code" : "L02AB03",
+        "display" : "Gestonorone"
+      },
+      {
+        "code" : "L02AE01",
+        "display" : "Buserelin"
+      },
+      {
+        "code" : "L02AE02",
+        "display" : "Leuprorelin"
+      },
+      {
+        "code" : "L02AE03",
+        "display" : "Goserelin"
+      },
+      {
+        "code" : "L02AE04",
+        "display" : "Triptorelin"
+      },
+      {
+        "code" : "L02AE05",
+        "display" : "Histrelin"
+      },
+      {
+        "code" : "L02BA01",
+        "display" : "Tamoxifen"
+      },
+      {
+        "code" : "L02BA02",
+        "display" : "Toremifene"
+      },
+      {
+        "code" : "L02BA03",
+        "display" : "Fulvestrant"
+      },
+      {
+        "code" : "L02BB01",
+        "display" : "Flutamide"
+      },
+      {
+        "code" : "L02BB02",
+        "display" : "Nilutamide"
+      },
+      {
+        "code" : "L02BB03",
+        "display" : "Bicalutamide"
+      },
+      {
+        "code" : "L02BB04",
+        "display" : "Enzalutamide"
+      },
+      {
+        "code" : "L02BG01",
+        "display" : "Aminogluthetimide"
+      },
+      {
+        "code" : "L02BG02",
+        "display" : "Formestane"
+      },
+      {
+        "code" : "L02BG03",
+        "display" : "Anastrozole"
+      },
+      {
+        "code" : "L02BG04",
+        "display" : "Letrozole"
+      },
+      {
+        "code" : "L02BG05",
+        "display" : "Vorozole"
+      },
+      {
+        "code" : "L02BG06",
+        "display" : "Exemestane"
+      },
+      {
+        "code" : "L02BX01",
+        "display" : "Abarelix"
+      },
+      {
+        "code" : "L02BX02",
+        "display" : "Degarelix"
+      },
+      {
+        "code" : "L02BX03",
+        "display" : "Abiraterone"
+      },
+      {
+        "code" : "L03AA02",
+        "display" : "Filgrastim"
+      },
+      {
+        "code" : "L03AA03",
+        "display" : "Molgramostim"
+      },
+      {
+        "code" : "L03AA09",
+        "display" : "Sargramostim"
+      },
+      {
+        "code" : "L03AA10",
+        "display" : "Lenograstim"
+      },
+      {
+        "code" : "L03AA12",
+        "display" : "Ancestim"
+      },
+      {
+        "code" : "L03AA13",
+        "display" : "Pegfilgrastim"
+      },
+      {
+        "code" : "L03AA14",
+        "display" : "Lipegfilgrastim"
+      },
+      {
+        "code" : "L03AA15",
+        "display" : "Balugrastim"
+      },
+      {
+        "code" : "L03AA16",
+        "display" : "Empegfilgrastim"
+      },
+      {
+        "code" : "L03AB01",
+        "display" : "Interferon alfa natural\u00a0"
+      },
+      {
+        "code" : "L03AB02",
+        "display" : "Interferon beta natural\u00a0"
+      },
+      {
+        "code" : "L03AB03",
+        "display" : "Interferon gamma"
+      },
+      {
+        "code" : "L03AB04",
+        "display" : "Interferon alfa-2a\u00a0"
+      },
+      {
+        "code" : "L03AB05",
+        "display" : "Interferon alfa-2b\u00a0"
+      },
+      {
+        "code" : "L03AB06",
+        "display" : "Interferon alfa-n1\u00a0"
+      },
+      {
+        "code" : "L03AB07",
+        "display" : "Interferon beta-1a\u00a0"
+      },
+      {
+        "code" : "L03AB08",
+        "display" : "Interferon beta-1b\u00a0"
+      },
+      {
+        "code" : "L03AB09",
+        "display" : "Interferon alfacon-1\u00a0"
+      },
+      {
+        "code" : "L03AB10",
+        "display" : "Peginterferon alfa-2b\u00a0"
+      },
+      {
+        "code" : "L03AB11",
+        "display" : "Peginterferon alfa-2a\u00a0"
+      },
+      {
+        "code" : "L03AB12",
+        "display" : "Albinterferon alfa-2b\u00a0"
+      },
+      {
+        "code" : "L03AB13",
+        "display" : "Peginterferon beta-1a\u00a0"
+      },
+      {
+        "code" : "L03AB14",
+        "display" : "Cepeginterferon alfa-2b\u00a0"
+      },
+      {
+        "code" : "L03AB60",
+        "display" : "Peginterferon alfa-2b, combinations"
+      },
+      {
+        "code" : "L03AB61",
+        "display" : "Peginterferon alfa-2a, combinations"
+      },
+      {
+        "code" : "L03AB90",
+        "display" : "Interferone ricombinante omega di origine felina"
+      },
+      {
+        "code" : "L03AC01",
+        "display" : "Aldesleukin"
+      },
+      {
+        "code" : "L03AC02",
+        "display" : "Oprelvekin\u00a0"
+      },
+      {
+        "code" : "L03AX01",
+        "display" : "Lentinan\u00a0"
+      },
+      {
+        "code" : "L03AX02",
+        "display" : "Roquinimex\u00a0"
+      },
+      {
+        "code" : "L03AX03",
+        "display" : "BCG vaccine"
+      },
+      {
+        "code" : "L03AX04",
+        "display" : "Pegademase\u00a0"
+      },
+      {
+        "code" : "L03AX05",
+        "display" : "Pidotimod\u00a0"
+      },
+      {
+        "code" : "L03AX07",
+        "display" : "Poly I:C\u00a0"
+      },
+      {
+        "code" : "L03AX08",
+        "display" : "Poly ICLC\u00a0"
+      },
+      {
+        "code" : "L03AX09",
+        "display" : "Thymopentin\u00a0"
+      },
+      {
+        "code" : "L03AX10",
+        "display" : "Immunocyanin"
+      },
+      {
+        "code" : "L03AX11",
+        "display" : "Tasonermin\u00a0"
+      },
+      {
+        "code" : "L03AX12",
+        "display" : "Melanoma vaccine\u00a0"
+      },
+      {
+        "code" : "L03AX13",
+        "display" : "Glatiramer acetate\u00a0"
+      },
+      {
+        "code" : "L03AX14",
+        "display" : "Histamine dihydrochloride\u00a0"
+      },
+      {
+        "code" : "L03AX15",
+        "display" : "Mifamurtide\u00a0"
+      },
+      {
+        "code" : "L03AX16",
+        "display" : "Plerixafor\u00a0"
+      },
+      {
+        "code" : "L03AX17",
+        "display" : "Sipuleucel-T\u00a0"
+      },
+      {
+        "code" : "L03AX18",
+        "display" : "Cridanimod\u00a0"
+      },
+      {
+        "code" : "L03AX19",
+        "display" : "Dasiprotimut-T\u00a0"
+      },
+      {
+        "code" : "L04AA02",
+        "display" : "Muromonab-CD3"
+      },
+      {
+        "code" : "L04AA03",
+        "display" : "Antilymphocyte immunoglobulin (horse)"
+      },
+      {
+        "code" : "L04AA04",
+        "display" : "Antithymocyte immunoglobulin (rabbit)"
+      },
+      {
+        "code" : "L04AA06",
+        "display" : "Mycophenolic acid"
+      },
+      {
+        "code" : "L04AA10",
+        "display" : "Sirolimus"
+      },
+      {
+        "code" : "L04AA13",
+        "display" : "Leflunomide"
+      },
+      {
+        "code" : "L04AA15",
+        "display" : "Alefacept"
+      },
+      {
+        "code" : "L04AA18",
+        "display" : "Everolimus"
+      },
+      {
+        "code" : "L04AA19",
+        "display" : "Gusperimus"
+      },
+      {
+        "code" : "L04AA21",
+        "display" : "Efalizumab"
+      },
+      {
+        "code" : "L04AA22",
+        "display" : "Abetimus"
+      },
+      {
+        "code" : "L04AA23",
+        "display" : "Natalizumab"
+      },
+      {
+        "code" : "L04AA24",
+        "display" : "Abatacept"
+      },
+      {
+        "code" : "L04AA25",
+        "display" : "Eculizumab"
+      },
+      {
+        "code" : "L04AA26",
+        "display" : "Belimumab"
+      },
+      {
+        "code" : "L04AA27",
+        "display" : "Fingolimod"
+      },
+      {
+        "code" : "L04AA28",
+        "display" : "Belatacept"
+      },
+      {
+        "code" : "L04AA29",
+        "display" : "Tofacitinib"
+      },
+      {
+        "code" : "L04AA31",
+        "display" : "Teriflunomide"
+      },
+      {
+        "code" : "L04AA32",
+        "display" : "Apremilast"
+      },
+      {
+        "code" : "L04AA33",
+        "display" : "Vedolizumab"
+      },
+      {
+        "code" : "L04AA34",
+        "display" : "Alemtuzumab"
+      },
+      {
+        "code" : "L04AA35",
+        "display" : "Begelomab"
+      },
+      {
+        "code" : "L04AA36",
+        "display" : "Ocrelizumab"
+      },
+      {
+        "code" : "L04AA37",
+        "display" : "Baricitinib"
+      },
+      {
+        "code" : "L04AB01",
+        "display" : "Etanercept"
+      },
+      {
+        "code" : "L04AB02",
+        "display" : "Infliximab"
+      },
+      {
+        "code" : "L04AB03",
+        "display" : "Afelimomab"
+      },
+      {
+        "code" : "L04AB04",
+        "display" : "Adalimumab"
+      },
+      {
+        "code" : "L04AB05",
+        "display" : "Certolizumab pegol"
+      },
+      {
+        "code" : "L04AB06",
+        "display" : "Golimumab"
+      },
+      {
+        "code" : "L04AC01",
+        "display" : "Daclizumab"
+      },
+      {
+        "code" : "L04AC02",
+        "display" : "Basiliximab"
+      },
+      {
+        "code" : "L04AC03",
+        "display" : "Anakinra"
+      },
+      {
+        "code" : "L04AC04",
+        "display" : "Rilonacept"
+      },
+      {
+        "code" : "L04AC05",
+        "display" : "Ustekinumab"
+      },
+      {
+        "code" : "L04AC06",
+        "display" : "Mepolizumab"
+      },
+      {
+        "code" : "L04AC07",
+        "display" : "Tocilizumab"
+      },
+      {
+        "code" : "L04AC08",
+        "display" : "Canakinumab"
+      },
+      {
+        "code" : "L04AC09",
+        "display" : "Briakinumab"
+      },
+      {
+        "code" : "L04AC10",
+        "display" : "Secukinumab"
+      },
+      {
+        "code" : "L04AC11",
+        "display" : "Siltuximab"
+      },
+      {
+        "code" : "L04AC12",
+        "display" : "Brodalumab"
+      },
+      {
+        "code" : "L04AC13",
+        "display" : "Ixekizumab"
+      },
+      {
+        "code" : "L04AC14",
+        "display" : "Sarilumab"
+      },
+      {
+        "code" : "L04AD01",
+        "display" : "Ciclosporin"
+      },
+      {
+        "code" : "L04AD02",
+        "display" : "Tacrolimus"
+      },
+      {
+        "code" : "L04AD03",
+        "display" : "Voclosporin"
+      },
+      {
+        "code" : "L04AX01",
+        "display" : "Azathioprine"
+      },
+      {
+        "code" : "L04AX02",
+        "display" : "Thalidomide"
+      },
+      {
+        "code" : "L04AX03",
+        "display" : "Methotrexate"
+      },
+      {
+        "code" : "L04AX04",
+        "display" : "Lenalidomide"
+      },
+      {
+        "code" : "L04AX05",
+        "display" : "Pirfenidone"
+      },
+      {
+        "code" : "L04AX06",
+        "display" : "Pomalidomide"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
 }
 -------------------------------------------------------------------------------------

@@ -2209,7 +2209,6 @@ v: {
   "code" : "607996",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2231,7 +2230,6 @@ v: {
   "code" : "4165039",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2253,7 +2251,6 @@ v: {
   "code" : "4024005",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2275,7 +2272,6 @@ v: {
   "code" : "4012485",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2297,7 +2293,6 @@ v: {
   "code" : "4161415",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2318,7 +2313,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '405801' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#405801' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2340,7 +2334,6 @@ v: {
   "code" : "4077953",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2362,7 +2355,6 @@ v: {
   "code" : "4129922",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2384,7 +2376,6 @@ v: {
   "code" : "4100366",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2406,7 +2397,6 @@ v: {
   "code" : "4168352",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2428,7 +2418,6 @@ v: {
   "code" : "4097297",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2449,7 +2438,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36769946' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36769946' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2470,7 +2458,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36770618' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36770618' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2492,7 +2479,6 @@ v: {
   "code" : "4147741",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2514,7 +2500,6 @@ v: {
   "code" : "4262980",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2536,7 +2521,6 @@ v: {
   "code" : "4102600",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2558,7 +2542,6 @@ v: {
   "code" : "4268741",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2580,7 +2563,6 @@ v: {
   "code" : "4047227",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2602,7 +2584,6 @@ v: {
   "code" : "4177005",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2624,7 +2605,6 @@ v: {
   "code" : "4002724",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2646,7 +2626,6 @@ v: {
   "code" : "4279711",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2668,7 +2647,6 @@ v: {
   "code" : "4027546",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2690,7 +2668,6 @@ v: {
   "code" : "4134589",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2712,7 +2689,6 @@ v: {
   "code" : "4027545",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2733,7 +2709,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36769700' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36769700' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2754,7 +2729,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36768548' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36768548' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2776,7 +2750,6 @@ v: {
   "code" : "4245168",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2798,7 +2771,6 @@ v: {
   "code" : "4307358",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2820,7 +2792,6 @@ v: {
   "code" : "4121182",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2842,7 +2813,6 @@ v: {
   "code" : "4175704",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2864,7 +2834,6 @@ v: {
   "code" : "4081832",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2886,7 +2855,6 @@ v: {
   "code" : "4088327",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2908,7 +2876,6 @@ v: {
   "code" : "4050631",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2930,7 +2897,6 @@ v: {
   "code" : "4182234",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2952,7 +2918,6 @@ v: {
   "code" : "4204534",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2974,7 +2939,6 @@ v: {
   "code" : "4097172",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2996,7 +2960,6 @@ v: {
   "code" : "4068978",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3018,7 +2981,6 @@ v: {
   "code" : "4146741",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3040,7 +3002,6 @@ v: {
   "code" : "4323979",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3062,7 +3023,6 @@ v: {
   "code" : "4220236",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3083,7 +3043,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36769609' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36769609' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3105,7 +3064,6 @@ v: {
   "code" : "4077986",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3127,7 +3085,6 @@ v: {
   "code" : "4172794",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3149,7 +3106,6 @@ v: {
   "code" : "4047029",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3171,7 +3127,6 @@ v: {
   "code" : "4210919",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3193,7 +3148,6 @@ v: {
   "code" : "4181419",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3215,7 +3169,6 @@ v: {
   "code" : "4103066",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3236,7 +3189,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '44498949' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#44498949' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3258,7 +3210,6 @@ v: {
   "code" : "4234542",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3280,7 +3231,6 @@ v: {
   "code" : "4057160",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3302,7 +3252,6 @@ v: {
   "code" : "4144069",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3323,7 +3272,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36769865' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36769865' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3345,7 +3293,6 @@ v: {
   "code" : "4169910",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3367,7 +3314,6 @@ v: {
   "code" : "4095284",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3389,7 +3335,6 @@ v: {
   "code" : "4138234",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3411,7 +3356,6 @@ v: {
   "code" : "4068841",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3433,7 +3377,6 @@ v: {
   "code" : "4065073",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3455,7 +3398,6 @@ v: {
   "code" : "4173123",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3477,7 +3419,6 @@ v: {
   "code" : "4283238",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3499,7 +3440,6 @@ v: {
   "code" : "4078066",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3521,7 +3461,6 @@ v: {
   "code" : "4045435",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3543,7 +3482,6 @@ v: {
   "code" : "4235649",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3565,7 +3503,6 @@ v: {
   "code" : "4149726",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3587,7 +3524,6 @@ v: {
   "code" : "4205430",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3609,7 +3545,6 @@ v: {
   "code" : "4195718",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3631,7 +3566,6 @@ v: {
   "code" : "4266674",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3653,7 +3587,6 @@ v: {
   "code" : "4203608",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3675,7 +3608,6 @@ v: {
   "code" : "4263599",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3697,7 +3629,6 @@ v: {
   "code" : "4135247",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3719,7 +3650,6 @@ v: {
   "code" : "4119012",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3741,7 +3671,6 @@ v: {
   "code" : "4118508",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3763,7 +3692,6 @@ v: {
   "code" : "4239307",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3785,7 +3713,6 @@ v: {
   "code" : "4240556",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3807,7 +3734,6 @@ v: {
   "code" : "4240557",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3829,7 +3755,6 @@ v: {
   "code" : "4282467",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3851,7 +3776,6 @@ v: {
   "code" : "4195922",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3873,7 +3797,6 @@ v: {
   "code" : "4243213",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3895,7 +3818,6 @@ v: {
   "code" : "4052407",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3917,7 +3839,6 @@ v: {
   "code" : "4194614",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3939,7 +3860,6 @@ v: {
   "code" : "4032012",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3961,7 +3881,6 @@ v: {
   "code" : "4278513",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3983,7 +3902,6 @@ v: {
   "code" : "4127612",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4005,7 +3923,6 @@ v: {
   "code" : "4129920",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4027,7 +3944,6 @@ v: {
   "code" : "9191",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4049,7 +3965,6 @@ v: {
   "code" : "9189",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4071,7 +3986,6 @@ v: {
   "code" : "45878602",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4093,7 +4007,6 @@ v: {
   "code" : "8527",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4115,7 +4028,6 @@ v: {
   "code" : "8516",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4137,7 +4049,6 @@ v: {
   "code" : "8515",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4159,7 +4070,6 @@ v: {
   "code" : "8657",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4181,7 +4091,6 @@ v: {
   "code" : "4058777",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4203,7 +4112,6 @@ v: {
   "code" : "438028",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4225,7 +4133,6 @@ v: {
   "code" : "4122706",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4247,7 +4154,6 @@ v: {
   "code" : "4105297",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4269,7 +4175,6 @@ v: {
   "code" : "4306655",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4291,7 +4196,6 @@ v: {
   "code" : "4059384",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4313,7 +4217,6 @@ v: {
   "code" : "4058775",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4334,7 +4237,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '87784001' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#87784001' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4355,7 +4257,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '59441001' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#59441001' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4376,7 +4277,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '39607008' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#39607008' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4397,7 +4297,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '119186007' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#119186007' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4418,7 +4317,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '10200004' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#10200004' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4439,7 +4337,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '3120008' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#3120008' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4460,7 +4357,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '15425007' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#15425007' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4481,7 +4377,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '12738006' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#12738006' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4502,7 +4397,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '261665006' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#261665006' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4524,7 +4418,6 @@ v: {
   "code" : "4179711",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4546,7 +4439,6 @@ v: {
   "code" : "4188540",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4568,7 +4460,6 @@ v: {
   "code" : "40459832",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4590,7 +4481,6 @@ v: {
   "code" : "40459833",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4612,7 +4502,6 @@ v: {
   "code" : "40459834",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4634,7 +4523,6 @@ v: {
   "code" : "40459835",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4656,7 +4544,6 @@ v: {
   "code" : "40459836",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4678,7 +4565,6 @@ v: {
   "code" : "36716475",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4700,7 +4586,6 @@ v: {
   "code" : "36716476",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4722,7 +4607,6 @@ v: {
   "code" : "4162706",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4744,7 +4628,6 @@ v: {
   "code" : "4163135",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4766,7 +4649,6 @@ v: {
   "code" : "4161302",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4788,7 +4670,6 @@ v: {
   "code" : "4241442",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4810,7 +4691,6 @@ v: {
   "code" : "44808409",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4832,7 +4712,6 @@ v: {
   "code" : "44804498",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4854,7 +4733,6 @@ v: {
   "code" : "603132",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4876,7 +4754,6 @@ v: {
   "code" : "4043011",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4898,7 +4775,6 @@ v: {
   "code" : "40480519",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4920,7 +4796,6 @@ v: {
   "code" : "603135",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4942,7 +4817,6 @@ v: {
   "code" : "3662120",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4964,7 +4838,6 @@ v: {
   "code" : "4215577",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4986,7 +4859,6 @@ v: {
   "code" : "4077990",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5008,7 +4880,6 @@ v: {
   "code" : "4236080",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5030,7 +4901,6 @@ v: {
   "code" : "4050374",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5052,7 +4922,6 @@ v: {
   "code" : "4044897",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5074,7 +4943,6 @@ v: {
   "code" : "4038679",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5096,7 +4964,6 @@ v: {
   "code" : "4333339",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5118,7 +4985,6 @@ v: {
   "code" : "4273629",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5140,7 +5006,6 @@ v: {
   "code" : "40310107",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5162,7 +5027,6 @@ v: {
   "code" : "40488979",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5184,10 +5048,1235 @@ v: {
   "code" : "4188539",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "607996",
+        "display" : "external beam RT photons"
+      },
+      {
+        "code" : "4165039",
+        "display" : "external beams RT electrons"
+      },
+      {
+        "code" : "4024005",
+        "display" : "external beam RT protons "
+      },
+      {
+        "code" : "4012485",
+        "display" : "brachytherapy interstitial endocavitary contact"
+      },
+      {
+        "code" : "4161415",
+        "display" : "radionuclide therapy"
+      },
+      {
+        "code" : "405801",
+        "display" : "boron neuton capture therapy"
+      },
+      {
+        "code" : "4077953",
+        "display" : "other"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4329847",
+        "display" : "Myocardial infarction"
+      },
+      {
+        "code" : "319835",
+        "display" : "Congestive heart failure"
+      },
+      {
+        "code" : "321052",
+        "display" : "Peripheral vascular disease"
+      },
+      {
+        "code" : "381316",
+        "display" : "Cerebrovascular accident"
+      },
+      {
+        "code" : "4182210",
+        "display" : "Dementia"
+      },
+      {
+        "code" : "1620830",
+        "display" : "Chronic pulmonary disease"
+      },
+      {
+        "code" : "4344165",
+        "display" : "Undifferentiated connective tissue disease"
+      },
+      {
+        "code" : "4177703",
+        "display" : "Ulcer"
+      },
+      {
+        "code" : "1621281",
+        "display" : "Mild liver disease"
+      },
+      {
+        "code" : "1620421",
+        "display" : "Moderate or severe liver or renal disease"
+      },
+      {
+        "code" : "1620816",
+        "display" : "Diabetes (without complications)"
+      },
+      {
+        "code" : "1620753",
+        "display" : "Diabetes with end organ damage"
+      },
+      {
+        "code" : "374022",
+        "display" : "Hemiplegia"
+      },
+      {
+        "code" : "1621181",
+        "display" : "Metastatic solid tumor"
+      },
+      {
+        "code" : "317510",
+        "display" : "Leukemia"
+      },
+      {
+        "code" : "45881968",
+        "display" : "Lymphoma"
+      },
+      {
+        "code" : "437233",
+        "display" : "Multiple myeloma"
+      },
+      {
+        "code" : "45884125",
+        "display" : "AIDS"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4100366",
+        "display" : "baseline"
+      },
+      {
+        "code" : "4168352",
+        "display" : "progression"
+      },
+      {
+        "code" : "4097297",
+        "display" : "recurrence"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "36769946",
+        "display" : "ENE-"
+      },
+      {
+        "code" : "36770618",
+        "display" : "ENE+"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4147741",
+        "display" : "postcricoid region"
+      },
+      {
+        "code" : "4262980",
+        "display" : "hypopharyngeal aspect of aryepiglottic fold"
+      },
+      {
+        "code" : "4102600",
+        "display" : "posterior wall of hypopharynx"
+      },
+      {
+        "code" : "4268741",
+        "display" : "pyriform sinus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4047227",
+        "display" : "glottis"
+      },
+      {
+        "code" : "4177005",
+        "display" : "supraglottis"
+      },
+      {
+        "code" : "4002724",
+        "display" : "subglottis"
+      },
+      {
+        "code" : "4279711",
+        "display" : "laryngeal cartilage"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4027546",
+        "display" : "external lower lip"
+      },
+      {
+        "code" : "4134589",
+        "display" : "external upper lip"
+      },
+      {
+        "code" : "4027545",
+        "display" : "external lip"
+      },
+      {
+        "code" : "36769700",
+        "display" : "mucosa of upper lip"
+      },
+      {
+        "code" : "36768548",
+        "display" : "mucosa of lower lip"
+      },
+      {
+        "code" : "4245168",
+        "display" : "mucosa of lip"
+      },
+      {
+        "code" : "4307358",
+        "display" : "commisure of lip"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4121182",
+        "display" : "R0 (microscopic negative)"
+      },
+      {
+        "code" : "4175704",
+        "display" : "R1 (microscopic positive)"
+      },
+      {
+        "code" : "4081832",
+        "display" : "R2 (macroscopic positive)"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4088327",
+        "display" : "nasal cavity"
+      },
+      {
+        "code" : "4050631",
+        "display" : "maxillary sinus"
+      },
+      {
+        "code" : "4182234",
+        "display" : "ethmoid sinus"
+      },
+      {
+        "code" : "4204534",
+        "display" : "frontal sinus"
+      },
+      {
+        "code" : "4097172",
+        "display" : "sphenoid sinus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4068978",
+        "display" : "superior wall of nasopharynx"
+      },
+      {
+        "code" : "4146741",
+        "display" : "posterior wall of nasopharynx"
+      },
+      {
+        "code" : "4323979",
+        "display" : "lateral wall of nasopharynx"
+      },
+      {
+        "code" : "4220236",
+        "display" : "anterior wall of nasopharynx"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "36769609",
+        "display" : "dorsal surface tongue"
+      },
+      {
+        "code" : "4077986",
+        "display" : "border of tongue"
+      },
+      {
+        "code" : "4172794",
+        "display" : "ventral surface of tongue"
+      },
+      {
+        "code" : "4047029",
+        "display" : "upper gum"
+      },
+      {
+        "code" : "4210919",
+        "display" : "lower gum"
+      },
+      {
+        "code" : "4181419",
+        "display" : "anterior floor of mouth"
+      },
+      {
+        "code" : "4103066",
+        "display" : "lateral floor of mouth"
+      },
+      {
+        "code" : "44498949",
+        "display" : "overlapping lesion of floor of mouth"
+      },
+      {
+        "code" : "4234542",
+        "display" : "hard palate"
+      },
+      {
+        "code" : "4057160",
+        "display" : "cheek mucosa"
+      },
+      {
+        "code" : "4144069",
+        "display" : "vestibule of mouth"
+      },
+      {
+        "code" : "36769865",
+        "display" : "retromolar area"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4169910",
+        "display" : "base of tongue"
+      },
+      {
+        "code" : "4177005",
+        "display" : "soft palate NOS"
+      },
+      {
+        "code" : "4095284",
+        "display" : "Uvula"
+      },
+      {
+        "code" : "4138234",
+        "display" : "tonsilla fossa"
+      },
+      {
+        "code" : "4068841",
+        "display" : "lingual tonsil"
+      },
+      {
+        "code" : "4065073",
+        "display" : "tonsillar pillar"
+      },
+      {
+        "code" : "4173123",
+        "display" : "Vallecula"
+      },
+      {
+        "code" : "4283238",
+        "display" : "anterior surface of epiglottis"
+      },
+      {
+        "code" : "4078066",
+        "display" : "lateral wall oropharynx"
+      },
+      {
+        "code" : "4045435",
+        "display" : "posterior wall oropharynx"
+      },
+      {
+        "code" : "4235649",
+        "display" : "branchial cleft"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4149726",
+        "display" : "M0"
+      },
+      {
+        "code" : "4205430",
+        "display" : "M1"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4195718",
+        "display" : "Nx"
+      },
+      {
+        "code" : "4266674",
+        "display" : "N0"
+      },
+      {
+        "code" : "4203608",
+        "display" : "N1"
+      },
+      {
+        "code" : "4263599",
+        "display" : "N2"
+      },
+      {
+        "code" : "4135247",
+        "display" : "N2a"
+      },
+      {
+        "code" : "4119012",
+        "display" : "N2b"
+      },
+      {
+        "code" : "4118508",
+        "display" : "N2c"
+      },
+      {
+        "code" : "4239307",
+        "display" : "N3"
+      },
+      {
+        "code" : "4240556",
+        "display" : "N3a"
+      },
+      {
+        "code" : "4240557",
+        "display" : "N3b"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4282467",
+        "display" : "Tx"
+      },
+      {
+        "code" : "4195922",
+        "display" : "Tis"
+      },
+      {
+        "code" : "4243213",
+        "display" : "T0"
+      },
+      {
+        "code" : "4052407",
+        "display" : "T1"
+      },
+      {
+        "code" : "4194614",
+        "display" : "T2"
+      },
+      {
+        "code" : "4032012",
+        "display" : "T3"
+      },
+      {
+        "code" : "4278513",
+        "display" : "T4"
+      },
+      {
+        "code" : "4127612",
+        "display" : "T4a"
+      },
+      {
+        "code" : "4129920",
+        "display" : "T4b"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "9191",
+        "display" : "Positive"
+      },
+      {
+        "code" : "9189",
+        "display" : "Negative"
+      },
+      {
+        "code" : "45878602",
+        "display" : "Not tested"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "8527",
+        "display" : "White"
+      },
+      {
+        "code" : "8516",
+        "display" : "Black"
+      },
+      {
+        "code" : "8515",
+        "display" : "Asian/Pacific Islanders"
+      },
+      {
+        "code" : "8657",
+        "display" : "American Indian/Alaska Native"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4058777",
+        "display" : "completion"
+      },
+      {
+        "code" : "438028",
+        "display" : "toxicity"
+      },
+      {
+        "code" : "4122706",
+        "display" : "comorbidity"
+      },
+      {
+        "code" : "4105297",
+        "display" : "patient intolerance"
+      },
+      {
+        "code" : "4306655",
+        "display" : "death"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4059384",
+        "display" : "preoperative"
+      },
+      {
+        "code" : "4058775",
+        "display" : "postoperative"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "87784001",
+        "display" : "soft tissue"
+      },
+      {
+        "code" : "59441001",
+        "display" : "distant lymph node"
+      },
+      {
+        "code" : "39607008",
+        "display" : "lung"
+      },
+      {
+        "code" : "119186007",
+        "display" : "bone"
+      },
+      {
+        "code" : "10200004",
+        "display" : "liver"
+      },
+      {
+        "code" : "3120008",
+        "display" : "pleura"
+      },
+      {
+        "code" : "15425007",
+        "display" : "peritoneum"
+      },
+      {
+        "code" : "12738006",
+        "display" : "brain"
+      },
+      {
+        "code" : "261665006",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4179711",
+        "display" : "palliative"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4188540",
+        "display" : "no complication"
+      },
+      {
+        "code" : "40459832",
+        "display" : "grade I"
+      },
+      {
+        "code" : "40459833",
+        "display" : "grade II"
+      },
+      {
+        "code" : "40459834",
+        "display" : "grade III"
+      },
+      {
+        "code" : "40459835",
+        "display" : "grade IV"
+      },
+      {
+        "code" : "40459836",
+        "display" : "grade V"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "36716475",
+        "display" : "Cigarettes"
+      },
+      {
+        "code" : "36716476",
+        "display" : "Cigar"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4058777",
+        "display" : "completion"
+      },
+      {
+        "code" : "438028",
+        "display" : "toxicity"
+      },
+      {
+        "code" : "4162706",
+        "display" : "comorbidity"
+      },
+      {
+        "code" : "4105297",
+        "display" : "patient intolerance"
+      },
+      {
+        "code" : "4306655",
+        "display" : "death"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4163135",
+        "display" : "complete response"
+      },
+      {
+        "code" : "4161302",
+        "display" : "partial response"
+      },
+      {
+        "code" : "4241442",
+        "display" : "stable disease"
+      },
+      {
+        "code" : "4168352",
+        "display" : "progression"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "44808409",
+        "display" : "neo-adjuvant"
+      },
+      {
+        "code" : "44804498",
+        "display" : "adjuvant"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "603132",
+        "display" : "2D"
+      },
+      {
+        "code" : "4043011",
+        "display" : "3D"
+      },
+      {
+        "code" : "40480519",
+        "display" : "IMRT conventional"
+      },
+      {
+        "code" : "603135",
+        "display" : "VMAT"
+      },
+      {
+        "code" : "3662120",
+        "display" : "tomotherapy"
+      },
+      {
+        "code" : "4215577",
+        "display" : "SBRT"
+      },
+      {
+        "code" : "4077990",
+        "display" : "other"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4236080",
+        "display" : "external/open"
+      },
+      {
+        "code" : "4050374",
+        "display" : "transnasal"
+      },
+      {
+        "code" : "4044897",
+        "display" : "transorbital"
+      },
+      {
+        "code" : "4038679",
+        "display" : "transoral"
+      },
+      {
+        "code" : "4333339",
+        "display" : "craniofacial"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4273629",
+        "display" : "chemotherapy"
+      },
+      {
+        "code" : "40310107",
+        "display" : "immunotherapy"
+      },
+      {
+        "code" : "40488979",
+        "display" : "target therapy"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4188539",
+        "display" : "yes"
+      },
+      {
+        "code" : "4188540",
+        "display" : "no"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4329847",
+        "display" : "Myocardial infarction"
+      },
+      {
+        "code" : "319835",
+        "display" : "Congestive heart failure"
+      },
+      {
+        "code" : "321052",
+        "display" : "Peripheral vascular disease"
+      },
+      {
+        "code" : "381316",
+        "display" : "Cerebrovascular accident"
+      },
+      {
+        "code" : "4182210",
+        "display" : "Dementia"
+      },
+      {
+        "code" : "1620830",
+        "display" : "Chronic pulmonary disease"
+      },
+      {
+        "code" : "4344165",
+        "display" : "Undifferentiated connective tissue disease"
+      },
+      {
+        "code" : "4177703",
+        "display" : "Ulcer"
+      },
+      {
+        "code" : "1621281",
+        "display" : "Mild liver disease"
+      },
+      {
+        "code" : "1620421",
+        "display" : "Moderate or severe liver or renal disease"
+      },
+      {
+        "code" : "1620816",
+        "display" : "Diabetes (without complications)"
+      },
+      {
+        "code" : "1620753",
+        "display" : "Diabetes with end organ damage"
+      },
+      {
+        "code" : "374022",
+        "display" : "Hemiplegia"
+      },
+      {
+        "code" : "1621181",
+        "display" : "Metastatic solid tumor"
+      },
+      {
+        "code" : "317510",
+        "display" : "Leukemia"
+      },
+      {
+        "code" : "45881968",
+        "display" : "Lymphoma"
+      },
+      {
+        "code" : "437233",
+        "display" : "Multiple myeloma"
+      },
+      {
+        "code" : "45884125",
+        "display" : "AIDS"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
 }
 -------------------------------------------------------------------------------------

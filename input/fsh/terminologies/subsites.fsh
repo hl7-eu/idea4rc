@@ -1,3 +1,36 @@
+ValueSet: VsSubsiteAthenaI4rc
+Id: nasal-subsite-athena-i4rc
+Title: "Subsites: Athena"
+Description: "Specifies the subsites where cancers occured: Athena"
+//-------------------------------------------------------------------------------------------
+* ^status = #active
+* ^experimental = true
+
+* codes from valueset VsNasalandParanasalSubsiteAthenaI4rc
+* codes from valueset VsNasopharynxSubsiteAthenaI4rc
+* codes from valueset VsHypopharynxSubsiteAthenaI4rc
+* codes from valueset VsOropharynxSubsiteAthenaI4rc
+* codes from valueset VsLarynxSubsiteAthenaI4rc
+* codes from valueset VsOralCavitySubsiteAthenaI4rc
+* codes from valueset VsLipSubsiteAthenaI4rc
+
+
+ValueSet: VsSubsiteSnomedI4rc
+Id: nasal-subsite-sct-i4rc
+Title: "Subsites: SNOMED CT"
+Description: "Specifies the subsites where cancers occured: SNOMED CT"
+//-------------------------------------------------------------------------------------------
+* ^status = #active
+* ^experimental = true
+
+* codes from valueset VsNasalandParanasalSubsiteSnomedI4rc
+* codes from valueset VsNasopharynxSubsiteSnomedI4rc
+* codes from valueset VsHypopharynxSubsiteSnomedI4rc
+* codes from valueset VsOropharynxSubsiteSnomedI4rc
+* codes from valueset VsLarynxSubsiteSnomedI4rc
+* codes from valueset VsOralCavitySubsiteSnomedI4rc
+* codes from valueset VsLipSubsiteSnomedI4rc
+
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsNasalandParanasalSubsiteAthenaI4rc
 Id: nasal-paranasal-subsite-athena-i4rc
@@ -35,10 +68,10 @@ Description: "Specifies the subsite for cancers occured in nasopharynx: Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = true
-* $athena#4068978    "superior wall of nasopharynx"   
+* $athena#4068978   "superior wall of nasopharynx"   
 * $athena#4146741   "posterior wall of nasopharynx"   
-* $athena#4323979    "lateral wall of nasopharynx"   
-* $athena#4220236    "anterior wall of nasopharynx"
+* $athena#4323979   "lateral wall of nasopharynx"   
+* $athena#4220236   "anterior wall of nasopharynx"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
