@@ -3,8 +3,7 @@ InstanceOf: ActorDefinition
 Title: "Actor: Head and Neck"
 Description: """An actor dealing with head and neck cancer data."""
 Usage: #example
-
-// * * url = "http://hl7.eu/fhir/ig/idea4rc/actor-headneck-i4rc"
+* url = "http://hl7.eu/fhir/ig/idea4rc/actor-headneck-i4rc"
 * name = "HeadNeckDataHandler"
 * status = #active
 * type = #system
@@ -17,7 +16,7 @@ Title: "Actor: Sarcoma"
 Description: """An actor dealing with sarcoma data."""
 Usage: #example
 
-// * url = "http://hl7.eu/fhir/ig/idea4rc/actor-sarcoma-i4rc"
+* url = "http://hl7.eu/fhir/ig/idea4rc/actor-sarcoma-i4rc"
 * name = "HeadNeckDataHandler"
 * status = #active
 * type = #system
