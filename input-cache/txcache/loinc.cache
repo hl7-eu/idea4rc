@@ -4144,3 +4144,154 @@ v: {
 
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA20356-4",
+        "display" : "Current smoker"
+      },
+      {
+        "code" : "LA15920-4",
+        "display" : "Former smoker"
+      },
+      {
+        "code" : "LA18978-9",
+        "display" : "Never smoker"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:f60e8bf1-42e5-453a-831b-700e8ecd2632",
+    "timestamp" : "2023-11-06T15:24:28.888Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.74"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA20356-4",
+      "display" : "Current smoker"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA15920-4",
+      "display" : "Former smoker"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA18978-9",
+      "display" : "Never smoker"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA20356-4"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "code" : "LA20356-4",
+  "system" : "http://loinc.org",
+  "version" : "2.74",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA20356-4",
+        "display" : "Current smoker"
+      },
+      {
+        "code" : "LA15920-4",
+        "display" : "Former smoker"
+      },
+      {
+        "code" : "LA18978-9",
+        "display" : "Never smoker"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:90f2973b-bd67-49c8-b819-1e96319eb53b",
+    "timestamp" : "2023-11-06T15:29:58.934Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.74"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA20356-4",
+      "display" : "Current smoker"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA15920-4",
+      "display" : "Former smoker"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA18978-9",
+      "display" : "Never smoker"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

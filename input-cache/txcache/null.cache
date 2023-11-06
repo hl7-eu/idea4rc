@@ -1,0 +1,305 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/nasal-subsite-athena-i4rc", "version": "0.1.0"}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/nasal-subsite-athena-i4rc",
+  "version" : "0.1.0",
+  "name" : "VsSubsiteAthenaI4rc",
+  "title" : "Subsites: Athena",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-11-06T15:06:28+01:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "150",
+      "display" : "Europe"
+    }]
+  }],
+  "expansion" : {
+    "identifier" : "urn:uuid:33c8db7d-1b9d-4a55-b88e-4249028899ab",
+    "timestamp" : "2023-11-06T14:12:05.873Z",
+    "total" : 41,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/nasal-paranasal-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/nasal-paranasal-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/nasopharynx-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/nasopharynx-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/hypopharynx-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/hypopharynx-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/oropharynx-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/oropharynx-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/larynx-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/larynx-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/oralCavity-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/oralCavity-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/lip-subsite-athena-i4rc|0.1.0"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/lip-subsite-athena-i4rc|0.1.0"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4088327",
+      "display" : "nasal cavity"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4050631",
+      "display" : "maxillary sinus"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4182234",
+      "display" : "ethmoid sinus"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4204534",
+      "display" : "frontal sinus"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4097172",
+      "display" : "sphenoid sinus"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4068978",
+      "display" : "superior wall of nasopharynx"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4146741",
+      "display" : "posterior wall of nasopharynx"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4323979",
+      "display" : "lateral wall of nasopharynx"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4220236",
+      "display" : "anterior wall of nasopharynx"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4147741",
+      "display" : "postcricoid region"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4262980",
+      "display" : "hypopharyngeal aspect of aryepiglottic fold"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4102600",
+      "display" : "posterior wall of hypopharynx"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4268741",
+      "display" : "pyriform sinus"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4169910",
+      "display" : "base of tongue"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4177005",
+      "display" : "soft palate NOS"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4095284",
+      "display" : "Uvula"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4138234",
+      "display" : "tonsilla fossa"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4068841",
+      "display" : "lingual tonsil"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4065073",
+      "display" : "tonsillar pillar"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4173123",
+      "display" : "Vallecula"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4283238",
+      "display" : "anterior surface of epiglottis"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4078066",
+      "display" : "lateral wall oropharynx"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4045435",
+      "display" : "posterior wall oropharynx"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4235649",
+      "display" : "branchial cleft"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4047227",
+      "display" : "glottis"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4002724",
+      "display" : "subglottis"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4279711",
+      "display" : "laryngeal cartilage"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4077986",
+      "display" : "border of tongue"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4172794",
+      "display" : "ventral surface of tongue"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4047029",
+      "display" : "upper gum"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4210919",
+      "display" : "lower gum"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4181419",
+      "display" : "anterior floor of mouth"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4103066",
+      "display" : "lateral floor of mouth"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4234542",
+      "display" : "hard palate"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4057160",
+      "display" : "cheek mucosa"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4144069",
+      "display" : "vestibule of mouth"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4027546",
+      "display" : "external lower lip"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4134589",
+      "display" : "external upper lip"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4027545",
+      "display" : "external lip"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4245168",
+      "display" : "mucosa of lip"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4307358",
+      "display" : "commisure of lip"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

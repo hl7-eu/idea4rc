@@ -7351,3 +7351,211 @@ e: {
   "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "219006",
+        "display" : "Current drinker of alcohol"
+      },
+      {
+        "code" : "82581004",
+        "display" : "Ex-drinker"
+      },
+      {
+        "code" : "783261004",
+        "display" : "Lifetime non-drinker of alcohol"
+      },
+      {
+        "code" : "286857004",
+        "display" : "Ex-problem drinker"
+      },
+      {
+        "code" : "160580001",
+        "display" : "Alcohol consumption unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ce8a225e-7d44-45a6-9a89-1088ec0f26c2",
+    "timestamp" : "2023-11-06T15:24:26.169Z",
+    "total" : 5,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "219006",
+      "display" : "Current drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "82581004",
+      "display" : "Ex-drinker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "783261004",
+      "display" : "Lifetime non-drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "286857004",
+      "display" : "Ex-problem drinker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160580001",
+      "display" : "Alcohol consumption unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "82581004"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "code" : "82581004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "286857004"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "code" : "286857004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "219006",
+        "display" : "Current drinker of alcohol"
+      },
+      {
+        "code" : "82581004",
+        "display" : "Ex-drinker"
+      },
+      {
+        "code" : "783261004",
+        "display" : "Lifetime non-drinker of alcohol"
+      },
+      {
+        "code" : "286857004",
+        "display" : "Ex-problem drinker"
+      },
+      {
+        "code" : "160580001",
+        "display" : "Alcohol consumption unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d902d45d-f42b-4f51-95aa-45829dd034b4",
+    "timestamp" : "2023-11-06T15:29:40.372Z",
+    "total" : 5,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "219006",
+      "display" : "Current drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "82581004",
+      "display" : "Ex-drinker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "783261004",
+      "display" : "Lifetime non-drinker of alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "286857004",
+      "display" : "Ex-problem drinker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160580001",
+      "display" : "Alcohol consumption unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

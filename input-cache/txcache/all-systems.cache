@@ -45,10 +45,169 @@ v: {
   "display" : "Europe",
   "code" : "150",
   "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/comorbidities-athena-eu-i4rc", "version": "0.1.0"}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/comorbidities-athena-eu-i4rc",
+  "version" : "0.1.0",
+  "name" : "VsComorbiditiesAthenaI4rc",
+  "title" : "Comorbidities: Athena",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-11-06T15:06:28+01:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "150",
+      "display" : "Europe"
+    }]
+  }],
+  "expansion" : {
+    "identifier" : "urn:uuid:50555366-5595-46b5-abfd-7e7767a38a1f",
+    "timestamp" : "2023-11-06T14:11:51.233Z",
+    "total" : 21,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc|0.1.0"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc|0.1.0"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc|0.1.0"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4329847",
+      "display" : "Myocardial infarction"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "319835",
+      "display" : "Congestive heart failure"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "321052",
+      "display" : "Peripheral vascular disease"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "381316",
+      "display" : "Cerebrovascular accident"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4182210",
+      "display" : "Dementia"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "1620830",
+      "display" : "Chronic pulmonary disease"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4344165",
+      "display" : "Undifferentiated connective tissue disease"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4177703",
+      "display" : "Ulcer"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "1621281",
+      "display" : "Mild liver disease"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "1620421",
+      "display" : "Moderate or severe liver or renal disease"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "1620816",
+      "display" : "Diabetes (without complications)"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "1620753",
+      "display" : "Diabetes with end organ damage"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "374022",
+      "display" : "Hemiplegia"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "1621181",
+      "display" : "Metastatic solid tumor"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "317510",
+      "display" : "Leukemia"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "45881968",
+      "display" : "Lymphoma"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "437233",
+      "display" : "Multiple myeloma"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "45884125",
+      "display" : "AIDS"
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc",
+      "code" : "1620421-liver",
+      "display" : "Moderate or severe liver disease"
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc",
+      "code" : "1620421-renal",
+      "display" : "Moderate or severe renal disease"
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc",
+      "code" : "solid-tumor",
+      "display" : "Solid tumor (non metastatic)"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

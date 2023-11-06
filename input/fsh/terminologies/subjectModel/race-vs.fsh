@@ -7,7 +7,7 @@ Description: "Race value set based on the Athena system"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#8527    "White"   
 * $athena#8516    "Black"   

@@ -1,104 +1,151 @@
-//===================================================		
-//  Logical Model		i4rc-subject.fsh
-//===================================================		
-Logical: SubjectI4rc		
-Id: Subject		
-Title: "Subject of care"		
+//===================================================				
+//  Logical Model				i4rc-subject.fsh
+//===================================================				
+Logical: SubjectI4rc				
+Id: Subject				
+Title: "Subject of care"				
 Description:  """Subject of care 
-Maturity Level: 0 Draft"""		
-* sex 1..1 CodeableConcept "Sex" """Describes biological sex as recorded in the patient's identity document or in the hospital record. In the absence of documentation, the one declared by the patient will be recorded"""		
-* race 1..1 CodeableConcept "Race" """Describes race as recorded in  the hospital record, the one declared by the patient,, otherwise, the onerecognized by the observer"""		
-* countryOfResidence 1..1 CodeableConcept "Country of Residence" """Country of residence at the time of diagnosis"""		
-* smoking 1..1 CodeableConcept "Smoking" """Describes tobacco smoker habits within the options proposed"""		
-* smokingType 0..1 CodeableConcept "Smoking type" """Describes type of tobacco"""		
-* cigSmokedPerDay 0..1 integer "Cigarettes/cigars smoked per day" """Number of cigarettes or cigars smoked in one day. Together with the information of number of years as a smoker, these information will allow to automatically calculate the pack year."""		
-* yearsAsSmoker 0..1 integer "Number of years as a smoker" """Number of years the person has smoked"""		
-* alcohol 1..1 CodeableConcept "Alcohol" """Describes alcohol habits within the options proposed"""		
-* comorbidity 1..1 BackboneElement "comorbidity" """Describes comorbidities reported or assesed before treatment. More than one choice is allowed. Please do not include the current cancer in this calculation, only the previous cancer."""		
-* comorbidity.flag 1..1 CodeableConcept "comorbidity Flag" """Describes wherther the patient was diagnosed before treatment of at least one of the comorbidities listed  next or not"""		
-* comorbidity.myocardialInfarction 0..1 boolean "Myocardial infarction" """Myocardial infarction"""		
-* comorbidity.congestiveHeartFailure 0..1 boolean "Congestive heart failure" """Congestive heart failure"""		
-* comorbidity.peripheralVascularDisease 0..1 boolean "Peripheral vascular disease" """Peripheral vascular disease"""		
-* comorbidity.cerebrovascularAccidentExceptHemiplegia 0..1 boolean "Cerebrovascular accident  (except hemiplegia)" """Cerebrovascular accident  (except hemiplegia)"""		
-* comorbidity.dementia 0..1 boolean "Dementia" """Dementia"""		
-* comorbidity.chronicPulmonaryDisease 0..1 boolean "Chronic pulmonary disease" """Chronic pulmonary disease"""		
-* comorbidity.connectiveTissueDisease 0..1 boolean "Connective tissue disease" """Connective tissue disease"""		
-* comorbidity.ulcer 0..1 boolean "Ulcer" """Ulcer"""		
-* comorbidity.mildLiverDisease 0..1 boolean "Mild liver disease" """Mild liver disease"""		
-* comorbidity.moderateToSevereLiverDisease 0..1 boolean "Moderate to severe liver disease" """Moderate to severe liver disease"""		
-* comorbidity.diabetesWithoutComplications 0..1 boolean "Diabetes (without complications)" """Diabetes (without complications)"""		
-* comorbidity.diabetesWithEndOrganDamage 0..1 boolean "Diabetes with end organ damage" """Diabetes with end organ damage"""		
-* comorbidity.hemiplegia 0..1 boolean "Hemiplegia" """Hemiplegia"""		
-* comorbidity.moderateToSevereRenalDisease 0..1 boolean "Moderate to severe renal disease" """Moderate to severe renal disease"""		
-* comorbidity.solidTumorNonMetastatic 0..1 boolean "Solid tumor (non metastatic)" """Solid tumor (non metastatic)"""		
-* comorbidity.metastaticSolidTumor 0..1 boolean "Metastatic solid tumor" """Metastatic solid tumor"""		
-* comorbidity.leukemia 0..1 boolean "Leukemia" """Leukemia"""		
-* comorbidity.lymphomaOrMultipleMyeloma 0..1 boolean "Lymphoma, Multiple myeloma" """Lymphoma, Multiple myeloma"""		
-* comorbidity.aids 0..1 boolean "AIDS" """AIDS"""		
-* ecogPsAtDiagnosis 0..1 CodeableConcept "Eastern Cooperative Oncology Group performance status (ECOG PS)  at diagnosis" """Eastern Cooperative Oncology Group performance status (ECOG PS)  at diagnosis"""		
-* karnofsyIndexAtDiagnosis 0..1 CodeableConcept "Karnofsy index at diagnosis" """Karnofsy index at diagnosis"""		
-//--- END		
-//--- END		
-//--- END		
-//--- END		
-		
-		
-//--------------------------------------------------------------------------------		
-//  Comment		
-//--------------------------------------------------------------------------------		
+Maturity Level: 0 Draft"""				
+* sex 1..1 CodeableConcept "Gender" """Describes biological sex as recorded in the patient's identity document or in the hospital record. In the absence of documentation, the one declared by the patient will be recorded"""				
+* race 1..1 CodeableConcept "Race" """Describes race as recorded in  the hospital record, the one declared by the patient,, otherwise, the onerecognized by the observer"""				
+* countryOfResidence 1..1 CodeableConcept "Country of Residence" """Country of residence at the time of diagnosis"""				
+* smoking 1..1 CodeableConcept "Smoking" """Describes tobacco smoker habits within the options proposed"""				
+* smokingType 0..1 CodeableConcept "Smoking type" """Describes type of tobacco"""				
+* cigSmokedPerDay 0..1 integer "Cigarettes/cigars smoked per day" """Number of cigarettes or cigars smoked in one day. Together with the information of number of years as a smoker, these information will allow to automatically calculate the pack year."""				
+* yearsAsSmoker 0..1 integer "Number of years as a smoker" """Number of years the person has smoked"""				
+* alcohol 1..1 CodeableConcept "Alcohol" """Describes alcohol habits within the options proposed"""				
+* bMI 0..1 Quantity "Height/weight (BMI)
+" """Provides the BMI for the patient"""				
+* charlsonComorbidityIndex 0..1 integer "Charlson Comorbidity index" """Provides the Charlson Comorbidity index for the patient"""				
+* comorbidity 1..1 BackboneElement "Comorbidity" """Describes whether the patient was diagnosed before treatment of at least one of the comorbidities listed  next or not"""				
+* comorbidity.myocardialInfarction 0..1 boolean "Myocardial infarction" """Describes comorbidities reported or assesed before treatment. More than one choice is allowed. Please do not include the current cancer in this calculation, only the previous cancer."""				
+* comorbidity.congestiveHeartFailure 0..1 boolean "Congestive heart failure" """Previous cancer comorbidity related to Congestive heart failure"""				
+* comorbidity.peripheralVascularDisease 0..1 boolean "Peripheral vascular disease" """Previous cancer comorbidity related to Peripheral vascular disease"""				
+* comorbidity.cerebrovascularAccidentExceptHemiplegia 0..1 boolean "Cerebrovascular accident  (except hemiplegia)" """Previous cancer comorbidity related to Cerebrovascular accident  (except hemiplegia)"""				
+* comorbidity.dementia 0..1 boolean "Dementia" """Previous cancer comorbidity related to Dementia"""				
+* comorbidity.chronicPulmonaryDisease 0..1 boolean "Chronic pulmonary disease" """Previous cancer comorbidity related to Chronic pulmonary disease"""				
+* comorbidity.connectiveTissueDisease 0..1 boolean "Connective tissue disease" """Previous cancer comorbidity related to Connective tissue disease"""				
+* comorbidity.ulcer 0..1 boolean "Ulcer" """Previous cancer comorbidity related to Ulcer"""				
+* comorbidity.mildLiverDisease 0..1 boolean "Mild liver disease" """Previous cancer comorbidity related to Mild liver disease"""				
+* comorbidity.moderateToSevereLiverDisease 0..1 boolean "Moderate to severe liver disease" """Previous cancer comorbidity related to Moderate to severe liver disease"""				
+* comorbidity.diabetesWithoutComplications 0..1 boolean "Diabetes (without complications)" """Previous cancer comorbidity related to Diabetes (without complications)"""				
+* comorbidity.diabetesWithEndOrganDamage 0..1 boolean "Diabetes with end organ damage" """Previous cancer comorbidity related to Diabetes with end organ damage"""				
+* comorbidity.hemiplegia 0..1 boolean "Hemiplegia" """Previous cancer comorbidity related to Hemiplegia"""				
+* comorbidity.moderateToSevereRenalDisease 0..1 boolean "Moderate to severe renal disease" """Previous cancer comorbidity related to Moderate to severe renal disease"""				
+* comorbidity.solidTumorNonMetastatic 0..1 boolean "Solid tumor (non metastatic)" """Previous cancer comorbidity related to Solid tumor (non metastatic)"""				
+* comorbidity.metastaticSolidTumor 0..1 boolean "Metastatic solid tumor" """Previous cancer comorbidity related to Metastatic solid tumor"""				
+* comorbidity.leukemia 0..1 boolean "Leukemia" """Previous cancer comorbidity related to Leukemia"""				
+* comorbidity.lymphoma 0..1 boolean "Lymphoma" """Previous cancer comorbidity related to Lymphoma"""				
+* comorbidity.multipleMyeloma 0..1 boolean "Multiple myeloma" """Previous cancer comorbidity related to Multiple myeloma"""				
+* comorbidity.aids 0..1 boolean "AIDS" """Previous cancer comorbidity related to AIDS"""				
+* ecogPsAtDiagnosis 0..1 CodeableConcept "Eastern Cooperative Oncology Group performance status (ECOG PS)  at diagnosis" """Eastern Cooperative Oncology Group performance status (ECOG PS)  at diagnosis"""				
+* karnofsyIndexAtDiagnosis 0..1 CodeableConcept "Karnofsy index at diagnosis" """Karnofsy index at diagnosis"""				
+* noGeneticSyndromeWho2020 1..1 BackboneElement "No Genetic syndrome WHO 2020 " """No Genetic syndrome WHO 2020 """				
+* olliersDisease 1..1 boolean "Olliers disease" """Olliers disease"""				
+* maffuciSyndrome 1..1 boolean "Maffuci syndrome" """Maffuci syndrome"""				
+* liFraumeniSyndrome 1..1 boolean "Li-Fraumeni syndrome" """Li-Fraumeni syndrome"""				
+* mcCuneAlbrightSyndrome 1..1 boolean "McCune-Albright syndrome" """McCune-Albright syndrome"""				
+* multipleOsteochondromas 1..1 boolean "Multiple osteochondromas" """Multiple osteochondromas"""				
+* neurofibromatosisType1 1..1 boolean "Neurofibromatosis type 1" """Neurofibromatosis type 2"""				
+* rothmundThomsonSyndrome 1..1 boolean "Rothmund-Thomson syndrome" """Rothmund-Thomson syndrome"""				
+* wernerSyndrome 1..1 boolean "Werner syndrome" """Werner syndrome"""				
+* retinoblastoma 1..1 boolean "Retinoblastoma" """Retinoblastoma"""				
+* pagetDisease 1..1 boolean "Paget disease" """Paget disease"""				
+* otherGeneticSyndromeWho2020 1..1 boolean "Other Genetic syndrome WHO 2020 " """Other Genetic syndrome WHO 2020 """				
+* occurrenceOfOtherCancer 1..1 boolean "Occurrence of other cancer" """Occurrence of other cancer"""				
+* previousCancerTreatment 1..1 CodeableConcept "Previous cancer treatment" """Previous cancer treatment"""				
+* lastContact 1..1 dateTime "Last Contact" """Date of the last contact with the patient, of any kind."""				
+//--- END				
+//--- END				
+//--- END				
+				
+//--------------------------------------------------------------------------------				
+//  Comment				
+//--------------------------------------------------------------------------------				
 * sex ^comment = """Male; Female; Unknown.
 Male - 8507
 Female - 8532
-Unknown - 4129922"""		
+Unknown - 4129922"""				
 * race ^comment = """Unknown; White; Black; Asians/Pacific Islanders; American Indian/Alaska Native
 White - 8527
 Black - 8516
 Asian/Pacific Islanders - 8515
 American Indian/Alaska Native - 8657
-Unknown - 4129922"""		
+Unknown - 4129922"""				
 * countryOfResidence ^comment = """Value from the code list of countries
-Son in the hierarchy of countries"""		
+Son in the hierarchy of countries"""				
 * smoking ^comment = """Current tobacco smoker; Former smoker (at least for 12 months); Never smoker; Unknown
-"""		
+Current smoker - 36309332
+Former smoker - 45883458
+Never smoker - 45879404
+"""				
 * smokingType ^comment = """Cigarettes; Cigar; Unknown
 Cigarettes - 36716475
 Cigar -  36716476
-Unknown - 4129922"""		
-* cigSmokedPerDay ^comment = """numeric
-"""		
-* yearsAsSmoker ^comment = """numeric
-"""		
+Unknown - 4129922"""				
+				
+				
 * alcohol ^comment = """Current; Former (at least for 12 months); Never; History of alcohol dependence; Unknown
-"""		
-		
-* comorbidity.flag ^comment = """Yes; No; Unknown
+Current drinker - 4074035
+Ex-drinker - 4220362
+Lifetime non-drinker of alcohol - 37204556
+Ex-problem drinker - 4117706
+"""				
+				
+				
+* comorbidity ^comment = """Yes; No; Unknown
 Yes - 4188539
 No -  4188540
-Unknown - 4129922"""		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-* ecogPsAtDiagnosis ^comment = """numeric; only if already available at the health care provider level
-Sons of ECOG performance status"""		
-* karnofsyIndexAtDiagnosis ^comment = """numeric; only if already available at the health care provider level
-Answer of https://athena.ohdsi.org/search-terms/terms/35917688"""		
-//--- END		
-//--- END		
-//--- END		
-//--- END		
+Unknown - 4129922"""				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+* ecogPsAtDiagnosis ^comment = """Ecog grades 0-5
+        
+ECOG performance status grade 0 - 4175026
+ECOG performance status grade 1 - 4173614
+ECOG performance status grade 2 - 4172043
+ECOG performance status grade 3 - 4174241
+ECOG performance status grade 4 - 4174251
+ECOG performance status grade 5 - 4173456"""				
+* karnofsyIndexAtDiagnosis ^comment = """KPS Scale
+SONS Functional Neurologic Status - Karnofsky Performance Scale (KPS) - 35917688 """				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+* previousCancerTreatment ^comment = """Chemotherapy/radiation/surgery/other (site of radiotherapy)
+Chemotherapy - 4273629
+Radiation - 4029715
+Surgery - 4121697 
+Other - Needs to be specified"""				
+				
+//--- END				
+//--- END				
+//--- END				
