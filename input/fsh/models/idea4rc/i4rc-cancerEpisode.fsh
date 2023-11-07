@@ -19,9 +19,13 @@ Maturity Level: 0 Draft"""
 * histologySubGroup.histologyNeuroendocrine 1..1 CodeableConcept "Histology Neuroendocrine" """Specifies the histological subgroup for neuroendocrine cancers """				
 * histologySubGroup.histologyOdontogenicCarcinoma 1..1 CodeableConcept "Histology Odontogenic Carcinoma" """Specifies the histological subgroup for odontogenic carcinomas"""				
 * histologySubGroup.histologySNUC 1..1 CodeableConcept "Histology Sinonasal undifferentiated carcinoma" """Specifies the histological subgroup for sinonasl undifferentiated carcinomas"""				
-// * histologySubgroup.adipocyticTumours 1..1 CodeableConcept "Histology subgroup Adipocytic tumours" """Specifies the histological subgroup for adipocytic tumours"""				
-// * histologySubgroup.fmtTumours 1..1 CodeableConcept "Histology subgroup Fibroblastic and myofibroblastic tumours" """Histology subgroup Fibroblastic and myofibroblastic tumours"""				
-// * histologySubgroup.socalledFibrohistiocyticTumours 1..1 CodeableConcept "Histology subgroup So-called fibrohistiocytic tumours" """Histology subgroup So-called fibrohistiocytic tumours"""				
+* histologySubGroup.adipocyticTumours 1..1 CodeableConcept "Histology subgroup Adipocytic tumours" """Specifies the histological subgroup for adipocytic tumours"""				
+* histologySubGroup.fmtTumours 1..1 CodeableConcept "Histology subgroup Fibroblastic and myofibroblastic tumours" """Histology subgroup Fibroblastic and myofibroblastic tumours"""				
+* histologySubGroup.socalledFibrohistiocyticTumours 1..1 CodeableConcept "Histology subgroup So-called fibrohistiocytic tumours
+
+" """Histology subgroup So-called fibrohistiocytic tumours
+
+"""				
 * tumorGroup 1..1 BackboneElement "Tumor group (TBD)" """Tumor group (TBD)"""				
 * tumorGroup.vascularTumours 1..1 CodeableConcept "Vascular tumours " """Vascular tumours """				
 * tumorGroup.pericyticPerivascularTumours 1..1 CodeableConcept "Pericytic (perivascular) tumours
@@ -155,8 +159,8 @@ oxyphilic carcinoma - 4212379
 oncocytic adenocarcinoma
 oncocytic malignant oncocytoma
  Salivary gland intraductal carcinoma (cribriform low grade adenocarcinoma)  """				
-* histologySubGroup.histologyNeuroendocrine ^comment = """Small cell neuroendocrineï¿½carcinoma (SmCC)?,Poorly differentiated neuroendocrine carcinoma, small cell (grade 3);Large cell neuroendocrine carcinoma (LCNEC)?, Poorly differentiated neuroendocrine carcinoma, large cell (grade 3);Well-differentiated neuroendocrine carcinoma, Middle ear carcinoid tumor;Moderately differentiated neuroendocrine carcinoma
-Small cell neuroendocrineï¿½carcinoma (SmCC)? - 36714029
+* histologySubGroup.histologyNeuroendocrine ^comment = """Small cell neuroendocrineÿcarcinoma (SmCC)?,Poorly differentiated neuroendocrine carcinoma, small cell (grade 3);Large cell neuroendocrine carcinoma (LCNEC)?, Poorly differentiated neuroendocrine carcinoma, large cell (grade 3);Well-differentiated neuroendocrine carcinoma, Middle ear carcinoid tumor;Moderately differentiated neuroendocrine carcinoma
+Small cell neuroendocrineÿcarcinoma (SmCC)? - 36714029
 Poorly differentiated neuroendocrine carcinoma - 37018672
 small cell (grade 3)
 Large cell neuroendocrine carcinoma (LCNEC)? - 4029971
@@ -180,9 +184,8 @@ Gosht cell odontogenic carcinoma - 37312303"""
 SMARCB1 (INI-1)-deficient Sinonasal undifferentiated Carcinoma;Sinonasal SMARCA4 deficient carcinoma;IDH2-mutated sinonasal undifferentiated neoplasm
 SMARCB1 (INI-1)-deficient Sinonasal undifferentiated Carcinoma
 Sinonasal SMARCA4 deficient carcinoma
-IDH2-mutated sinonasal undifferentiated neoplasm"""	
-
-/* * histologySubgroup.adipocyticTumours ^comment = """Atypical lipomatous tumour/ Liposarcoma, well-differentiated, NOS
+IDH2-mutated sinonasal undifferentiated neoplasm"""				
+* histologySubGroup.adipocyticTumours ^comment = """Atypical lipomatous tumour/ Liposarcoma, well-differentiated, NOS
 Dedifferentiated liposarcoma
 Myxoid liposarcoma
 Pleomorphic liposarcoma
@@ -194,7 +197,7 @@ Myxoid liposarcoma - 4101123
 Pleomorphic liposarcoma - 4010104
 Myxoid pleomorphic liposarcoma - 4300687
 """				
-* histologySubgroup.fmtTumours ^comment = """Palmar/plantar-type fibromatosis
+* histologySubGroup.fmtTumours ^comment = """Palmar/plantar-type fibromatosis
 Desmoid-type fibromatosis
 Lipofibromatosis
 Giant cell fibroblastoma
@@ -227,7 +230,7 @@ Myxofibrosarcoma - 45771359
 Low-grade fibromyxoid sarcoma - 45771361
 Sclerosing epithelioid fibrosarcoma - 45766456
 """				
-* histologySubgroup.socalledFibrohistiocyticTumours ^comment = """Plexiform fibrohistiocytic tumour
+* histologySubGroup.socalledFibrohistiocyticTumours ^comment = """Plexiform fibrohistiocytic tumour
 Giant cell tumour of soft parts NOS
 Tenosynovial giant cell tumor
 
@@ -236,7 +239,7 @@ Giant cell tumour of soft parts - 4218898
 Tenosynovial giant cell tumor - 4030140
 Tenosynovial giant cell tumor, diffuse - 45766525
 Malignant tenosynovial giant cell tumor - 4029655
-"""		 */		
+"""				
 * tumorGroup ^comment = """TO BE CHECKED . Added tpo group other tumors"""				
 * tumorGroup.vascularTumours ^comment = """Epithelioid haemangioendothelioma NOS
 Angiosarcoma
@@ -350,14 +353,14 @@ Aggressive angiomyxoma - 4239956
 Angiomatoid fibrous histiocytoma - 4029526
 NTRK-rearranged spindle cell neoplasm (emerging)"""				
 * tumorGroup.undifSmallRCelSarcBonAndSofTis ^comment = """Ewing sarcoma
-Round cell sarcoma withï¿½EWSR1?non-ETS fusions
+Round cell sarcoma withÿEWSR1?non-ETS fusions
 CIC-rearranged sarcoma
-Sarcoma withï¿½BCORï¿½genetic alterations
+Sarcoma withÿBCORÿgenetic alterations
 
 Ewing sarcoma - 45766528
-Round cell sarcoma withï¿½EWSR1?non-ETS fusions
+Round cell sarcoma withÿEWSR1?non-ETS fusions
 CIC-rearranged sarcoma
-Sarcoma withï¿½BCORï¿½genetic alterations
+Sarcoma withÿBCORÿgenetic alterations
 """				
 * tumorGroup.endStrAndRelatedTumours ^comment = """Endometrial stromal sarcoma, high grade
 Endometrial stromal sarcoma, low grade
