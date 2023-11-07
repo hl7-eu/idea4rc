@@ -12,9 +12,7 @@ Description: "This profile defines how to represent Patient in FHIR for the purp
 * extension contains RaceExtension named race 0..1
 * extension[race].value[x] from VsRaceI4rc 
 
-/* 
-IN THIS VERSION THE SEX IS MAPPED IN THE ADMINISTRATIVE GENDER TO BE DISCUSSED
-*/
+/* THE SEX ELEMENT IS INTENDED TO BE ADMINISTRATIVE GENDER */
 /*
    SexForClinicalUse named sexForClinicalUse 0..1
    and RecordedSexOrGender named recordedSexOrGender 0..1

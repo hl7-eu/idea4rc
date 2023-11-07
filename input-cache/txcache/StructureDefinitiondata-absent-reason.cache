@@ -2,7 +2,7 @@
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
-    "inactive" : true,
+    "inactive" : false,
     "include" : [{
       "system" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
       "concept" : [{
@@ -13,13 +13,14 @@
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
-    "inactive" : true,
+    "inactive" : false,
     "include" : [{
       "system" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
       "concept" : [{
@@ -34,7 +35,26 @@ e: {
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+      "concept" : [{
+        "code" : "unknown",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -55,51 +75,13 @@ e: {
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/vs-npunk-eu-i4rc", "version": "0.1.0"}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : false,
-    "include" : [{
-      "system" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
-      "concept" : [{
-        "code" : "unknown",
-        "display" : "Unknown"
-      }]
-    }]
-  }
-}}####
-e: {
   "from-server" : true,
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : false,
-    "include" : [{
-      "system" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
-      "concept" : [{
-        "code" : "unknown",
-        "display" : "Unknown"
-      },
-      {
-        "code" : "not-performed",
-        "display" : "Not Performed"
-      }]
-    }]
-  }
-}}####
-e: {
-  "from-server" : true,
-  "error" : "Cannot invoke \"org.hl7.fhir.r5.terminologies.client.ITerminologyClient.expandValueset(org.hl7.fhir.r5.model.ValueSet, org.hl7.fhir.r5.model.Parameters, java.util.Map)\" because the return value of \"org.hl7.fhir.r5.terminologies.client.TerminologyClientContext.getClient()\" is null"
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 }
 -------------------------------------------------------------------------------------

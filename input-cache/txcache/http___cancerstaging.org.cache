@@ -9,26 +9,31 @@
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://cancerstaging.org"
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://cancerstaging.org"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-cancer-stage-group-vs", "version": "0.1.0"}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://cancerstaging.org"
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://cancerstaging.org"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-tnm-distant-metastases-category-vs", "version": "0.1.0"}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://cancerstaging.org"
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://cancerstaging.org"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-tnm-primary-tumor-category-vs", "version": "0.1.0"}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://cancerstaging.org"
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://cancerstaging.org"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-tnm-regional-nodes-category-vs", "version": "0.1.0"}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://cancerstaging.org"
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://cancerstaging.org"
 }
 -------------------------------------------------------------------------------------

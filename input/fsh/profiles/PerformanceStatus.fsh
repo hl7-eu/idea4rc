@@ -31,5 +31,20 @@ Title:      "Observation: ECOG Performance Status"
 Description:    "The Eastern Cooperative Oncology Group (ECOG) Performance Status represents the patient's functional status and is used to determine their ability to tolerate therapies in serious illness, specifically for chemotherapy. (Definition from: [LOINC](https://loinc.org/89262-0/))"
 * insert PerformanceStatusCommonRules
 * code = $loinc#89247-1 //"ECOG Performance Status score"
-* value[x] only integer
+// UPDATED BASED ON THE NEW MODEL * value[x] only integer
+* value[x] only CodeableConcept
+* valueCodeableConcept from VsEcogI4rc
 * interpretation from http://loinc.org/vs/LL529-9 (required)
+
+
+Profile:    CharlsonComorbidityIndex
+Parent:     Observation
+Id: observation-cci-eu-i4rc
+Title:      "Observation: Charlson Comorbidity Index"
+Description:    "The Charlson Comorbidity Index predicts 10-year survival in patients with multiple comorbidities."
+* insert PerformanceStatusCommonRules
+* code = $sct#762713009 // "Charlson Comorbidity Index"
+// UPDATED BASED ON THE NEW MODEL * value[x] only integer
+* value[x] only integer
+
+

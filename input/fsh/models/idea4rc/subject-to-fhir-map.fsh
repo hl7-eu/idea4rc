@@ -97,33 +97,33 @@ Usage: #definition
 					
 * group[=].element[+].code = #Subject.noGeneticSyndromeWho2020					
 * group[=].element[=].display = "No Genetic syndrome WHO 2020 "					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
+* group[=].element[=].target.code = #Patient.					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.comment = "TO BE MAPPED"					
 * group[=].element[+].code = #Subject.otherGeneticSyndromeWho2020					
 * group[=].element[=].display = "Other Genetic syndrome WHO 2020 "					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
+* group[=].element[=].target.code = #Patient.					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.comment = "TO BE MAPPED"					
 * group[=].element[+].code = #Subject.occurrenceOfOtherCancer					
 * group[=].element[=].display = "Occurrence of other cancer"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
+* group[=].element[=].target.code = #Patient.					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.comment = "TO BE MAPPED"					
 * group[=].element[+].code = #Subject.previousCancerTreatment					
 * group[=].element[=].display = "Previous cancer treatment"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
+* group[=].element[=].target.code = #Patient.					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.comment = "TO BE MAPPED"					
 * group[=].element[+].code = #Subject.lastContact					
 * group[=].element[=].display = "Last Contact"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
+* group[=].element[=].target.code = #Patient.					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
 //---END					
 //---END					
 //---END					
@@ -364,10 +364,26 @@ For examplification purposes only the comorbidConditionPresent extension is show
 					
 * group[=].element[+].code = #Subject.ecogPsAtDiagnosis					
 * group[=].element[=].display = "Eastern Cooperative Oncology Group performance status (ECOG PS)  at diagnosis"					
-* group[=].element[=].target.code = #Observation.valueInteger					
+* group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 					
+//---END					
+//---END					
+//---END					
+					
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-cci-eu-i4rc"					
+					
+					
+* group[=].element[+].code = #Subject.charlsonComorbidityIndex					
+* group[=].element[=].display = "Charlson Comorbidity index"					
+* group[=].element[=].target.code = #Observation.valueInteger					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equal					
+//---END					
+//---END					
+//---END					
 //---END					
 //---END					
 //---END					
