@@ -8,7 +8,7 @@ Usage: #example
 * status = #active
 * type = #system
 // * type = #entity
-* documentation = """This actor represents a systme handling head and neck cancer data."""
+* documentation = """This actor represents a system handling head and neck cancer data."""
 
 Instance: actor-sarcoma-i4rc
 InstanceOf: ActorDefinition
@@ -21,4 +21,4 @@ Usage: #example
 * status = #active
 * type = #system
 // * type = #entity
-* documentation = """This actor represents a systme handling head and neck cancer data."""
+* documentation = """This actor represents a system handling head and neck cancer data."""

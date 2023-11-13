@@ -1,4 +1,5 @@
 @startuml
+
 <style>
 title {
   HorizontalAlignment right
@@ -37,9 +38,9 @@ arrow {
 
 </style>
 
-header Draft
+' header Draft
 
-title IDEA4RC H&N DataModel
+title IDEA4RC DataModel
 
 ' hide the spot
 hide circle
@@ -47,114 +48,69 @@ hide circle
 ' avoid problems with angled crows feet
 skinparam linetype ortho
 
-entity "HospitalData" as hd {
-}
-
-entity "HospitalPatientRecords" as hpr {
-}
-
-entity "Patient" as p {
- 
-}
-
-entity "CancerEpisode" as ce {
-  
-}
-
-note left of ce::HPVStatus
-  Mandatory for OROPHARYNGEAL (not oral cavity) carcinomas
-end note
-
-note left of ce::sSNasalCavityAndParanasalSinuses
-  One of the subsite values must be present
-end note
-
-note left of ce::hSSquamous
-  One of the subgroup values must be present
-end note
-
-
-entity "EpisodeEvent" as ee {
-  
-}
-
-entity "PathologicalStage" as ps {
-}
-
-entity "ClinicalStage" as cs {
-}
-
-entity "Surgery" as surg {
-}
-
-entity "SystemicTreatment" as systreat {
-}
-
-entity "Radiotherapy" as radio {
-}
-
-note right of radio::rtSetting
-  Mandatory (only if Intent=Curative OR Unknown)
-end note
-
-entity "TreatmentResponse" as treatresp {
-  
-}
-
-entity "PatientFollowUp" as pfu {
-  
-}
-
-entity "AdverseEvent" as ae {
-}
-
-entity "GeneTestExpression" as gte {
-
-}
-
-
+object "Patient" as p {
+    }
+object "HospitalData" as hd {
+    }
+object "HospitalPatientRecords" as hpr {
+    }
+object "PatientFollowUp" as pfu {
+    }
+object "CancerEpisode" as ce {
+    }
+object "EpisodeEvent" as ee {
+    }
+object "GeneticTestExpression" as gte {
+    }
+object "Stage" as s {
+    }
+object "PathologicalReportInfo" as pri {
+    }
+object "Surgery" as su {
+    }
+object "SystemicTreatment" as st {
+    }
+object "Radiotherapy" as r {
+    }
+object "OtherLocalTreatment" as olt {
+    }
+object "DrugsForSystemicTreatment" as dfst {
+    }
+object "TreatmentResponse" as tr {
+    }
+object "AdverseEvent" as ae {
+    }
 p "1" ||--|{ "1..N" hpr
-hd "1..N" ||--|{ "1" hpr
+hd "1" ||--|{ "1..N" hpr
 
-p "0..N" ||--o{ "1" ce
-ce "1..N" ||--|{ "1" ee
-ee "1" ||--o{ "0..N" radio
-ee "1" ||--o{ "0..N" surg
-ee "1" ||--o{ "0..N" systreat
-ee "1" ||--o| "0..1" ps
-ee "0..1" ||--o| "1" cs
+p "1" ||--o{ "0..N" ce
+p "1" ||--o{ "0..N" pfu
 
-ce "0..1" ||--o{ "1" treatresp
-ee "0..N" ||--o{ "1" gte
+ce "1" ||--|{ "1..N" ee
 
-p "0..N" ||--o{ "1" pfu
+ee "1" ||--o| "0..1" s
+ee "1" ||--o{ "0..N" r
+ee "1" ||--o{ "0..N" su
+ee "1" ||--o{ "0..N" st
+ee "1" ||--o{ "0..N" olt
+ee "1" ||--o{ "0..N" gte
+ee "1" ||--o{ "0..N" tr
+ee "1" ||--o{ "0..N" pri
+
 
 note as N1
 The relations to AdverseEvent are a XOR
 end note
 
-surg "1" ||--o{ "0..N" ae
+s "1" ||--o{ "0..N" ae
 'note on link: XOR
-systreat "0..N" ||--o{ "1" ae
+st "0..N" ||--o{ "1" ae
 'note on link: XOR
-radio "1" ||--o{ "0..N" ae
+r "1" ||--o{ "0..N" ae
 'note on link: XOR
 
-surg .. N1
-systreat .. N1
-radio .. N1
-
-legend
-* Treatment response is related to the whole treatment or to each type of treatments?
-* Cardinalities must be reviewed
-* How to handle unknown values?
-* PFU is OK?
-* CancerEpisode can we have +1 Histology/Morphology?
---
-red -> Mandatory
-yellow -> Recommended
-green -> Optional  
-end legend
-
+s .. N1
+st .. N1
+r .. N1
 
 @enduml

@@ -149,3 +149,119 @@ Other - Needs to be specified"""
 //--- END				
 //--- END				
 //--- END				
+				
+// -------------------------------------------------------------------------------				
+// Obligations H&N				
+// -------------------------------------------------------------------------------				
+				
+* sex insert ObligationActorAndCode($actor-headneck, #handle)				
+* race insert ObligationActorAndCode($actor-headneck, #handle)				
+* countryOfResidence insert ObligationActorAndCode($actor-headneck, #handle)				
+* smoking insert ObligationActorAndCode($actor-headneck, #handle)				
+* smokingType insert ObligationActorAndCode($actor-headneck, #handle)				
+* cigSmokedPerDay insert ObligationActorAndCode($actor-headneck, #handle)				
+* yearsAsSmoker insert ObligationActorAndCode($actor-headneck, #handle)				
+* alcohol insert ObligationActorAndCode($actor-headneck, #handle)				
+				
+				
+* comorbidity insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.myocardialInfarction insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.congestiveHeartFailure insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.peripheralVascularDisease insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.cerebrovascularAccidentExceptHemiplegia insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.dementia insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.chronicPulmonaryDisease insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.connectiveTissueDisease insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.ulcer insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.mildLiverDisease insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.moderateToSevereLiverDisease insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.diabetesWithoutComplications insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.diabetesWithEndOrganDamage insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.hemiplegia insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.moderateToSevereRenalDisease insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.solidTumorNonMetastatic insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.metastaticSolidTumor insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.leukemia insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.lymphoma insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.multipleMyeloma insert ObligationActorAndCode($actor-headneck, #handle)				
+* comorbidity.aids insert ObligationActorAndCode($actor-headneck, #handle)				
+* ecogPsAtDiagnosis insert ObligationActorAndCode($actor-headneck, #handle)				
+* karnofsyIndexAtDiagnosis insert ObligationActorAndCode($actor-headneck, #handle)				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+//--- END				
+//--- END				
+//--- END				
+//--- END				
+				
+				
+				
+// -------------------------------------------------------------------------------				
+// Obligations Sarcoma				
+// -------------------------------------------------------------------------------				
+				
+* sex insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+				
+* countryOfResidence insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+				
+				
+				
+				
+				
+* bMI insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* charlsonComorbidityIndex insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+* noGeneticSyndromeWho2020 insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* olliersDisease insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* maffuciSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* liFraumeniSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* mcCuneAlbrightSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* multipleOsteochondromas insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* neurofibromatosisType1 insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* rothmundThomsonSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* wernerSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* retinoblastoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* pagetDisease insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* otherGeneticSyndromeWho2020 insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* occurrenceOfOtherCancer insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* previousCancerTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* lastContact insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+//--- END				
+//--- END				
+//--- END				
+//--- END				

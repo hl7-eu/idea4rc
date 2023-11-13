@@ -642,5 +642,122 @@ not tested - 45878602"""
 //--- END				
 //--- END				
 //--- END				
+				
+				
+// -------------------------------------------------------------------------------				
+// Obligations H&N				
+// -------------------------------------------------------------------------------				
+				
+* patient insert ObligationActorAndCode($actor-headneck, #handle)				
+* dateOfDiagnosis insert ObligationActorAndCode($actor-headneck, #handle)				
+				
+* biopsyDoneBy insert ObligationActorAndCode($actor-headneck, #handle)				
+* ageAtDiagnosis insert ObligationActorAndCode($actor-headneck, #handle)				
+				
+* grading insert ObligationActorAndCode($actor-headneck, #handle)				
+* histologySubGroup insert ObligationActorAndCode($actor-headneck, #handle)				
+* histologySubGroup.histologySquamous insert ObligationActorAndCode($actor-headneck, #handle)				
+* histologySubGroup.histologyAdenocarcinoma insert ObligationActorAndCode($actor-headneck, #handle)				
+* histologySubGroup.histologyNeuroendocrine insert ObligationActorAndCode($actor-headneck, #handle)				
+* histologySubGroup.histologyOdontogenicCarcinoma insert ObligationActorAndCode($actor-headneck, #handle)				
+* histologySubGroup.histologySNUC insert ObligationActorAndCode($actor-headneck, #handle)				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+* subsites insert ObligationActorAndCode($actor-headneck, #handle)				
+* subsites.nasalCavityAndParanasalSinusesSubsite insert ObligationActorAndCode($actor-headneck, #handle)				
+* subsites.nasopharynxSubsite insert ObligationActorAndCode($actor-headneck, #handle)				
+* subsites.hypopharynxSubsite insert ObligationActorAndCode($actor-headneck, #handle)				
+* subsites.oropharynxSubsite insert ObligationActorAndCode($actor-headneck, #handle)				
+* subsites.larynxSubsite insert ObligationActorAndCode($actor-headneck, #handle)				
+* subsites.oralCavitySubsite insert ObligationActorAndCode($actor-headneck, #handle)				
+* subsites.lipSubsite insert ObligationActorAndCode($actor-headneck, #handle)				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+* plasmaticEbvDnaAtBaseline insert ObligationActorAndCode($actor-headneck, #handle)				
+* hpvStatus insert ObligationActorAndCode($actor-headneck, #handle)				
+* crpCReactiveProteinTested insert ObligationActorAndCode($actor-headneck, #handle)				
+//--- END				
+//--- END				
+//--- END				
+//--- END				
+				
+// -------------------------------------------------------------------------------				
+// Obligations Sarcoma				
+// -------------------------------------------------------------------------------				
+				
+* patient insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* dateOfDiagnosis insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* typeOfBiopsy insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* biopsyDoneBy insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* ageAtDiagnosis insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* radiotherapyInducedSarcoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* grading insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* histologySubGroup insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* histologySubGroup.histologySquamous insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* histologySubGroup.histologyAdenocarcinoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* histologySubGroup.histologyNeuroendocrine insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* histologySubGroup.histologyOdontogenicCarcinoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* histologySubGroup.histologySNUC insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* histologySubGroup.adipocyticTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* histologySubGroup.fmtTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* histologySubGroup.socalledFibrohistiocyticTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup.vascularTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup.pericyticPerivascularTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup.smoothMuscleTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup.skeletalMuscleTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup.chondroOsseousTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup.peripheralNerveSheathTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup.tumoursOfUncertainDifferentiation insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup.undifSmallRCelSarcBonAndSofTis insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup.endStrAndRelatedTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup.miscellaniousMesenchimalTumors insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorGroup.mixedEpithelialAndMesenchymalTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+				
+				
+				
+				
+				
+				
+				
+				
+* subsites.upperAndLowerLimbsSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* subsites.trunkWallSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* subsites.intraAbdominalSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* subsites.intraThoracicSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* subsites.genitoUrinarySubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* subsites.headAndNeckSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* subsites.breastSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* subsites.otherSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* tumorSize insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* depth insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* biopsyMitoticCount insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+				
+				
+				
+//--- END				
+//--- END				
 //--- END				
 //--- END				
