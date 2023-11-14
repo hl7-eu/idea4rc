@@ -17,7 +17,7 @@ Description: """An actor dealing with sarcoma data."""
 Usage: #example
 
 * url = "http://hl7.eu/fhir/ig/idea4rc/actor-sarcoma-i4rc"
-* name = "HeadNeckDataHandler"
+* name = "SarcomaDataHandler"
 * status = #active
 * type = #system
 // * type = #entity

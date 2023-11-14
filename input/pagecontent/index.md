@@ -1,9 +1,6 @@
 ### Scope
 
-> Specify **HL7 FHIR logical models** and **profiles** to be used within
-> the European project **IDEA4RC**. This project studies the
-> implementation of an intelligent ecosystem to improve the
-> governance, the sharing, and the re-use of health data for rare cancers.
+Specify **HL7 FHIR logical models** and **profiles** to be used within the European project **IDEA4RC**. This project studies the implementation of an intelligent ecosystem to improve the governance, the sharing, and the re-use of health data for rare cancers.
 
 ### The IDEA4RC project
 
@@ -93,7 +90,6 @@ sharing of health data for rare cancers.**
 ### Dependencies
 
 {% include dependency-table.xhtml %}
-
 
 ### Cross Version Analysis
 
