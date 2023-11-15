@@ -13,15 +13,6 @@ Description:  """Episode Event"""
 //--- END				
 //--- END				
 //--- END				
-//--- END				
-				
-				
-				
-				
-				
-				
-				
-				
 				
 				
 				
@@ -46,34 +37,34 @@ Custom"""
 //--- END				
 //--- END				
 //--- END				
+				
+// -------------------------------------------------------------------------------				
+// Obligations H&N				
+// -------------------------------------------------------------------------------				
+* cancerEpisode insert ObligationActorAndCode($actor-headneck, #handle)				
+* eventType insert ObligationActorAndCode($actor-headneck, #handle)				
+* definedAt insert ObligationActorAndCode($actor-headneck, #handle)				
+* dateOfEpisode insert ObligationActorAndCode($actor-headneck, #handle)				
+//--- END				
+//--- END				
+//--- END				
 //--- END				
 				
 				
 				
 				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+// -------------------------------------------------------------------------------				
+// Obligations Sarcoma				
+// -------------------------------------------------------------------------------				
+* cancerEpisode insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* eventType insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* definedAt insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* dateOfEpisode insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+//--- END				
+//--- END				
+//--- END				
+//--- END				
+//--- END				
 				
 				
 				
