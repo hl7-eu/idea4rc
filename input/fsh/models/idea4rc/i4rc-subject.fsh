@@ -17,7 +17,7 @@ Maturity Level: 0 Draft"""
 * bMI 0..1 Quantity "Height/weight (BMI)
 " """Provides the BMI for the patient"""				
 * charlsonComorbidityIndex 0..1 integer "Charlson Comorbidity index" """Provides the Charlson Comorbidity index for the patient"""				
-* comorbidity 1..1 BackboneElement "Comorbidity" """Describes whether the patient was diagnosed before treatment of at least one of the comorbidities listed  next or not"""				
+* comorbidity 1..1 BackboneElement "Comorbidity" """Describes whether the patient was diagnosed before treatment of at least one of the comorbidities listed  next (or not) relevant for head and neck cancer."""				
 * comorbidity.myocardialInfarction 0..1 boolean "Myocardial infarction" """Describes comorbidities reported or assesed before treatment. More than one choice is allowed. Please do not include the current cancer in this calculation, only the previous cancer."""				
 * comorbidity.congestiveHeartFailure 0..1 boolean "Congestive heart failure" """Previous cancer comorbidity related to Congestive heart failure"""				
 * comorbidity.peripheralVascularDisease 0..1 boolean "Peripheral vascular disease" """Previous cancer comorbidity related to Peripheral vascular disease"""				
@@ -40,19 +40,19 @@ Maturity Level: 0 Draft"""
 * comorbidity.aids 0..1 boolean "AIDS" """Previous cancer comorbidity related to AIDS"""				
 * ecogPsAtDiagnosis 0..1 CodeableConcept "Eastern Cooperative Oncology Group performance status (ECOG PS)  at diagnosis" """Eastern Cooperative Oncology Group performance status (ECOG PS)  at diagnosis"""				
 * karnofsyIndexAtDiagnosis 0..1 CodeableConcept "Karnofsy index at diagnosis" """Karnofsy index at diagnosis"""				
-* noGeneticSyndromeWho2020 1..1 BackboneElement "No Genetic syndrome WHO 2020 " """No Genetic syndrome WHO 2020 """				
-* olliersDisease 1..1 boolean "Olliers disease" """Olliers disease"""				
-* maffuciSyndrome 1..1 boolean "Maffuci syndrome" """Maffuci syndrome"""				
-* liFraumeniSyndrome 1..1 boolean "Li-Fraumeni syndrome" """Li-Fraumeni syndrome"""				
-* mcCuneAlbrightSyndrome 1..1 boolean "McCune-Albright syndrome" """McCune-Albright syndrome"""				
-* multipleOsteochondromas 1..1 boolean "Multiple osteochondromas" """Multiple osteochondromas"""				
-* neurofibromatosisType1 1..1 boolean "Neurofibromatosis type 1" """Neurofibromatosis type 2"""				
-* rothmundThomsonSyndrome 1..1 boolean "Rothmund-Thomson syndrome" """Rothmund-Thomson syndrome"""				
-* wernerSyndrome 1..1 boolean "Werner syndrome" """Werner syndrome"""				
-* retinoblastoma 1..1 boolean "Retinoblastoma" """Retinoblastoma"""				
-* pagetDisease 1..1 boolean "Paget disease" """Paget disease"""				
-* otherGeneticSyndromeWho2020 1..1 boolean "Other Genetic syndrome WHO 2020 " """Other Genetic syndrome WHO 2020 """				
-* occurrenceOfOtherCancer 1..1 boolean "Occurrence of other cancer" """Occurrence of other cancer"""				
+* noGeneticSyndromeWho2020 1..1 BackboneElement "No Genetic syndrome WHO 2020 " """Describes whether the patient was diagnosed before treatment of at least one of the diseases, syndromes listed  next (or not) relevant for sarcoma."""				
+* noGeneticSyndromeWho2020.olliersDisease 1..1 boolean "Olliers disease" """Olliers disease"""				
+* noGeneticSyndromeWho2020.maffuciSyndrome 1..1 boolean "Maffuci syndrome" """Maffuci syndrome"""				
+* noGeneticSyndromeWho2020.liFraumeniSyndrome 1..1 boolean "Li-Fraumeni syndrome" """Li-Fraumeni syndrome"""				
+* noGeneticSyndromeWho2020.mcCuneAlbrightSyndrome 1..1 boolean "McCune-Albright syndrome" """McCune-Albright syndrome"""				
+* noGeneticSyndromeWho2020.multipleOsteochondromas 1..1 boolean "Multiple osteochondromas" """Multiple osteochondromas"""				
+* noGeneticSyndromeWho2020.neurofibromatosisType1 1..1 boolean "Neurofibromatosis type 1" """Neurofibromatosis type 2"""				
+* noGeneticSyndromeWho2020.rothmundThomsonSyndrome 1..1 boolean "Rothmund-Thomson syndrome" """Rothmund-Thomson syndrome"""				
+* noGeneticSyndromeWho2020.wernerSyndrome 1..1 boolean "Werner syndrome" """Werner syndrome"""				
+* noGeneticSyndromeWho2020.retinoblastoma 1..1 boolean "Retinoblastoma" """Retinoblastoma"""				
+* noGeneticSyndromeWho2020.pagetDisease 1..1 boolean "Paget disease" """Paget disease"""				
+* noGeneticSyndromeWho2020.otherSyndromes 1..1 boolean "Other Genetic syndrome WHO 2020 " """Other Genetic syndrome WHO 2020 """				
+* occurrenceOfOtherCancer 1..1 boolean "Occurrence of other cancer" """Occurrence of other cancers in the past (yes/no)"""				
 * previousCancerTreatment 1..1 CodeableConcept "Previous cancer treatment" """Previous cancer treatment"""				
 * lastContact 1..1 dateTime "Last Contact" """Date of the last contact with the patient, of any kind."""				
 //--- END				
@@ -247,17 +247,17 @@ Other - Needs to be specified"""
 				
 				
 * noGeneticSyndromeWho2020 insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* olliersDisease insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* maffuciSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* liFraumeniSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* mcCuneAlbrightSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* multipleOsteochondromas insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* neurofibromatosisType1 insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* rothmundThomsonSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* wernerSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* retinoblastoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* pagetDisease insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* otherGeneticSyndromeWho2020 insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* noGeneticSyndromeWho2020.olliersDisease insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* noGeneticSyndromeWho2020.maffuciSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* noGeneticSyndromeWho2020.liFraumeniSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* noGeneticSyndromeWho2020.mcCuneAlbrightSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* noGeneticSyndromeWho2020.multipleOsteochondromas insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* noGeneticSyndromeWho2020.neurofibromatosisType1 insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* noGeneticSyndromeWho2020.rothmundThomsonSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* noGeneticSyndromeWho2020.wernerSyndrome insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* noGeneticSyndromeWho2020.retinoblastoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* noGeneticSyndromeWho2020.pagetDisease insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* noGeneticSyndromeWho2020.otherSyndromes insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
 * occurrenceOfOtherCancer insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
 * previousCancerTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
 * lastContact insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
