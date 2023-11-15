@@ -14,8 +14,8 @@ Usage: #definition
 * sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/ClinicalStage"			
 * targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-cancer-stage-group"			
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/ClinicalStage"			
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-cancer-stage-group"			
-			
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-cancer-stage-group"		
+		
 * group[=].element[+].code = #ClinicalStage.episodeEvent			
 * group[=].element[=].display = "Episode Event"			
 * group[=].element[=].target.code = #Observation.			
@@ -158,98 +158,98 @@ a code system version can be specifed as part of the system"
 //---END			
 //---END			
 //---END			
-//---END			
-			
-			
-			
-			
+//---END		
+	
+	
+	
+		
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/ClinicalStage"			
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-primary-tumor-category"			
-			
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-primary-tumor-category"		
+		
 * group[=].element[+].code = #ClinicalStage.cT			
 * group[=].element[=].display = "cT"			
 * group[=].element[=].target.code = #Observation.valueCodeableConcept			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #ClinicalStage.cN			
 * group[=].element[=].display = "cN"			
 //-- unmatched			
 //-- unmatched			
-* group[=].element[=].target.equivalence = #unmatched			
-			
+* group[=].element[=].target.equivalence = #unmatched		
+		
 * group[=].element[+].code = #ClinicalStage.radiologicalExtraNodalExtension			
 * group[=].element[=].display = "Radiological Extra-nodal extension (rENE)"			
 //-- unmatched			
 //-- unmatched			
-* group[=].element[=].target.equivalence = #unmatched			
-			
+* group[=].element[=].target.equivalence = #unmatched		
+		
 //---END			
 //---END			
 //---END			
-//---END			
-			
-			
+//---END		
+	
+		
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/ClinicalStage"			
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-regional-nodes-category"			
-			
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-regional-nodes-category"		
+		
 * group[=].element[+].code = #ClinicalStage.cT			
 * group[=].element[=].display = "cT"			
 * group[=].element[=].target.code = #Observation.valueCodeableConcept			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #ClinicalStage.cN			
 * group[=].element[=].display = "cN"			
 //-- unmatched			
 //-- unmatched			
-* group[=].element[=].target.equivalence = #unmatched			
-			
+* group[=].element[=].target.equivalence = #unmatched		
+		
 * group[=].element[+].code = #ClinicalStage.radiologicalExtraNodalExtension			
 * group[=].element[=].display = "Radiological Extra-nodal extension (rENE)"			
 //-- unmatched			
 //-- unmatched			
-* group[=].element[=].target.equivalence = #unmatched			
-			
+* group[=].element[=].target.equivalence = #unmatched		
+		
 * group[=].element[+].code = #ClinicalStage.cM			
 * group[=].element[=].display = "cM"			
 //-- unmatched			
 //-- unmatched			
-* group[=].element[=].target.equivalence = #unmatched			
-			
+* group[=].element[=].target.equivalence = #unmatched		
+		
 //---END			
 //---END			
 //---END			
-//---END			
-			
-			
+//---END		
+	
+		
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/ClinicalStage"			
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-distant-metastases-category"			
-			
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-distant-metastases-category"		
+		
 * group[=].element[+].code = #ClinicalStage.cT			
 * group[=].element[=].display = "cT"			
 * group[=].element[=].target.code = #Observation.valueCodeableConcept			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #ClinicalStage.cN			
 * group[=].element[=].display = "cN"			
 //-- unmatched			
 //-- unmatched			
-* group[=].element[=].target.equivalence = #unmatched			
-			
+* group[=].element[=].target.equivalence = #unmatched		
+		
 * group[=].element[+].code = #ClinicalStage.radiologicalExtraNodalExtension			
 * group[=].element[=].display = "Radiological Extra-nodal extension (rENE)"			
 //-- unmatched			
 //-- unmatched			
-* group[=].element[=].target.equivalence = #unmatched			
-			
+* group[=].element[=].target.equivalence = #unmatched		
+		
 * group[=].element[+].code = #ClinicalStage.cM			
 * group[=].element[=].display = "cM"			
 //-- unmatched			
 //-- unmatched			
-* group[=].element[=].target.equivalence = #unmatched			
-			
+* group[=].element[=].target.equivalence = #unmatched		
+		
 //---END			
 //---END			
 //---END			

@@ -14,8 +14,8 @@ Usage: #definition
 * sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/EpisodeEvent"			
 * targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"			
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/EpisodeEvent"			
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"			
-			
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"		
+		
 * group[=].element[+].code = #EpisodeEvent.cancerEpisode			
 * group[=].element[=].display = "Cancer Episode Reference"			
 * group[=].element[=].target.code = #Condition.extension:condition-occurredFollowing			
@@ -47,8 +47,8 @@ Map the expected concepts with that value set"
 * group[=].element[=].display = "Date of episode"			
 * group[=].element[=].target.code = #Condition.effectivePeriod.start			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #equal			
-			
+* group[=].element[=].target.equivalence = #equal		
+		
 * group[=].element[+].code = #EpisodeEvent.isLocal			
 * group[=].element[=].display = "Is local"			
 * group[=].element[=].target.code = #Condition.extension:relapseType			
@@ -77,89 +77,89 @@ Map the expected concepts with that value set"
 * group[=].element[=].display = "Site of metastasis_soft tissue"			
 * group[=].element[=].target.code = #Condition.bodySite			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #EpisodeEvent.siteOfMetastasis.distantLymphNodes			
 * group[=].element[=].display = "Site of metastasis_distant lymph nodes"			
 * group[=].element[=].target.code = #Condition.bodySite			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #EpisodeEvent.siteOfMetastasis.lung			
 * group[=].element[=].display = "Site of metastasis_lung"			
 * group[=].element[=].target.code = #Condition.bodySite			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #EpisodeEvent.siteOfMetastasis.bone			
 * group[=].element[=].display = "Site of metastasis_bone"			
 * group[=].element[=].target.code = #Condition.bodySite			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #EpisodeEvent.siteOfMetastasis.liver			
 * group[=].element[=].display = "Site of metastasis_liver"			
 * group[=].element[=].target.code = #Condition.bodySite			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #EpisodeEvent.siteOfMetastasis.pleura			
 * group[=].element[=].display = "Site of metastasis_pleura"			
 * group[=].element[=].target.code = #Condition.bodySite			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #EpisodeEvent.siteOfMetastasis.peritoneum			
 * group[=].element[=].display = "Site of metastasis_peritoneum"			
 * group[=].element[=].target.code = #Condition.bodySite			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #EpisodeEvent.siteOfMetastasis.brain			
 * group[=].element[=].display = "Site of  metastasis_brain"			
 * group[=].element[=].target.code = #Condition.bodySite			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #EpisodeEvent.siteOfMetastasis.otherViscera			
 * group[=].element[=].display = "Site of  metastasis_other viscera"			
 * group[=].element[=].target.code = #Condition.bodySite			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #EpisodeEvent.siteOfMetastasis.unknown			
 * group[=].element[=].display = "Site of  metastasis_unknown"			
 * group[=].element[=].target.code = #Condition.bodySite			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 //---END			
 //---END			
 //---END			
 //---END			
 //---END			
-//---END			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+//---END		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		

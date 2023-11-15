@@ -22,8 +22,8 @@ RuleSet: CancerConditionCommonRules
 * bodySite.extension contains
      BodyLocationQualifier named locationQualifier 0..*
      and LateralityQualifier named lateralityQualifier 0..1
-	
-	// $mcode-laterality-qualifier named lateralityQualifier 0..1
+
+// $mcode-laterality-qualifier named lateralityQualifier 0..1
     //    and
     // $mcode-body-location-qualifier named locationQualifier 0..* 
 

@@ -14,14 +14,14 @@ Usage: #definition
 * sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Radiotherapy"			
 * targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc"			
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Radiotherapy"			
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc"			
-			
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc"		
+		
 * group[=].element[+].code = #Radiotherapy.episodeEventReference			
 * group[=].element[=].display = "Episode Event reference"			
 * group[=].element[=].target.code = #Procedure.reasonReference			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #Radiotherapy.radiotherapy			
 * group[=].element[=].display = "Radiotherapy"			
 * group[=].element[=].target.code = #Procedure.extension:procedureCategoryR5			
@@ -62,8 +62,8 @@ Usage: #definition
 * group[=].element[=].display = "Total Dose (TD) Gy"			
 * group[=].element[=].target.code = #Procedure.extension:doseToVolume.extension:totalDoseDelivered			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #equivalent			
-			
+* group[=].element[=].target.equivalence = #equivalent		
+		
 * group[=].element[+].code = #Radiotherapy.fractionSizeFs			
 * group[=].element[=].display = "Fraction Size (FS)"			
 //-- unmatched			
@@ -74,8 +74,8 @@ Usage: #definition
 * group[=].element[=].display = "Number of fractions"			
 * group[=].element[=].target.code = #Procedure.fractionsDelivered			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #relatedto			
-			
+* group[=].element[=].target.equivalence = #relatedto		
+		
 * group[=].element[+].code = #Radiotherapy.adaptiveRt			
 * group[=].element[=].display = "Adaptive RT"			
 * group[=].element[=].target.code = #Procedure.extension:terminationReason			
@@ -92,20 +92,20 @@ Usage: #definition
 * group[=].element[=].display = "Start date"			
 * group[=].element[=].target.code = #Procedure.performedPeriod.start			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #equal			
-			
+* group[=].element[=].target.equivalence = #equal		
+		
 * group[=].element[+].code = #Radiotherapy.endDate			
 * group[=].element[=].display = "End  date"			
 * group[=].element[=].target.code = #Procedure.performedPeriod.end			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #equal			
-			
+* group[=].element[=].target.equivalence = #equal		
+		
 * group[=].element[+].code = #Radiotherapy.treatmentSites			
 * group[=].element[=].display = "Treatment Sites:"			
 * group[=].element[=].target.code = #Procedure.bodySite			
 * group[=].element[=].target.display = ""			
-* group[=].element[=].target.equivalence = #equivalent			
-			
+* group[=].element[=].target.equivalence = #equivalent		
+		
 * group[=].element[+].code = #Radiotherapy.treatmentSites.primary			
 * group[=].element[=].display = "Primary"			
 * group[=].element[=].target.code = #Procedure.bodySite			
@@ -186,12 +186,12 @@ Usage: #definition
 //---END			
 //---END			
 //---END			
-//---END			
-			
-			
-			
-			
-			
-			
-			
-			
+//---END		
+	
+	
+	
+	
+	
+	
+	
+		
