@@ -9561,7 +9561,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '903143' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#903143' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9583,7 +9582,6 @@ v: {
   "code" : "4029715",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9605,7 +9603,6 @@ v: {
   "code" : "4121697",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9675,6 +9672,95 @@ e: {
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
       "code" : "4121697",
       "display" : "Surgery"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "DD"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Unknown Code 'DD' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#DD' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
+  "class" : "UNKNOWN",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "DD",
+        "display" : "Discharge diagnosis"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:403ee246-667e-4886-bfc4-adf6152abfce",
+    "timestamp" : "2023-11-16T09:11:23.779Z",
+    "total" : 0,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "DD",
+        "display" : "Discharge diagnosis"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ae431380-b2a8-49a0-be03-fda421fdbc78",
+    "timestamp" : "2023-11-16T09:11:46.404Z",
+    "total" : 0,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
     }]
   }
 },

@@ -12,8 +12,13 @@
 // == 
 
 * #solid-tumor "Solid tumor (non metastatic)" "Solid tumor (non metastatic)"
-* #1620421-liver  "Moderate or severe liver disease"
-* #1620421-renal  "Moderate or severe renal disease"
+* #1620421-liver  "Moderate or severe liver disease" "Moderate or severe liver disease"
+* #1620421-renal  "Moderate or severe renal disease" "Moderate or severe renal disease"
+
+
+// ==
+
+* #last-followup-dx "Diagnosis at the last follow-up" "Diagnosis at the last follow-up"
 
 // === type of radio devices (placeholders to be substitute with international codes
 * #orthovoltage "Orthovoltage" "Orthovoltage / kilovoltage usually 200 - 300kv X rays/photons" 

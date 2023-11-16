@@ -2866,7 +2866,6 @@ v: {
   "code" : "21975-8",
   "system" : "http://loinc.org",
   "version" : "2.74",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2888,7 +2887,6 @@ v: {
   "code" : "63933-6",
   "system" : "http://loinc.org",
   "version" : "2.74",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2910,7 +2908,6 @@ v: {
   "code" : "67190-9",
   "system" : "http://loinc.org",
   "version" : "2.74",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2931,7 +2928,6 @@ v: {
   "code" : "21975-8",
   "system" : "http://loinc.org",
   "version" : "2.74",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2952,7 +2948,29 @@ v: {
   "code" : "63933-6",
   "system" : "http://loinc.org",
   "version" : "2.74",
-  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5792-7"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "url" : "http://hl7.eu/fhir/ig/idea4rc/ValueSet/dd-i4rc"
+}, "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Error from http://tx.fhir.org/r4: Unable to resolve value set \"http://hl7.eu/fhir/ig/idea4rc/ValueSet/dd-i4rc\"",
+  "class" : "SERVER_ERROR",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }

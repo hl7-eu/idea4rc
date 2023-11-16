@@ -16,6 +16,9 @@ Alias: $actor-sarcoma-i4rc = http://hl7.eu/fhir/ig/idea4rc/actor-sarcoma-i4rc
 Alias: $obligation = http://hl7.org/fhir/tools/StructureDefinition/obligation
 
 
+//--- Internal Code Systems
+Alias: $cs-generic-eu-i4rc = http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc
+
 // --- Code Systems
 Alias: $athena = http://fhir.ohdsi.org/CodeSystem/concepts // http://athena.ohdsi.org
 Alias: $ajcc = http://cancerstaging.org
@@ -39,6 +42,7 @@ Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-cli
 Alias: $product-category = http://hl7.org/fhir/CodeSystem/product-category
 Alias: $plan-definition-type = http://terminology.hl7.org/CodeSystem/plan-definition-type
 Alias: $bcp47 = urn:ietf:bcp:47
+Alias: $diagnosis-role = http://terminology.hl7.org/CodeSystem/diagnosis-role
 
 
 // --- Value Sets
