@@ -23,7 +23,7 @@ Description: "This profile defines how to represent the Patient follow-up model 
   * ^short = "Reference to the first Primary Cancer"
 * diagnosis ^short = "Typycally used for the discharge diagnosis"
   * condition only Reference(ConditionPrimaryCancerI4rc)
-  // * use from DischargeDiagnosisVs (extensible)
+  * use from VsTypeofDiagnosisI4rc (extensible)
 * hospitalization 0..
 * location 0..
 * serviceProvider only Reference (Organization)
@@ -31,7 +31,7 @@ Description: "This profile defines how to represent the Patient follow-up model 
   * ^definition = "Report here the institution in which most of the treatment was given for this Encounter."
 
 
-/* Instance: DischargeDiagnosisVs
+/* Instance: VsTypeofDiagnosisI4rc
 InstanceOf: ValueSet
 Usage: #inline 
 * status = #active

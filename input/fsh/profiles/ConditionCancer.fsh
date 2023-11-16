@@ -5,6 +5,7 @@ RuleSet: CancerConditionCommonRules
 * extension contains
     $condition-assertedDate named assertedDate 0..1 
     and $mcode-histology-morphology-behavior named histologyMorphologyBehavior 0..1
+/*     and $workflow-supportingInfo named supportingInfo 0..* */
 	and PreviousStatus named previousStatus 0..1
   and RelapseType named relapseType 0..1
   
@@ -17,6 +18,8 @@ RuleSet: CancerConditionCommonRules
 * extension[previousStatus]
 /* * extension[relapseType].value[x] from RelapseTypeVS (preferred) */
 * extension[relapseType].value[x]
+
+/* * extension[supportingInfo].valueReference only Reference(ObservationYesNo) */
 
 * subject only Reference (PatientI4rc)
 * bodySite.extension contains
@@ -68,7 +71,7 @@ RuleSet: CancerStageCommonRules
 
 //====== Profiles =====================================
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/* //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ObservationHereditaryPredispositionI4rc
 Parent:   Observation
 Id:       Observation-predisposition-eu-i4rc
@@ -94,7 +97,7 @@ Description: "This profile defines how to represent Hereditary Predispositions i
 * valueCodeableConcept.coding[icd10] from ICD10HereditaryPredisposition */
 
 
-* component 0..0 
+/* * component 0..0  */
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -142,24 +145,16 @@ This profile should be also used for documenting primary cancer relapses during 
 * extension[condition-occurredFollowing].valueReference ^short = "For relapses, reference to the first occurance of this tumor."
 * extension[condition-occurredFollowing].valueReference only Reference (ConditionPrimaryCancerI4rc)
 
+* extension contains $condition-dueTo named condition-dueTo 0..*
+* extension[$condition-dueTo] ^short = "If Radiation therapy induced"
+* extension[$condition-dueTo].valueCodeableConcept = $sct#108290001 "Radiation oncology AND/OR radiotherapy"
+
 * insert CancerConditionCommonRules
 // * clinicalStatus and verificationStatus MS
 * clinicalStatus ^example.valueCodeableConcept = $condition-clinical#relapse
 * clinicalStatus ^example.label = "Relapse"
   
 * code 1.. MS // add value set; add slices for
-
-// RE-ADD THE SLICES WHEN THE VLUESET ARE DEFINED
-/* * code.coding 0.. MS
-* code.coding ^slicing.discriminator.type = #pattern
-* code.coding ^slicing.discriminator.path = "$this"
-* code.coding ^slicing.rules = #open
-* code.coding ^slicing.description = "Slice based on the coding.code pattern"
-* code.coding contains 
-	iccc3-classification 0..1 MS 
-	and exceptions 0..1
-* code.coding[iccc3-classification] from VsICCC3
-* code.coding[exceptions] from $v3-ClassNullFlavor */
 
 * onset[x] MS
 * encounter only Reference (EncounterI4rc) // Link this cancer with a follow up encounter.
@@ -177,8 +172,6 @@ This profile should be also used for documenting primary cancer relapses during 
 // * stage.type from ObservationCodesStageGroupVS (required)
 
 
-
-
 * evidence ^slicing.discriminator.type = #pattern
 * evidence ^slicing.discriminator.path = "$this.resolve()"
 * evidence ^slicing.discriminator.type = #pattern
@@ -189,24 +182,21 @@ This profile should be also used for documenting primary cancer relapses during 
 // Diagnosis details
 * evidence contains diagnosisDetails 0..1 
 * evidence[diagnosisDetails]
-  * ^short = "Diagnosis details"
-  /* * code from VsICCC3 */
-  * code ^short = "add binding"
+  * ^short = "Diagnosis Details"
+  * code = $loinc#29308-4 "Diagnosis"
   * detail only Reference (ObservationDiagnosisI4rc)
 
 // Lab Test performed
-* evidence contains lab-test  1..3 
+* evidence contains lab-test  1..4 
 * evidence[lab-test]
   * ^short = "Laboratory Test results"
   * ^definition = """It includes the results of:
   - EBV DNA plasma testing before treatment in NPC type II and III (WHO)
   - HPV tumor testing in oral carcinoma
   - C reactive protein testing.
-  
-  Positive; Negative; Not tested"""
-  /* * code from VsICCC3 */
-  * code ^short = "add binding"
-  * detail only Reference (ObservationLabTest) 
+  - Biopsy Mitotic Count"""
+  * code from VsTestResultI4rc
+  * detail only Reference (ObservationTestResult) 
 
 
 * evidence contains genetic-test 0..
@@ -215,46 +205,6 @@ This profile should be also used for documenting primary cancer relapses during 
   * ^definition = """It documents the Genetic Test perfomed"""
   * code ^short = "add binding"
   * detail only Reference (ObservationGenomicVariant) // Profile to be reviewed
-
-/* * evidence contains hpvStatus  0..1 
-* evidence[ hpvStatus ]
-  * ^short = "HPV status"
-  * code ^short = "add binding"
-  * detail only Reference (Observation) // add Profile
-
-* evidence contains crpCReactiveProteinTested  0..1 
-* evidence[ crpCReactiveProteinTested ]
-  * ^short = "CRP C reactive protein tested"
-   * code ^short = "add binding"
-  * detail only Reference (Observation) // add Profile */
-
-/* * evidence[geneticMarker]
-  * ^short = "Genetic Marker"
-  * code = $sct#106221001 "Genetic finding"
-  * detail only Reference (Observation or DocumentReference or DiagnosticReport)
-  * detail.display ^short = "Text alternative for the resource (Genetic finding)"
-* evidence[immunology]
-  * ^short = "Immunology" 
-  * code = $sct#365861007 "Finding of immune status"
-  * detail only Reference (Observation or DocumentReference or DiagnosticReport)
-  * detail.display ^short = "Text alternative for the resource (immunology)"
-* evidence[predisposition]
-  * ^short = "Predisposition" 
- 
-  * code = $sct#32895009 "Hereditary disease" // check if it needs to be changed with a Value Set
-  /* * code from HereditaryPredispositionDisease */
-  
-  /* 
-  * detail only Reference (Condition or Observation or FamilyMemberHistory or DocumentReference)
-  * detail.display ^short = "Text alternative for the resource (predisposition)"
-  
-  * detail ^slicing.discriminator.type = #type
-  * detail ^slicing.discriminator.path = "$this.resolve()"
-  * detail ^slicing.rules = #open
-  * detail ^slicing.description = "Slice based on the reference type"
-  * detail contains 
-	observation	0..1 MS
-  * detail[observation] only Reference (ObservationHereditaryPredispositionI4rc) */
 
 * note ^short = "Additional information about the Cancer Condition"
 

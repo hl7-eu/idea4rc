@@ -92,10 +92,10 @@ Details in the referred Condition"
 * group[=].element[=].target.comment = "Parent Encounter.diagnosis with use = $diagnosis-role#DD (Discharge Diagnosis)"					
 * group[=].element[+].code = #PatientFollowUpI4rc.dateOfNewCancerDiagnosis					
 * group[=].element[=].display = "Date of new cancer diagnosis"					
-* group[=].element[=].target.code = #Encounter.date					
+* group[=].element[=].target.code = #Encounter.onSetDateTime					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Parent Encounter.diagnosis with use = $diagnosis-role#DD (Discharge Diagnosis)"					
+* group[=].element[=].target.comment = "Parent Encounter.diagnosis with use = $diagnosis-role#DD (Discharge Diagnosis). See the CancerEpisode map for further details about the representation of the date of diagnosis"					
 * group[=].element[+].code = #PatientFollowUpI4rc.newCancerTopography					
 * group[=].element[=].display = "New cancer topography"					
 * group[=].element[=].target.code = #Encounter.bodySite					
