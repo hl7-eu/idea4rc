@@ -102,22 +102,22 @@ Usage: #definition
 					
 * group[=].element[+].code = #Subject.occurrenceOfOtherCancer					
 * group[=].element[=].display = "Occurrence of other cancer"					
-* group[=].element[=].target.code = #Patient.					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TO BE MAPPED"					
+//-- unmatched					
+//-- unmatched					
+* group[=].element[=].target.equivalence = #unmatched					
+					
 * group[=].element[+].code = #Subject.previousCancerTreatment					
 * group[=].element[=].display = "Previous cancer treatment"					
-* group[=].element[=].target.code = #Patient.					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TO BE MAPPED"					
+//-- unmatched					
+//-- unmatched					
+* group[=].element[=].target.equivalence = #unmatched					
+					
 * group[=].element[+].code = #Subject.lastContact					
 * group[=].element[=].display = "Last Contact"					
-* group[=].element[=].target.code = #Patient.					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TO BE MAPPED"					
+//-- unmatched					
+//-- unmatched					
+* group[=].element[=].target.equivalence = #unmatched					
+					
 //---END					
 //---END					
 //---END					
@@ -403,7 +403,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
-					
+* group[=].element[=].target.comment = "where obseravtion.code =  $loinc#89247-1 ECOG Performance Status score"					
 //---END					
 //---END					
 //---END					
@@ -439,6 +439,28 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 * group[=].element[=].target.comment = "where obseravtion.code = $loinc#67190-9 Other cancer diagnosis [PhenX]"					
+//---END					
+//---END					
+//---END					
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-treatment-eu-i4rc"					
+					
+* group[=].element[+].code = #Subject.previousCancerTreatment					
+* group[=].element[=].target.code = #Observation.valueCodeableConcept					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equal					
+* group[=].element[=].target.comment = "where obseravtion.code = $loinc#63933-6 Cancer treatment [PhenX]"					
+//---END					
+//---END					
+//---END					
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-dateLastContact-eu-i4rc"					
+					
+* group[=].element[+].code = #Subject.lastContact					
+* group[=].element[=].target.code = #Observation.valueDateTime					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equal					
+* group[=].element[=].target.comment = "where obseravtion.code = $loinc#21975-8 Date last contact"					
 //---END					
 //---END					
 //---END					

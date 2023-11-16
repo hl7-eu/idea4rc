@@ -257,7 +257,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '405801' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#405801' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -690,7 +689,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36769946' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36769946' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -711,7 +709,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36770618' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36770618' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -971,7 +968,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36769700' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36769700' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -992,7 +988,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36768548' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36768548' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1375,7 +1370,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36769609' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36769609' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1396,7 +1390,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '44498949' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#44498949' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1417,7 +1410,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '36769865' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36769865' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2276,7 +2268,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '87784001' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#87784001' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2297,7 +2288,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '59441001' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#59441001' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2318,7 +2308,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '39607008' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#39607008' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2339,7 +2328,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '119186007' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#119186007' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2360,7 +2348,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '10200004' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#10200004' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2381,7 +2368,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '3120008' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#3120008' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2402,7 +2388,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '15425007' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#15425007' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2423,7 +2408,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '12738006' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#12738006' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2444,7 +2428,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code '261665006' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#261665006' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3334,7 +3317,6 @@ v: {
   "code" : "8507",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3356,7 +3338,6 @@ v: {
   "code" : "8532",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3378,7 +3359,6 @@ v: {
   "code" : "4129922",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3400,7 +3380,6 @@ v: {
   "code" : "4074035",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3422,7 +3401,6 @@ v: {
   "code" : "4220362",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3444,7 +3422,6 @@ v: {
   "code" : "37204556",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3466,7 +3443,6 @@ v: {
   "code" : "4117706",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3488,7 +3464,6 @@ v: {
   "code" : "607996",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3510,7 +3485,6 @@ v: {
   "code" : "4165039",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3532,7 +3506,6 @@ v: {
   "code" : "4024005",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3554,7 +3527,6 @@ v: {
   "code" : "4012485",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3576,7 +3548,6 @@ v: {
   "code" : "4161415",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3598,7 +3569,6 @@ v: {
   "code" : "4077953",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3620,7 +3590,6 @@ v: {
   "code" : "4329847",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3642,7 +3611,6 @@ v: {
   "code" : "319835",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3664,7 +3632,6 @@ v: {
   "code" : "321052",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3686,7 +3653,6 @@ v: {
   "code" : "381316",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3708,7 +3674,6 @@ v: {
   "code" : "4182210",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3730,7 +3695,6 @@ v: {
   "code" : "1620830",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3752,7 +3716,6 @@ v: {
   "code" : "4344165",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3774,7 +3737,6 @@ v: {
   "code" : "4177703",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3796,7 +3758,6 @@ v: {
   "code" : "1621281",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3818,7 +3779,6 @@ v: {
   "code" : "1620421",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3840,7 +3800,6 @@ v: {
   "code" : "1620816",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3862,7 +3821,6 @@ v: {
   "code" : "1620753",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3884,7 +3842,6 @@ v: {
   "code" : "374022",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3906,7 +3863,6 @@ v: {
   "code" : "1621181",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3928,7 +3884,6 @@ v: {
   "code" : "317510",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3950,7 +3905,6 @@ v: {
   "code" : "45881968",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3972,7 +3926,6 @@ v: {
   "code" : "437233",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3994,7 +3947,6 @@ v: {
   "code" : "45884125",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4016,7 +3968,6 @@ v: {
   "code" : "4175026",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4038,7 +3989,6 @@ v: {
   "code" : "4173614",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4060,7 +4010,6 @@ v: {
   "code" : "4172043",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4082,7 +4031,6 @@ v: {
   "code" : "4174241",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4104,7 +4052,6 @@ v: {
   "code" : "4174251",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4126,7 +4073,6 @@ v: {
   "code" : "4173456",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4148,7 +4094,6 @@ v: {
   "code" : "4100366",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4170,7 +4115,6 @@ v: {
   "code" : "4168352",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4192,7 +4136,6 @@ v: {
   "code" : "4097297",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4214,7 +4157,6 @@ v: {
   "code" : "4147741",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4236,7 +4178,6 @@ v: {
   "code" : "4262980",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4258,7 +4199,6 @@ v: {
   "code" : "4102600",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4280,7 +4220,6 @@ v: {
   "code" : "4268741",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4302,7 +4241,6 @@ v: {
   "code" : "4047227",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4324,7 +4262,6 @@ v: {
   "code" : "4177005",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4346,7 +4283,6 @@ v: {
   "code" : "4002724",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4368,7 +4304,6 @@ v: {
   "code" : "4279711",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4390,7 +4325,6 @@ v: {
   "code" : "4027546",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4412,7 +4346,6 @@ v: {
   "code" : "4134589",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4434,7 +4367,6 @@ v: {
   "code" : "4027545",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4456,7 +4388,6 @@ v: {
   "code" : "4245168",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4478,7 +4409,6 @@ v: {
   "code" : "4307358",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4500,7 +4430,6 @@ v: {
   "code" : "4121182",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4522,7 +4451,6 @@ v: {
   "code" : "4175704",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4544,7 +4472,6 @@ v: {
   "code" : "4081832",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4566,7 +4493,6 @@ v: {
   "code" : "4088327",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4588,7 +4514,6 @@ v: {
   "code" : "4050631",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4610,7 +4535,6 @@ v: {
   "code" : "4182234",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4632,7 +4556,6 @@ v: {
   "code" : "4204534",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4654,7 +4577,6 @@ v: {
   "code" : "4097172",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4676,7 +4598,6 @@ v: {
   "code" : "4068978",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4698,7 +4619,6 @@ v: {
   "code" : "4146741",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4720,7 +4640,6 @@ v: {
   "code" : "4323979",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4742,7 +4661,6 @@ v: {
   "code" : "4220236",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4764,7 +4682,6 @@ v: {
   "code" : "4077986",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4786,7 +4703,6 @@ v: {
   "code" : "4172794",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4808,7 +4724,6 @@ v: {
   "code" : "4047029",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4830,7 +4745,6 @@ v: {
   "code" : "4210919",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4852,7 +4766,6 @@ v: {
   "code" : "4181419",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4874,7 +4787,6 @@ v: {
   "code" : "4103066",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4896,7 +4808,6 @@ v: {
   "code" : "4234542",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4918,7 +4829,6 @@ v: {
   "code" : "4057160",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4940,7 +4850,6 @@ v: {
   "code" : "4144069",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4962,7 +4871,6 @@ v: {
   "code" : "4169910",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -4984,7 +4892,6 @@ v: {
   "code" : "4095284",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5006,7 +4913,6 @@ v: {
   "code" : "4138234",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5028,7 +4934,6 @@ v: {
   "code" : "4068841",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5050,7 +4955,6 @@ v: {
   "code" : "4065073",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5072,7 +4976,6 @@ v: {
   "code" : "4173123",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5094,7 +4997,6 @@ v: {
   "code" : "4283238",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5116,7 +5018,6 @@ v: {
   "code" : "4078066",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5138,7 +5039,6 @@ v: {
   "code" : "4045435",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5160,7 +5060,6 @@ v: {
   "code" : "4235649",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5182,7 +5081,6 @@ v: {
   "code" : "4149726",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5204,7 +5102,6 @@ v: {
   "code" : "4205430",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5226,7 +5123,6 @@ v: {
   "code" : "4195718",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5248,7 +5144,6 @@ v: {
   "code" : "4266674",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5270,7 +5165,6 @@ v: {
   "code" : "4203608",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5292,7 +5186,6 @@ v: {
   "code" : "4263599",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5314,7 +5207,6 @@ v: {
   "code" : "4135247",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5336,7 +5228,6 @@ v: {
   "code" : "4119012",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5358,7 +5249,6 @@ v: {
   "code" : "4118508",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5380,7 +5270,6 @@ v: {
   "code" : "4239307",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5402,7 +5291,6 @@ v: {
   "code" : "4240556",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5424,7 +5312,6 @@ v: {
   "code" : "4240557",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5446,7 +5333,6 @@ v: {
   "code" : "4282467",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5468,7 +5354,6 @@ v: {
   "code" : "4195922",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5490,7 +5375,6 @@ v: {
   "code" : "4243213",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5512,7 +5396,6 @@ v: {
   "code" : "4052407",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5534,7 +5417,6 @@ v: {
   "code" : "4194614",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5556,7 +5438,6 @@ v: {
   "code" : "4032012",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5578,7 +5459,6 @@ v: {
   "code" : "4278513",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5600,7 +5480,6 @@ v: {
   "code" : "4127612",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5622,7 +5501,6 @@ v: {
   "code" : "4129920",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5644,7 +5522,6 @@ v: {
   "code" : "9191",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5666,7 +5543,6 @@ v: {
   "code" : "9189",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5688,7 +5564,6 @@ v: {
   "code" : "45878602",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5710,7 +5585,6 @@ v: {
   "code" : "8527",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5732,7 +5606,6 @@ v: {
   "code" : "8516",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5754,7 +5627,6 @@ v: {
   "code" : "8515",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5776,7 +5648,6 @@ v: {
   "code" : "8657",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5798,7 +5669,6 @@ v: {
   "code" : "4058777",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5820,7 +5690,6 @@ v: {
   "code" : "438028",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5842,7 +5711,6 @@ v: {
   "code" : "4122706",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5864,7 +5732,6 @@ v: {
   "code" : "4105297",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5886,7 +5753,6 @@ v: {
   "code" : "4306655",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5908,7 +5774,6 @@ v: {
   "code" : "4059384",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5930,7 +5795,6 @@ v: {
   "code" : "4058775",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5952,7 +5816,6 @@ v: {
   "code" : "36309332",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5974,7 +5837,6 @@ v: {
   "code" : "45883458",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5996,7 +5858,6 @@ v: {
   "code" : "45879404",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6018,7 +5879,6 @@ v: {
   "code" : "4179711",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6040,7 +5900,6 @@ v: {
   "code" : "4188540",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6062,7 +5921,6 @@ v: {
   "code" : "40459832",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6084,7 +5942,6 @@ v: {
   "code" : "40459833",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6106,7 +5963,6 @@ v: {
   "code" : "40459834",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6128,7 +5984,6 @@ v: {
   "code" : "40459835",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6150,7 +6005,6 @@ v: {
   "code" : "40459836",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6172,7 +6026,6 @@ v: {
   "code" : "36716475",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6194,7 +6047,6 @@ v: {
   "code" : "36716476",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6216,7 +6068,6 @@ v: {
   "code" : "4162706",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6238,7 +6089,6 @@ v: {
   "code" : "4163135",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6260,7 +6110,6 @@ v: {
   "code" : "4161302",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6282,7 +6131,6 @@ v: {
   "code" : "4241442",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6304,7 +6152,6 @@ v: {
   "code" : "44808409",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6326,7 +6173,6 @@ v: {
   "code" : "44804498",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6348,7 +6194,6 @@ v: {
   "code" : "603132",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6370,7 +6215,6 @@ v: {
   "code" : "4043011",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6392,7 +6236,6 @@ v: {
   "code" : "40480519",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6414,7 +6257,6 @@ v: {
   "code" : "603135",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6436,7 +6278,6 @@ v: {
   "code" : "3662120",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6458,7 +6299,6 @@ v: {
   "code" : "4215577",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6480,7 +6320,6 @@ v: {
   "code" : "4077990",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6502,7 +6341,6 @@ v: {
   "code" : "4236080",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6524,7 +6362,6 @@ v: {
   "code" : "4050374",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6546,7 +6383,6 @@ v: {
   "code" : "4044897",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6568,7 +6404,6 @@ v: {
   "code" : "4038679",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6590,7 +6425,6 @@ v: {
   "code" : "4333339",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6612,7 +6446,6 @@ v: {
   "code" : "4273629",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6634,7 +6467,6 @@ v: {
   "code" : "40310107",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6656,7 +6488,6 @@ v: {
   "code" : "40488979",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6678,7 +6509,6 @@ v: {
   "code" : "4188539",
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9642,6 +9472,209 @@ e: {
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
       "code" : "4129922",
       "display" : "unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4273629",
+        "display" : "Chemotherapy"
+      },
+      {
+        "code" : "4029715",
+        "display" : "Radiation"
+      },
+      {
+        "code" : "4121697",
+        "display" : "Surgery"
+      },
+      {
+        "code" : "903143",
+        "display" : "Other"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:44241fa0-9eb3-406f-b957-3f7d2be19d92",
+    "timestamp" : "2023-11-16T07:59:06.419Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4273629",
+      "display" : "Chemotherapy"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4029715",
+      "display" : "Radiation"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4121697",
+      "display" : "Surgery"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "903143"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Unknown Code '903143' in the system 'http://fhir.ohdsi.org/CodeSystem/concepts|20230531'; The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#903143' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
+  "class" : "UNKNOWN",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "4029715"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Radiation oncology AND/OR radiotherapy",
+  "code" : "4029715",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "4121697"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Surgery",
+  "code" : "4121697",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4273629",
+        "display" : "Chemotherapy"
+      },
+      {
+        "code" : "4029715",
+        "display" : "Radiation"
+      },
+      {
+        "code" : "4121697",
+        "display" : "Surgery"
+      },
+      {
+        "code" : "903143",
+        "display" : "Other"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:6b5444db-eff4-4a33-a3f5-2dd0b28372c9",
+    "timestamp" : "2023-11-16T08:06:36.949Z",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4273629",
+      "display" : "Chemotherapy"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4029715",
+      "display" : "Radiation"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4121697",
+      "display" : "Surgery"
     }]
   }
 },
