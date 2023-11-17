@@ -7,7 +7,7 @@ Title:    "Encounter: IDEA4RC"
 Description: "This profile defines how to represent the Patient follow-up model and when needed the treatmement center in FHIR for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 
-// * ^contained[+] = DischargeDiagnosisVs
+// * ^contained[+] = Inline-VsTypeofDiagnosisI4rc // VsTypeofDiagnosisI4rc
 * status ^short = "Status of the Encounter"
 * class ^short = "Classification of patient encounter." // Add binding
 * type ^short = "=> Code to be checked"
@@ -24,6 +24,8 @@ Description: "This profile defines how to represent the Patient follow-up model 
 * diagnosis ^short = "Typycally used for the discharge diagnosis"
   * condition only Reference(ConditionPrimaryCancerI4rc)
   * use from VsTypeofDiagnosisI4rc (extensible)
+/*   * use ^binding.valueSet = Canonical(Inline-VsTypeofDiagnosisI4rc)
+  * use ^binding.strength = #extensible */
 * hospitalization 0..
 * location 0..
 * serviceProvider only Reference (Organization)
@@ -31,7 +33,7 @@ Description: "This profile defines how to represent the Patient follow-up model 
   * ^definition = "Report here the institution in which most of the treatment was given for this Encounter."
 
 
-/* Instance: VsTypeofDiagnosisI4rc
+/* Instance: Inline-VsTypeofDiagnosisI4rc
 InstanceOf: ValueSet
 Usage: #inline 
 * status = #active
@@ -51,4 +53,4 @@ Usage: #inline
     * system = $cs-generic-eu-i4rc
     * concept[+]
       * code = #last-followup-dx "Diagnosis at the last follow-up"
-      * display = "Diagnosis at the last follow-up"       */
+      * display = "Diagnosis at the last follow-up"  */

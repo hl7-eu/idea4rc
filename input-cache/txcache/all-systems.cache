@@ -24,7 +24,7 @@ v: {
 {"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/vs-affectedOrgan-eu-i4rc", "version": "0.1.0"}####
 e: {
   "from-server" : true,
-  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+  "error" : "Error reading Http Response from http://tx.fhir.org/r4: Error parsing JSON source: Unexpected char '<' in json stream at Line 1 (path=[null])"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/vs-calcest-eu-i4rc", "version": "0.1.0"}####

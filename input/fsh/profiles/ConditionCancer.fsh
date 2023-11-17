@@ -7,8 +7,7 @@ RuleSet: CancerConditionCommonRules
     and $mcode-histology-morphology-behavior named histologyMorphologyBehavior 0..1
 /*     and $workflow-supportingInfo named supportingInfo 0..* */
 	and PreviousStatus named previousStatus 0..1
-  and RelapseType named relapseType 0..1
-  
+  and RelapseType named relapseType 0..1 
 	
 // HistologyMorphologyBehavior named histologyMorphologyBehavior 0..1 MS
 
@@ -26,79 +25,15 @@ RuleSet: CancerConditionCommonRules
      BodyLocationQualifier named locationQualifier 0..*
      and LateralityQualifier named lateralityQualifier 0..1
 
-// $mcode-laterality-qualifier named lateralityQualifier 0..1
-    //    and
-    // $mcode-body-location-qualifier named locationQualifier 0..* 
-
-/* * bodySite from ICDO3TopographyVs (extensible) */
 * bodySite from VsSubsiteAthenaI4rc (extensible)
   * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites) 
-
-// * extension and bodySite and bodySite.extension[lateralityQualifier] MS
 
 // === ADD VS BINDING =====
 /* * bodySite.extension[lateralityQualifier].valueCodeableConcept from LeftRightBiUnilateralVS  (preferred)  */
 
 * bodySite.extension[lateralityQualifier].valueCodeableConcept
 
-// === ADD VS BINDING =====
-/* * bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[0].url = "purpose"
-* bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[=].valueCode = #candidate
-* bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[+].url = "valueSet"
-* bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[=].valueCanonical = $mcode-laterality-qualifier-vs
-* bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[+].url = "documentation"
-* bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.extension[=].valueMarkdown = "Qualifiers to specify laterality."
-* bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.extension.url = "http://hl7.org/fhir/tools/StructureDefinition/additional-binding"
-* bodySite.extension[lateralityQualifier].valueCodeableConcept ^binding.description = "Qualifiers to specify laterality." */
-
-
-RuleSet: CancerStageCommonRules
-* value[x] only CodeableConcept
-// * value[x] ^comment = ""    // suppress QA error on #notes link
-* status ^short = "The status of the result"
-* code ^short = "What was observed"
-* effective[x] ^short = "Clinically relevant time for observation"
-* value[x] ^short = "Actual result."
-* insert NotUsed(device)
-* insert NotUsed(referenceRange)
-* insert NotUsed(component)
-* focus only Reference(ConditionPrimaryCancerI4rc)
-* subject only Reference(PatientI4rc)
-* method ^short = "ADD BINDING"
-/* * method from CancerStagingSystemVS (extensible) */
-// MS flags -- for Pathological staging, they might be redundant with US Core Lab Observation (but that's harmless)
-// * status and code and subject and effective[x] and value[x] and method and focus MS
-
 //====== Profiles =====================================
-
-/* //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  ObservationHereditaryPredispositionI4rc
-Parent:   Observation
-Id:       Observation-predisposition-eu-i4rc
-Title:    "Observation: Hereditary Predisposition"
-Description: "This profile defines how to represent Hereditary Predispositions in HL7 FHIR for the purpose of the IDEA4RC project."
-//-------------------------------------------------------------------------------------------
-* subject 1..
-* subject only Reference(PatientI4rc)
-* code 1..1 
-* code = $sct#47708004 "Genetic predisposition" 
-* valueCodeableConcept 1..1
-
-/* ADD SLICES AND VALUE SET AS NEEDED */
-/* COMMENTED FOR THE TIME BEING */
-/* * valueCodeableConcept.coding ^slicing.discriminator.type = #pattern
-* valueCodeableConcept.coding ^slicing.discriminator.path = "$this"
-* valueCodeableConcept.coding ^slicing.rules = #open
-* valueCodeableConcept.coding ^slicing.description = "Slice based on the values set binding"
-* valueCodeableConcept.coding contains 
-	orpha 0..1 MS and
-	icd10 0..1 MS
-* valueCodeableConcept.coding[orpha] from OrphaHereditaryPredisposition
-* valueCodeableConcept.coding[icd10] from ICD10HereditaryPredisposition */
-
-
-/* * component 0..0  */
-
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ObservationDiagnosisI4rc
@@ -169,7 +104,7 @@ This profile should be also used for documenting primary cancer relapses during 
 * stage.summary ^definition = "As for mCODE, in IDEA4RC staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the stage group MAY appear in this element, copied from the CancerStageGroup, but Data Senders and Receivers MAY ignore it."
 * stage.type ^short = "Staging system used."
 * stage.type ^definition = "As for mCODE, in IDEA4RC staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the staging system MAY appear in this element, but Data Senders and Receivers MAY ignore it."
-// * stage.type from ObservationCodesStageGroupVS (required)
+// * stage.type from CancerStageGroupVS (required)
 
 
 * evidence ^slicing.discriminator.type = #pattern
@@ -229,98 +164,3 @@ Records the history of secondary neoplasms, including location(s) and the date o
 * code MS
 // * code from SecondaryCancerDisorderVS (extensible)
 * insert NotUsed(stage)
-
-
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  OrganizationCenterI4rc
-Parent:   $Organization-uv-ips
-Id:       Organization-center-eu-i4rc
-Title:    "Organization: Primary Treatment Center / Center of diagnosis"
-Description: "This profile defines how to represent the Primary Treatment Center or the Center of diagnosis in FHIR for the purpose of the IDEA4RC project."
-//-------------------------------------------------------------------------------------------
-* identifier ^short = "Identifier of the center"
-* name ^short = "Name of the Center"
-* address.city ^short = "Center address: city"
-* address.country ^short = "Center address: country"
-
-
-
-
-Profile: CancerStageGroup
-Id: mcode-cancer-stage-group
-Parent: Observation
-Title: "Observation: Cancer Stage Group"
-Description: "The extent of the cancer in the body, according to a given cancer staging classification system, based on evidence such as physical examination, imaging, and/or biopsy or based on pathologic analysis of a specimen."
-* insert CancerStageCommonRules
-
-* code from ObservationCodesStageGroupVS (preferred) 
-* valueCodeableConcept from CancerStageGroupVS (preferred) 
-* hasMember only Reference(Observation)
-* insert ObservationHasMemberSlicingRules
-* hasMember contains
-    tnmPrimaryTumorCategory 0..1  and
-    tnmRegionalNodesCategory 0..1  and
-    tnmDistantMetastasesCategory 0..1 
-// Set metadata attributes that show up in the IG
-* hasMember[tnmPrimaryTumorCategory] only Reference(TNMPrimaryTumorCategory)
-* hasMember[tnmPrimaryTumorCategory] ^short = "TNM Primary Tumor Category"
-* hasMember[tnmPrimaryTumorCategory] ^definition = "Category of the primary tumor, based on its size and extent, and based on evidence such as physical examination, imaging, and/or biopsy."
-* hasMember[tnmPrimaryTumorCategory] ^comment = "When using this element, the Observation must validate against the specified profile."
-* hasMember[tnmRegionalNodesCategory] only Reference(TNMRegionalNodesCategory)
-* hasMember[tnmRegionalNodesCategory] ^short = "TNM  Regional Nodes Category"
-* hasMember[tnmRegionalNodesCategory] ^definition = "Category of the presence or absence of metastases in regional lymph nodes, based on evidence such as physical examination, imaging, and/or biopsy."
-* hasMember[tnmRegionalNodesCategory] ^comment = "When using this element, the Observation must validate against the specified profile."
-* hasMember[tnmDistantMetastasesCategory] only Reference(TNMDistantMetastasesCategory)
-* hasMember[tnmDistantMetastasesCategory] ^short = "TNM  Distant Metastases Category"
-* hasMember[tnmDistantMetastasesCategory] ^definition = "Category describing the presence or absence of metastases in remote anatomical locations, based on evidence such as physical examination, imaging, and/or biopsy."
-* hasMember[tnmDistantMetastasesCategory] ^comment = "When using this element, the Observation must validate against the specified profile."
-
-Profile:  TNMPrimaryTumorCategory
-Id: mcode-tnm-primary-tumor-category
-Parent: Observation
-Title: "Observation: TNM Primary Tumor Category"
-Description: "Category of the primary tumor, based on its size and extent, based on evidence such as physical examination, imaging, and/or biopsy."
-* insert CancerStageCommonRules
-* insert NotUsed(hasMember)
-* code from ObservationCodesPrimaryTumorVS (required)
-* value[x] from TNMPrimaryTumorCategoryVS (example) 
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-
-
-Profile:  TNMRegionalNodesCategory
-Id: mcode-tnm-regional-nodes-category
-Parent: Observation
-Title: "Observation: TNM Regional Nodes Category"
-Description: "Category of the presence or absence of metastases in regional lymph nodes, based on evidence such as physical examination, imaging, and/or biopsy."
-* insert CancerStageCommonRules
-* insert NotUsed(hasMember)
-* code from ObservationCodesRegionalNodesVS (required)
-* value[x] from TNMRegionalNodesCategoryVS (example)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-
-
-Profile:  TNMDistantMetastasesCategory
-Id: mcode-tnm-distant-metastases-category
-Parent: Observation
-Title: "Observation: TNM Distant Metastases Category"
-Description: "Category describing the extent of a tumor metastasis in remote anatomical locations, based on evidence such as physical examination, imaging, and/or biopsy."
-* insert CancerStageCommonRules
-* insert NotUsed(hasMember)
-* code from ObservationCodesDistantMetastasesVS (required)
-* value[x] from TNMDistantMetastasesCategoryVS (preferred)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)

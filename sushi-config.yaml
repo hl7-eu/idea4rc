@@ -32,8 +32,8 @@ license: CC-BY-SA-4.0
 dependencies:
   hl7.fhir.extensions.r5: 4.0.1
   # hl7.fhir.us.mcode: current
-  hl7.fhir.us.mcode: 3.0.0 # only fo offline compilation
-  hl7.fhir.uv.ips: 1.1.0 # only fo offline compilation
+  hl7.fhir.us.mcode: 3.0.0 # only for offline compilation
+  hl7.fhir.uv.ips: 1.1.0 # only for offline compilation
   # hl7.fhir.uv.ips: current
   hl7.fhir.uv.genomics-reporting: 2.0.0 # REMOVE IF NOT NEEDED
 
@@ -281,8 +281,8 @@ groups:
       - StructureDefinition/Condition-secondaryCancer-eu-i4rc
 
   cancerStageImplementation:
-    name:  HL7 FHIR Profile implementing the Clincal and Pathological Stage models
-    description: HL7 FHIR Profile implementing the Clincal and Pathological Stage models
+    name:  HL7 FHIR Profile implementing the Stage models
+    description: HL7 FHIR Profile implementing the Stage models
     resources:
       - StructureDefinition/mcode-cancer-stage-group
       - StructureDefinition/mcode-tnm-primary-tumor-category

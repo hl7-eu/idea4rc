@@ -1,21 +1,47 @@
 
-ValueSet:   CancerStagingSystemVS
+/* ValueSet:   CancerStagingSystemVS
 Id: mcode-cancer-staging-system-vs
 Title: "Cancer Staging System Value Set"
 Description: "System used for staging."
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
 * ^experimental = false
-* include codes from system $sct where concept is-a #254292007 "Tumor staging (tumor staging)"
+* include codes from system $sct where concept is-a #254292007 "Tumor staging (tumor staging)" */
 
-ValueSet: ObservationCodesStageGroupVS
-Id: mcode-observation-codes-stage-group-vs
-Title: "Observation Codes for Stage Group Category"
+ValueSet: CancerStageGroupVS
+Id: cancer-stageGroup-athena-vs
+Title: "Cancer Stage Group: Athena"
 Description: "Identifying codes based on the timing of classification for stage group observations."
-* ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+/* * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+ */
 * ^experimental = false
-* $loinc#21908-9 "Stage group.clinical Cancer"
+
+/* 
+cannot be used because it doesn't day what is unknown...
+* $athena#4241440 "Clinical"
+* $athena#4105323 "Pathologic"
+* $athena#4129922 "Unknown" 
+ */
+
+* $athena#4219603 "TNM stage grouping" 
+* $athena#4221079 "Clinical TNM stage grouping"
+* $athena#4221515 "Pathologic TNM stage grouping"
+
+ValueSet: CancerStageGroupSctVS
+Id: cancer-stageGroup-sct-vs
+Title: "Cancer Stage Group: SNOMED CT"
+Description: "Identifying codes based on the timing of classification for stage group observations."
+/* * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+ */
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"
+* ^experimental = false
+
+* $sct#399390009	"TNM stage grouping"
+* $sct#399537006	"Clinical TNM stage grouping"
+* $sct#399588009	"Pathologic TNM stage grouping"
+
+/* * $loinc#21908-9 "Stage group.clinical Cancer"
 * $loinc#21902-2 "Stage group.pathology Cancer"
-* $loinc#21914-7 "Stage group.other Cancer"
+* $loinc#21914-7 "Stage group.other Cancer" */
 // Keep in sync with the intro .md page for this ValueSet, which lists these codes.
 
 ValueSet: ObservationCodesPrimaryTumorVS
@@ -51,12 +77,12 @@ Description: "Identifying codes based on the timing of classification for distan
 * $loinc#21913-9 "Distant metastases.other [Class] Cancer"
 // Keep in sync with the intro .md page for this ValueSet, which lists these codes.
 
-ValueSet: CancerStageGroupVS
-Id: mcode-cancer-stage-group-vs
+/* ValueSet: CancerStageGroupVS
+Id: mcode-cancer-stageGroup-athena-vs
 Title: "Stage Group Value Set"
 Description: "This value set is intended to contain allowable values for Stage Group, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
 * ^experimental = false
-* codes from system $ajcc
+* codes from system $ajcc */
 
 ValueSet: TNMPrimaryTumorCategoryVS
 Id: mcode-tnm-primary-tumor-category-vs
