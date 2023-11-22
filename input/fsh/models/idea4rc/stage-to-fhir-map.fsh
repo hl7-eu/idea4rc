@@ -116,7 +116,7 @@ Usage: #definition
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "check TNM meaning"					
+					
 * group[=].element[+].code = #Stage.n					
 * group[=].element[=].display = "N"					
 //-- unmatched					
@@ -153,7 +153,7 @@ Usage: #definition
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "check TNM meaning"					
+					
 * group[=].element[+].code = #Stage.m					
 * group[=].element[=].display = "M"					
 //-- unmatched					
@@ -192,7 +192,7 @@ Usage: #definition
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "check TNM meaning"					
+					
 //---END					
 //---END					
 //---END					
@@ -223,7 +223,7 @@ Usage: #definition
 					
 * group[=].element[+].code = #Stage.localised					
 * group[=].element[=].display = "Localised"					
-* group[=].element[=].target.code = #Observation.valueCodeableConcept.coding.system					
+* group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "TBD"					
