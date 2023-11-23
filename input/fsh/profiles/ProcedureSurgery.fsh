@@ -6,15 +6,16 @@ Title:    "Procedure: Surgery"
 Description: "This profile defines how to represent Procedures in FHIR for describing a set of Surgery data required by the IDEA4RC project. This porfiles is adapted from the PanCareSurPass Procedure Surgery profile."
 //-------------------------------------------------------------------------------------------
 
-/* * extension contains 
-   SacrifiedOrgan named sacrifiedOrgan 0..1
-* extension[sacrifiedOrgan] */
+* extension contains SameCustodianFlag named surgeryHospital 0..1
+* extension[surgeryHospital].valueBoolean
 
 * extension contains $procedure-category-r5 named ProcedureCategoryR5 0..*
 
 * extension[ProcedureCategoryR5].valueCodeableConcept 1..1
   * ^short = "ADD VOC BINDING"
 // * extension[ProcedureCategoryR5].valueCodeableConcept from XXXX
+
+
 
 * text ^short = "Textual description of the surgical procedure"
 * identifier ^short = "External Identifiers for this surgical procedure"
@@ -36,9 +37,16 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 * reasonReference 1..  // add reference to the diagnosis
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
 // * bodySite 0..1 MS 
-* bodySite from AffectedOrganVs (extensible)
+* bodySite from AffectedOrganVs (extensible) // VS to be changed
+  * extension contains BodyLocationQualifier named qualifier 0..*
+  * extension[qualifier].valueCodeableConcept // ADD BINDING 
+
   * extension contains LateralityQualifier named laterality 0..1
   * extension[laterality].valueCodeableConcept from LateralityQualifierVS 
+
+// === ADD VS BINDING =====
+/* * bodySite.extension[lateralityQualifier].valueCodeableConcept from LeftRightBiUnilateralVS  (preferred)  */
+* bodySite.extension[lateralityQualifier].valueCodeableConcept
 
 * location only Reference(Location) // add profile 
 * complication ^short = "ADD VOC BINDING"

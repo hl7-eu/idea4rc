@@ -12,6 +12,10 @@ RuleSet: ProcedureRadiotherapyI4rcRules
 * extension[procedureMethod].valueCodeableConcept from BrachytherapyType
 * extension[performedTiming].valueTiming.repeat.count ^short = "Number of repetitions" */
 
+// radiotherapy is a misleading name for this element, but this is what is used in the model
+* extension contains SameCustodianFlag named radiotherapy 0..1
+* extension[radiotherapy].valueBoolean
+
 * extension contains $procedure-category-r5 named procedureCategoryR5 0..*
 * extension[procedureCategoryR5] // add bindings
 

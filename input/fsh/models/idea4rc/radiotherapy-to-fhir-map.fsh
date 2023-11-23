@@ -24,10 +24,11 @@ Usage: #definition
 					
 * group[=].element[+].code = #RadiotherapyI4rc.radiotherapy					
 * group[=].element[=].display = "Radiotherapy"					
-* group[=].element[=].target.code = #Procedure.					
+* group[=].element[=].target.code = #Procedure.extension:radiotherapy					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "to be analyzed: the element covers different conceppt, please clarify. "					
+* group[=].element[=].target.comment = "Temporary included in the guide for covering the request of tracking if this information has been captured and maintained by the same or other organizations.
+It is envisioned that this kind of requirements could be covered by recording where specific act are taking place."					
 * group[=].element[+].code = #RadiotherapyI4rc.intent					
 * group[=].element[=].display = "Intent"					
 * group[=].element[=].target.code = #Procedure.extension:treatmentIntent					
@@ -64,12 +65,6 @@ Usage: #definition
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #RadiotherapyI4rc.fractionSizeFs					
-* group[=].element[=].display = "Fraction Size (FS)"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-* group[=].element[=].target.comment = "check if this can be derived form TD and number of fractions"					
 * group[=].element[+].code = #RadiotherapyI4rc.numberOfFractions					
 * group[=].element[=].display = "Number of fractions"					
 * group[=].element[=].target.code = #Procedure.extension:doseToVolume.extension:fractionsDelivered					
@@ -183,6 +178,12 @@ Usage: #definition
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "to be reviewed; extension to be localized to change the used value set. Chack if the statusReason can be used for this scope"					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
 //---END					
 //---END					
 //---END					

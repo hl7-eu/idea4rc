@@ -33,30 +33,6 @@ RuleSet: CumulativeDoseObsRules
 * valueCodeableConcept = $data-absent-reason#unknown "Unknown" 
 * component 0..
 
-/* //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  CumulativeDoseChemoObsI4rc
-Parent:   Observation
-Id:       Observation-cumulativeDoseChemo-eu-i4rc
-Title:    "Observation: Chemotherapy Cumulative Dose"
-Description: "This profile defines how to represent Chemotherapy Cumulative Dose in FHIR for the purpose of the IDEA4RC project."
-//-------------------------------------------------------------------------------------------
-* insert CumulativeDoseObsRules
-* extension contains $event-statusReason named statusReason 0..1
-* extension[statusReason]
-* category MS
-* category = $observation-category#procedure  // to be checked
-* status ^short = "Completion status"
-* code MS
-* code = CsGenericI4rc#cumulativeDose //  local code
-* value[x] 1..1 MS
-* valueQuantity 0.. 
-  * ^short = "Chemotherapy Cumulative Dose"
-  * code from ChemoUnitsVs
-* dataAbsentReason ^short = "Not calculated or not known dose" */
-/* * dataAbsentReason from NotPerformedUnknownVs
-* method from CalculatedEstimatedVs */
-
-
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  MedicationAdministrationI4rc

@@ -32,8 +32,16 @@ Usage: #definition
 * group[=].element[=].display = "Surgery Hospital"					
 * group[=].element[=].target.code = #Procedure.performer					
 * group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #equal					
-* group[=].element[=].target.comment = "for the time being represented as one of the performer of type Organization. To be further Analyzed"					
+* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.comment = "In case the actual Organization performing the procedure is captured.
+It could be a perfomer of type Organization ; or a perfomer.organization if of type PractitionerRole"					
+* group[=].element[+].code = #SurgeryI4rc.surgeryHospital					
+* group[=].element[=].display = "Surgery Hospital"					
+* group[=].element[=].target.code = #Procedure.extension:surgeryHospital					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.comment = "Temporary included in the guide for covering the request of tracking if this information has been captured and maintained by the same or other organizations.
+It is envisioned that this kind of requirements could be covered by recording where specific act are taking place."					
 * group[=].element[+].code = #SurgeryI4rc.date					
 * group[=].element[=].display = "Date of surgery"					
 * group[=].element[=].target.code = #Procedure.performedDateTime					
@@ -168,4 +176,4 @@ or a surgical proceudre exists with  reasonCode = metastatis"
 //---END					
 //---END					
 //---END					
-					
+//---END					

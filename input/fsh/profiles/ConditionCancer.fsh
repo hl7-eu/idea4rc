@@ -21,17 +21,17 @@ RuleSet: CancerConditionCommonRules
 /* * extension[supportingInfo].valueReference only Reference(ObservationYesNo) */
 
 * subject only Reference (PatientI4rc)
-* bodySite.extension contains
-     BodyLocationQualifier named locationQualifier 0..*
-     and LateralityQualifier named lateralityQualifier 0..1
+
 
 * bodySite from VsSubsiteAthenaI4rc (extensible)
   * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites) 
 
-// === ADD VS BINDING =====
-/* * bodySite.extension[lateralityQualifier].valueCodeableConcept from LeftRightBiUnilateralVS  (preferred)  */
+  * extension contains BodyLocationQualifier named qualifier 0..*
+  * extension[qualifier].valueCodeableConcept // ADD BINDING 
 
-* bodySite.extension[lateralityQualifier].valueCodeableConcept
+  * extension contains LateralityQualifier named laterality 0..1
+  * extension[laterality].valueCodeableConcept from LateralityQualifierVS 
+
 
 //====== Profiles =====================================
 

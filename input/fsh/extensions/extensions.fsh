@@ -4,19 +4,14 @@ RuleSet: ExtensionContext(path)
 * ^context[=].expression = "{path}"
 
 
-Extension: AnnotationType
-Id: annotation-type
-Title:  "Annotation Type"
-Description: "This extension is used to indicate the kind of note captured"
-* insert ExtensionContext(Annotation)
-* value[x] only CodeableConcept
+Extension: SameCustodianFlag
+Id: same-custodian-flag
+Title:  "Same custodian flag"
+Description: """This extension is temporary included in the guide for covering the request of tracking if this information has been captured and maintained by the same or other organizations.
+It is envisioned that this kind of requirements could be covered by recording where specific act are taking place."""
+* insert ExtensionContext(DomainResource)
+* valueBoolean
 
-Extension: FltArm
-Id: procedure-fltArm
-Title:  "Randomization arm for trial"
-Description: "This extension is used to provide a textual description of the randomization arm for trials (FLT)."
-* insert ExtensionContext(CarePlanDefinition)
-* value[x] only string
 
 Extension: PerformedTiming
 Id: procedure-performedTiming
@@ -40,14 +35,6 @@ Title:  "Resource related information"
 Description: "This extension provides a means to link the source resource to any target related information. This extension shall not be used when other more specific elements or standard extensions apply. E.g. Observation.hasMember."
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * value[x] only Reference (Resource)
-
-Extension: EventLocation
-Id:   event-location
-Title:  "Act Location"
-Description: "This extension provides a means to indicate where an act was, is or it is intended to take place."
-// publisher, contact, and other metadata here using caret (^) syntax (omitted)
-* insert ExtensionContext(Resource)
-* value[x] only Reference (Location)
 
 Extension: PreviousStatus
 Id:   condition-previousStatus
@@ -90,16 +77,6 @@ by the maximum energy, the maximum accelaration voltage, or the used isotope. Th
 * valueCodeableConcept ^short = "The isotope used for radiotherapy."
 
 // ------------------------------------
-Extension: SacrifiedOrgan
-Id:   surgery-sacrifiedOrgan
-Title:  "Sacrified organ"
-Description: "Organs are 'sacrified' either to allow a radical excision of the tumor or on purpose (spleen) for staging procedures"
-// publisher, contact, and other metadata here using caret (^) syntax (omitted)
-* insert ExtensionContext(Procedure)
-* value[x] only CodeableConcept 
-/* * valueCodeableConcept from VsSacrifiedOrgan (extensible) */
-
-// ------------------------------------
 
 Extension: BodyLocationQualifier
 Id: mcode-body-location-qualifier
@@ -130,33 +107,6 @@ Description: "Qualifier to specify laterality."
 // * insert ExtensionContext(Observation.bodySite)
 * value[x] only CodeableConcept
 // * value[x] from LateralityQualifierVS (preferred)
-* value[x] 1..1
-
-// ------------------------------------
-Extension: SctDonorType
-Id: sct-donor-type
-Title: "Stem Cell Donor Type"
-Description: "Specify the type of donor for the cell used in a transplantation"
-
-* value[x] only CodeableConcept
-* value[x] 1..1
-
-// ------------------------------------
-Extension: SctSourceType
-Id: sct-source-type
-Title: "Stem Cell Source Type"
-Description: "Specify the type of source for the cell used in a transplantation"
-
-* value[x] only CodeableConcept
-* value[x] 1..1
-
-// ------------------------------------
-Extension: ProcedureUsedReference
-Id: procedure-usedReference
-Title: "Procedure Used Reference"
-Description: "Extend the usedReference element to BiologicallyDerivedProduct"
-
-* value[x] only Reference
 * value[x] 1..1
 
 

@@ -45,10 +45,11 @@ Recurrence - 4097297 => status='recurrence'; extension:condition-occurredFollowi
 Stable disease - 32948 => status='remission'; extension:condition-occurredFollowing.exists() (To be checked)"					
 * group[=].element[+].code = #EpisodeEvent.definedAt					
 * group[=].element[=].display = "Defined At"					
-* group[=].element[=].target.code = #Condition.					
+* group[=].element[=].target.code = #Condition.extension:definedAt					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "CONCEPT TO BE CLARIFIED"					
+* group[=].element[=].target.comment = "Temporary included in the guide for covering the request of tracking if this information has been captured and maintained by the same or other organizations.
+It is envisioned that this kind of requirements could be covered by recording where specific act are taking place."					
 * group[=].element[+].code = #EpisodeEvent.dateOfEpisode					
 * group[=].element[=].display = "Date of episode"					
 * group[=].element[=].target.code = #Condition.recordedDate					

@@ -11,6 +11,7 @@ Alias: $mcode-treatment-termination-reason = http://hl7.org/fhir/us/mcode/Struct
 Alias: $procedure-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category
 Alias: $workflow-supportingInfo = http://hl7.org/fhir/StructureDefinition/workflow-supportingInfo
 Alias: $condition-dueTo = http://hl7.org/fhir/StructureDefinition/condition-dueTo
+Alias: $adverseEvent.occurencePeriod-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.occurence[x]
 
 //============== ALIAS ===============
 Alias: $actor-headneck = http://hl7.eu/fhir/ig/idea4rc/actor-headneck-i4rc

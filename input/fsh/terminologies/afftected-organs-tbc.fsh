@@ -2,7 +2,7 @@
 ValueSet: AffectedOrganVs
 Id: vs-affectedOrgan-eu-i4rc
 Title: "Affected Organs (surgery)"
-Description: "Affected Organs (surgery) (from PCSP to be updated)"
+Description: "Affected Organs (surgery)"
 //-------------------------------------------------------------------------------------------
 // THIS IS THE PCSP VALUE SET TO BE UPDATED WITH THE ACTUAL VALUE SET TO BE USED
 // Oesophagus; Abdomen; Brain; Face; Liver; Spine; Spinal Cord; Sympathetic nerves; Chest/thorax; Pelvis
