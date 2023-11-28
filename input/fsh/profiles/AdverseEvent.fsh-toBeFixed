@@ -1,0 +1,15 @@
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  AdverseEventI4rc
+Parent:   AdverseEvent
+Id:       AdverseEvent-eu-i4rc
+Title:    "AdverseEvent: IDEA4RC"
+Description: "This profile defines how to represent the AdverseEvent model in FHIR for the purpose of the IDEA4RC project."
+//-------------------------------------------------------------------------------------------
+/* * extension contains $adverseEvent.occurencePeriod-r5 named occurencePeriod-r5 0..1
+* extension[occurencePeriod-r5] */
+// ASK FOR ZULIP SUPPORT
+* event 1..
+
+/*   * ^short = "ADD VOC BINDING"
+* suspectEntity.instance only Reference( MedicationAdministrationI4rc or Procedure )
+ */

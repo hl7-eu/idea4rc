@@ -16,7 +16,7 @@ Description: "describes the site of metastasis"
 * $athena#3120008 "pleura"
 * $athena#15425007 "peritoneum"
 * $athena#12738006 "brain"
- // TO BE ADDED OTHER VISCERA
+* $athena#4159589 "Abdominal viscera"  // TO BE checked the original concept was OTHER VISCERA
 * $athena#261665006 "unknown"
 
 

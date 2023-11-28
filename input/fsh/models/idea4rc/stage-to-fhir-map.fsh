@@ -66,10 +66,10 @@ Usage: #definition
 * group[=].element[=].target.comment = "TBD"					
 * group[=].element[+].code = #Stage.isMetastatic					
 * group[=].element[=].display = "Is metastatic"					
-* group[=].element[=].target.code = #Observation.					
+* group[=].element[=].target.code = #Observation.hasMember:tnmDistantMetastasesCategory.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "check is the existance of metastatic conditions is enough"					
+* group[=].element[=].target.comment = "If M0  false otherwise true. Check if the unknown case is present"					
 * group[=].element[+].code = #Stage.ajccEdition					
 * group[=].element[=].display = "Ajcc edition"					
 * group[=].element[=].target.code = #Observation.valueCodeableConcept.coding.system					
@@ -78,10 +78,10 @@ Usage: #definition
 * group[=].element[=].target.comment = "if the ajcc system is used for the classification (to be checked)"					
 * group[=].element[+].code = #Stage.regionalNodalMetastases					
 * group[=].element[=].display = "Regional nodal metastases"					
-* group[=].element[=].target.code = #Observation.					
+* group[=].element[=].target.code = #Observation.hasMember:tnmRegionalNodesCategory.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "check if it could be documented in the metastatic condition"					
+* group[=].element[=].target.comment = "If N0  false otherwise true. Check if the unknown case is present"					
 * group[=].element[+].code = #Stage.sites					
 * group[=].element[=].display = "sites"					
 //-- unmatched					
@@ -223,28 +223,28 @@ Usage: #definition
 					
 * group[=].element[+].code = #Stage.localised					
 * group[=].element[=].display = "Localised"					
-* group[=].element[=].target.code = #Observation.					
+* group[=].element[=].target.code = #Observation.bodySite.extension:qualifier.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TBD"					
+* group[=].element[=].target.comment = "Where the qualifier is the SNOEMD CT concept 255471002 Localized"					
 * group[=].element[+].code = #Stage.locoRegional					
 * group[=].element[=].display = "Loco-regional"					
-* group[=].element[=].target.code = #Observation.					
+* group[=].element[=].target.code = #Observation.bodySite.extension:qualifier.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TBD"					
+* group[=].element[=].target.comment = "Where the qualifier is the SNOEMD CT concept 410674003 Regional"					
 * group[=].element[+].code = #Stage.isMetastatic					
 * group[=].element[=].display = "Is metastatic"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TBD"					
+* group[=].element[=].target.comment = "A condition describing metastases exists, this should be however determined by the stage M"					
 * group[=].element[+].code = #Stage.regionalNodalMetastases					
 * group[=].element[=].display = "Regional nodal metastases"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TBD"					
+* group[=].element[=].target.comment = "A condition describing regional nodal metastases exists, this should be however determined by the stage N"					
 * group[=].element[+].code = #Stage.sites					
 * group[=].element[=].display = "sites"					
 * group[=].element[=].target.code = #Observation.bodySite					
@@ -256,61 +256,61 @@ Usage: #definition
 * group[=].element[=].target.code = #Observation.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "coded concept for this site to be determined"					
+* group[=].element[=].target.comment = "where bodySite is the Athena concept 87784001 'soft tissue'"					
 * group[=].element[+].code = #Stage.sites.distantLymphNode					
 * group[=].element[=].display = "distant lymph node"					
 * group[=].element[=].target.code = #Observation.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "coded concept for this site to be determined"					
+* group[=].element[=].target.comment = "where bodySite is the Athena concept 59441001 'distant lymph node'"					
 * group[=].element[+].code = #Stage.sites.lung					
 * group[=].element[=].display = "lung"					
 * group[=].element[=].target.code = #Observation.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "coded concept for this site to be determined"					
+* group[=].element[=].target.comment = "where bodySite is the Athena concept 39607008 'lung'"					
 * group[=].element[+].code = #Stage.sites.bone					
 * group[=].element[=].display = "bone"					
 * group[=].element[=].target.code = #Observation.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "coded concept for this site to be determined"					
+* group[=].element[=].target.comment = "where bodySite is the Athena concept 119186007 'bone'"					
 * group[=].element[+].code = #Stage.sites.liver					
 * group[=].element[=].display = "liver"					
 * group[=].element[=].target.code = #Observation.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "coded concept for this site to be determined"					
+* group[=].element[=].target.comment = "where bodySite is the Athena concept 10200004 'liver'"					
 * group[=].element[+].code = #Stage.sites.pleura					
 * group[=].element[=].display = "pleura"					
 * group[=].element[=].target.code = #Observation.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "coded concept for this site to be determined"					
+* group[=].element[=].target.comment = "where bodySite is the Athena concept 3120008 'pleura'"					
 * group[=].element[+].code = #Stage.sites.peritoneum					
 * group[=].element[=].display = "peritoneum"					
 * group[=].element[=].target.code = #Observation.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "coded concept for this site to be determined"					
+* group[=].element[=].target.comment = "where bodySite is the Athena concept 15425007 'peritoneum'"					
 * group[=].element[+].code = #Stage.sites.brain					
 * group[=].element[=].display = "brain"					
 * group[=].element[=].target.code = #Observation.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "coded concept for this site to be determined"					
+* group[=].element[=].target.comment = "where bodySite is the Athena concept 12738006 'brain'"					
 * group[=].element[+].code = #Stage.sites.otherViscera					
 * group[=].element[=].display = "other viscera"					
 * group[=].element[=].target.code = #Observation.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "coded concept for this site to be determined"					
+* group[=].element[=].target.comment = "where bodySite is the Athena concept 4159589 'Abdominal viscera'  // TO BE checked the original concept was OTHER VISCERA"					
 * group[=].element[+].code = #Stage.sites.unknown					
 * group[=].element[=].display = "unknown"					
 * group[=].element[=].target.code = #Observation.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "coded concept for this site to be determined"					
+* group[=].element[=].target.comment = "where bodySite is the Athena concept 261665006 'unknown'"					
 //---END					
 //---END					
 //---END					

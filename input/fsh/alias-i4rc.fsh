@@ -115,6 +115,7 @@ Alias: $vs-condition-clinical = http://hl7.org/fhir/ValueSet/condition-clinical
 Alias: $vs-LL2419-1 = http://loinc.org/vs/LL2419-1 
 Alias: $condition-severity-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/condition-severity-uv-ips
 Alias: $mcode-laterality-qualifier-vs = http://hl7.org/fhir/us/mcode/ValueSet/mcode-laterality-qualifier-vs
+Alias: $mcode-body-location-qualifier-vs = http://hl7.org/fhir/us/mcode/ValueSet/mcode-body-location-qualifier-vs
 Alias: $absent-or-unknown-procedures-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-procedures-uv-ips
 
 

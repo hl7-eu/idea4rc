@@ -23,14 +23,13 @@ RuleSet: CancerConditionCommonRules
 * subject only Reference (PatientI4rc)
 
 
-* bodySite from VsSubsiteAthenaI4rc (extensible)
-  * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites) 
-
+* bodySite
   * extension contains BodyLocationQualifier named qualifier 0..*
-  * extension[qualifier].valueCodeableConcept // ADD BINDING 
+  * extension[qualifier].valueCodeableConcept from VsSiteQualifierI4rc (extensible)
+    * insert AdditionalBinding (preferred, $mcode-body-location-qualifier-vs, mCode value set)
 
   * extension contains LateralityQualifier named laterality 0..1
-  * extension[laterality].valueCodeableConcept from LateralityQualifierVS 
+  * extension[laterality].valueCodeableConcept from LateralityQualifierVS (extensible)
 
 
 //====== Profiles =====================================
@@ -107,6 +106,10 @@ This profile should be also used for documenting primary cancer relapses during 
 // * stage.type from CancerStageGroupVS (required)
 
 
+* bodySite from VsSubsiteAthenaI4rc (extensible)
+  * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites)
+
+
 * evidence ^slicing.discriminator.type = #pattern
 * evidence ^slicing.discriminator.path = "$this.resolve()"
 * evidence ^slicing.discriminator.type = #pattern
@@ -163,4 +166,5 @@ Records the history of secondary neoplasms, including location(s) and the date o
 * extension[relatedPrimaryCancerCondition] ^definition = "A reference to the primary cancer condition that provides context for this resource."
 * code MS
 // * code from SecondaryCancerDisorderVS (extensible)
+* bodySite from VsSiteOfMetastasisI4rc (extensible)
 * insert NotUsed(stage)

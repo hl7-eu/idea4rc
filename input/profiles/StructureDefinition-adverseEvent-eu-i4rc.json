@@ -1,0 +1,38 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "adverseEvent-eu-i4rc",
+  "url": "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/adverseEvent-eu-i4rc",
+  "name": "AdverseEventI4rc",
+  "title": "AdverseEvent: IDEA4RC",
+  "status": "draft",
+  "description": "This profile defines how to represent the Adverse vent model in FHIR for the purpose of the IDEA4RC project.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "AdverseEvent",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/AdverseEvent",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+       {
+        "id": "AdverseEvent.event",
+        "path": "AdverseEvent.event",
+        "short": "ADD VOC BINDING",
+        "min": 1
+      },
+      {
+        "id": "AdverseEvent.suspectEntity.instance",
+        "path": "AdverseEvent.suspectEntity.instance",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/MedicationAdministration-eu-i4rc",
+              "http://hl7.org/fhir/StructureDefinition/Procedure"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

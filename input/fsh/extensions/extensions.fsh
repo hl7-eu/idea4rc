@@ -28,14 +28,15 @@ Description: "This extension is used to indicate if a relapse/progression is loc
 * insert ExtensionContext(Condition)
 * value[x] only CodeableConcept
 
-
+/* 
 Extension: ResourceRelatedInfo
 Id:   resource-relatedInfo
 Title:  "Resource related information"
 Description: "This extension provides a means to link the source resource to any target related information. This extension shall not be used when other more specific elements or standard extensions apply. E.g. Observation.hasMember."
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * value[x] only Reference (Resource)
-
+ */
+ 
 Extension: PreviousStatus
 Id:   condition-previousStatus
 Title:  "Previous Status"
@@ -90,7 +91,7 @@ Description: "Qualifier to refine an body location. These include qualifiers for
 // * insert ExtensionContext(Condition.bodySite)
 // * insert ExtensionContext(Observation.bodySite)
 * value[x] only CodeableConcept
-* value[x] from BodyLocationQualifierVS (preferred)
+* value[x] from $mcode-body-location-qualifier-vs (preferred) // BodyLocationQualifierVS 
 * value[x] 1..1
 
 // ------------------------------------
