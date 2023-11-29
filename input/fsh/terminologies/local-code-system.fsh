@@ -20,6 +20,19 @@
 
 * #last-followup-dx "Diagnosis at the last follow-up" "Diagnosis at the last follow-up"
 
+
+// == questions on genetic test performed
+
+* #geneExpressionAnalysisPerformed	"A gene expression analysis is performed" "Clarifies whether a gene expression analysis is performed"
+* #geneMutationAnalysisPerformed	"A gene mutation analysis is performed" "Clarifies whether a gene mutation analysis is performed"
+* #testsForChromosomeTranslocationsPerformed	"A tests for chromosome translocations is performed" "Clarifies whether a tests for chromosome translocations is performed"
+* #ngsPerformed	"A NGS analysis is performed" "Clarifies whether a NGS analysis is performed"
+* #pcrTestPerformed	"A PCR analysis is performed" "Clarifies whether a PCR analysis is performed"
+* #immunohistochemistryPerformed	"A immunohiostochemestry analysis is performed" "Clarifies whether a immunohiostochemestry analysis is performed"
+* #ctDnaPerformed	"A ctDNA analysis is performed" "Clarifies whether a ctDNA analysis is performed"
+
+
+
 // === type of radio devices (placeholders to be substitute with international codes
 * #orthovoltage "Orthovoltage" "Orthovoltage / kilovoltage usually 200 - 300kv X rays/photons" 
 * #linac-mv "Linac MV" "(Linear Accelerator) megavoltage MV X Rays/photons" 

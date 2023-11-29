@@ -304,11 +304,11 @@ groups:
     resources:
       - StructureDefinition/Encounter-eu-i4rc
 
-  geneticTestExpressionImplementation:
-    name:  HL7 FHIR Profile implementing the Genetic Test Expression model
-    description: HL7 FHIR Profile implementing the Genetic Test Expression model
-    resources:
-      - StructureDefinition/mcode-genomic-variant
+#  geneticTestExpressionImplementation:
+#    name:  HL7 FHIR Profile implementing the Genetic Test Expression model
+#    description: HL7 FHIR Profile implementing the Genetic Test Expression model
+#    resources:
+#      - StructureDefinition/mcode-genomic-variant
 
   hospitalPatientRecordsImplementation:
     name:  HL7 FHIR Profile implementing the Hospital Patient Records model

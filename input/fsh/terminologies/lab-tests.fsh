@@ -19,18 +19,6 @@ Description: """Test results:
 * $sct#371472000 "Mitotic count score" // quantity
 * $loinc#21889-1 "Size Tumor"
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsObsYesNoCodeI4rc
-Id: obsYesNo-code-eu-i4rc
-Title: "Types of Yes/No observations"
-Description: """Types of Yes/No observations"""
-//-------------------------------------------------------------------------------------------
-
-* ^status = #active
-* ^experimental = false
-
-* $loinc#67190-9 "Other cancer diagnosis [PhenX]"
-
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsPositiveNegativeNTAthenaI4rc
@@ -46,19 +34,6 @@ Description: """Laboratory test results: Positive-Negative-Not tested: Athena"""
 * $athena#9189 "Negative" 
 * $athena#45878602 "Not tested"
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsYesNoUnkAthenaI4rc
-Id: yes-no-unk-athena-eu-i4rc
-Title: "Yes-No-Unk: Athena"
-Description: """Laboratory test results: Yes-No-Unkwnon: Athena"""
-//-------------------------------------------------------------------------------------------
-
-* ^status = #active
-* ^experimental = true
-
-* $athena#4188539 "yes"
-* $athena#4188540 "no"
-* $athena#4129922 "unknown"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsPositiveNegativeNTSnomedI4rc

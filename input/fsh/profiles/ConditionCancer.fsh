@@ -139,10 +139,10 @@ This profile should be also used for documenting primary cancer relapses during 
 
 * evidence contains genetic-test 0..
 * evidence[genetic-test]
-  * ^short = "Genetic Test perfomed"
-  * ^definition = """It documents the Genetic Test perfomed"""
-  * code ^short = "add binding"
-  * detail only Reference (ObservationGenomicVariant) // Profile to be reviewed
+  * ^short = "Genetic Tests performed"
+  * ^definition = """It documents the Genetic Test performed"""
+  * code from VsGeneticTestsPerformed
+  * detail only Reference (ObservationYesNo) 
 
 * note ^short = "Additional information about the Cancer Condition"
 
