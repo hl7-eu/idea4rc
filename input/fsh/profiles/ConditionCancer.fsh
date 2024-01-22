@@ -99,8 +99,10 @@ This profile should be also used for documenting primary cancer relapses during 
 * stage.assessment only Reference(CancerStageGroup)
 // * stage MS
 // and stage.assessment MS
-* stage.summary ^short = "Most recent Stage Group"
-* stage.summary ^definition = "As for mCODE, in IDEA4RC staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the stage group MAY appear in this element, copied from the CancerStageGroup, but Data Senders and Receivers MAY ignore it."
+* stage.summary from CancerStageGradingVS
+  * ^short = "Most recent Stage Group"
+  * ^definition = "As for mCODE, in IDEA4RC staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the stage group MAY appear in this element, copied from the CancerStageGroup, but Data Senders and Receivers MAY ignore it."
+
 * stage.type ^short = "Staging system used."
 * stage.type ^definition = "As for mCODE, in IDEA4RC staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the staging system MAY appear in this element, but Data Senders and Receivers MAY ignore it."
 // * stage.type from CancerStageGroupVS (required)

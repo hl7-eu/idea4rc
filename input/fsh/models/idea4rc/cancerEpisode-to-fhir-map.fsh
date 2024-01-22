@@ -36,34 +36,34 @@ Usage: #definition
 					
 * group[=].element[+].code = #CancerEpisode.dateOfDiagnosis					
 * group[=].element[=].display = "Date of diagnosis (biopsy or surgical piece)"					
-* group[=].element[=].target.code = #Condition.evidence:diagnosisDetails.date					
+* group[=].element[=].target.code = #Condition.evidence:diagnosisDetails.detail					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "see details in group2"					
 * group[=].element[+].code = #CancerEpisode.typeOfBiopsy					
 * group[=].element[=].display = "Type of biopsy"					
-* group[=].element[=].target.code = #Condition.evidence:diagnosisDetails.date					
+* group[=].element[=].target.code = #Condition.evidence:diagnosisDetails.detail					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "see details in group2"					
 * group[=].element[+].code = #CancerEpisode.biopsyDoneBy					
 * group[=].element[=].display = "Biopsy done by"					
-* group[=].element[=].target.code = #Condition.evidence:diagnosisDetails.detail.performer					
+* group[=].element[=].target.code = #Condition.evidence:diagnosisDetails.detail					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "detail  id ofType Observation and conformsTo http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Observation-diagnosis-eu-i4rc"					
+* group[=].element[=].target.comment = "see details in group2"					
 * group[=].element[+].code = #CancerEpisode.ageAtDiagnosis					
 * group[=].element[=].display = "Age at diagnosis"					
 * group[=].element[=].target.code = #Condition.onsetAge					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
-* group[=].element[=].target.comment = "to be checked if an onSetdatTime or period is needed"					
+* group[=].element[=].target.comment = "Applicable only if onSetDateTime is not used otherwise is a calculated value from birthdate and onSetDateTime"					
 * group[=].element[+].code = #CancerEpisode.radiotherapyInducedSarcoma					
 * group[=].element[=].display = "Radiotherapy induced sarcoma"					
 * group[=].element[=].target.code = #Condition.extension:condition-dueTo					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Is true if  extension:condition-dueTo.valueCodeableConcept = $sct#108290001 'Radiation oncology AND/OR radiotherapy'"					
+* group[=].element[=].target.comment = "true' when extension:condition-dueTo.valueCodeableConcept = $sct#108290001 'Radiation oncology AND/OR radiotherapy'"					
 * group[=].element[+].code = #CancerEpisode.grading					
 * group[=].element[=].display = "Grading"					
 * group[=].element[=].target.code = #Condition.stage.summary					

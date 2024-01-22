@@ -69,7 +69,7 @@ pages:
   #   title: Extensions
   # examples.md:
   #   title: Examples
-  downloads.html:
+  downloads.md:
     title: Useful Downloads
   # changes.html:
   #   title: IG Change History

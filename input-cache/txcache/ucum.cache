@@ -22,16 +22,21 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a412a106-a6b5-4937-8f28-467afaa8b4ec",
-    "timestamp" : "2023-11-22T10:43:30.386Z",
+    "identifier" : "urn:uuid:2b8c984f-3ef4-421e-a2be-d7c587a693aa",
+    "timestamp" : "2024-01-22T16:05:49.394Z",
     "total" : 3,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
+      "name" : "excludeNested",
       "valueBoolean" : true
     },
     {
-      "name" : "excludeNested",
-      "valueBoolean" : true
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
     },
     {
       "name" : "used-codesystem",
@@ -64,7 +69,7 @@ e: {
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "mg/m2"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -72,9 +77,11 @@ e: {
   }]
 }}####
 v: {
+  "display" : "mg/m2",
   "code" : "mg/m2",
   "system" : "http://unitsofmeasure.org",
   "version" : "2.0.1",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -85,7 +92,7 @@ v: {
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "g/m2"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -93,9 +100,11 @@ v: {
   }]
 }}####
 v: {
+  "display" : "g/m2",
   "code" : "g/m2",
   "system" : "http://unitsofmeasure.org",
   "version" : "2.0.1",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -106,7 +115,7 @@ v: {
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "[iU]/m2"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -114,9 +123,11 @@ v: {
   }]
 }}####
 v: {
+  "display" : "[iU]/m2",
   "code" : "[iU]/m2",
   "system" : "http://unitsofmeasure.org",
   "version" : "2.0.1",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -127,7 +138,7 @@ v: {
 {"code" : {
   "system" : "http://unitsofmeasure.org",
   "code" : "cGy"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -139,6 +150,7 @@ v: {
   "code" : "cGy",
   "system" : "http://unitsofmeasure.org",
   "version" : "2.0.1",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -169,16 +181,21 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:8c1671d3-815d-4e94-823f-d56ca6383267",
-    "timestamp" : "2023-11-22T10:51:12.948Z",
+    "identifier" : "urn:uuid:6b3fa945-e0d2-4b5c-8a85-1bf54829351e",
+    "timestamp" : "2024-01-22T16:12:44.098Z",
     "total" : 3,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
     },
     {
       "name" : "used-codesystem",

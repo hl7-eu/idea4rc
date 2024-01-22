@@ -7,6 +7,21 @@ Description: "System used for staging."
 * ^experimental = false
 * include codes from system $sct where concept is-a #254292007 "Tumor staging (tumor staging)" */
 
+ValueSet: CancerStageGradingVS
+Id: cancer-stageGrading-athena-vs
+Title: "Cancer Stage Grading: Athena"
+Description: "Identifying codes based on the timing of classification for stage group observations."
+/* * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
+ */
+* ^experimental = false
+
+* $athena#1634371 "Grade-1" 
+* $athena#1634752 "Grade-2" 
+* $athena#1633749 "Grade-3" 
+* $athena#1635587 "Grade-H" 
+* $athena#1634085 "Grade-L" 
+
+
 ValueSet: CancerStageGroupVS
 Id: cancer-stageGroup-athena-vs
 Title: "Cancer Stage Group: Athena"
