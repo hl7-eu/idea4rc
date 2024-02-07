@@ -47,39 +47,64 @@ hide circle
 
 ' avoid problems with angled crows feet
 skinparam linetype ortho
+scale 0.7
 
 object "Patient" as p {
     }
+url of p [[StructureDefinition-Subject.html]]
+
 object "HospitalData" as hd {
     }
+url of hd [[StructureDefinition-HospitalPatientRecords.html]]
+
 object "HospitalPatientRecords" as hpr {
     }
+url of hpr [[StructureDefinition-HospitalPatientRecords.html]]
+
 object "PatientFollowUp" as pfu {
     }
+url of pfu [[StructureDefinition-PatientFollowUp.html]]
+
 object "CancerEpisode" as ce {
     }
+url of ce [[StructureDefinition-CancerEpisode.html]]
 object "EpisodeEvent" as ee {
     }
+url of ee [[StructureDefinition-EpisodeEvent.html]]
 object "GeneticTestExpression" as gte {
     }
+url of gte [[StructureDefinition-GeneticTestExpression.html]]
 object "Stage" as s {
     }
+url of s [[StructureDefinition-Stage.html]]
 object "PathologicalReportInfo" as pri {
     }
+
 object "Surgery" as su {
     }
+url of su [[StructureDefinition-Surgery.html]]
 object "SystemicTreatment" as st {
     }
+url of st [[StructureDefinition-SystemicTreatment.html]]
 object "Radiotherapy" as r {
     }
+url of r [[StructureDefinition-Radiotherapy.html]]
 object "OtherLocalTreatment" as olt {
     }
+
 object "DrugsForSystemicTreatment" as dfst {
     }
 object "TreatmentResponse" as tr {
     }
+url of tr [[StructureDefinition-TreatmentResponse.html]]
+
 object "AdverseEvent" as ae {
     }
+url of ae [[StructureDefinition-AdverseEvent.html]]
+
+
+
+
 p "1" ||--|{ "1..N" hpr
 hd "1" ||--|{ "1..N" hpr
 

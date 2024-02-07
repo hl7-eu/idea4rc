@@ -42,6 +42,8 @@ arrow {
 
 title IDEA4RC DataModel
 
+scale 0.5
+
 ' hide the spot
 hide circle
 
