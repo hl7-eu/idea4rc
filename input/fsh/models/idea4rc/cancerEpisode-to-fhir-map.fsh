@@ -24,16 +24,10 @@ Usage: #definition
 					
 * group[=].element[+].code = #CancerEpisode.dateOfDiagnosis					
 * group[=].element[=].display = "Date of diagnosis (biopsy or surgical piece)"					
-* group[=].element[=].target.code = #Condition.extension:assertedDate.valueDateTime					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #relatedto					
-					
-* group[=].element[+].code = #CancerEpisode.dateOfDiagnosis					
-* group[=].element[=].display = "Date of diagnosis (biopsy or surgical piece)"					
 * group[=].element[=].target.code = #Condition.onsetDateTime					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-					
+* group[=].element[=].target.comment = "If the onsetAge is not used"					
 * group[=].element[+].code = #CancerEpisode.dateOfDiagnosis					
 * group[=].element[=].display = "Date of diagnosis (biopsy or surgical piece)"					
 * group[=].element[=].target.code = #Condition.evidence:diagnosisDetails.detail					
@@ -69,14 +63,14 @@ Usage: #definition
 * group[=].element[=].target.code = #Condition.stage.summary					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "to be checked"					
+					
 * group[=].element[+].code = #CancerEpisode.hnClassification					
 * group[=].element[=].display = "Classification for Head and Neck tumors"					
-* group[=].element[=].target.code = #Condition.extension:histologyMorphologyBehavior.valueCodeableConcept					
+* group[=].element[=].target.code = #Condition.code					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "To be further analyzed, at this stage mapped as the condition.code.
-Clarify if it is a morphology/hystology classification.
+* group[=].element[=].target.comment = "At this stage represented as condition.code.
+Evaluate if it represents a morphology/hystology classification.
 This comment applies to all the inlcuded elements."					
 * group[=].element[+].code = #CancerEpisode.hnClassification.histologySquamous					
 * group[=].element[=].display = "Histology Squamous"					
@@ -133,8 +127,8 @@ This comment applies to all the inlcuded elements."
 * group[=].element[=].target.code = #Condition.code					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "To be further analyzed, at this stage mapped as the condition.code.
-Clarify if it is a morphology/hystology classification.
+* group[=].element[=].target.comment = "At this stage represented as condition.code.
+Evaluate if it represents a morphology/hystology classification.
 This comment applies to all the inlcuded elements."					
 * group[=].element[+].code = #CancerEpisode.sarcomaClassification.vascularTumours					
 * group[=].element[=].display = "Vascular tumours "					
@@ -302,10 +296,10 @@ This comment applies to all the inlcuded elements."
 					
 * group[=].element[+].code = #CancerEpisode.tumorSize					
 * group[=].element[=].display = "Tumor Size"					
-* group[=].element[=].target.code = #Condition.evidence.valueQuantity					
+* group[=].element[=].target.code = #Condition.evidence:tumorSize.detail.valueQuantity					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Where evidence.code is $loinc#21889-1 Size Tumor"					
+* group[=].element[=].target.comment = "Where evidence.code is $loinc#21889-1 Size Tumor AND detail.resolve().ofType(Observation).code='$athena#36768664'"					
 * group[=].element[+].code = #CancerEpisode.depth					
 * group[=].element[=].display = "Depth "					
 * group[=].element[=].target.code = #Condition.bodySite.extension:locationQualifier					
@@ -314,32 +308,38 @@ This comment applies to all the inlcuded elements."
 					
 * group[=].element[+].code = #CancerEpisode.biopsyMitoticCount					
 * group[=].element[=].display = "Biopsy Mitotic count "					
-* group[=].element[=].target.code = #Condition.evidence.valueQuantity					
+* group[=].element[=].target.code = #Condition.evidence:mitoticCount.detail.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "Where evidence.code is $sct#371472000 Mitotic count score
 NOTE : code to be checked !"					
 * group[=].element[+].code = #CancerEpisode.plasmaticEbvDnaAtBaseline					
 * group[=].element[=].display = "Plasmatic EBV DNA at baseline"					
-* group[=].element[=].target.code = #Condition.evidence.valueCodeableConcept					
+* group[=].element[=].target.code = #Condition.evidence:lab-test.detail.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "Where evidence.code is 43730-1 EBV DNA NAA+probe Qn.
 NOTE : code to be changed !"					
 * group[=].element[+].code = #CancerEpisode.hpvStatus					
 * group[=].element[=].display = "HPV status"					
-* group[=].element[=].target.code = #Condition.evidence.valueCodeableConcept					
+* group[=].element[=].target.code = #Condition.evidence:lab-test.detail.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "Where evidence.code is 77377-0 HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]
 NOTE : code to be checked !"					
 * group[=].element[+].code = #CancerEpisode.crpCReactiveProteinTested					
 * group[=].element[=].display = "CRP - C reactive protein tested"					
-* group[=].element[=].target.code = #Condition.evidence.valueCodeableConcept					
+* group[=].element[=].target.code = #Condition.evidence:lab-test.detail.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "Where evidence.code is 11039-5 C reactive protein [Presence] in Serum or Plasma
 NOTE : code to be checked !"					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
 //---END					
 //---END					
 //---END					
@@ -352,25 +352,25 @@ NOTE : code to be checked !"
 					
 * group[=].element[+].code = #CancerEpisode.patient					
 * group[=].element[=].display = "Patient"					
-* group[=].element[=].target.code = #Condition.subject					
+* group[=].element[=].target.code = #Observation.subject					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
 * group[=].element[+].code = #CancerEpisode.dateOfDiagnosis					
 * group[=].element[=].display = "Date of diagnosis (biopsy or surgical piece)"					
-* group[=].element[=].target.code = #Condition.effectiveDateTime					
+* group[=].element[=].target.code = #Observation.effectiveDateTime					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
 * group[=].element[+].code = #CancerEpisode.typeOfBiopsy					
 * group[=].element[=].display = "Type of biopsy"					
-* group[=].element[=].target.code = #Condition.method					
+* group[=].element[=].target.code = #Observation.method					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					
 * group[=].element[+].code = #CancerEpisode.biopsyDoneBy					
 * group[=].element[=].display = "Biopsy done by"					
-* group[=].element[=].target.code = #Condition.performer					
+* group[=].element[=].target.code = #Observation.performer					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					

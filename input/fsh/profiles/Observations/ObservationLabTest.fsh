@@ -1,4 +1,4 @@
-Profile: ObservationTestResult
+Profile: ObservationSimpleResult
 Parent: Observation
 Id: observation-testResult-eu-i4rc
 Title: "Observation: test results"
@@ -6,7 +6,7 @@ Description: "This profile constrains the Observation resource to represent test
 * obeys obs-valueOftype-quantity
 * obeys obs-valueOftype-codeable
 * code 1..1
-* code from VsTestResultI4rc
+* code from VsSimpleResultI4rc
 * subject 1..
 * subject only Reference(PatientI4rc)
 /* * effective[x] 1..1 MS
@@ -24,11 +24,11 @@ Description: "This profile constrains the Observation resource to represent test
 
 
 Invariant: obs-valueOftype-quantity
-Description: "If the type is 371472000 Mitotic count score then the value is a quantity"
+Description: "If the type is Mitotic count score or Size Tumor then the value is a Quantity"
 Severity:    #warning
-Expression:  "( code.where(code = '371472000') or code.where(code = '21889-1') ) and valueCodeableConcept.exists()"
+Expression:  "( code.where(code = '371472000') or code.where(code = '36768664') ) implies valueQuantity.exists()"
 
 Invariant: obs-valueOftype-codeable
-Description: "If the type is 371472000 Mitotic count score then the value is a CodeableConcept"
+Description: "If the type is not Mitotic count score or Size Tumor then the value is a CodeableConcept"
 Severity:    #warning
-Expression:  "( code.where(code = '371472000') or code.where(code = '21889-1') )  and valueCodeableConcept.empty()"
+Expression:  "( code.where(code != '371472000') and code.where(code != '21889-1') )  implies valueCodeableConcept.exists()"

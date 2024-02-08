@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsTestResultI4rc
-Id: testResult-eu-i4rc
-Title: "Test results"
+ValueSet: VsSimpleResultI4rc
+Id: simpleResult-eu-i4rc
+Title: "Simple measures"
 Description: """Test results:
   - EBV DNA plasma testing before treatment in NPC type II and III (WHO)
   - HPV tumor testing in oral carcinoma
@@ -13,12 +13,27 @@ Description: """Test results:
 * ^status = #active
 * ^experimental = true
 
+* codes from valueset VsLabTestResultI4rc
+* $sct#371472000 "Mitotic count score" // quantity (to be checked)
+* $athena#36768664 "Dimension of Tumor"
+// * $loinc#21889-1 "Size Tumor" // quantity 
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsLabTestResultI4rc
+Id: labTestResult-eu-i4rc
+Title: "Lab test results"
+Description: """Lab test results:
+  - EBV DNA plasma testing before treatment in NPC type II and III (WHO)
+  - HPV tumor testing in oral carcinoma
+  - C reactive protein testing."""
+//-------------------------------------------------------------------------------------------
+
+* ^status = #active
+* ^experimental = true
+
 * $loinc#43730-1 "EBV DNA NAA+probe Qn" // it is a Quantity not the right concept, the result is expected to be a Yes/no/...
 * $loinc#77377-0 "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]" // To be checked
 * $loinc#11039-5 "C reactive protein [Presence] in Serum or Plasma"
-* $sct#371472000 "Mitotic count score" // quantity
-* $loinc#21889-1 "Size Tumor"
-
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsPositiveNegativeNTAthenaI4rc

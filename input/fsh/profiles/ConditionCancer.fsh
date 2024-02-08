@@ -126,25 +126,40 @@ This profile should be also used for documenting primary cancer relapses during 
   * code = $loinc#29308-4 "Diagnosis"
   * detail only Reference (ObservationDiagnosisI4rc)
 
+// Tumor size
+* evidence contains tumorSize  0..1 
+* evidence[tumorSize]
+  * ^short = "Tumor size"
+  * ^definition = """It provides the measure of the tumor size"""
+  * code =  $loinc#21889-1 // Tumor size
+  * detail only Reference (ObservationSimpleResult) 
+
+// Biopsy Mitotic Count 
+* evidence contains mitoticCount  0..1 
+* evidence[mitoticCount]
+  * ^short = "Mitotic count score"
+  * ^definition = """It provides the measure of the tumor size"""
+  * code =  $sct#371472000 // Mitotic count score (to be checked)
+  * detail only Reference (ObservationSimpleResult) 
+
 // Lab Test performed
-* evidence contains lab-test  1..4 
+* evidence contains lab-test  1..3 
 * evidence[lab-test]
   * ^short = "Laboratory Test results"
   * ^definition = """It includes the results of:
   - EBV DNA plasma testing before treatment in NPC type II and III (WHO)
   - HPV tumor testing in oral carcinoma
-  - C reactive protein testing.
-  - Biopsy Mitotic Count"""
-  * code from VsTestResultI4rc
-  * detail only Reference (ObservationTestResult) 
-
+  - C reactive protein testing."""
+  * code from VsSimpleResultI4rc
+  * detail only Reference (ObservationSimpleResult) 
 
 * evidence contains genetic-test 0..
 * evidence[genetic-test]
   * ^short = "Genetic Tests performed"
   * ^definition = """It documents the Genetic Test performed"""
   * code from VsGeneticTestsPerformed
-  * detail only Reference (ObservationYesNo) 
+  * detail only Reference (ObservationYesNo)
+
 
 * note ^short = "Additional information about the Cancer Condition"
 
