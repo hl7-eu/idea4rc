@@ -46,7 +46,6 @@ Description: "This profile defines how to represent diagnosis details (when the 
 * effectiveDateTime 1.. MS
 * code 1..1 
 * code = $loinc#29308-4 "Diagnosis"
-* valueCodeableConcept 1..1
 * performer ^slicing.discriminator.type = #type
 * performer ^slicing.discriminator.path = "$this.resolve()"
 * performer ^slicing.rules = #open
@@ -59,6 +58,8 @@ Description: "This profile defines how to represent diagnosis details (when the 
   * ^definition = "Institution in which the diagnosis was made."
   * identifier ^short = "Business identifier of the Center of diagnosis"
   * display ^short = "Short textual description of the Center of diagnosis"
+* valueCodeableConcept 1..1
+* valueCodeableConcept from CancerDiagnosisVS (extensible)
 * component 0..0 
 
 
