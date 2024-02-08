@@ -12,7 +12,10 @@ Description: "Extension capturing modality and technique of a given radiotherapy
     RadiotherapyTechnique named technique 0..* 
 * extension[modality].value[x] from RadiotherapyModalityVS (preferred) // (required)
 * extension[technique].value[x] from RadiotherapyTechniqueVS (preferred) // (required)
-* obeys TechniquesForNeutronBeamModality
+
+
+/*
+ * obeys TechniquesForNeutronBeamModality
 * obeys TechniquesForPhotonBeamModality
 * obeys TechniquesForElectronBeamModality
 * obeys TechniquesForCarbonIonBeamModality
@@ -22,9 +25,9 @@ Description: "Extension capturing modality and technique of a given radiotherapy
 * obeys TechniquesForPulsedDoseRate
 * obeys TechniquesForHighDoseRate
 * obeys TechniquesForHighDoseRateElectronic
-* obeys TechniquesForRadioPharmaceutical
+* obeys TechniquesForRadioPharmaceutical */
 
-
+/* 
 Invariant: TechniquesForPhotonBeamModality
 Description:  "Allowed Techniques for Photon Beam Modality"
 Expression: "extension.where(url = 'http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality').exists() and
@@ -124,7 +127,7 @@ Expression: "extension.where(url = 'http://hl7.org/fhir/us/mcode/StructureDefini
          extension.where(url = 'http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality').value.exists( coding.code = '440252007')
    implies
          extension.where(url = 'http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique').value.exists(coding.system = 'http://snomed.info/sct' and (coding.code = '16560241000119104' or coding.code = '1156383000' or coding.code = '384692006' or coding.code = '113120007'))"
-Severity: #error
+Severity: #error */
 
 Extension: RadiotherapyModality
 Id:        mcode-radiotherapy-modality

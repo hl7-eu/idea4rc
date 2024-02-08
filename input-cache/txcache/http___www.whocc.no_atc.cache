@@ -2684,7 +2684,6 @@ v: {
   "error" : "Unknown code 'L01XC04' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2724,7 +2723,6 @@ v: {
   "error" : "Unknown code 'L01XE01' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2764,7 +2762,6 @@ v: {
   "error" : "Unknown code 'L01XE02' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2804,7 +2801,6 @@ v: {
   "error" : "Unknown code 'L01XE03' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2844,7 +2840,6 @@ v: {
   "error" : "Unknown code 'L01XE04' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2884,7 +2879,6 @@ v: {
   "error" : "Unknown code 'L01XE05' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2924,7 +2918,6 @@ v: {
   "error" : "Unknown code 'L01XE06' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2964,7 +2957,6 @@ v: {
   "error" : "Unknown code 'L01XE07' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3004,7 +2996,6 @@ v: {
   "error" : "Unknown code 'L01XE08' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3044,7 +3035,6 @@ v: {
   "error" : "Unknown code 'L01XE09' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3084,7 +3074,6 @@ v: {
   "error" : "Unknown code 'L01XE10' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3124,7 +3113,6 @@ v: {
   "error" : "Unknown code 'L01XE11' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3164,7 +3152,6 @@ v: {
   "error" : "Unknown code 'L01XE12' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3204,7 +3191,6 @@ v: {
   "error" : "Unknown code 'L01XE13' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3244,7 +3230,6 @@ v: {
   "error" : "Unknown code 'L01XE14' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3284,7 +3269,6 @@ v: {
   "error" : "Unknown code 'L01XE15' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3324,7 +3308,6 @@ v: {
   "error" : "Unknown code 'L01XE16' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3364,7 +3347,6 @@ v: {
   "error" : "Unknown code 'L01XE17' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3404,7 +3386,6 @@ v: {
   "error" : "Unknown code 'L01XE18' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3444,7 +3425,6 @@ v: {
   "error" : "Unknown code 'L01XE19' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3484,7 +3464,6 @@ v: {
   "error" : "Unknown code 'L01XE21' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3524,7 +3503,6 @@ v: {
   "error" : "Unknown code 'L01XE22' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3564,7 +3542,6 @@ v: {
   "error" : "Unknown code 'L01XE23' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3604,7 +3581,6 @@ v: {
   "error" : "Unknown code 'L01XE24' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3644,7 +3620,6 @@ v: {
   "error" : "Unknown code 'L01XE25' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3684,7 +3659,6 @@ v: {
   "error" : "Unknown code 'L01XE26' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3724,7 +3698,6 @@ v: {
   "error" : "Unknown code 'L01XE27' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3764,7 +3737,6 @@ v: {
   "error" : "Unknown code 'L01XE28' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3804,7 +3776,6 @@ v: {
   "error" : "Unknown code 'L01XE29' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3844,7 +3815,6 @@ v: {
   "error" : "Unknown code 'L01XE31' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3884,7 +3854,6 @@ v: {
   "error" : "Unknown code 'L01XE32' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3924,7 +3893,6 @@ v: {
   "error" : "Unknown code 'L01XE33' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3964,7 +3932,6 @@ v: {
   "error" : "Unknown code 'L01XE34' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4004,7 +3971,6 @@ v: {
   "error" : "Unknown code 'L01XE35' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4044,7 +4010,6 @@ v: {
   "error" : "Unknown code 'L01XE36' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4084,7 +4049,6 @@ v: {
   "error" : "Unknown code 'L01XE37' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4124,7 +4088,6 @@ v: {
   "error" : "Unknown code 'L01XE38' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4164,7 +4127,6 @@ v: {
   "error" : "Unknown code 'L01XE39' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4204,7 +4166,6 @@ v: {
   "error" : "Unknown code 'L01XE40' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4244,7 +4205,6 @@ v: {
   "error" : "Unknown code 'L01XX09' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4284,7 +4244,6 @@ v: {
   "error" : "Unknown code 'L01XX14' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4324,7 +4283,6 @@ v: {
   "error" : "Unknown code 'L01XX17' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4364,7 +4322,6 @@ v: {
   "error" : "Unknown code 'L01XX19' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4404,7 +4361,6 @@ v: {
   "error" : "Unknown code 'L01XX22' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4444,7 +4400,6 @@ v: {
   "error" : "Unknown code 'L01XX25' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4484,7 +4439,6 @@ v: {
   "error" : "Unknown code 'L01XX32' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4524,7 +4478,6 @@ v: {
   "error" : "Unknown code 'L01XX38' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4564,7 +4517,6 @@ v: {
   "error" : "Unknown code 'L01XX39' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4604,7 +4556,6 @@ v: {
   "error" : "Unknown code 'L01XX42' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4644,7 +4595,6 @@ v: {
   "error" : "Unknown code 'L01XX43' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4684,7 +4634,6 @@ v: {
   "error" : "Unknown code 'L01XX45' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4724,7 +4673,6 @@ v: {
   "error" : "Unknown code 'L01XX46' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4764,7 +4712,6 @@ v: {
   "error" : "Unknown code 'L01XX47' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4804,7 +4751,6 @@ v: {
   "error" : "Unknown code 'L01XX48' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4844,7 +4790,6 @@ v: {
   "error" : "Unknown code 'L01XX49' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4884,7 +4829,6 @@ v: {
   "error" : "Unknown code 'L01XX50' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4924,7 +4868,6 @@ v: {
   "error" : "Unknown code 'L03AB90' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4964,7 +4907,6 @@ v: {
   "error" : "Unknown code 'L04AC06' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -5004,7 +4946,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5027,7 +4968,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5050,7 +4990,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5073,7 +5012,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5096,7 +5034,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5119,7 +5056,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5142,7 +5078,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5165,7 +5100,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5188,7 +5122,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5211,7 +5144,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5234,7 +5166,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5257,7 +5188,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5280,7 +5210,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5303,7 +5232,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5326,7 +5254,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5349,7 +5276,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5372,7 +5298,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5395,7 +5320,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5418,7 +5342,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5441,7 +5364,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5464,7 +5386,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5487,7 +5408,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5510,7 +5430,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5533,7 +5452,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5556,7 +5474,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5579,7 +5496,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5602,7 +5518,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5625,7 +5540,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5648,7 +5562,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5671,7 +5584,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5694,7 +5606,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5717,7 +5628,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5740,7 +5650,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5763,7 +5672,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5786,7 +5694,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5809,7 +5716,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5832,7 +5738,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5855,7 +5760,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5878,7 +5782,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5901,7 +5804,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5924,7 +5826,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5947,7 +5848,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5970,7 +5870,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5993,7 +5892,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6016,7 +5914,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6039,7 +5936,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6062,7 +5958,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6085,7 +5980,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6108,7 +6002,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6131,7 +6024,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6154,7 +6046,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6177,7 +6068,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6200,7 +6090,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6223,7 +6112,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6246,7 +6134,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6269,7 +6156,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6292,7 +6178,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6315,7 +6200,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6338,7 +6222,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6361,7 +6244,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6384,7 +6266,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6407,7 +6288,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6430,7 +6310,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6453,7 +6332,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6476,7 +6354,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6499,7 +6376,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6522,7 +6398,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6545,7 +6420,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6568,7 +6442,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6591,7 +6464,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6614,7 +6486,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6637,7 +6508,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6660,7 +6530,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6683,7 +6552,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6706,7 +6574,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6729,7 +6596,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6752,7 +6618,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6775,7 +6640,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6798,7 +6662,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6821,7 +6684,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6844,7 +6706,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6867,7 +6728,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6890,7 +6750,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6913,7 +6772,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6936,7 +6794,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6959,7 +6816,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6982,7 +6838,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7005,7 +6860,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7028,7 +6882,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7051,7 +6904,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7074,7 +6926,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7097,7 +6948,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7120,7 +6970,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7143,7 +6992,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7166,7 +7014,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7189,7 +7036,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7212,7 +7058,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7235,7 +7080,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7258,7 +7102,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7281,7 +7124,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7304,7 +7146,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7327,7 +7168,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7350,7 +7190,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7373,7 +7212,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7396,7 +7234,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7419,7 +7256,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7442,7 +7278,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7465,7 +7300,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7488,7 +7322,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7511,7 +7344,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7534,7 +7366,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7557,7 +7388,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7580,7 +7410,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7603,7 +7432,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7626,7 +7454,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7649,7 +7476,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7672,7 +7498,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7695,7 +7520,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7718,7 +7542,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7741,7 +7564,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7764,7 +7586,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7787,7 +7608,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7810,7 +7630,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7833,7 +7652,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7856,7 +7674,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7879,7 +7696,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7902,7 +7718,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7925,7 +7740,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7948,7 +7762,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7971,7 +7784,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7994,7 +7806,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8017,7 +7828,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8040,7 +7850,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8063,7 +7872,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8086,7 +7894,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8109,7 +7916,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8132,7 +7938,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8155,7 +7960,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8178,7 +7982,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8201,7 +8004,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8224,7 +8026,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8247,7 +8048,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8270,7 +8070,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8293,7 +8092,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8316,7 +8114,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8339,7 +8136,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8362,7 +8158,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8385,7 +8180,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8408,7 +8202,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8431,7 +8224,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8454,7 +8246,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8477,7 +8268,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8500,7 +8290,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8523,7 +8312,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8546,7 +8334,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8569,7 +8356,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8592,7 +8378,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8615,7 +8400,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8638,7 +8422,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8661,7 +8444,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8684,7 +8466,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8707,7 +8488,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8730,7 +8510,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8753,7 +8532,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8776,7 +8554,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8799,7 +8576,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8822,7 +8598,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8845,7 +8620,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8868,7 +8642,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8891,7 +8664,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8914,7 +8686,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8937,7 +8708,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8960,7 +8730,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8983,7 +8752,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9006,7 +8774,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9029,7 +8796,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9052,7 +8818,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9075,7 +8840,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9098,7 +8862,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9121,7 +8884,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9144,7 +8906,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9167,7 +8928,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9190,7 +8950,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9213,7 +8972,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9236,7 +8994,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9259,7 +9016,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9282,7 +9038,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9305,7 +9060,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9328,7 +9082,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9351,7 +9104,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9374,7 +9126,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9397,7 +9148,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9420,7 +9170,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9443,7 +9192,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9466,7 +9214,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9489,7 +9236,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9512,7 +9258,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9535,7 +9280,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9558,7 +9302,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9581,7 +9324,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9604,7 +9346,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9627,7 +9368,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9650,7 +9390,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9673,7 +9412,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9696,7 +9434,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9719,7 +9456,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9742,7 +9478,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9765,7 +9500,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9788,7 +9522,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9811,7 +9544,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9834,7 +9566,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9857,7 +9588,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9880,7 +9610,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9903,7 +9632,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9926,7 +9654,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9949,7 +9676,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9972,7 +9698,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9995,7 +9720,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10018,7 +9742,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10041,7 +9764,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10064,7 +9786,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10087,7 +9808,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10110,7 +9830,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10133,7 +9852,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10156,7 +9874,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10179,7 +9896,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10202,7 +9918,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10225,7 +9940,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10248,7 +9962,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10271,7 +9984,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10294,7 +10006,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10317,7 +10028,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10340,7 +10050,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10363,7 +10072,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10386,7 +10094,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10409,7 +10116,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10432,7 +10138,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10455,7 +10160,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10478,7 +10182,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10501,7 +10204,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10524,7 +10226,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10547,7 +10248,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10570,7 +10270,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10593,7 +10292,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10616,7 +10314,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10639,7 +10336,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10662,7 +10358,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10685,7 +10380,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10708,7 +10402,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10731,7 +10424,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10754,7 +10446,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10777,7 +10468,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10800,7 +10490,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10823,7 +10512,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10846,7 +10534,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10869,7 +10556,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10892,7 +10578,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10915,7 +10600,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10938,7 +10622,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10961,7 +10644,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10984,7 +10666,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11007,7 +10688,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11030,7 +10710,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11053,7 +10732,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11076,7 +10754,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11099,7 +10776,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "version" : "2020-05",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13769,6 +13445,5344 @@ e: {
       "system" : "http://www.whocc.no/atc",
       "code" : "L04AX06",
       "display" : "Pomalidomide"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "L01AA01",
+        "display" : "Cyclophosphamide"
+      },
+      {
+        "code" : "L01AA02",
+        "display" : "Chlorambucil"
+      },
+      {
+        "code" : "L01AA03",
+        "display" : "Melphalan"
+      },
+      {
+        "code" : "L01AA05",
+        "display" : "Chlormethine"
+      },
+      {
+        "code" : "L01AA06",
+        "display" : "Ifosfamide"
+      },
+      {
+        "code" : "L01AA07",
+        "display" : "Trofosfamide"
+      },
+      {
+        "code" : "L01AA08",
+        "display" : "Prednimustine"
+      },
+      {
+        "code" : "L01AA09",
+        "display" : "Bendamustine"
+      },
+      {
+        "code" : "L01AB01",
+        "display" : "Busulfan"
+      },
+      {
+        "code" : "L01AB02",
+        "display" : "Treosulfan"
+      },
+      {
+        "code" : "L01AB03",
+        "display" : "Mannosulfan"
+      },
+      {
+        "code" : "L01AC01",
+        "display" : "Thiotepa"
+      },
+      {
+        "code" : "L01AC02",
+        "display" : "Triaziquone"
+      },
+      {
+        "code" : "L01AC03",
+        "display" : "Carboquone"
+      },
+      {
+        "code" : "L01AD01",
+        "display" : "Carmustine"
+      },
+      {
+        "code" : "L01AD02",
+        "display" : "Lomustine"
+      },
+      {
+        "code" : "L01AD03",
+        "display" : "Semustine"
+      },
+      {
+        "code" : "L01AD04",
+        "display" : "Streptozocin"
+      },
+      {
+        "code" : "L01AD05",
+        "display" : "Fotemustine"
+      },
+      {
+        "code" : "L01AD06",
+        "display" : "Nimustine"
+      },
+      {
+        "code" : "L01AD07",
+        "display" : "Ranimustine"
+      },
+      {
+        "code" : "L01AG01",
+        "display" : "Etoglucid"
+      },
+      {
+        "code" : "L01AX",
+        "display" : "Peptichemio"
+      },
+      {
+        "code" : "L01AX01",
+        "display" : "Mitobronitol"
+      },
+      {
+        "code" : "L01AX02",
+        "display" : "Pipobroman"
+      },
+      {
+        "code" : "L01AX03",
+        "display" : "Temozolomide"
+      },
+      {
+        "code" : "L01AX04",
+        "display" : "Dacarbazine"
+      },
+      {
+        "code" : "L01BA01",
+        "display" : "Methotrexate"
+      },
+      {
+        "code" : "L01BA03",
+        "display" : "Raltitrexed"
+      },
+      {
+        "code" : "L01BA04",
+        "display" : "Pemetrexed"
+      },
+      {
+        "code" : "L01BA05",
+        "display" : "Pralatrexate"
+      },
+      {
+        "code" : "L01BB02",
+        "display" : "Mercaptopurine"
+      },
+      {
+        "code" : "L01BB03",
+        "display" : "Thioguanine"
+      },
+      {
+        "code" : "L01BB04",
+        "display" : "Cladribine"
+      },
+      {
+        "code" : "L01BB05",
+        "display" : "Fludarabine"
+      },
+      {
+        "code" : "L01BB06",
+        "display" : "Clofarabine"
+      },
+      {
+        "code" : "L01BB07",
+        "display" : "Nelarabine"
+      },
+      {
+        "code" : "L01BC01",
+        "display" : "Cytarabine"
+      },
+      {
+        "code" : "L01BC02",
+        "display" : "Fluorouracil"
+      },
+      {
+        "code" : "L01BC03",
+        "display" : "Tegafur"
+      },
+      {
+        "code" : "L01BC04",
+        "display" : "Carmofur"
+      },
+      {
+        "code" : "L01BC05",
+        "display" : "Gemcitabine"
+      },
+      {
+        "code" : "L01BC06",
+        "display" : "Capecitabine"
+      },
+      {
+        "code" : "L01BC07",
+        "display" : "Azacitidine"
+      },
+      {
+        "code" : "L01BC08",
+        "display" : "Decitabine"
+      },
+      {
+        "code" : "L01BC52",
+        "display" : "Fluorouracil, combinations"
+      },
+      {
+        "code" : "L01BC53",
+        "display" : "Tegafur, combinations"
+      },
+      {
+        "code" : "L01BC59",
+        "display" : "Trifluridine, combinations"
+      },
+      {
+        "code" : "L01CA01",
+        "display" : "Vinblastine"
+      },
+      {
+        "code" : "L01CA02",
+        "display" : "Vincristine"
+      },
+      {
+        "code" : "L01CA03",
+        "display" : "Vindesine"
+      },
+      {
+        "code" : "L01CA04",
+        "display" : "Vinorelbine"
+      },
+      {
+        "code" : "L01CA05",
+        "display" : "Vinflunine"
+      },
+      {
+        "code" : "L01CA06",
+        "display" : "Vintafolide"
+      },
+      {
+        "code" : "L01CB01",
+        "display" : "Etoposide"
+      },
+      {
+        "code" : "L01CB02",
+        "display" : "Teniposide"
+      },
+      {
+        "code" : "L01CC01",
+        "display" : "Demecolcine"
+      },
+      {
+        "code" : "L01CD01",
+        "display" : "Paclitaxel"
+      },
+      {
+        "code" : "L01CD02",
+        "display" : "Docetaxel"
+      },
+      {
+        "code" : "L01CD03",
+        "display" : "Paclitaxel poliglumex"
+      },
+      {
+        "code" : "L01CD04",
+        "display" : "Cabazitaxel"
+      },
+      {
+        "code" : "L01CX01",
+        "display" : "Trabectedin"
+      },
+      {
+        "code" : "L01DA01",
+        "display" : "Dactinomycin"
+      },
+      {
+        "code" : "L01DB01",
+        "display" : "Doxorubicin"
+      },
+      {
+        "code" : "L01DB02",
+        "display" : "Daunorubicin"
+      },
+      {
+        "code" : "L01DB03",
+        "display" : "Epirubicin"
+      },
+      {
+        "code" : "L01DB04",
+        "display" : "Aclarubicin"
+      },
+      {
+        "code" : "L01DB05",
+        "display" : "Zorubicin"
+      },
+      {
+        "code" : "L01DB06",
+        "display" : "Idarubicin"
+      },
+      {
+        "code" : "L01DB07",
+        "display" : "Mitoxantrone"
+      },
+      {
+        "code" : "L01DB08",
+        "display" : "Pirarubicin"
+      },
+      {
+        "code" : "L01DB09",
+        "display" : "Valrubicin"
+      },
+      {
+        "code" : "L01DB10",
+        "display" : "Amrubicin"
+      },
+      {
+        "code" : "L01DB11",
+        "display" : "Pixantrone"
+      },
+      {
+        "code" : "L01DC01",
+        "display" : "Bleomycin"
+      },
+      {
+        "code" : "L01DC02",
+        "display" : "Mithramycin"
+      },
+      {
+        "code" : "L01DC03",
+        "display" : "Mitomycin"
+      },
+      {
+        "code" : "L01DC04",
+        "display" : "Ixabepilone"
+      },
+      {
+        "code" : "L01XA01",
+        "display" : "Cisplatin"
+      },
+      {
+        "code" : "L01XA02",
+        "display" : "Carboplatin"
+      },
+      {
+        "code" : "L01XA03",
+        "display" : "Oxaliplatin"
+      },
+      {
+        "code" : "L01XA04",
+        "display" : "Satraplatin"
+      },
+      {
+        "code" : "L01XA05",
+        "display" : "Polyplatillen"
+      },
+      {
+        "code" : "L01XB01",
+        "display" : "Procarbazine"
+      },
+      {
+        "code" : "L01XC01",
+        "display" : "Edrecolomab"
+      },
+      {
+        "code" : "L01XC02",
+        "display" : "Rituximab"
+      },
+      {
+        "code" : "L01XC03",
+        "display" : "Trastuzumab"
+      },
+      {
+        "code" : "L01XC04",
+        "display" : "Alemtuzumab"
+      },
+      {
+        "code" : "L01XC05",
+        "display" : "Gemtuzumab"
+      },
+      {
+        "code" : "L01XC06",
+        "display" : "Cetuximab"
+      },
+      {
+        "code" : "L01XC07",
+        "display" : "Bevacizumab"
+      },
+      {
+        "code" : "L01XC08",
+        "display" : "Panitumumab"
+      },
+      {
+        "code" : "L01XC09",
+        "display" : "Catumaxomab"
+      },
+      {
+        "code" : "L01XC10",
+        "display" : "Ofatumumab"
+      },
+      {
+        "code" : "L01XC11",
+        "display" : "Ipilimumab"
+      },
+      {
+        "code" : "L01XC12",
+        "display" : "Brentuximab vedotin"
+      },
+      {
+        "code" : "L01XC13",
+        "display" : "Pertuzumab"
+      },
+      {
+        "code" : "L01XC14",
+        "display" : "Trastuzumab emtansine"
+      },
+      {
+        "code" : "L01XC15",
+        "display" : "Obinutuzumab"
+      },
+      {
+        "code" : "L01XC16",
+        "display" : "Dinutuximab"
+      },
+      {
+        "code" : "L01XC17",
+        "display" : "Nivolumab"
+      },
+      {
+        "code" : "L01XC18",
+        "display" : "Pembrolizumab"
+      },
+      {
+        "code" : "L01XC19",
+        "display" : "Blinatumomab"
+      },
+      {
+        "code" : "L01XC21",
+        "display" : "Ramucirumab"
+      },
+      {
+        "code" : "L01XC22",
+        "display" : "Necitumumab"
+      },
+      {
+        "code" : "L01XC23",
+        "display" : "Elotuzumab"
+      },
+      {
+        "code" : "L01XC24",
+        "display" : "Daratumumab"
+      },
+      {
+        "code" : "L01XC25",
+        "display" : "Mogamulizumab"
+      },
+      {
+        "code" : "L01XC26",
+        "display" : "Inotuzumab ozogamicin"
+      },
+      {
+        "code" : "L01XC27",
+        "display" : "Olaratumab"
+      },
+      {
+        "code" : "L01XD01",
+        "display" : "Porfimer sodium"
+      },
+      {
+        "code" : "L01XD03",
+        "display" : "Methyl aminolevulinate"
+      },
+      {
+        "code" : "L01XD04",
+        "display" : "Aminolevulinic acid"
+      },
+      {
+        "code" : "L01XD05",
+        "display" : "Temoporfin"
+      },
+      {
+        "code" : "L01XD06",
+        "display" : "Efaproxiral"
+      },
+      {
+        "code" : "L01XE01",
+        "display" : "Imatinib"
+      },
+      {
+        "code" : "L01XE02",
+        "display" : "Gefitinib"
+      },
+      {
+        "code" : "L01XE03",
+        "display" : "Erlotinib"
+      },
+      {
+        "code" : "L01XE04",
+        "display" : "Sunitinib"
+      },
+      {
+        "code" : "L01XE05",
+        "display" : "Sorafenib"
+      },
+      {
+        "code" : "L01XE06",
+        "display" : "Dasatinib"
+      },
+      {
+        "code" : "L01XE07",
+        "display" : "Lapatinib"
+      },
+      {
+        "code" : "L01XE08",
+        "display" : "Nilotinib"
+      },
+      {
+        "code" : "L01XE09",
+        "display" : "Temsirolimus"
+      },
+      {
+        "code" : "L01XE10",
+        "display" : "Everolimus"
+      },
+      {
+        "code" : "L01XE11",
+        "display" : "Pazopanib"
+      },
+      {
+        "code" : "L01XE12",
+        "display" : "Vandetanib"
+      },
+      {
+        "code" : "L01XE13",
+        "display" : "Afatinib"
+      },
+      {
+        "code" : "L01XE14",
+        "display" : "Bosutinib"
+      },
+      {
+        "code" : "L01XE15",
+        "display" : "Vemurafenib"
+      },
+      {
+        "code" : "L01XE16",
+        "display" : "Crizotinib"
+      },
+      {
+        "code" : "L01XE17",
+        "display" : "Axitinib"
+      },
+      {
+        "code" : "L01XE18",
+        "display" : "Ruxolitinib"
+      },
+      {
+        "code" : "L01XE19",
+        "display" : "Ridaforolimus"
+      },
+      {
+        "code" : "L01XE21",
+        "display" : "Regorafenib"
+      },
+      {
+        "code" : "L01XE22",
+        "display" : "Masitinib"
+      },
+      {
+        "code" : "L01XE23",
+        "display" : "Dabrafenib"
+      },
+      {
+        "code" : "L01XE24",
+        "display" : "Ponatinib"
+      },
+      {
+        "code" : "L01XE25",
+        "display" : "Trametinib"
+      },
+      {
+        "code" : "L01XE26",
+        "display" : "Cabozantinib"
+      },
+      {
+        "code" : "L01XE27",
+        "display" : "Ibrutinib"
+      },
+      {
+        "code" : "L01XE28",
+        "display" : "Ceritinib"
+      },
+      {
+        "code" : "L01XE29",
+        "display" : "Lenvatinib"
+      },
+      {
+        "code" : "L01XE31",
+        "display" : "Nintedanib"
+      },
+      {
+        "code" : "L01XE32",
+        "display" : "Cediranib"
+      },
+      {
+        "code" : "L01XE33",
+        "display" : "Palbociclib"
+      },
+      {
+        "code" : "L01XE34",
+        "display" : "Tivozanib"
+      },
+      {
+        "code" : "L01XE35",
+        "display" : "Osimertinib"
+      },
+      {
+        "code" : "L01XE36",
+        "display" : "Alectinib"
+      },
+      {
+        "code" : "L01XE37",
+        "display" : "Rociletinib"
+      },
+      {
+        "code" : "L01XE38",
+        "display" : "Cobimetinib"
+      },
+      {
+        "code" : "L01XE39",
+        "display" : "Midostaurin"
+      },
+      {
+        "code" : "L01XE40",
+        "display" : "Olmutinib"
+      },
+      {
+        "code" : "L01XX",
+        "display" : "Other antineoplastic agent"
+      },
+      {
+        "code" : "L01XX01",
+        "display" : "Amsacrine"
+      },
+      {
+        "code" : "L01XX02",
+        "display" : "Asparaginase"
+      },
+      {
+        "code" : "L01XX03",
+        "display" : "Altretamine"
+      },
+      {
+        "code" : "L01XX05",
+        "display" : "Hydroxycarbamide"
+      },
+      {
+        "code" : "L01XX07",
+        "display" : "Lonidamine"
+      },
+      {
+        "code" : "L01XX08",
+        "display" : "Pentostatin"
+      },
+      {
+        "code" : "L01XX09",
+        "display" : "Miltefosine"
+      },
+      {
+        "code" : "L01XX10",
+        "display" : "Masoprocol"
+      },
+      {
+        "code" : "L01XX11",
+        "display" : "Estramustine"
+      },
+      {
+        "code" : "L01XX14",
+        "display" : "Tretinoin"
+      },
+      {
+        "code" : "L01XX16",
+        "display" : "Mitoguazone"
+      },
+      {
+        "code" : "L01XX17",
+        "display" : "Topotecan"
+      },
+      {
+        "code" : "L01XX18",
+        "display" : "Tiazofurine"
+      },
+      {
+        "code" : "L01XX19",
+        "display" : "Irinotecan"
+      },
+      {
+        "code" : "L01XX22",
+        "display" : "Alitretinoin"
+      },
+      {
+        "code" : "L01XX23",
+        "display" : "Mitotane"
+      },
+      {
+        "code" : "L01XX24",
+        "display" : "Pegaspargase"
+      },
+      {
+        "code" : "L01XX25",
+        "display" : "Bexarotene"
+      },
+      {
+        "code" : "L01XX27",
+        "display" : "Arsenic trioxide"
+      },
+      {
+        "code" : "L01XX29",
+        "display" : "Denileukin diftitox"
+      },
+      {
+        "code" : "L01XX32",
+        "display" : "Bortezomib"
+      },
+      {
+        "code" : "L01XX33",
+        "display" : "Celecoxib"
+      },
+      {
+        "code" : "L01XX35",
+        "display" : "Anagrelide"
+      },
+      {
+        "code" : "L01XX36",
+        "display" : "Oblimersen"
+      },
+      {
+        "code" : "L01XX37",
+        "display" : "Sitimagene ceradenovec"
+      },
+      {
+        "code" : "L01XX38",
+        "display" : "Vorinostat"
+      },
+      {
+        "code" : "L01XX39",
+        "display" : "Romidepsin"
+      },
+      {
+        "code" : "L01XX40",
+        "display" : "Omacetaxine mepesuccinate"
+      },
+      {
+        "code" : "L01XX41",
+        "display" : "Eribulin"
+      },
+      {
+        "code" : "L01XX42",
+        "display" : "Panobinostat"
+      },
+      {
+        "code" : "L01XX43",
+        "display" : "Vismodegib"
+      },
+      {
+        "code" : "L01XX44",
+        "display" : "Aflibercept"
+      },
+      {
+        "code" : "L01XX45",
+        "display" : "Carfilzomib"
+      },
+      {
+        "code" : "L01XX46",
+        "display" : "Olaparib"
+      },
+      {
+        "code" : "L01XX47",
+        "display" : "Idelalisib"
+      },
+      {
+        "code" : "L01XX48",
+        "display" : "Sonidegib"
+      },
+      {
+        "code" : "L01XX49",
+        "display" : "Belinostat"
+      },
+      {
+        "code" : "L01XX50",
+        "display" : "Ixazomib"
+      },
+      {
+        "code" : "L01XX51",
+        "display" : "Talimogene laherparepvec"
+      },
+      {
+        "code" : "L01XX52",
+        "display" : "Venetoclax"
+      },
+      {
+        "code" : "L01XX53",
+        "display" : "Vosaroxin"
+      },
+      {
+        "code" : "L01XY",
+        "display" : "Combination of antineoplastic agents"
+      },
+      {
+        "code" : "L02AA01",
+        "display" : "Diethylstilbestrol"
+      },
+      {
+        "code" : "L02AA02",
+        "display" : "Polyestradiol phosphate"
+      },
+      {
+        "code" : "L02AA03",
+        "display" : "Ethinylestradiol"
+      },
+      {
+        "code" : "L02AA04",
+        "display" : "Fosfestrol"
+      },
+      {
+        "code" : "L02AB01",
+        "display" : "Megestrol"
+      },
+      {
+        "code" : "L02AB02",
+        "display" : "Medroxyprogesterone"
+      },
+      {
+        "code" : "L02AB03",
+        "display" : "Gestonorone"
+      },
+      {
+        "code" : "L02AE01",
+        "display" : "Buserelin"
+      },
+      {
+        "code" : "L02AE02",
+        "display" : "Leuprorelin"
+      },
+      {
+        "code" : "L02AE03",
+        "display" : "Goserelin"
+      },
+      {
+        "code" : "L02AE04",
+        "display" : "Triptorelin"
+      },
+      {
+        "code" : "L02AE05",
+        "display" : "Histrelin"
+      },
+      {
+        "code" : "L02BA01",
+        "display" : "Tamoxifen"
+      },
+      {
+        "code" : "L02BA02",
+        "display" : "Toremifene"
+      },
+      {
+        "code" : "L02BA03",
+        "display" : "Fulvestrant"
+      },
+      {
+        "code" : "L02BB01",
+        "display" : "Flutamide"
+      },
+      {
+        "code" : "L02BB02",
+        "display" : "Nilutamide"
+      },
+      {
+        "code" : "L02BB03",
+        "display" : "Bicalutamide"
+      },
+      {
+        "code" : "L02BB04",
+        "display" : "Enzalutamide"
+      },
+      {
+        "code" : "L02BG01",
+        "display" : "Aminogluthetimide"
+      },
+      {
+        "code" : "L02BG02",
+        "display" : "Formestane"
+      },
+      {
+        "code" : "L02BG03",
+        "display" : "Anastrozole"
+      },
+      {
+        "code" : "L02BG04",
+        "display" : "Letrozole"
+      },
+      {
+        "code" : "L02BG05",
+        "display" : "Vorozole"
+      },
+      {
+        "code" : "L02BG06",
+        "display" : "Exemestane"
+      },
+      {
+        "code" : "L02BX01",
+        "display" : "Abarelix"
+      },
+      {
+        "code" : "L02BX02",
+        "display" : "Degarelix"
+      },
+      {
+        "code" : "L02BX03",
+        "display" : "Abiraterone"
+      },
+      {
+        "code" : "L03AA02",
+        "display" : "Filgrastim"
+      },
+      {
+        "code" : "L03AA03",
+        "display" : "Molgramostim"
+      },
+      {
+        "code" : "L03AA09",
+        "display" : "Sargramostim"
+      },
+      {
+        "code" : "L03AA10",
+        "display" : "Lenograstim"
+      },
+      {
+        "code" : "L03AA12",
+        "display" : "Ancestim"
+      },
+      {
+        "code" : "L03AA13",
+        "display" : "Pegfilgrastim"
+      },
+      {
+        "code" : "L03AA14",
+        "display" : "Lipegfilgrastim"
+      },
+      {
+        "code" : "L03AA15",
+        "display" : "Balugrastim"
+      },
+      {
+        "code" : "L03AA16",
+        "display" : "Empegfilgrastim"
+      },
+      {
+        "code" : "L03AB01",
+        "display" : "Interferon alfa natural"
+      },
+      {
+        "code" : "L03AB02",
+        "display" : "Interferon beta natural"
+      },
+      {
+        "code" : "L03AB03",
+        "display" : "Interferon gamma"
+      },
+      {
+        "code" : "L03AB04",
+        "display" : "Interferon alfa-2a"
+      },
+      {
+        "code" : "L03AB05",
+        "display" : "Interferon alfa-2b"
+      },
+      {
+        "code" : "L03AB06",
+        "display" : "Interferon alfa-n1"
+      },
+      {
+        "code" : "L03AB07",
+        "display" : "Interferon beta-1a"
+      },
+      {
+        "code" : "L03AB08",
+        "display" : "Interferon beta-1b"
+      },
+      {
+        "code" : "L03AB09",
+        "display" : "Interferon alfacon-1"
+      },
+      {
+        "code" : "L03AB10",
+        "display" : "Peginterferon alfa-2b"
+      },
+      {
+        "code" : "L03AB11",
+        "display" : "Peginterferon alfa-2a"
+      },
+      {
+        "code" : "L03AB12",
+        "display" : "Albinterferon alfa-2b"
+      },
+      {
+        "code" : "L03AB13",
+        "display" : "Peginterferon beta-1a"
+      },
+      {
+        "code" : "L03AB14",
+        "display" : "Cepeginterferon alfa-2b"
+      },
+      {
+        "code" : "L03AB60",
+        "display" : "Peginterferon alfa-2b, combinations"
+      },
+      {
+        "code" : "L03AB61",
+        "display" : "Peginterferon alfa-2a, combinations"
+      },
+      {
+        "code" : "L03AB90",
+        "display" : "Interferone ricombinante omega di origine felina"
+      },
+      {
+        "code" : "L03AC01",
+        "display" : "Aldesleukin"
+      },
+      {
+        "code" : "L03AC02",
+        "display" : "Oprelvekin"
+      },
+      {
+        "code" : "L03AX01",
+        "display" : "Lentinan"
+      },
+      {
+        "code" : "L03AX02",
+        "display" : "Roquinimex"
+      },
+      {
+        "code" : "L03AX03",
+        "display" : "BCG vaccine"
+      },
+      {
+        "code" : "L03AX04",
+        "display" : "Pegademase"
+      },
+      {
+        "code" : "L03AX05",
+        "display" : "Pidotimod"
+      },
+      {
+        "code" : "L03AX07",
+        "display" : "Poly I:C"
+      },
+      {
+        "code" : "L03AX08",
+        "display" : "Poly ICLC"
+      },
+      {
+        "code" : "L03AX09",
+        "display" : "Thymopentin"
+      },
+      {
+        "code" : "L03AX10",
+        "display" : "Immunocyanin"
+      },
+      {
+        "code" : "L03AX11",
+        "display" : "Tasonermin"
+      },
+      {
+        "code" : "L03AX12",
+        "display" : "Melanoma vaccine"
+      },
+      {
+        "code" : "L03AX13",
+        "display" : "Glatiramer acetate"
+      },
+      {
+        "code" : "L03AX14",
+        "display" : "Histamine dihydrochloride"
+      },
+      {
+        "code" : "L03AX15",
+        "display" : "Mifamurtide"
+      },
+      {
+        "code" : "L03AX16",
+        "display" : "Plerixafor"
+      },
+      {
+        "code" : "L03AX17",
+        "display" : "Sipuleucel-T"
+      },
+      {
+        "code" : "L03AX18",
+        "display" : "Cridanimod"
+      },
+      {
+        "code" : "L03AX19",
+        "display" : "Dasiprotimut-T"
+      },
+      {
+        "code" : "L04AA02",
+        "display" : "Muromonab-CD3"
+      },
+      {
+        "code" : "L04AA03",
+        "display" : "Antilymphocyte immunoglobulin (horse)"
+      },
+      {
+        "code" : "L04AA04",
+        "display" : "Antithymocyte immunoglobulin (rabbit)"
+      },
+      {
+        "code" : "L04AA06",
+        "display" : "Mycophenolic acid"
+      },
+      {
+        "code" : "L04AA10",
+        "display" : "Sirolimus"
+      },
+      {
+        "code" : "L04AA13",
+        "display" : "Leflunomide"
+      },
+      {
+        "code" : "L04AA15",
+        "display" : "Alefacept"
+      },
+      {
+        "code" : "L04AA18",
+        "display" : "Everolimus"
+      },
+      {
+        "code" : "L04AA19",
+        "display" : "Gusperimus"
+      },
+      {
+        "code" : "L04AA21",
+        "display" : "Efalizumab"
+      },
+      {
+        "code" : "L04AA22",
+        "display" : "Abetimus"
+      },
+      {
+        "code" : "L04AA23",
+        "display" : "Natalizumab"
+      },
+      {
+        "code" : "L04AA24",
+        "display" : "Abatacept"
+      },
+      {
+        "code" : "L04AA25",
+        "display" : "Eculizumab"
+      },
+      {
+        "code" : "L04AA26",
+        "display" : "Belimumab"
+      },
+      {
+        "code" : "L04AA27",
+        "display" : "Fingolimod"
+      },
+      {
+        "code" : "L04AA28",
+        "display" : "Belatacept"
+      },
+      {
+        "code" : "L04AA29",
+        "display" : "Tofacitinib"
+      },
+      {
+        "code" : "L04AA31",
+        "display" : "Teriflunomide"
+      },
+      {
+        "code" : "L04AA32",
+        "display" : "Apremilast"
+      },
+      {
+        "code" : "L04AA33",
+        "display" : "Vedolizumab"
+      },
+      {
+        "code" : "L04AA34",
+        "display" : "Alemtuzumab"
+      },
+      {
+        "code" : "L04AA35",
+        "display" : "Begelomab"
+      },
+      {
+        "code" : "L04AA36",
+        "display" : "Ocrelizumab"
+      },
+      {
+        "code" : "L04AA37",
+        "display" : "Baricitinib"
+      },
+      {
+        "code" : "L04AB01",
+        "display" : "Etanercept"
+      },
+      {
+        "code" : "L04AB02",
+        "display" : "Infliximab"
+      },
+      {
+        "code" : "L04AB03",
+        "display" : "Afelimomab"
+      },
+      {
+        "code" : "L04AB04",
+        "display" : "Adalimumab"
+      },
+      {
+        "code" : "L04AB05",
+        "display" : "Certolizumab pegol"
+      },
+      {
+        "code" : "L04AB06",
+        "display" : "Golimumab"
+      },
+      {
+        "code" : "L04AC01",
+        "display" : "Daclizumab"
+      },
+      {
+        "code" : "L04AC02",
+        "display" : "Basiliximab"
+      },
+      {
+        "code" : "L04AC03",
+        "display" : "Anakinra"
+      },
+      {
+        "code" : "L04AC04",
+        "display" : "Rilonacept"
+      },
+      {
+        "code" : "L04AC05",
+        "display" : "Ustekinumab"
+      },
+      {
+        "code" : "L04AC06",
+        "display" : "Mepolizumab"
+      },
+      {
+        "code" : "L04AC07",
+        "display" : "Tocilizumab"
+      },
+      {
+        "code" : "L04AC08",
+        "display" : "Canakinumab"
+      },
+      {
+        "code" : "L04AC09",
+        "display" : "Briakinumab"
+      },
+      {
+        "code" : "L04AC10",
+        "display" : "Secukinumab"
+      },
+      {
+        "code" : "L04AC11",
+        "display" : "Siltuximab"
+      },
+      {
+        "code" : "L04AC12",
+        "display" : "Brodalumab"
+      },
+      {
+        "code" : "L04AC13",
+        "display" : "Ixekizumab"
+      },
+      {
+        "code" : "L04AC14",
+        "display" : "Sarilumab"
+      },
+      {
+        "code" : "L04AD01",
+        "display" : "Ciclosporin"
+      },
+      {
+        "code" : "L04AD02",
+        "display" : "Tacrolimus"
+      },
+      {
+        "code" : "L04AD03",
+        "display" : "Voclosporin"
+      },
+      {
+        "code" : "L04AX01",
+        "display" : "Azathioprine"
+      },
+      {
+        "code" : "L04AX02",
+        "display" : "Thalidomide"
+      },
+      {
+        "code" : "L04AX03",
+        "display" : "Methotrexate"
+      },
+      {
+        "code" : "L04AX04",
+        "display" : "Lenalidomide"
+      },
+      {
+        "code" : "L04AX05",
+        "display" : "Pirfenidone"
+      },
+      {
+        "code" : "L04AX06",
+        "display" : "Pomalidomide"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:dec193d6-f677-4471-8390-a208b8ae898a",
+    "timestamp" : "2024-02-08T16:03:00.074Z",
+    "total" : 266,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://www.whocc.no/atc|2020-05"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://www.whocc.no/atc|2020-05"
+    }],
+    "contains" : [{
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA01",
+      "display" : "cyclophosphamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA02",
+      "display" : "chlorambucil"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA03",
+      "display" : "melphalan"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA05",
+      "display" : "chlormethine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA06",
+      "display" : "ifosfamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA07",
+      "display" : "trofosfamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA08",
+      "display" : "prednimustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA09",
+      "display" : "bendamustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AB01",
+      "display" : "busulfan"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AB02",
+      "display" : "treosulfan"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AB03",
+      "display" : "mannosulfan"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AC01",
+      "display" : "thiotepa"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AC02",
+      "display" : "triaziquone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AC03",
+      "display" : "carboquone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD01",
+      "display" : "carmustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD02",
+      "display" : "lomustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD03",
+      "display" : "semustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD04",
+      "display" : "streptozocin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD05",
+      "display" : "fotemustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD06",
+      "display" : "nimustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD07",
+      "display" : "ranimustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AG01",
+      "display" : "etoglucid"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AX",
+      "display" : "Other alkylating agents"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AX01",
+      "display" : "mitobronitol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AX02",
+      "display" : "pipobroman"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AX03",
+      "display" : "temozolomide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AX04",
+      "display" : "dacarbazine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BA01",
+      "display" : "methotrexate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BA03",
+      "display" : "raltitrexed"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BA04",
+      "display" : "pemetrexed"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BA05",
+      "display" : "pralatrexate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB02",
+      "display" : "mercaptopurine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB03",
+      "display" : "tioguanine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB04",
+      "display" : "cladribine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB05",
+      "display" : "fludarabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB06",
+      "display" : "clofarabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB07",
+      "display" : "nelarabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC01",
+      "display" : "cytarabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC02",
+      "display" : "fluorouracil"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC03",
+      "display" : "tegafur"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC04",
+      "display" : "carmofur"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC05",
+      "display" : "gemcitabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC06",
+      "display" : "capecitabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC07",
+      "display" : "azacitidine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC08",
+      "display" : "decitabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC52",
+      "display" : "fluorouracil, combinations"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC53",
+      "display" : "tegafur, combinations"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC59",
+      "display" : "trifluridine, combinations"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA01",
+      "display" : "vinblastine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA02",
+      "display" : "vincristine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA03",
+      "display" : "vindesine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA04",
+      "display" : "vinorelbine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA05",
+      "display" : "vinflunine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA06",
+      "display" : "vintafolide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CB01",
+      "display" : "etoposide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CB02",
+      "display" : "teniposide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CC01",
+      "display" : "demecolcine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CD01",
+      "display" : "paclitaxel"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CD02",
+      "display" : "docetaxel"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CD03",
+      "display" : "paclitaxel poliglumex"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CD04",
+      "display" : "cabazitaxel"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CX01",
+      "display" : "trabectedin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DA01",
+      "display" : "dactinomycin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB01",
+      "display" : "doxorubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB02",
+      "display" : "daunorubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB03",
+      "display" : "epirubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB04",
+      "display" : "aclarubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB05",
+      "display" : "zorubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB06",
+      "display" : "idarubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB07",
+      "display" : "mitoxantrone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB08",
+      "display" : "pirarubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB09",
+      "display" : "valrubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB10",
+      "display" : "amrubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB11",
+      "display" : "pixantrone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DC01",
+      "display" : "bleomycin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DC02",
+      "display" : "plicamycin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DC03",
+      "display" : "mitomycin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DC04",
+      "display" : "ixabepilone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XA01",
+      "display" : "cisplatin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XA02",
+      "display" : "carboplatin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XA03",
+      "display" : "oxaliplatin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XA04",
+      "display" : "satraplatin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XA05",
+      "display" : "polyplatillen"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XB01",
+      "display" : "procarbazine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC01",
+      "display" : "edrecolomab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC02",
+      "display" : "rituximab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC03",
+      "display" : "trastuzumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC05",
+      "display" : "gemtuzumab ozogamicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC06",
+      "display" : "cetuximab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC07",
+      "display" : "bevacizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC08",
+      "display" : "panitumumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC09",
+      "display" : "catumaxomab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC10",
+      "display" : "ofatumumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC11",
+      "display" : "ipilimumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC12",
+      "display" : "brentuximab vedotin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC13",
+      "display" : "pertuzumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC14",
+      "display" : "trastuzumab emtansine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC15",
+      "display" : "obinutuzumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC16",
+      "display" : "dinutuximab beta"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC17",
+      "display" : "nivolumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC18",
+      "display" : "pembrolizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC19",
+      "display" : "blinatumomab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC21",
+      "display" : "ramucirumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC22",
+      "display" : "necitumumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC23",
+      "display" : "elotuzumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC24",
+      "display" : "daratumumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC25",
+      "display" : "mogamulizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC26",
+      "display" : "inotuzumab ozogamicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC27",
+      "display" : "olaratumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XD01",
+      "display" : "porfimer sodium"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XD03",
+      "display" : "methyl aminolevulinate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XD04",
+      "display" : "aminolevulinic acid"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XD05",
+      "display" : "temoporfin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XD06",
+      "display" : "efaproxiral"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX",
+      "display" : "Other antineoplastic agents"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX01",
+      "display" : "amsacrine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX02",
+      "display" : "asparaginase"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX03",
+      "display" : "altretamine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX05",
+      "display" : "hydroxycarbamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX07",
+      "display" : "lonidamine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX08",
+      "display" : "pentostatin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX10",
+      "display" : "masoprocol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX11",
+      "display" : "estramustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX16",
+      "display" : "mitoguazone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX18",
+      "display" : "tiazofurine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX23",
+      "display" : "mitotane"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX24",
+      "display" : "pegaspargase"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX27",
+      "display" : "arsenic trioxide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX29",
+      "display" : "denileukin diftitox"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX33",
+      "display" : "celecoxib"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX35",
+      "display" : "anagrelide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX36",
+      "display" : "oblimersen"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX37",
+      "display" : "sitimagene ceradenovec"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX40",
+      "display" : "omacetaxine mepesuccinate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX41",
+      "display" : "eribulin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX44",
+      "display" : "aflibercept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX51",
+      "display" : "talimogene laherparepvec"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX52",
+      "display" : "venetoclax"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX53",
+      "display" : "vosaroxin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XY",
+      "display" : "Combinations of antineoplastic agents"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AA01",
+      "display" : "diethylstilbestrol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AA02",
+      "display" : "polyestradiol phosphate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AA03",
+      "display" : "ethinylestradiol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AA04",
+      "display" : "fosfestrol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AB01",
+      "display" : "megestrol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AB02",
+      "display" : "medroxyprogesterone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AB03",
+      "display" : "gestonorone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AE01",
+      "display" : "buserelin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AE02",
+      "display" : "leuprorelin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AE03",
+      "display" : "goserelin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AE04",
+      "display" : "triptorelin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AE05",
+      "display" : "histrelin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BA01",
+      "display" : "tamoxifen"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BA02",
+      "display" : "toremifene"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BA03",
+      "display" : "fulvestrant"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BB01",
+      "display" : "flutamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BB02",
+      "display" : "nilutamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BB03",
+      "display" : "bicalutamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BB04",
+      "display" : "enzalutamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG01",
+      "display" : "aminoglutethimide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG02",
+      "display" : "formestane"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG03",
+      "display" : "anastrozole"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG04",
+      "display" : "letrozole"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG05",
+      "display" : "vorozole"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG06",
+      "display" : "exemestane"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BX01",
+      "display" : "abarelix"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BX02",
+      "display" : "degarelix"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BX03",
+      "display" : "abiraterone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA02",
+      "display" : "filgrastim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA03",
+      "display" : "molgramostim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA09",
+      "display" : "sargramostim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA10",
+      "display" : "lenograstim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA12",
+      "display" : "ancestim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA13",
+      "display" : "pegfilgrastim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA14",
+      "display" : "lipegfilgrastim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA15",
+      "display" : "balugrastim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA16",
+      "display" : "empegfilgrastim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB01",
+      "display" : "interferon alfa natural"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB02",
+      "display" : "interferon beta natural"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB03",
+      "display" : "interferon gamma"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB04",
+      "display" : "interferon alfa-2a"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB05",
+      "display" : "interferon alfa-2b"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB06",
+      "display" : "interferon alfa-n1"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB07",
+      "display" : "interferon beta-1a"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB08",
+      "display" : "interferon beta-1b"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB09",
+      "display" : "interferon alfacon-1"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB10",
+      "display" : "peginterferon alfa-2b"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB11",
+      "display" : "peginterferon alfa-2a"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB12",
+      "display" : "albinterferon alfa-2b"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB13",
+      "display" : "peginterferon beta-1a"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB14",
+      "display" : "cepeginterferon alfa-2b"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB60",
+      "display" : "peginterferon alfa-2b, combinations"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB61",
+      "display" : "peginterferon alfa-2a, combinations"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AC01",
+      "display" : "aldesleukin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AC02",
+      "display" : "oprelvekin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX01",
+      "display" : "lentinan"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX02",
+      "display" : "roquinimex"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX03",
+      "display" : "BCG vaccine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX04",
+      "display" : "pegademase"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX05",
+      "display" : "pidotimod"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX07",
+      "display" : "poly I:C"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX08",
+      "display" : "poly ICLC"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX09",
+      "display" : "thymopentin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX10",
+      "display" : "immunocyanin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX11",
+      "display" : "tasonermin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX12",
+      "display" : "melanoma vaccine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX13",
+      "display" : "glatiramer acetate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX14",
+      "display" : "histamine dihydrochloride"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX15",
+      "display" : "mifamurtide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX16",
+      "display" : "plerixafor"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX17",
+      "display" : "sipuleucel-T"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX18",
+      "display" : "cridanimod"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX19",
+      "display" : "dasiprotimut-T"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA02",
+      "display" : "muromonab-CD3"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA03",
+      "display" : "antilymphocyte immunoglobulin (horse)"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA04",
+      "display" : "antithymocyte immunoglobulin (rabbit)"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA06",
+      "display" : "mycophenolic acid"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA10",
+      "display" : "sirolimus"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA13",
+      "display" : "leflunomide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA15",
+      "display" : "alefacept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA18",
+      "display" : "everolimus"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA19",
+      "display" : "gusperimus"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA21",
+      "display" : "efalizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA22",
+      "display" : "abetimus"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA23",
+      "display" : "natalizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA24",
+      "display" : "abatacept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA25",
+      "display" : "eculizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA26",
+      "display" : "belimumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA27",
+      "display" : "fingolimod"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA28",
+      "display" : "belatacept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA29",
+      "display" : "tofacitinib"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA31",
+      "display" : "teriflunomide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA32",
+      "display" : "apremilast"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA33",
+      "display" : "vedolizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA34",
+      "display" : "alemtuzumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA35",
+      "display" : "begelomab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA36",
+      "display" : "ocrelizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA37",
+      "display" : "baricitinib"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB01",
+      "display" : "etanercept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB02",
+      "display" : "infliximab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB03",
+      "display" : "afelimomab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB04",
+      "display" : "adalimumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB05",
+      "display" : "certolizumab pegol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB06",
+      "display" : "golimumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC01",
+      "display" : "daclizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC02",
+      "display" : "basiliximab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC03",
+      "display" : "anakinra"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC04",
+      "display" : "rilonacept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC05",
+      "display" : "ustekinumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC07",
+      "display" : "tocilizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC08",
+      "display" : "canakinumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC09",
+      "display" : "briakinumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC10",
+      "display" : "secukinumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC11",
+      "display" : "siltuximab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC12",
+      "display" : "brodalumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC13",
+      "display" : "ixekizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC14",
+      "display" : "sarilumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AD01",
+      "display" : "ciclosporin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AD02",
+      "display" : "tacrolimus"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AD03",
+      "display" : "voclosporin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX01",
+      "display" : "azathioprine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX02",
+      "display" : "thalidomide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX03",
+      "display" : "methotrexate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX04",
+      "display" : "lenalidomide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX05",
+      "display" : "pirfenidone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX06",
+      "display" : "pomalidomide"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "L01AA01",
+        "display" : "Cyclophosphamide"
+      },
+      {
+        "code" : "L01AA02",
+        "display" : "Chlorambucil"
+      },
+      {
+        "code" : "L01AA03",
+        "display" : "Melphalan"
+      },
+      {
+        "code" : "L01AA05",
+        "display" : "Chlormethine"
+      },
+      {
+        "code" : "L01AA06",
+        "display" : "Ifosfamide"
+      },
+      {
+        "code" : "L01AA07",
+        "display" : "Trofosfamide"
+      },
+      {
+        "code" : "L01AA08",
+        "display" : "Prednimustine"
+      },
+      {
+        "code" : "L01AA09",
+        "display" : "Bendamustine"
+      },
+      {
+        "code" : "L01AB01",
+        "display" : "Busulfan"
+      },
+      {
+        "code" : "L01AB02",
+        "display" : "Treosulfan"
+      },
+      {
+        "code" : "L01AB03",
+        "display" : "Mannosulfan"
+      },
+      {
+        "code" : "L01AC01",
+        "display" : "Thiotepa"
+      },
+      {
+        "code" : "L01AC02",
+        "display" : "Triaziquone"
+      },
+      {
+        "code" : "L01AC03",
+        "display" : "Carboquone"
+      },
+      {
+        "code" : "L01AD01",
+        "display" : "Carmustine"
+      },
+      {
+        "code" : "L01AD02",
+        "display" : "Lomustine"
+      },
+      {
+        "code" : "L01AD03",
+        "display" : "Semustine"
+      },
+      {
+        "code" : "L01AD04",
+        "display" : "Streptozocin"
+      },
+      {
+        "code" : "L01AD05",
+        "display" : "Fotemustine"
+      },
+      {
+        "code" : "L01AD06",
+        "display" : "Nimustine"
+      },
+      {
+        "code" : "L01AD07",
+        "display" : "Ranimustine"
+      },
+      {
+        "code" : "L01AG01",
+        "display" : "Etoglucid"
+      },
+      {
+        "code" : "L01AX",
+        "display" : "Peptichemio"
+      },
+      {
+        "code" : "L01AX01",
+        "display" : "Mitobronitol"
+      },
+      {
+        "code" : "L01AX02",
+        "display" : "Pipobroman"
+      },
+      {
+        "code" : "L01AX03",
+        "display" : "Temozolomide"
+      },
+      {
+        "code" : "L01AX04",
+        "display" : "Dacarbazine"
+      },
+      {
+        "code" : "L01BA01",
+        "display" : "Methotrexate"
+      },
+      {
+        "code" : "L01BA03",
+        "display" : "Raltitrexed"
+      },
+      {
+        "code" : "L01BA04",
+        "display" : "Pemetrexed"
+      },
+      {
+        "code" : "L01BA05",
+        "display" : "Pralatrexate"
+      },
+      {
+        "code" : "L01BB02",
+        "display" : "Mercaptopurine"
+      },
+      {
+        "code" : "L01BB03",
+        "display" : "Thioguanine"
+      },
+      {
+        "code" : "L01BB04",
+        "display" : "Cladribine"
+      },
+      {
+        "code" : "L01BB05",
+        "display" : "Fludarabine"
+      },
+      {
+        "code" : "L01BB06",
+        "display" : "Clofarabine"
+      },
+      {
+        "code" : "L01BB07",
+        "display" : "Nelarabine"
+      },
+      {
+        "code" : "L01BC01",
+        "display" : "Cytarabine"
+      },
+      {
+        "code" : "L01BC02",
+        "display" : "Fluorouracil"
+      },
+      {
+        "code" : "L01BC03",
+        "display" : "Tegafur"
+      },
+      {
+        "code" : "L01BC04",
+        "display" : "Carmofur"
+      },
+      {
+        "code" : "L01BC05",
+        "display" : "Gemcitabine"
+      },
+      {
+        "code" : "L01BC06",
+        "display" : "Capecitabine"
+      },
+      {
+        "code" : "L01BC07",
+        "display" : "Azacitidine"
+      },
+      {
+        "code" : "L01BC08",
+        "display" : "Decitabine"
+      },
+      {
+        "code" : "L01BC52",
+        "display" : "Fluorouracil, combinations"
+      },
+      {
+        "code" : "L01BC53",
+        "display" : "Tegafur, combinations"
+      },
+      {
+        "code" : "L01BC59",
+        "display" : "Trifluridine, combinations"
+      },
+      {
+        "code" : "L01CA01",
+        "display" : "Vinblastine"
+      },
+      {
+        "code" : "L01CA02",
+        "display" : "Vincristine"
+      },
+      {
+        "code" : "L01CA03",
+        "display" : "Vindesine"
+      },
+      {
+        "code" : "L01CA04",
+        "display" : "Vinorelbine"
+      },
+      {
+        "code" : "L01CA05",
+        "display" : "Vinflunine"
+      },
+      {
+        "code" : "L01CA06",
+        "display" : "Vintafolide"
+      },
+      {
+        "code" : "L01CB01",
+        "display" : "Etoposide"
+      },
+      {
+        "code" : "L01CB02",
+        "display" : "Teniposide"
+      },
+      {
+        "code" : "L01CC01",
+        "display" : "Demecolcine"
+      },
+      {
+        "code" : "L01CD01",
+        "display" : "Paclitaxel"
+      },
+      {
+        "code" : "L01CD02",
+        "display" : "Docetaxel"
+      },
+      {
+        "code" : "L01CD03",
+        "display" : "Paclitaxel poliglumex"
+      },
+      {
+        "code" : "L01CD04",
+        "display" : "Cabazitaxel"
+      },
+      {
+        "code" : "L01CX01",
+        "display" : "Trabectedin"
+      },
+      {
+        "code" : "L01DA01",
+        "display" : "Dactinomycin"
+      },
+      {
+        "code" : "L01DB01",
+        "display" : "Doxorubicin"
+      },
+      {
+        "code" : "L01DB02",
+        "display" : "Daunorubicin"
+      },
+      {
+        "code" : "L01DB03",
+        "display" : "Epirubicin"
+      },
+      {
+        "code" : "L01DB04",
+        "display" : "Aclarubicin"
+      },
+      {
+        "code" : "L01DB05",
+        "display" : "Zorubicin"
+      },
+      {
+        "code" : "L01DB06",
+        "display" : "Idarubicin"
+      },
+      {
+        "code" : "L01DB07",
+        "display" : "Mitoxantrone"
+      },
+      {
+        "code" : "L01DB08",
+        "display" : "Pirarubicin"
+      },
+      {
+        "code" : "L01DB09",
+        "display" : "Valrubicin"
+      },
+      {
+        "code" : "L01DB10",
+        "display" : "Amrubicin"
+      },
+      {
+        "code" : "L01DB11",
+        "display" : "Pixantrone"
+      },
+      {
+        "code" : "L01DC01",
+        "display" : "Bleomycin"
+      },
+      {
+        "code" : "L01DC02",
+        "display" : "Mithramycin"
+      },
+      {
+        "code" : "L01DC03",
+        "display" : "Mitomycin"
+      },
+      {
+        "code" : "L01DC04",
+        "display" : "Ixabepilone"
+      },
+      {
+        "code" : "L01XA01",
+        "display" : "Cisplatin"
+      },
+      {
+        "code" : "L01XA02",
+        "display" : "Carboplatin"
+      },
+      {
+        "code" : "L01XA03",
+        "display" : "Oxaliplatin"
+      },
+      {
+        "code" : "L01XA04",
+        "display" : "Satraplatin"
+      },
+      {
+        "code" : "L01XA05",
+        "display" : "Polyplatillen"
+      },
+      {
+        "code" : "L01XB01",
+        "display" : "Procarbazine"
+      },
+      {
+        "code" : "L01XC01",
+        "display" : "Edrecolomab"
+      },
+      {
+        "code" : "L01XC02",
+        "display" : "Rituximab"
+      },
+      {
+        "code" : "L01XC03",
+        "display" : "Trastuzumab"
+      },
+      {
+        "code" : "L01XC04",
+        "display" : "Alemtuzumab"
+      },
+      {
+        "code" : "L01XC05",
+        "display" : "Gemtuzumab"
+      },
+      {
+        "code" : "L01XC06",
+        "display" : "Cetuximab"
+      },
+      {
+        "code" : "L01XC07",
+        "display" : "Bevacizumab"
+      },
+      {
+        "code" : "L01XC08",
+        "display" : "Panitumumab"
+      },
+      {
+        "code" : "L01XC09",
+        "display" : "Catumaxomab"
+      },
+      {
+        "code" : "L01XC10",
+        "display" : "Ofatumumab"
+      },
+      {
+        "code" : "L01XC11",
+        "display" : "Ipilimumab"
+      },
+      {
+        "code" : "L01XC12",
+        "display" : "Brentuximab vedotin"
+      },
+      {
+        "code" : "L01XC13",
+        "display" : "Pertuzumab"
+      },
+      {
+        "code" : "L01XC14",
+        "display" : "Trastuzumab emtansine"
+      },
+      {
+        "code" : "L01XC15",
+        "display" : "Obinutuzumab"
+      },
+      {
+        "code" : "L01XC16",
+        "display" : "Dinutuximab"
+      },
+      {
+        "code" : "L01XC17",
+        "display" : "Nivolumab"
+      },
+      {
+        "code" : "L01XC18",
+        "display" : "Pembrolizumab"
+      },
+      {
+        "code" : "L01XC19",
+        "display" : "Blinatumomab"
+      },
+      {
+        "code" : "L01XC21",
+        "display" : "Ramucirumab"
+      },
+      {
+        "code" : "L01XC22",
+        "display" : "Necitumumab"
+      },
+      {
+        "code" : "L01XC23",
+        "display" : "Elotuzumab"
+      },
+      {
+        "code" : "L01XC24",
+        "display" : "Daratumumab"
+      },
+      {
+        "code" : "L01XC25",
+        "display" : "Mogamulizumab"
+      },
+      {
+        "code" : "L01XC26",
+        "display" : "Inotuzumab ozogamicin"
+      },
+      {
+        "code" : "L01XC27",
+        "display" : "Olaratumab"
+      },
+      {
+        "code" : "L01XD01",
+        "display" : "Porfimer sodium"
+      },
+      {
+        "code" : "L01XD03",
+        "display" : "Methyl aminolevulinate"
+      },
+      {
+        "code" : "L01XD04",
+        "display" : "Aminolevulinic acid"
+      },
+      {
+        "code" : "L01XD05",
+        "display" : "Temoporfin"
+      },
+      {
+        "code" : "L01XD06",
+        "display" : "Efaproxiral"
+      },
+      {
+        "code" : "L01XE01",
+        "display" : "Imatinib"
+      },
+      {
+        "code" : "L01XE02",
+        "display" : "Gefitinib"
+      },
+      {
+        "code" : "L01XE03",
+        "display" : "Erlotinib"
+      },
+      {
+        "code" : "L01XE04",
+        "display" : "Sunitinib"
+      },
+      {
+        "code" : "L01XE05",
+        "display" : "Sorafenib"
+      },
+      {
+        "code" : "L01XE06",
+        "display" : "Dasatinib"
+      },
+      {
+        "code" : "L01XE07",
+        "display" : "Lapatinib"
+      },
+      {
+        "code" : "L01XE08",
+        "display" : "Nilotinib"
+      },
+      {
+        "code" : "L01XE09",
+        "display" : "Temsirolimus"
+      },
+      {
+        "code" : "L01XE10",
+        "display" : "Everolimus"
+      },
+      {
+        "code" : "L01XE11",
+        "display" : "Pazopanib"
+      },
+      {
+        "code" : "L01XE12",
+        "display" : "Vandetanib"
+      },
+      {
+        "code" : "L01XE13",
+        "display" : "Afatinib"
+      },
+      {
+        "code" : "L01XE14",
+        "display" : "Bosutinib"
+      },
+      {
+        "code" : "L01XE15",
+        "display" : "Vemurafenib"
+      },
+      {
+        "code" : "L01XE16",
+        "display" : "Crizotinib"
+      },
+      {
+        "code" : "L01XE17",
+        "display" : "Axitinib"
+      },
+      {
+        "code" : "L01XE18",
+        "display" : "Ruxolitinib"
+      },
+      {
+        "code" : "L01XE19",
+        "display" : "Ridaforolimus"
+      },
+      {
+        "code" : "L01XE21",
+        "display" : "Regorafenib"
+      },
+      {
+        "code" : "L01XE22",
+        "display" : "Masitinib"
+      },
+      {
+        "code" : "L01XE23",
+        "display" : "Dabrafenib"
+      },
+      {
+        "code" : "L01XE24",
+        "display" : "Ponatinib"
+      },
+      {
+        "code" : "L01XE25",
+        "display" : "Trametinib"
+      },
+      {
+        "code" : "L01XE26",
+        "display" : "Cabozantinib"
+      },
+      {
+        "code" : "L01XE27",
+        "display" : "Ibrutinib"
+      },
+      {
+        "code" : "L01XE28",
+        "display" : "Ceritinib"
+      },
+      {
+        "code" : "L01XE29",
+        "display" : "Lenvatinib"
+      },
+      {
+        "code" : "L01XE31",
+        "display" : "Nintedanib"
+      },
+      {
+        "code" : "L01XE32",
+        "display" : "Cediranib"
+      },
+      {
+        "code" : "L01XE33",
+        "display" : "Palbociclib"
+      },
+      {
+        "code" : "L01XE34",
+        "display" : "Tivozanib"
+      },
+      {
+        "code" : "L01XE35",
+        "display" : "Osimertinib"
+      },
+      {
+        "code" : "L01XE36",
+        "display" : "Alectinib"
+      },
+      {
+        "code" : "L01XE37",
+        "display" : "Rociletinib"
+      },
+      {
+        "code" : "L01XE38",
+        "display" : "Cobimetinib"
+      },
+      {
+        "code" : "L01XE39",
+        "display" : "Midostaurin"
+      },
+      {
+        "code" : "L01XE40",
+        "display" : "Olmutinib"
+      },
+      {
+        "code" : "L01XX",
+        "display" : "Other antineoplastic agent"
+      },
+      {
+        "code" : "L01XX01",
+        "display" : "Amsacrine"
+      },
+      {
+        "code" : "L01XX02",
+        "display" : "Asparaginase"
+      },
+      {
+        "code" : "L01XX03",
+        "display" : "Altretamine"
+      },
+      {
+        "code" : "L01XX05",
+        "display" : "Hydroxycarbamide"
+      },
+      {
+        "code" : "L01XX07",
+        "display" : "Lonidamine"
+      },
+      {
+        "code" : "L01XX08",
+        "display" : "Pentostatin"
+      },
+      {
+        "code" : "L01XX09",
+        "display" : "Miltefosine"
+      },
+      {
+        "code" : "L01XX10",
+        "display" : "Masoprocol"
+      },
+      {
+        "code" : "L01XX11",
+        "display" : "Estramustine"
+      },
+      {
+        "code" : "L01XX14",
+        "display" : "Tretinoin"
+      },
+      {
+        "code" : "L01XX16",
+        "display" : "Mitoguazone"
+      },
+      {
+        "code" : "L01XX17",
+        "display" : "Topotecan"
+      },
+      {
+        "code" : "L01XX18",
+        "display" : "Tiazofurine"
+      },
+      {
+        "code" : "L01XX19",
+        "display" : "Irinotecan"
+      },
+      {
+        "code" : "L01XX22",
+        "display" : "Alitretinoin"
+      },
+      {
+        "code" : "L01XX23",
+        "display" : "Mitotane"
+      },
+      {
+        "code" : "L01XX24",
+        "display" : "Pegaspargase"
+      },
+      {
+        "code" : "L01XX25",
+        "display" : "Bexarotene"
+      },
+      {
+        "code" : "L01XX27",
+        "display" : "Arsenic trioxide"
+      },
+      {
+        "code" : "L01XX29",
+        "display" : "Denileukin diftitox"
+      },
+      {
+        "code" : "L01XX32",
+        "display" : "Bortezomib"
+      },
+      {
+        "code" : "L01XX33",
+        "display" : "Celecoxib"
+      },
+      {
+        "code" : "L01XX35",
+        "display" : "Anagrelide"
+      },
+      {
+        "code" : "L01XX36",
+        "display" : "Oblimersen"
+      },
+      {
+        "code" : "L01XX37",
+        "display" : "Sitimagene ceradenovec"
+      },
+      {
+        "code" : "L01XX38",
+        "display" : "Vorinostat"
+      },
+      {
+        "code" : "L01XX39",
+        "display" : "Romidepsin"
+      },
+      {
+        "code" : "L01XX40",
+        "display" : "Omacetaxine mepesuccinate"
+      },
+      {
+        "code" : "L01XX41",
+        "display" : "Eribulin"
+      },
+      {
+        "code" : "L01XX42",
+        "display" : "Panobinostat"
+      },
+      {
+        "code" : "L01XX43",
+        "display" : "Vismodegib"
+      },
+      {
+        "code" : "L01XX44",
+        "display" : "Aflibercept"
+      },
+      {
+        "code" : "L01XX45",
+        "display" : "Carfilzomib"
+      },
+      {
+        "code" : "L01XX46",
+        "display" : "Olaparib"
+      },
+      {
+        "code" : "L01XX47",
+        "display" : "Idelalisib"
+      },
+      {
+        "code" : "L01XX48",
+        "display" : "Sonidegib"
+      },
+      {
+        "code" : "L01XX49",
+        "display" : "Belinostat"
+      },
+      {
+        "code" : "L01XX50",
+        "display" : "Ixazomib"
+      },
+      {
+        "code" : "L01XX51",
+        "display" : "Talimogene laherparepvec"
+      },
+      {
+        "code" : "L01XX52",
+        "display" : "Venetoclax"
+      },
+      {
+        "code" : "L01XX53",
+        "display" : "Vosaroxin"
+      },
+      {
+        "code" : "L01XY",
+        "display" : "Combination of antineoplastic agents"
+      },
+      {
+        "code" : "L02AA01",
+        "display" : "Diethylstilbestrol"
+      },
+      {
+        "code" : "L02AA02",
+        "display" : "Polyestradiol phosphate"
+      },
+      {
+        "code" : "L02AA03",
+        "display" : "Ethinylestradiol"
+      },
+      {
+        "code" : "L02AA04",
+        "display" : "Fosfestrol"
+      },
+      {
+        "code" : "L02AB01",
+        "display" : "Megestrol"
+      },
+      {
+        "code" : "L02AB02",
+        "display" : "Medroxyprogesterone"
+      },
+      {
+        "code" : "L02AB03",
+        "display" : "Gestonorone"
+      },
+      {
+        "code" : "L02AE01",
+        "display" : "Buserelin"
+      },
+      {
+        "code" : "L02AE02",
+        "display" : "Leuprorelin"
+      },
+      {
+        "code" : "L02AE03",
+        "display" : "Goserelin"
+      },
+      {
+        "code" : "L02AE04",
+        "display" : "Triptorelin"
+      },
+      {
+        "code" : "L02AE05",
+        "display" : "Histrelin"
+      },
+      {
+        "code" : "L02BA01",
+        "display" : "Tamoxifen"
+      },
+      {
+        "code" : "L02BA02",
+        "display" : "Toremifene"
+      },
+      {
+        "code" : "L02BA03",
+        "display" : "Fulvestrant"
+      },
+      {
+        "code" : "L02BB01",
+        "display" : "Flutamide"
+      },
+      {
+        "code" : "L02BB02",
+        "display" : "Nilutamide"
+      },
+      {
+        "code" : "L02BB03",
+        "display" : "Bicalutamide"
+      },
+      {
+        "code" : "L02BB04",
+        "display" : "Enzalutamide"
+      },
+      {
+        "code" : "L02BG01",
+        "display" : "Aminogluthetimide"
+      },
+      {
+        "code" : "L02BG02",
+        "display" : "Formestane"
+      },
+      {
+        "code" : "L02BG03",
+        "display" : "Anastrozole"
+      },
+      {
+        "code" : "L02BG04",
+        "display" : "Letrozole"
+      },
+      {
+        "code" : "L02BG05",
+        "display" : "Vorozole"
+      },
+      {
+        "code" : "L02BG06",
+        "display" : "Exemestane"
+      },
+      {
+        "code" : "L02BX01",
+        "display" : "Abarelix"
+      },
+      {
+        "code" : "L02BX02",
+        "display" : "Degarelix"
+      },
+      {
+        "code" : "L02BX03",
+        "display" : "Abiraterone"
+      },
+      {
+        "code" : "L03AA02",
+        "display" : "Filgrastim"
+      },
+      {
+        "code" : "L03AA03",
+        "display" : "Molgramostim"
+      },
+      {
+        "code" : "L03AA09",
+        "display" : "Sargramostim"
+      },
+      {
+        "code" : "L03AA10",
+        "display" : "Lenograstim"
+      },
+      {
+        "code" : "L03AA12",
+        "display" : "Ancestim"
+      },
+      {
+        "code" : "L03AA13",
+        "display" : "Pegfilgrastim"
+      },
+      {
+        "code" : "L03AA14",
+        "display" : "Lipegfilgrastim"
+      },
+      {
+        "code" : "L03AA15",
+        "display" : "Balugrastim"
+      },
+      {
+        "code" : "L03AA16",
+        "display" : "Empegfilgrastim"
+      },
+      {
+        "code" : "L03AB01",
+        "display" : "Interferon alfa natural"
+      },
+      {
+        "code" : "L03AB02",
+        "display" : "Interferon beta natural"
+      },
+      {
+        "code" : "L03AB03",
+        "display" : "Interferon gamma"
+      },
+      {
+        "code" : "L03AB04",
+        "display" : "Interferon alfa-2a"
+      },
+      {
+        "code" : "L03AB05",
+        "display" : "Interferon alfa-2b"
+      },
+      {
+        "code" : "L03AB06",
+        "display" : "Interferon alfa-n1"
+      },
+      {
+        "code" : "L03AB07",
+        "display" : "Interferon beta-1a"
+      },
+      {
+        "code" : "L03AB08",
+        "display" : "Interferon beta-1b"
+      },
+      {
+        "code" : "L03AB09",
+        "display" : "Interferon alfacon-1"
+      },
+      {
+        "code" : "L03AB10",
+        "display" : "Peginterferon alfa-2b"
+      },
+      {
+        "code" : "L03AB11",
+        "display" : "Peginterferon alfa-2a"
+      },
+      {
+        "code" : "L03AB12",
+        "display" : "Albinterferon alfa-2b"
+      },
+      {
+        "code" : "L03AB13",
+        "display" : "Peginterferon beta-1a"
+      },
+      {
+        "code" : "L03AB14",
+        "display" : "Cepeginterferon alfa-2b"
+      },
+      {
+        "code" : "L03AB60",
+        "display" : "Peginterferon alfa-2b, combinations"
+      },
+      {
+        "code" : "L03AB61",
+        "display" : "Peginterferon alfa-2a, combinations"
+      },
+      {
+        "code" : "L03AB90",
+        "display" : "Interferone ricombinante omega di origine felina"
+      },
+      {
+        "code" : "L03AC01",
+        "display" : "Aldesleukin"
+      },
+      {
+        "code" : "L03AC02",
+        "display" : "Oprelvekin"
+      },
+      {
+        "code" : "L03AX01",
+        "display" : "Lentinan"
+      },
+      {
+        "code" : "L03AX02",
+        "display" : "Roquinimex"
+      },
+      {
+        "code" : "L03AX03",
+        "display" : "BCG vaccine"
+      },
+      {
+        "code" : "L03AX04",
+        "display" : "Pegademase"
+      },
+      {
+        "code" : "L03AX05",
+        "display" : "Pidotimod"
+      },
+      {
+        "code" : "L03AX07",
+        "display" : "Poly I:C"
+      },
+      {
+        "code" : "L03AX08",
+        "display" : "Poly ICLC"
+      },
+      {
+        "code" : "L03AX09",
+        "display" : "Thymopentin"
+      },
+      {
+        "code" : "L03AX10",
+        "display" : "Immunocyanin"
+      },
+      {
+        "code" : "L03AX11",
+        "display" : "Tasonermin"
+      },
+      {
+        "code" : "L03AX12",
+        "display" : "Melanoma vaccine"
+      },
+      {
+        "code" : "L03AX13",
+        "display" : "Glatiramer acetate"
+      },
+      {
+        "code" : "L03AX14",
+        "display" : "Histamine dihydrochloride"
+      },
+      {
+        "code" : "L03AX15",
+        "display" : "Mifamurtide"
+      },
+      {
+        "code" : "L03AX16",
+        "display" : "Plerixafor"
+      },
+      {
+        "code" : "L03AX17",
+        "display" : "Sipuleucel-T"
+      },
+      {
+        "code" : "L03AX18",
+        "display" : "Cridanimod"
+      },
+      {
+        "code" : "L03AX19",
+        "display" : "Dasiprotimut-T"
+      },
+      {
+        "code" : "L04AA02",
+        "display" : "Muromonab-CD3"
+      },
+      {
+        "code" : "L04AA03",
+        "display" : "Antilymphocyte immunoglobulin (horse)"
+      },
+      {
+        "code" : "L04AA04",
+        "display" : "Antithymocyte immunoglobulin (rabbit)"
+      },
+      {
+        "code" : "L04AA06",
+        "display" : "Mycophenolic acid"
+      },
+      {
+        "code" : "L04AA10",
+        "display" : "Sirolimus"
+      },
+      {
+        "code" : "L04AA13",
+        "display" : "Leflunomide"
+      },
+      {
+        "code" : "L04AA15",
+        "display" : "Alefacept"
+      },
+      {
+        "code" : "L04AA18",
+        "display" : "Everolimus"
+      },
+      {
+        "code" : "L04AA19",
+        "display" : "Gusperimus"
+      },
+      {
+        "code" : "L04AA21",
+        "display" : "Efalizumab"
+      },
+      {
+        "code" : "L04AA22",
+        "display" : "Abetimus"
+      },
+      {
+        "code" : "L04AA23",
+        "display" : "Natalizumab"
+      },
+      {
+        "code" : "L04AA24",
+        "display" : "Abatacept"
+      },
+      {
+        "code" : "L04AA25",
+        "display" : "Eculizumab"
+      },
+      {
+        "code" : "L04AA26",
+        "display" : "Belimumab"
+      },
+      {
+        "code" : "L04AA27",
+        "display" : "Fingolimod"
+      },
+      {
+        "code" : "L04AA28",
+        "display" : "Belatacept"
+      },
+      {
+        "code" : "L04AA29",
+        "display" : "Tofacitinib"
+      },
+      {
+        "code" : "L04AA31",
+        "display" : "Teriflunomide"
+      },
+      {
+        "code" : "L04AA32",
+        "display" : "Apremilast"
+      },
+      {
+        "code" : "L04AA33",
+        "display" : "Vedolizumab"
+      },
+      {
+        "code" : "L04AA34",
+        "display" : "Alemtuzumab"
+      },
+      {
+        "code" : "L04AA35",
+        "display" : "Begelomab"
+      },
+      {
+        "code" : "L04AA36",
+        "display" : "Ocrelizumab"
+      },
+      {
+        "code" : "L04AA37",
+        "display" : "Baricitinib"
+      },
+      {
+        "code" : "L04AB01",
+        "display" : "Etanercept"
+      },
+      {
+        "code" : "L04AB02",
+        "display" : "Infliximab"
+      },
+      {
+        "code" : "L04AB03",
+        "display" : "Afelimomab"
+      },
+      {
+        "code" : "L04AB04",
+        "display" : "Adalimumab"
+      },
+      {
+        "code" : "L04AB05",
+        "display" : "Certolizumab pegol"
+      },
+      {
+        "code" : "L04AB06",
+        "display" : "Golimumab"
+      },
+      {
+        "code" : "L04AC01",
+        "display" : "Daclizumab"
+      },
+      {
+        "code" : "L04AC02",
+        "display" : "Basiliximab"
+      },
+      {
+        "code" : "L04AC03",
+        "display" : "Anakinra"
+      },
+      {
+        "code" : "L04AC04",
+        "display" : "Rilonacept"
+      },
+      {
+        "code" : "L04AC05",
+        "display" : "Ustekinumab"
+      },
+      {
+        "code" : "L04AC06",
+        "display" : "Mepolizumab"
+      },
+      {
+        "code" : "L04AC07",
+        "display" : "Tocilizumab"
+      },
+      {
+        "code" : "L04AC08",
+        "display" : "Canakinumab"
+      },
+      {
+        "code" : "L04AC09",
+        "display" : "Briakinumab"
+      },
+      {
+        "code" : "L04AC10",
+        "display" : "Secukinumab"
+      },
+      {
+        "code" : "L04AC11",
+        "display" : "Siltuximab"
+      },
+      {
+        "code" : "L04AC12",
+        "display" : "Brodalumab"
+      },
+      {
+        "code" : "L04AC13",
+        "display" : "Ixekizumab"
+      },
+      {
+        "code" : "L04AC14",
+        "display" : "Sarilumab"
+      },
+      {
+        "code" : "L04AD01",
+        "display" : "Ciclosporin"
+      },
+      {
+        "code" : "L04AD02",
+        "display" : "Tacrolimus"
+      },
+      {
+        "code" : "L04AD03",
+        "display" : "Voclosporin"
+      },
+      {
+        "code" : "L04AX01",
+        "display" : "Azathioprine"
+      },
+      {
+        "code" : "L04AX02",
+        "display" : "Thalidomide"
+      },
+      {
+        "code" : "L04AX03",
+        "display" : "Methotrexate"
+      },
+      {
+        "code" : "L04AX04",
+        "display" : "Lenalidomide"
+      },
+      {
+        "code" : "L04AX05",
+        "display" : "Pirfenidone"
+      },
+      {
+        "code" : "L04AX06",
+        "display" : "Pomalidomide"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:2fd530f9-2e03-4b7c-bce6-8bd3b53b52e5",
+    "timestamp" : "2024-02-08T16:08:59.107Z",
+    "total" : 266,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://www.whocc.no/atc|2020-05"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://www.whocc.no/atc|2020-05"
+    }],
+    "contains" : [{
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA01",
+      "display" : "cyclophosphamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA02",
+      "display" : "chlorambucil"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA03",
+      "display" : "melphalan"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA05",
+      "display" : "chlormethine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA06",
+      "display" : "ifosfamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA07",
+      "display" : "trofosfamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA08",
+      "display" : "prednimustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AA09",
+      "display" : "bendamustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AB01",
+      "display" : "busulfan"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AB02",
+      "display" : "treosulfan"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AB03",
+      "display" : "mannosulfan"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AC01",
+      "display" : "thiotepa"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AC02",
+      "display" : "triaziquone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AC03",
+      "display" : "carboquone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD01",
+      "display" : "carmustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD02",
+      "display" : "lomustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD03",
+      "display" : "semustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD04",
+      "display" : "streptozocin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD05",
+      "display" : "fotemustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD06",
+      "display" : "nimustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AD07",
+      "display" : "ranimustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AG01",
+      "display" : "etoglucid"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AX",
+      "display" : "Other alkylating agents"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AX01",
+      "display" : "mitobronitol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AX02",
+      "display" : "pipobroman"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AX03",
+      "display" : "temozolomide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01AX04",
+      "display" : "dacarbazine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BA01",
+      "display" : "methotrexate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BA03",
+      "display" : "raltitrexed"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BA04",
+      "display" : "pemetrexed"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BA05",
+      "display" : "pralatrexate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB02",
+      "display" : "mercaptopurine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB03",
+      "display" : "tioguanine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB04",
+      "display" : "cladribine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB05",
+      "display" : "fludarabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB06",
+      "display" : "clofarabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BB07",
+      "display" : "nelarabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC01",
+      "display" : "cytarabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC02",
+      "display" : "fluorouracil"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC03",
+      "display" : "tegafur"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC04",
+      "display" : "carmofur"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC05",
+      "display" : "gemcitabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC06",
+      "display" : "capecitabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC07",
+      "display" : "azacitidine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC08",
+      "display" : "decitabine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC52",
+      "display" : "fluorouracil, combinations"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC53",
+      "display" : "tegafur, combinations"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01BC59",
+      "display" : "trifluridine, combinations"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA01",
+      "display" : "vinblastine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA02",
+      "display" : "vincristine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA03",
+      "display" : "vindesine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA04",
+      "display" : "vinorelbine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA05",
+      "display" : "vinflunine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CA06",
+      "display" : "vintafolide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CB01",
+      "display" : "etoposide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CB02",
+      "display" : "teniposide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CC01",
+      "display" : "demecolcine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CD01",
+      "display" : "paclitaxel"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CD02",
+      "display" : "docetaxel"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CD03",
+      "display" : "paclitaxel poliglumex"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CD04",
+      "display" : "cabazitaxel"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01CX01",
+      "display" : "trabectedin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DA01",
+      "display" : "dactinomycin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB01",
+      "display" : "doxorubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB02",
+      "display" : "daunorubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB03",
+      "display" : "epirubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB04",
+      "display" : "aclarubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB05",
+      "display" : "zorubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB06",
+      "display" : "idarubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB07",
+      "display" : "mitoxantrone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB08",
+      "display" : "pirarubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB09",
+      "display" : "valrubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB10",
+      "display" : "amrubicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DB11",
+      "display" : "pixantrone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DC01",
+      "display" : "bleomycin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DC02",
+      "display" : "plicamycin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DC03",
+      "display" : "mitomycin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01DC04",
+      "display" : "ixabepilone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XA01",
+      "display" : "cisplatin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XA02",
+      "display" : "carboplatin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XA03",
+      "display" : "oxaliplatin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XA04",
+      "display" : "satraplatin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XA05",
+      "display" : "polyplatillen"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XB01",
+      "display" : "procarbazine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC01",
+      "display" : "edrecolomab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC02",
+      "display" : "rituximab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC03",
+      "display" : "trastuzumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC05",
+      "display" : "gemtuzumab ozogamicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC06",
+      "display" : "cetuximab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC07",
+      "display" : "bevacizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC08",
+      "display" : "panitumumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC09",
+      "display" : "catumaxomab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC10",
+      "display" : "ofatumumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC11",
+      "display" : "ipilimumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC12",
+      "display" : "brentuximab vedotin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC13",
+      "display" : "pertuzumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC14",
+      "display" : "trastuzumab emtansine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC15",
+      "display" : "obinutuzumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC16",
+      "display" : "dinutuximab beta"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC17",
+      "display" : "nivolumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC18",
+      "display" : "pembrolizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC19",
+      "display" : "blinatumomab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC21",
+      "display" : "ramucirumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC22",
+      "display" : "necitumumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC23",
+      "display" : "elotuzumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC24",
+      "display" : "daratumumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC25",
+      "display" : "mogamulizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC26",
+      "display" : "inotuzumab ozogamicin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XC27",
+      "display" : "olaratumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XD01",
+      "display" : "porfimer sodium"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XD03",
+      "display" : "methyl aminolevulinate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XD04",
+      "display" : "aminolevulinic acid"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XD05",
+      "display" : "temoporfin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XD06",
+      "display" : "efaproxiral"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX",
+      "display" : "Other antineoplastic agents"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX01",
+      "display" : "amsacrine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX02",
+      "display" : "asparaginase"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX03",
+      "display" : "altretamine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX05",
+      "display" : "hydroxycarbamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX07",
+      "display" : "lonidamine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX08",
+      "display" : "pentostatin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX10",
+      "display" : "masoprocol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX11",
+      "display" : "estramustine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX16",
+      "display" : "mitoguazone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX18",
+      "display" : "tiazofurine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX23",
+      "display" : "mitotane"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX24",
+      "display" : "pegaspargase"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX27",
+      "display" : "arsenic trioxide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX29",
+      "display" : "denileukin diftitox"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX33",
+      "display" : "celecoxib"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX35",
+      "display" : "anagrelide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX36",
+      "display" : "oblimersen"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX37",
+      "display" : "sitimagene ceradenovec"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX40",
+      "display" : "omacetaxine mepesuccinate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX41",
+      "display" : "eribulin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX44",
+      "display" : "aflibercept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX51",
+      "display" : "talimogene laherparepvec"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX52",
+      "display" : "venetoclax"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XX53",
+      "display" : "vosaroxin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L01XY",
+      "display" : "Combinations of antineoplastic agents"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AA01",
+      "display" : "diethylstilbestrol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AA02",
+      "display" : "polyestradiol phosphate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AA03",
+      "display" : "ethinylestradiol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AA04",
+      "display" : "fosfestrol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AB01",
+      "display" : "megestrol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AB02",
+      "display" : "medroxyprogesterone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AB03",
+      "display" : "gestonorone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AE01",
+      "display" : "buserelin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AE02",
+      "display" : "leuprorelin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AE03",
+      "display" : "goserelin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AE04",
+      "display" : "triptorelin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02AE05",
+      "display" : "histrelin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BA01",
+      "display" : "tamoxifen"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BA02",
+      "display" : "toremifene"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BA03",
+      "display" : "fulvestrant"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BB01",
+      "display" : "flutamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BB02",
+      "display" : "nilutamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BB03",
+      "display" : "bicalutamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BB04",
+      "display" : "enzalutamide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG01",
+      "display" : "aminoglutethimide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG02",
+      "display" : "formestane"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG03",
+      "display" : "anastrozole"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG04",
+      "display" : "letrozole"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG05",
+      "display" : "vorozole"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BG06",
+      "display" : "exemestane"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BX01",
+      "display" : "abarelix"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BX02",
+      "display" : "degarelix"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L02BX03",
+      "display" : "abiraterone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA02",
+      "display" : "filgrastim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA03",
+      "display" : "molgramostim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA09",
+      "display" : "sargramostim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA10",
+      "display" : "lenograstim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA12",
+      "display" : "ancestim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA13",
+      "display" : "pegfilgrastim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA14",
+      "display" : "lipegfilgrastim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA15",
+      "display" : "balugrastim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AA16",
+      "display" : "empegfilgrastim"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB01",
+      "display" : "interferon alfa natural"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB02",
+      "display" : "interferon beta natural"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB03",
+      "display" : "interferon gamma"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB04",
+      "display" : "interferon alfa-2a"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB05",
+      "display" : "interferon alfa-2b"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB06",
+      "display" : "interferon alfa-n1"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB07",
+      "display" : "interferon beta-1a"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB08",
+      "display" : "interferon beta-1b"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB09",
+      "display" : "interferon alfacon-1"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB10",
+      "display" : "peginterferon alfa-2b"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB11",
+      "display" : "peginterferon alfa-2a"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB12",
+      "display" : "albinterferon alfa-2b"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB13",
+      "display" : "peginterferon beta-1a"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB14",
+      "display" : "cepeginterferon alfa-2b"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB60",
+      "display" : "peginterferon alfa-2b, combinations"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AB61",
+      "display" : "peginterferon alfa-2a, combinations"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AC01",
+      "display" : "aldesleukin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AC02",
+      "display" : "oprelvekin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX01",
+      "display" : "lentinan"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX02",
+      "display" : "roquinimex"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX03",
+      "display" : "BCG vaccine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX04",
+      "display" : "pegademase"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX05",
+      "display" : "pidotimod"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX07",
+      "display" : "poly I:C"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX08",
+      "display" : "poly ICLC"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX09",
+      "display" : "thymopentin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX10",
+      "display" : "immunocyanin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX11",
+      "display" : "tasonermin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX12",
+      "display" : "melanoma vaccine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX13",
+      "display" : "glatiramer acetate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX14",
+      "display" : "histamine dihydrochloride"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX15",
+      "display" : "mifamurtide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX16",
+      "display" : "plerixafor"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX17",
+      "display" : "sipuleucel-T"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX18",
+      "display" : "cridanimod"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L03AX19",
+      "display" : "dasiprotimut-T"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA02",
+      "display" : "muromonab-CD3"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA03",
+      "display" : "antilymphocyte immunoglobulin (horse)"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA04",
+      "display" : "antithymocyte immunoglobulin (rabbit)"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA06",
+      "display" : "mycophenolic acid"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA10",
+      "display" : "sirolimus"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA13",
+      "display" : "leflunomide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA15",
+      "display" : "alefacept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA18",
+      "display" : "everolimus"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA19",
+      "display" : "gusperimus"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA21",
+      "display" : "efalizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA22",
+      "display" : "abetimus"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA23",
+      "display" : "natalizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA24",
+      "display" : "abatacept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA25",
+      "display" : "eculizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA26",
+      "display" : "belimumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA27",
+      "display" : "fingolimod"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA28",
+      "display" : "belatacept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA29",
+      "display" : "tofacitinib"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA31",
+      "display" : "teriflunomide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA32",
+      "display" : "apremilast"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA33",
+      "display" : "vedolizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA34",
+      "display" : "alemtuzumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA35",
+      "display" : "begelomab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA36",
+      "display" : "ocrelizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AA37",
+      "display" : "baricitinib"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB01",
+      "display" : "etanercept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB02",
+      "display" : "infliximab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB03",
+      "display" : "afelimomab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB04",
+      "display" : "adalimumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB05",
+      "display" : "certolizumab pegol"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AB06",
+      "display" : "golimumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC01",
+      "display" : "daclizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC02",
+      "display" : "basiliximab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC03",
+      "display" : "anakinra"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC04",
+      "display" : "rilonacept"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC05",
+      "display" : "ustekinumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC07",
+      "display" : "tocilizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC08",
+      "display" : "canakinumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC09",
+      "display" : "briakinumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC10",
+      "display" : "secukinumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC11",
+      "display" : "siltuximab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC12",
+      "display" : "brodalumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC13",
+      "display" : "ixekizumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AC14",
+      "display" : "sarilumab"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AD01",
+      "display" : "ciclosporin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AD02",
+      "display" : "tacrolimus"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AD03",
+      "display" : "voclosporin"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX01",
+      "display" : "azathioprine"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX02",
+      "display" : "thalidomide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX03",
+      "display" : "methotrexate"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX04",
+      "display" : "lenalidomide"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX05",
+      "display" : "pirfenidone"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "L04AX06",
+      "display" : "pomalidomide"
     }]
   }
 },

@@ -164,7 +164,7 @@ e: {
       },
       {
         "code" : "4024005",
-        "display" : "external beam RT protons "
+        "display" : "external beam RT protons"
       },
       {
         "code" : "4012485",
@@ -231,7 +231,7 @@ e: {
     {
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
       "code" : "4024005",
-      "display" : "external beam RT protons "
+      "display" : "external beam RT protons"
     },
     {
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
@@ -7908,7 +7908,7 @@ e: {
       },
       {
         "code" : "4024005",
-        "display" : "external beam RT protons "
+        "display" : "external beam RT protons"
       },
       {
         "code" : "4012485",
@@ -7975,7 +7975,7 @@ e: {
     {
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
       "code" : "4024005",
-      "display" : "external beam RT protons "
+      "display" : "external beam RT protons"
     },
     {
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",

@@ -131,7 +131,7 @@ This comment applies to all the inlcuded elements."
 Evaluate if it represents a morphology/hystology classification.
 This comment applies to all the inlcuded elements."					
 * group[=].element[+].code = #CancerEpisode.sarcomaClassification.vascularTumours					
-* group[=].element[=].display = "Vascular tumours "					
+* group[=].element[=].display = "Vascular tumours"					
 * group[=].element[=].target.code = #Condition.code					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
@@ -301,7 +301,7 @@ This comment applies to all the inlcuded elements."
 * group[=].element[=].target.equivalence = #equivalent					
 * group[=].element[=].target.comment = "Where evidence.code is $loinc#21889-1 Size Tumor AND detail.resolve().ofType(Observation).code='$athena#36768664'"					
 * group[=].element[+].code = #CancerEpisode.depth					
-* group[=].element[=].display = "Depth "					
+* group[=].element[=].display = "Depth"					
 * group[=].element[=].target.code = #Condition.bodySite.extension:locationQualifier					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					

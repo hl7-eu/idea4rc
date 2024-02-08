@@ -26,9 +26,9 @@ Description: "This profile constrains the Observation resource to represent test
 Invariant: obs-valueOftype-quantity
 Description: "If the type is Mitotic count score or Size Tumor then the value is a Quantity"
 Severity:    #warning
-Expression:  "( code.where(code = '371472000') or code.where(code = '36768664') ) implies valueQuantity.exists()"
+Expression:  "( (code = '371472000') or (code = '36768664') ) implies value.ofType(Quantity).exists()"
 
 Invariant: obs-valueOftype-codeable
 Description: "If the type is not Mitotic count score or Size Tumor then the value is a CodeableConcept"
 Severity:    #warning
-Expression:  "( code.where(code != '371472000') and code.where(code != '21889-1') )  implies valueCodeableConcept.exists()"
+Expression:  "( (code != '371472000') and (code != '36768664') )  implies value.ofType(CodeableConcept).exists()"
