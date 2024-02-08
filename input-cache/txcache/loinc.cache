@@ -1830,7 +1830,6 @@ v: {
   "error" : "The provided code 'http://loinc.org#5792-7' was not found in the value set 'http://loinc.org/vs/LL529-9'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -1852,5 +1851,168 @@ v: {
   }]
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "43730-1",
+        "display" : "EBV DNA NAA+probe Qn"
+      },
+      {
+        "code" : "77377-0",
+        "display" : "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]"
+      },
+      {
+        "code" : "11039-5",
+        "display" : "C reactive protein [Presence] in Serum or Plasma"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:c50608e6-6f0b-4d06-845b-69c251ff2353",
+    "timestamp" : "2024-02-08T14:28:32.745Z",
+    "total" : 3,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.74"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "43730-1",
+      "display" : "Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "77377-0",
+      "display" : "Human papilloma virus 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA [Interpretation] in Specimen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "11039-5",
+      "display" : "C reactive protein [Presence] in Serum or Plasma"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21889-1"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Size Tumor",
+  "code" : "21889-1",
+  "system" : "http://loinc.org",
+  "version" : "2.74",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "43730-1",
+        "display" : "EBV DNA NAA+probe Qn"
+      },
+      {
+        "code" : "77377-0",
+        "display" : "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]"
+      },
+      {
+        "code" : "11039-5",
+        "display" : "C reactive protein [Presence] in Serum or Plasma"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:0d5b77d0-fd9a-4faa-8780-da67bc749b2b",
+    "timestamp" : "2024-02-08T14:33:10.932Z",
+    "total" : 3,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://loinc.org|2.74"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.74"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "43730-1",
+      "display" : "Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "77377-0",
+      "display" : "Human papilloma virus 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA [Interpretation] in Specimen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "11039-5",
+      "display" : "C reactive protein [Presence] in Serum or Plasma"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

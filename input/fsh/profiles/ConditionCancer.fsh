@@ -88,7 +88,8 @@ This profile should be also used for documenting primary cancer relapses during 
 * clinicalStatus ^example.valueCodeableConcept = $condition-clinical#relapse
 * clinicalStatus ^example.label = "Relapse"
   
-* code 1.. MS // add value set; add slices for
+* code 1.. 
+* code from CancerDiagnosisVS (extensible)
 
 * onset[x] MS
 * encounter only Reference (EncounterI4rc) // Link this cancer with a follow up encounter.
@@ -97,8 +98,6 @@ This profile should be also used for documenting primary cancer relapses during 
   To be used for subsequent primary cancers."""
 
 * stage.assessment only Reference(CancerStageGroup)
-// * stage MS
-// and stage.assessment MS
 * stage.summary from CancerStageGradingVS
   * ^short = "Most recent Stage Group"
   * ^definition = "As for mCODE, in IDEA4RC staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the stage group MAY appear in this element, copied from the CancerStageGroup, but Data Senders and Receivers MAY ignore it."
