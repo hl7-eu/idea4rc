@@ -21,7 +21,7 @@ footer {
 
 legend {
   FontSize 15
-  BackGroundColor yellow
+  BackGroundColor white
   Margin 10
   Padding 5
 }
@@ -49,44 +49,54 @@ hide circle
 skinparam linetype ortho
 scale 0.7
 
-object "Patient" as p {
+legend top left
+|= |= Review Status |
+|<back:#87e887>   </back>| Reviewed |
+|<back:#94d8f2>   </back>| Reviewed (1st round)|
+|<back:#f2ef94>   </back>| Next in line |
+|<back:#f2d994>   </back>| 2nd in line |
+
+ 
+endlegend
+
+object "Patient" as p #f2ef94 {
     }
 url of p [[StructureDefinition-Subject.html]]
 
-object "HospitalData" as hd {
+object "HospitalData" as hd #f2ef94 {
     }
 url of hd [[StructureDefinition-HospitalPatientRecords.html]]
 
-object "HospitalPatientRecords" as hpr {
+object "HospitalPatientRecords" as hpr #f2ef94 {
     }
 url of hpr [[StructureDefinition-HospitalPatientRecords.html]]
 
-object "PatientFollowUp" as pfu {
+object "PatientFollowUp" as pfu #f2ef94 {
     }
 url of pfu [[StructureDefinition-PatientFollowUp.html]]
 
-object "CancerEpisode" as ce {
+object "CancerEpisode" as ce #94d8f2 {
     }
 url of ce [[StructureDefinition-CancerEpisode.html]]
-object "EpisodeEvent" as ee {
+object "EpisodeEvent" as ee #f2ef94 {
     }
 url of ee [[StructureDefinition-EpisodeEvent.html]]
-object "GeneticTestExpression" as gte {
+object "GeneticTestExpression" as gte  {
     }
 url of gte [[StructureDefinition-GeneticTestExpression.html]]
-object "Stage" as s {
+object "Stage" as s #f2d994 {
     }
 url of s [[StructureDefinition-Stage.html]]
 object "PathologicalReportInfo" as pri {
     }
 
-object "Surgery" as su {
+object "Surgery" as su #f2d994 {
     }
 url of su [[StructureDefinition-Surgery.html]]
 object "SystemicTreatment" as st {
     }
 url of st [[StructureDefinition-SystemicTreatment.html]]
-object "Radiotherapy" as r {
+object "Radiotherapy" as r #f2d994 {
     }
 url of r [[StructureDefinition-Radiotherapy.html]]
 object "OtherLocalTreatment" as olt {
