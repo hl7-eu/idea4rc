@@ -11,45 +11,52 @@ Usage: #definition
 * experimental = true					
 * description = "Patient Follow up Model to this guide Map"					
 * purpose = "It shows how the Patient Follow up model is mapped into this guide"					
-* sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUpI4rc"					
+* sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUp"					
 * targetUri = "http://hl7.org/fhir/StrcutureDefinition/DomainResource"					
-* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUpI4rc"					
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/encounter-followup-eu-i4rc"					
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUp"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Encounter-eu-i4rc"					
 					
-* group[=].element[+].code = #PatientFollowUpI4rc.patient					
+* group[=].element[+].code = #PatientFollowUp.patient					
 * group[=].element[=].display = "Patient"					
 * group[=].element[=].target.code = #Encounter.subject					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #PatientFollowUpI4rc.statusAtLastFollowUp					
+* group[=].element[+].code = #PatientFollowUp.statusAtLastFollowUp					
+* group[=].element[=].display = "Status at last follow-up"					
+* group[=].element[=].target.code = #Encounter.					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.comment = "TO BE MAPPED"					
+* group[=].element[+].code = #PatientFollowUp.statusAtLastFollowUp					
 * group[=].element[=].display = "Status at last follow-up"					
 * group[=].element[=].target.code = #Encounter.diagnosis.condition					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "Where use = CsGenericI4rc#last-followup-dx (Diagnosis at the last follow-up)
+* group[=].element[=].target.comment = "Intended as the diagnosis at the last follow up. 
+use = $diagnosis-role#AD (AdmissionDiagnosis)
 Details in the referred Condition"					
-* group[=].element[+].code = #PatientFollowUpI4rc.patientFollowUpDate					
+* group[=].element[+].code = #PatientFollowUp.patientFollowUpDate					
 * group[=].element[=].display = "Patient Follow Up date"					
-* group[=].element[=].target.code = #Encounter.period.end					
+* group[=].element[=].target.code = #Encounter.period.start					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					
-* group[=].element[+].code = #PatientFollowUpI4rc.newCancerDiagnosis					
+* group[=].element[+].code = #PatientFollowUp.newCancerDiagnosis					
 * group[=].element[=].display = "New cancer diagnosis"					
 * group[=].element[=].target.code = #Encounter.diagnosis.condition					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "Where use = $diagnosis-role#DD (Discharge Diagnosis)
 Details in the referred Condition"					
-* group[=].element[+].code = #PatientFollowUpI4rc.dateOfNewCancerDiagnosis					
+* group[=].element[+].code = #PatientFollowUp.dateOfNewCancerDiagnosis					
 * group[=].element[=].display = "Date of new cancer diagnosis"					
 * group[=].element[=].target.code = #Encounter.diagnosis.condition					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "Where use = $diagnosis-role#DD (Discharge Diagnosis)
 Details in the referred Condition"					
-* group[=].element[+].code = #PatientFollowUpI4rc.newCancerTopography					
+* group[=].element[+].code = #PatientFollowUp.newCancerTopography					
 * group[=].element[=].display = "New cancer topography"					
 * group[=].element[=].target.code = #Encounter.diagnosis.condition					
 * group[=].element[=].target.display = ""					
@@ -59,46 +66,48 @@ Details in the referred Condition"
 //---END					
 //---END					
 //---END					
+//---END					
+//---END					
+//---END					
 					
-					
-					
-					
-* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUpI4rc"					
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUp"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"					
 					
-* group[=].element[+].code = #PatientFollowUpI4rc.patient					
+* group[=].element[+].code = #PatientFollowUp.patient					
 * group[=].element[=].display = "Patient"					
-* group[=].element[=].target.code = #Encounter.patient					
+* group[=].element[=].target.code = #Condition.patient					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #PatientFollowUpI4rc.statusAtLastFollowUp					
+* group[=].element[+].code = #PatientFollowUp.statusAtLastFollowUp					
 * group[=].element[=].display = "Status at last follow-up"					
-* group[=].element[=].target.code = #Encounter.clinicalStatus					
+* group[=].element[=].target.code = #Condition.clinicalStatus					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Parent Encounter.diagnosis with use = CsGenericI4rc#last-followup-dx (Diagnosis at the last follow-up)"					
-* group[=].element[+].code = #PatientFollowUpI4rc.patientFollowUpDate					
+* group[=].element[=].target.comment = "Intended as the diagnosis at the last follow up. 
+Parent Encounter.diagnosis with use = $diagnosis-role#AD (AdmissionDiagnosis)
+Details in the referred Condition"					
+* group[=].element[+].code = #PatientFollowUp.patientFollowUpDate					
 * group[=].element[=].display = "Patient Follow Up date"					
 //-- unmatched					
 //-- unmatched					
 * group[=].element[=].target.equivalence = #unmatched					
 					
-* group[=].element[+].code = #PatientFollowUpI4rc.newCancerDiagnosis					
+* group[=].element[+].code = #PatientFollowUp.newCancerDiagnosis					
 * group[=].element[=].display = "New cancer diagnosis"					
-* group[=].element[=].target.code = #Encounter.code					
+* group[=].element[=].target.code = #Condition.code					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 * group[=].element[=].target.comment = "Parent Encounter.diagnosis with use = $diagnosis-role#DD (Discharge Diagnosis)"					
-* group[=].element[+].code = #PatientFollowUpI4rc.dateOfNewCancerDiagnosis					
+* group[=].element[+].code = #PatientFollowUp.dateOfNewCancerDiagnosis					
 * group[=].element[=].display = "Date of new cancer diagnosis"					
-* group[=].element[=].target.code = #Encounter.onSetDateTime					
+* group[=].element[=].target.code = #Condition.onSetDateTime					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 * group[=].element[=].target.comment = "Parent Encounter.diagnosis with use = $diagnosis-role#DD (Discharge Diagnosis). See the CancerEpisode map for further details about the representation of the date of diagnosis"					
-* group[=].element[+].code = #PatientFollowUpI4rc.newCancerTopography					
+* group[=].element[+].code = #PatientFollowUp.newCancerTopography					
 * group[=].element[=].display = "New cancer topography"					
-* group[=].element[=].target.code = #Encounter.bodySite					
+* group[=].element[=].target.code = #Condition.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 * group[=].element[=].target.comment = "Parent Encounter.diagnosis with use = $diagnosis-role#DD (Discharge Diagnosis)"					

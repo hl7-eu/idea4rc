@@ -2,155 +2,198 @@
   "systems" : [
     {
       "system" : "http://cancerstaging.org",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/AdverseEvent-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-secondaryCancer-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Encounter-eu-i4rc",
+      "authoritative" : [],
+      "candidates" : []
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/MedicationAdministration-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Observation-diagnosis-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-otherTreatment-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-surgery-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/encounter-followup-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/episodeOfCare-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-cancer-stage-group",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-distant-metastases-category",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-primary-tumor-category",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-regional-nodes-category",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-alcoholuse-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-cci-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-comorbidity-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-dateLastContact-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-ecog-performance-status-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-extraNodalExtension-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-karnofsky-performance-statuseu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-tobaccouse-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-treatment-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-yesNo-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/patient-eu-i4rc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.org/fhir/StructureDefinition/bmi",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://loinc.org",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://snomed.info/sct",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://unitsofmeasure.org",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "http://www.whocc.no/atc",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "urn:iso:std:iso:3166",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
       "system" : "urn:iso:std:iso:3166:-2",
-      "server" : "http://tx.fhir.org/r4"
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
     }
   ]
 }
