@@ -11,9 +11,9 @@ Usage: #definition
 * experimental = true					
 * description = "Stage Model to this guide Map"					
 * purpose = "It shows how the Stage Model is mapped into this guide"					
-* sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/StageI4rc"					
+* sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Stage"					
 * targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-cancer-stage-group"					
-* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/StageI4rc"					
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Stage"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-cancer-stage-group"					
 					
 * group[=].element[+].code = #Stage.episodeEvent					
