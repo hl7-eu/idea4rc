@@ -4,7 +4,7 @@
   "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/EpisodeEventI4rc" : null,
   "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-otherTreatment-eu-i4rc" : null,
   "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc" : null,
-  "http://hl7.org/fhir/StrcutureDefinition/DomainResource" : null,
+  "http://hl7.org/fhir" : null,
   "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/StageI4rc" : null,
   "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-cancer-stage-group" : null,
   "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject" : null,

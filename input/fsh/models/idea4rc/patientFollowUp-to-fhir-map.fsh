@@ -12,7 +12,7 @@ Usage: #definition
 * description = "Patient Follow up Model to this guide Map"					
 * purpose = "It shows how the Patient Follow up model is mapped into this guide"					
 * sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUp"					
-* targetUri = "http://hl7.org/fhir/StrcutureDefinition/DomainResource"					
+* targetUri = "http://hl7.org/fhir"					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUp"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Encounter-eu-i4rc"					
 					

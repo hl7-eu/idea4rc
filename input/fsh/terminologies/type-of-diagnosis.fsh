@@ -9,7 +9,7 @@ Description: "type of Diagnosis"
 * ^experimental = false
 
 * $diagnosis-role#DD "Discharge diagnosis"
-* CsGenericI4rc#last-followup-dx "Diagnosis at the last follow-up"
+* $diagnosis-role#AD "Admission diagnosis"
 
 
 

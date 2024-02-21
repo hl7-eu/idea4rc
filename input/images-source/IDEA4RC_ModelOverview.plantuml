@@ -59,32 +59,32 @@ legend top left
  
 endlegend
 
-object "Patient" as p #f2ef94 {
+object "Patient" as p #94d8f2 {
     }
 url of p [[StructureDefinition-Subject.html]]
 
-object "HospitalData" as hd #f2ef94 {
+object "HospitalData" as hd #94d8f2 {
     }
 url of hd [[StructureDefinition-HospitalPatientRecords.html]]
 
-object "HospitalPatientRecords" as hpr #f2ef94 {
+object "HospitalPatientRecords" as hpr #94d8f2 {
     }
 url of hpr [[StructureDefinition-HospitalPatientRecords.html]]
 
-object "PatientFollowUp" as pfu #f2ef94 {
+object "PatientFollowUp" as pfu #94d8f2 {
     }
 url of pfu [[StructureDefinition-PatientFollowUp.html]]
 
 object "CancerEpisode" as ce #94d8f2 {
     }
 url of ce [[StructureDefinition-CancerEpisode.html]]
-object "EpisodeEvent" as ee #f2ef94 {
+object "EpisodeEvent" as ee #94d8f2 {
     }
 url of ee [[StructureDefinition-EpisodeEvent.html]]
 object "GeneticTestExpression" as gte  {
     }
 url of gte [[StructureDefinition-GeneticTestExpression.html]]
-object "Stage" as s #f2d994 {
+object "Stage" as s #f2ef94 {
     }
 url of s [[StructureDefinition-Stage.html]]
 object "PathologicalReportInfo" as pri {

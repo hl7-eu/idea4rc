@@ -18,7 +18,7 @@
 
 // ==
 
-* #last-followup-dx "Diagnosis at the last follow-up" "Diagnosis at the last follow-up"
+// * #last-followup-dx "Diagnosis at the last follow-up" "Diagnosis at the last follow-up"
 
 
 // == questions on genetic test performed
