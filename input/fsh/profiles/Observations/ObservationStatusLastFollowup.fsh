@@ -7,6 +7,8 @@ Description: "This profile constrains the Observation resource to represent the 
 * code = CsGenericI4rc#last-followup-status // "Status at last follow-up"
 * subject 1..
 * subject only Reference(PatientI4rc)
+* encounter 1..1
+* encounter only Reference(EncounterI4rc)
 * valueCodeableConcept 1..
 * valueCodeableConcept from VsStatusLastFollowupI4rc
 * component ..0
