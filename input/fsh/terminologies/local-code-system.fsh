@@ -28,7 +28,7 @@
 // ==
 
 // * #last-followup-dx "Diagnosis at the last follow-up" "Diagnosis at the last follow-up"
- * #last-followup-status "Status at last follow-up"
+* #last-followup-status "Status at last follow-up" "Status at last follow-up"
 
 // == questions on genetic test performed
 
