@@ -18,6 +18,14 @@ RuleSet: CancerConditionCommonRules
 /* * extension[relapseType].value[x] from RelapseTypeVS (preferred) */
 * extension[relapseType].value[x]
 
+* extension contains SameCustodianFlag named definedAt 0..1
+* extension[definedAt]
+  * ^short = "Determined in the same hospital ?"
+  * ^definition = "Whether or not the progression/recurrence or persistent disease  was performed at the registering hospital or another hospital."
+  * ^comment = "Temporary included in the guide for covering the request of tracking if this information has been captured and maintained by the same or other organizations.
+It is envisioned that this kind of requirements could be covered by recording where specific act are taking place."
+* extension[definedAt].valueBoolean
+
 /* * extension[supportingInfo].valueReference only Reference(ObservationYesNo) */
 
 * subject only Reference (PatientI4rc)

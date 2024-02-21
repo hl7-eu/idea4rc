@@ -11,9 +11,9 @@ Usage: #definition
 * experimental = true					
 * description = "Episode Event Model to this guide Map"					
 * purpose = "It shows how the Episode Event model is mapped into this guide"					
-* sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/EpisodeEventI4rc"					
+* sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/EpisodeEvent"					
 * targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"					
-* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/EpisodeEventI4rc"					
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/EpisodeEvent"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"					
 					
 * group[=].element[+].code = #EpisodeEvent.cancerEpisode					
@@ -40,9 +40,9 @@ active | recurrence | relapse | inactive | remission | resolved
 Map the expected concepts with that value set
 
 First episode => status='active'; extension:condition-occurredFollowing.empty()
-Progression - 4168352 => status='active'; extension:condition-occurredFollowing.exists() (To be checked)
+Progression - 4168352 => status='relapse'; extension:condition-occurredFollowing.exists() (To be checked)
 Recurrence - 4097297 => status='recurrence'; extension:condition-occurredFollowing.exists()
-Stable disease - 32948 => status='remission'; extension:condition-occurredFollowing.exists() (To be checked)"					
+Stable disease - 32948 => status='inactive'; extension:condition-occurredFollowing.exists() (To be checked)"					
 * group[=].element[+].code = #EpisodeEvent.definedAt					
 * group[=].element[=].display = "Defined At"					
 * group[=].element[=].target.code = #Condition.extension:definedAt					
