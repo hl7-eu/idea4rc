@@ -9,6 +9,15 @@
 * ^caseSensitive = true
 * ^experimental = false
 
+//===== status last follow up
+
+* #NED "Alive, No Evidence of Disease" "Alive, No Evidence of Disease"
+* #DOD "Dead of Disease DEATH" "Dead of Disease DEATH"
+* #DOC "Dead of Other Cause DEATH" "Dead of Other Cause DEATH"
+* #DUC "Dead of Unknown Cause DEATH" "Dead of Unknown Cause DEATH "
+* #AWD "Alive With Disease" "Alive With Disease"
+
+
 // == 
 
 * #solid-tumor "Solid tumor (non metastatic)" "Solid tumor (non metastatic)"
@@ -19,7 +28,7 @@
 // ==
 
 // * #last-followup-dx "Diagnosis at the last follow-up" "Diagnosis at the last follow-up"
-
+ * #last-followup-status "Status at last follow-up"
 
 // == questions on genetic test performed
 
