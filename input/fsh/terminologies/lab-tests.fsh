@@ -14,7 +14,7 @@ Description: """Test results:
 * ^experimental = true
 
 * codes from valueset VsLabTestResultI4rc
-* $sct#371472000 "Mitotic count score" // quantity (to be checked)
+* $athena#4227243 "Number of mitoses per 10 high power fields"
 * $athena#36768664 "Dimension of Tumor"
 // * $loinc#21889-1 "Size Tumor" // quantity 
 

@@ -90,6 +90,7 @@ This profile should be also used for documenting primary cancer relapses during 
 
 * extension contains $condition-dueTo named condition-dueTo 0..*
 * extension[$condition-dueTo] ^short = "If Radiation therapy induced"
+* extension[$condition-dueTo].valueCodeableConcept 1..
 * extension[$condition-dueTo].valueCodeableConcept = $sct#108290001 "Radiation oncology AND/OR radiotherapy"
 
 * insert CancerConditionCommonRules
@@ -147,7 +148,7 @@ This profile should be also used for documenting primary cancer relapses during 
 * evidence[mitoticCount]
   * ^short = "Mitotic count score"
   * ^definition = """It provides the measure of the tumor size"""
-  * code =  $sct#371472000 // Mitotic count score (to be checked)
+  * code =  $athena#4227243 // Mitotic count score (to be checked)
   * detail only Reference (ObservationSimpleResult) 
 
 // Lab Test performed
