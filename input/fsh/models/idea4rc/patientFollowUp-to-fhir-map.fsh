@@ -12,7 +12,7 @@ Usage: #definition
 * description = "Patient Follow up Model to this guide Map"					
 * purpose = "It shows how the Patient Follow up model is mapped into this guide"					
 * sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUp"					
-* targetUri = "http://hl7.org/fhir"					
+* targetUri = "http://hl7.org/fhir/StrcutureDefinition/DomainResource"					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUp"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Encounter-eu-i4rc"					
 					
@@ -24,16 +24,12 @@ Usage: #definition
 					
 * group[=].element[+].code = #PatientFollowUp.statusAtLastFollowUp					
 * group[=].element[=].display = "Status at last follow-up"					
-* group[=].element[=].target.code = #Encounter.					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TO BE MAPPED"					
-* group[=].element[+].code = #PatientFollowUp.statusAtLastFollowUp					
-* group[=].element[=].display = "Status at last follow-up"					
 * group[=].element[=].target.code = #Encounter.diagnosis.condition					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "Intended as the diagnosis at the last follow up. 
+* group[=].element[=].target.comment = "THE STATUS AS DESCRIBED IN THE MODEL IS MAPPED INTO A SEPARET OBSERVATION (see below)
+
+If intended as the diagnosis at the last follow up. 
 use = $diagnosis-role#AD (AdmissionDiagnosis)
 Details in the referred Condition"					
 * group[=].element[+].code = #PatientFollowUp.patientFollowUpDate					
@@ -69,6 +65,12 @@ Details in the referred Condition"
 //---END					
 //---END					
 //---END					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUp"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"					
@@ -84,8 +86,10 @@ Details in the referred Condition"
 * group[=].element[=].target.code = #Condition.clinicalStatus					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Intended as the diagnosis at the last follow up. 
-Parent Encounter.diagnosis with use = $diagnosis-role#AD (AdmissionDiagnosis)
+* group[=].element[=].target.comment = "THE STATUS AS DESCRIBED IN THE MODEL IS MAPPED INTO A SEPARET OBSERVATION (see below)
+
+If intended as the diagnosis at the last follow up. 
+use = $diagnosis-role#AD (AdmissionDiagnosis)
 Details in the referred Condition"					
 * group[=].element[+].code = #PatientFollowUp.patientFollowUpDate					
 * group[=].element[=].display = "Patient Follow Up date"					
@@ -119,25 +123,25 @@ Details in the referred Condition"
 					
 					
 					
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUp"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-lastFollowupStatus-eu-i4rc"					
 					
+* group[=].element[+].code = #PatientFollowUp.patient					
+* group[=].element[=].display = "Patient"					
+* group[=].element[=].target.code = #Observation.subject					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equivalent					
 					
+* group[=].element[+].code = #PatientFollowUp.statusAtLastFollowUp					
+* group[=].element[=].display = "Status at last follow-up"					
+* group[=].element[=].target.code = #Observation.valueCodeableConcept					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equivalent					
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
+//---END					
+//---END					
+//---END					
+//---END					
 					
 					
 					
