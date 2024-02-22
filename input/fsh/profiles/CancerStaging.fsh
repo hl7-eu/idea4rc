@@ -10,7 +10,7 @@ RuleSet: CancerStageCommonRules
 * insert NotUsed(referenceRange)
 * insert NotUsed(component)
 * focus only Reference(ConditionPrimaryCancerI4rc)
-* subject only Reference(PatientI4rc)
+* insert SubjectRules
 * method ^short = "ADD BINDING"
 /* * method from CancerStagingSystemVS (extensible) */
 // MS flags -- for Pathological staging, they might be redundant with US Core Lab Observation (but that's harmless)
@@ -48,6 +48,14 @@ Description: "The extent of the cancer in the body, according to a given cancer 
 * hasMember[tnmDistantMetastasesCategory] ^short = "TNM  Distant Metastases Category"
 * hasMember[tnmDistantMetastasesCategory] ^definition = "Category describing the presence or absence of metastases in remote anatomical locations, based on evidence such as physical examination, imaging, and/or biopsy."
 * hasMember[tnmDistantMetastasesCategory] ^comment = "When using this element, the Observation must validate against the specified profile."
+
+* hasMember contains extraNodalExtension 0..1
+* hasMember[extraNodalExtension] only Reference(ObservationEneI4rc)
+* hasMember[extraNodalExtension] ^short = "Radiological Extra-nodal extension (rENE)"
+* hasMember[extraNodalExtension] ^definition = "It describes the presence or absence of radiological signs of extracapsular extension, as defined in the AJCC 8th Ed"
+* hasMember[extraNodalExtension] ^comment = "When using this element, the Observation must validate against the specified profile."
+
+
 
 Profile:  TNMPrimaryTumorCategory
 Id: mcode-tnm-primary-tumor-category

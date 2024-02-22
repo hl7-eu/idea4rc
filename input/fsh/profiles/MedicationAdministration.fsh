@@ -7,8 +7,7 @@ RuleSet: MedicationAdministrationI4rcRules
 /* * extension[relatedCumulativeDose].valueReference only Reference(CumulativeDoseChemoObsI4rc) */
 /* * extension[location].valueReference only Reference(LocationI4rc) */
 * status MS
-* subject 1..
-* subject only Reference(PatientI4rc)
+* insert SubjectRules
 * medicationCodeableConcept from VsI4rcAtcCodes (extensible)
 * medicationCodeableConcept 1..1 MS
 * reasonReference 1..1 // add reference to the diagnosis
@@ -19,8 +18,7 @@ RuleSet: CumulativeDoseObsRules
 * status MS
 * category 0.. MS
 * code MS
-* subject 1.. MS
-* subject only Reference(PatientI4rc)
+* insert SubjectRules
 * specimen 0..
 * value[x] 1.. MS
 * value[x] only Quantity or CodeableConcept

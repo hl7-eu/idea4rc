@@ -6,8 +6,7 @@ Description: "This profile constrains the Observation resource to represent the 
 * code 1..1
 * code =  $athena#40769821 //  "Other cancer diagnosis [PhenX]"
 // * code.coding[+] =  $loinc#67190-9 // "Other cancer diagnosis [PhenX]"
-* subject 1..
-* subject only Reference(PatientI4rc)
+* insert SubjectRules
 * valueCodeableConcept 1..
 * valueCodeableConcept from VsOccurrenceOtherCancerI4rc (extensible)
 * component ..0

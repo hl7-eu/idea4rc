@@ -7,8 +7,7 @@ Description: "This profile constrains the Observation resource to represent test
 * obeys obs-valueOftype-codeable
 * code 1..1
 * code from VsSimpleResultI4rc
-* subject 1..
-* subject only Reference(PatientI4rc)
+* insert SubjectRules
 /* * effective[x] 1..1 MS
 * effective[x] only dateTime
 * effective[x].extension contains $data-absent-reason named data-absent-reason 0..1 MS

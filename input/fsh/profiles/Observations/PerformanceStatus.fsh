@@ -1,7 +1,7 @@
 RuleSet: PerformanceStatusCommonRules
 * insert CategorySlicingRules
 * category = $observation-category#survey
-* subject 1..1
+* insert SubjectRules
 * insert NotUsed(bodySite)
 * insert NotUsed(specimen)
 * insert NotUsed(device)

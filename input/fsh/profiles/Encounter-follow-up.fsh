@@ -14,8 +14,7 @@ Description: "This profile defines how to represent the Patient follow-up model 
 * period ^short = "Start and end time of the encounter."
 * period.start 1..
   * ^short = "First Contact Date"
-* subject 1..1
-* subject only Reference (PatientI4rc)
+* insert SubjectRules
 * episodeOfCare only Reference(EpisodeOfCareI4rc)
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
 * reasonReference 1..

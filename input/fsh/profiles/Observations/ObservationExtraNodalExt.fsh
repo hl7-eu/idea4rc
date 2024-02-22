@@ -6,8 +6,7 @@ Description: """This profile constrains the Observation resource to represent Ra
 It describes the presence or absence of radiological signs of extracapsular extension, as defined in the AJCC 8th Ed"""
 * code 1..1
 * code = $sct#2960001000004100  // "Status of extranodal extension of nodal tumour" NOTE => to be checked 
-* subject 1..
-* subject only Reference(PatientI4rc)
+* insert SubjectRules
 /* * effective[x] 1..1 MS
 * effective[x] only dateTime
 * effective[x].extension contains $data-absent-reason named data-absent-reason 0..1 MS

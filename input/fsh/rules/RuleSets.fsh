@@ -18,7 +18,7 @@ RuleSet: ObligationElement(element)
 
 RuleSet: SubjectRules
 * subject 1..
-* subject only Reference(PatientI4rc)
+* subject only Reference (PatientI4rc)
 
 RuleSet: ObservationComponentSlicingRules
 * component ^slicing.discriminator.type = #pattern

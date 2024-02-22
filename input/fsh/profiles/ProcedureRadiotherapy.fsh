@@ -51,7 +51,7 @@ RuleSet: ProcedureRadiotherapyI4rcRules
 // * code from RadiotherapyTypeVs (extensible)
 * code ^short = "ADD VOC BINDING"
 // add slice on coding to allow more precise data
-* subject only Reference(PatientI4rc)	
+* insert SubjectRules	
 * performedPeriod 1.. 
 * reasonReference 1..  // add reference to the diagnosis
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
@@ -112,7 +112,7 @@ Description: "This profile defines how to represent Shielding Procedures in FHIR
 * partOf 1..1
 * partOf only Reference (ProcedureRadiotherapyI4rc)
 // add slice on coding to allow more precise data
-* subject only Reference(PatientI4rc)	
+* insert SubjectRules	
 * reasonReference 1..  // add reference to the diagnosis
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
 * bodySite 1..*

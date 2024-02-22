@@ -30,7 +30,7 @@ It is envisioned that this kind of requirements could be covered by recording wh
 
 /* * extension[supportingInfo].valueReference only Reference(ObservationYesNo) */
 
-* subject only Reference (PatientI4rc)
+* insert SubjectRules
 
 
 * bodySite
@@ -51,8 +51,7 @@ Id:       Observation-diagnosis-eu-i4rc
 Title:    "Observation: Diagnosis details"
 Description: "This profile defines how to represent diagnosis details (when the diagnosis was made; who made it;...) in FHIR for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
-* subject 1..
-* subject only Reference(PatientI4rc)
+* insert SubjectRules
 * effectiveDateTime 1.. MS
 * code 1..1 
 * code = $loinc#29308-4 "Diagnosis"
