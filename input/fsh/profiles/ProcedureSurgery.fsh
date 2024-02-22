@@ -7,14 +7,16 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 //-------------------------------------------------------------------------------------------
 
 * extension contains SameCustodianFlag named surgeryHospital 0..1
-* extension[surgeryHospital].valueBoolean
+* extension[surgeryHospital].valueBoolean ^short "Was this performed at the registering hospital?"
 
-* extension contains $procedure-category-r5 named ProcedureCategoryR5 0..*
+* extension contains $procedure-category-r5 named ProcedureCategoryR5 1..*
 
-* extension[ProcedureCategoryR5].valueCodeableConcept 1..1
-  * ^short = "ADD VOC BINDING"
-// * extension[ProcedureCategoryR5].valueCodeableConcept from XXXX
-
+* extension[ProcedureCategoryR5]
+  * insert OpenSlicePatternOnThis
+* extension[ProcedureCategoryR5] contains type 1..1
+* extension[ProcedureCategoryR5][type].valueCodeableConcept from SurgicalProcedureCategoryVs
+* extension[ProcedureCategoryR5] contains intent 1..1
+* extension[ProcedureCategoryR5][intent].valueCodeableConcept from VsSurgeryIntentionI4rc
 
 
 * text ^short = "Textual description of the surgical procedure"
@@ -28,6 +30,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
   * ^example.valueCodeableConcept = $sct#387713003 "Surgical procedure" 
 * code ^short = "Identification of the procedure." // used to indicate if it is an amputation, a shutn,....
 * code from SurgicalProcedureTypeVs (extensible)
+   * ^short = "The actual procedure performed"
 // * code from SurgeryTypeVs 
 // add slice on coding to allow more precise data
 * insert SubjectRules

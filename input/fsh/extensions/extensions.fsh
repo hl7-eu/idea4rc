@@ -9,7 +9,9 @@ Id: same-custodian-flag
 Title:  "Same custodian flag"
 Description: """This extension is temporary included in the guide for covering the request of tracking if this information has been captured and maintained by the same or other organizations.
 It is envisioned that this kind of requirements could be covered by recording where specific act are taking place."""
-* insert ExtensionContext(DomainResource)
+* insert ExtensionContext(Condition)
+* insert ExtensionContext(Procedure)
+* insert ExtensionContext(EpisodeOfCare)
 * valueBoolean
 
 
