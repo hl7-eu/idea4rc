@@ -4,8 +4,8 @@ Id: observation-occurrencOtherCancer-eu-i4rc
 Title: "Observation: Occurrence of the other cancer"
 Description: "This profile constrains the Observation resource to represent the occurrence of the other cancer."
 * code 1..1
-* code =  $loinc#67190-9 "Other cancer diagnosis [PhenX]"
-//  $athena#1340204 // History of event
+* code =  $athena#40769821 //  "Other cancer diagnosis [PhenX]"
+// * code.coding[+] =  $loinc#67190-9 // "Other cancer diagnosis [PhenX]"
 * subject 1..
 * subject only Reference(PatientI4rc)
 * valueCodeableConcept 1..

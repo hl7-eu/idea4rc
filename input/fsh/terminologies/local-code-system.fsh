@@ -24,7 +24,6 @@
 * #1620421-liver  "Moderate or severe liver disease" "Moderate or severe liver disease"
 * #1620421-renal  "Moderate or severe renal disease" "Moderate or severe renal disease"
 
-
 // ==
 
 // * #last-followup-dx "Diagnosis at the last follow-up" "Diagnosis at the last follow-up"

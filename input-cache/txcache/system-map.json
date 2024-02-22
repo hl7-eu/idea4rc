@@ -126,6 +126,11 @@
       "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-lastFollowupStatus-eu-i4rc",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-tobaccouse-eu-i4rc",
       "authoritative" : [],
       "candidates" : ["http://tx.fhir.org/r4"]

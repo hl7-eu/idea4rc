@@ -17836,7 +17836,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17859,7 +17858,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17920,5 +17918,180 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "1340204",
+        "display" : "History of event"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:87a757b0-af55-469f-af26-6843e4d2be71",
+    "timestamp" : "2024-02-21T14:40:46.119Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "1340204",
+      "display" : "History of event"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "4266186"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Neoplasm and/or hamartoma",
+  "code" : "4266186",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "1340204"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "History of event",
+  "code" : "1340204",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "1340204",
+        "display" : "History of event"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:2c36da9a-62c3-4848-96a3-ed37a7c23b7e",
+    "timestamp" : "2024-02-21T14:47:21.637Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "1340204",
+      "display" : "History of event"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "4266186"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: filter \"concept is-a 4266186\" not understood for OMOP"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/occurrence-other-cancer-i4rc", "version": "0.1.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: filter \"concept is-a 4266186\" not understood for OMOP"
 }
 -------------------------------------------------------------------------------------

@@ -2,21 +2,23 @@
 //====== RuleSet =====================================
 
 RuleSet: CancerConditionCommonRules
-* extension contains
-    $condition-assertedDate named assertedDate 0..1 
-    and $mcode-histology-morphology-behavior named histologyMorphologyBehavior 0..1
+
+* extension contains  $condition-assertedDate named assertedDate 0..1 
+
+//    and $mcode-histology-morphology-behavior named histologyMorphologyBehavior 0..1
 /*     and $workflow-supportingInfo named supportingInfo 0..* */
-	and PreviousStatus named previousStatus 0..1
-  and RelapseType named relapseType 0..1 
-	
+
 // HistologyMorphologyBehavior named histologyMorphologyBehavior 0..1 MS
-
-* extension[histologyMorphologyBehavior].value[x]
-
+// * extension[histologyMorphologyBehavior].value[x]
 /* * extension[histologyMorphologyBehavior].value[x] from VsICDO3Morphology (required) */
+
+
+* extension contains PreviousStatus named previousStatus 0..1
 * extension[previousStatus]
-/* * extension[relapseType].value[x] from RelapseTypeVS (preferred) */
+
+* extension contains RelapseType named relapseType 0..1 
 * extension[relapseType].value[x]
+/* * extension[relapseType].value[x] from RelapseTypeVS (preferred) */
 
 * extension contains SameCustodianFlag named definedAt 0..1
 * extension[definedAt]
@@ -140,7 +142,8 @@ This profile should be also used for documenting primary cancer relapses during 
 * evidence[tumorSize]
   * ^short = "Tumor size"
   * ^definition = """It provides the measure of the tumor size"""
-  * code =  $loinc#21889-1 // Tumor size
+  // * code =  $loinc#21889-1 // Tumor size
+  * code =  $athena#36768664 // "Dimension of Tumor"
   * detail only Reference (ObservationSimpleResult) 
 
 // Biopsy Mitotic Count 
