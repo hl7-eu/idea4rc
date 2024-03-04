@@ -15,7 +15,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
   * insert OpenSlicePatternOnThis
 
 * extension[ProcedureCategoryR5] contains type 1..1
-* extension[ProcedureCategoryR5][type].valueCodeableConcept from SurgicalProcedureCategoryVs
+* extension[ProcedureCategoryR5][type].valueCodeableConcept from VsSurgicalProcedureCategoryI4rc
 * extension[ProcedureCategoryR5] contains intent 1..1
 * extension[ProcedureCategoryR5][intent].valueCodeableConcept from VsSurgeryIntentionI4rc
 

@@ -1,5 +1,5 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: SurgicalProcedureCategoryVs
+ValueSet: VsSurgicalProcedureCategoryI4rc
 Id: vs-surgicalProcedureCategory-eu-i4rc
 Title: "Surgical Procedure Category"
 Description: "Category of surgical procedure this resource is referring to"

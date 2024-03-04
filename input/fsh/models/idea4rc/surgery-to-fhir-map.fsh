@@ -59,26 +59,27 @@ It is envisioned that this kind of requirements could be covered by recording wh
 * group[=].element[=].target.code = #Procedure.extension:procedure-approachBodyStructure					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "to be analized: the traget is a bodyStructure.. Maybe too much for justconveying a code ?"					
+					
 * group[=].element[+].code = #Surgery.marginsAfterSurgery					
 * group[=].element[=].display = "Margins after surgery"					
 * group[=].element[=].target.code = #Procedure.outcome					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TO BE checked"					
+					
 * group[=].element[+].code = #Surgery.tumorRupture					
 * group[=].element[=].display = "Tumor rupture"					
-* group[=].element[=].target.code = #Procedure.supportingInfo.valueCodeableConcept					
+* group[=].element[=].target.code = #Procedure.extension:supportingInfoR5.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "The supportingInfo refers an Observation conforming to the XYZ profile, where observation.code is = XXX"					
+* group[=].element[=].target.comment = "Is the tumor rupture a supporting info or a complication ?
+IN the secodn case the supportingInfo refers an Observation conforming to the XYZ profile, where observation.code is = XXX"					
 * group[=].element[+].code = #Surgery.SpecimenMitoticCount					
 * group[=].element[=].display = "Surgical specimen Mitotic count"					
-* group[=].element[=].target.code = #Procedure.supportingInfo.valueCodeableConcept					
+* group[=].element[=].target.code = #Procedure.extension:supportingInfoR5.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "Check how this differs from the same info in Cancer Episode.
-The supportingInfo refers an Observation conforming to the XYZ profile, where observation.code is = XXX"					
+The supportingInfo refers an Observation conforming to the ObservationSimpleResult profile, where observation.code is = $athena#4227243 'Number of mitoses per 10 high power fields'"					
 * group[=].element[+].code = #Surgery.SpecimenGradingOnlyInUntreatedTumours					
 * group[=].element[=].display = "Surgical specimen grading only in untreated tumours"					
 * group[=].element[=].target.code = #Procedure.bodySite.extension:laterality					
