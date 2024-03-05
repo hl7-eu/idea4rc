@@ -53,8 +53,9 @@ legend top left
 |= |= Review Status |
 |<back:#87e887>   </back>| Reviewed |
 |<back:#94d8f2>   </back>| Reviewed (1st round)|
-|<back:#f2ef94>   </back>| Next in line |
-|<back:#f2d994>   </back>| 2nd in line |
+|<back:#E5CCFF>   </back>| Under Review|
+|<back:#FFB266>   </back>| Next in line |
+|<back:#FFFFCC>   </back>| 2nd in line |
 
  
 endlegend
@@ -84,19 +85,19 @@ url of ee [[StructureDefinition-EpisodeEvent.html]]
 object "GeneticTestExpression" as gte  {
     }
 url of gte [[StructureDefinition-GeneticTestExpression.html]]
-object "Stage" as s #f2ef94 {
+object "Stage" as s #E5CCFF {
     }
 url of s [[StructureDefinition-Stage.html]]
 object "PathologicalReportInfo" as pri {
     }
 
-object "Surgery" as su #f2d994 {
+object "Surgery" as su #FFB266 {
     }
 url of su [[StructureDefinition-Surgery.html]]
 object "SystemicTreatment" as st {
     }
 url of st [[StructureDefinition-SystemicTreatment.html]]
-object "Radiotherapy" as r #f2d994 {
+object "Radiotherapy" as r #FFFFCC {
     }
 url of r [[StructureDefinition-Radiotherapy.html]]
 object "OtherLocalTreatment" as olt {
