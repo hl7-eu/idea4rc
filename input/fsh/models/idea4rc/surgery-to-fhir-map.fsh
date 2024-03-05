@@ -88,19 +88,21 @@ The supportingInfo refers an Observation conforming to the ObservationSimpleResu
 * group[=].element[=].target.comment = "TBD"					
 * group[=].element[+].code = #Surgery.isolatedLimbPerfusion					
 * group[=].element[=].display = "Isolated Limb perfusion"					
-* group[=].element[=].target.code = #Procedure.					
+* group[=].element[=].target.code = #Procedure.code					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TBD"					
+* group[=].element[=].target.comment = "to be checked.
+True if code = $athena#4019656 'Isolated limb perfusion' "					
 * group[=].element[+].code = #Surgery.reconstruction					
 * group[=].element[=].display = "Reconstruction"					
-* group[=].element[=].target.code = #Procedure.					
+* group[=].element[=].target.code = #Procedure.code					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "TBD"					
+* group[=].element[=].target.comment = "to be checked.
+True if code is a $athena#4045162 'Reconstruction procedure' "					
 * group[=].element[+].code = #Surgery.neckSurgery					
 * group[=].element[=].display = "Neck surgery"					
-* group[=].element[=].target.code = #Procedure.					
+* group[=].element[=].target.code = #Procedure.code					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "TO BE ANALYZED:
@@ -137,44 +139,105 @@ or a surgical proceudre exists with  reasonCode = metastatis"
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "see above"					
+* group[=].element[=].target.comment = "see above
+
+MAYBE BETTER
+a qualifier for the bodysite"					
 * group[=].element[+].code = #Surgery.siteOnMetastasis.distantLymphNodes					
 * group[=].element[=].display = "Site of surgery on metastasis_distant lymph nodes"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "see above"					
+* group[=].element[=].target.comment = "see above
+
+MAYBE BETTER
+a qualifier for the bodysite"					
 * group[=].element[+].code = #Surgery.siteOnMetastasis.lung					
 * group[=].element[=].display = "Site of surgery on metastasis_lung"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "see above"					
+* group[=].element[=].target.comment = "see above
+
+MAYBE BETTER
+a qualifier for the bodysite"					
 * group[=].element[+].code = #Surgery.siteOnMetastasis.bone					
 * group[=].element[=].display = "Site of surgery on metastasis_bone"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "see above"					
+* group[=].element[=].target.comment = "see above
+
+MAYBE BETTER
+a qualifier for the bodysite"					
 * group[=].element[+].code = #Surgery.siteOnMetastasis.liver					
 * group[=].element[=].display = "Site of surgery on metastasis_liver"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "see above"					
+* group[=].element[=].target.comment = "see above
+
+MAYBE BETTER
+a qualifier for the bodysite"					
 * group[=].element[+].code = #Surgery.siteOnMetastasis.pleura					
 * group[=].element[=].display = "Site of surgery on metastasis_pleura"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "see above"					
+* group[=].element[=].target.comment = "see above
+
+MAYBE BETTER
+a qualifier for the bodysite"					
 * group[=].element[+].code = #Surgery.siteOnMetastasis.peritoneum					
 * group[=].element[=].display = "Site of surgery on metastasis_peritoneum"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "see above"					
+* group[=].element[=].target.comment = "see above
+
+MAYBE BETTER
+a qualifier for the bodysite"					
+* group[=].element[+].code = #Surgery.siteOnMetastasis.brain					
+* group[=].element[=].display = "Site of surgery on metastasis_brain"					
+* group[=].element[=].target.code = #Procedure.bodySite					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equivalent					
+* group[=].element[=].target.comment = "see above
+
+MAYBE BETTER
+a qualifier for the bodysite"					
+* group[=].element[+].code = #Surgery.siteOnMetastasis.otherViscera					
+* group[=].element[=].display = "Site of surgery on metastasis_other viscera"					
+* group[=].element[=].target.code = #Procedure.bodySite					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equivalent					
+* group[=].element[=].target.comment = "see above
+
+MAYBE BETTER
+a qualifier for the bodysite"					
+* group[=].element[+].code = #Surgery.siteOnMetastasis.unknown					
+* group[=].element[=].display = "Site of surgery on metastasis_unknown"					
+* group[=].element[=].target.code = #Procedure.bodySite					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equivalent					
+* group[=].element[=].target.comment = "see above
+
+MAYBE BETTER
+a qualifier for the bodysite"					
+* group[=].element[+].code = #Surgery.surgicalComplications					
+* group[=].element[=].display = "Surgical complications (Clavien-Dindo Classification)"					
+* group[=].element[=].target.code = #Procedure.complication					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equivalent					
+					
 //---END					
 //---END					
 //---END					
 //---END					
+//---END					
+//---END					
+					
+					
+					
+					
+					

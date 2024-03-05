@@ -18174,7 +18174,6 @@ v: {
   "error" : "Unknown code '35952576' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -18214,7 +18213,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18237,7 +18235,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18260,7 +18257,6 @@ v: {
   "error" : "Unknown code '36768664' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -18300,7 +18296,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18388,10 +18383,434 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4179711",
+        "display" : "palliative"
+      },
+      {
+        "code" : "4162591",
+        "display" : "Curative procedure intent"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:190eaf5b-c720-45a9-aef0-4ac42920e659",
+    "timestamp" : "2024-03-04T18:54:13.540Z",
+    "total" : 3,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4179711",
+      "display" : "Palliative intent"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4162591",
+      "display" : "Curative - procedure intent"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4129922",
+      "display" : "Unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "301351",
+        "display" : "Surgical procedure"
+      },
+      {
+        "code" : "315400",
+        "display" : "Local excision"
+      },
+      {
+        "code" : "217482",
+        "display" : "Amputation"
+      },
+      {
+        "code" : "181193",
+        "display" : "Limb operation"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:f5540507-5179-4847-afbc-4683a52f3ea4",
+    "timestamp" : "2024-03-04T18:54:13.900Z",
+    "total" : 0,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "301351"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "code" : "301351",
+  "severity" : "error",
+  "error" : "Unknown code '301351' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'",
+  "class" : "UNKNOWN",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown code '301351' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "315400"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "code" : "315400",
+  "severity" : "error",
+  "error" : "Unknown code '315400' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'",
+  "class" : "UNKNOWN",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown code '315400' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "217482"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "code" : "217482",
+  "severity" : "error",
+  "error" : "Unknown code '217482' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'",
+  "class" : "UNKNOWN",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown code '217482' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "181193"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "code" : "181193",
+  "severity" : "error",
+  "error" : "Unknown code '181193' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'",
+  "class" : "UNKNOWN",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown code '181193' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "4162591"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Curative - procedure intent",
+  "code" : "4162591",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4179711",
+        "display" : "palliative"
+      },
+      {
+        "code" : "4162591",
+        "display" : "Curative procedure intent"
+      },
+      {
+        "code" : "4129922",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:1f022b37-988e-49a2-a84f-fc1f30a4142c",
+    "timestamp" : "2024-03-04T18:58:27.681Z",
+    "total" : 3,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4179711",
+      "display" : "Palliative intent"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4162591",
+      "display" : "Curative - procedure intent"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4129922",
+      "display" : "Unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "301351",
+        "display" : "Surgical procedure"
+      },
+      {
+        "code" : "315400",
+        "display" : "Local excision"
+      },
+      {
+        "code" : "217482",
+        "display" : "Amputation"
+      },
+      {
+        "code" : "181193",
+        "display" : "Limb operation"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ee2aa1b0-bba8-40a3-b772-45d06e9929a8",
+    "timestamp" : "2024-03-04T18:58:32.259Z",
+    "total" : 0,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

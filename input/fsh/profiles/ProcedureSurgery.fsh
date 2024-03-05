@@ -52,8 +52,8 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 * bodySite.extension[lateralityQualifier].valueCodeableConcept
 
 * location only Reference(Location) // add profile 
-* complication ^short = "ADD VOC BINDING"
-* outcome ^short = "ADD VOC BINDING"
+* complication from VsSurgeryComplicationI4rc
+* outcome from VsSurgeryOutcomeI4rc (extensible)
 
 /* * focalDevice ^short = "Implanted or removed device"
   * action from SurgicalActionVs (extensible)
