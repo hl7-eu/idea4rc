@@ -11,9 +11,9 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 
 * extension contains $procedure-category-r5 named ProcedureCategoryR5 1..*
 
-* extension[ProcedureCategoryR5]
-  * insert OpenSlicePatternOnThis
+// * extension[ProcedureCategoryR5] insert OpenSlicePatternOnThis
 
+ 
 * extension[ProcedureCategoryR5] contains type 1..1
 * extension[ProcedureCategoryR5][type].valueCodeableConcept from VsSurgicalProcedureCategoryI4rc
 * extension[ProcedureCategoryR5] contains intent 1..1

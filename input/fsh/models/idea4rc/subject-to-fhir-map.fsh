@@ -28,8 +28,15 @@ Usage: #definition
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
+* group[=].element[+].code = #Subject.birthYear					
+* group[=].element[=].display = "Birth year"					
+* group[=].element[=].target.code = #Patient.birthDate					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equivalent					
+* group[=].element[=].target.comment = "limited to the year"					
 * group[=].element[+].code = #Subject.countryOfResidence					
 * group[=].element[=].display = "Country of Residence"					
+* group[=].element[=].target.code = #Patient.address.country					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
@@ -88,8 +95,20 @@ Usage: #definition
 //-- unmatched					
 * group[=].element[=].target.equivalence = #unmatched					
 					
+* group[=].element[+].code = #Subject.ecogPsLabel					
+* group[=].element[=].display = "ECOG PS label"					
+//-- unmatched					
+//-- unmatched					
+* group[=].element[=].target.equivalence = #unmatched					
+					
 * group[=].element[+].code = #Subject.karnofsyIndexAtDiagnosis					
 * group[=].element[=].display = "Karnofsy index at diagnosis"					
+//-- unmatched					
+//-- unmatched					
+* group[=].element[=].target.equivalence = #unmatched					
+					
+* group[=].element[+].code = #Subject.karnofsyIndexLabel					
+* group[=].element[=].display = "Karnofsy index label"					
 //-- unmatched					
 //-- unmatched					
 * group[=].element[=].target.equivalence = #unmatched					
@@ -112,15 +131,16 @@ Usage: #definition
 //-- unmatched					
 * group[=].element[=].target.equivalence = #unmatched					
 					
-* group[=].element[+].code = #Subject.lastContact					
-* group[=].element[=].display = "Last Contact"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
+//---END					
+//---END					
+//---END					
+//---END					
 					
-//---END					
-//---END					
-//---END					
+					
+					
+					
+					
+					
 					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
@@ -390,9 +410,18 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 					
+* group[=].element[+].code = #Subject.karnofsyIndexLabel					
+* group[=].element[=].display = "Karnofsy index label"					
+* group[=].element[=].target.code = #Observation.interpretation					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equivalent					
+					
 //---END					
 //---END					
 //---END					
+//---END					
+					
+					
 					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
@@ -404,6 +433,12 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 * group[=].element[=].target.comment = "where obseravtion.code =  $loinc#89247-1 ECOG Performance Status score"					
+* group[=].element[+].code = #Subject.ecogPsLabel					
+* group[=].element[=].display = "ECOG PS label"					
+* group[=].element[=].target.code = #Observation.interpretation					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equivalent					
+					
 //---END					
 //---END					
 //---END					
@@ -419,6 +454,9 @@ For examplification purposes only the comorbidConditionPresent extension is show
 //---END					
 //---END					
 //---END					
+					
+					
+					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
 * group[=].target = "http://hl7.org/fhir/StructureDefinition/bmi"					
 					
@@ -431,6 +469,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 //---END					
 //---END					
 //---END					
+					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-yesNo-eu-i4rc"					
 					
@@ -442,6 +481,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 //---END					
 //---END					
 //---END					
+					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-treatment-eu-i4rc"					
 					
@@ -450,17 +490,6 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 * group[=].element[=].target.comment = "where obseravtion.code = $loinc#63933-6 Cancer treatment [PhenX]"					
-//---END					
-//---END					
-//---END					
-* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-dateLastContact-eu-i4rc"					
-					
-* group[=].element[+].code = #Subject.lastContact					
-* group[=].element[=].target.code = #Observation.valueDateTime					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #equal					
-* group[=].element[=].target.comment = "where obseravtion.code = $loinc#21975-8 Date last contact"					
 //---END					
 //---END					
 //---END					

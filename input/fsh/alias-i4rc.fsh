@@ -16,7 +16,8 @@ Alias: $adverseEvent.occurencePeriod-r5 = http://hl7.org/fhir/5.0/StructureDefin
 //============== ALIAS ===============
 Alias: $actor-headneck = http://hl7.eu/fhir/ig/idea4rc/actor-headneck-i4rc
 Alias: $actor-sarcoma-i4rc = http://hl7.eu/fhir/ig/idea4rc/actor-sarcoma-i4rc
-Alias: $obligation = http://hl7.org/fhir/tools/StructureDefinition/obligation
+// Alias: $obligation = http://hl7.org/fhir/tools/StructureDefinition/obligation
+Alias: $obligation = http://hl7.org/fhir/StructureDefinition/obligation
 
 
 //--- Internal Code Systems

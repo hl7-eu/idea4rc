@@ -9,11 +9,10 @@ Description: "type of treatment"
 * ^experimental = false
 
 * $athena#4273629 "Chemotherapy"
-* $athena#4029715 "Radiation"
+// * $athena#4029715 "Radiation"
+* $athena#4170755 "Radiation oncology"
 * $athena#4121697 "Surgery"
-* $athena#903143 "Other"
+* $athena#42535584 "Comprehensive medication therapy review"
+* $athena#4295112 "Immunological therapy// "
 
-
-
-
-
+// * $athena#903143 "Other"

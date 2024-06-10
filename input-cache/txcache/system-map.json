@@ -161,6 +161,11 @@
       "candidates" : ["http://tx.fhir.org/r4"]
     },
     {
+      "system" : "http://hl7.org/fhir/tools/CodeSystem/obligation",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
       "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
       "authoritative" : [],
       "candidates" : []

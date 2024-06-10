@@ -143,9 +143,9 @@ resources:
     name: Radiotherapy Model to this guide Map
     description: It shows how the Radiotherapy model is mapped into this guide
 
-  ConceptMap/systemicTreatment2FHIR:
-    name: Systemic Treatment Model to this guide Map
-    description: It shows how the Systemic Treatment model is mapped into this guide
+  # ConceptMap/systemicTreatment2FHIR:
+  #  name: Systemic Treatment Model to this guide Map
+  #  description: It shows how the Systemic Treatment model is mapped into this guide
 
   ConceptMap/followup2FHIR:
     name: Patient Follow up Model to this guide Map
@@ -247,7 +247,7 @@ groups:
       - ConceptMap/episodeEvent2FHIR
       - ConceptMap/surgery2FHIR
       - ConceptMap/radiotherapy2FHIR
-      - ConceptMap/systemicTreatment2FHIR
+#      - ConceptMap/systemicTreatment2FHIR
       - ConceptMap/followup2FHIR
       - ConceptMap/geneticTestExpression2FHIR
       - ConceptMap/hospitalPatientRecords2FHIR

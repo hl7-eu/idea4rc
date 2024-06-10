@@ -27,7 +27,7 @@ Maturity Level: 0 Draft"""
 
 """				
 * sarcomaClassification 1..1 BackboneElement "Sarcoma classification" """Sarcoma classification"""				
-* sarcomaClassification.vascularTumours 1..1 CodeableConcept "Vascular tumours" """Vascular tumours"""				
+* sarcomaClassification.vascularTumours 1..1 CodeableConcept "Vascular tumours " """Vascular tumours """				
 * sarcomaClassification.pericyticPerivascularTumours 1..1 CodeableConcept "Pericytic (perivascular) tumours
 " """Pericytic (perivascular) tumours
 """				
@@ -59,7 +59,7 @@ Maturity Level: 0 Draft"""
 * subsites.breast 1..1 CodeableConcept "Breast subsite" """Specifies the subsite for cancers occurred in"""				
 * subsites.others 1..1 CodeableConcept "Other subsite" """Specifies the subsite for cancers occurred in"""				
 * tumorSize 1..1 Quantity "Tumor Size" """(the longest diameter; longest dimension between pre operatory imaging and pathological specimen) cm """				
-* depth 1..1 CodeableConcept "Depth" """(for upper and lower limbs and superficial trunk)  superficial (superficial tumour is located exclusively above the investing fascia without invasion of the fascia), deep (deep tumour is located beneath or invade the investing fascia). All the others are deep by definition"""				
+* depth 1..1 CodeableConcept "Depth " """(for upper and lower limbs and superficial trunk)  superficial (superficial tumour is located exclusively above the investing fascia without invasion of the fascia), deep (deep tumour is located beneath or invade the investing fascia). All the others are deep by definition"""				
 * biopsyMitoticCount 1..1 Quantity "Biopsy Mitotic count " """(Number/10HPF/1mm2, 50HPF/5mm2)"""				
 * plasmaticEbvDnaAtBaseline 0..1 CodeableConcept "Plasmatic EBV DNA at baseline" """Describes the result of EBV DNA plasma testing before treatment in NPC type II and III (WHO) """				
 * hpvStatus 0..1 CodeableConcept "HPV status" """Describes the result of HPV tumor testing in oral carcinoma """				
@@ -159,8 +159,8 @@ oxyphilic carcinoma - 4212379
 oncocytic adenocarcinoma
 oncocytic malignant oncocytoma
  Salivary gland intraductal carcinoma (cribriform low grade adenocarcinoma)  """				
-* hnClassification.histologyNeuroendocrine ^comment = """Small cell neuroendocrineï¿½carcinoma (SmCC)?,Poorly differentiated neuroendocrine carcinoma, small cell (grade 3);Large cell neuroendocrine carcinoma (LCNEC)?, Poorly differentiated neuroendocrine carcinoma, large cell (grade 3);Well-differentiated neuroendocrine carcinoma, Middle ear carcinoid tumor;Moderately differentiated neuroendocrine carcinoma
-Small cell neuroendocrineï¿½carcinoma (SmCC)? - 36714029
+* hnClassification.histologyNeuroendocrine ^comment = """Small cell neuroendocrineÿcarcinoma (SmCC)?,Poorly differentiated neuroendocrine carcinoma, small cell (grade 3);Large cell neuroendocrine carcinoma (LCNEC)?, Poorly differentiated neuroendocrine carcinoma, large cell (grade 3);Well-differentiated neuroendocrine carcinoma, Middle ear carcinoid tumor;Moderately differentiated neuroendocrine carcinoma
+Small cell neuroendocrineÿcarcinoma (SmCC)? - 36714029
 Poorly differentiated neuroendocrine carcinoma - 37018672
 small cell (grade 3)
 Large cell neuroendocrine carcinoma (LCNEC)? - 4029971
@@ -353,14 +353,14 @@ Aggressive angiomyxoma - 4239956
 Angiomatoid fibrous histiocytoma - 4029526
 NTRK-rearranged spindle cell neoplasm (emerging)"""				
 * sarcomaClassification.undifSmallRCelSarcBonAndSofTis ^comment = """Ewing sarcoma
-Round cell sarcoma withï¿½EWSR1?non-ETS fusions
+Round cell sarcoma withÿEWSR1?non-ETS fusions
 CIC-rearranged sarcoma
-Sarcoma withï¿½BCORï¿½genetic alterations
+Sarcoma withÿBCORÿgenetic alterations
 
 Ewing sarcoma - 45766528
-Round cell sarcoma withï¿½EWSR1?non-ETS fusions
+Round cell sarcoma withÿEWSR1?non-ETS fusions
 CIC-rearranged sarcoma
-Sarcoma withï¿½BCORï¿½genetic alterations
+Sarcoma withÿBCORÿgenetic alterations
 """				
 * sarcomaClassification.endStrAndRelatedTumours ^comment = """Endometrial stromal sarcoma, high grade
 Endometrial stromal sarcoma, low grade
@@ -607,7 +607,7 @@ Vulva
 Bilateral adrenal glands - 4047078
 Kidney structure - 4271678
 Region of ureter - 4078617
-        Urinary bladder structure - 4232481
+Urinary bladder structure - 4232481
 Structure of lobe of prostate - 4034365
 Seminal Vescicle structure - 4277442
 Spermatic Cord structure - 4172591

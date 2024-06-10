@@ -29,8 +29,9 @@ Description: "This profile defines how to represent Patient in FHIR for the purp
 * name.given 1.. MS */
 * gender ^short = "Administrative gender"
 * gender 1..   
-/* * birthDate 1..
-* birthDate.extension contains $data-absent-reason named data-absent-reason 0..1 */
+* birthDate 0..
+
+/* * birthDate.extension contains $data-absent-reason named data-absent-reason 0..1 */
 /* * maritalStatus ^short = "Marital status" */
 * address.country ^short = "Country of Residence"
 /* to enforce the fact tha is the residence we should use a specific extension to be discussed */

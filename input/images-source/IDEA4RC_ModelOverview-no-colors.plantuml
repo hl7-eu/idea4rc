@@ -1,0 +1,142 @@
+@startuml
+
+<style>
+title {
+  HorizontalAlignment right
+  FontSize 24
+  FontColor blue
+}
+
+header {
+  HorizontalAlignment center
+  FontSize 18
+  ' FontColor purple
+}
+
+footer {
+  HorizontalAlignment left
+  FontSize 28
+  FontColor red
+}
+
+legend {
+  FontSize 15
+  BackGroundColor white
+  Margin 10
+  Padding 5
+}
+
+caption {
+  FontSize 32
+}
+
+arrow {
+  FontSize 18
+  Padding 50
+  Margin 50
+}
+
+</style>
+
+' header Draft
+
+title IDEA4RC DataModel
+
+' hide the spot
+hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+scale 0.7
+
+
+object "Patient" as p  {
+    }
+url of p [[StructureDefinition-Subject.html]]
+
+object "HospitalData" as hd  {
+    }
+url of hd [[StructureDefinition-HospitalPatientRecords.html]]
+
+object "HospitalPatientRecords" as hpr  {
+    }
+url of hpr [[StructureDefinition-HospitalPatientRecords.html]]
+
+object "PatientFollowUp" as pfu  {
+    }
+url of pfu [[StructureDefinition-PatientFollowUp.html]]
+
+object "CancerEpisode" as ce  {
+    }
+url of ce [[StructureDefinition-CancerEpisode.html]]
+object "EpisodeEvent" as ee  {
+    }
+url of ee [[StructureDefinition-EpisodeEvent.html]]
+object "GeneticTestExpression" as gte  {
+    }
+url of gte [[StructureDefinition-GeneticTestExpression.html]]
+object "Stage" as s  {
+    }
+url of s [[StructureDefinition-Stage.html]]
+object "PathologicalReportInfo" as pri {
+    }
+
+object "Surgery" as su  {
+    }
+url of su [[StructureDefinition-Surgery.html]]
+object "SystemicTreatment" as st {
+    }
+url of st [[StructureDefinition-SystemicTreatment.html]]
+object "Radiotherapy" as r  {
+    }
+url of r [[StructureDefinition-Radiotherapy.html]]
+object "OtherLocalTreatment" as olt {
+    }
+
+object "DrugsForSystemicTreatment" as dfst {
+    }
+object "TreatmentResponse" as tr {
+    }
+url of tr [[StructureDefinition-TreatmentResponse.html]]
+
+object "AdverseEvent" as ae {
+    }
+url of ae [[StructureDefinition-AdverseEvent.html]]
+
+
+
+
+p "1" ||--|{ "1..N" hpr
+hd "1" ||--|{ "1..N" hpr
+
+p "1" ||--o{ "0..N" ce
+p "1" ||--o{ "0..N" pfu
+
+ce "1" ||--|{ "1..N" ee
+
+ee "1" ||--o| "0..1" s
+ee "1" ||--o{ "0..N" r
+ee "1" ||--o{ "0..N" su
+ee "1" ||--o{ "0..N" st
+ee "1" ||--o{ "0..N" olt
+ee "1" ||--o{ "0..N" gte
+ee "1" ||--o{ "0..N" tr
+ee "1" ||--o{ "0..N" pri
+
+
+note as N1
+The relations to AdverseEvent are a XOR
+end note
+
+s "1" ||--o{ "0..N" ae
+'note on link: XOR
+st "0..N" ||--o{ "1" ae
+'note on link: XOR
+r "1" ||--o{ "0..N" ae
+'note on link: XOR
+
+s .. N1
+st .. N1
+r .. N1
+
+@enduml
