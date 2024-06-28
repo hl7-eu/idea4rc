@@ -69,15 +69,15 @@ Vascular invasion by tumor present - 4163142"""
 // -------------------------------------------------------------------------------	
 // Obligations Sarcoma	
 // -------------------------------------------------------------------------------	
-* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
-* degreeOfCytologicAtypia insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
-* patternOfGrowth insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
-* mitoticActivity insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
-* infiltrationOfSurroundingMyometrium insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
-* typeOfNecrosis insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
-* expressionOfErPr insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
-* vascularIntrusionOrInvasion insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
-* p16AndP53Expression insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
+* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
+* degreeOfCytologicAtypia insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
+* patternOfGrowth insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
+* mitoticActivity insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
+* infiltrationOfSurroundingMyometrium insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
+* typeOfNecrosis insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
+* expressionOfErPr insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
+* vascularIntrusionOrInvasion insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
+* p16AndP53Expression insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
 //--- END	
 //--- END	
 //--- END	

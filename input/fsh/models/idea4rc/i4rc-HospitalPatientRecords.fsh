@@ -33,10 +33,10 @@ Description:  """Hospital Patient Records"""
 // -------------------------------------------------------------------------------	
 // Obligations H&N	
 // -------------------------------------------------------------------------------	
-* patient insert ObligationActorAndCode($actor-headneck, #handle)	
-* hospital insert ObligationActorAndCode($actor-headneck, #handle)	
-* hospital.name insert ObligationActorAndCode($actor-headneck, #handle)	
-* firstContactDate insert ObligationActorAndCode($actor-headneck, #handle)	
+* patient insert ObligationActorAndCode($actor-headneck, #SHALL:handle)	
+* hospital insert ObligationActorAndCode($actor-headneck, #SHALL:handle)	
+* hospital.name insert ObligationActorAndCode($actor-headneck, #SHALL:handle)	
+* firstContactDate insert ObligationActorAndCode($actor-headneck, #SHALL:handle)	
 //--- END	
 //--- END	
 //--- END

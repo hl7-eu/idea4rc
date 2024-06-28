@@ -21,21 +21,13 @@ Maturity Level: 0 Draft"""
 * hnClassification.histologySNUC 1..1 CodeableConcept "Histology Sinonasal undifferentiated carcinoma" """Specifies the histological subgroup for sinonasl undifferentiated carcinomas"""				
 * hnClassification.adipocyticTumours 1..1 CodeableConcept "Histology subgroup Adipocytic tumours" """Specifies the histological subgroup for adipocytic tumours"""				
 * hnClassification.fmtTumours 1..1 CodeableConcept "Histology subgroup Fibroblastic and myofibroblastic tumours" """Histology subgroup Fibroblastic and myofibroblastic tumours"""				
-* hnClassification.socalledFibrohistiocyticTumours 1..1 CodeableConcept "Histology subgroup So-called fibrohistiocytic tumours
-
-" """Histology subgroup So-called fibrohistiocytic tumours
-
-"""				
+* hnClassification.socalledFibrohistiocyticTumours 1..1 CodeableConcept "Histology subgroup So-called fibrohistiocytic tumours" """Histology subgroup So-called fibrohistiocytic tumours"""				
 * sarcomaClassification 1..1 BackboneElement "Sarcoma classification" """Sarcoma classification"""				
-* sarcomaClassification.vascularTumours 1..1 CodeableConcept "Vascular tumours " """Vascular tumours """				
-* sarcomaClassification.pericyticPerivascularTumours 1..1 CodeableConcept "Pericytic (perivascular) tumours
-" """Pericytic (perivascular) tumours
-"""				
+* sarcomaClassification.vascularTumours 1..1 CodeableConcept "Vascular tumours" """Vascular tumours"""				
+* sarcomaClassification.pericyticPerivascularTumours 1..1 CodeableConcept "Pericytic (perivascular) tumours" """Pericytic (perivascular) tumours"""				
 * sarcomaClassification.smoothMuscleTumours 1..1 CodeableConcept "Smooth muscle tumours" """Smooth muscle tumours"""				
 * sarcomaClassification.skeletalMuscleTumours 1..1 CodeableConcept "Skeletal muscle tumours" """Skeletal muscle tumours"""				
-* sarcomaClassification.chondroOsseousTumours 1..1 CodeableConcept "Chondro-osseous tumours
-" """Chondro-osseous tumours
-"""				
+* sarcomaClassification.chondroOsseousTumours 1..1 CodeableConcept "Chondro-osseous tumours" """Chondro-osseous tumours"""				
 * sarcomaClassification.peripheralNerveSheathTumours 1..1 CodeableConcept "Peripheral nerve sheath tumours" """Peripheral nerve sheath tumours"""				
 * sarcomaClassification.tumoursOfUncertainDifferentiation 1..1 CodeableConcept "Tumours of uncertain differentiation" """Tumours of uncertain differentiation"""				
 * sarcomaClassification.undifSmallRCelSarcBonAndSofTis 1..1 CodeableConcept "Undifferentiated small round cell sarcomas of bone and soft tissue" """Undifferentiated small round cell sarcomas of bone and soft tissue"""				
@@ -59,8 +51,8 @@ Maturity Level: 0 Draft"""
 * subsites.breast 1..1 CodeableConcept "Breast subsite" """Specifies the subsite for cancers occurred in"""				
 * subsites.others 1..1 CodeableConcept "Other subsite" """Specifies the subsite for cancers occurred in"""				
 * tumorSize 1..1 Quantity "Tumor Size" """(the longest diameter; longest dimension between pre operatory imaging and pathological specimen) cm """				
-* depth 1..1 CodeableConcept "Depth " """(for upper and lower limbs and superficial trunk)  superficial (superficial tumour is located exclusively above the investing fascia without invasion of the fascia), deep (deep tumour is located beneath or invade the investing fascia). All the others are deep by definition"""				
-* biopsyMitoticCount 1..1 Quantity "Biopsy Mitotic count " """(Number/10HPF/1mm2, 50HPF/5mm2)"""				
+* depth 1..1 CodeableConcept "Depth" """(for upper and lower limbs and superficial trunk)  superficial (superficial tumour is located exclusively above the investing fascia without invasion of the fascia), deep (deep tumour is located beneath or invade the investing fascia). All the others are deep by definition"""				
+* biopsyMitoticCount 1..1 Quantity "Biopsy Mitotic count" """(Number/10HPF/1mm2, 50HPF/5mm2)"""				
 * plasmaticEbvDnaAtBaseline 0..1 CodeableConcept "Plasmatic EBV DNA at baseline" """Describes the result of EBV DNA plasma testing before treatment in NPC type II and III (WHO) """				
 * hpvStatus 0..1 CodeableConcept "HPV status" """Describes the result of HPV tumor testing in oral carcinoma """				
 * crpCReactiveProteinTested 0..1 CodeableConcept "CRP - C reactive protein tested" """Describes the result of C reactive protein testing"""				
@@ -648,21 +640,19 @@ not tested - 45878602"""
 // Obligations H&N				
 // -------------------------------------------------------------------------------				
 				
-* patient insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfDiagnosis insert ObligationActorAndCode($actor-headneck, #handle)				
+* patient insert ObligationActorAndCode($actor-headneck, #handle)"				
+* dateOfDiagnosis insert ObligationActorAndCode($actor-headneck, #handle)"				
 				
-* biopsyDoneBy insert ObligationActorAndCode($actor-headneck, #handle)				
-* ageAtDiagnosis insert ObligationActorAndCode($actor-headneck, #handle)				
+* biopsyDoneBy insert ObligationActorAndCode($actor-headneck, #handle)"				
+* ageAtDiagnosis insert ObligationActorAndCode($actor-headneck, #handle)"				
 				
-* grading insert ObligationActorAndCode($actor-headneck, #handle)				
-* hnClassification insert ObligationActorAndCode($actor-headneck, #handle)				
-* hnClassification.histologySquamous insert ObligationActorAndCode($actor-headneck, #handle)				
-* hnClassification.histologyAdenocarcinoma insert ObligationActorAndCode($actor-headneck, #handle)				
-* hnClassification.histologyNeuroendocrine insert ObligationActorAndCode($actor-headneck, #handle)				
-* hnClassification.histologyOdontogenicCarcinoma insert ObligationActorAndCode($actor-headneck, #handle)				
-* hnClassification.histologySNUC insert ObligationActorAndCode($actor-headneck, #handle)				
-				
-				
+* grading insert ObligationActorAndCode($actor-headneck, #handle)"				
+* hnClassification insert ObligationActorAndCode($actor-headneck, #handle)"				
+* hnClassification.histologySquamous insert ObligationActorAndCode($actor-headneck, #handle)"				
+* hnClassification.histologyAdenocarcinoma insert ObligationActorAndCode($actor-headneck, #handle)"				
+* hnClassification.histologyNeuroendocrine insert ObligationActorAndCode($actor-headneck, #handle)"				
+* hnClassification.histologyOdontogenicCarcinoma insert ObligationActorAndCode($actor-headneck, #handle)"				
+* hnClassification.histologySNUC insert ObligationActorAndCode($actor-headneck, #handle)"				
 				
 				
 				
@@ -676,14 +666,16 @@ not tested - 45878602"""
 				
 				
 				
-* subsites insert ObligationActorAndCode($actor-headneck, #handle)				
-* subsites.nasalCavityAndParanasalSinuses insert ObligationActorAndCode($actor-headneck, #handle)				
-* subsites.nasopharynx insert ObligationActorAndCode($actor-headneck, #handle)				
-* subsites.hypopharynx insert ObligationActorAndCode($actor-headneck, #handle)				
-* subsites.oropharynx insert ObligationActorAndCode($actor-headneck, #handle)				
-* subsites.larynx insert ObligationActorAndCode($actor-headneck, #handle)				
-* subsites.oralCavity insert ObligationActorAndCode($actor-headneck, #handle)				
-* subsites.lip insert ObligationActorAndCode($actor-headneck, #handle)				
+				
+				
+* subsites insert ObligationActorAndCode($actor-headneck, #handle)"				
+* subsites.nasalCavityAndParanasalSinuses insert ObligationActorAndCode($actor-headneck, #handle)"				
+* subsites.nasopharynx insert ObligationActorAndCode($actor-headneck, #handle)"				
+* subsites.hypopharynx insert ObligationActorAndCode($actor-headneck, #handle)"				
+* subsites.oropharynx insert ObligationActorAndCode($actor-headneck, #handle)"				
+* subsites.larynx insert ObligationActorAndCode($actor-headneck, #handle)"				
+* subsites.oralCavity insert ObligationActorAndCode($actor-headneck, #handle)"				
+* subsites.lip insert ObligationActorAndCode($actor-headneck, #handle)"				
 				
 				
 				
@@ -695,9 +687,9 @@ not tested - 45878602"""
 				
 				
 				
-* plasmaticEbvDnaAtBaseline insert ObligationActorAndCode($actor-headneck, #handle)				
-* hpvStatus insert ObligationActorAndCode($actor-headneck, #handle)				
-* crpCReactiveProteinTested insert ObligationActorAndCode($actor-headneck, #handle)				
+* plasmaticEbvDnaAtBaseline insert ObligationActorAndCode($actor-headneck, #handle)"				
+* hpvStatus insert ObligationActorAndCode($actor-headneck, #handle)"				
+* crpCReactiveProteinTested insert ObligationActorAndCode($actor-headneck, #handle)"				
 //--- END				
 //--- END				
 //--- END				
@@ -707,34 +699,34 @@ not tested - 45878602"""
 // Obligations Sarcoma				
 // -------------------------------------------------------------------------------				
 				
-* patient insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* dateOfDiagnosis insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* typeOfBiopsy insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* biopsyDoneBy insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* ageAtDiagnosis insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* radiotherapyInducedSarcoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* grading insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* hnClassification insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* hnClassification.histologySquamous insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* hnClassification.histologyAdenocarcinoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* hnClassification.histologyNeuroendocrine insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* hnClassification.histologyOdontogenicCarcinoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* hnClassification.histologySNUC insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* hnClassification.adipocyticTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* hnClassification.fmtTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* hnClassification.socalledFibrohistiocyticTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification.vascularTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification.pericyticPerivascularTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification.smoothMuscleTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification.skeletalMuscleTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification.chondroOsseousTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification.peripheralNerveSheathTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification.tumoursOfUncertainDifferentiation insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification.undifSmallRCelSarcBonAndSofTis insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification.endStrAndRelatedTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification.miscellaniousMesenchimalTumors insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sarcomaClassification.mixedEpithelialAndMesenchymalTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* patient insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* dateOfDiagnosis insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* typeOfBiopsy insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* biopsyDoneBy insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* ageAtDiagnosis insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* radiotherapyInducedSarcoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* grading insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* hnClassification insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* hnClassification.histologySquamous insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* hnClassification.histologyAdenocarcinoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* hnClassification.histologyNeuroendocrine insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* hnClassification.histologyOdontogenicCarcinoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* hnClassification.histologySNUC insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* hnClassification.adipocyticTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* hnClassification.fmtTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* hnClassification.socalledFibrohistiocyticTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification.vascularTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification.pericyticPerivascularTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification.smoothMuscleTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification.skeletalMuscleTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification.chondroOsseousTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification.peripheralNerveSheathTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification.tumoursOfUncertainDifferentiation insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification.undifSmallRCelSarcBonAndSofTis insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification.endStrAndRelatedTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification.miscellaniousMesenchimalTumors insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* sarcomaClassification.mixedEpithelialAndMesenchymalTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
 				
 				
 				
@@ -743,17 +735,17 @@ not tested - 45878602"""
 				
 				
 				
-* subsites.upperAndLowerLimbs insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* subsites.trunkWallSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* subsites.intraAbdominalSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* subsites.intraThoracicSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* subsites.genitoUrinarySubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* subsites.headAndNeckSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* subsites.breast insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* subsites.others insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* tumorSize insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* depth insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* biopsyMitoticCount insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* subsites.upperAndLowerLimbs insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* subsites.trunkWallSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* subsites.intraAbdominalSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* subsites.intraThoracicSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* subsites.genitoUrinarySubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* subsites.headAndNeckSubsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* subsites.breast insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* subsites.others insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* tumorSize insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* depth insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
+* biopsyMitoticCount insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)"				
 				
 				
 				

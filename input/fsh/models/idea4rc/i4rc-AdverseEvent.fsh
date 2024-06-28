@@ -28,10 +28,10 @@ Custom"""
 // -------------------------------------------------------------------------------	
 // Obligations H&N	
 // -------------------------------------------------------------------------------	
-* episodeEvent insert ObligationActorAndCode($actor-headneck, #handle)	
-* type insert ObligationActorAndCode($actor-headneck, #handle)	
-* eventStartingDate insert ObligationActorAndCode($actor-headneck, #handle)	
-* eventDuration insert ObligationActorAndCode($actor-headneck, #handle)	
+* episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)	
+* type insert ObligationActorAndCode($actor-headneck, #SHALL:handle)	
+* eventStartingDate insert ObligationActorAndCode($actor-headneck, #SHALL:handle)	
+* eventDuration insert ObligationActorAndCode($actor-headneck, #SHALL:handle)	
 //--- END	
 //--- END	
 //--- END	

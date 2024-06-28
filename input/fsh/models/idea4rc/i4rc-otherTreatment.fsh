@@ -39,11 +39,11 @@ Progression - 32949
 // -------------------------------------------------------------------------------				
 // Obligations H&N				
 // -------------------------------------------------------------------------------				
-* episodeEvent insert ObligationActorAndCode($actor-headneck, #handle)				
+* episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 				
-* startDate insert ObligationActorAndCode($actor-headneck, #handle)				
-* endDate insert ObligationActorAndCode($actor-headneck, #handle)				
-* treatmentResponse insert ObligationActorAndCode($actor-headneck, #handle)				
+* startDate insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* endDate insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* treatmentResponse insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 //--- END				
 //--- END				
 //--- END				
@@ -51,11 +51,11 @@ Progression - 32949
 // -------------------------------------------------------------------------------				
 // Obligations Sarcoma				
 // -------------------------------------------------------------------------------				
-* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* type insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* startDate insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* endDate insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* treatmentResponse insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* type insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* startDate insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* endDate insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* treatmentResponse insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 //--- END				
 //--- END				
 //--- END				

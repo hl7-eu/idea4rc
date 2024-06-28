@@ -145,35 +145,35 @@ Clavien-Dindo complication scale: Grade V - 715982"""
 // -------------------------------------------------------------------------------				
 // Obligations H&N				
 // -------------------------------------------------------------------------------				
-* episodeEvent insert ObligationActorAndCode($actor-headneck, #handle)				
-* type insert ObligationActorAndCode($actor-headneck, #handle)				
-* surgeryHospital insert ObligationActorAndCode($actor-headneck, #handle)				
-* date insert ObligationActorAndCode($actor-headneck, #handle)				
-* intention insert ObligationActorAndCode($actor-headneck, #handle)				
-* typeOfApproach insert ObligationActorAndCode($actor-headneck, #handle)				
-* marginsAfterSurgery insert ObligationActorAndCode($actor-headneck, #handle)				
+* episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* type insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* surgeryHospital insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* date insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* intention insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* typeOfApproach insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* marginsAfterSurgery insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 				
 				
 				
 				
-* reconstruction insert ObligationActorAndCode($actor-headneck, #handle)				
-* neckSurgery insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfNeckSurgey insert ObligationActorAndCode($actor-headneck, #handle)				
-* lateralityOfTheDissection insert ObligationActorAndCode($actor-headneck, #handle)				
-* surgeryOnM insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfSurgeryOnM insert ObligationActorAndCode($actor-headneck, #handle)				
-* siteOnMetastasis insert ObligationActorAndCode($actor-headneck, #handle)				
-* siteOnMetastasis.softTissue insert ObligationActorAndCode($actor-headneck, #handle)				
-* siteOnMetastasis.distantLymphNodes insert ObligationActorAndCode($actor-headneck, #handle)				
-* siteOnMetastasis.lung insert ObligationActorAndCode($actor-headneck, #handle)				
-* siteOnMetastasis.bone insert ObligationActorAndCode($actor-headneck, #handle)				
-* siteOnMetastasis.liver insert ObligationActorAndCode($actor-headneck, #handle)				
-* siteOnMetastasis.pleura insert ObligationActorAndCode($actor-headneck, #handle)				
-* siteOnMetastasis.peritoneum insert ObligationActorAndCode($actor-headneck, #handle)				
-* siteOnMetastasis.brain insert ObligationActorAndCode($actor-headneck, #handle)				
-* siteOnMetastasis.otherViscera insert ObligationActorAndCode($actor-headneck, #handle)				
-* siteOnMetastasis.unknown insert ObligationActorAndCode($actor-headneck, #handle)				
-* surgicalComplications insert ObligationActorAndCode($actor-headneck, #handle)				
+* reconstruction insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* neckSurgery insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* dateOfNeckSurgey insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* lateralityOfTheDissection insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* surgeryOnM insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* dateOfSurgeryOnM insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* siteOnMetastasis insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* siteOnMetastasis.softTissue insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* siteOnMetastasis.distantLymphNodes insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* siteOnMetastasis.lung insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* siteOnMetastasis.bone insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* siteOnMetastasis.liver insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* siteOnMetastasis.pleura insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* siteOnMetastasis.peritoneum insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* siteOnMetastasis.brain insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* siteOnMetastasis.otherViscera insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* siteOnMetastasis.unknown insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* surgicalComplications insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 //--- END				
 //--- END				
 //--- END				
@@ -185,17 +185,17 @@ Clavien-Dindo complication scale: Grade V - 715982"""
 // -------------------------------------------------------------------------------				
 // Obligations Sarcoma				
 // -------------------------------------------------------------------------------				
-* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* type insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* type insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 				
-* date insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* intention insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* date insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* intention insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 				
-* marginsAfterSurgery insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* tumorRupture insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* SpecimenMitoticCount insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* SpecimenGradingOnlyInUntreatedTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* isolatedLimbPerfusion insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* marginsAfterSurgery insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* tumorRupture insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* SpecimenMitoticCount insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* SpecimenGradingOnlyInUntreatedTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* isolatedLimbPerfusion insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 				
 				
 				

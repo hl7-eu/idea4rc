@@ -41,10 +41,10 @@ Custom"""
 // -------------------------------------------------------------------------------				
 // Obligations H&N				
 // -------------------------------------------------------------------------------				
-* cancerEpisode insert ObligationActorAndCode($actor-headneck, #handle)				
-* eventType insert ObligationActorAndCode($actor-headneck, #handle)				
-* definedAt insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfEpisode insert ObligationActorAndCode($actor-headneck, #handle)				
+* cancerEpisode insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* eventType insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* definedAt insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* dateOfEpisode insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 //--- END				
 //--- END				
 //--- END				
@@ -56,10 +56,10 @@ Custom"""
 // -------------------------------------------------------------------------------				
 // Obligations Sarcoma				
 // -------------------------------------------------------------------------------				
-* cancerEpisode insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* eventType insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* definedAt insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* dateOfEpisode insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* cancerEpisode insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* eventType insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* definedAt insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* dateOfEpisode insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 //--- END				
 //--- END				
 //--- END				

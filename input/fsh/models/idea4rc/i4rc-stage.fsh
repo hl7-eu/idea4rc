@@ -131,29 +131,29 @@ Unknown - 4129922"""
 // -------------------------------------------------------------------------------				
 // Obligations H&N				
 // -------------------------------------------------------------------------------				
-* episodeEvent insert ObligationActorAndCode($actor-headneck, #handle)				
-* type insert ObligationActorAndCode($actor-headneck, #handle)				
-* t insert ObligationActorAndCode($actor-headneck, #handle)				
-* n insert ObligationActorAndCode($actor-headneck, #handle)				
-* m insert ObligationActorAndCode($actor-headneck, #handle)				
-* rENE insert ObligationActorAndCode($actor-headneck, #handle)				
+* episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* type insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* t insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* n insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* m insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* rENE insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 				
 				
-* isMetastatic insert ObligationActorAndCode($actor-headneck, #handle)				
-* ajccEdition insert ObligationActorAndCode($actor-headneck, #handle)				
+* isMetastatic insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* ajccEdition insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 				
-* sites insert ObligationActorAndCode($actor-headneck, #handle)				
-* sites.softTissue insert ObligationActorAndCode($actor-headneck, #handle)				
-* sites.distantLymphNode insert ObligationActorAndCode($actor-headneck, #handle)				
-* sites.lung insert ObligationActorAndCode($actor-headneck, #handle)				
-* sites.bone insert ObligationActorAndCode($actor-headneck, #handle)				
-* sites.liver insert ObligationActorAndCode($actor-headneck, #handle)				
-* sites.pleura insert ObligationActorAndCode($actor-headneck, #handle)				
-* sites.peritoneum insert ObligationActorAndCode($actor-headneck, #handle)				
-* sites.brain insert ObligationActorAndCode($actor-headneck, #handle)				
-* sites.otherViscera insert ObligationActorAndCode($actor-headneck, #handle)				
-* sites.unknown insert ObligationActorAndCode($actor-headneck, #handle)				
-* stagingClassification insert ObligationActorAndCode($actor-headneck, #handle)				
+* sites insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* sites.softTissue insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* sites.distantLymphNode insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* sites.lung insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* sites.bone insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* sites.liver insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* sites.pleura insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* sites.peritoneum insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* sites.brain insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* sites.otherViscera insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* sites.unknown insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* stagingClassification insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 //--- END				
 //--- END				
 //--- END				
@@ -164,28 +164,28 @@ Unknown - 4129922"""
 // -------------------------------------------------------------------------------				
 // Obligations Sarcoma				
 // -------------------------------------------------------------------------------				
-* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* type insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* type insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 				
 				
 				
 				
-* localised insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* locoRegional insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* isMetastatic insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* localised insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* locoRegional insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* isMetastatic insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 				
-* regionalNodalMetastases insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sites insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sites.softTissue insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sites.distantLymphNode insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sites.lung insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sites.bone insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sites.liver insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sites.pleura insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sites.peritoneum insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sites.brain insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sites.otherViscera insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* sites.unknown insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* regionalNodalMetastases insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sites insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sites.softTissue insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sites.distantLymphNode insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sites.lung insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sites.bone insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sites.liver insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sites.pleura insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sites.peritoneum insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sites.brain insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sites.otherViscera insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sites.unknown insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 				
 //--- END				
 //--- END				

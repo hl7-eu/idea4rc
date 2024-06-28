@@ -48,12 +48,12 @@ Description:  """Patient Follow Up"""
 // -------------------------------------------------------------------------------				
 // Obligations H&N				
 // -------------------------------------------------------------------------------				
-* patient insert ObligationActorAndCode($actor-headneck, #handle)				
-* statusAtLastFollowUp insert ObligationActorAndCode($actor-headneck, #handle)				
-* patientFollowUpDate insert ObligationActorAndCode($actor-headneck, #handle)				
-* newCancerDiagnosis insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfNewCancerDiagnosis insert ObligationActorAndCode($actor-headneck, #handle)				
-* newCancerTopography insert ObligationActorAndCode($actor-headneck, #handle)				
+* patient insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* statusAtLastFollowUp insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* patientFollowUpDate insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* newCancerDiagnosis insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* dateOfNewCancerDiagnosis insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* newCancerTopography insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 //--- END				
 //--- END				
 //--- END				
@@ -63,9 +63,9 @@ Description:  """Patient Follow Up"""
 // -------------------------------------------------------------------------------				
 // Obligations Sarcoma				
 // -------------------------------------------------------------------------------				
-* patient insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* statusAtLastFollowUp insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* patientFollowUpDate insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* patient insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* statusAtLastFollowUp insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* patientFollowUpDate insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 				
 				
 				

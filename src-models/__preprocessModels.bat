@@ -14,7 +14,7 @@ for /R ..\input\fsh\models\idea4rc %%f in (*.fsh) do (
  fart %~1  ##334# \"\"\"
  fart %~1  ##34#\" \"
  fart %~1  ##34# \"
- fart %~1  #handle)\" #handle)
+ fart %~1  #SHALL:handle)\" #SHALL:handle)
  REM fart -C %~1  \t\t\t\t\r\n\t\t\t\t\r\n \r\n
  REM fart -C %~1  \t\r\n\t\r\n \r\n
  REM fart -C %~1  \r\n\r\n \r\n

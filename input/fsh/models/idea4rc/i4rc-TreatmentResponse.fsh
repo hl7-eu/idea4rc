@@ -42,9 +42,9 @@ Custom"""
 // -------------------------------------------------------------------------------	
 // Obligations H&N	
 // -------------------------------------------------------------------------------	
-* episodeEvent insert ObligationActorAndCode($actor-headneck, #handle)	
-* treatmentResponse insert ObligationActorAndCode($actor-headneck, #handle)	
-* treatmentResponseDefinedDone insert ObligationActorAndCode($actor-headneck, #handle)	
+* episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)	
+* treatmentResponse insert ObligationActorAndCode($actor-headneck, #SHALL:handle)	
+* treatmentResponseDefinedDone insert ObligationActorAndCode($actor-headneck, #SHALL:handle)	
 //--- END	
 //--- END	
 //--- END
@@ -52,9 +52,9 @@ Custom"""
 // -------------------------------------------------------------------------------	
 // Obligations Sarcoma	
 // -------------------------------------------------------------------------------	
-* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
-* treatmentResponse insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
-* treatmentResponseDefinedDone insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)	
+* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
+* treatmentResponse insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
+* treatmentResponseDefinedDone insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)	
 //--- END	
 //--- END	
 //--- END	

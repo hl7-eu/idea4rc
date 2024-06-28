@@ -30,21 +30,21 @@ Description:  """Genetic Test Expression"""
 // -------------------------------------------------------------------------------				
 // Obligations H&N				
 // -------------------------------------------------------------------------------				
-* episodeEventReference insert ObligationActorAndCode($actor-headneck, #handle)				
-* geneExpressionAnalysisPerformed insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfGeneExpression insert ObligationActorAndCode($actor-headneck, #handle)				
-* geneMutationAnalysisPerformed insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfGeneMutation insert ObligationActorAndCode($actor-headneck, #handle)				
-* testsForChromosomeTranslocationsPerformed insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfTraslocation insert ObligationActorAndCode($actor-headneck, #handle)				
-* ngsPerformed insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfNgs insert ObligationActorAndCode($actor-headneck, #handle)				
-* pcrTestPerformed insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfPcr insert ObligationActorAndCode($actor-headneck, #handle)				
-* immunohistochemistryPerformed insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfImmunohistochemistry insert ObligationActorAndCode($actor-headneck, #handle)				
-* ctDnaPerformed insert ObligationActorAndCode($actor-headneck, #handle)				
-* dateOfCtdna insert ObligationActorAndCode($actor-headneck, #handle)				
+* episodeEventReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* geneExpressionAnalysisPerformed insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* dateOfGeneExpression insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* geneMutationAnalysisPerformed insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* dateOfGeneMutation insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* testsForChromosomeTranslocationsPerformed insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* dateOfTraslocation insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* ngsPerformed insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* dateOfNgs insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* pcrTestPerformed insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* dateOfPcr insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* immunohistochemistryPerformed insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* dateOfImmunohistochemistry insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* ctDnaPerformed insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* dateOfCtdna insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 //--- END				
 //--- END				
 //--- END				

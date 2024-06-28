@@ -101,22 +101,22 @@ Unknown - 4129922"""
 // -------------------------------------------------------------------------------				
 // Obligations H&N				
 // -------------------------------------------------------------------------------				
-* episodeEventReference insert ObligationActorAndCode($actor-headneck, #handle)				
-* typeOfSystemicTreatment insert ObligationActorAndCode($actor-headneck, #handle)				
-* intent insert ObligationActorAndCode($actor-headneck, #handle)				
-* setting insert ObligationActorAndCode($actor-headneck, #handle)				
+* episodeEventReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* typeOfSystemicTreatment insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* intent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* setting insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 				
-* startDateSystemicTreatment insert ObligationActorAndCode($actor-headneck, #handle)				
-* endDateSystemicTreatment insert ObligationActorAndCode($actor-headneck, #handle)				
-* numberOfCyclesAdministrations insert ObligationActorAndCode($actor-headneck, #handle)				
-* regimen insert ObligationActorAndCode($actor-headneck, #handle)				
-* regimen.drugs1 insert ObligationActorAndCode($actor-headneck, #handle)				
-* regimen.drugs2 insert ObligationActorAndCode($actor-headneck, #handle)				
-* regimen.drugs3 insert ObligationActorAndCode($actor-headneck, #handle)				
-* regimen.startDateRegimenChanged insert ObligationActorAndCode($actor-headneck, #handle)				
-* regimen.endDateRegimenChanged insert ObligationActorAndCode($actor-headneck, #handle)				
-* reasonForEndOfTreatment insert ObligationActorAndCode($actor-headneck, #handle)				
-* treatmentResponse insert ObligationActorAndCode($actor-headneck, #handle)				
+* startDateSystemicTreatment insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* endDateSystemicTreatment insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* numberOfCyclesAdministrations insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* regimen insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* regimen.drugs1 insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* regimen.drugs2 insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* regimen.drugs3 insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* regimen.startDateRegimenChanged insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* regimen.endDateRegimenChanged insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* reasonForEndOfTreatment insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* treatmentResponse insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 //--- END				
 //--- END				
 //--- END				
@@ -127,22 +127,22 @@ Unknown - 4129922"""
 // -------------------------------------------------------------------------------				
 // Obligations Sarcoma				
 // -------------------------------------------------------------------------------				
-* episodeEventReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* typeOfSystemicTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* episodeEventReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* typeOfSystemicTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 				
 				
-* computedTomographyInfo insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* startDateSystemicTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* endDateSystemicTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* numberOfCyclesAdministrations insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* regimen insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* regimen.drugs1 insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* regimen.drugs2 insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* regimen.drugs3 insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* computedTomographyInfo insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* startDateSystemicTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* endDateSystemicTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* numberOfCyclesAdministrations insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* regimen insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* regimen.drugs1 insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* regimen.drugs2 insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* regimen.drugs3 insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 				
 				
-* reasonForEndOfTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
-* treatmentResponse insert ObligationActorAndCode($actor-sarcoma-i4rc, #handle)				
+* reasonForEndOfTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* treatmentResponse insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 //--- END				
 //--- END				
 //--- END				
