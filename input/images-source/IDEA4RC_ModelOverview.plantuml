@@ -1,53 +1,15 @@
 @startuml
 
-<style>
-title {
-  HorizontalAlignment right
-  FontSize 24
-  FontColor blue
-}
+scale 0.7
 
-header {
-  HorizontalAlignment center
-  FontSize 18
-  ' FontColor purple
-}
+header Overview of IDEA4RC DataModel
 
-footer {
-  HorizontalAlignment left
-  FontSize 28
-  FontColor red
-}
+title IDEA4RC DataModel Object Diagram
 
-legend {
-  FontSize 15
-  BackGroundColor white
-  Margin 10
-  Padding 5
-}
-
-caption {
-  FontSize 32
-}
-
-arrow {
-  FontSize 18
-  Padding 50
-  Margin 50
-}
-
-</style>
-
-' header Draft
-
-title IDEA4RC DataModel
-
-' hide the spot
+hide spot
 hide circle
 
-' avoid problems with angled crows feet
 skinparam linetype ortho
-scale 0.7
 
 legend top left
 |= |= Review Status |
@@ -56,97 +18,92 @@ legend top left
 |<back:#E5CCFF>   </back>| Under Review|
 |<back:#FFB266>   </back>| Next in line |
 |<back:#FFFFCC>   </back>| 2nd in line |
-
- 
 endlegend
 
 object "Patient" as p #94d8f2 {
-    }
+}
 url of p [[StructureDefinition-Subject.html]]
 
 object "HospitalData" as hd #94d8f2 {
-    }
+}
 url of hd [[StructureDefinition-HospitalPatientRecords.html]]
 
 object "HospitalPatientRecords" as hpr #94d8f2 {
-    }
+}
 url of hpr [[StructureDefinition-HospitalPatientRecords.html]]
 
 object "PatientFollowUp" as pfu #94d8f2 {
-    }
+}
 url of pfu [[StructureDefinition-PatientFollowUp.html]]
 
 object "CancerEpisode" as ce #94d8f2 {
-    }
+}
 url of ce [[StructureDefinition-CancerEpisode.html]]
+
 object "EpisodeEvent" as ee #94d8f2 {
-    }
+}
 url of ee [[StructureDefinition-EpisodeEvent.html]]
-object "GeneticTestExpression" as gte  {
-    }
-url of gte [[StructureDefinition-GeneticTestExpression.html]]
-object "Stage" as s #E5CCFF {
-    }
-url of s [[StructureDefinition-Stage.html]]
+
+object "HnStage" as hs {
+}
+object "SarcomaStage" as ss {
+}
+
 object "PathologicalReportInfo" as pri {
-    }
+}
+object "GeneticTestExpression" as gte {
+}
+url of gte [[StructureDefinition-GeneticTestExpression.html]]
 
 object "Surgery" as su #FFB266 {
-    }
+}
 url of su [[StructureDefinition-Surgery.html]]
-object "SystemicTreatment" as st {
-    }
-url of st [[StructureDefinition-SystemicTreatment.html]]
-object "Radiotherapy" as r #FFFFCC {
-    }
-url of r [[StructureDefinition-Radiotherapy.html]]
-object "OtherLocalTreatment" as olt {
-    }
 
-object "DrugsForSystemicTreatment" as dfst {
-    }
+object "SystemicTreatment" as st {
+}
+url of st [[StructureDefinition-SystemicTreatment.html]]
+
+object "Radiotherapy" as r #FFFFCC {
+}
+url of r [[StructureDefinition-Radiotherapy.html]]
+
+object "OtherLocalTreatment" as olt {
+}
+
+object "IsolatedLimbPerfusion" as ilp {
+}
+object "DrugsForTreatments" as dft {
+}
 object "TreatmentResponse" as tr {
-    }
+}
 url of tr [[StructureDefinition-TreatmentResponse.html]]
 
 object "AdverseEvent" as ae {
-    }
+}
 url of ae [[StructureDefinition-AdverseEvent.html]]
-
-
-
 
 p "1" ||--|{ "1..N" hpr
 hd "1" ||--|{ "1..N" hpr
-
 p "1" ||--o{ "0..N" ce
 p "1" ||--o{ "0..N" pfu
 
 ce "1" ||--|{ "1..N" ee
-
-ee "1" ||--o| "0..1" s
+ee "1" ||--o| "0..1" hs
+ee "1" ||--o| "0..1" ss
+st "1" ||--|{ "0..N" dft
+ilp "1" ||--|{ "0..N" dft
+olt "1" ||--|{ "0..N" dft
 ee "1" ||--o{ "0..N" r
 ee "1" ||--o{ "0..N" su
 ee "1" ||--o{ "0..N" st
 ee "1" ||--o{ "0..N" olt
+ee "1" ||--o{ "0..N" ilp
 ee "1" ||--o{ "0..N" gte
 ee "1" ||--o{ "0..N" tr
 ee "1" ||--o{ "0..N" pri
 
-
-note as N1
-The relations to AdverseEvent are a XOR
-end note
-
-s "1" ||--o{ "0..N" ae
-'note on link: XOR
+su "1" ||--o{ "0..N" ae
 st "0..N" ||--o{ "1" ae
-'note on link: XOR
 r "1" ||--o{ "0..N" ae
-'note on link: XOR
-
-s .. N1
-st .. N1
-r .. N1
 
 @enduml

@@ -131,9 +131,9 @@ resources:
     name: Patient (Subject) Model to this guide Map
     description: It shows how the Patient (Subject) model is mapped into this guide
 
-  ConceptMap/stage2FHIR:
-    name: Stage Model to this guide Map
-    description: It shows how the Stage model is mapped into this guide
+#  ConceptMap/stage2FHIR:
+#    name: Stage Model to this guide Map
+#    description: It shows how the Stage model is mapped into this guide
 
   ConceptMap/surgery2FHIR:
     name: Surgery Model to this guide Map
@@ -172,9 +172,15 @@ resources:
     name: Episode Event
     description: IDEA4RC Episode Event common model
 
-  StructureDefinition/Stage:
-    name: Stage
-    description: IDEA4RC Stage common model
+  StructureDefinition/HnStage:
+    name: Head and Neck Stage
+    description: IDEA4RC Head and Neck Stage common model
+
+  StructureDefinition/SarcomaStage:
+    name: Sarcoma Stage
+    description: IDEA4RC Sarcoma Stage common model
+
+
     
   StructureDefinition/SystemicTreatment:
     name: Systemic Treatment
@@ -226,7 +232,8 @@ groups:
       - StructureDefinition/Subject
       - StructureDefinition/CancerEpisode
       - StructureDefinition/EpisodeEvent
-      - StructureDefinition/Stage
+      - StructureDefinition/SarcomaStage
+      - StructureDefinition/HnStage
       - StructureDefinition/SystemicTreatment
       - StructureDefinition/Surgery
       - StructureDefinition/Radiotherapy
@@ -242,7 +249,7 @@ groups:
     resources:
       - ConceptMap/subject2FHIR
       - ConceptMap/cancerEpisode2FHIR
-      - ConceptMap/stage2FHIR
+#      - ConceptMap/stage2FHIR
 #      - ConceptMap/pathologicalStage2FHIR
       - ConceptMap/episodeEvent2FHIR
       - ConceptMap/surgery2FHIR
