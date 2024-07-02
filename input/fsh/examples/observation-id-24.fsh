@@ -1,5 +1,6 @@
-Instance: GOFSH-GENERATED-ID-24
-InstanceOf: Observation
+Instance: observation-id-24
+InstanceOf:  ECOGPerformanceStatus
+Title: "Observation: ECOG Performance Status score"
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-ecog-performance-status-eu-i4rc"
 * status = #final
