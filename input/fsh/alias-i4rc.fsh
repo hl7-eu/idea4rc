@@ -137,3 +137,4 @@ Alias: $elementdefinition-namespace = http://hl7.org/fhir/StructureDefinition/el
 // --- Profiles
 Alias: $Patient-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips
 Alias: $Organization-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips
+Alias: $bmi = http://hl7.org/fhir/StructureDefinition/bmi

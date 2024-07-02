@@ -14,7 +14,7 @@
 * #NED "Alive, No Evidence of Disease" "Alive, No Evidence of Disease"
 * #DOD "Dead of Disease DEATH" "Dead of Disease DEATH"
 * #DOC "Dead of Other Cause DEATH" "Dead of Other Cause DEATH"
-* #DUC "Dead of Unknown Cause DEATH" "Dead of Unknown Cause DEATH "
+* #DUC "Dead of Unknown Cause DEATH" "Dead of Unknown Cause DEATH"
 * #AWD "Alive With Disease" "Alive With Disease"
 
 
