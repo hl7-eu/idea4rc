@@ -108,7 +108,7 @@ This profile should be also used for documenting primary cancer relapses during 
   * ^definition = """Encounter this primary cancer has been identified.
   To be used for subsequent primary cancers."""
 
-* stage.assessment only Reference(CancerStageGroup)
+* stage.assessment only Reference(HnCancerStageGroup)
 * stage.summary from CancerStageGradingVS
   * ^short = "Most recent Stage Group"
   * ^definition = "As for mCODE, in IDEA4RC staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the stage group MAY appear in this element, copied from the CancerStageGroup, but Data Senders and Receivers MAY ignore it."
@@ -154,7 +154,7 @@ This profile should be also used for documenting primary cancer relapses during 
   * detail only Reference (ObservationSimpleResult) 
 
 // Lab Test performed
-* evidence contains lab-test  1..3 
+* evidence contains lab-test  0..3 
 * evidence[lab-test]
   * ^short = "Laboratory Test results"
   * ^definition = """It includes the results of:

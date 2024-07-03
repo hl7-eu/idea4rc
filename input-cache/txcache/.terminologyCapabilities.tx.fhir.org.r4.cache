@@ -5,7 +5,7 @@
   "version" : "2.0.0",
   "name" : "FHIR Reference Server Teminology Capability Statement",
   "status" : "active",
-  "date" : "2024-01-22T16:02:59.832Z",
+  "date" : "2024-07-03T15:07:22.456Z",
   "contact" : [{
     "telecom" : [{
       "system" : "other",
@@ -845,9 +845,6 @@
     "uri" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-provenance-participant-type"
   },
   {
-    "uri" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-sex-for-clinical-use"
-  },
-  {
     "uri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/assemble-expectation"
   },
   {
@@ -962,6 +959,12 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/appropriateness-score"
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/artifact-identifier-type"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes"
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/attribute-estimate-type"
   },
   {
@@ -993,6 +996,9 @@
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/catalogType"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/cdshooks-indicator"
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/certainty-rating"
@@ -1128,6 +1134,9 @@
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/coverage-selfpay"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/cql-access-modifier"
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/data-absent-reason"
@@ -1358,6 +1367,9 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/match-grade"
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/measure-aggregate-method"
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/measure-data-usage"
   },
   {
@@ -1368,6 +1380,9 @@
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/measure-scoring"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/measure-supplemental-data"
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/measure-type"
@@ -1577,7 +1592,13 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/service-type"
   },
   {
+    "uri" : "http://terminology.hl7.org/CodeSystem/sex-parameter-for-clinical-use"
+  },
+  {
     "uri" : "http://terminology.hl7.org/CodeSystem/smart-capabilities"
+  },
+  {
+    "uri" : "http://terminology.hl7.org/CodeSystem/software-system-type-codes"
   },
   {
     "uri" : "http://terminology.hl7.org/CodeSystem/special-values"
@@ -3581,6 +3602,15 @@
     "uri" : "http://www.whocc.no/atc"
   },
   {
+    "uri" : "https://nahdo.org/sopt"
+  },
+  {
+    "uri" : "https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html"
+  },
+  {
+    "uri" : "https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html"
+  },
+  {
     "uri" : "https://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/HospitalAcqCond/Coding"
   },
   {
@@ -3627,6 +3657,9 @@
   },
   {
     "uri" : "urn:oid:2.16.840.1.113883.3.1937.98.5.8"
+  },
+  {
+    "uri" : "urn:oid:2.16.840.1.113883.6.238"
   }],
   "expansion" : {
     "parameter" : [{

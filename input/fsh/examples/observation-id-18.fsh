@@ -1,5 +1,6 @@
-Instance: GOFSH-GENERATED-ID-18
-InstanceOf: Observation
+Instance: observation-id-18
+InstanceOf: ObservationTobaccoUseI4rc
+Title: "Observation: Tobacco use panel"
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-tobaccouse-eu-i4rc"
 * status = #final

@@ -1,9 +1,9 @@
-Instance: GOFSH-GENERATED-ID-36
+Instance: GOFSH-GENERATED-id-36
 InstanceOf: Condition
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-secondaryCancer-eu-i4rc"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-related"
-* extension.valueReference = Reference(urn:uuid:5a5bd0ce-8470-458c-897e-823efc99154f)
+* extension.valueReference = Reference(condition-id-10)
 * bodySite[0].extension[0].url = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-body-location-qualifier"
 * bodySite[=].extension[=].valueCodeableConcept = $athena#4228659 "Number of tumor nodules"
 * bodySite[=].extension[+].url = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-body-location-qualifier"

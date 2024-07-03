@@ -1,4 +1,4 @@
-Instance: GOFSH-GENERATED-ID-30
+Instance: GOFSH-GENERATED-id-30
 InstanceOf: MedicationAdministration
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/MedicationAdministration-eu-i4rc"
@@ -22,4 +22,4 @@ Usage: #example
 * effectivePeriod.start = "2021-12-15T00:00:00+01:00"
 * effectivePeriod.end = "2022-03-14T00:00:00+01:00"
 * medicationCodeableConcept = $athena#1379408 "Unknown" // Added ex-post
-* reasonReference = Reference(urn:uuid:5a5bd0ce-8470-458c-897e-823efc99154f)
+* reasonReference = Reference(condition-id-10)

@@ -1,4 +1,4 @@
-Instance: GOFSH-GENERATED-ID-29
+Instance: GOFSH-GENERATED-id-29
 InstanceOf: Procedure
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-surgery-eu-i4rc"
@@ -14,6 +14,6 @@ Usage: #example
 * code = $athena#4019656 "Isolated limb perfusion"
 * subject = Reference(patient-id-17)
 * performedDateTime = "2023-11-12T00:00:00+01:00"
-* reasonReference = Reference(urn:uuid:5a5bd0ce-8470-458c-897e-823efc99154f)
+* reasonReference = Reference(condition-id-10)
 * outcome = $athena#1634484 "R2: Macroscopic residual tumor"
 * complication = $athena#715976 "Clavien-Dindo complication scale: Grade III"

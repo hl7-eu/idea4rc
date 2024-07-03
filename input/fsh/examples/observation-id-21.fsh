@@ -1,5 +1,6 @@
 Instance: observation-id-21
 InstanceOf: ObservationDiagnosisI4rc
+Title: "Observation: Diagnosis"
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Observation-diagnosis-eu-i4rc"
 * status = #final

@@ -119,3 +119,22 @@ Title: "TNM Distant Metastases Category Value Set"
 Description: "This value set is intended to contain allowable values for the M category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
 * ^experimental = false
 * codes from system $ajcc
+
+
+// === Sarcoma 
+
+ValueSet: DiseaseExtentCategoryVS
+Id: disease-extent-category-vs
+Title: "Sarcoma Staging: localized disease"
+Description: "This value set includes values indicating if the disease is confined or metastatic."
+* ^experimental = false
+* $athena#32942 "Confined Disease"
+* $athena#32944 "Metastatic Disease"
+
+ValueSet: LocoRegionalCategoryVS
+Id: locoregional-category-vs
+Title: "Sarcoma Staging: loco-regional category"
+Description: "This value set includes values indicating if the disease is multi-focal or in-trasit metastatis."
+* ^experimental = false
+* $athena#36769249 "Transit Metastasis with Clinical Confirmation"
+* $athena#36769933 "Multifocal Tumor"

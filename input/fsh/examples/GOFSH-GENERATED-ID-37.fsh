@@ -1,4 +1,4 @@
-Instance: GOFSH-GENERATED-ID-37
+Instance: GOFSH-GENERATED-id-37
 InstanceOf: Observation
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-primary-tumor-category"

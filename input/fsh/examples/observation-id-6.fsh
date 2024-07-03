@@ -1,11 +1,13 @@
-Instance: GOFSH-GENERATED-ID-6
-InstanceOf: Observation
+Instance: observation-id-6
+InstanceOf: HnCancerStageGroup
+Title: "Observation: TNM stage grouping"
 Usage: #example
-* meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-cancer-stage-group"
+
+* meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/hn-cancer-stage-group"
 * status = #final
 * code = $athena#4219603 "TNM stage grouping"
 * subject = Reference(patient-id-17)
-* focus = Reference(urn:uuid:5a5bd0ce-8470-458c-897e-823efc99154f)
+* focus = Reference(condition-id-10)
 * valueCodeableConcept = $athena#1635029 "AJCC/UICC 8th clinical Stage 4"
 * hasMember[0] = Reference(urn:uuid:1a646370-8369-4750-b6ea-806e198b5ee1)
 * hasMember[+] = Reference(urn:uuid:567f9703-1061-4b46-a145-2082b2ce39cc)

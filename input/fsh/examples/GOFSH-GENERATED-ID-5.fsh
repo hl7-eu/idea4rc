@@ -1,4 +1,4 @@
-Instance: GOFSH-GENERATED-ID-5
+Instance: GOFSH-GENERATED-id-5
 InstanceOf: Observation
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-extraNodalExtension-eu-i4rc"

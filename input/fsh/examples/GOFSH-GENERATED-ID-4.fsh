@@ -1,4 +1,4 @@
-Instance: GOFSH-GENERATED-ID-4
+Instance: GOFSH-GENERATED-id-4
 InstanceOf: Observation
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-distant-metastases-category"

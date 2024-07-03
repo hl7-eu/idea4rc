@@ -282,7 +282,7 @@ groups:
     name:  HL7 FHIR Profile implementing the Stage models
     description: HL7 FHIR Profile implementing the Stage models
     resources:
-      - StructureDefinition/mcode-cancer-stage-group
+      - StructureDefinition/hn-cancer-stage-group
       - StructureDefinition/mcode-tnm-primary-tumor-category
       - StructureDefinition/mcode-tnm-regional-nodes-category
       - StructureDefinition/mcode-tnm-distant-metastases-category

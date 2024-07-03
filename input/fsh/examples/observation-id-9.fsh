@@ -1,5 +1,6 @@
-Instance: GOFSH-GENERATED-ID-9
+Instance: observation-id-9
 InstanceOf: Observation
+Title: "Observation: gene Mutation Analysis Performed (yes/no)"
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-yesNo-eu-i4rc"
 * status = #final

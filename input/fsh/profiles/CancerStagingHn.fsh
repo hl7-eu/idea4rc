@@ -16,10 +16,15 @@ RuleSet: CancerStageCommonRules
 // MS flags -- for Pathological staging, they might be redundant with US Core Lab Observation (but that's harmless)
 // * status and code and subject and effective[x] and value[x] and method and focus MS
 
-Profile: CancerStageGroup
-Id: mcode-cancer-stage-group
+
+// =============================================================================
+
+
+
+Profile: HnCancerStageGroup
+Id: hn-cancer-stage-group
 Parent: Observation
-Title: "Observation: Cancer Stage Group"
+Title: "Observation: Head Neck Cancer Stage Group"
 Description: "The extent of the cancer in the body, according to a given cancer staging classification system, based on evidence such as physical examination, imaging, and/or biopsy or based on pathologic analysis of a specimen."
 * insert CancerStageCommonRules
 

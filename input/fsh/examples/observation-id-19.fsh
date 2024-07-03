@@ -1,5 +1,6 @@
-Instance: GOFSH-GENERATED-ID-19
-InstanceOf: Observation
+Instance: observation-id-19
+InstanceOf: ObservationAlcoholUse
+Title: "Observation: Alcohol use"
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-alcoholuse-eu-i4rc"
 * status = #final

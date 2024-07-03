@@ -23,7 +23,8 @@ Description: "This profile constrains the Observation resource to represent Toba
 
 * component contains smokingStatus 0..1 
 * component[smokingStatus]
-  * code = $loinc#72166-2 "Tobacco smoking status"
+  * code = $loinc#72166-2 // 
+    * ^short = "Tobacco smoking status"
   * valueCodeableConcept from VsSmokingStatusAthenaI4rc (required) // unknown ?
     * insert AdditionalBinding (preferred, VsSmokingStatusLoincI4rc, LOINC based Tobacco smoking status)
 
