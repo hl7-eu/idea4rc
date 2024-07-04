@@ -53,6 +53,8 @@ pages:
     title: IDEA4RC Model Overview
   model-erd.html:
     title: IDEA4RC Detailed ERD Model
+  model-map.html:
+    title: IDEA4RC Model Mapping
   logicalModel.md:
     title: IDEA4RC Logical Models 
   # maturity.md:
@@ -82,6 +84,7 @@ menu:
   #   Collaboration diagrams: collaboration.html
   #   Sequence diagrams: sequence.html
     Model Overview: model-overview.html
+    Model Mapping:  model-map.html    
     Logical Model: logicalModel.html
     Detailed ERD: model-erd.html
   # Specifications:

@@ -10,6 +10,7 @@ hide spot
 hide circle
 
 skinparam linetype ortho
+scale 0.7
 
 legend top left
 |= |= Review Status |
