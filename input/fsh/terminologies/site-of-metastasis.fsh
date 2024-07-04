@@ -8,16 +8,16 @@ Description: "describes the site of metastasis"
 * ^status = #active
 * ^experimental = true
 
-* $athena#87784001 "soft tissue"
-* $athena#59441001 "distant lymph node"
-* $athena#39607008 "lung"
-* $athena#119186007 "bone"
-* $athena#10200004 "liver"
-* $athena#3120008 "pleura"
-* $athena#15425007 "peritoneum"
-* $athena#12738006 "brain"
+* $athena#4241958 "Lymph node"
+* $athena#4338971 "soft tissue"
+* $athena#4213162 "lung" 
+* $athena#4000496 "bone" 
+* $athena#4009105 "liver" 
+* $athena#4150673 "pleura" 
+* $athena#4035784 "peritoneum" 
+* $athena#4133034 "brain" 
 * $athena#4159589 "Abdominal viscera"  // TO BE checked the original concept was OTHER VISCERA
-* $athena#261665006 "unknown"
+* $athena#4129922 "unknown" 
 
 
 

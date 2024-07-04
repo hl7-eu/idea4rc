@@ -234,7 +234,7 @@ Usage: #definition
 					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/HnStage"					
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-secondaryCancer-eu-i4rc"					
+* group[=].target = "ConditionSecondaryCancerI4rc"					
 					
 * group[=].element[+].code = #HnStage.episodeEvent					
 * group[=].element[=].display = "Episode Event Reference"					
@@ -247,61 +247,61 @@ Usage: #definition
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If exists where  code = $athena#35225724 Metastasis to soft tissues "					
+* group[=].element[=].target.comment = "If this exists with  code = $athena#35225724 Metastasis to soft tissues "					
 * group[=].element[+].code = #HnStage.sites.distantLymphNode					
 * group[=].element[=].display = "distant lymph node"					
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If exists where  code =$athena#36769243 Distant spread to lymph node "					
+* group[=].element[=].target.comment = "If this exists with  code =$athena#36769243 Distant spread to lymph node "					
 * group[=].element[+].code = #HnStage.sites.lung					
 * group[=].element[=].display = "lung"					
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If exists where  code =$athena#36770283         Metastasis to lung "					
+* group[=].element[=].target.comment = "If this exists with  code =$athena#36770283  Metastasis to lung "					
 * group[=].element[+].code = #HnStage.sites.bone					
 * group[=].element[=].display = "bone"					
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If exists where  code =$athena#36769301 Metastasis to bone"					
+* group[=].element[=].target.comment = "If this exists with  code =$athena#36769301 Metastasis to bone"					
 * group[=].element[+].code = #HnStage.sites.liver					
 * group[=].element[=].display = "liver"					
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If exists where  code =$athena#36770544 Metastasis to liver"					
+* group[=].element[=].target.comment = "If this exists with  code =$athena#36770544 Metastasis to liver"					
 * group[=].element[+].code = #HnStage.sites.pleura					
 * group[=].element[=].display = "pleura"					
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If exists where  code =$athena#35226258 Metastasis to pleura"					
+* group[=].element[=].target.comment = "If this exists with  code =$athena#35226258 Metastasis to pleura"					
 * group[=].element[+].code = #HnStage.sites.peritoneum					
 * group[=].element[=].display = "peritoneum"					
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If exists where  code =$athena#35226253 Metastasis to peritoneum"					
+* group[=].element[=].target.comment = "If this exists with  code =$athena#35226253 Metastasis to peritoneum"					
 * group[=].element[+].code = #HnStage.sites.brain					
 * group[=].element[=].display = "brain"					
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If exists where  code =$athena#36768862 Metastasis to brain"					
+* group[=].element[=].target.comment = "If this exists with  code =$athena#36768862 Metastasis to brain"					
 * group[=].element[+].code = #HnStage.sites.otherViscera					
 * group[=].element[=].display = "other viscera"					
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If exists where  code =$athena#36769180 Metastasis"					
+* group[=].element[=].target.comment = "If this exists with  code =$athena#36769180 Metastasis"					
 * group[=].element[+].code = #HnStage.sites.unknown					
 * group[=].element[=].display = "unknown"					
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If exists where  code =$athena#36769180 Metastasis and bodySite =$athena#261665006 'unknown'"					
+* group[=].element[=].target.comment = "If this exists with  code =$athena#36769180 Metastasis and bodySite =$athena#4129922 'unknown'"					
 * group[=].element[+].code = #HnStage.sites					
 * group[=].element[=].display = "sites"					
 * group[=].element[=].target.code = #Condition.bodySite					
@@ -313,61 +313,63 @@ Usage: #definition
 * group[=].element[=].target.code = #Condition.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "optional. where bodySite is the Athena concept 87784001 'soft tissue'"					
+* group[=].element[=].target.comment = "ALTERNATIVE : If this exists with  code =$athena#36769180 Metastasis and bodySite =$athena#4338971 'soft tissue'"					
 * group[=].element[+].code = #HnStage.sites.distantLymphNode					
 * group[=].element[=].display = "distant lymph node"					
 * group[=].element[=].target.code = #Condition.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Optional the site is provded by the code. Where bodySite is the Athena concept 59441001 'distant lymph node'"					
+* group[=].element[=].target.comment = "ALTERNATIVE : If this exists with  code =$athena#36769180 Metastasis and bodySite =$athena#4241958 'Lymph node' and bodysite.extension:qualifier = $sct#5686001 'Remote'"					
 * group[=].element[+].code = #HnStage.sites.lung					
 * group[=].element[=].display = "lung"					
 * group[=].element[=].target.code = #Condition.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Optional the site is provded by the code. Where bodySite is the Athena concept 39607008 'lung'"					
+* group[=].element[=].target.comment = "ALTERNATIVE : If this exists with  code =$athena#36769180 Metastasis and bodySite =$athena#4213162 'lung'"					
 * group[=].element[+].code = #HnStage.sites.bone					
 * group[=].element[=].display = "bone"					
 * group[=].element[=].target.code = #Condition.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Optional the site is provded by the code. Where bodySite is the Athena concept 119186007 'bone'"					
+* group[=].element[=].target.comment = "ALTERNATIVE : If this exists with  code =$athena#36769180 Metastasis and bodySite =$athena#4000496 'bone'"					
 * group[=].element[+].code = #HnStage.sites.liver					
 * group[=].element[=].display = "liver"					
 * group[=].element[=].target.code = #Condition.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Optional the site is provded by the code. Where bodySite is the Athena concept 10200004 'liver'"					
+* group[=].element[=].target.comment = "ALTERNATIVE : If this exists with  code =$athena#36769180 Metastasis and bodySite =$athena#4009105 'liver'"					
 * group[=].element[+].code = #HnStage.sites.pleura					
 * group[=].element[=].display = "pleura"					
 * group[=].element[=].target.code = #Condition.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Optional the site is provded by the code. Where bodySite is the Athena concept 3120008 'pleura'"					
+* group[=].element[=].target.comment = "ALTERNATIVE : If this exists with  code =$athena#36769180 Metastasis and bodySite =$athena#4150673 'pleura'"					
 * group[=].element[+].code = #HnStage.sites.peritoneum					
 * group[=].element[=].display = "peritoneum"					
 * group[=].element[=].target.code = #Condition.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Optional the site is provded by the code. Where bodySite is the Athena concept 15425007 'peritoneum'"					
+* group[=].element[=].target.comment = "ALTERNATIVE : If this exists with  code =$athena#36769180 Metastasis and bodySite =$athena#4035784 'peritoneum'"					
 * group[=].element[+].code = #HnStage.sites.brain					
 * group[=].element[=].display = "brain"					
 * group[=].element[=].target.code = #Condition.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Optional the site is provded by the code. Where bodySite is the Athena concept 12738006 'brain'"					
+* group[=].element[=].target.comment = "ALTERNATIVE : If this exists with  code =$athena#36769180 Metastasis and bodySite =$athena#4133034 'brain'"					
 * group[=].element[+].code = #HnStage.sites.otherViscera					
 * group[=].element[=].display = "other viscera"					
 * group[=].element[=].target.code = #Condition.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Optional the site is provded by the code. Where bodySite is the Athena concept 4159589 'Abdominal viscera'  // TO BE checked the original concept was OTHER VISCERA"					
-* group[=].element[+].code = #HnStage.sites.unknown					
-* group[=].element[=].display = "unknown"					
-* group[=].element[=].target.code = #Condition.bodySite					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "where bodySite is the Athena concept 261665006 'unknown'"					
+* group[=].element[=].target.comment = "ALTERNATIVE : If this exists with  code =$athena#36769180 Metastasis and bodySite =$athena#4159589 'Abdominal viscera'  
+
+TO BE checked the original concept was OTHER VISCERA"					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
 //---END					
 //---END					
 //---END					

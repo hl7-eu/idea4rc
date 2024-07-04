@@ -76,23 +76,3 @@ Description: "Category describing the LocoRegional"
 Transit Metastasis with Clinical Confirmation - 36769249 this is not an invasion / extension value....
 Multifocal Tumor - 36769933
 */
-
-
-//==========================
-/* 
-Profile:  RegionalNodalMetastasesCategory
-Id: sarcoma-rnm-category
-Parent: Observation
-Title: "Observation: Regional nodal metastases (Stage, Sarcoma)"
-Description: "Category describing the presence of Regional nodal metastases"
-        
-
-* insert CancerStageCommonRules
-* insert NotUsed(hasMember)
-* ^contained[0] = DiseaseExtentCategoryVS
-* code = $athena#432537 // Disease Extent
-* value[x] from DiseaseExtentCategoryVS // $athena#32942 or $athena#32944 // 	Confined Disease, Metastatic Disease
-* component  // add invariant
-  * code = $athena#4085855 // 	Number of lesions
-  * value[x] only Quantity or integer // check the type
- */

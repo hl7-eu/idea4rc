@@ -192,7 +192,6 @@ Records the history of secondary neoplasms, including location(s) and the date o
 * extension[relatedPrimaryCancerCondition].valueReference only Reference(ConditionPrimaryCancerI4rc)
 * extension[relatedPrimaryCancerCondition] ^short = "Related Primary Cancer Condition"
 * extension[relatedPrimaryCancerCondition] ^definition = "A reference to the primary cancer condition that provides context for this resource."
-* code MS
-// * code from SecondaryCancerDisorderVS (extensible)
+* code from MetastasisDisorderVS (extensible)
 * bodySite from VsSiteOfMetastasisI4rc (extensible)
 * insert NotUsed(stage)
