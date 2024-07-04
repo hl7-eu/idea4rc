@@ -124,7 +124,7 @@ Unknown - 4129922"""
 * ecogPsLabel ^comment = """Ecog grades 0-5
         
 ECOG performance status grade 0 - 4175026
-ECOG performance status grade 1 - 4173614
+ECOG performance status - grade 1 - 4173614
 ECOG performance status grade 2 - 4172043
 ECOG performance status grade 3 - 4174241
 ECOG performance status grade 4 - 4174251

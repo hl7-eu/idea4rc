@@ -5,7 +5,7 @@ Usage: #example
 * extension[0].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension[=].valueCodeableConcept = $athena#4162591 "Curative - procedure intent"
 * extension[+].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category"
-* extension[=].valueCodeableConcept = $athena#44808409 "Neo-adjuvant"
+* extension[=].valueCodeableConcept = $athena#44808409 "Neoadjuvant chemotherapy"
 * extension[+].url = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/chemiotherapy-info"
 * extension[=].valueCodeableConcept = $athena#3184898 "Hyperthermic intraperitoneal chemotherapy"
 * extension[+].url = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/number-of-cycles-administrations"

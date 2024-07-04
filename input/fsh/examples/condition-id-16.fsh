@@ -1,5 +1,6 @@
-Instance: GOFSH-GENERATED-id-16
-InstanceOf: Condition
+Instance: condition-id-16
+InstanceOf: ConditionPrimaryCancerI4rc
+Title: "Condition: NOT CLEAR WHAT IT REPRESENTS..TO BE DISCUSSED"
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"
 * code = $athena#4188540 "No"

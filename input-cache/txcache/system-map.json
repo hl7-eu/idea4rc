@@ -1,7 +1,27 @@
 {
   "systems" : [
     {
+      "system" : "ConditionSecondaryCancerI4rc",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "DiseaseExtentCategory",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
       "system" : "HnCancerStageGroup",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "LocoRegionalCategory",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "SarcomaCancerStageGroup",
       "authoritative" : [],
       "candidates" : []
     },

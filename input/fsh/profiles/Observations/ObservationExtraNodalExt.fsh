@@ -5,7 +5,7 @@ Title: "Observation: Radiological Extra-nodal extension (rENE)"
 Description: """This profile constrains the Observation resource to represent Radiological Extra-nodal extension (rENE) for the purpose of the IDEA4RC project.
 It describes the presence or absence of radiological signs of extracapsular extension, as defined in the AJCC 8th Ed"""
 * code 1..1
-* code = $sct#2960001000004100  // "Status of extranodal extension of nodal tumour" NOTE => to be checked 
+* code = $athena#37078016 // "Extranodal extension of carcinoma" 
 * insert SubjectRules
 /* * effective[x] 1..1 MS
 * effective[x] only dateTime

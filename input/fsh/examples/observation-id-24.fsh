@@ -7,4 +7,4 @@ Usage: #example
 * category = $observation-category#survey "Survey"
 * code = $loinc#89247-1 "ECOG Performance Status score"
 * subject = Reference(patient-id-17)
-* valueCodeableConcept = $athena#4173614 "ECOG performance status grade 1"
+* valueCodeableConcept = $athena#4173614 "ECOG performance status - grade 1"
