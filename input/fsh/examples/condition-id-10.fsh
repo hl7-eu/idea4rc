@@ -4,7 +4,7 @@ Title: "Condition: Grade 2 tumor with several body sites and evidences"
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-dueTo"
-* extension.valueCodeableConcept = $athena#37117814 "Radiation therapy induced change"
+* extension.valueCodeableConcept = $athena#4029715 "Radiation oncology AND/OR radiotherapy" //  $athena#37117814 "Radiation therapy induced change"
 * code = $athena#4298030 "Verrucous squamous cell carcinoma"
 * bodySite[0] = $athena#4102600 "Structure of posterior wall of hypopharynx"
 * bodySite[+] = $athena#4001049 "Supraglottis structure"
@@ -25,14 +25,14 @@ Usage: #example
 * onsetAge = 54 'a'
 * stage.summary = $athena#1634752 "Grade 2 tumor"
 * evidence[0].code = $loinc#29308-4 "Diagnosis"
-* evidence[=].detail = Reference(urn:uuid:a3a32242-87ce-422f-9f59-d4307b56a168)
+* evidence[=].detail = Reference(observation-id-21)
 * evidence[+].code = $athena#36768664 "Dimension of Tumor"
 * evidence[=].detail = Reference(observation-id-31)
 * evidence[+].code = $athena#4227243 "Number of mitoses per 10 high power fields"
 * evidence[=].detail = Reference(observation-id-32)
 * evidence[+].code = $athena#3043849 "Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
-* evidence[=].detail = Reference(urn:uuid:b3c1784f-405f-4831-a69b-759ed2da2002)
+* evidence[=].detail = Reference(observation-id-33)
 * evidence[+].code = $athena#46236082 "Human papilloma virus 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA [Interpretation] in Specimen"
-* evidence[=].detail = Reference(urn:uuid:71bd22be-a607-447e-b28b-3e88e537860d)
+* evidence[=].detail = Reference(observation-id-34)
 * evidence[+].code = $athena#3000965 "C reactive protein [Presence] in Serum or Plasma"
-* evidence[=].detail = Reference(urn:uuid:03a7bc69-6137-4b8f-9456-a52ca3afa09b)
+* evidence[=].detail = Reference(observation-id-35)

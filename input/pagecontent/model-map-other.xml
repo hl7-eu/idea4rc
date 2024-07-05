@@ -11,6 +11,6 @@
 	
 	<h3 id="overview">Model Overview</h3>
 	<a> </a>
-	<p>{% include IDEA4RC_ModelRealization.svg %}</p>
+	<p>{% include IDEA4RC_ModelMapOther.svg %}</p>
 	
 </div>

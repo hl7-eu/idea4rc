@@ -1,0 +1,77 @@
+@startuml
+title IDEA4RC Model Map
+
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+
+legend top left
+|= |= Review Status |
+|<back:#LightBlue>   </back>| Logical Model |
+|<back:#LightGreen>   </back>| Profile|
+endlegend
+
+!define RECTANGLE class
+skinparam class {
+    BackgroundColor<<LogicalModel>> #LightBlue
+    BackgroundColor<<Profile>> #LightGreen
+}
+
+RECTANGLE "Subject\n(logical model)" as Subject <<LogicalModel>>
+url of Subject is [[StructureDefinition-Subject.html]]
+Subject -[hidden]-> Subject
+
+
+RECTANGLE "patient-eu-i4rc\n(profile)" as Target13 <<Profile>>
+url of Target13 is [[StructureDefinition-patient-eu-i4rc.html]]
+Subject --> Target13
+
+RECTANGLE "observation-tobaccouse-eu-i4rc\n(profile)" as Target14 <<Profile>>
+url of Target14 is [[StructureDefinition-observation-tobaccouse-eu-i4rc.html]]
+Subject --> Target14
+
+RECTANGLE "observation-alcoholuse-eu-i4rc\n(profile)" as Target15 <<Profile>>
+url of Target15 is [[StructureDefinition-observation-alcoholuse-eu-i4rc.html]]
+Subject --> Target15
+
+RECTANGLE "observation-comorbidity-eu-i4rc\n(profile)" as Target16 <<Profile>>
+url of Target16 is [[StructureDefinition-observation-comorbidity-eu-i4rc.html]]
+Subject --> Target16
+
+RECTANGLE "observation-karnofsky-performance-statuseu-i4rc\n(profile)" as Target17 <<Profile>>
+url of Target17 is [[StructureDefinition-observation-karnofsky-performance-statuseu-i4rc.html]]
+Subject --> Target17
+
+RECTANGLE "observation-ecog-performance-status-eu-i4rc\n(profile)" as Target18 <<Profile>>
+url of Target18 is [[StructureDefinition-observation-ecog-performance-status-eu-i4rc.html]]
+Subject --> Target18
+
+RECTANGLE "observation-cci-eu-i4rc\n(profile)" as Target19 <<Profile>>
+url of Target19 is [[StructureDefinition-observation-cci-eu-i4rc.html]]
+Subject --> Target19
+
+RECTANGLE "bmi\n(profile)" as Target20 <<Profile>>
+url of Target20 is [[StructureDefinition-bmi.html]]
+Subject --> Target20
+
+RECTANGLE "observation-yesNo-eu-i4rc\n(profile)" as Target21 <<Profile>>
+url of Target21 is [[StructureDefinition-observation-yesNo-eu-i4rc.html]]
+Subject --> Target21
+
+RECTANGLE "observation-treatment-eu-i4rc\n(profile)" as Target22 <<Profile>>
+url of Target22 is [[StructureDefinition-observation-treatment-eu-i4rc.html]]
+Subject --> Target22
+
+Subject -[hidden]-> Target13
+Target13 -[hidden]-> Target14
+Target14 -[hidden]-> Target15
+Target15 -[hidden]-> Target16
+Target16 -[hidden]-> Target17
+Target17 -[hidden]-> Target18
+Target18 -[hidden]-> Target19
+Target19 -[hidden]-> Target20
+Target20 -[hidden]-> Target21
+Target21 -[hidden]-> Target22
+
+@enduml

@@ -36,6 +36,7 @@ Description: """Lab test results:
 // * $loinc#77377-0 "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]" // To be checked
 * $athena#44789520 "Human papilloma virus nucleic acid detection"
 // * $loinc#11039-5 "C reactive protein [Presence] in Serum or Plasma"
+* $athena#3000965 "C reactive protein [Presence] in Serum or Plasma"
 * $athena#35952576 "CRP (C-reactive protein) gene variant measurement"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

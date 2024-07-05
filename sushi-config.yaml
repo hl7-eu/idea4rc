@@ -53,28 +53,15 @@ pages:
     title: IDEA4RC Model Overview
   model-erd.html:
     title: IDEA4RC Detailed ERD Model
-  model-map.html:
-    title: IDEA4RC Model Mapping
+  model-map-subject. html:
+    title: IDEA4RC Subject Model Mapping
+  model-map-other.html:
+    title: IDEA4RC Other Models Mapping
   logicalModel.md:
     title: IDEA4RC Logical Models 
-  # maturity.md:
-  #   title: idea4rc Maturity Model
-  # sequence.html:
-  #   title: Sequence diagrams
-  # collaboration.md:
-  #   title: Collaboration diagrams
-  # profiles.md:
-  #   title: Profiles
-  # terminology.md:
-  #   title: Terminology
-  # extensions.md:
-  #   title: Extensions
-  # examples.md:
-  #   title: Examples
   downloads.md:
     title: Useful Downloads
-  # changes.html:
-  #   title: IG Change History
+
 
 			
 menu:
@@ -84,7 +71,6 @@ menu:
   #   Collaboration diagrams: collaboration.html
   #   Sequence diagrams: sequence.html
     Model Overview: model-overview.html
-    Model Mapping:  model-map.html    
     Logical Model: logicalModel.html
     Detailed ERD: model-erd.html
   # Specifications:
@@ -93,6 +79,9 @@ menu:
   #   Terminology: terminology.html
   #   Examples: examples.html
   # Maturity Model: maturity.html
+  Model Map:
+      Subject:  model-map-subject.html
+      Others:  model-map-other.html 
   Artifact Index: artifacts.html			
   Support:
      FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html

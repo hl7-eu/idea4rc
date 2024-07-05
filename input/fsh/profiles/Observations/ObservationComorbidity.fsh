@@ -29,6 +29,7 @@ This profiles is adapted from the mCode FHIR Implementation Guide
   * insert AdditionalBinding (required, VsComorbiditiesSctI4rc, SNOMED based comorbidities)
 
 * extension[comorbidConditionPresent].valueCodeableConcept 1..
+* extension[comorbidConditionAbsent].valueCodeableConcept 1..
 * extension[comorbidConditionAbsent].valueCodeableConcept from VsComorbiditiesAthenaI4rc
   * insert AdditionalBinding (required, VsComorbiditiesSctI4rc, SNOMED based comorbidities)
 

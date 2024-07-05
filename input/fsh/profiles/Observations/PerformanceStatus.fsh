@@ -11,6 +11,7 @@ RuleSet: PerformanceStatusCommonRules
 * partOf only Reference (Procedure)
 * insert SubjectRules
 * effective[x] only dateTime or Period
+* value[x] 1..
 
 
 Profile:    KarnofskyPerformanceStatus

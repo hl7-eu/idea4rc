@@ -11,7 +11,6 @@ Maturity Level: 0 Draft"""
 * birthYear 0..1 integer "Birth year" """Year of birth of the patient."""				
 * countryOfResidence 1..1 CodeableConcept "Country of Residence" """Country of residence at the time of diagnosis"""				
 * smoking 1..1 CodeableConcept "Smoking" """Describes tobacco smoker habits within the options proposed"""				
-* smokingType 0..1 CodeableConcept "Smoking type" """Describes type of tobacco"""				
 * cigSmokedPerDay 0..1 integer "Cigarettes/cigars smoked per day" """Number of cigarettes or cigars smoked in one day. Together with the information of number of years as a smoker, these information will allow to automatically calculate the pack year."""				
 * yearsAsSmoker 0..1 integer "Number of years as a smoker" """Number of years the person has smoked"""				
 * alcohol 1..1 CodeableConcept "Alcohol" """Describes alcohol habits within the options proposed"""				
@@ -55,8 +54,9 @@ Maturity Level: 0 Draft"""
 * noGeneticSyndromeWho2020.retinoblastoma 1..1 boolean "Retinoblastoma" """Retinoblastoma"""				
 * noGeneticSyndromeWho2020.pagetDisease 1..1 boolean "Paget disease" """Paget disease"""				
 * noGeneticSyndromeWho2020.otherSyndromes 1..1 boolean "Other Genetic syndrome WHO 2020" """Other Genetic syndrome WHO 2020"""				
-* occurrenceOfOtherCancer 1..1 boolean "Occurrence of other cancer" """Occurrence of other cancers in the past (yes/no)"""				
+* occurrenceOfOtherCancer 1..1 CodeableConcept "Occurrence of other cancer" """Occurrence of other cancer"""				
 * previousCancerTreatment 1..1 CodeableConcept "Previous cancer treatment" """Previous cancer treatment"""				
+//--- END				
 //--- END				
 //--- END				
 //--- END				
@@ -82,10 +82,6 @@ Current smoker - 36309332
 Former smoker - 45883458
 Never smoker - 45879404
 """				
-* smokingType ^comment = """Cigarettes; Cigar; Unknown
-Cigarettes - 36716475
-Cigar -  36716476
-Unknown - 4129922"""				
 				
 				
 * alcohol ^comment = """Current; Former (at least for 12 months); Never; History of alcohol dependence; Unknown
@@ -124,7 +120,7 @@ Unknown - 4129922"""
 * ecogPsLabel ^comment = """Ecog grades 0-5
         
 ECOG performance status grade 0 - 4175026
-ECOG performance status - grade 1 - 4173614
+ECOG performance status grade 1 - 4173614
 ECOG performance status grade 2 - 4172043
 ECOG performance status grade 3 - 4174241
 ECOG performance status grade 4 - 4174251
@@ -144,12 +140,13 @@ SONS Functional Neurologic Status - Karnofsky Performance Scale (KPS) - 35917688
 				
 				
 				
-				
-* previousCancerTreatment ^comment = """Chemotherapy/radiation/surgery/other (site of radiotherapy)
-Chemotherapy - 4273629
-Radiation - 4029715
+* occurrenceOfOtherCancer ^comment = """Children (and subchildren) of Neoplasm and/or hamartoma - 4266186"""				
+* previousCancerTreatment ^comment = """Chemotherapy - 4273629
+Radiation oncology- 4170755
 Surgery - 4121697 
-Other - Needs to be specified"""				
+Comprehensive medication therapy review - 42535584
+Immunological therapy - 4295112"""				
+//--- END				
 //--- END				
 //--- END				
 //--- END				
@@ -163,7 +160,6 @@ Other - Needs to be specified"""
 * birthYear insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * countryOfResidence insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * smoking insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
-* smokingType insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * cigSmokedPerDay insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * yearsAsSmoker insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * alcohol insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
@@ -211,6 +207,7 @@ Other - Needs to be specified"""
 //--- END				
 //--- END				
 //--- END				
+//--- END				
 				
 				
 // -------------------------------------------------------------------------------				
@@ -221,7 +218,6 @@ Other - Needs to be specified"""
 				
 * birthYear insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * countryOfResidence insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
-				
 				
 				
 				
@@ -267,6 +263,7 @@ Other - Needs to be specified"""
 * noGeneticSyndromeWho2020.otherSyndromes insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * occurrenceOfOtherCancer insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * previousCancerTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+//--- END				
 //--- END				
 //--- END				
 //--- END				

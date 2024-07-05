@@ -1,6 +1,6 @@
 Instance: observation-id-33
-InstanceOf: Observation
-Title: "Observation: Epstein Barr virus DNA"
+InstanceOf: ObservationSimpleResult
+Title: "Observation: Epstein Barr virus DNA Negative"
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-testResult-eu-i4rc"
 * status = #final

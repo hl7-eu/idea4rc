@@ -47,9 +47,10 @@ hide circle
 
 ' avoid problems with angled crows feet
 skinparam linetype ortho
+scale 0.5
 
 object "Patient" as p {
-    + <color:blue>Sex</color>
++ <color:blue>Sex</color>
 + <color:red>Race</color>
 - <color:blue>BirthYear</color>
 + <color:blue>CountryOfResidence</color>

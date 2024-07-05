@@ -1,22 +1,29 @@
 @startuml
-title Source to Target Model Relationships
+title IDEA4RC Model Map
 
 !define RECTANGLE class
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+
+legend top left
+|= |= Review Status |
+|<back:#LightBlue>   </back>| Logical Model |
+|<back:#LightGreen>   </back>| Profile|
+endlegend
+
 skinparam class {
     BackgroundColor<<LogicalModel>> #LightBlue
     BackgroundColor<<Profile>> #LightGreen
 }
 
-RECTANGLE "Subject\n(logical model)" as Subject <<LogicalModel>>
-url of Subject is [[StructureDefinition-Subject.html]]
-Subject -[hidden]-> Subject
 
 RECTANGLE "AdverseEventI4rc\n(logical model)" as AdverseEventI4rc <<LogicalModel>>
 url of AdverseEventI4rc is [[StructureDefinition-AdverseEventI4rc.html]]
 RECTANGLE "AdverseEvent-eu-i4rc\n(profile)" as Target1 <<Profile>>
 url of Target1 is [[StructureDefinition-AdverseEvent-eu-i4rc.html]]
 AdverseEventI4rc --> Target1
-Subject -[hidden]-> AdverseEventI4rc
 
 RECTANGLE "CancerEpisode\n(logical model)" as CancerEpisode <<LogicalModel>>
 url of CancerEpisode is [[StructureDefinition-CancerEpisode.html]]
@@ -26,7 +33,6 @@ CancerEpisode --> Target2
 RECTANGLE "Observation-diagnosis-eu-i4rc\n(profile)" as Target3 <<Profile>>
 url of Target3 is [[StructureDefinition-Observation-diagnosis-eu-i4rc.html]]
 CancerEpisode --> Target3
-Subject -[hidden]-> CancerEpisode
 
 RECTANGLE "EpisodeEvent\n(logical model)" as EpisodeEvent <<LogicalModel>>
 url of EpisodeEvent is [[StructureDefinition-EpisodeEvent.html]]
@@ -48,7 +54,6 @@ url of HospitalPatientRecords is [[StructureDefinition-HospitalPatientRecords.ht
 RECTANGLE "episodeOfCare-eu-i4rc\n(profile)" as Target7 <<Profile>>
 url of Target7 is [[StructureDefinition-episodeOfCare-eu-i4rc.html]]
 HospitalPatientRecords --> Target7
-Subject -[hidden]-> HospitalPatientRecords
 
 RECTANGLE "OtherTreatment\n(logical model)" as OtherTreatment <<LogicalModel>>
 url of OtherTreatment is [[StructureDefinition-OtherTreatment.html]]
@@ -68,7 +73,6 @@ PatientFollowUp --> Target10
 RECTANGLE "observation-lastFollowupStatus-eu-i4rc\n(profile)" as Target11 <<Profile>>
 url of Target11 is [[StructureDefinition-observation-lastFollowupStatus-eu-i4rc.html]]
 PatientFollowUp --> Target11
-Subject -[hidden]-> PatientFollowUp
 
 RECTANGLE "RadiotherapyI4rc\n(logical model)" as RadiotherapyI4rc <<LogicalModel>>
 url of RadiotherapyI4rc is [[StructureDefinition-RadiotherapyI4rc.html]]
@@ -77,45 +81,6 @@ url of Target12 is [[StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html]]
 RadiotherapyI4rc --> Target12
 EpisodeEvent -[hidden]-> RadiotherapyI4rc
 
-RECTANGLE "patient-eu-i4rc\n(profile)" as Target13 <<Profile>>
-url of Target13 is [[StructureDefinition-patient-eu-i4rc.html]]
-Subject --> Target13
-
-RECTANGLE "observation-tobaccouse-eu-i4rc\n(profile)" as Target14 <<Profile>>
-url of Target14 is [[StructureDefinition-observation-tobaccouse-eu-i4rc.html]]
-Subject --> Target14
-
-RECTANGLE "observation-alcoholuse-eu-i4rc\n(profile)" as Target15 <<Profile>>
-url of Target15 is [[StructureDefinition-observation-alcoholuse-eu-i4rc.html]]
-Subject --> Target15
-
-RECTANGLE "observation-comorbidity-eu-i4rc\n(profile)" as Target16 <<Profile>>
-url of Target16 is [[StructureDefinition-observation-comorbidity-eu-i4rc.html]]
-Subject --> Target16
-
-RECTANGLE "observation-karnofsky-performance-statuseu-i4rc\n(profile)" as Target17 <<Profile>>
-url of Target17 is [[StructureDefinition-observation-karnofsky-performance-statuseu-i4rc.html]]
-Subject --> Target17
-
-RECTANGLE "observation-ecog-performance-status-eu-i4rc\n(profile)" as Target18 <<Profile>>
-url of Target18 is [[StructureDefinition-observation-ecog-performance-status-eu-i4rc.html]]
-Subject --> Target18
-
-RECTANGLE "observation-cci-eu-i4rc\n(profile)" as Target19 <<Profile>>
-url of Target19 is [[StructureDefinition-observation-cci-eu-i4rc.html]]
-Subject --> Target19
-
-RECTANGLE "bmi\n(profile)" as Target20 <<Profile>>
-url of Target20 is [[StructureDefinition-bmi.html]]
-Subject --> Target20
-
-RECTANGLE "observation-yesNo-eu-i4rc\n(profile)" as Target21 <<Profile>>
-url of Target21 is [[StructureDefinition-observation-yesNo-eu-i4rc.html]]
-Subject --> Target21
-
-RECTANGLE "observation-treatment-eu-i4rc\n(profile)" as Target22 <<Profile>>
-url of Target22 is [[StructureDefinition-observation-treatment-eu-i4rc.html]]
-Subject --> Target22
 
 RECTANGLE "Surgery\n(logical model)" as Surgery <<LogicalModel>>
 url of Surgery is [[StructureDefinition-Surgery.html]]
@@ -124,20 +89,6 @@ url of Target23 is [[StructureDefinition-Procedure-surgery-eu-i4rc.html]]
 Surgery --> Target23
 EpisodeEvent -[hidden]-> Surgery
 
-legend right
-  RECTANGLE "Logical Model" <<LogicalModel>>
-  RECTANGLE "Profile" <<Profile>>
-end legend
 
-Subject -[hidden]-> Target13
-Target13 -[hidden]-> Target14
-Target14 -[hidden]-> Target15
-Target15 -[hidden]-> Target16
-Target16 -[hidden]-> Target17
-Target17 -[hidden]-> Target18
-Target18 -[hidden]-> Target19
-Target19 -[hidden]-> Target20
-Target20 -[hidden]-> Target21
-Target21 -[hidden]-> Target22
 
 @enduml

@@ -92,7 +92,7 @@ This profile should be also used for documenting primary cancer relapses during 
 * extension contains $condition-dueTo named condition-dueTo 0..*
 * extension[$condition-dueTo] ^short = "If Radiation therapy induced"
 * extension[$condition-dueTo].valueCodeableConcept 1..
-* extension[$condition-dueTo].valueCodeableConcept = $sct#108290001 "Radiation oncology AND/OR radiotherapy"
+* extension[$condition-dueTo].valueCodeableConcept = $athena#4029715 // was $sct#108290001 "Radiation oncology AND/OR radiotherapy"
 
 * insert CancerConditionCommonRules
 // * clinicalStatus and verificationStatus MS

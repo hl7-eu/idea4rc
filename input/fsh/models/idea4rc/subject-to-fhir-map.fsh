@@ -24,7 +24,7 @@ Usage: #definition
 * group[=].element[=].target.comment = "For the time being assumed to be the administrative gender"					
 * group[=].element[+].code = #Subject.race					
 * group[=].element[=].display = "Race"					
-* group[=].element[=].target.code = #Patient.extension:race.value[x]					
+* group[=].element[=].target.code = #Patient.extension:race.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
@@ -40,102 +40,8 @@ Usage: #definition
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Subject.smoking					
-* group[=].element[=].display = "Smoking"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.smokingType					
-* group[=].element[=].display = "Smoking type"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.cigSmokedPerDay					
-* group[=].element[=].display = "Cigarettes/cigars smoked per day"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.yearsAsSmoker					
-* group[=].element[=].display = "Number of years as a smoker"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.alcohol					
-* group[=].element[=].display = "Alcohol"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.bMI					
-* group[=].element[=].display = "Height/weight (BMI)
-"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.charlsonComorbidityIndex					
-* group[=].element[=].display = "Charlson Comorbidity index"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.comorbidity					
-* group[=].element[=].display = "Comorbidity"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.ecogPsAtDiagnosis					
-* group[=].element[=].display = "Eastern Cooperative Oncology Group performance status (ECOG PS)  at diagnosis"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.ecogPsLabel					
-* group[=].element[=].display = "ECOG PS label"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.karnofsyIndexAtDiagnosis					
-* group[=].element[=].display = "Karnofsy index at diagnosis"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.karnofsyIndexLabel					
-* group[=].element[=].display = "Karnofsy index label"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.noGeneticSyndromeWho2020					
-* group[=].element[=].display = "No Genetic syndrome WHO 2020 "					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.occurrenceOfOtherCancer					
-* group[=].element[=].display = "Occurrence of other cancer"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
-* group[=].element[+].code = #Subject.previousCancerTreatment					
-* group[=].element[=].display = "Previous cancer treatment"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-					
 //---END					
 //---END					
-//---END					
-//---END					
-					
 					
 					
 					
@@ -152,12 +58,6 @@ Usage: #definition
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Subject.smokingType					
-* group[=].element[=].display = "Smoking type"					
-* group[=].element[=].target.code = #Observation.component:tobaccoProduct.value[x]:valueCodeableConcept					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #equivalent					
-					
 * group[=].element[+].code = #Subject.cigSmokedPerDay					
 * group[=].element[=].display = "Cigarettes/cigars smoked per day"					
 * group[=].element[=].target.code = #Observation.component:numberPerDay.value[x]:valueQuantity					
@@ -170,6 +70,12 @@ Usage: #definition
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
 //---END					
 //---END					
 //---END					
@@ -196,7 +102,7 @@ Usage: #definition
 * group[=].element[=].display = "Comorbidity"					
 * group[=].element[=].target.code = #Observation.					
 * group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.equivalence = #equivalent					
 * group[=].element[=].target.comment = "The presence of a comorbidity condition is determined by the presence of an comorbidConditionPresent extension for that condition.
 The absence by the presence of a comorbidConditionAbsent extension for that condition.
 If none of them are specified, that comorbidity is unknown or undetermined.
@@ -205,7 +111,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].display = "Myocardial infarction"					
 * group[=].element[=].target.code = #Observation.extension:comorbidConditionPresent					
 * group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #relatedto					
+* group[=].element[=].target.equivalence = #equivalent					
 					
 * group[=].element[+].code = #Subject.comorbidity.congestiveHeartFailure					
 * group[=].element[=].display = "Congestive heart failure"					
@@ -322,7 +228,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].target.equivalence = #equivalent					
 					
 * group[=].element[+].code = #Subject.noGeneticSyndromeWho2020					
-* group[=].element[=].display = "No Genetic syndrome WHO 2020 "					
+* group[=].element[=].display = "No Genetic syndrome WHO 2020"					
 * group[=].element[=].target.code = #Observation.extension:comorbidConditionPresent					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
@@ -391,7 +297,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].target.equivalence = #equivalent					
 					
 * group[=].element[+].code = #Subject.noGeneticSyndromeWho2020.otherSyndromes					
-* group[=].element[=].display = "Other Genetic syndrome WHO 2020 "					
+* group[=].element[=].display = "Other Genetic syndrome WHO 2020"					
 * group[=].element[=].target.code = #Observation.extension:comorbidConditionPresent					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
