@@ -53,7 +53,7 @@ pages:
     title: IDEA4RC Model Overview
   model-erd.html:
     title: IDEA4RC Detailed ERD Model
-  model-map-subject. html:
+  model-map-subject.html:
     title: IDEA4RC Subject Model Mapping
   model-map-other.html:
     title: IDEA4RC Other Models Mapping
@@ -61,7 +61,16 @@ pages:
     title: IDEA4RC Logical Models 
   downloads.md:
     title: Useful Downloads
-
+  sarcoma-cancer-stage-group.html:
+    title: sarcoma-cancer-stage-group Relationships
+  Condition-primaryCancer-eu-i4rc.html:
+    title: Condition-primaryCancer-eu-i4rc Relationships
+  Encounter-eu-i4rc.html:
+    title: Encounter-eu-i4rc Relationships
+  hn-cancer-stage-group.html:
+    title: hn-cancer-stage-group Relationships
+  episodeOfCare-eu-i4rc.html:
+    title: episodeOfCare-eu-i4rc Relationships
 
 			
 menu:
@@ -79,6 +88,14 @@ menu:
   #   Terminology: terminology.html
   #   Examples: examples.html
   # Maturity Model: maturity.html
+
+  Profiles:
+    sarcoma-cancer-stage-group: sarcoma-cancer-stage-group.html
+    Condition-primaryCancer-eu-i4rc: Condition-primaryCancer-eu-i4rc.html
+    Encounter-eu-i4rc: Encounter-eu-i4rc.html
+    hn-cancer-stage-group: hn-cancer-stage-group.html
+    episodeOfCare-eu-i4rc: episodeOfCare-eu-i4rc.html
+  
   Model Map:
       Subject:  model-map-subject.html
       Others:  model-map-other.html 

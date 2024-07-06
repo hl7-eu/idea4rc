@@ -9,7 +9,7 @@ Description: """Types of Yes/No observations"""
 * ^status = #active
 * ^experimental = false
 
-* $loinc#67190-9 "Other cancer diagnosis [PhenX]"
+// * $loinc#67190-9 "Other cancer diagnosis [PhenX]"
 * codes from valueset VsGeneticTestsPerformed
 
 

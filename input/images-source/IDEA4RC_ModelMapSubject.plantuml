@@ -1,5 +1,5 @@
 @startuml
-title IDEA4RC Model Map
+title IDEA4RC Subject Model Map
 
 
 ' avoid problems with angled crows feet
@@ -52,11 +52,11 @@ url of Target19 is [[StructureDefinition-observation-cci-eu-i4rc.html]]
 Subject --> Target19
 
 RECTANGLE "bmi\n(profile)" as Target20 <<Profile>>
-url of Target20 is [[StructureDefinition-bmi.html]]
+url of Target20 is [[https://hl7.org/fhir/R4/bmi.html]]
 Subject --> Target20
 
-RECTANGLE "observation-yesNo-eu-i4rc\n(profile)" as Target21 <<Profile>>
-url of Target21 is [[StructureDefinition-observation-yesNo-eu-i4rc.html]]
+RECTANGLE "observation-occurrencOtherCancer-eu-i4rc\n(profile)" as Target21 <<Profile>>
+url of Target21 is [[StructureDefinition-observation-occurrencOtherCancer-eu-i4rc.html]]
 Subject --> Target21
 
 RECTANGLE "observation-treatment-eu-i4rc\n(profile)" as Target22 <<Profile>>

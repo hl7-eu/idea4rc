@@ -19,7 +19,7 @@ Description: "This profile defines how to represent the Patient follow-up model 
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
 * reasonReference 1..
   * ^short = "Reference to the first Primary Cancer"
-* diagnosis ^short = "Typycally used for the discharge diagnosis"
+* diagnosis ^short = "Typically used for the discharge diagnosis"
   * condition only Reference(ConditionPrimaryCancerI4rc)
   * use from VsTypeofDiagnosisI4rc (extensible)
 /*   * use ^binding.valueSet = Canonical(Inline-VsTypeofDiagnosisI4rc)

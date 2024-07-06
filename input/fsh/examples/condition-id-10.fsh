@@ -2,7 +2,7 @@ Instance: condition-id-10
 InstanceOf: ConditionPrimaryCancerI4rc
 Title: "Condition: Grade 2 tumor with several body sites and evidences"
 Usage: #example
-* meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"
+// * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-dueTo"
 * extension.valueCodeableConcept = $athena#4029715 "Radiation oncology AND/OR radiotherapy" //  $athena#37117814 "Radiation therapy induced change"
 * code = $athena#4298030 "Verrucous squamous cell carcinoma"
@@ -18,7 +18,8 @@ Usage: #example
 * bodySite[+] = $athena#4122633 "Face and/or neck structure"
 * bodySite[+] = $athena#4215634 "Colon structure"
 * bodySite[+] = $athena#4213162 "Lung structure"
-* bodySite[+] = $athena#OTHER "other subsite"
+// * bodySite[+] = $athena#OTHER "other subsite"
+* bodySite[+].text = "Other subsite"
 * bodySite[+] = $athena#4244412 "Anterior abdominal wall structure"
 * bodySite[+] = $athena#4165266 "Upper arm structure"
 * subject = Reference(patient-id-17)

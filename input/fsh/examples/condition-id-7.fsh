@@ -9,3 +9,4 @@ Usage: #example
 * bodySite[0] = $athena#4000496 "Bone part"
 * bodySite[+] = $athena#4150673 "Pleural structure"
 * subject = Reference(patient-id-17)
+* clinicalStatus = $condition-clinical#active

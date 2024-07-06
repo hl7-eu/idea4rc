@@ -25,29 +25,29 @@ object "Patient" as p #94d8f2 {
 }
 url of p [[StructureDefinition-Subject.html]]
 
-object "HospitalData" as hd #94d8f2 {
+object "HospitalData" as hd #E5CCFF {
 }
 url of hd [[StructureDefinition-HospitalPatientRecords.html]]
 
-object "HospitalPatientRecords" as hpr #94d8f2 {
+object "HospitalPatientRecords" as hpr #E5CCFF {
 }
 url of hpr [[StructureDefinition-HospitalPatientRecords.html]]
 
-object "PatientFollowUp" as pfu #94d8f2 {
+object "PatientFollowUp" as pfu #E5CCFF {
 }
 url of pfu [[StructureDefinition-PatientFollowUp.html]]
 
-object "CancerEpisode" as ce #94d8f2 {
+object "CancerEpisode" as ce #E5CCFF {
 }
 url of ce [[StructureDefinition-CancerEpisode.html]]
 
-object "EpisodeEvent" as ee #94d8f2 {
+object "EpisodeEvent" as ee #E5CCFF {
 }
 url of ee [[StructureDefinition-EpisodeEvent.html]]
 
-object "HnStage" as hs {
+object "HnStage" as hs #E5CCFF {
 }
-object "SarcomaStage" as ss {
+object "SarcomaStage" as ss #E5CCFF {
 }
 
 object "PathologicalReportInfo" as pri {

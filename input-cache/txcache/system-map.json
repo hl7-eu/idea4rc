@@ -21,6 +21,16 @@
       "candidates" : []
     },
     {
+      "system" : "ObservationCancerTreatment",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "ObservationOccurrenceOtherCancer",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
       "system" : "SarcomaCancerStageGroup",
       "authoritative" : [],
       "candidates" : []

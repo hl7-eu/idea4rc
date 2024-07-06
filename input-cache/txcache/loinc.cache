@@ -1932,9 +1932,209 @@ v: {
   "system" : "http://loinc.org",
   "version" : "2.77",
   "server" : "http://tx.fhir.org/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21906-3",
+  "display" : "Regional lymph nodes.clinical [Class] Cancer"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Regional lymph nodes.clinical [Class] Cancer",
+  "code" : "21906-3",
+  "system" : "http://loinc.org",
+  "version" : "2.77",
+  "server" : "http://tx.fhir.org/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21906-3"
+}, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-observation-codes-regional-nodes-vs--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Regional lymph nodes.clinical [Class] Cancer",
+  "code" : "21906-3",
+  "system" : "http://loinc.org",
+  "version" : "2.77",
+  "server" : "http://tx.fhir.org/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21907-1",
+  "display" : "Distant metastases.clinical [Class] Cancer"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Distant metastases.clinical [Class] Cancer",
+  "code" : "21907-1",
+  "system" : "http://loinc.org",
+  "version" : "2.77",
+  "server" : "http://tx.fhir.org/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21907-1"
+}, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-observation-codes-distant-metastases-vs--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Distant metastases.clinical [Class] Cancer",
+  "code" : "21907-1",
+  "system" : "http://loinc.org",
+  "version" : "2.77",
+  "server" : "http://tx.fhir.org/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21899-0",
+  "display" : "Primary tumor.pathology Cancer"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Primary tumor.pathology Cancer",
+  "code" : "21899-0",
+  "system" : "http://loinc.org",
+  "version" : "2.77",
+  "server" : "http://tx.fhir.org/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21899-0"
+}, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-observation-codes-primary-tumor-vs--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Primary tumor.pathology Cancer",
+  "code" : "21899-0",
+  "system" : "http://loinc.org",
+  "version" : "2.77",
+  "server" : "http://tx.fhir.org/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21905-5",
+  "display" : "Primary tumor.clinical [Class] Cancer"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Primary tumor.clinical [Class] Cancer",
+  "code" : "21905-5",
+  "system" : "http://loinc.org",
+  "version" : "2.77",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "21901-4",
+  "display" : "'Distant metastases.pathology [Class] Cancer"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Distant metastases.pathology [Class] Cancer",
+  "code" : "21901-4",
+  "severity" : "error",
+  "error" : "Wrong Display Name ''Distant metastases.pathology [Class] Cancer' for http://loinc.org#21901-4. Valid display is 'Distant metastases.pathology [Class] Cancer' (en-US) (for the language(s) '--')",
+  "class" : "UNKNOWN",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "Wrong Display Name ''Distant metastases.pathology [Class] Cancer' for http://loinc.org#21901-4. Valid display is 'Distant metastases.pathology [Class] Cancer' (en-US) (for the language(s) '--')"
+    },
+    "location" : ["Coding.display"],
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }

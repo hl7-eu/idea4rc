@@ -1,0 +1,32 @@
+
+@startuml
+!define RECTANGLE class
+skinparam linetype ortho
+
+skinparam class {
+    BackgroundColor<<source>> LightBlue
+    BackgroundColor<<target>> LightGreen
+}
+RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE Encountereui4rc as "Encounter-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE episodeOfCareeui4rc as "episodeOfCare-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE hncancerstagegroup as "hn-cancer-stage-group" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE sarcomacancerstagegroup as "sarcoma-cancer-stage-group" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<target>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+ConditionprimaryCancereui4rc --> ConditionprimaryCancereui4rc : "value[x]"
+Encountereui4rc --> ConditionprimaryCancereui4rc : "reasonReference"
+Encountereui4rc --> ConditionprimaryCancereui4rc : "condition"
+episodeOfCareeui4rc --> ConditionprimaryCancereui4rc : "condition"
+hncancerstagegroup --> ConditionprimaryCancereui4rc : "focus"
+sarcomacancerstagegroup --> ConditionprimaryCancereui4rc : "focus"
+ConditionprimaryCancereui4rc -[hidden]-> Encountereui4rc
+Encountereui4rc -[hidden]-> episodeOfCareeui4rc
+episodeOfCareeui4rc -[hidden]-> hncancerstagegroup
+hncancerstagegroup -[hidden]-> sarcomacancerstagegroup
+
+legend
+  | <back:LightBlue> | Source Profile |
+  | <back:LightGreen> | Target Profile |
+endlegend
+
+@enduml

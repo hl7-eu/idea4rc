@@ -37215,7 +37215,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -37238,7 +37237,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -37262,7 +37260,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -37286,7 +37283,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -37309,7 +37305,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -37388,5 +37383,52 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "40769821",
+  "display" : "Other cancer diagnosis [PhenX]"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Other cancer diagnosis [PhenX]",
+  "code" : "40769821",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "4266653"
+}, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/occurrence-other-cancer-i4rc--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Hamartoma",
+  "code" : "4266653",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
 }
 -------------------------------------------------------------------------------------

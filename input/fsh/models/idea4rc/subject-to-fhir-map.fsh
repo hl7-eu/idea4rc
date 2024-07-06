@@ -42,7 +42,7 @@ Usage: #definition
 					
 //---END					
 //---END					
-					
+//---END					
 					
 					
 					
@@ -377,25 +377,25 @@ For examplification purposes only the comorbidConditionPresent extension is show
 //---END					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-yesNo-eu-i4rc"					
+* group[=].target = "ObservationOccurrenceOtherCancer"					
 					
 * group[=].element[+].code = #Subject.occurrenceOfOtherCancer					
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
-* group[=].element[=].target.comment = "where obseravtion.code = $loinc#67190-9 Other cancer diagnosis [PhenX]"					
+					
 //---END					
 //---END					
 //---END					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-treatment-eu-i4rc"					
+* group[=].target = "ObservationCancerTreatment"					
 					
 * group[=].element[+].code = #Subject.previousCancerTreatment					
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
-* group[=].element[=].target.comment = "where obseravtion.code = $loinc#63933-6 Cancer treatment [PhenX]"					
+					
 //---END					
 //---END					
 //---END					

@@ -19,11 +19,11 @@ skinparam class {
 }
 
 
-RECTANGLE "AdverseEventI4rc\n(logical model)" as AdverseEventI4rc <<LogicalModel>>
-url of AdverseEventI4rc is [[StructureDefinition-AdverseEventI4rc.html]]
+RECTANGLE "AdverseEvent\n(logical model)" as AdverseEvent <<LogicalModel>>
+url of AdverseEvent is [[StructureDefinition-AdverseEvent.html]]
 RECTANGLE "AdverseEvent-eu-i4rc\n(profile)" as Target1 <<Profile>>
 url of Target1 is [[StructureDefinition-AdverseEvent-eu-i4rc.html]]
-AdverseEventI4rc --> Target1
+AdverseEvent --> Target1
 
 RECTANGLE "CancerEpisode\n(logical model)" as CancerEpisode <<LogicalModel>>
 url of CancerEpisode is [[StructureDefinition-CancerEpisode.html]]
@@ -39,10 +39,6 @@ url of EpisodeEvent is [[StructureDefinition-EpisodeEvent.html]]
 EpisodeEvent --> Target2
 CancerEpisode -[hidden]-> EpisodeEvent
 
-RECTANGLE "GeneticTestExpressionI4rc\n(logical model)" as GeneticTestExpressionI4rc <<LogicalModel>>
-url of GeneticTestExpressionI4rc is [[StructureDefinition-GeneticTestExpressionI4rc.html]]
-GeneticTestExpressionI4rc --> Target2
-EpisodeEvent -[hidden]-> GeneticTestExpressionI4rc
 
 RECTANGLE "GeneticTestExpression\n(logical model)" as GeneticTestExpression <<LogicalModel>>
 url of GeneticTestExpression is [[StructureDefinition-GeneticTestExpression.html]]
@@ -74,12 +70,12 @@ RECTANGLE "observation-lastFollowupStatus-eu-i4rc\n(profile)" as Target11 <<Prof
 url of Target11 is [[StructureDefinition-observation-lastFollowupStatus-eu-i4rc.html]]
 PatientFollowUp --> Target11
 
-RECTANGLE "RadiotherapyI4rc\n(logical model)" as RadiotherapyI4rc <<LogicalModel>>
-url of RadiotherapyI4rc is [[StructureDefinition-RadiotherapyI4rc.html]]
+RECTANGLE "Radiotherapy\n(logical model)" as Radiotherapy <<LogicalModel>>
+url of Radiotherapy is [[StructureDefinition-Radiotherapy.html]]
 RECTANGLE "Procedure-radiotheraphy-eu-i4rc\n(profile)" as Target12 <<Profile>>
 url of Target12 is [[StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html]]
-RadiotherapyI4rc --> Target12
-EpisodeEvent -[hidden]-> RadiotherapyI4rc
+Radiotherapy --> Target12
+EpisodeEvent -[hidden]-> Radiotherapy
 
 
 RECTANGLE "Surgery\n(logical model)" as Surgery <<LogicalModel>>

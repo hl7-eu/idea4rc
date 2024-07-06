@@ -1,0 +1,25 @@
+
+@startuml
+!define RECTANGLE class
+skinparam linetype ortho
+
+skinparam class {
+    BackgroundColor<<source>> LightBlue
+    BackgroundColor<<target>> LightGreen
+}
+RECTANGLE sarcomacancerstagegroup as "sarcoma-cancer-stage-group" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<target>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE Observation as "Observation" <<target>> [[StructureDefinition-Observation.html]]
+RECTANGLE sarcomaextentcategory as "sarcoma-extent-category" <<target>> [[StructureDefinition-sarcoma-extent-category.html]]
+RECTANGLE sarcomalocoRegionalcategory as "sarcoma-locoRegional-category" <<target>> [[StructureDefinition-sarcoma-locoRegional-category.html]]
+sarcomacancerstagegroup --> ConditionprimaryCancereui4rc : "focus"
+sarcomacancerstagegroup --> Observation : "hasMember"
+sarcomacancerstagegroup --> sarcomaextentcategory : "hasMember"
+sarcomacancerstagegroup --> sarcomalocoRegionalcategory : "hasMember"
+
+legend
+  | <back:LightBlue> | Source Profile |
+  | <back:LightGreen> | Target Profile |
+endlegend
+
+@enduml
