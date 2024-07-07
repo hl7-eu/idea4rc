@@ -8,11 +8,11 @@ skinparam class {
     BackgroundColor<<target>> LightGreen
 }
 RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE observationyesNoeui4rc as "observation-yesNo-eu-i4rc" <<target>> [[StructureDefinition-observation-yesNo-eu-i4rc.html]]
 RECTANGLE Encountereui4rc as "Encounter-eu-i4rc" <<target>> [[StructureDefinition-Encounter-eu-i4rc.html]]
+RECTANGLE Observationdiagnosiseui4rc as "Observation-diagnosis-eu-i4rc" <<target>> [[StructureDefinition-Observation-diagnosis-eu-i4rc.html]]
 RECTANGLE hncancerstagegroup as "hn-cancer-stage-group" <<target>> [[StructureDefinition-hn-cancer-stage-group.html]]
 RECTANGLE observationtestResulteui4rc as "observation-testResult-eu-i4rc" <<target>> [[StructureDefinition-observation-testResult-eu-i4rc.html]]
-RECTANGLE observationyesNoeui4rc as "observation-yesNo-eu-i4rc" <<target>> [[StructureDefinition-observation-yesNo-eu-i4rc.html]]
-RECTANGLE Observationdiagnosiseui4rc as "Observation-diagnosis-eu-i4rc" <<target>> [[StructureDefinition-Observation-diagnosis-eu-i4rc.html]]
 RECTANGLE patienteui4rc as "patient-eu-i4rc" <<target>> [[StructureDefinition-patient-eu-i4rc.html]]
 ConditionprimaryCancereui4rc --> ConditionprimaryCancereui4rc : "value[x]"
 ConditionprimaryCancereui4rc --> patienteui4rc : "subject"

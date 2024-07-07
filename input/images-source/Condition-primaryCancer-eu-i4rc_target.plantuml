@@ -7,20 +7,20 @@ skinparam class {
     BackgroundColor<<source>> LightBlue
     BackgroundColor<<target>> LightGreen
 }
-RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
-RECTANGLE Procedureradiotheraphyeui4rc as "Procedure-radiotheraphy-eu-i4rc" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
+RECTANGLE sarcomalocoRegionalcategory as "sarcoma-locoRegional-category" <<source>> [[StructureDefinition-sarcoma-locoRegional-category.html]]
+RECTANGLE mcodetnmdistantmetastasescategory as "mcode-tnm-distant-metastases-category" <<source>> [[StructureDefinition-mcode-tnm-distant-metastases-category.html]]
+RECTANGLE MedicationAdministrationeui4rc as "MedicationAdministration-eu-i4rc" <<source>> [[StructureDefinition-MedicationAdministration-eu-i4rc.html]]
+RECTANGLE sarcomaextentcategory as "sarcoma-extent-category" <<source>> [[StructureDefinition-sarcoma-extent-category.html]]
+RECTANGLE mcodetnmprimarytumorcategory as "mcode-tnm-primary-tumor-category" <<source>> [[StructureDefinition-mcode-tnm-primary-tumor-category.html]]
+RECTANGLE Procedureradiotheraphyeui4rc as "Procedure-radiotheraphy-eu-i4rc" <<source>> [[StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html]]
 RECTANGLE Proceduresurgeryeui4rc as "Procedure-surgery-eu-i4rc" <<source>> [[StructureDefinition-Procedure-surgery-eu-i4rc.html]]
-RECTANGLE mcodetnmprimarytumorcategory as "mcode-tnm-primary-tumor-category" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE sarcomacancerstagegroup as "sarcoma-cancer-stage-group" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE sarcomaextentcategory as "sarcoma-extent-category" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE Encountereui4rc as "Encounter-eu-i4rc" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE hncancerstagegroup as "hn-cancer-stage-group" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE mcodetnmregionalnodescategory as "mcode-tnm-regional-nodes-category" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE episodeOfCareeui4rc as "episodeOfCare-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
-RECTANGLE MedicationAdministrationeui4rc as "MedicationAdministration-eu-i4rc" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE ConditionsecondaryCancereui4rc as "Condition-secondaryCancer-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
-RECTANGLE mcodetnmdistantmetastasescategory as "mcode-tnm-distant-metastases-category" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE sarcomalocoRegionalcategory as "sarcoma-locoRegional-category" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
+RECTANGLE Encountereui4rc as "Encounter-eu-i4rc" <<source>> [[StructureDefinition-Encounter-eu-i4rc.html]]
+RECTANGLE episodeOfCareeui4rc as "episodeOfCare-eu-i4rc" <<source>> [[StructureDefinition-episodeOfCare-eu-i4rc.html]]
+RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE ConditionsecondaryCancereui4rc as "Condition-secondaryCancer-eu-i4rc" <<source>> [[StructureDefinition-Condition-secondaryCancer-eu-i4rc.html]]
+RECTANGLE hncancerstagegroup as "hn-cancer-stage-group" <<source>> [[StructureDefinition-hn-cancer-stage-group.html]]
+RECTANGLE mcodetnmregionalnodescategory as "mcode-tnm-regional-nodes-category" <<source>> [[StructureDefinition-mcode-tnm-regional-nodes-category.html]]
+RECTANGLE sarcomacancerstagegroup as "sarcoma-cancer-stage-group" <<source>> [[StructureDefinition-sarcoma-cancer-stage-group.html]]
 ConditionprimaryCancereui4rc --> ConditionprimaryCancereui4rc : "value[x]"
 ConditionsecondaryCancereui4rc --> ConditionprimaryCancereui4rc : "value[x]"
 Encountereui4rc --> ConditionprimaryCancereui4rc : "reasonReference"
@@ -36,19 +36,19 @@ Proceduresurgeryeui4rc --> ConditionprimaryCancereui4rc : "reasonReference"
 sarcomacancerstagegroup --> ConditionprimaryCancereui4rc : "focus"
 sarcomaextentcategory --> ConditionprimaryCancereui4rc : "focus"
 sarcomalocoRegionalcategory --> ConditionprimaryCancereui4rc : "focus"
-ConditionprimaryCancereui4rc -[hidden]-> Procedureradiotheraphyeui4rc
+sarcomalocoRegionalcategory -[hidden]-> mcodetnmdistantmetastasescategory
+mcodetnmdistantmetastasescategory -[hidden]-> MedicationAdministrationeui4rc
+MedicationAdministrationeui4rc -[hidden]-> sarcomaextentcategory
+sarcomaextentcategory -[hidden]-> mcodetnmprimarytumorcategory
+mcodetnmprimarytumorcategory -[hidden]-> Procedureradiotheraphyeui4rc
 Procedureradiotheraphyeui4rc -[hidden]-> Proceduresurgeryeui4rc
-Proceduresurgeryeui4rc -[hidden]-> mcodetnmprimarytumorcategory
-mcodetnmprimarytumorcategory -[hidden]-> sarcomacancerstagegroup
-sarcomacancerstagegroup -[hidden]-> sarcomaextentcategory
-sarcomaextentcategory -[hidden]-> Encountereui4rc
-Encountereui4rc -[hidden]-> hncancerstagegroup
+Proceduresurgeryeui4rc -[hidden]-> Encountereui4rc
+Encountereui4rc -[hidden]-> episodeOfCareeui4rc
+episodeOfCareeui4rc -[hidden]-> ConditionprimaryCancereui4rc
+ConditionprimaryCancereui4rc -[hidden]-> ConditionsecondaryCancereui4rc
+ConditionsecondaryCancereui4rc -[hidden]-> hncancerstagegroup
 hncancerstagegroup -[hidden]-> mcodetnmregionalnodescategory
-mcodetnmregionalnodescategory -[hidden]-> episodeOfCareeui4rc
-episodeOfCareeui4rc -[hidden]-> MedicationAdministrationeui4rc
-MedicationAdministrationeui4rc -[hidden]-> ConditionsecondaryCancereui4rc
-ConditionsecondaryCancereui4rc -[hidden]-> mcodetnmdistantmetastasescategory
-mcodetnmdistantmetastasescategory -[hidden]-> sarcomalocoRegionalcategory
+mcodetnmregionalnodescategory -[hidden]-> sarcomacancerstagegroup
 
 legend
   | <back:LightBlue> | Source Profile |

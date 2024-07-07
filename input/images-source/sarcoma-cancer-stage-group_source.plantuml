@@ -7,12 +7,12 @@ skinparam class {
     BackgroundColor<<source>> LightBlue
     BackgroundColor<<target>> LightGreen
 }
-RECTANGLE sarcomacancerstagegroup as "sarcoma-cancer-stage-group" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<target>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE sarcomacancerstagegroup as "sarcoma-cancer-stage-group" <<source>> [[StructureDefinition-sarcoma-cancer-stage-group.html]]
+RECTANGLE sarcomalocoRegionalcategory as "sarcoma-locoRegional-category" <<target>> [[StructureDefinition-sarcoma-locoRegional-category.html]]
 RECTANGLE sarcomaextentcategory as "sarcoma-extent-category" <<target>> [[StructureDefinition-sarcoma-extent-category.html]]
 RECTANGLE Observation as "Observation" <<target>> [[StructureDefinition-Observation.html]]
+RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<target>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
 RECTANGLE patienteui4rc as "patient-eu-i4rc" <<target>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE sarcomalocoRegionalcategory as "sarcoma-locoRegional-category" <<target>> [[StructureDefinition-sarcoma-locoRegional-category.html]]
 sarcomacancerstagegroup --> patienteui4rc : "subject"
 sarcomacancerstagegroup --> ConditionprimaryCancereui4rc : "focus"
 sarcomacancerstagegroup --> Observation : "hasMember"

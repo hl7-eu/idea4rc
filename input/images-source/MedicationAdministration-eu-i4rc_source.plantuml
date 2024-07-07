@@ -7,7 +7,7 @@ skinparam class {
     BackgroundColor<<source>> LightBlue
     BackgroundColor<<target>> LightGreen
 }
-RECTANGLE MedicationAdministrationeui4rc as "MedicationAdministration-eu-i4rc" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
+RECTANGLE MedicationAdministrationeui4rc as "MedicationAdministration-eu-i4rc" <<source>> [[StructureDefinition-MedicationAdministration-eu-i4rc.html]]
 RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<target>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
 RECTANGLE patienteui4rc as "patient-eu-i4rc" <<target>> [[StructureDefinition-patient-eu-i4rc.html]]
 MedicationAdministrationeui4rc --> patienteui4rc : "subject"

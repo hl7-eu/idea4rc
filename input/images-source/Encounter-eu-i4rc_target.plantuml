@@ -7,12 +7,12 @@ skinparam class {
     BackgroundColor<<source>> LightBlue
     BackgroundColor<<target>> LightGreen
 }
+RECTANGLE observationlastFollowupStatuseui4rc as "observation-lastFollowupStatus-eu-i4rc" <<source>> [[StructureDefinition-observation-lastFollowupStatus-eu-i4rc.html]]
 RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
-RECTANGLE observationlastFollowupStatuseui4rc as "observation-lastFollowupStatus-eu-i4rc" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
 RECTANGLE Encountereui4rc as "Encounter-eu-i4rc" <<target>> [[StructureDefinition-Encounter-eu-i4rc.html]]
 ConditionprimaryCancereui4rc --> Encountereui4rc : "encounter"
 observationlastFollowupStatuseui4rc --> Encountereui4rc : "encounter"
-ConditionprimaryCancereui4rc -[hidden]-> observationlastFollowupStatuseui4rc
+observationlastFollowupStatuseui4rc -[hidden]-> ConditionprimaryCancereui4rc
 
 legend
   | <back:LightBlue> | Source Profile |
