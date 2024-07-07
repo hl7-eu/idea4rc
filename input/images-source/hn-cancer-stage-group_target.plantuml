@@ -1,0 +1,19 @@
+
+@startuml
+!define RECTANGLE class
+skinparam linetype ortho
+
+skinparam class {
+    BackgroundColor<<source>> LightBlue
+    BackgroundColor<<target>> LightGreen
+}
+RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE hncancerstagegroup as "hn-cancer-stage-group" <<target>> [[StructureDefinition-hn-cancer-stage-group.html]]
+ConditionprimaryCancereui4rc --> hncancerstagegroup : "assessment"
+
+legend
+  | <back:LightBlue> | Source Profile |
+  | <back:LightGreen> | Target Profile |
+endlegend
+
+@enduml

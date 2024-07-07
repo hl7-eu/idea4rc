@@ -7,9 +7,21 @@ skinparam class {
     BackgroundColor<<source>> LightBlue
     BackgroundColor<<target>> LightGreen
 }
-RECTANGLE hncancerstagegroup as "hn-cancer-stage-group" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE hncancerstagegroup as "hn-cancer-stage-group" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
 RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<target>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+RECTANGLE mcodetnmprimarytumorcategory as "mcode-tnm-primary-tumor-category" <<target>> [[StructureDefinition-mcode-tnm-primary-tumor-category.html]]
+RECTANGLE mcodetnmregionalnodescategory as "mcode-tnm-regional-nodes-category" <<target>> [[StructureDefinition-mcode-tnm-regional-nodes-category.html]]
+RECTANGLE Observation as "Observation" <<target>> [[StructureDefinition-Observation.html]]
+RECTANGLE observationextraNodalExtensioneui4rc as "observation-extraNodalExtension-eu-i4rc" <<target>> [[StructureDefinition-observation-extraNodalExtension-eu-i4rc.html]]
+RECTANGLE patienteui4rc as "patient-eu-i4rc" <<target>> [[StructureDefinition-patient-eu-i4rc.html]]
+RECTANGLE mcodetnmdistantmetastasescategory as "mcode-tnm-distant-metastases-category" <<target>> [[StructureDefinition-mcode-tnm-distant-metastases-category.html]]
+hncancerstagegroup --> patienteui4rc : "subject"
 hncancerstagegroup --> ConditionprimaryCancereui4rc : "focus"
+hncancerstagegroup --> Observation : "hasMember"
+hncancerstagegroup --> mcodetnmprimarytumorcategory : "hasMember"
+hncancerstagegroup --> mcodetnmregionalnodescategory : "hasMember"
+hncancerstagegroup --> mcodetnmdistantmetastasescategory : "hasMember"
+hncancerstagegroup --> observationextraNodalExtensioneui4rc : "hasMember"
 
 legend
   | <back:LightBlue> | Source Profile |

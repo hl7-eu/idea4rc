@@ -61,16 +61,21 @@ pages:
     title: IDEA4RC Logical Models 
   downloads.md:
     title: Useful Downloads
-  sarcoma-cancer-stage-group.html:
-    title: sarcoma-cancer-stage-group Relationships
-  Condition-primaryCancer-eu-i4rc.html:
-    title: Condition-primaryCancer-eu-i4rc Relationships
+    #-------------------------
+  Condition-secondaryCancer-eu-i4rc.html:
+    title: Condition-secondaryCancer-eu-i4rc Relationships
   Encounter-eu-i4rc.html:
     title: Encounter-eu-i4rc Relationships
+  Condition-primaryCancer-eu-i4rc.html:
+    title: Condition-primaryCancer-eu-i4rc Relationships
+  sarcoma-cancer-stage-group.html:
+    title: sarcoma-cancer-stage-group Relationships
   hn-cancer-stage-group.html:
     title: hn-cancer-stage-group Relationships
   episodeOfCare-eu-i4rc.html:
     title: episodeOfCare-eu-i4rc Relationships
+  MedicationAdministration-eu-i4rc.html:
+    title: MedicationAdministration-eu-i4rc Relationships
 
 			
 menu:
@@ -89,12 +94,14 @@ menu:
   #   Examples: examples.html
   # Maturity Model: maturity.html
 
-  Profiles:
-    sarcoma-cancer-stage-group: sarcoma-cancer-stage-group.html
-    Condition-primaryCancer-eu-i4rc: Condition-primaryCancer-eu-i4rc.html
+  Profiles (wip):
+    Condition-secondaryCancer-eu-i4rc: Condition-secondaryCancer-eu-i4rc.html
     Encounter-eu-i4rc: Encounter-eu-i4rc.html
+    Condition-primaryCancer-eu-i4rc: Condition-primaryCancer-eu-i4rc.html
+    sarcoma-cancer-stage-group: sarcoma-cancer-stage-group.html
     hn-cancer-stage-group: hn-cancer-stage-group.html
     episodeOfCare-eu-i4rc: episodeOfCare-eu-i4rc.html
+    MedicationAdministration-eu-i4rc: MedicationAdministration-eu-i4rc.html
   
   Model Map:
       Subject:  model-map-subject.html

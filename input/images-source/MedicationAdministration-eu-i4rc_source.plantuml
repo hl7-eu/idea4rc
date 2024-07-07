@@ -7,14 +7,11 @@ skinparam class {
     BackgroundColor<<source>> LightBlue
     BackgroundColor<<target>> LightGreen
 }
-RECTANGLE Encountereui4rc as "Encounter-eu-i4rc" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
+RECTANGLE MedicationAdministrationeui4rc as "MedicationAdministration-eu-i4rc" <<source>> [[StructureDefinition-patient-eu-i4rc.html]]
 RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<target>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
 RECTANGLE patienteui4rc as "patient-eu-i4rc" <<target>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE episodeOfCareeui4rc as "episodeOfCare-eu-i4rc" <<target>> [[StructureDefinition-episodeOfCare-eu-i4rc.html]]
-Encountereui4rc --> patienteui4rc : "subject"
-Encountereui4rc --> episodeOfCareeui4rc : "episodeOfCare"
-Encountereui4rc --> ConditionprimaryCancereui4rc : "reasonReference"
-Encountereui4rc --> ConditionprimaryCancereui4rc : "condition"
+MedicationAdministrationeui4rc --> patienteui4rc : "subject"
+MedicationAdministrationeui4rc --> ConditionprimaryCancereui4rc : "reasonReference"
 
 legend
   | <back:LightBlue> | Source Profile |

@@ -10,5 +10,7 @@
 <a> </a>	
 <p>{% include episodeOfCare-eu-i4rc_source.svg %}</p>
 
-    
+    <h4 id="target">episodeOfCare-eu-i4rc as Target</h4>
+<a> </a>	
+<p>{% include episodeOfCare-eu-i4rc_target.svg %}</p>
 </div>

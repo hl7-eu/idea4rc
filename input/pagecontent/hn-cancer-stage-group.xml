@@ -10,5 +10,7 @@
 <a> </a>	
 <p>{% include hn-cancer-stage-group_source.svg %}</p>
 
-    
+    <h4 id="target">hn-cancer-stage-group as Target</h4>
+<a> </a>	
+<p>{% include hn-cancer-stage-group_target.svg %}</p>
 </div>

@@ -8,25 +8,21 @@ skinparam class {
     BackgroundColor<<target>> LightGreen
 }
 RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
-RECTANGLE Encountereui4rc as "Encounter-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
-RECTANGLE episodeOfCareeui4rc as "episodeOfCare-eu-i4rc" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
-RECTANGLE hncancerstagegroup as "hn-cancer-stage-group" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
-RECTANGLE sarcomacancerstagegroup as "sarcoma-cancer-stage-group" <<source>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
-RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<target>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
-RECTANGLE patienteui4rc as "patient-eu-i4rc" <<target>> [[StructureDefinition-patient-eu-i4rc.html]]
 RECTANGLE Encountereui4rc as "Encounter-eu-i4rc" <<target>> [[StructureDefinition-Encounter-eu-i4rc.html]]
+RECTANGLE hncancerstagegroup as "hn-cancer-stage-group" <<target>> [[StructureDefinition-hn-cancer-stage-group.html]]
+RECTANGLE observationtestResulteui4rc as "observation-testResult-eu-i4rc" <<target>> [[StructureDefinition-observation-testResult-eu-i4rc.html]]
+RECTANGLE observationyesNoeui4rc as "observation-yesNo-eu-i4rc" <<target>> [[StructureDefinition-observation-yesNo-eu-i4rc.html]]
+RECTANGLE Observationdiagnosiseui4rc as "Observation-diagnosis-eu-i4rc" <<target>> [[StructureDefinition-Observation-diagnosis-eu-i4rc.html]]
+RECTANGLE patienteui4rc as "patient-eu-i4rc" <<target>> [[StructureDefinition-patient-eu-i4rc.html]]
 ConditionprimaryCancereui4rc --> ConditionprimaryCancereui4rc : "value[x]"
 ConditionprimaryCancereui4rc --> patienteui4rc : "subject"
 ConditionprimaryCancereui4rc --> Encountereui4rc : "encounter"
-Encountereui4rc --> ConditionprimaryCancereui4rc : "reasonReference"
-Encountereui4rc --> ConditionprimaryCancereui4rc : "condition"
-episodeOfCareeui4rc --> ConditionprimaryCancereui4rc : "condition"
-hncancerstagegroup --> ConditionprimaryCancereui4rc : "focus"
-sarcomacancerstagegroup --> ConditionprimaryCancereui4rc : "focus"
-ConditionprimaryCancereui4rc -[hidden]-> Encountereui4rc
-Encountereui4rc -[hidden]-> episodeOfCareeui4rc
-episodeOfCareeui4rc -[hidden]-> hncancerstagegroup
-hncancerstagegroup -[hidden]-> sarcomacancerstagegroup
+ConditionprimaryCancereui4rc --> hncancerstagegroup : "assessment"
+ConditionprimaryCancereui4rc --> Observationdiagnosiseui4rc : "detail"
+ConditionprimaryCancereui4rc --> observationtestResulteui4rc : "detail"
+ConditionprimaryCancereui4rc --> observationtestResulteui4rc : "detail"
+ConditionprimaryCancereui4rc --> observationtestResulteui4rc : "detail"
+ConditionprimaryCancereui4rc --> observationyesNoeui4rc : "detail"
 
 legend
   | <back:LightBlue> | Source Profile |
