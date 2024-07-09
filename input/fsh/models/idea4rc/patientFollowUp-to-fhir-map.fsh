@@ -144,29 +144,29 @@ Details in the referred Condition"
 //---END					
 					
 					
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUp"					
+* group[=].target = "ObservationDateLastContact"					
 					
+* group[=].element[+].code = #PatientFollowUp.patient					
+* group[=].element[=].display = "Patient"					
+* group[=].element[=].target.code = #Observation.subject					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equivalent					
 					
+* group[=].element[+].code = #PatientFollowUp.					
+* group[=].element[=].display = "Patient Follow Up date"					
+* group[=].element[=].target.code = #Observation.valueDateTime					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #equivalent					
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
 					
 					
 					

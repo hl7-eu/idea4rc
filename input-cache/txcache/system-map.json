@@ -26,6 +26,11 @@
       "candidates" : []
     },
     {
+      "system" : "ObservationDateLastContact",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
       "system" : "ObservationOccurrenceOtherCancer",
       "authoritative" : [],
       "candidates" : []
