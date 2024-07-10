@@ -1,7 +1,8 @@
-Instance: GOFSH-GENERATED-id-23
-InstanceOf: Observation
+Instance: observation-id-23
+InstanceOf: ObservationComorbidities
+Title: "Observation: comorbidity"
 Usage: #example
-* meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-comorbidity-eu-i4rc"
+// * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-comorbidity-eu-i4rc"
 * extension[0].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition-absent"
 * extension[=].valueCodeableConcept = $athena#4329847 "Myocardial infarction"
 * extension[+].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition-absent"
@@ -19,13 +20,13 @@ Usage: #example
 * extension[+].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition"
 * extension[=].valueCodeableConcept = $athena#4177703 "Ulcer"
 * extension[+].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition-absent"
-* extension[=].valueCodeableConcept = $athena#1621281 "Mild liver disease"
+* extension[=].valueCodeableConcept = $athena#1621281 "Mild liver or renal disease"
 * extension[+].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition"
 * extension[=].valueCodeableConcept = $cs-generic-eu-i4rc#1620421-liver "Moderate or severe liver disease"
 * extension[+].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition-absent"
 * extension[=].valueCodeableConcept = $cs-generic-eu-i4rc#1620421-renal "Moderate or severe renal disease"
 * extension[+].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition-absent"
-* extension[=].valueCodeableConcept = $athena#1620816 "Diabetes (without complications)"
+* extension[=].valueCodeableConcept = $athena#1620816 "Diabetes without complications"
 * extension[+].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition-absent"
 * extension[=].valueCodeableConcept = $athena#1620753 "Diabetes with end organ damage"
 * extension[+].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition-absent"

@@ -100,7 +100,7 @@ Usage: #definition
 					
 * group[=].element[+].code = #Subject.comorbidity					
 * group[=].element[=].display = "Comorbidity"					
-* group[=].element[=].target.code = #Observation.					
+* group[=].element[=].target.code = #Observation					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 * group[=].element[=].target.comment = "The presence of a comorbidity condition is determined by the presence of an comorbidConditionPresent extension for that condition.
@@ -229,7 +229,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 					
 * group[=].element[+].code = #Subject.noGeneticSyndromeWho2020					
 * group[=].element[=].display = "No Genetic syndrome WHO 2020"					
-* group[=].element[=].target.code = #Observation.extension:comorbidConditionPresent					
+* group[=].element[=].target.code = #Observation					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 * group[=].element[=].target.comment = "The presence of a comorbidity condition is determined by the presence of an comorbidConditionPresent extension for that condition.

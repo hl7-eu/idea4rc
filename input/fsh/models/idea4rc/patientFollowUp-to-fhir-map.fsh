@@ -77,7 +77,7 @@ Details in the referred Condition"
 					
 * group[=].element[+].code = #PatientFollowUp.patient					
 * group[=].element[=].display = "Patient"					
-* group[=].element[=].target.code = #Condition.patient					
+* group[=].element[=].target.code = #Condition.subject					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
