@@ -53,10 +53,6 @@ pages:
     title: IDEA4RC Model Overview
   model-erd.html:
     title: IDEA4RC Detailed ERD Model
-  model-map-subject.html:
-    title: IDEA4RC Subject Model Mapping
-  model-map-other.html:
-    title: IDEA4RC Other Models Mapping
   logicalModel.md:
     title: IDEA4RC Logical Models 
   downloads.md:
@@ -76,6 +72,33 @@ pages:
     title: episodeOfCare-eu-i4rc Relationships
   MedicationAdministration-eu-i4rc.html:
     title: MedicationAdministration-eu-i4rc Relationships
+    #-------------map pages
+  RadiotherapyI4rc-map.html:
+    title: RadiotherapyI4rc Relationships
+  Surgery-map.html:
+    title: Surgery Relationships
+  PatientFollowUp-map.html:
+    title: PatientFollowUp Relationships
+  HospitalPatientRecords-map.html:
+    title: HospitalPatientRecords Relationships
+  SarcomaStage-map.html:
+    title: SarcomaStage Relationships
+  Subject-map.html:
+    title: Subject Relationships
+  GeneticTestExpressionI4rc-map.html:
+    title: GeneticTestExpressionI4rc Relationships
+  AdverseEventI4rc-map.html:
+    title: AdverseEventI4rc Relationships
+  CancerEpisode-map.html:
+    title: CancerEpisode Relationships
+  OtherTreatment-map.html:
+    title: OtherTreatment Relationships
+  GeneticTestExpression-map.html:
+    title: GeneticTestExpression Relationships
+  HnStage-map.html:
+    title: HnStage Relationships
+  EpisodeEvent-map.html:
+    title: EpisodeEvent Relationships
 
 			
 menu:
@@ -103,9 +126,21 @@ menu:
     episodeOfCare-eu-i4rc: episodeOfCare-eu-i4rc.html
     MedicationAdministration-eu-i4rc: MedicationAdministration-eu-i4rc.html
   
-  Model Map:
-      Subject:  model-map-subject.html
-      Others:  model-map-other.html 
+  Model Map (wip):
+    RadiotherapyI4rc: RadiotherapyI4rc-map.html
+    Surgery: Surgery-map.html
+    PatientFollowUp: PatientFollowUp-map.html
+    HospitalPatientRecords: HospitalPatientRecords-map.html
+    SarcomaStage: SarcomaStage-map.html
+    Subject: Subject-map.html
+    GeneticTestExpressionI4rc: GeneticTestExpressionI4rc-map.html
+    AdverseEventI4rc: AdverseEventI4rc-map.html
+    CancerEpisode: CancerEpisode-map.html
+    OtherTreatment: OtherTreatment-map.html
+    GeneticTestExpression: GeneticTestExpression-map.html
+    HnStage: HnStage-map.html
+    EpisodeEvent: EpisodeEvent-map.html
+
   Artifact Index: artifacts.html			
   Support:
      FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
@@ -285,6 +320,9 @@ groups:
       - StructureDefinition/observation-karnofsky-performance-statuseu-i4rc
       - StructureDefinition/observation-ecog-performance-status-eu-i4rc
       - StructureDefinition/observation-comorbidity-eu-i4rc
+      - StructureDefinition/observation-cci-eu-i4rc
+      - StructureDefinition/observation-occurrencOtherCancer-eu-i4rc
+      - StructureDefinition/observation-treatment-eu-i4rc
       
   cancerEpisodeEventImplementation:
     name:  HL7 FHIR Profile implementing the Cancer Episode and Episode Event models
@@ -302,6 +340,19 @@ groups:
       - StructureDefinition/mcode-tnm-primary-tumor-category
       - StructureDefinition/mcode-tnm-regional-nodes-category
       - StructureDefinition/mcode-tnm-distant-metastases-category
+      - StructureDefinition/observation-extraNodalExtension-eu-i4rc
+      - StructureDefinition/sarcoma-cancer-stage-group
+      - StructureDefinition/sarcoma-extent-category
+      - StructureDefinition/sarcoma-locoRegional-category
+
+
+  patientFollowUpImplementation:
+    name:  HL7 FHIR Profile implementing the Patient Follow Up model
+    description: HL7 FHIR Profile implementing the Patient Follow models
+    resources:
+      - StructureDefinition/Encounter-eu-i4rc
+      - StructureDefinition/observation-lastFollowupStatus-eu-i4rc
+      - StructureDefinition/observation-dateLastContact-eu-i4rc
   
   surgeryImplementation:
     name:  HL7 FHIR Profile implementing the Surgery model
@@ -320,12 +371,6 @@ groups:
     description: HL7 FHIR Profile implementing the Systemic Treatment model (mapping to be further analyzed)
     resources:
       - StructureDefinition/MedicationAdministration-eu-i4rc
-
-  followupImplementation:
-    name:  HL7 FHIR Profile implementing the Patient Follow up model
-    description: HL7 FHIR Profile implementing the Patient Follow up model
-    resources:
-      - StructureDefinition/Encounter-eu-i4rc
 
 #  geneticTestExpressionImplementation:
 #    name:  HL7 FHIR Profile implementing the Genetic Test Expression model

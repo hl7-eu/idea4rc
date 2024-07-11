@@ -1,0 +1,29 @@
+@startuml
+skinparam class {
+    BackgroundColor<<LogicalModel>> #FFCC00
+    BackgroundColor<<Profile>> #CCCCFF
+}
+skinparam linetype ortho
+legend right
+  | <#FFCC00> | Logical Model |
+  | <#CCCCFF> | Profile |
+endlegend
+class "HnStage" <<LogicalModel>> [[StructureDefinition-HnStage.html]]
+class "hn-cancer-stage-group" <<Profile>> [[StructureDefinition-hn-cancer-stage-group.html]]
+"HnStage" --> "hn-cancer-stage-group"
+class "mcode-tnm-primary-tumor-category" <<Profile>> [[StructureDefinition-mcode-tnm-primary-tumor-category.html]]
+"HnStage" --> "mcode-tnm-primary-tumor-category"
+"hn-cancer-stage-group" -[hidden]-> "mcode-tnm-primary-tumor-category"
+class "mcode-tnm-regional-nodes-category" <<Profile>> [[StructureDefinition-mcode-tnm-regional-nodes-category.html]]
+"HnStage" --> "mcode-tnm-regional-nodes-category"
+"mcode-tnm-primary-tumor-category" -[hidden]-> "mcode-tnm-regional-nodes-category"
+class "mcode-tnm-distant-metastases-category" <<Profile>> [[StructureDefinition-mcode-tnm-distant-metastases-category.html]]
+"HnStage" --> "mcode-tnm-distant-metastases-category"
+"mcode-tnm-regional-nodes-category" -[hidden]-> "mcode-tnm-distant-metastases-category"
+class "observation-extraNodalExtension-eu-i4rc" <<Profile>> [[StructureDefinition-observation-extraNodalExtension-eu-i4rc.html]]
+"HnStage" --> "observation-extraNodalExtension-eu-i4rc"
+"mcode-tnm-distant-metastases-category" -[hidden]-> "observation-extraNodalExtension-eu-i4rc"
+class "Condition-secondaryCancer-eu-i4rc" <<Profile>> [[StructureDefinition-Condition-secondaryCancer-eu-i4rc.html]]
+"HnStage" --> "Condition-secondaryCancer-eu-i4rc"
+"observation-extraNodalExtension-eu-i4rc" -[hidden]-> "Condition-secondaryCancer-eu-i4rc"
+@enduml

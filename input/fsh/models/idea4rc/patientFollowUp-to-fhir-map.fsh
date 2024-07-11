@@ -145,7 +145,7 @@ Details in the referred Condition"
 					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PatientFollowUp"					
-* group[=].target = "ObservationDateLastContact"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-dateLastContact-eu-i4rc"					
 					
 * group[=].element[+].code = #PatientFollowUp.patient					
 * group[=].element[=].display = "Patient"					

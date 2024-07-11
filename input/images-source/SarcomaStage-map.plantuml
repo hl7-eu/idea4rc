@@ -1,0 +1,23 @@
+@startuml
+skinparam class {
+    BackgroundColor<<LogicalModel>> #FFCC00
+    BackgroundColor<<Profile>> #CCCCFF
+}
+skinparam linetype ortho
+legend right
+  | <#FFCC00> | Logical Model |
+  | <#CCCCFF> | Profile |
+endlegend
+class "SarcomaStage" <<LogicalModel>> [[StructureDefinition-SarcomaStage.html]]
+class "sarcoma-cancer-stage-group" <<Profile>> [[StructureDefinition-sarcoma-cancer-stage-group.html]]
+"SarcomaStage" --> "sarcoma-cancer-stage-group"
+class "sarcoma-extent-category" <<Profile>> [[StructureDefinition-sarcoma-extent-category.html]]
+"SarcomaStage" --> "sarcoma-extent-category"
+"sarcoma-cancer-stage-group" -[hidden]-> "sarcoma-extent-category"
+class "sarcoma-locoRegional-category" <<Profile>> [[StructureDefinition-sarcoma-locoRegional-category.html]]
+"SarcomaStage" --> "sarcoma-locoRegional-category"
+"sarcoma-extent-category" -[hidden]-> "sarcoma-locoRegional-category"
+class "Condition-secondaryCancer-eu-i4rc" <<Profile>> [[StructureDefinition-Condition-secondaryCancer-eu-i4rc.html]]
+"SarcomaStage" --> "Condition-secondaryCancer-eu-i4rc"
+"sarcoma-locoRegional-category" -[hidden]-> "Condition-secondaryCancer-eu-i4rc"
+@enduml

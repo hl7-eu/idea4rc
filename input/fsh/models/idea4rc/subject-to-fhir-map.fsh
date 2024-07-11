@@ -377,7 +377,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 //---END					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
-* group[=].target = "ObservationOccurrenceOtherCancer"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-occurrencOtherCancer-eu-i4rc"					
 					
 * group[=].element[+].code = #Subject.occurrenceOfOtherCancer					
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
@@ -389,7 +389,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 //---END					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"					
-* group[=].target = "ObservationCancerTreatment"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-treatment-eu-i4rc"					
 					
 * group[=].element[+].code = #Subject.previousCancerTreatment					
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					

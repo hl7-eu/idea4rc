@@ -1,0 +1,23 @@
+@startuml
+skinparam class {
+    BackgroundColor<<LogicalModel>> #FFCC00
+    BackgroundColor<<Profile>> #CCCCFF
+}
+skinparam linetype ortho
+legend right
+  | <#FFCC00> | Logical Model |
+  | <#CCCCFF> | Profile |
+endlegend
+class "PatientFollowUp" <<LogicalModel>> [[StructureDefinition-PatientFollowUp.html]]
+class "Encounter-eu-i4rc" <<Profile>> [[StructureDefinition-Encounter-eu-i4rc.html]]
+"PatientFollowUp" --> "Encounter-eu-i4rc"
+class "Condition-primaryCancer-eu-i4rc" <<Profile>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+"PatientFollowUp" --> "Condition-primaryCancer-eu-i4rc"
+"Encounter-eu-i4rc" -[hidden]-> "Condition-primaryCancer-eu-i4rc"
+class "observation-lastFollowupStatus-eu-i4rc" <<Profile>> [[StructureDefinition-observation-lastFollowupStatus-eu-i4rc.html]]
+"PatientFollowUp" --> "observation-lastFollowupStatus-eu-i4rc"
+"Condition-primaryCancer-eu-i4rc" -[hidden]-> "observation-lastFollowupStatus-eu-i4rc"
+class "observation-dateLastContact-eu-i4rc" <<Profile>> [[StructureDefinition-observation-dateLastContact-eu-i4rc.html]]
+"PatientFollowUp" --> "observation-dateLastContact-eu-i4rc"
+"observation-lastFollowupStatus-eu-i4rc" -[hidden]-> "observation-dateLastContact-eu-i4rc"
+@enduml

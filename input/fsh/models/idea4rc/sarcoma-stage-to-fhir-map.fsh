@@ -14,7 +14,7 @@ Usage: #definition
 * sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/SarcomaStage"					
 * targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Bundle-eu-i4rc"					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/SarcomaStage"					
-* group[=].target = "SarcomaCancerStageGroup"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/sarcoma-cancer-stage-group"					
 					
 * group[=].element[+].code = #SarcomaStage.episodeEvent					
 * group[=].element[=].display = "Episode Event Reference"					
@@ -44,7 +44,7 @@ Usage: #definition
 					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/SarcomaStage"					
-* group[=].target = "DiseaseExtentCategory"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/sarcoma-extent-category"					
 					
 * group[=].element[+].code = #SarcomaStage.localised					
 * group[=].element[=].display = "Localised"					
@@ -64,7 +64,7 @@ Usage: #definition
 //---END					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/SarcomaStage"					
-* group[=].target = "LocoRegionalCategory"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/sarcoma-locoRegional-category"					
 					
 * group[=].element[+].code = #SarcomaStage.locoRegional					
 * group[=].element[=].display = "Loco-regional"					

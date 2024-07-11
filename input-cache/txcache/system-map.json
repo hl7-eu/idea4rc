@@ -101,6 +101,11 @@
       "candidates" : []
     },
     {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/hn-cancer-stage-group",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-cancer-stage-group",
       "authoritative" : [],
       "candidates" : []
@@ -136,6 +141,11 @@
       "candidates" : []
     },
     {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-dateLastContact-eu-i4rc",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-ecog-performance-status-eu-i4rc",
       "authoritative" : [],
       "candidates" : []
@@ -156,6 +166,11 @@
       "candidates" : []
     },
     {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-occurrencOtherCancer-eu-i4rc",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-tobaccouse-eu-i4rc",
       "authoritative" : [],
       "candidates" : []
@@ -172,6 +187,21 @@
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/patient-eu-i4rc",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/sarcoma-cancer-stage-group",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/sarcoma-extent-category",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/sarcoma-locoRegional-category",
       "authoritative" : [],
       "candidates" : []
     },

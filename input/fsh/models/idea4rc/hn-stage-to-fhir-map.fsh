@@ -14,7 +14,7 @@ Usage: #definition
 * sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/HnStage"					
 * targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Bundle-eu-i4rc"					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/HnStage"					
-* group[=].target = "HnCancerStageGroup"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/hn-cancer-stage-group"					
 					
 * group[=].element[+].code = #HnStage.episodeEvent					
 * group[=].element[=].display = "Episode Event Reference"					
@@ -234,7 +234,7 @@ Usage: #definition
 					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/HnStage"					
-* group[=].target = "ConditionSecondaryCancerI4rc"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-secondaryCancer-eu-i4rc"					
 					
 * group[=].element[+].code = #HnStage.episodeEvent					
 * group[=].element[=].display = "Episode Event Reference"					
