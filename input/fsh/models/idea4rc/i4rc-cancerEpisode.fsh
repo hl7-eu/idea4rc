@@ -9,7 +9,7 @@ Maturity Level: 0 Draft"""
 * patient 1..1 http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject "Patient" """Patient element containing the data regarding the patient followed by the hospital"""				
 * dateOfDiagnosis 1..1 date "Date of diagnosis (biopsy or surgical piece)" """Date of the procedure from which the specimen was obtained that allowed the histological diagnosis."""				
 * typeOfBiopsy 1..1 CodeableConcept "Type of biopsy" """Type of biopsy performed"""				
-* biopsyDoneBy 1..1 CodeableConcept "Biopsy done by" """Describes the institution where diagnostic procedure was performed"""				
+* biopsyDoneBy 1..1 string "Biopsy done by" """Describes the institution where diagnostic procedure was performed"""				
 * ageAtDiagnosis 1..1 integer  "Age at diagnosis" """Age of the patient at the time of the diagnosis."""				
 * radiotherapyInducedSarcoma 1..1 boolean "Radiotherapy induced sarcoma" """radiotherapy induced if the new tumour is in the field or marginal  the anatomical area that received high radiation dose; please specify the interval time from the radiotherapy treatment"""				
 * grading 0..1 CodeableConcept "Grading" """Grading of the cancer"""				
@@ -19,10 +19,10 @@ Maturity Level: 0 Draft"""
 * hnClassification.histologyNeuroendocrine 1..1 CodeableConcept "Histology Neuroendocrine" """Specifies the histological subgroup for neuroendocrine cancers """				
 * hnClassification.histologyOdontogenicCarcinoma 1..1 CodeableConcept "Histology Odontogenic Carcinoma" """Specifies the histological subgroup for odontogenic carcinomas"""				
 * hnClassification.histologySNUC 1..1 CodeableConcept "Histology Sinonasal undifferentiated carcinoma" """Specifies the histological subgroup for sinonasl undifferentiated carcinomas"""				
-* hnClassification.adipocyticTumours 1..1 CodeableConcept "Histology subgroup Adipocytic tumours" """Specifies the histological subgroup for adipocytic tumours"""				
-* hnClassification.fmtTumours 1..1 CodeableConcept "Histology subgroup Fibroblastic and myofibroblastic tumours" """Histology subgroup Fibroblastic and myofibroblastic tumours"""				
-* hnClassification.socalledFibrohistiocyticTumours 1..1 CodeableConcept "Histology subgroup So-called fibrohistiocytic tumours" """Histology subgroup So-called """				
 * sarcomaClassification 1..1 BackboneElement "Sarcoma classification" """Sarcoma classification"""				
+* sarcomaClassification.adipocyticTumours 1..1 CodeableConcept "Histology subgroup Adipocytic tumours" """Specifies the histological subgroup for adipocytic tumours"""				
+* sarcomaClassification.fmtTumours 1..1 CodeableConcept "Histology subgroup Fibroblastic and myofibroblastic tumours" """Histology subgroup Fibroblastic and myofibroblastic tumours"""				
+* sarcomaClassification.socalledFibrohistiocyticTumours 1..1 CodeableConcept "Histology subgroup So-called fibrohistiocytic tumours" """Histology subgroup So-called fibrohistiocytic tumours"""				
 * sarcomaClassification.vascularTumours 1..1 CodeableConcept "Vascular tumours" """Vascular tumours"""				
 * sarcomaClassification.pericyticPerivascularTumours 1..1 CodeableConcept "Pericytic (perivascular) tumours" """Pericytic (perivascular) tumours"""				
 * sarcomaClassification.smoothMuscleTumours 1..1 CodeableConcept "Smooth muscle tumours" """Smooth muscle tumours"""				
@@ -31,7 +31,7 @@ Maturity Level: 0 Draft"""
 * sarcomaClassification.peripheralNerveSheathTumours 1..1 CodeableConcept "Peripheral nerve sheath tumours" """Peripheral nerve sheath tumours"""				
 * sarcomaClassification.tumoursOfUncertainDifferentiation 1..1 CodeableConcept "Tumours of uncertain differentiation" """Tumours of uncertain differentiation"""				
 * sarcomaClassification.undifSmallRCelSarcBonAndSofTis 1..1 CodeableConcept "Undifferentiated small round cell sarcomas of bone and soft tissue" """Undifferentiated small round cell sarcomas of bone and soft tissue"""				
-* sarcomaClassification.endStrAndRelatedTumours 1..1 CodeableConcept "Endometrial stromal and related tumours" """Endometrial stromal and related tumours"""				
+* sarcomaClassification.estAndRelatedTumours 1..1 CodeableConcept "Endometrial stromal and related tumours" """Endometrial stromal and related tumours"""				
 * sarcomaClassification.miscellaniousMesenchimalTumors 1..1 CodeableConcept "Miscellanious mesenchimal tumors" """Miscellanious mesenchimal tumors"""				
 * sarcomaClassification.mixedEpithelialAndMesenchymalTumours 1..1 CodeableConcept "Mixed epithelial and mesenchymal tumours" """Mixed epithelial and mesenchymal tumours"""				
 * subsites 1..1 BackboneElement "subsites" """subsites"""				
@@ -151,8 +151,8 @@ oxyphilic carcinoma - 4212379
 oncocytic adenocarcinoma
 oncocytic malignant oncocytoma
  Salivary gland intraductal carcinoma (cribriform low grade adenocarcinoma)  """				
-* hnClassification.histologyNeuroendocrine ^comment = """Small cell neuroendocrineï¿½carcinoma (SmCC)?,Poorly differentiated neuroendocrine carcinoma, small cell (grade 3);Large cell neuroendocrine carcinoma (LCNEC)?, Poorly differentiated neuroendocrine carcinoma, large cell (grade 3);Well-differentiated neuroendocrine carcinoma, Middle ear carcinoid tumor;Moderately differentiated neuroendocrine carcinoma
-Small cell neuroendocrineï¿½carcinoma (SmCC)? - 36714029
+* hnClassification.histologyNeuroendocrine ^comment = """Small cell neuroendocrineÿcarcinoma (SmCC)?,Poorly differentiated neuroendocrine carcinoma, small cell (grade 3);Large cell neuroendocrine carcinoma (LCNEC)?, Poorly differentiated neuroendocrine carcinoma, large cell (grade 3);Well-differentiated neuroendocrine carcinoma, Middle ear carcinoid tumor;Moderately differentiated neuroendocrine carcinoma
+Small cell neuroendocrineÿcarcinoma (SmCC)? - 36714029
 Poorly differentiated neuroendocrine carcinoma - 37018672
 small cell (grade 3)
 Large cell neuroendocrine carcinoma (LCNEC)? - 4029971
@@ -177,7 +177,8 @@ SMARCB1 (INI-1)-deficient Sinonasal undifferentiated Carcinoma;Sinonasal SMARCA4
 SMARCB1 (INI-1)-deficient Sinonasal undifferentiated Carcinoma
 Sinonasal SMARCA4 deficient carcinoma
 IDH2-mutated sinonasal undifferentiated neoplasm"""				
-* hnClassification.adipocyticTumours ^comment = """Atypical lipomatous tumour/ Liposarcoma, well-differentiated, NOS
+				
+* sarcomaClassification.adipocyticTumours ^comment = """Atypical lipomatous tumour/ Liposarcoma, well-differentiated, NOS
 Dedifferentiated liposarcoma
 Myxoid liposarcoma
 Pleomorphic liposarcoma
@@ -189,7 +190,7 @@ Myxoid liposarcoma - 4101123
 Pleomorphic liposarcoma - 4010104
 Myxoid pleomorphic liposarcoma - 4300687
 """				
-* hnClassification.fmtTumours ^comment = """Palmar/plantar-type fibromatosis
+* sarcomaClassification.fmtTumours ^comment = """Palmar/plantar-type fibromatosis
 Desmoid-type fibromatosis
 Lipofibromatosis
 Giant cell fibroblastoma
@@ -222,7 +223,7 @@ Myxofibrosarcoma - 45771359
 Low-grade fibromyxoid sarcoma - 45771361
 Sclerosing epithelioid fibrosarcoma - 45766456
 """				
-* hnClassification.socalledFibrohistiocyticTumours ^comment = """Plexiform fibrohistiocytic tumour
+* sarcomaClassification.socalledFibrohistiocyticTumours ^comment = """Plexiform fibrohistiocytic tumour
 Giant cell tumour of soft parts NOS
 Tenosynovial giant cell tumor
 
@@ -232,7 +233,6 @@ Tenosynovial giant cell tumor - 4030140
 Tenosynovial giant cell tumor, diffuse - 45766525
 Malignant tenosynovial giant cell tumor - 4029655
 """				
-				
 * sarcomaClassification.vascularTumours ^comment = """Epithelioid haemangioendothelioma NOS
 Angiosarcoma
 Kaposiform haemangioendothelioma ha anche la forma benigna 9161/0 Acquired tufted haemangioma. teniamo anche la fomra benigna?
@@ -345,16 +345,16 @@ Aggressive angiomyxoma - 4239956
 Angiomatoid fibrous histiocytoma - 4029526
 NTRK-rearranged spindle cell neoplasm (emerging)"""				
 * sarcomaClassification.undifSmallRCelSarcBonAndSofTis ^comment = """Ewing sarcoma
-Round cell sarcoma withï¿½EWSR1?non-ETS fusions
+Round cell sarcoma withÿEWSR1?non-ETS fusions
 CIC-rearranged sarcoma
-Sarcoma withï¿½BCORï¿½genetic alterations
+Sarcoma withÿBCORÿgenetic alterations
 
 Ewing sarcoma - 45766528
-Round cell sarcoma withï¿½EWSR1?non-ETS fusions
+Round cell sarcoma withÿEWSR1?non-ETS fusions
 CIC-rearranged sarcoma
-Sarcoma withï¿½BCORï¿½genetic alterations
+Sarcoma withÿBCORÿgenetic alterations
 """				
-* sarcomaClassification.endStrAndRelatedTumours ^comment = """Endometrial stromal sarcoma, high grade
+* sarcomaClassification.estAndRelatedTumours ^comment = """Endometrial stromal sarcoma, high grade
 Endometrial stromal sarcoma, low grade
 
 Endometrial stromal sarcoma, high grade - 4290926
@@ -712,10 +712,10 @@ not tested - 45878602"""
 * hnClassification.histologyNeuroendocrine insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * hnClassification.histologyOdontogenicCarcinoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * hnClassification.histologySNUC insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
-* hnClassification.adipocyticTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
-* hnClassification.fmtTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
-* hnClassification.socalledFibrohistiocyticTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * sarcomaClassification insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sarcomaClassification.adipocyticTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sarcomaClassification.fmtTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sarcomaClassification.socalledFibrohistiocyticTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * sarcomaClassification.vascularTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * sarcomaClassification.pericyticPerivascularTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * sarcomaClassification.smoothMuscleTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
@@ -724,7 +724,7 @@ not tested - 45878602"""
 * sarcomaClassification.peripheralNerveSheathTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * sarcomaClassification.tumoursOfUncertainDifferentiation insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * sarcomaClassification.undifSmallRCelSarcBonAndSofTis insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
-* sarcomaClassification.endStrAndRelatedTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* sarcomaClassification.estAndRelatedTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * sarcomaClassification.miscellaniousMesenchimalTumors insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * sarcomaClassification.mixedEpithelialAndMesenchymalTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 				

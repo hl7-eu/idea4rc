@@ -37,14 +37,15 @@ Description: "Codes identifying codindins beloging to the Histology Adenocarcino
 * $athena#37116976 "Sebaceous lymphadenocarcinoma"
 * $athena#4271564 "Carcinosarcoma"
 // * $athena# "Oncocytic carcinoma"
-* $athena#4212379 "oxyphilic carcinoma"
+* $athena#4212379 "Oxyphilic carcinoma"
 // * $athena# "oncocytic adenocarcinoma"
 // * $athena# "oncocytic malignant oncocytoma"
 // * $athena# "Salivary gland intraductal carcinoma (cribriform low grade adenocarcinoma)  "
 
 
-/*"Intestinal-type (sinonasal) adenocarcinoma; NOS, non–intestinal-type (sinonasal), Endolymphatic sac low grade, Intestinal-type (salivary gland), cystoadenocarcinoma, mucinous, Ceruminous  (only in ear); Nasopharyngeal papillary adenocarcinoma, thyroid like low grade nasopharingeal papillary adenocarcinoma; Adenoid cystic carcinoma; Adenoid cystic carcinoma: solid type (> 30% solid); Mucoepidermoid carcinoma; Polymorphous, Cribriform  of minor salivary glands, Polymorphous (low grade), terminal duct carcinoma, lobular carcinoma; Acinic cell carcinoma;Clear cell carcinoma, hyalinising clear cell carcinoma; Basal cell adenocarcinoma, malignant dermal analog tumor;Salivary duct carcinoma, high grade ductal carcinoma;Salivary secretory adenocarcinoma (mammary analog, MASC); Secretory carcinoma; Myoepithelial carcinoma, malignant myoepithelioma; Carcinoma ex pleomorphic adenoma: NOS,  Intracapsular, minimally invasive, largely invasive; Sebaceous adenocarcinoma, Sebaceous lymphadenocarcinoma; Carcinosarcoma; Oncocytic carcinoma, oxyphilic carcinoma, oncocytic adenocarcinoma, oncocytic malignant oncocytoma; Salivary gland intraductal carcinoma (cribriform low grade adenocarcinoma)  
- Intestinal-type (sinonasal) adenocarcinoma - CHECK WHICH SON
+/*
+
+" Intestinal-type (sinonasal) adenocarcinoma - CHECK WHICH SON
  NOS, non–intestinal-type (sinonasal) - FROM HERE?,
 Endolymphatic sac low grade, 
 Intestinal-type (salivary gland) - 4312929, 
@@ -80,4 +81,6 @@ oxyphilic carcinoma - 4212379
 oncocytic adenocarcinoma
 oncocytic malignant oncocytoma
  Salivary gland intraductal carcinoma (cribriform low grade adenocarcinoma)  "
+
+
 */

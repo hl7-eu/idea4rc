@@ -69,6 +69,13 @@ Description: "This profile defines how to represent diagnosis details (when the 
   * display ^short = "Short textual description of the Center of diagnosis"
 * valueCodeableConcept 1..1
 * valueCodeableConcept from CancerDiagnosisVS (extensible)
+* method from TypeofBiopsyI4rcVS 
+/* Fine needle biopsy - 4171863
+Core needle biopsy - 4321878
+Incisional biopsy - 4321986
+Excisional biopsy - 4228202
+Excision - 4279903
+*/
 * component 0..0 
 
 
@@ -119,30 +126,48 @@ This profile should be also used for documenting primary cancer relapses during 
 
 
 * bodySite from VsSubsiteAthenaI4rc (extensible)
-  * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites)
+//   * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites)
 
 
-* evidence ^slicing.discriminator.type = #pattern
+/* * evidence ^slicing.discriminator.type = #pattern
 * evidence ^slicing.discriminator.path = "$this.resolve()"
 * evidence ^slicing.discriminator.type = #pattern
 * evidence ^slicing.discriminator.path = "code"
 * evidence ^slicing.rules = #open
-* evidence ^slicing.description = "Slice based on the coding.code pattern"
+* evidence ^slicing.description = "Slice based on the coding.code pattern" */
+
+* evidence ^slicing.discriminator.type = #profile
+* evidence ^slicing.discriminator.path = "$this.detail.resolve()"
+* evidence ^slicing.rules = #open
+* evidence ^slicing.description = "Slice based on the detail profile"
 
 // Diagnosis details
 * evidence contains diagnosisDetails 0..1 
 * evidence[diagnosisDetails]
   * ^short = "Diagnosis Details"
-  * code = $loinc#29308-4 "Diagnosis"
+  // * code = $loinc#29308-4 "Diagnosis"
   * detail only Reference (ObservationDiagnosisI4rc)
 
-// Tumor size
+  // Tumor size
+* evidence contains simpleResult  0..* 
+* evidence[simpleResult]
+  * ^short = "Tumor size, Mitotic count score, laboratory Test results"
+  * ^definition = """It provides the measure of the tumor size; Mitotic count score, Lab results as:
+  - EBV DNA plasma testing before treatment in NPC type II and III (WHO)
+  - HPV tumor testing in oral carcinoma
+  - C reactive protein testing."""
+  
+  // * code =  $loinc#21889-1 // Tumor size
+  // * code =  $athena#36768664 // "Dimension of Tumor"
+  * detail only Reference (ObservationSimpleResult) 
+
+/* // Tumor size
 * evidence contains tumorSize  0..1 
 * evidence[tumorSize]
   * ^short = "Tumor size"
   * ^definition = """It provides the measure of the tumor size"""
   // * code =  $loinc#21889-1 // Tumor size
-  * code =  $athena#36768664 // "Dimension of Tumor"
+  // * code =  $athena#36768664 // "Dimension of Tumor"
   * detail only Reference (ObservationSimpleResult) 
 
 // Biopsy Mitotic Count 
@@ -150,7 +175,7 @@ This profile should be also used for documenting primary cancer relapses during 
 * evidence[mitoticCount]
   * ^short = "Mitotic count score"
   * ^definition = """It provides the measure of the tumor size"""
-  * code =  $athena#4227243 // Mitotic count score (to be checked)
+  // * code =  $athena#4227243 // Mitotic count score (to be checked)
   * detail only Reference (ObservationSimpleResult) 
 
 // Lab Test performed
@@ -161,14 +186,14 @@ This profile should be also used for documenting primary cancer relapses during 
   - EBV DNA plasma testing before treatment in NPC type II and III (WHO)
   - HPV tumor testing in oral carcinoma
   - C reactive protein testing."""
-  * code from VsSimpleResultI4rc
-  * detail only Reference (ObservationSimpleResult) 
+  // * code from VsSimpleResultI4rc
+  * detail only Reference (ObservationSimpleResult)  */
 
 * evidence contains genetic-test 0..
 * evidence[genetic-test]
   * ^short = "Genetic Tests performed"
   * ^definition = """It documents the Genetic Test performed"""
-  * code from VsGeneticTestsPerformed
+  // * code from VsGeneticTestsPerformed
   * detail only Reference (ObservationYesNo)
 
 

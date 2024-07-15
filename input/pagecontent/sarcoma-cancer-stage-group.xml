@@ -3,12 +3,16 @@
     xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
 	
     <h3 id="overview">IDEA4RC : profile relationship</h3>
+
     <a> </a>
+    
     <p>This page provides an overview of the relationships of the sarcoma-cancer-stage-group with the profiles specified in this guide</p>
 
     <h4 id="source">sarcoma-cancer-stage-group as Source</h4>
 <a> </a>	
 <p>{% include sarcoma-cancer-stage-group_source.svg %}</p>
 
-    
+    <h4 id="target">sarcoma-cancer-stage-group as Target</h4>
+<a> </a>	
+<p>{% include sarcoma-cancer-stage-group_target.svg %}</p>
 </div>

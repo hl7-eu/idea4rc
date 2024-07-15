@@ -102,24 +102,6 @@ This comment applies to all the inlcuded elements."
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					
-* group[=].element[+].code = #CancerEpisode.hnClassification.adipocyticTumours					
-* group[=].element[=].display = "Histology subgroup Adipocytic tumours"					
-* group[=].element[=].target.code = #Condition.code					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #relatedto					
-					
-* group[=].element[+].code = #CancerEpisode.hnClassification.fmtTumours					
-* group[=].element[=].display = "Histology subgroup Fibroblastic and myofibroblastic tumours"					
-* group[=].element[=].target.code = #Condition.code					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #relatedto					
-					
-* group[=].element[+].code = #CancerEpisode.hnClassification.socalledFibrohistiocyticTumours					
-* group[=].element[=].display = "Histology subgroup So-called fibrohistiocytic tumours"					
-* group[=].element[=].target.code = #Condition.code					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #relatedto					
-					
 * group[=].element[+].code = #CancerEpisode.sarcomaClassification					
 * group[=].element[=].display = "Sarcoma classification"					
 * group[=].element[=].target.code = #Condition.code					
@@ -128,6 +110,24 @@ This comment applies to all the inlcuded elements."
 * group[=].element[=].target.comment = "At this stage represented as condition.code.
 Evaluate if it represents a morphology/hystology classification.
 This comment applies to all the inlcuded elements."					
+* group[=].element[+].code = #CancerEpisode.sarcomaClassification.adipocyticTumours					
+* group[=].element[=].display = "Histology subgroup Adipocytic tumours"					
+* group[=].element[=].target.code = #Condition.code					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+					
+* group[=].element[+].code = #CancerEpisode.sarcomaClassification.fmtTumours					
+* group[=].element[=].display = "Histology subgroup Fibroblastic and myofibroblastic tumours"					
+* group[=].element[=].target.code = #Condition.code					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+					
+* group[=].element[+].code = #CancerEpisode.sarcomaClassification.socalledFibrohistiocyticTumours					
+* group[=].element[=].display = "Histology subgroup So-called fibrohistiocytic tumours"					
+* group[=].element[=].target.code = #Condition.code					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+					
 * group[=].element[+].code = #CancerEpisode.sarcomaClassification.vascularTumours					
 * group[=].element[=].display = "Vascular tumours"					
 * group[=].element[=].target.code = #Condition.code					
@@ -153,8 +153,7 @@ This comment applies to all the inlcuded elements."
 * group[=].element[=].target.equivalence = #relatedto					
 					
 * group[=].element[+].code = #CancerEpisode.sarcomaClassification.chondroOsseousTumours					
-* group[=].element[=].display = "Chondro-osseous tumours
-"					
+* group[=].element[=].display = "Chondro-osseous tumours"					
 * group[=].element[=].target.code = #Condition.code					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
@@ -177,7 +176,7 @@ This comment applies to all the inlcuded elements."
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					
-* group[=].element[+].code = #CancerEpisode.sarcomaClassification.endStrAndRelatedTumours					
+* group[=].element[+].code = #CancerEpisode.sarcomaClassification.estAndRelatedTumours					
 * group[=].element[=].display = "Endometrial stromal and related tumours"					
 * group[=].element[=].target.code = #Condition.code					
 * group[=].element[=].target.display = ""					
@@ -293,40 +292,40 @@ This comment applies to all the inlcuded elements."
 					
 * group[=].element[+].code = #CancerEpisode.tumorSize					
 * group[=].element[=].display = "Tumor Size"					
-* group[=].element[=].target.code = #Condition.evidence:tumorSize.detail.valueQuantity					
+* group[=].element[=].target.code = #Condition.evidence:simpleResult.detail.valueQuantity					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
-* group[=].element[=].target.comment = "Where evidence.code is $loinc#21889-1 Size Tumor AND detail.resolve().ofType(Observation).code='$athena#36768664'"					
+* group[=].element[=].target.comment = "Where  detail.resolve().ofType(Observation).code='$athena#36768664'"					
 * group[=].element[+].code = #CancerEpisode.depth					
 * group[=].element[=].display = "Depth"					
-* group[=].element[=].target.code = #Condition.bodySite.extension:locationQualifier					
+* group[=].element[=].target.code = #Condition.bodySite.extension:qualifier.value[x]					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
 * group[=].element[+].code = #CancerEpisode.biopsyMitoticCount					
 * group[=].element[=].display = "Biopsy Mitotic count"					
-* group[=].element[=].target.code = #Condition.evidence:mitoticCount.detail.valueCodeableConcept					
+* group[=].element[=].target.code = #Condition.evidence:simpleResult.detail.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "Where evidence.code is $athena#4227243"					
+* group[=].element[=].target.comment = "Where detail.resolve().ofType(Observation).code is $athena#4227243"					
 * group[=].element[+].code = #CancerEpisode.plasmaticEbvDnaAtBaseline					
 * group[=].element[=].display = "Plasmatic EBV DNA at baseline"					
-* group[=].element[=].target.code = #Condition.evidence:lab-test.detail.valueCodeableConcept					
+* group[=].element[=].target.code = #Condition.evidence:simpleResult.detail.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "Where evidence.code is $athena#4047317"					
+* group[=].element[=].target.comment = "Where detail.resolve().ofType(Observation).code is $athena#4047317"					
 * group[=].element[+].code = #CancerEpisode.hpvStatus					
 * group[=].element[=].display = "HPV status"					
-* group[=].element[=].target.code = #Condition.evidence:lab-test.detail.valueCodeableConcept					
+* group[=].element[=].target.code = #Condition.evidence:simpleResult.detail.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "Where evidence.code is $athena#35952576"					
+* group[=].element[=].target.comment = "Where detail.resolve().ofType(Observation).code is $athena#35952576"					
 * group[=].element[+].code = #CancerEpisode.crpCReactiveProteinTested					
 * group[=].element[=].display = "CRP - C reactive protein tested"					
-* group[=].element[=].target.code = #Condition.evidence:lab-test.detail.valueCodeableConcept					
+* group[=].element[=].target.code = #Condition.evidence:simpleResult.detail.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "Where evidence.code is $athena#44789521"					
+* group[=].element[=].target.comment = "Where detail.resolve().ofType(Observation).code is $athena#44789521"					
 //---END					
 //---END					
 //---END					

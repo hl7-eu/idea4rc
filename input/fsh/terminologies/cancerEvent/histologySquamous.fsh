@@ -16,7 +16,7 @@ Description: "Codes identifying codindins beloging to the Histology Squamous gro
 * $athena#4029973 "Basaloid squamous cell carcinoma"
 * $athena#4298030 "Verrucous squamous cell carcinoma: NOS, cuniculatum carcinoma/Ackerman tumor"
 * $athena#4191609 "Papillary squamous cell carcinoma"
-* $athena#4103543 "Squamous cell carcinoma"
+* $athena#37156145 "Squamous cell carcinoma"
 * $athena#37204531 "Squamous cell carcinoma: HPV-positive"
 * $athena#37204532 "Squamous cell carcinoma: HPV-negative"
 
