@@ -29,11 +29,11 @@ Description: "The extent of the cancer in the body, according to a given cancer 
 * insert CancerStageCommonRules
 
 * code from CancerStageGroupVS (extensible)
-  * insert AdditionalBinding (preferred,
+/*   * insert AdditionalBinding (preferred,
                               CancerStageGroupSctVS, 
-                              Tumor staging type)
+                              Tumor staging type) */
 
-* valueCodeableConcept from CancerStageGroupVS (preferred) 
+* valueCodeableConcept from CancerStageGroupValueVS (extensible) 
 * hasMember only Reference(Observation)
 * insert ObservationHasMemberSlicingRules
 * hasMember contains

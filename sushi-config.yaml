@@ -211,6 +211,15 @@ resources:
     description: It shows how the Hospital Patient Records model is mapped into this guide
 
 
+  ConceptMap/sarcomaStage2FHIR:
+    name: Sarcoma Stage Model to this guide Map
+    description: It shows how the  Sarcoma Stage model is mapped into this guide
+
+  ConceptMap/hNstage2FHIR:
+    name: Head and Neck Stage Model to this guide Map
+    description: It shows how the Head and Neck model is mapped into this guide
+
+
   StructureDefinition/Subject:
     name: Patient
     description: IDEA4RC Patient common model
@@ -265,6 +274,16 @@ resources:
     name: Patient Follow-Up
     description: IDEA4RC Patient Follow Up common model
 
+  StructureDefinition/PathologicalReportInfo:
+    name: Pathological Report Info
+    description: IDEA4RC Pathological Report Info common model
+
+  StructureDefinition/OtherTreatment:
+    name: Other Local Treatment
+    description: IDEA4RC Patient Other Local Treatment common model
+
+
+
   #
 # Groups can control certain aspects of the IG generation.  The IG
 # documentation recommends that authors use the default groups that
@@ -293,6 +312,8 @@ groups:
       - StructureDefinition/AdverseEvent
       - StructureDefinition/HospitalPatientRecords
       - StructureDefinition/PatientFollowUp
+      - StructureDefinition/PathologicalReportInfo
+      - StructureDefinition/OtherTreatment
 
   LogicalModel2FHIR:
     name:  IDEA4RC Common Models Maps
@@ -300,7 +321,10 @@ groups:
     resources:
       - ConceptMap/subject2FHIR
       - ConceptMap/cancerEpisode2FHIR
-#      - ConceptMap/stage2FHIR
+      - ConceptMap/sarcomaStage2FHIR
+      - ConceptMap/hNstage2FHIR
+     #  - ConceptMap/treatmentResponse2FHIR
+      - ConceptMap/geneticTest2FHIR
 #      - ConceptMap/pathologicalStage2FHIR
       - ConceptMap/episodeEvent2FHIR
       - ConceptMap/surgery2FHIR
@@ -309,6 +333,8 @@ groups:
       - ConceptMap/followup2FHIR
       - ConceptMap/geneticTestExpression2FHIR
       - ConceptMap/hospitalPatientRecords2FHIR
+
+      
 
   patientImplementation:
     name:  HL7 FHIR Profile implementing the Subject (Patient) model
