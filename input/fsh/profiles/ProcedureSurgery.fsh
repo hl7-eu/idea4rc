@@ -9,14 +9,14 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 * extension contains SameCustodianFlag named surgeryHospital 0..1
 * extension[surgeryHospital].valueBoolean ^short = "Was this performed at the registering hospital?"
 
-* extension contains $procedure-category-r5 named ProcedureCategoryR5 1..*
+* extension contains $procedure-category-r5 named ProcedureCategoryR5 0..*
 
 // * extension[ProcedureCategoryR5] insert OpenSlicePatternOnThis
 
  
 * extension[ProcedureCategoryR5] contains type 1..1
 * extension[ProcedureCategoryR5][type].valueCodeableConcept from VsSurgicalProcedureCategoryI4rc
-* extension[ProcedureCategoryR5] contains intent 1..1
+* extension[ProcedureCategoryR5] contains intent 0..1
 * extension[ProcedureCategoryR5][intent].valueCodeableConcept from VsSurgeryIntentionI4rc
 
 

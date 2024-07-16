@@ -36,6 +36,7 @@ dependencies:
   hl7.fhir.uv.ips: 1.1.0 # only for offline compilation
   # hl7.fhir.uv.ips: current
   hl7.fhir.uv.genomics-reporting: 2.0.0 # REMOVE IF NOT NEEDED
+  hl7.terminology: 5.5.0  # Temporary  FIX
 
 fhirVersion: 4.0.1
 parameters:

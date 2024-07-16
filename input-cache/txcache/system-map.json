@@ -1,51 +1,6 @@
 {
   "systems" : [
     {
-      "system" : "ConditionSecondaryCancerI4rc",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
-      "system" : "DiseaseExtentCategory",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
-      "system" : "HnCancerStageGroup",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
-      "system" : "LocoRegionalCategory",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
-      "system" : "ObservationCancerTreatment",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
-      "system" : "ObservationDateLastContact",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
-      "system" : "ObservationOccurrenceOtherCancer",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
-      "system" : "SarcomaCancerStageGroup",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
-      "system" : "http://cancerstaging.org",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
       "authoritative" : [],
       "candidates" : ["http://tx.fhir.org/r4"]
@@ -102,11 +57,6 @@
     },
     {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/hn-cancer-stage-group",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
-      "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-cancer-stage-group",
       "authoritative" : [],
       "candidates" : []
     },
@@ -181,11 +131,6 @@
       "candidates" : []
     },
     {
-      "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-yesNo-eu-i4rc",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
       "system" : "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/patient-eu-i4rc",
       "authoritative" : [],
       "candidates" : []
@@ -217,11 +162,6 @@
     },
     {
       "system" : "http://hl7.org/fhir/tools/CodeSystem/obligation",
-      "authoritative" : [],
-      "candidates" : []
-    },
-    {
-      "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
       "authoritative" : [],
       "candidates" : []
     },

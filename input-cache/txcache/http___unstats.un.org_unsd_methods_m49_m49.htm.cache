@@ -15,7 +15,6 @@ v: {
   "code" : "150",
   "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -37,7 +36,6 @@ v: {
   "code" : "150",
   "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
