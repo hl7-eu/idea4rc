@@ -11,4 +11,7 @@ endlegend
 class "GeneticTestExpression" <<LogicalModel>> [[StructureDefinition-GeneticTestExpression.html]]
 class "Condition-primaryCancer-eu-i4rc" <<Profile>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
 "GeneticTestExpression" --> "Condition-primaryCancer-eu-i4rc"
+class "Condition-primaryCancer-eu-i4rc" <<Profile>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+"GeneticTestExpression" --> "Condition-primaryCancer-eu-i4rc"
+"Condition-primaryCancer-eu-i4rc" -[hidden]-> "Condition-primaryCancer-eu-i4rc"
 @enduml

@@ -11,168 +11,165 @@ Usage: #definition
 * experimental = true					
 * description = "Radiotherapy Model to this guide Map"					
 * purpose = "It shows how the Radiotherapy model is mapped into this guide"					
-* sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/RadiotherapyI4rc"					
+* sourceUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Radiotherapy"					
 * targetUri = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc"					
-* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/RadiotherapyI4rc"					
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Radiotherapy"					
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc"					
 					
-* group[=].element[+].code = #RadiotherapyI4rc.episodeEventReference					
+* group[=].element[+].code = #Radiotherapy.episodeEventReference					
 * group[=].element[=].display = "Episode Event reference"					
 * group[=].element[=].target.code = #Procedure.reasonReference					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					
-* group[=].element[+].code = #RadiotherapyI4rc.radiotherapy					
+* group[=].element[+].code = #Radiotherapy.radiotherapy					
 * group[=].element[=].display = "Radiotherapy"					
 * group[=].element[=].target.code = #Procedure.extension:radiotherapy					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "Temporary included in the guide for covering the request of tracking if this information has been captured and maintained by the same or other organizations.
 It is envisioned that this kind of requirements could be covered by recording where specific act are taking place."					
-* group[=].element[+].code = #RadiotherapyI4rc.intent					
+* group[=].element[+].code = #Radiotherapy.intent					
 * group[=].element[=].display = "Intent"					
-* group[=].element[=].target.code = #Procedure.extension:treatmentIntent					
+* group[=].element[=].target.code = #Procedure.extension:procedureIntent					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "from mcode https://build.fhir.org/ig/HL7/fhir-mCODE-ig/StructureDefinition-mcode-radiotherapy-course-summary.html"					
-* group[=].element[+].code = #RadiotherapyI4rc.setting					
+* group[=].element[+].code = #Radiotherapy.setting					
 * group[=].element[=].display = "Setting"					
 * group[=].element[=].target.code = #Procedure.extension:procedureCategoryR5					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					
-* group[=].element[+].code = #RadiotherapyI4rc.beamQuality					
+* group[=].element[+].code = #Radiotherapy.beamQuality					
 * group[=].element[=].display = "Beam quality"					
 * group[=].element[=].target.code = #Procedure.extension:modalityAndTechnique.extension:modality.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "to be checked"					
-* group[=].element[+].code = #RadiotherapyI4rc.otherSpecify					
-* group[=].element[=].display = "Other; specify"					
-//-- unmatched					
-//-- unmatched					
-* group[=].element[=].target.equivalence = #unmatched					
-* group[=].element[=].target.comment = "to be checked"					
-* group[=].element[+].code = #RadiotherapyI4rc.treatmentTechnique					
+					
+* group[=].element[+].code = #Radiotherapy.otherBeam					
+* group[=].element[=].display = "Beam quality Other; specify"					
+* group[=].element[=].target.code = #Procedure.extension:modalityAndTechnique.extension:modality.valueCodeableConcept.text					
+* group[=].element[=].target.display = ""					
+* group[=].element[=].target.equivalence = #relatedto					
+					
+* group[=].element[+].code = #Radiotherapy.treatmentTechnique					
 * group[=].element[=].display = "Treatment technique"					
 * group[=].element[=].target.code = #Procedure.extension:modalityAndTechnique.extension:technique.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "to be checked"					
-* group[=].element[+].code = #RadiotherapyI4rc.totalDoseTdGy					
+					
+* group[=].element[+].code = #Radiotherapy.totalDoseTdGy					
 * group[=].element[=].display = "Total Dose (TD) Gy"					
 * group[=].element[=].target.code = #Procedure.extension:doseToVolume.extension:totalDoseDelivered					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #RadiotherapyI4rc.numberOfFractions					
+* group[=].element[+].code = #Radiotherapy.numberOfFractions					
 * group[=].element[=].display = "Number of fractions"					
 * group[=].element[=].target.code = #Procedure.extension:doseToVolume.extension:fractionsDelivered					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					
-* group[=].element[+].code = #RadiotherapyI4rc.adaptiveRt					
+* group[=].element[+].code = #Radiotherapy.adaptiveRt					
 * group[=].element[=].display = "Adaptive RT"					
 * group[=].element[=].target.code = #Procedure.extension:terminationReason					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "to be reviewed; extension to be localized to change the used value set"					
-* group[=].element[+].code = #RadiotherapyI4rc.igrtImageGuideRadiotherapy					
+* group[=].element[+].code = #Radiotherapy.igrtImageGuideRadiotherapy					
 * group[=].element[=].display = "IGRT  (image guide radiotherapy)"					
 * group[=].element[=].target.code = #Procedure.extension:modalityAndTechnique.extension:technique.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "to be checked"					
-* group[=].element[+].code = #RadiotherapyI4rc.startDate					
+* group[=].element[+].code = #Radiotherapy.startDate					
 * group[=].element[=].display = "Start date"					
 * group[=].element[=].target.code = #Procedure.performedPeriod.start					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 					
-* group[=].element[+].code = #RadiotherapyI4rc.endDate					
+* group[=].element[+].code = #Radiotherapy.endDate					
 * group[=].element[=].display = "End  date"					
 * group[=].element[=].target.code = #Procedure.performedPeriod.end					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 					
-* group[=].element[+].code = #RadiotherapyI4rc.treatmentSites					
+* group[=].element[+].code = #Radiotherapy.treatmentSites					
 * group[=].element[=].display = "Treatment Sites:"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #RadiotherapyI4rc.treatmentSites.primary					
+* group[=].element[+].code = #Radiotherapy.treatmentSites.primary					
 * group[=].element[=].display = "Primary"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "check the availability of proper coded concepts"					
-* group[=].element[+].code = #RadiotherapyI4rc.treatmentSites.neck					
+* group[=].element[+].code = #Radiotherapy.treatmentSites.neck					
 * group[=].element[=].display = "Neck"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "check the availability of proper coded concepts"					
-* group[=].element[+].code = #RadiotherapyI4rc.treatmentSites.primaryAndIpsilateralNeck					
+* group[=].element[+].code = #Radiotherapy.treatmentSites.primaryAndIpsilateralNeck					
 * group[=].element[=].display = "Primary and Ipsilateral Neck"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "check the availability of proper coded concepts"					
-* group[=].element[+].code = #RadiotherapyI4rc.treatmentSites.primaryAndBilateralNeck					
+* group[=].element[+].code = #Radiotherapy.treatmentSites.primaryAndBilateralNeck					
 * group[=].element[=].display = "Primary and Bilateral Neck"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "check the availability of proper coded concepts"					
-* group[=].element[+].code = #RadiotherapyI4rc.treatmentSites.distantMetastasis					
+* group[=].element[+].code = #Radiotherapy.treatmentSites.distantMetastasis					
 * group[=].element[=].display = "Distant Metastasis"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "check the availability of proper coded concepts"					
-* group[=].element[+].code = #RadiotherapyI4rc.metastaticTreatmentSites					
+* group[=].element[+].code = #Radiotherapy.metastaticTreatmentSites					
 * group[=].element[=].display = "Metastatic Treatment Sites:"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "check if  a specific bodySite qualifer should be used"					
-* group[=].element[+].code = #RadiotherapyI4rc.metastaticTreatmentSites.lung					
+* group[=].element[+].code = #Radiotherapy.metastaticTreatmentSites.lung					
 * group[=].element[=].display = "Lung
 "					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "check the availability of proper coded concepts"					
-* group[=].element[+].code = #RadiotherapyI4rc.metastaticTreatmentSites.mediastinum					
+* group[=].element[+].code = #Radiotherapy.metastaticTreatmentSites.mediastinum					
 * group[=].element[=].display = "Mediastinum
 "					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "check the availability of proper coded concepts"					
-* group[=].element[+].code = #RadiotherapyI4rc.metastaticTreatmentSites.bone					
-* group[=].element[=].display = "Bone
-"					
+* group[=].element[+].code = #Radiotherapy.metastaticTreatmentSites.bone					
+* group[=].element[=].display = "Bone"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "check the availability of proper coded concepts"					
-* group[=].element[+].code = #RadiotherapyI4rc.metastaticTreatmentSites.softTissue					
-* group[=].element[=].display = "Soft Tissue
-"					
+* group[=].element[+].code = #Radiotherapy.metastaticTreatmentSites.softTissue					
+* group[=].element[=].display = "Soft Tissue"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "check the availability of proper coded concepts"					
-* group[=].element[+].code = #RadiotherapyI4rc.metastaticTreatmentSites.liver					
-* group[=].element[=].display = "Liver
-"					
+* group[=].element[+].code = #Radiotherapy.metastaticTreatmentSites.liver					
+* group[=].element[=].display = "Liver"					
 * group[=].element[=].target.code = #Procedure.bodySite					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "check the availability of proper coded concepts"					
-* group[=].element[+].code = #RadiotherapyI4rc.treatmentCompletedAsPlanned					
+* group[=].element[+].code = #Radiotherapy.treatmentCompletedAsPlanned					
 * group[=].element[=].display = "Treatment Completed as Planned?"					
 * group[=].element[=].target.code = #Procedure.extension:terminationReason					
 * group[=].element[=].target.display = ""					

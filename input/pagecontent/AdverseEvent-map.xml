@@ -5,11 +5,11 @@
 
     <a> </a>
 
-    <p>Hereafter a browseable diagram showing how the GeneticTestExpressionI4rc IDEA4RC model is realized by the IDEA4RC HL7 FHIR Profiles</p>
+    <p>Hereafter a browseable diagram showing how the AdverseEvent IDEA4RC model is realized by the IDEA4RC HL7 FHIR Profiles</p>
 
     <h4 id="model">Model Overview</h4>
 <a> </a>
-<p>{% include GeneticTestExpressionI4rc-map.svg %}</p>
+<p>{% include AdverseEvent-map.svg %}</p>
 
     
 

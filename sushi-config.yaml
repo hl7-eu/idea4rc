@@ -72,31 +72,29 @@ pages:
     title: episodeOfCare-eu-i4rc Relationships
   MedicationAdministration-eu-i4rc.html:
     title: MedicationAdministration-eu-i4rc Relationships
-    #-------------map pages
-  RadiotherapyI4rc-map.html:
-    title: RadiotherapyI4rc Relationships
-  Surgery-map.html:
-    title: Surgery Relationships
-  PatientFollowUp-map.html:
-    title: PatientFollowUp Relationships
-  HospitalPatientRecords-map.html:
-    title: HospitalPatientRecords Relationships
-  SarcomaStage-map.html:
-    title: SarcomaStage Relationships
+    # MAP -----
   Subject-map.html:
     title: Subject Relationships
-  GeneticTestExpressionI4rc-map.html:
-    title: GeneticTestExpressionI4rc Relationships
-  AdverseEventI4rc-map.html:
-    title: AdverseEventI4rc Relationships
-  CancerEpisode-map.html:
-    title: CancerEpisode Relationships
   OtherTreatment-map.html:
     title: OtherTreatment Relationships
   GeneticTestExpression-map.html:
     title: GeneticTestExpression Relationships
+  Radiotherapy-map.html:
+    title: Radiotherapy Relationships
+  HospitalPatientRecords-map.html:
+    title: HospitalPatientRecords Relationships
+  Surgery-map.html:
+    title: Surgery Relationships
+  AdverseEvent-map.html:
+    title: AdverseEvent Relationships
   HnStage-map.html:
     title: HnStage Relationships
+  SarcomaStage-map.html:
+    title: SarcomaStage Relationships
+  PatientFollowUp-map.html:
+    title: PatientFollowUp Relationships
+  CancerEpisode-map.html:
+    title: CancerEpisode Relationships
   EpisodeEvent-map.html:
     title: EpisodeEvent Relationships
 
@@ -127,18 +125,17 @@ menu:
     MedicationAdministration-eu-i4rc: MedicationAdministration-eu-i4rc.html
   
   Model Map (wip):
-    RadiotherapyI4rc: RadiotherapyI4rc-map.html
-    Surgery: Surgery-map.html
-    PatientFollowUp: PatientFollowUp-map.html
-    HospitalPatientRecords: HospitalPatientRecords-map.html
-    SarcomaStage: SarcomaStage-map.html
     Subject: Subject-map.html
-    GeneticTestExpressionI4rc: GeneticTestExpressionI4rc-map.html
-    AdverseEventI4rc: AdverseEventI4rc-map.html
-    CancerEpisode: CancerEpisode-map.html
     OtherTreatment: OtherTreatment-map.html
     GeneticTestExpression: GeneticTestExpression-map.html
+    Radiotherapy: Radiotherapy-map.html
+    HospitalPatientRecords: HospitalPatientRecords-map.html
+    Surgery: Surgery-map.html
+    AdverseEvent: AdverseEvent-map.html
     HnStage: HnStage-map.html
+    SarcomaStage: SarcomaStage-map.html
+    PatientFollowUp: PatientFollowUp-map.html
+    CancerEpisode: CancerEpisode-map.html
     EpisodeEvent: EpisodeEvent-map.html
 
   Artifact Index: artifacts.html			

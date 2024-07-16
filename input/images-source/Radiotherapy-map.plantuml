@@ -8,7 +8,7 @@ legend right
   | <#FFCC00> | Logical Model |
   | <#CCCCFF> | Profile |
 endlegend
-class "RadiotherapyI4rc" <<LogicalModel>> [[StructureDefinition-RadiotherapyI4rc.html]]
+class "Radiotherapy" <<LogicalModel>> [[StructureDefinition-Radiotherapy.html]]
 class "Procedure-radiotheraphy-eu-i4rc" <<Profile>> [[StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html]]
-"RadiotherapyI4rc" --> "Procedure-radiotheraphy-eu-i4rc"
+"Radiotherapy" --> "Procedure-radiotheraphy-eu-i4rc"
 @enduml
