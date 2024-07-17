@@ -7,10 +7,12 @@ Description: "Category of surgical procedure this resource is referring to"
 * ^experimental = false
 * ^status = #active
 
-* $athena#301351 "Surgical procedure"
-* $athena#315400 "Local excision"
-* $athena#217482 "Amputation"
-* $athena#181193 "Limb operation"
+* $athena#4301351 "Surgical procedure"
+* $athena#4315400 "Local excision"
+* $athena#4217482 "Amputation"
+* $athena#4181193 "Limb operation"
+
+
 
 
 

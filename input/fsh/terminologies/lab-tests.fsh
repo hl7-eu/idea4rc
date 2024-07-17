@@ -32,12 +32,12 @@ Description: """Lab test results:
 * ^experimental = true
 
 //* $loinc#43730-1 "EBV DNA NAA+probe Qn" // it is a Quantity not the right concept, the result is expected to be a Yes/no/...
-* $athena#4047317 "Epstein Barr virus DNA assay"
+* $athena#3043849 "Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
 // * $loinc#77377-0 "HPV 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA (Specimen) [Interp]" // To be checked
-* $athena#44789520 "Human papilloma virus nucleic acid detection"
+* $athena#46236082 "Human papilloma virus 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA [Interpretation] in Specimen"
 // * $loinc#11039-5 "C reactive protein [Presence] in Serum or Plasma"
 * $athena#3000965 "C reactive protein [Presence] in Serum or Plasma"
-* $athena#35952576 "CRP (C-reactive protein) gene variant measurement"
+// * $athena#35952576 "CRP (C-reactive protein) gene variant measurement"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsPositiveNegativeNTAthenaI4rc

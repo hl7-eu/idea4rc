@@ -14,14 +14,14 @@ scale 0.7
 
 legend top left
 |= |= Review Status |
-|<back:#87e887>   </back>| Reviewed |
-|<back:#94d8f2>   </back>| Reviewed (1st round)|
-|<back:#E5CCFF>   </back>| Under Review|
-|<back:#FFB266>   </back>| Next in line |
-|<back:#FFFFCC>   </back>| 2nd in line |
+|<back:#87e887>   </back>| First Block (stable) |
+|<back:#94d8f2>   </back>| First Block (Rel. Cand.) |
+|<back:#E5CCFF>   </back>| First Block (review) |
+|<back:#FFB266>   </back>| Second Block  |
+|<back:#FFFFCC>   </back>| Third Block |
 endlegend
 
-object "Patient" as p #94d8f2 {
+object "Patient" as p #E5CCFF {
 }
 url of p [[StructureDefinition-Subject.html]]
 
@@ -52,19 +52,19 @@ object "SarcomaStage" as ss #E5CCFF {
 
 object "PathologicalReportInfo" as pri {
 }
-object "GeneticTestExpression" as gte {
+object "GeneticTestExpression" as gte #FFFFCC {
 }
 url of gte [[StructureDefinition-GeneticTestExpression.html]]
 
-object "Surgery" as su #FFB266 {
+object "Surgery" as su #E5CCFF {
 }
 url of su [[StructureDefinition-Surgery.html]]
 
-object "SystemicTreatment" as st {
+object "SystemicTreatment" as st #FFFFCC {
 }
 url of st [[StructureDefinition-SystemicTreatment.html]]
 
-object "Radiotherapy" as r #FFFFCC {
+object "Radiotherapy" as r #FFB266 {
 }
 url of r [[StructureDefinition-Radiotherapy.html]]
 
@@ -75,11 +75,11 @@ object "IsolatedLimbPerfusion" as ilp {
 }
 object "DrugsForTreatments" as dft {
 }
-object "TreatmentResponse" as tr {
+object "TreatmentResponse" as tr #FFFFCC {
 }
 url of tr [[StructureDefinition-TreatmentResponse.html]]
 
-object "AdverseEvent" as ae {
+object "AdverseEvent" as ae #FFFFCC {
 }
 url of ae [[StructureDefinition-AdverseEvent.html]]
 
