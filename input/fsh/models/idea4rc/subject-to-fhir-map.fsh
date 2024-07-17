@@ -367,8 +367,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].target = "http://hl7.org/fhir/StructureDefinition/bmi"					
 					
 * group[=].element[+].code = #Subject.bMI					
-* group[=].element[=].display = "Height/weight (BMI)
-"					
+* group[=].element[=].display = "Height/weight (BMI)"					
 * group[=].element[=].target.code = #Observation.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					

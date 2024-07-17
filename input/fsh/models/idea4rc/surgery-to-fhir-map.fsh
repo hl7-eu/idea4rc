@@ -5,7 +5,7 @@ Instance: surgery2FHIR
 InstanceOf: ConceptMap					
 Usage: #definition					
 // * url = "http://terminology.hl7.it/ConceptMap/ConceptMap-subject2osiris"					
-* name = "surgery2FHIR"					
+* name = "Surgery2FHIR"					
 * title = "Surgery Model to this guide Map"					
 * status = #draft					
 * experimental = true					
@@ -92,14 +92,14 @@ The supportingInfo refers an Observation conforming to the ObservationSimpleResu
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "to be checked.
-True if code = $athena#4019656 'Isolated limb perfusion' "					
+True if code = $athena#4019656 'Isolated limb perfusion'"					
 * group[=].element[+].code = #Surgery.reconstruction					
 * group[=].element[=].display = "Reconstruction"					
 * group[=].element[=].target.code = #Procedure.code					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "to be checked.
-True if code is a $athena#4045162 'Reconstruction procedure' "					
+True if code is a $athena#4045162 'Reconstruction procedure'"					
 * group[=].element[+].code = #Surgery.neckSurgery					
 * group[=].element[=].display = "Neck surgery"					
 * group[=].element[=].target.code = #Procedure.code					

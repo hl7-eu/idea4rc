@@ -247,19 +247,19 @@ Usage: #definition
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If this exists with  code = $athena#35225724 Metastasis to soft tissues "					
+* group[=].element[=].target.comment = "If this exists with  code = $athena#35225724 Metastasis to soft tissues"					
 * group[=].element[+].code = #HnStage.sites.distantLymphNode					
 * group[=].element[=].display = "distant lymph node"					
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If this exists with  code =$athena#36769243 Distant spread to lymph node "					
+* group[=].element[=].target.comment = "If this exists with  code =$athena#36769243 Distant spread to lymph node"					
 * group[=].element[+].code = #HnStage.sites.lung					
 * group[=].element[=].display = "lung"					
 * group[=].element[=].target.code = #Condition.					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "If this exists with  code =$athena#36770283  Metastasis to lung "					
+* group[=].element[=].target.comment = "If this exists with  code =$athena#36770283  Metastasis to lung"					
 * group[=].element[+].code = #HnStage.sites.bone					
 * group[=].element[=].display = "bone"					
 * group[=].element[=].target.code = #Condition.					

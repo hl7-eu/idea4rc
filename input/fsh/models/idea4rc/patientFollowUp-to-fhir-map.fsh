@@ -5,7 +5,7 @@ Instance: followup2FHIR
 InstanceOf: ConceptMap					
 Usage: #definition					
 // * url = "http://terminology.hl7.it/ConceptMap/ConceptMap-subject2osiris"					
-* name = "followup2FHIR"					
+* name = "Followup2FHIR"					
 * title = "Patient Follow up Model to this guide Map"					
 * status = #draft					
 * experimental = true					

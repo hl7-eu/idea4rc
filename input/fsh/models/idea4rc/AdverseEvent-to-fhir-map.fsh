@@ -1,11 +1,11 @@
 // -------------------------------------------------------------------------------					
 //  Concept Model. File: 					AdverseEvent-to-fhir-map.fsh
 // -------------------------------------------------------------------------------					
-Instance: treatmentResponse2FHIR					
+Instance: adverseEvent2FHIR					
 InstanceOf: ConceptMap					
 Usage: #definition					
 // * url = "http://terminology.hl7.it/ConceptMap/ConceptMap-subject2osiris"					
-* name = "treatmentResponse2FHIR"					
+* name = "AdverseEvent2FHIR"					
 * title = "Radiotherapy Model to this guide Map"					
 * status = #draft					
 * experimental = true					
