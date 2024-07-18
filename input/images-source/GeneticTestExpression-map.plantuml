@@ -1,0 +1,17 @@
+@startuml
+skinparam class {
+    BackgroundColor<<LogicalModel>> #FFCC00
+    BackgroundColor<<Profile>> #CCCCFF
+}
+skinparam linetype ortho
+legend right
+  | <#FFCC00> | Logical Model |
+  | <#CCCCFF> | Profile |
+endlegend
+class "GeneticTestExpression" <<LogicalModel>> [[StructureDefinition-GeneticTestExpression.html]]
+class "Condition-primaryCancer-eu-i4rc" <<Profile>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+"GeneticTestExpression" --> "Condition-primaryCancer-eu-i4rc"
+class "Condition-primaryCancer-eu-i4rc" <<Profile>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+"GeneticTestExpression" --> "Condition-primaryCancer-eu-i4rc"
+"Condition-primaryCancer-eu-i4rc" -[hidden]-> "Condition-primaryCancer-eu-i4rc"
+@enduml

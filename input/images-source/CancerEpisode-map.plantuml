@@ -1,0 +1,17 @@
+@startuml
+skinparam class {
+    BackgroundColor<<LogicalModel>> #FFCC00
+    BackgroundColor<<Profile>> #CCCCFF
+}
+skinparam linetype ortho
+legend right
+  | <#FFCC00> | Logical Model |
+  | <#CCCCFF> | Profile |
+endlegend
+class "CancerEpisode" <<LogicalModel>> [[StructureDefinition-CancerEpisode.html]]
+class "Condition-primaryCancer-eu-i4rc" <<Profile>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
+"CancerEpisode" --> "Condition-primaryCancer-eu-i4rc"
+class "Observation-diagnosis-eu-i4rc" <<Profile>> [[StructureDefinition-Observation-diagnosis-eu-i4rc.html]]
+"CancerEpisode" --> "Observation-diagnosis-eu-i4rc"
+"Condition-primaryCancer-eu-i4rc" -[hidden]-> "Observation-diagnosis-eu-i4rc"
+@enduml

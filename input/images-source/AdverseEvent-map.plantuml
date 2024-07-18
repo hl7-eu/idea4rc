@@ -1,0 +1,14 @@
+@startuml
+skinparam class {
+    BackgroundColor<<LogicalModel>> #FFCC00
+    BackgroundColor<<Profile>> #CCCCFF
+}
+skinparam linetype ortho
+legend right
+  | <#FFCC00> | Logical Model |
+  | <#CCCCFF> | Profile |
+endlegend
+class "AdverseEvent" <<LogicalModel>> [[StructureDefinition-AdverseEvent.html]]
+class "AdverseEvent-eu-i4rc" <<Profile>> [[StructureDefinition-AdverseEvent-eu-i4rc.html]]
+"AdverseEvent" --> "AdverseEvent-eu-i4rc"
+@enduml

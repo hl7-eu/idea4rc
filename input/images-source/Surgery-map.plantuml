@@ -1,0 +1,14 @@
+@startuml
+skinparam class {
+    BackgroundColor<<LogicalModel>> #FFCC00
+    BackgroundColor<<Profile>> #CCCCFF
+}
+skinparam linetype ortho
+legend right
+  | <#FFCC00> | Logical Model |
+  | <#CCCCFF> | Profile |
+endlegend
+class "Surgery" <<LogicalModel>> [[StructureDefinition-Surgery.html]]
+class "Procedure-surgery-eu-i4rc" <<Profile>> [[StructureDefinition-Procedure-surgery-eu-i4rc.html]]
+"Surgery" --> "Procedure-surgery-eu-i4rc"
+@enduml

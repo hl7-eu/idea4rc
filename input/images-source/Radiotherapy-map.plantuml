@@ -1,0 +1,14 @@
+@startuml
+skinparam class {
+    BackgroundColor<<LogicalModel>> #FFCC00
+    BackgroundColor<<Profile>> #CCCCFF
+}
+skinparam linetype ortho
+legend right
+  | <#FFCC00> | Logical Model |
+  | <#CCCCFF> | Profile |
+endlegend
+class "Radiotherapy" <<LogicalModel>> [[StructureDefinition-Radiotherapy.html]]
+class "Procedure-radiotheraphy-eu-i4rc" <<Profile>> [[StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html]]
+"Radiotherapy" --> "Procedure-radiotheraphy-eu-i4rc"
+@enduml
