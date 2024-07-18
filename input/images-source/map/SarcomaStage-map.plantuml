@@ -9,6 +9,9 @@ legend right
   | <#CCCCFF> | Profile |
 endlegend
 class "SarcomaStage" <<LogicalModel>> [[StructureDefinition-SarcomaStage.html]]
+note right #PaleTurquoise [[ConceptMap-sarcomaStage2FHIR.html]]
+Concept Map
+endnote
 class "sarcoma-cancer-stage-group" <<Profile>> [[StructureDefinition-sarcoma-cancer-stage-group.html]]
 "SarcomaStage" --> "sarcoma-cancer-stage-group"
 class "sarcoma-extent-category" <<Profile>> [[StructureDefinition-sarcoma-extent-category.html]]

@@ -9,6 +9,9 @@ legend right
   | <#CCCCFF> | Profile |
 endlegend
 class "EpisodeEvent" <<LogicalModel>> [[StructureDefinition-EpisodeEvent.html]]
+note right #PaleTurquoise [[ConceptMap-episodeEvent2FHIR.html]]
+Concept Map
+endnote
 class "Condition-primaryCancer-eu-i4rc" <<Profile>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
 "EpisodeEvent" --> "Condition-primaryCancer-eu-i4rc"
 @enduml

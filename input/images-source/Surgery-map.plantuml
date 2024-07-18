@@ -9,6 +9,9 @@ legend right
   | <#CCCCFF> | Profile |
 endlegend
 class "Surgery" <<LogicalModel>> [[StructureDefinition-Surgery.html]]
+note right #PaleTurquoise [[ConceptMap-surgery2FHIR.html]]
+Concept Map
+endnote
 class "Procedure-surgery-eu-i4rc" <<Profile>> [[StructureDefinition-Procedure-surgery-eu-i4rc.html]]
 "Surgery" --> "Procedure-surgery-eu-i4rc"
 @enduml

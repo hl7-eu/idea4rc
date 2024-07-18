@@ -8,15 +8,13 @@ Description: "type of surgical approach on tumour"
 * ^status = #active
 * ^experimental = true
 
-* $athena#4236080 "external/open"
-* $athena#4050374 "transnasal"
-* $athena#4044897 "transorbital"
-* $athena#4038679 "transoral"
-* $athena#4333339 "craniofacial"
+* $athena#4236080 "External/Open"
+* $athena#4050374 "Transnasal"
+* $athena#4044897 "Transorbital"
+* $athena#4038679 "Transoral"
+* $athena#4333339 "Craniofacial"
 // TO BE ADDED COMBINED
-* $athena#4129922 "unknown"
-
-
+* $athena#4129922 "Unknown"
 
 
 

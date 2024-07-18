@@ -9,6 +9,9 @@ legend right
   | <#CCCCFF> | Profile |
 endlegend
 class "PatientFollowUp" <<LogicalModel>> [[StructureDefinition-PatientFollowUp.html]]
+note right #PaleTurquoise [[ConceptMap-followup2FHIR.html]]
+Concept Map
+endnote
 class "Encounter-eu-i4rc" <<Profile>> [[StructureDefinition-Encounter-eu-i4rc.html]]
 "PatientFollowUp" --> "Encounter-eu-i4rc"
 class "Condition-primaryCancer-eu-i4rc" <<Profile>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]

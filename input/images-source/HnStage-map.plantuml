@@ -9,6 +9,9 @@ legend right
   | <#CCCCFF> | Profile |
 endlegend
 class "HnStage" <<LogicalModel>> [[StructureDefinition-HnStage.html]]
+note right #PaleTurquoise [[ConceptMap-hNstage2FHIR.html]]
+Concept Map
+endnote
 class "hn-cancer-stage-group" <<Profile>> [[StructureDefinition-hn-cancer-stage-group.html]]
 "HnStage" --> "hn-cancer-stage-group"
 class "mcode-tnm-primary-tumor-category" <<Profile>> [[StructureDefinition-mcode-tnm-primary-tumor-category.html]]

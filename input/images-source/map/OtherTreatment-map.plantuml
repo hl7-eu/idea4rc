@@ -9,6 +9,9 @@ legend right
   | <#CCCCFF> | Profile |
 endlegend
 class "OtherTreatment" <<LogicalModel>> [[StructureDefinition-OtherTreatment.html]]
+note right #PaleTurquoise [[ConceptMap-otherTreatment2FHIR.html]]
+Concept Map
+endnote
 class "Procedure-otherTreatment-eu-i4rc" <<Profile>> [[StructureDefinition-Procedure-otherTreatment-eu-i4rc.html]]
 "OtherTreatment" --> "Procedure-otherTreatment-eu-i4rc"
 @enduml

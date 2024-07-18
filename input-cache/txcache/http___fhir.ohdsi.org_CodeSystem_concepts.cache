@@ -77994,7 +77994,6 @@ v: {
   "error" : "The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36768664' was not found in the value set 'http://hl7.eu/fhir/ig/idea4rc/ValueSet/simpleResult-eu-i4rc--0|0.1.0'; Unknown code '36768664' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -78051,7 +78050,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -78074,7 +78072,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -78098,7 +78095,6 @@ v: {
   "error" : "The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#44789520' was not found in the value set 'http://hl7.eu/fhir/ig/idea4rc/ValueSet/simpleResult-eu-i4rc--0|0.1.0'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -78138,7 +78134,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -78222,6 +78217,200 @@ e: {
       "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
       "code" : "4227243",
       "display" : "Number of mitoses per 10 high power fields"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4236080",
+        "display" : "External/Open"
+      },
+      {
+        "code" : "4050374",
+        "display" : "Transnasal"
+      },
+      {
+        "code" : "4044897",
+        "display" : "Transorbital"
+      },
+      {
+        "code" : "4038679",
+        "display" : "Transoral"
+      },
+      {
+        "code" : "4333339",
+        "display" : "Craniofacial"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ff5be790-20ea-4297-b55d-66195f6c456b",
+    "timestamp" : "2024-07-18T20:31:56.385Z",
+    "total" : 6,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4236080",
+      "display" : "External approach"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4050374",
+      "display" : "Transnasal approach"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4044897",
+      "display" : "Transorbital approach"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4038679",
+      "display" : "Transoral approach"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4333339",
+      "display" : "Craniofacial approach"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4129922",
+      "display" : "Unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4236080",
+        "display" : "External/Open"
+      },
+      {
+        "code" : "4050374",
+        "display" : "Transnasal"
+      },
+      {
+        "code" : "4044897",
+        "display" : "Transorbital"
+      },
+      {
+        "code" : "4038679",
+        "display" : "Transoral"
+      },
+      {
+        "code" : "4333339",
+        "display" : "Craniofacial"
+      },
+      {
+        "code" : "4129922",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:524b6f7a-838d-4478-bbb6-bdccc108cc7a",
+    "timestamp" : "2024-07-18T20:38:22.946Z",
+    "total" : 6,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4236080",
+      "display" : "External approach"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4050374",
+      "display" : "Transnasal approach"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4044897",
+      "display" : "Transorbital approach"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4038679",
+      "display" : "Transoral approach"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4333339",
+      "display" : "Craniofacial approach"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4129922",
+      "display" : "Unknown"
     }]
   }
 },

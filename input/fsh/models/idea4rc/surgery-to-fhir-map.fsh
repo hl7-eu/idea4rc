@@ -24,18 +24,18 @@ Usage: #definition
 					
 * group[=].element[+].code = #Surgery.type					
 * group[=].element[=].display = "Surgery type"					
-* group[=].element[=].target.code = #Procedure.extension:ProcedureCategoryR5/type					
+* group[=].element[=].target.code = #Procedure.extension:ProcedureCategoryR5/type.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					
-* group[=].element[+].code = #Surgery.surgeryHospital					
+* group[=].element[+].code = #Surgery.hospital					
 * group[=].element[=].display = "Surgery Hospital"					
 * group[=].element[=].target.code = #Procedure.performer					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "In case the actual Organization performing the procedure is captured.
 It could be a perfomer of type Organization ; or a perfomer.organization if of type PractitionerRole"					
-* group[=].element[+].code = #Surgery.surgeryHospital					
+* group[=].element[+].code = #Surgery.hospital					
 * group[=].element[=].display = "Surgery Hospital"					
 * group[=].element[=].target.code = #Procedure.extension:surgeryHospital					
 * group[=].element[=].target.display = ""					
@@ -50,13 +50,13 @@ It is envisioned that this kind of requirements could be covered by recording wh
 					
 * group[=].element[+].code = #Surgery.intention					
 * group[=].element[=].display = "Surgery intention"					
-* group[=].element[=].target.code = #Procedure.extension:ProcedureCategoryR5/intent					
+* group[=].element[=].target.code = #Procedure.extension:ProcedureCategoryR5/intent.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					
 * group[=].element[+].code = #Surgery.typeOfApproach					
 * group[=].element[=].display = "Type of surgical approach on Tumour"					
-* group[=].element[=].target.code = #Procedure.extension:procedure-approachBodyStructure					
+* group[=].element[=].target.code = #Procedure.extension:procedure-method.valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 					
@@ -68,19 +68,21 @@ It is envisioned that this kind of requirements could be covered by recording wh
 					
 * group[=].element[+].code = #Surgery.tumorRupture					
 * group[=].element[=].display = "Tumor rupture"					
-* group[=].element[=].target.code = #Procedure.extension:supportingInfoR5.valueCodeableConcept					
+* group[=].element[=].target.code = #Procedure.extension:supportingInfoR5					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "Is the tumor rupture a supporting info or a complication ?
-IN the secodn case the supportingInfo refers an Observation conforming to the XYZ profile, where observation.code is = XXX"					
-* group[=].element[+].code = #Surgery.SpecimenMitoticCount					
+IN the secodn case the supportingInfo refers an Observation conforming to the XYZ profile, where observation.code is = XXX
+add map group including the target profile"					
+* group[=].element[+].code = #Surgery.specimenMitoticCount					
 * group[=].element[=].display = "Surgical specimen Mitotic count"					
-* group[=].element[=].target.code = #Procedure.extension:supportingInfoR5.valueCodeableConcept					
+* group[=].element[=].target.code = #Procedure.extension:supportingInfoR5					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
 * group[=].element[=].target.comment = "Check how this differs from the same info in Cancer Episode.
-The supportingInfo refers an Observation conforming to the ObservationSimpleResult profile, where observation.code is = $athena#4227243 'Number of mitoses per 10 high power fields'"					
-* group[=].element[+].code = #Surgery.SpecimenGradingOnlyInUntreatedTumours					
+The supportingInfo refers an Observation conforming to the ObservationSimpleResult profile, where observation.code is = $athena#4227243 'Number of mitoses per 10 high power fields'
+Add a map to the target profile"					
+* group[=].element[+].code = #Surgery.specimenGradingOnlyInUntreatedTumours					
 * group[=].element[=].display = "Surgical specimen grading only in untreated tumours"					
 * group[=].element[=].target.code = #Procedure.bodySite.extension:laterality					
 * group[=].element[=].target.display = ""					

@@ -20,6 +20,12 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 * extension[ProcedureCategoryR5] contains intent 0..1
 * extension[ProcedureCategoryR5][intent].valueCodeableConcept from VsSurgeryIntentionI4rc
 
+* extension contains  $procedure-method named ProcedureMethod 0..*
+* extension[ProcedureMethod].valueCodeableConcept from VsTypeofSurgicalApproachI4rc (extensible)
+  * ^short = "Type of surgical approach on Tumour"
+
+* extension contains $procedure-supportingInfo-r5 named supportingInfoR5 0..*
+* extension[supportingInfoR5]
 
 * text ^short = "Textual description of the surgical procedure"
 * identifier ^short = "External Identifiers for this surgical procedure"

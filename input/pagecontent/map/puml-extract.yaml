@@ -1,0 +1,37 @@
+CancerEpisode: CancerEpisode-map.html
+Subject: Subject-map.html
+AdverseEvent: AdverseEvent-map.html
+GeneticTestExpression: GeneticTestExpression-map.html
+OtherTreatment: OtherTreatment-map.html
+Radiotherapy: Radiotherapy-map.html
+HospitalPatientRecords: HospitalPatientRecords-map.html
+EpisodeEvent: EpisodeEvent-map.html
+HnStage: HnStage-map.html
+SarcomaStage: SarcomaStage-map.html
+PatientFollowUp: PatientFollowUp-map.html
+Surgery: Surgery-map.html
+
+  CancerEpisode-map.html:
+    title: CancerEpisode Relationships
+  Subject-map.html:
+    title: Subject Relationships
+  AdverseEvent-map.html:
+    title: AdverseEvent Relationships
+  GeneticTestExpression-map.html:
+    title: GeneticTestExpression Relationships
+  OtherTreatment-map.html:
+    title: OtherTreatment Relationships
+  Radiotherapy-map.html:
+    title: Radiotherapy Relationships
+  HospitalPatientRecords-map.html:
+    title: HospitalPatientRecords Relationships
+  EpisodeEvent-map.html:
+    title: EpisodeEvent Relationships
+  HnStage-map.html:
+    title: HnStage Relationships
+  SarcomaStage-map.html:
+    title: SarcomaStage Relationships
+  PatientFollowUp-map.html:
+    title: PatientFollowUp Relationships
+  Surgery-map.html:
+    title: Surgery Relationships

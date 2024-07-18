@@ -9,6 +9,9 @@ legend right
   | <#CCCCFF> | Profile |
 endlegend
 class "HospitalPatientRecords" <<LogicalModel>> [[StructureDefinition-HospitalPatientRecords.html]]
+note right #PaleTurquoise [[ConceptMap-hospitalPatientRecords2FHIR.html]]
+Concept Map
+endnote
 class "episodeOfCare-eu-i4rc" <<Profile>> [[StructureDefinition-episodeOfCare-eu-i4rc.html]]
 "HospitalPatientRecords" --> "episodeOfCare-eu-i4rc"
 @enduml

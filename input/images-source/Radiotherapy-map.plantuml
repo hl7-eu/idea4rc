@@ -9,6 +9,9 @@ legend right
   | <#CCCCFF> | Profile |
 endlegend
 class "Radiotherapy" <<LogicalModel>> [[StructureDefinition-Radiotherapy.html]]
+note right #PaleTurquoise [[ConceptMap-radiotherapy2FHIR.html]]
+Concept Map
+endnote
 class "Procedure-radiotheraphy-eu-i4rc" <<Profile>> [[StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html]]
 "Radiotherapy" --> "Procedure-radiotheraphy-eu-i4rc"
 @enduml

@@ -12,6 +12,9 @@ Alias: $procedure-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/exte
 Alias: $workflow-supportingInfo = http://hl7.org/fhir/StructureDefinition/workflow-supportingInfo
 Alias: $condition-dueTo = http://hl7.org/fhir/StructureDefinition/condition-dueTo
 Alias: $adverseEvent.occurencePeriod-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.occurence[x]
+Alias: $procedure-approachBodyStructure = http://hl7.org/fhir/StructureDefinition/procedure-approachBodyStructure
+Alias: $procedure-method = http://hl7.org/fhir/StructureDefinition/procedure-method
+Alias: $procedure-supportingInfo-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.supportingInfo
 
 //============== ALIAS ===============
 Alias: $actor-headneck = http://hl7.eu/fhir/ig/idea4rc/actor-headneck-i4rc

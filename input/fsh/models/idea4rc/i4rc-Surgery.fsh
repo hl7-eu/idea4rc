@@ -8,7 +8,7 @@ Description:  """Surgery"""
 * episodeEvent 1..1 http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/EpisodeEvent "Episode Event reference" """EpisodeEvent element containing the data regarding the patient's cancer"""				
 * type 1..1 CodeableConcept "Surgery type" """Primary surgery/re-excision (check with unplanned or excisional biopsy)
 """				
-* surgeryHospital 1..1 CodeableConcept "Surgery Hospital" """Whether or not a surgical procedure was performed and whether it was performed at the registering hospital or another hospital. Diagnostic procedures (biopsy) are not included."""				
+* hospital 1..1 CodeableConcept "Surgery Hospital" """Whether or not a surgical procedure was performed and whether it was performed at the registering hospital or another hospital. Diagnostic procedures (biopsy) are not included."""				
 * date 1..1 date "Date of surgery" """Date of the surgery for primary tumor with or without neck surgery"""				
 * intention 1..1 CodeableConcept "Surgery intention" """Palliative: surgery performed with the intent of improving quality of life or relieving symptoms caused by advanced disease.
 Curative: surgery performed with the intend of oncologic cure, regardless of its result (R0 / R1/R2)"""				
@@ -17,8 +17,8 @@ Curative: surgery performed with the intend of oncologic cure, regardless of its
 The R1 category is reserved exclusively for cases in which residual tumor is found by histologic examination. This category may apply to biopsy sampling of the regional tissue at the site of resection or of a distant site at the time of surgery. It also applies to microscopic examination of the resection margins of the surgical resection specimen by the pathologist.
 R2 applies to cases with macroscopically visible residual tumor that is detected either clinically or pathologically."""				
 * tumorRupture 1..1 CodeableConcept "Tumor rupture" """Tumor rupture Yes/No"""				
-* SpecimenMitoticCount 1..1 Quantity "Surgical specimen Mitotic count" """Surgical specimen Mitotic count"""				
-* SpecimenGradingOnlyInUntreatedTumours 1..1 CodeableConcept "Surgical specimen grading only in untreated tumours" """Surgical specimen grading only in untreated tumours"""				
+* specimenMitoticCount 1..1 Quantity "Surgical specimen Mitotic count" """Surgical specimen Mitotic count"""				
+* specimenGradingOnlyInUntreatedTumours 1..1 CodeableConcept "Surgical specimen grading only in untreated tumours" """Surgical specimen grading only in untreated tumours"""				
 * isolatedLimbPerfusion 1..1 CodeableConcept "Isolated Limb perfusion" """Isolated Limb perfusion"""				
 * reconstruction 1..1 CodeableConcept "Reconstruction" """Local flap / regional pedicled flap / free flap"""				
 * neckSurgery 1..1 CodeableConcept "Neck surgery" """Describes whether a surgical procedure to treat and address the neck was performed or not."""				
@@ -61,7 +61,7 @@ Local excision - 4315400
 Amputation - 4217482
 Limb operation - 4181193
 """				
-* surgeryHospital ^comment = """Yes done at the hospital; Yes done at a different hospital; Not Done; Unknown.
+* hospital ^comment = """Yes done at the hospital; Yes done at a different hospital; Not Done; Unknown.
 Custom"""				
 				
 * intention ^comment = """Palliative; Curative; Unknown
@@ -84,7 +84,7 @@ R2: Macroscopic residual tumor - 1634484
 """				
 				
 				
-* SpecimenGradingOnlyInUntreatedTumours ^comment = """FNCLCC : 1, 2, 3, unknown, not applicable - Other classification system: high/low
+* specimenGradingOnlyInUntreatedTumours ^comment = """FNCLCC : 1, 2, 3, unknown, not applicable - Other classification system: high/low
 Grade-1 - 1634371
 Grade-2 - 1634752
 Grade-3 - 1633749
@@ -147,7 +147,7 @@ Clavien-Dindo complication scale: Grade V - 715982"""
 // -------------------------------------------------------------------------------				
 * episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * type insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
-* surgeryHospital insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* hospital insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * date insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * intention insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * typeOfApproach insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
@@ -193,8 +193,8 @@ Clavien-Dindo complication scale: Grade V - 715982"""
 				
 * marginsAfterSurgery insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * tumorRupture insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
-* SpecimenMitoticCount insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
-* SpecimenGradingOnlyInUntreatedTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* specimenMitoticCount insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
+* specimenGradingOnlyInUntreatedTumours insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * isolatedLimbPerfusion insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 				
 				

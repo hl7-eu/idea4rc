@@ -9,6 +9,9 @@ legend right
   | <#CCCCFF> | Profile |
 endlegend
 class "Subject" <<LogicalModel>> [[StructureDefinition-Subject.html]]
+note right #PaleTurquoise [[ConceptMap-subject2FHIR.html]]
+Concept Map
+endnote
 class "patient-eu-i4rc" <<Profile>> [[StructureDefinition-patient-eu-i4rc.html]]
 "Subject" --> "patient-eu-i4rc"
 class "observation-tobaccouse-eu-i4rc" <<Profile>> [[StructureDefinition-observation-tobaccouse-eu-i4rc.html]]
@@ -29,7 +32,7 @@ class "observation-ecog-performance-status-eu-i4rc" <<Profile>> [[StructureDefin
 class "observation-cci-eu-i4rc" <<Profile>> [[StructureDefinition-observation-cci-eu-i4rc.html]]
 "Subject" --> "observation-cci-eu-i4rc"
 "observation-ecog-performance-status-eu-i4rc" -[hidden]-> "observation-cci-eu-i4rc"
-class "bmi" <<Profile>> [[StructureDefinition-bmi.html]]
+class "bmi" <<Profile>> [[http://hl7.org/fhir/StructureDefinition/bmi]]
 "Subject" --> "bmi"
 "observation-cci-eu-i4rc" -[hidden]-> "bmi"
 class "observation-occurrencOtherCancer-eu-i4rc" <<Profile>> [[StructureDefinition-observation-occurrencOtherCancer-eu-i4rc.html]]
