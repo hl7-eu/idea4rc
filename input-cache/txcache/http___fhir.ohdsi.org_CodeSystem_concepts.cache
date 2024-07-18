@@ -77867,7 +77867,6 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -77890,10 +77889,342 @@ v: {
   "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
   "version" : "20230531",
   "server" : "http://tx.fhir.org/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "3043849",
+        "display" : "Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+      },
+      {
+        "code" : "46236082",
+        "display" : "Human papilloma virus 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA [Interpretation] in Specimen"
+      },
+      {
+        "code" : "3000965",
+        "display" : "C reactive protein [Presence] in Serum or Plasma"
+      },
+      {
+        "code" : "4227243",
+        "display" : "Number of mitoses per 10 high power fields"
+      },
+      {
+        "code" : "36768664",
+        "display" : "Dimension of Tumor"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:f1a7341a-e379-4e76-8a78-31ce4cc9738f",
+    "timestamp" : "2024-07-17T17:13:33.346Z",
+    "total" : 4,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "3043849",
+      "display" : "Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "46236082",
+      "display" : "Human papilloma virus 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA [Interpretation] in Specimen"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "3000965",
+      "display" : "C reactive protein [Presence] in Serum or Plasma"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4227243",
+      "display" : "Number of mitoses per 10 high power fields"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "36768664"
+}, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/simpleResult-eu-i4rc--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "code" : "36768664",
+  "severity" : "error",
+  "error" : "The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36768664' was not found in the value set 'http://hl7.eu/fhir/ig/idea4rc/ValueSet/simpleResult-eu-i4rc--0|0.1.0'; Unknown code '36768664' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'",
+  "class" : "UNKNOWN",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown code '36768664' in the CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' version '20230531'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#36768664' was not found in the value set 'http://hl7.eu/fhir/ig/idea4rc/ValueSet/simpleResult-eu-i4rc--0|0.1.0'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "4227243"
+}, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/simpleResult-eu-i4rc--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Number of mitoses per 10 high power fields",
+  "code" : "4227243",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "server" : "http://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "3043849"
+}, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/simpleResult-eu-i4rc--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection",
+  "code" : "3043849",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "44789520"
+}, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/simpleResult-eu-i4rc--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Human papilloma virus nucleic acid detection",
+  "code" : "44789520",
+  "severity" : "error",
+  "error" : "The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#44789520' was not found in the value set 'http://hl7.eu/fhir/ig/idea4rc/ValueSet/simpleResult-eu-i4rc--0|0.1.0'",
+  "class" : "UNKNOWN",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://fhir.ohdsi.org/CodeSystem/concepts#44789520' was not found in the value set 'http://hl7.eu/fhir/ig/idea4rc/ValueSet/simpleResult-eu-i4rc--0|0.1.0'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "3000965"
+}, "url": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/simpleResult-eu-i4rc--0", "version": "0.1.0", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "C reactive protein [Presence] in Serum or Plasma",
+  "code" : "3000965",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "3043849",
+        "display" : "Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+      },
+      {
+        "code" : "46236082",
+        "display" : "Human papilloma virus 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA [Interpretation] in Specimen"
+      },
+      {
+        "code" : "3000965",
+        "display" : "C reactive protein [Presence] in Serum or Plasma"
+      },
+      {
+        "code" : "4227243",
+        "display" : "Number of mitoses per 10 high power fields"
+      },
+      {
+        "code" : "36768664",
+        "display" : "Dimension of Tumor"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ef0964b6-007a-4a93-8418-6b02f7feeec5",
+    "timestamp" : "2024-07-17T17:21:51.285Z",
+    "total" : 4,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "3043849",
+      "display" : "Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "46236082",
+      "display" : "Human papilloma virus 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA [Interpretation] in Specimen"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "3000965",
+      "display" : "C reactive protein [Presence] in Serum or Plasma"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4227243",
+      "display" : "Number of mitoses per 10 high power fields"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

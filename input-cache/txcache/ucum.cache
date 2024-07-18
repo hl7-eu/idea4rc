@@ -369,7 +369,6 @@ v: {
   "error" : "Unknown code '[packs]/a' in the CodeSystem 'http://unitsofmeasure.org' version '2.0.1'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -426,7 +425,6 @@ v: {
   "error" : "Unknown code '[packs]/a' in the CodeSystem 'http://unitsofmeasure.org' version '2.0.1'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -463,6 +461,52 @@ v: {
     "location" : ["Coding.code"],
     "expression" : ["Coding.code"]
   }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "{packs}/a"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "{packs}/a",
+  "code" : "{packs}/a",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.0.1",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "{packs}/a"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "{packs}/a",
+  "code" : "{packs}/a",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.0.1",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
 }
 
 }

@@ -10,4 +10,4 @@ Usage: #example
 * component[0].code = $loinc#72166-2 "Tobacco smoking status"
 * component[=].valueCodeableConcept = $athena#45883458 "Former smoker"
 * component[+].code = $athena#903650 "Cigarettes pack-years smoked during life"
-* component[=].valueQuantity = 5 '[packs]/a'
+* component[=].valueQuantity = 5 '{packs}/a'

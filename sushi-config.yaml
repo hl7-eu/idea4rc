@@ -41,11 +41,13 @@ dependencies:
 fhirVersion: 4.0.1
 parameters:
   show-inherited-invariants: false
+  path-resource:
+    input/images-source/map
+    input/pagecontent/map
 copyrightYear: 2022+
 releaseLabel: CI Build
 
 FSHOnly: false
-
 
 pages:
   index.md:
@@ -76,28 +78,28 @@ pages:
     # MAP -----
   Subject-map.html:
     title: Subject Relationships
-  OtherTreatment-map.html:
-    title: OtherTreatment Relationships
-  GeneticTestExpression-map.html:
-    title: GeneticTestExpression Relationships
-  Radiotherapy-map.html:
-    title: Radiotherapy Relationships
-  HospitalPatientRecords-map.html:
-    title: HospitalPatientRecords Relationships
-  Surgery-map.html:
-    title: Surgery Relationships
-  AdverseEvent-map.html:
-    title: AdverseEvent Relationships
-  HnStage-map.html:
-    title: HnStage Relationships
-  SarcomaStage-map.html:
-    title: SarcomaStage Relationships
   PatientFollowUp-map.html:
     title: PatientFollowUp Relationships
-  CancerEpisode-map.html:
-    title: CancerEpisode Relationships
   EpisodeEvent-map.html:
     title: EpisodeEvent Relationships
+  OtherTreatment-map.html:
+    title: OtherTreatment Relationships
+  HospitalPatientRecords-map.html:
+    title: HospitalPatientRecords Relationships
+  HnStage-map.html:
+    title: HnStage Relationships
+  CancerEpisode-map.html:
+    title: CancerEpisode Relationships
+  AdverseEvent-map.html:
+    title: AdverseEvent Relationships
+  GeneticTestExpression-map.html:
+    title: GeneticTestExpression Relationships
+  SarcomaStage-map.html:
+    title: SarcomaStage Relationships
+  Surgery-map.html:
+    title: Surgery Relationships
+  Radiotherapy-map.html:
+    title: Radiotherapy Relationships
 
 			
 menu:
@@ -127,17 +129,17 @@ menu:
   
   Model Map (wip):
     Subject: Subject-map.html
-    OtherTreatment: OtherTreatment-map.html
-    GeneticTestExpression: GeneticTestExpression-map.html
-    Radiotherapy: Radiotherapy-map.html
-    HospitalPatientRecords: HospitalPatientRecords-map.html
-    Surgery: Surgery-map.html
-    AdverseEvent: AdverseEvent-map.html
-    HnStage: HnStage-map.html
-    SarcomaStage: SarcomaStage-map.html
     PatientFollowUp: PatientFollowUp-map.html
-    CancerEpisode: CancerEpisode-map.html
     EpisodeEvent: EpisodeEvent-map.html
+    OtherTreatment: OtherTreatment-map.html
+    HospitalPatientRecords: HospitalPatientRecords-map.html
+    HnStage: HnStage-map.html
+    CancerEpisode: CancerEpisode-map.html
+    AdverseEvent: AdverseEvent-map.html
+    GeneticTestExpression: GeneticTestExpression-map.html
+    SarcomaStage: SarcomaStage-map.html
+    Surgery: Surgery-map.html
+    Radiotherapy: Radiotherapy-map.html
 
   Artifact Index: artifacts.html			
   Support:
