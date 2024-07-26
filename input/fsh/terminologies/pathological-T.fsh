@@ -6,7 +6,7 @@ Description: "Pathological T (Primary Tumor)"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4282467 "Tx"
 * $athena#4195922 "Tis"

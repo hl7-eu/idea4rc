@@ -6,7 +6,7 @@ Description: "Pathological N"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4195718 "Nx"
 * $athena#4266674 "N0"

@@ -6,7 +6,7 @@ Description: "describes the type of radiation therapy given"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#607996 "external beam RT photons"
 * $athena#4165039 "external beams RT electrons"

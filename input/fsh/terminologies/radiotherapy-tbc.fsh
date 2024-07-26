@@ -4,7 +4,7 @@ Id: vs-radiotherapyDeviceType-eu-i4rc
 Title: "Radiotherapy Device Type"
 Description: "Radiotherapy device type this procedure is referring to. TO BE UPDATED"
 //-------------------------------------------------------------------------------------------
-* ^experimental = true
+* ^experimental = false
 * CsGenericI4rc#orthovoltage "Orthovoltage"
 * CsGenericI4rc#linac-mv "Linac MV"
 * CsGenericI4rc#linac-el "Linac electrons" 

@@ -6,7 +6,7 @@ Description: "type of surgical approach on tumour"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4236080 "External/Open"
 * $athena#4050374 "Transnasal"

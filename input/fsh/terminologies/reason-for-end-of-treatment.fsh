@@ -6,7 +6,7 @@ Description: "Clarifies the reasons why the treatment ended or was interrupted"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4058777 "completion"
 * $athena#438028 "toxicity"

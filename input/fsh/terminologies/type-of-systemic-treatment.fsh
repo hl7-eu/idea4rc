@@ -6,7 +6,7 @@ Description: "type of systemic treatment administered"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4273629 "chemotherapy"
 * $athena#40310107 "immunotherapy"

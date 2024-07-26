@@ -6,7 +6,7 @@ Description: "Surgery Intention"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4179711 "Palliative"
 * $athena#4162591 "Curative procedure intent"

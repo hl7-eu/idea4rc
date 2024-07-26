@@ -6,7 +6,7 @@ Description: """Comorbidities: Athena"""
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4329847  "Myocardial infarction"
 * $athena#319835  "Congestive heart failure"
@@ -62,7 +62,7 @@ Description: """Comorbidities: SNOMED CT"""
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $sct#22298006 "Myocardial infarction"
 * $sct#42343007 "Congestive heart failure"

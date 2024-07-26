@@ -36,7 +36,7 @@ Usage: #definition
 * group[=].element[=].target.comment = "limited to the year"					
 * group[=].element[+].code = #Subject.countryOfResidence					
 * group[=].element[=].display = "Country of Residence"					
-* group[=].element[=].target.code = #Patient.address.country					
+* group[=].element[=].target.code = #Patient.address.country.extension:countryCode					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
@@ -54,22 +54,22 @@ Usage: #definition
 					
 * group[=].element[+].code = #Subject.smoking					
 * group[=].element[=].display = "Smoking"					
-* group[=].element[=].target.code = #Observation.component:smokingStatus.value[x]:valueCodeableConcept					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Subject.cigSmokedPerDay					
-* group[=].element[=].display = "Cigarettes/cigars smoked per day"					
-* group[=].element[=].target.code = #Observation.component:numberPerDay.value[x]:valueQuantity					
+* group[=].element[+].code = #Subject.cigarettesPackYearsSmokedDuringLife					
+* group[=].element[=].display = "Cigarettes pack years smoked during life"					
+* group[=].element[=].target.code = #Observation.component:packsPerYear.valueQuantity					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Subject.yearsAsSmoker					
-* group[=].element[=].display = "Number of years as a smoker"					
-* group[=].element[=].target.code = #Observation.component:yearsAsSmokervalue[x]:valueQuantity					
-* group[=].element[=].target.display = ""					
-* group[=].element[=].target.equivalence = #equivalent					
-					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
+//---END					
 //---END					
 //---END					
 //---END					
@@ -368,7 +368,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 					
 * group[=].element[+].code = #Subject.bMI					
 * group[=].element[=].display = "Height/weight (BMI)"					
-* group[=].element[=].target.code = #Observation.valueCodeableConcept					
+* group[=].element[=].target.code = #Observation.valueQuantity					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equal					
 //---END					

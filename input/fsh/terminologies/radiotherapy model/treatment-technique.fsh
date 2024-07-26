@@ -6,7 +6,7 @@ Description: "It refers to the type of radiotherapy treatment delivered"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#603132 "2D"
 * $athena#4043011 "3D"

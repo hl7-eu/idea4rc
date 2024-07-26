@@ -6,7 +6,7 @@ Description: "margins after surgery"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4121182 "R0 (microscopic negative)"
 * $athena#4175704 "R1 (microscopic positive)"

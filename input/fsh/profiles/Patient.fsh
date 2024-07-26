@@ -34,6 +34,9 @@ Description: "This profile defines how to represent Patient in FHIR for the purp
 /* * birthDate.extension contains $data-absent-reason named data-absent-reason 0..1 */
 /* * maritalStatus ^short = "Marital status" */
 * address.country ^short = "Country of Residence"
+  * extension contains $iso21090-SC-coding named countryCode 0..1
+  * extension[countryCode].valueCoding ^short =  "ADD VS"
+
 /* to enforce the fact tha is the residence we should use a specific extension to be discussed */
 
 /* * contact.telecom 1.. MS

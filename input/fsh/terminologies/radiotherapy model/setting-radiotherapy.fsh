@@ -6,7 +6,7 @@ Description: "Radiotherapy setting"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4059384 "preoperative"
 // TO BE ADDED PREOPERATIVE CONCOMITANT TO SYSTEMIC TREATMENT

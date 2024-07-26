@@ -39,7 +39,7 @@ Description: """Laboratory test results: Yes-No-Unkwnon: Athena"""
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4188539 "yes"
 * $athena#4188540 "no"

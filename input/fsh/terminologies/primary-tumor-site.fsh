@@ -7,7 +7,7 @@ Description: "Describe the primary tumor site"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $sct#126670003 // Neoplasm of nasal cavity (disorder)
 * $sct#126680004 // Neoplasm of nasopharynx (disorder)

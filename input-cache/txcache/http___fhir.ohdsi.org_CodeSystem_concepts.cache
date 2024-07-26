@@ -78417,3 +78417,230 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4113134",
+        "display" : "First episode"
+      },
+      {
+        "code" : "32949",
+        "display" : "Progression"
+      },
+      {
+        "code" : "4097297",
+        "display" : "Recurrence"
+      },
+      {
+        "code" : "32948",
+        "display" : "Stable disease"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:0905b0af-71fc-40c0-97f5-282f86797a37",
+    "timestamp" : "2024-07-26T19:18:14.051Z",
+    "total" : 4,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4113134",
+      "display" : "First episode"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "32949",
+      "display" : "Progression"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4097297",
+      "display" : "Recurrent tumor"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "32948",
+      "display" : "Stable Disease"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "4113134"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "First episode",
+  "code" : "4113134",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "32949"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Progression",
+  "code" : "32949",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "code" : "32948"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Stable Disease",
+  "code" : "32948",
+  "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+  "version" : "20230531",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "concept" : [{
+        "code" : "4113134",
+        "display" : "First episode"
+      },
+      {
+        "code" : "32949",
+        "display" : "Progression"
+      },
+      {
+        "code" : "4097297",
+        "display" : "Recurrence"
+      },
+      {
+        "code" : "32948",
+        "display" : "Stable disease"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d186ac58-6f18-4b07-9f5d-67c117891562",
+    "timestamp" : "2024-07-26T19:24:05.472Z",
+    "total" : 4,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://fhir.ohdsi.org/CodeSystem/concepts|20230531"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4113134",
+      "display" : "First episode"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "32949",
+      "display" : "Progression"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "4097297",
+      "display" : "Recurrent tumor"
+    },
+    {
+      "system" : "http://fhir.ohdsi.org/CodeSystem/concepts",
+      "code" : "32948",
+      "display" : "Stable Disease"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

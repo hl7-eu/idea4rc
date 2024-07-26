@@ -11,11 +11,9 @@ Maturity Level: 0 Draft"""
 * birthYear 0..1 integer "Birth year" """Year of birth of the patient."""				
 * countryOfResidence 1..1 CodeableConcept "Country of Residence" """Country of residence at the time of diagnosis"""				
 * smoking 1..1 CodeableConcept "Smoking" """Describes tobacco smoker habits within the options proposed"""				
-* cigSmokedPerDay 0..1 integer "Cigarettes/cigars smoked per day" """Number of cigarettes or cigars smoked in one day. Together with the information of number of years as a smoker, these information will allow to automatically calculate the pack year."""				
-* yearsAsSmoker 0..1 integer "Number of years as a smoker" """Number of years the person has smoked"""				
+* cigarettesPackYearsSmokedDuringLife 0..1 integer "Cigarettes pack years smoked during life" """The amount of cigarette pack smoked during life"""				
 * alcohol 1..1 CodeableConcept "Alcohol" """Describes alcohol habits within the options proposed"""				
-* bMI 0..1 Quantity "Height/weight (BMI)
-" """Provides the BMI for the patient"""				
+* bMI 0..1 Quantity "Height/weight (BMI)" """Body Mass Index information if weight and height are included. it is calculated as BMI = kg/m2 where kg is a person's weight in kilograms and m2 is their height in metres squared."""				
 * charlsonComorbidityIndex 0..1 integer "Charlson Comorbidity index" """Provides the Charlson Comorbidity index for the patient"""				
 * comorbidity 1..1 BackboneElement "Comorbidity" """Describes whether the patient was diagnosed before treatment of at least one of the comorbidities listed  next (or not) relevant for head and neck cancer."""				
 * comorbidity.myocardialInfarction 0..1 boolean "Myocardial infarction" """Describes comorbidities reported or assesed before treatment. More than one choice is allowed. Please do not include the current cancer in this calculation, only the previous cancer."""				
@@ -58,8 +56,7 @@ Maturity Level: 0 Draft"""
 * previousCancerTreatment 1..1 CodeableConcept "Previous cancer treatment" """Previous cancer treatment"""				
 //--- END				
 //--- END				
-//--- END				
-//--- END				
+//--- END							
 				
 //--------------------------------------------------------------------------------				
 //  Comment				
@@ -82,7 +79,6 @@ Current smoker - 36309332
 Former smoker - 45883458
 Never smoker - 45879404
 """				
-				
 				
 * alcohol ^comment = """Current; Former (at least for 12 months); Never; History of alcohol dependence; Unknown
 Current drinker - 4074035
@@ -149,7 +145,7 @@ Immunological therapy - 4295112"""
 //--- END				
 //--- END				
 //--- END				
-//--- END				
+		
 				
 // -------------------------------------------------------------------------------				
 // Obligations H&N				
@@ -160,8 +156,7 @@ Immunological therapy - 4295112"""
 * birthYear insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * countryOfResidence insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * smoking insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
-* cigSmokedPerDay insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
-* yearsAsSmoker insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* cigarettesPackYearsSmokedDuringLife insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * alcohol insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 				
 				
@@ -208,6 +203,7 @@ Immunological therapy - 4295112"""
 //--- END				
 //--- END				
 //--- END				
+			
 				
 				
 // -------------------------------------------------------------------------------				
@@ -218,7 +214,6 @@ Immunological therapy - 4295112"""
 				
 * birthYear insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
 * countryOfResidence insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)				
-				
 				
 				
 				
@@ -267,3 +262,4 @@ Immunological therapy - 4295112"""
 //--- END				
 //--- END				
 //--- END				
+			

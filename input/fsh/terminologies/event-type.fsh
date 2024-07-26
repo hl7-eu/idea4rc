@@ -6,7 +6,7 @@ Description: "Type of event registered"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4100366 "baseline"
 * $athena#4168352 "progression"

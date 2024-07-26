@@ -6,7 +6,7 @@ Description: "treatment response"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4163135 "complete response"
 * $athena#4161302 "partial response"

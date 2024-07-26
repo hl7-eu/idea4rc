@@ -15,6 +15,10 @@ Alias: $adverseEvent.occurencePeriod-r5 = http://hl7.org/fhir/5.0/StructureDefin
 Alias: $procedure-approachBodyStructure = http://hl7.org/fhir/StructureDefinition/procedure-approachBodyStructure
 Alias: $procedure-method = http://hl7.org/fhir/StructureDefinition/procedure-method
 Alias: $procedure-supportingInfo-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.supportingInfo
+Alias: $alternate-codes = http://hl7.org/fhir/StructureDefinition/alternate-codes
+Alias: $iso21090-SC-coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding
+
+
 
 //============== ALIAS ===============
 Alias: $actor-headneck = http://hl7.eu/fhir/ig/idea4rc/actor-headneck-i4rc

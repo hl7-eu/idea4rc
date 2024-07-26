@@ -6,7 +6,7 @@ Description: "Status at the Last Follow Up"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * CsGenericI4rc#NED "Alive, No Evidence of Disease"
 * CsGenericI4rc#DOD "Dead of Disease DEATH"

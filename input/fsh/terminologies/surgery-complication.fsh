@@ -6,7 +6,7 @@ Description: "Surgery Complication"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4188540 "No complication"
 * $athena#715974  "Clavien-Dindo complication scale: Grade I"

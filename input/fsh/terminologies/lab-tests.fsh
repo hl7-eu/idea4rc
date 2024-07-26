@@ -11,7 +11,7 @@ Description: """Test results:
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 // removed for simplyfying the IG
 // * codes from valueset VsLabTestResultI4rc
@@ -36,7 +36,7 @@ Description: """Laboratory test results: Positive-Negative-Not tested: Athena"""
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#9191 "Positive" 
 * $athena#9189 "Negative" 
@@ -55,7 +55,7 @@ Description: """Lab test results:
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 //* $loinc#43730-1 "EBV DNA NAA+probe Qn" // it is a Quantity not the right concept, the result is expected to be a Yes/no/...
 * $athena#3043849 "Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
@@ -76,7 +76,7 @@ Description: """Laboratory test results: Positive-Negative-Not tested: Snomed CT
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $sct#416237000 // patient not tested (situation)
 * $sct#10828004 // positive patient (qualifier value)
 * $sct#260385009 // negative patient (qualifier value) */

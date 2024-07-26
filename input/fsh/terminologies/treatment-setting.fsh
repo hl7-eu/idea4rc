@@ -6,7 +6,7 @@ Description: "Treatment Setting"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#44808409 "neo-adjuvant"
 // TO BE ADDED CONCOMITANT

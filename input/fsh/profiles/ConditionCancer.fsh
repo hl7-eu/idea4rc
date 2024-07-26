@@ -105,7 +105,11 @@ This profile should be also used for documenting primary cancer relapses during 
 // * clinicalStatus and verificationStatus MS
 * clinicalStatus ^example.valueCodeableConcept = $condition-clinical#relapse
 * clinicalStatus ^example.label = "Relapse"
-  
+
+// CHECK how to manage the status
+/* * clinicalStatus.extension contains $alternate-codes named alternate-codes
+* clinicalStatus.extension[alternate-codes].valueCodeableConcept from CancerEventTypeVS */
+
 * code 1.. 
 * code from CancerDiagnosisVS (extensible)
 

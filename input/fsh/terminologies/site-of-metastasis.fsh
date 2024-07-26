@@ -6,7 +6,7 @@ Description: "describes the site of metastasis"
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4241958 "Lymph node"
 * $athena#4338971 "soft tissue"

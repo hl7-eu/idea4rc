@@ -4,7 +4,7 @@ Title: "Subsites: Athena"
 Description: "Specifies the subsites where cancers occured: Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * codes from valueset VsNasalandParanasalSubsiteAthenaI4rc
 * codes from valueset VsNasopharynxSubsiteAthenaI4rc
@@ -30,7 +30,7 @@ Title: "Upper and Lower limbs subsite: Athena"
 Description: "Specifies the subsite for cancers occured in Upper and Lower limbs : Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4310976 "Hand structure"
 * $athena#4220073 "Wrist region structure"
@@ -62,7 +62,7 @@ Title: "Trunk wall subsite: Athena"
 Description: "Specifies the subsite for cancers occurred in Trunk wall: Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4088614 "Joint structure of thoracic wall"
 * $athena#4244412 "Anterior abdominal wall structure"
@@ -79,7 +79,7 @@ Title: "Intra abdominal subsite: Athena"
 Description: "Specifies the subsite for cancers occurred in Intra abdominal: Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 
 * $athena#4220536 "Retroperitoneal compartment structure"
@@ -110,7 +110,7 @@ Title: "Intra thoracic subsite : Athena"
 Description: "Specifies the subsite for cancers occurred in Intra thoracic: Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * $athena#4213162 "Lung structure"
 * $athena#4217142 "Heart structure"
@@ -130,7 +130,7 @@ Title: "Genito urinary subsite: Athena"
 Description: "Specifies the subsite for cancers occurred in Genito urinary : Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 
 * $athena#4047078 "Bilateral adrenal glands"
@@ -158,7 +158,7 @@ Title: "Subsites: SNOMED CT"
 Description: "Specifies the subsites where cancers occured: SNOMED CT"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 
 * codes from valueset VsNasalandParanasalSubsiteSnomedI4rc
 * codes from valueset VsNasopharynxSubsiteSnomedI4rc
@@ -175,7 +175,7 @@ Title: "Nasal cavity and paranasal sinuses subsite: Athena"
 Description: "Specifies the subsite for cancers occured in nasal cavity and paranasal sinusess: Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $athena#4088327    "Nasal cavity"   
 * $athena#4050631   "Maxillary sinus"   
 * $athena#4182234    "Ethmoid sinus"   
@@ -189,7 +189,7 @@ Title: "Nasal cavity and paranasal sinuses subsite: Snomed CT"
 Description: "Specifies the subsite for cancers occured in nasal cavity and paranasal sinusess: Snomed CT"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $sct#126670003 // Neoplasm of nasal cavity (disorder)
 * $sct#126676009 // Neoplasm of maxillary sinus (disorder)
 * $sct#126677000 // Neoplasm of ethmoidal sinus (disorder)
@@ -204,7 +204,7 @@ Description: "Specifies the subsite for cancers occured in nasopharynx: Athena"
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $athena#4068978   "Superior wall of nasopharynx"   
 * $athena#4146741   "Posterior wall of nasopharynx"   
 * $athena#4323979   "Lateral wall of nasopharynx"   
@@ -219,7 +219,7 @@ Description: "Specifies the subsite for cancers occured in nasopharynx: Snomed C
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $sct#126684008 // Neoplasm of anterior wall of nasopharynx (disorder)
 * $sct#126683002 // Neoplasm of lateral wall of nasopharynx (disorder)
 * $sct#126682007 // Neoplasm of posterior wall of nasopharynx (disorder)
@@ -233,7 +233,7 @@ Description: "Specifies the subsite for cancers occured in hypopharynx: Athena"
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $athena#4147741    "Postcricoid region"   
 * $athena#4262980   "Hypopharyngeal aspect of aryepiglottic fold"   
 * $athena#4102600    "Posterior wall of hypopharynx"   
@@ -248,7 +248,7 @@ Description: "Specifies the subsite for cancers occured in hypopharynx: Snomed C
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $sct#254505000 // Tumor of aryepiglottic fold - hypopharyngeal aspect (disorder)
 * $sct#126687001 // Neoplasm of postcricoid region (disorder)
 * $sct#126691006 // Neoplasm of posterior hypopharyngeal wall (disorder)
@@ -262,7 +262,7 @@ Description: "Specifies the subsite for cancers occured in Oropharynx: Athena"
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $athena#4169910    "Base of tongue, NOS"   
 * $athena#4177005   "Soft palate NOS"   
 * $athena#4095284    "Uvula"   
@@ -285,7 +285,7 @@ Description: "Specifies the subsite for cancers occured in Oropharynx: Snomed CT
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $sct#126813005 // Neoplasm of anterior aspect of epiglottis (disorder)
 * $sct#126779009 // Neoplasm of base of tongue (disorder)
 * $sct#126815003 // Neoplasm of lateral wall of oropharynx (disorder)
@@ -307,7 +307,7 @@ Description: "Specifies the subsite for cancers occured in Larynx: Athena"
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $athena#4047227    "Glottis"   
 * $athena#4177005   "Supraglottis"   
 * $athena#4002724    "Subglottis"   
@@ -321,7 +321,7 @@ Description: "Specifies the subsite for cancers occured in Larynx: Snomed CT"
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $sct#126693009 // Neoplasm of glottis (disorder)
 * $sct#126696001 // Neoplasm of subglottis (disorder)
 * $sct#126697005 // Neoplasm of supraglottis (disorder)
@@ -335,7 +335,7 @@ Description: "Specifies the subsite for cancers occured in oral cavity: Athena"
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $athena#36769609    "Dorsal surface tongue, NOS"   
 * $athena#4077986   "Border of tongue"   
 * $athena#4172794    "Ventral surface of tongue"   
@@ -360,7 +360,7 @@ Description: "Specifies the subsite for cancers occured in oral cavity: Snomed C
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $sct#275490009 // Carcinoma of tongue base - dorsal surface (disorder)
 * $sct#92768006 // Carcinoma in situ of border of tongue (disorder)
 * $sct#275394001 // Carcinoma ventral surface of tongue (disorder)
@@ -378,7 +378,7 @@ Description: "Specifies the subsite for cancers occured in lip: Athena"
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $athena#4027546    "External lower lip"   
 * $athena#4134589   "External upper lip"   
 * $athena#4027545    "External lip"   
@@ -395,7 +395,7 @@ Description: "Specifies the subsite for cancers occured in lip: Snomed CT"
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * $sct#254389005 // Carcinoma of vermilion border of upper lip (disorder)
 * $sct#92795001 // Carcinoma in situ of vermilion border of lip (disorder)
 * $sct#254390001 // Carcinoma of vermilion border of lower lip (disorder)
