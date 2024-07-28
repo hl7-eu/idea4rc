@@ -167,7 +167,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Subject.comorbidity.diabetesWithoutComplications					
+* group[=].element[+].code = #Subject.comorbidity.diabetes					
 * group[=].element[=].display = "Diabetes (without complications)"					
 * group[=].element[=].target.code = #Observation.extension:comorbidConditionPresent					
 * group[=].element[=].target.display = ""					
@@ -191,7 +191,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #Subject.comorbidity.solidTumorNonMetastatic					
+* group[=].element[+].code = #Subject.comorbidity.solidTumor					
 * group[=].element[=].display = "Solid tumor (non metastatic)"					
 * group[=].element[=].target.code = #Observation.extension:comorbidConditionPresent					
 * group[=].element[=].target.display = ""					

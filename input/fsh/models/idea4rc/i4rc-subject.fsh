@@ -26,11 +26,11 @@ Maturity Level: 0 Draft"""
 * comorbidity.ulcer 0..1 boolean "Ulcer" """Previous cancer comorbidity related to Ulcer"""				
 * comorbidity.mildLiverDisease 0..1 boolean "Mild liver disease" """Previous cancer comorbidity related to Mild liver disease"""				
 * comorbidity.moderateToSevereLiverDisease 0..1 boolean "Moderate to severe liver disease" """Previous cancer comorbidity related to Moderate to severe liver disease"""				
-* comorbidity.diabetesWithoutComplications 0..1 boolean "Diabetes (without complications)" """Previous cancer comorbidity related to Diabetes (without complications)"""				
+* comorbidity.diabetes 0..1 boolean "Diabetes (without complications)" """Previous cancer comorbidity related to Diabetes (without complications)"""				
 * comorbidity.diabetesWithEndOrganDamage 0..1 boolean "Diabetes with end organ damage" """Previous cancer comorbidity related to Diabetes with end organ damage"""				
 * comorbidity.hemiplegia 0..1 boolean "Hemiplegia" """Previous cancer comorbidity related to Hemiplegia"""				
 * comorbidity.moderateToSevereRenalDisease 0..1 boolean "Moderate to severe renal disease" """Previous cancer comorbidity related to Moderate to severe renal disease"""				
-* comorbidity.solidTumorNonMetastatic 0..1 boolean "Solid tumor (non metastatic)" """Previous cancer comorbidity related to Solid tumor (non metastatic)"""				
+* comorbidity.solidTumor 0..1 boolean "Solid tumor (non metastatic)" """Previous cancer comorbidity related to Solid tumor (non metastatic)"""				
 * comorbidity.metastaticSolidTumor 0..1 boolean "Metastatic solid tumor" """Previous cancer comorbidity related to Metastatic solid tumor"""				
 * comorbidity.leukemia 0..1 boolean "Leukemia" """Previous cancer comorbidity related to Leukemia"""				
 * comorbidity.lymphoma 0..1 boolean "Lymphoma" """Previous cancer comorbidity related to Lymphoma"""				
@@ -56,7 +56,7 @@ Maturity Level: 0 Draft"""
 * previousCancerTreatment 1..1 CodeableConcept "Previous cancer treatment" """Previous cancer treatment"""				
 //--- END				
 //--- END				
-//--- END							
+//--- END				
 				
 //--------------------------------------------------------------------------------				
 //  Comment				
@@ -145,7 +145,8 @@ Immunological therapy - 4295112"""
 //--- END				
 //--- END				
 //--- END				
-		
+//--- END				
+				
 				
 // -------------------------------------------------------------------------------				
 // Obligations H&N				
@@ -171,11 +172,11 @@ Immunological therapy - 4295112"""
 * comorbidity.ulcer insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * comorbidity.mildLiverDisease insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * comorbidity.moderateToSevereLiverDisease insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
-* comorbidity.diabetesWithoutComplications insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* comorbidity.diabetes insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * comorbidity.diabetesWithEndOrganDamage insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * comorbidity.hemiplegia insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * comorbidity.moderateToSevereRenalDisease insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
-* comorbidity.solidTumorNonMetastatic insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
+* comorbidity.solidTumor insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * comorbidity.metastaticSolidTumor insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * comorbidity.leukemia insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
 * comorbidity.lymphoma insert ObligationActorAndCode($actor-headneck, #SHALL:handle)				
@@ -202,8 +203,8 @@ Immunological therapy - 4295112"""
 //--- END				
 //--- END				
 //--- END				
-//--- END				
-			
+				
+				
 				
 				
 // -------------------------------------------------------------------------------				
@@ -261,5 +262,3 @@ Immunological therapy - 4295112"""
 //--- END				
 //--- END				
 //--- END				
-//--- END				
-			

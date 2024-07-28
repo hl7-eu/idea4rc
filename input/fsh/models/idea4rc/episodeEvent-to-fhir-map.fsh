@@ -30,19 +30,15 @@ Usage: #definition
 * group[=].element[=].target.comment = "If 'Baseline': new Condition"					
 * group[=].element[+].code = #EpisodeEvent.eventType					
 * group[=].element[=].display = "Event type"					
-* group[=].element[=].target.code = #Condition.clinicalStatus					
+* group[=].element[=].target.code = #Condition.clinicalStatus.coding:athena					
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #relatedto					
-* group[=].element[=].target.comment = "It might be a combination of status / previous status and existance of previous Condition resources.
-
-The clincalStatus has a required binding with http://hl7.org/fhir/R4/valueset-condition-clinical.html.
-active | recurrence | relapse | inactive | remission | resolved
-Map the expected concepts with that value set
-
-First episode => status='active'; extension:condition-occurredFollowing.empty()
-Progression - 4168352 => status='relapse'; extension:condition-occurredFollowing.exists() (To be checked)
-Recurrence - 4097297 => status='recurrence'; extension:condition-occurredFollowing.exists()
-Stable disease - 32948 => status='inactive'; extension:condition-occurredFollowing.exists() (To be checked)"					
+* group[=].element[=].target.comment = "The eventType is recoded in the coding athena slice, however the type has to be consistent with the combination of status / previous status and existance of previous Condition resources. 
+The clincalStatus has in fact a required binding with http://hl7.org/fhir/R4/valueset-condition-clinical.html. active | recurrence | relapse | inactive | remission | resolved 
+for example First episode - 4113134 has a status='active' and extension:condition-occurredFollowing.empty()
+Progression - 32949 may have status='relapse'; extension:condition-occurredFollowing.exists() (To be checked) 
+Recurrence - 4097297 has status='recurrence'; extension:condition-occurredFollowing.exists()
+Stable disease - 32948 may have status='inactive'; extension:condition-occurredFollowing.exists() (To be checked)"					
 * group[=].element[+].code = #EpisodeEvent.definedAt					
 * group[=].element[=].display = "Defined At"					
 * group[=].element[=].target.code = #Condition.extension:definedAt					

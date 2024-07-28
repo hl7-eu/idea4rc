@@ -9,6 +9,7 @@ Usage: #example
 /* NOT A PROPER VALUE STABLE MEANS STILLA ACTIVE  ?
 * clinicalStatus = $athena#32948 "Stable Disease"
 */
-* clinicalStatus = $condition-clinical#active
+* clinicalStatus.coding[condition-clinical] = $condition-clinical#active
+* clinicalStatus.coding[athena] = $athena#32948 "Stable Disease"
 * subject = Reference(patient-id-17)
 * recordedDate = "2022-05-18T00:00:00+02:00"

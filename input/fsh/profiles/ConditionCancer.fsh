@@ -20,13 +20,15 @@ RuleSet: CancerConditionCommonRules
 * extension[relapseType].value[x]
 /* * extension[relapseType].value[x] from RelapseTypeVS (preferred) */
 
-* extension contains SameCustodianFlag named definedAt 0..1
+/* * extension contains SameCustodianFlag named definedAt 0..1
 * extension[definedAt]
   * ^short = "Determined in the same hospital ?"
   * ^definition = "Whether or not the progression/recurrence or persistent disease  was performed at the registering hospital or another hospital."
   * ^comment = "Temporary included in the guide for covering the request of tracking if this information has been captured and maintained by the same or other organizations.
 It is envisioned that this kind of requirements could be covered by recording where specific act are taking place."
-* extension[definedAt].valueBoolean
+* extension[definedAt].valueBoolean */
+
+// Check how to map definedAt
 
 /* * extension[supportingInfo].valueReference only Reference(ObservationYesNo) */
 
@@ -105,10 +107,15 @@ This profile should be also used for documenting primary cancer relapses during 
 // * clinicalStatus and verificationStatus MS
 * clinicalStatus ^example.valueCodeableConcept = $condition-clinical#relapse
 * clinicalStatus ^example.label = "Relapse"
-
-// CHECK how to manage the status
-/* * clinicalStatus.extension contains $alternate-codes named alternate-codes
-* clinicalStatus.extension[alternate-codes].valueCodeableConcept from CancerEventTypeVS */
+* clinicalStatus 
+  * coding ^slicing.discriminator[0].type = #value
+  * coding ^slicing.discriminator[0].path = "system"
+  * coding ^slicing.ordered = true
+  * coding ^slicing.rules = #open
+  * coding contains condition-clinical 1..1
+  * coding[condition-clinical] from $vs-condition-clinical
+  * coding contains athena 0..1
+  * coding[athena] from CancerEventTypeVS
 
 * code 1.. 
 * code from CancerDiagnosisVS (extensible)

@@ -35,7 +35,7 @@ Description: "This profile defines how to represent Patient in FHIR for the purp
 /* * maritalStatus ^short = "Marital status" */
 * address.country ^short = "Country of Residence"
   * extension contains $iso21090-SC-coding named countryCode 0..1
-  * extension[countryCode].valueCoding ^short =  "ADD VS"
+  * extension[countryCode].valueCoding from VsCountryI4rc
 
 /* to enforce the fact tha is the residence we should use a specific extension to be discussed */
 
