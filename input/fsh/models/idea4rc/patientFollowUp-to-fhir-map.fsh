@@ -153,7 +153,7 @@ Details in the referred Condition"
 * group[=].element[=].target.display = ""					
 * group[=].element[=].target.equivalence = #equivalent					
 					
-* group[=].element[+].code = #PatientFollowUp.					
+* group[=].element[+].code = #PatientFollowUp.lastContact					
 * group[=].element[=].display = "Patient Follow Up date"					
 * group[=].element[=].target.code = #Observation.valueDateTime					
 * group[=].element[=].target.display = ""					
