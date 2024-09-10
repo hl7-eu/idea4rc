@@ -11,7 +11,7 @@ Maturity Level: 0 Draft"""
 * typeOfBiopsy 1..1 CodeableConcept "Type of biopsy" """Type of biopsy performed"""				
 * biopsyDoneBy 1..1 string "Biopsy done by" """Describes the institution where diagnostic procedure was performed"""				
 * ageAtDiagnosis 1..1 integer  "Age at diagnosis" """Age of the patient at the time of the diagnosis."""				
-* radiotherapyInducedSarcoma 1..1 boolean "Radiotherapy induced sarcoma" """radiotherapy induced if the new tumour is in the field or marginal  the anatomical area that received high radiation dose; please specify the interval time from the radiotherapy treatment"""				
+* radiotherapyInducedSarcoma 1..1 CodeableConcept "Radiotherapy induced sarcoma" """radiotherapy induced if the new tumour is in the field or marginal  the anatomical area that received high radiation dose; please specify the interval time from the radiotherapy treatment"""				
 * grading 0..1 CodeableConcept "Grading" """Grading of the cancer"""				
 * hnClassification 1..1 BackboneElement "Classification for Head and Neck tumors" """Classification for Head and Neck tumors"""				
 * hnClassification.histologySquamous 1..1 CodeableConcept "Histology Squamous" """Specifies the histological subgroup for squamous cancers"""				
@@ -151,8 +151,8 @@ oxyphilic carcinoma - 4212379
 oncocytic adenocarcinoma
 oncocytic malignant oncocytoma
  Salivary gland intraductal carcinoma (cribriform low grade adenocarcinoma)  """				
-* hnClassification.histologyNeuroendocrine ^comment = """Small cell neuroendocrineÿcarcinoma (SmCC)?,Poorly differentiated neuroendocrine carcinoma, small cell (grade 3);Large cell neuroendocrine carcinoma (LCNEC)?, Poorly differentiated neuroendocrine carcinoma, large cell (grade 3);Well-differentiated neuroendocrine carcinoma, Middle ear carcinoid tumor;Moderately differentiated neuroendocrine carcinoma
-Small cell neuroendocrineÿcarcinoma (SmCC)? - 36714029
+* hnClassification.histologyNeuroendocrine ^comment = """Small cell neuroendocrineï¿½carcinoma (SmCC)?,Poorly differentiated neuroendocrine carcinoma, small cell (grade 3);Large cell neuroendocrine carcinoma (LCNEC)?, Poorly differentiated neuroendocrine carcinoma, large cell (grade 3);Well-differentiated neuroendocrine carcinoma, Middle ear carcinoid tumor;Moderately differentiated neuroendocrine carcinoma
+Small cell neuroendocrineï¿½carcinoma (SmCC)? - 36714029
 Poorly differentiated neuroendocrine carcinoma - 37018672
 small cell (grade 3)
 Large cell neuroendocrine carcinoma (LCNEC)? - 4029971
@@ -345,14 +345,14 @@ Aggressive angiomyxoma - 4239956
 Angiomatoid fibrous histiocytoma - 4029526
 NTRK-rearranged spindle cell neoplasm (emerging)"""				
 * sarcomaClassification.undifSmallRCelSarcBonAndSofTis ^comment = """Ewing sarcoma
-Round cell sarcoma withÿEWSR1?non-ETS fusions
+Round cell sarcoma withï¿½EWSR1?non-ETS fusions
 CIC-rearranged sarcoma
-Sarcoma withÿBCORÿgenetic alterations
+Sarcoma withï¿½BCORï¿½genetic alterations
 
 Ewing sarcoma - 45766528
-Round cell sarcoma withÿEWSR1?non-ETS fusions
+Round cell sarcoma withï¿½EWSR1?non-ETS fusions
 CIC-rearranged sarcoma
-Sarcoma withÿBCORÿgenetic alterations
+Sarcoma withï¿½BCORï¿½genetic alterations
 """				
 * sarcomaClassification.estAndRelatedTumours ^comment = """Endometrial stromal sarcoma, high grade
 Endometrial stromal sarcoma, low grade
