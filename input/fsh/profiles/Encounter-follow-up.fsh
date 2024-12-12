@@ -17,7 +17,7 @@ Description: "This profile defines how to represent the Patient follow-up model 
 * insert SubjectRules
 * episodeOfCare only Reference(EpisodeOfCareI4rc)
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
-* reasonReference 1..
+* reasonReference 0..
   * ^short = "Reference to the first Primary Cancer"
 * diagnosis ^short = "Typically used for the discharge diagnosis"
   * condition only Reference(ConditionPrimaryCancerI4rc)
