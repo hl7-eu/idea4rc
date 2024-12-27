@@ -1,0 +1,1 @@
+ c:/workspace/___Python/env/Scripts/python.exe c:/workspace/___Python/fsh-excel-fsh/excel-to-fsh-i4rc.py --config /workspace/idea4rc/src-models/config.ini

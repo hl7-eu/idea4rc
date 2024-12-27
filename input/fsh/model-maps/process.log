@@ -1,0 +1,185 @@
+[2024-12-26 11:10:25] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 11:10:26] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 11:10:26] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 11:10:26] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 11:10:27] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 11:10:27] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-26 11:10:27] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-26 11:10:28] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-26 11:10:28] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-26 11:10:28] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 11:10:28] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 11:10:28] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-26 11:10:28] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 11:10:28] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 11:20:06] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 11:20:09] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 11:20:10] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 11:20:10] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 11:20:10] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 11:20:10] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-26 11:20:11] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-26 11:20:12] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-26 11:20:12] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-26 11:20:12] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 11:20:12] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 11:20:12] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-26 11:20:12] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 11:20:12] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 11:24:04] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 11:24:05] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 11:24:05] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 11:24:06] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 11:24:06] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 11:24:06] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-26 11:24:06] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-26 11:24:07] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-26 11:24:07] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-26 11:24:07] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 11:24:07] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 11:24:07] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-26 11:24:07] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 11:24:07] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 18:26:18] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 18:26:23] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 18:26:23] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 18:26:23] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 18:26:23] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 18:26:23] Updated CancerEpisodeI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:00:49] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 19:00:49] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 19:00:49] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:00:49] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:00:49] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:00:49] Updated CancerEpisodeI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:02:30] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 19:02:31] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 19:02:31] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:02:31] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:02:31] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:02:31] Updated CancerEpisodeI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:02:52] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 19:02:53] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 19:02:53] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:02:53] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:02:53] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:02:53] Error processing elements for LogicalModel CancerEpisodeI4RC: Worksheet named 'CancerEpisodeI4RC' not found
+[2024-12-26 19:02:53] Updated CancerEpisodeI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:05:42] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 19:05:43] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 19:05:43] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:05:43] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:05:43] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:05:43] Error processing elements for LogicalModel CancerEpisodeI4RC: Worksheet named 'CancerEpisodeI4RC' not found
+[2024-12-26 19:05:43] Updated CancerEpisodeI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:06] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 19:07:07] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 19:07:07] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:07] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:07] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:07] Error processing elements for LogicalModel CancerEpisodeI4RC: Worksheet named 'CancerEpisodeI4RC' not found
+[2024-12-26 19:07:07] Updated CancerEpisodeI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:07] Updated DiagnosisI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:07] Updated ClinicalStageI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:07] Updated PathologicalStageI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:08] Updated EpisodeEventI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:08] Updated DiseaseExtentI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:08] Updated GeneticTestExpressionI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:08] Updated SurgeryI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:08] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-26 19:07:08] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-26 19:07:09] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-26 19:07:09] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-26 19:07:09] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 19:07:09] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 19:07:09] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-26 19:07:09] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 19:07:09] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 19:07:29] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 19:07:29] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 19:07:30] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:30] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:30] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:30] Updated CancerEpisodeI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:30] Updated DiagnosisI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:30] Updated ClinicalStageI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:30] Updated PathologicalStageI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:30] Updated EpisodeEventI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:30] Updated DiseaseExtentI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:30] Updated GeneticTestExpressionI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:30] Updated SurgeryI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-26 19:07:30] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-26 19:07:30] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-26 19:07:31] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-26 19:07:31] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-26 19:07:31] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 19:07:31] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 19:07:31] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-26 19:07:31] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 19:07:31] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-27 07:43:43] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-27 07:43:46] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-27 07:43:46] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 07:43:46] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 07:43:47] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 07:43:47] Updated CancerEpisodeI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 07:43:47] Updated DiagnosisI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 07:43:47] Updated ClinicalStageI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 07:43:47] Updated PathologicalStageI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 07:43:47] Updated EpisodeEventI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 07:43:47] Updated DiseaseExtentI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 07:43:47] Updated GeneticTestExpressionI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 07:43:47] Updated SurgeryI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 07:43:47] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-27 07:43:47] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-27 07:43:48] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-27 07:43:48] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-27 07:43:48] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-27 07:43:48] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-27 07:43:48] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-27 07:43:48] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-27 07:43:48] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-27 08:04:24] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-27 08:04:25] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-27 08:04:25] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:04:25] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:04:25] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:04:25] Updated CancerEpisodeI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:04:25] Updated DiagnosisI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:04:26] Updated ClinicalStageI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:04:26] Updated PathologicalStageI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:04:26] Updated EpisodeEventI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:04:26] Updated DiseaseExtentI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:04:26] Updated GeneticTestExpressionI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:04:26] Updated SurgeryI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:04:26] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-27 08:04:26] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-27 08:04:27] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-27 08:04:27] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-27 08:04:27] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-27 08:04:27] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-27 08:04:27] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-27 08:04:27] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-27 08:04:27] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-27 08:07:20] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-27 08:07:20] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-27 08:07:21] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:07:21] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:07:21] Updated HospitalPatientRecordsI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:07:21] Updated CancerEpisodeI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:07:21] Updated DiagnosisI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:07:21] Updated ClinicalStageI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:07:21] Updated PathologicalStageI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:07:21] Updated EpisodeEventI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:07:21] Updated DiseaseExtentI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:07:21] Updated GeneticTestExpressionI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:07:21] Updated SurgeryI4RC.fsh with elements in C:/workspace/idea4rc/input/fsh/model-maps
+[2024-12-27 08:07:21] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-27 08:07:22] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-27 08:07:22] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-27 08:07:22] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-27 08:07:22] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-27 08:07:22] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-27 08:07:22] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-27 08:07:22] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-27 08:07:22] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'

@@ -1,0 +1,61 @@
+[2024-12-26 09:54:06] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 09:54:07] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 09:54:07] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/src-models/model-maps
+[2024-12-26 09:54:07] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-26 09:54:07] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-26 09:54:08] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-26 09:54:08] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-26 09:54:08] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 09:54:08] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 09:54:08] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-26 09:54:08] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 09:54:08] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 10:03:38] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 10:03:38] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 10:03:39] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/src-models/model-maps
+[2024-12-26 10:03:39] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-26 10:03:39] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-26 10:03:40] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-26 10:03:40] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-26 10:03:40] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 10:03:40] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 10:03:40] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-26 10:03:40] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 10:03:40] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 10:07:55] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 10:07:56] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 10:07:56] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/src-models/model-maps
+[2024-12-26 10:07:56] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-26 10:07:56] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-26 10:07:57] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-26 10:07:57] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-26 10:07:57] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 10:07:57] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 10:07:57] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-26 10:07:57] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 10:07:57] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 10:48:45] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 10:48:46] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 10:48:46] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/src-models/model-maps
+[2024-12-26 10:48:46] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-26 10:48:46] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-26 10:48:47] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-26 10:48:47] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-26 10:48:47] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 10:48:47] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 10:48:47] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-26 10:48:47] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 10:48:47] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 11:07:42] Processing file: idea4rc-models-and-maps.xlsx
+[2024-12-26 11:07:43] Error processing mappings for Subject2FHIR: Worksheet named 'Subject2FHIR' not found
+[2024-12-26 11:07:43] Updated SubjectI4rc.fsh with elements in C:/workspace/idea4rc/src-models/model-maps
+[2024-12-26 11:07:43] Updated PatientFollowUpI4rc.fsh with elements in C:/workspace/idea4rc/src-models/model-maps
+[2024-12-26 11:07:43] Processing file: IDEA4RC_DM_V2.xlsx
+[2024-12-26 11:07:43] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2024-12-26 11:07:44] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2024-12-26 11:07:44] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2024-12-26 11:07:44] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 11:07:44] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$idea4rc-models-and-maps.xlsx'
+[2024-12-26 11:07:44] Processing file: ~$IDEA4RC_DM_V2.xlsx
+[2024-12-26 11:07:44] Error loading ConceptMaps sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
+[2024-12-26 11:07:44] Error loading LogicalModels sheet in C:/workspace/idea4rc/src-models\~$IDEA4RC_DM_V2.xlsx: [Errno 13] Permission denied: 'C:/workspace/idea4rc/src-models\\~$IDEA4RC_DM_V2.xlsx'
