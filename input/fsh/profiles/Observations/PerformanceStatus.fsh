@@ -16,7 +16,7 @@ RuleSet: PerformanceStatusCommonRules
 
 Profile:    KarnofskyPerformanceStatus
 Parent:     Observation
-Id: observation-karnofsky-performance-statuseu-i4rc
+Id: observation-karnofsky-performance-status-eu-i4rc
 Title:      "Observation: Karnofsky Performance Status"
 Description:    "The Karnofsky Performance Status (KPS) is a tool used to measure a patient's functional status. It can be used to compare the effectiveness of different therapies and to help assess the prognosis of certain patients, such as those with certain cancers. The KPS score ranges from 0 to 100 in intervals of 10. Higher scores are associated with better functional status, with 100 representing no symptoms or evidence of disease, and 0 representing death."
 * insert PerformanceStatusCommonRules
