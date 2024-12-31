@@ -118,7 +118,7 @@ menu:
   #   Examples: examples.html
   # Maturity Model: maturity.html
 
-  Profiles (wip):
+  Profiles:
     Condition-secondaryCancer-eu-i4rc: Condition-secondaryCancer-eu-i4rc.html
     Encounter-eu-i4rc: Encounter-eu-i4rc.html
     Condition-primaryCancer-eu-i4rc: Condition-primaryCancer-eu-i4rc.html
@@ -127,7 +127,7 @@ menu:
     episodeOfCare-eu-i4rc: episodeOfCare-eu-i4rc.html
     MedicationAdministration-eu-i4rc: MedicationAdministration-eu-i4rc.html
   
-  Model Map (wip):
+  Model Map:
     Subject: Subject-map.html
     PatientFollowUp: PatientFollowUp-map.html
     EpisodeEvent: EpisodeEvent-map.html
@@ -343,7 +343,7 @@ groups:
       - StructureDefinition/patient-eu-i4rc
       - StructureDefinition/observation-tobaccouse-eu-i4rc
       - StructureDefinition/observation-alcoholuse-eu-i4rc
-      - StructureDefinition/observation-karnofsky-performance-statuseu-i4rc
+      - StructureDefinition/observation-karnofsky-performance-status-eu-i4rc
       - StructureDefinition/observation-ecog-performance-status-eu-i4rc
       - StructureDefinition/observation-comorbidity-eu-i4rc
       - StructureDefinition/observation-cci-eu-i4rc
