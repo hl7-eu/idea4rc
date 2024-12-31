@@ -140,9 +140,9 @@ This profile should be also used for documenting primary cancer relapses during 
 //   * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites)
 
 
-/* * evidence ^slicing.discriminator.type = #pattern
+/* * evidence ^slicing.discriminator.type = #value
 * evidence ^slicing.discriminator.path = "$this.resolve()"
-* evidence ^slicing.discriminator.type = #pattern
+* evidence ^slicing.discriminator.type = #value
 * evidence ^slicing.discriminator.path = "code"
 * evidence ^slicing.rules = #open
 * evidence ^slicing.description = "Slice based on the coding.code pattern" */

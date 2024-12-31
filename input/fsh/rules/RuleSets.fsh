@@ -21,31 +21,31 @@ RuleSet: SubjectRules
 * subject only Reference (PatientI4rc)
 
 RuleSet: ObservationComponentSlicingRules
-* component ^slicing.discriminator.type = #pattern
+* component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open
 * component ^slicing.description = "Slice based on the component.code pattern"
 
 RuleSet: OpenSlicePatternOnThis
-* ^slicing.discriminator.type = #pattern
+* ^slicing.discriminator.type = #value
 * ^slicing.discriminator.path = "$this"
 * ^slicing.rules = #open
 * ^slicing.description = "Slicing requires the given value but allows for additional concepts"
 
 RuleSet: CategorySlicingRules
-* category ^slicing.discriminator.type = #pattern
+* category ^slicing.discriminator.type = #value
 * category ^slicing.discriminator.path = "$this"
 * category ^slicing.rules = #open
 * category ^slicing.description = "Slicing requires the given value but allows additional categories"
 
 RuleSet: ObservationHasMemberSlicingRules
-* hasMember ^slicing.discriminator.type = #pattern  // #profile
+* hasMember ^slicing.discriminator.type = #value  // #profile
 * hasMember ^slicing.discriminator.path = "$this.resolve().code"
 * hasMember ^slicing.rules = #open
 * hasMember ^slicing.description = "Slicing based on referenced resource code attribute."
 
 RuleSet: DiagnosticReportResultSlicingRules
-* result ^slicing.discriminator.type = #pattern
+* result ^slicing.discriminator.type = #value
 * result ^slicing.discriminator.path = "$this.resolve().code"
 * result ^slicing.rules = #open
 * result ^slicing.description = "Slice based on the reference profile and code pattern"
