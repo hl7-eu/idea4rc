@@ -1,7 +1,7 @@
 Instance: followup2FHIR
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "http://hl7.eu/fhir/eps/ConceptMap/followup2FHIR"
+* url = "http://hl7.eu/fhir/ig/idea4rc/ConceptMap/followup2FHIR"
 * name = "Followup2FHIR"
 * title = "Patient Follow up Model to this guide Map"
 * status = #draft

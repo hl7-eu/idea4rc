@@ -1,7 +1,7 @@
 Instance: subject2FHIR
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "http://hl7.eu/fhir/eps/ConceptMap/subject2FHIR"
+* url = "http://hl7.eu/fhir/ig/idea4rc/ConceptMap/subject2FHIR"
 * name = "Subject2FHIR"
 * title = "Subject Model to this guide Map"
 * status = #draft

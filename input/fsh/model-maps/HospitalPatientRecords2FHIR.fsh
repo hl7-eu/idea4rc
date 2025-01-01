@@ -1,7 +1,7 @@
 Instance: hospitalPatientRecords2FHIR
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "http://hl7.eu/fhir/eps/ConceptMap/hospitalPatientRecords2FHIR"
+* url = "http://hl7.eu/fhir/ig/idea4rc/ConceptMap/hospitalPatientRecords2FHIR"
 * name = "HospitalPatientRecords2FHIR"
 * title = "Hospital Patient Records Model to this guide Map"
 * status = #draft

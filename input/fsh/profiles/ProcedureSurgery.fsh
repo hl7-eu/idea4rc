@@ -6,19 +6,24 @@ Title:    "Procedure: Surgery"
 Description: "This profile defines how to represent Procedures in FHIR for describing a set of Surgery data required by the IDEA4RC project. This porfiles is adapted from the PanCareSurPass Procedure Surgery profile."
 //-------------------------------------------------------------------------------------------
 
-* extension contains SameCustodianFlag named surgeryHospital 0..1
-* extension[surgeryHospital].valueBoolean ^short = "Was this performed at the registering hospital?"
+/* * extension contains SameCustodianFlag named surgeryHospital 0..1
+* extension[surgeryHospital].valueBoolean ^short = "Was this performed at the registering hospital?" */
 
 * extension contains $procedure-category-r5 named ProcedureCategoryR5 0..*
 
-// * extension[ProcedureCategoryR5] insert OpenSlicePatternOnThis
+* extension[ProcedureCategoryR5].valueCodeableConcept insert AdditionalBinding (preferred,
+                              VsSurgicalProcedureCategoryI4rc, 
+                              Vocabulary binding used for Surgery Type)
+* extension[ProcedureCategoryR5].valueCodeableConcept insert AdditionalBinding (preferred,
+                              VsSurgeryIntentionI4rc, 
+                              Vocabulary binding used for Surgery Intent)
 
-* extension ^slicing.discriminator[1].type = #value
+/* * extension ^slicing.discriminator[1].type = #value
 * extension ^slicing.discriminator[=].path = "value"
 * extension[ProcedureCategoryR5] contains type 1..1
 * extension[ProcedureCategoryR5][type].valueCodeableConcept from VsSurgicalProcedureCategoryI4rc
 * extension[ProcedureCategoryR5] contains intent 0..1
-* extension[ProcedureCategoryR5][intent].valueCodeableConcept from VsSurgeryIntentionI4rc
+* extension[ProcedureCategoryR5][intent].valueCodeableConcept from VsSurgeryIntentionI4rc */
 
 * extension contains  $procedure-method named ProcedureMethod 0..*
 * extension[ProcedureMethod].valueCodeableConcept from VsTypeofSurgicalApproachI4rc (extensible)
