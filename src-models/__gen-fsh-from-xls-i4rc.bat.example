@@ -1,0 +1,1 @@
+ <your_python_path>/python.exe <your_script_path>/excel-to-fsh-i4rc.py --config <your_config_path>/config.ini

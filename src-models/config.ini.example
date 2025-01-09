@@ -1,3 +1,3 @@
 [settings]
-input_directory = C:/workspace/idea4rc/src-models
-output_directory = C:/workspace/idea4rc/input/fsh/model-maps
+input_directory = <your_build_env_path>/src-models
+output_directory = <your_build_env_path>/input/fsh/model-maps
