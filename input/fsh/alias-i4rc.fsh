@@ -23,7 +23,6 @@ Alias: $iso21090-SC-coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC
 //============== ALIAS ===============
 Alias: $actor-headneck = http://hl7.eu/fhir/ig/idea4rc/actor-headneck-i4rc
 Alias: $actor-sarcoma-i4rc = http://hl7.eu/fhir/ig/idea4rc/actor-sarcoma-i4rc
-// Alias: $obligation = http://hl7.org/fhir/tools/StructureDefinition/obligation
 Alias: $obligation = http://hl7.org/fhir/StructureDefinition/obligation
 
 
