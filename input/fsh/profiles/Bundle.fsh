@@ -20,7 +20,7 @@ Description: "This profile defines how to represent a Bundle in FHIR for the pur
   * request ..0
   * response ..0
 
-* entry ^slicing.discriminator[0].type = #pattern
+* entry ^slicing.discriminator[0].type = #value
 * entry ^slicing.discriminator[0].path = "resource"
 // * entry ^slicing.ordered = true => changed on 2023-07-19  to be checked
 * entry ^slicing.ordered = false

@@ -82,20 +82,20 @@ pages:
     title: PatientFollowUp Relationships
   EpisodeEvent-map.html:
     title: EpisodeEvent Relationships
-  OtherTreatment-map.html:
-    title: OtherTreatment Relationships
+ # OtherTreatment-map.html:
+ #   title: OtherTreatment Relationships
   HospitalPatientRecords-map.html:
     title: HospitalPatientRecords Relationships
-  HnStage-map.html:
-    title: HnStage Relationships
+ # HnStage-map.html:
+ #   title: HnStage Relationships
   CancerEpisode-map.html:
     title: CancerEpisode Relationships
   AdverseEvent-map.html:
     title: AdverseEvent Relationships
   GeneticTestExpression-map.html:
     title: GeneticTestExpression Relationships
-  SarcomaStage-map.html:
-    title: SarcomaStage Relationships
+ # SarcomaStage-map.html:
+ #   title: SarcomaStage Relationships
   Surgery-map.html:
     title: Surgery Relationships
   Radiotherapy-map.html:
@@ -118,7 +118,7 @@ menu:
   #   Examples: examples.html
   # Maturity Model: maturity.html
 
-  Profiles (wip):
+  Profiles:
     Condition-secondaryCancer-eu-i4rc: Condition-secondaryCancer-eu-i4rc.html
     Encounter-eu-i4rc: Encounter-eu-i4rc.html
     Condition-primaryCancer-eu-i4rc: Condition-primaryCancer-eu-i4rc.html
@@ -127,17 +127,17 @@ menu:
     episodeOfCare-eu-i4rc: episodeOfCare-eu-i4rc.html
     MedicationAdministration-eu-i4rc: MedicationAdministration-eu-i4rc.html
   
-  Model Map (wip):
+  Model Map:
     Subject: Subject-map.html
     PatientFollowUp: PatientFollowUp-map.html
     EpisodeEvent: EpisodeEvent-map.html
-    OtherTreatment: OtherTreatment-map.html
+  #  OtherTreatment: OtherTreatment-map.html
     HospitalPatientRecords: HospitalPatientRecords-map.html
-    HnStage: HnStage-map.html
+   # HnStage: HnStage-map.html
     CancerEpisode: CancerEpisode-map.html
     AdverseEvent: AdverseEvent-map.html
     GeneticTestExpression: GeneticTestExpression-map.html
-    SarcomaStage: SarcomaStage-map.html
+  #  SarcomaStage: SarcomaStage-map.html
     Surgery: Surgery-map.html
     Radiotherapy: Radiotherapy-map.html
 
@@ -211,13 +211,13 @@ resources:
     description: It shows how the Hospital Patient Records model is mapped into this guide
 
 
-  ConceptMap/sarcomaStage2FHIR:
-    name: Sarcoma Stage Model to this guide Map
-    description: It shows how the  Sarcoma Stage model is mapped into this guide
+ # ConceptMap/sarcomaStage2FHIR:
+ #   name: Sarcoma Stage Model to this guide Map
+ #   description: It shows how the  Sarcoma Stage model is mapped into this guide
 
-  ConceptMap/hNstage2FHIR:
-    name: Head and Neck Stage Model to this guide Map
-    description: It shows how the Head and Neck model is mapped into this guide
+  # ConceptMap/hNstage2FHIR:
+  #  name: Head and Neck Stage Model to this guide Map
+  #  description: It shows how the Head and Neck model is mapped into this guide
 
 
   StructureDefinition/Subject:
@@ -232,13 +232,13 @@ resources:
     name: Episode Event
     description: IDEA4RC Episode Event common model
 
-  StructureDefinition/HnStage:
-    name: Head and Neck Stage
-    description: IDEA4RC Head and Neck Stage common model
+#  StructureDefinition/HnStage:
+#    name: Head and Neck Stage
+#    description: IDEA4RC Head and Neck Stage common model
 
-  StructureDefinition/SarcomaStage:
-    name: Sarcoma Stage
-    description: IDEA4RC Sarcoma Stage common model
+#  StructureDefinition/SarcomaStage:
+#    name: Sarcoma Stage
+#    description: IDEA4RC Sarcoma Stage common model
 
 
     
@@ -258,9 +258,9 @@ resources:
     name: Genetic Test Expression
     description: IDEA4RC Genetic Test Expression common model
 
-  StructureDefinition/TreatmentResponse:
-    name: Treatment Response
-    description: IDEA4RC Treatment Response common model
+  # StructureDefinition/TreatmentResponse:
+  #  name: Treatment Response
+  #  description: IDEA4RC Treatment Response common model
 
   StructureDefinition/AdverseEvent:
     name: Adverse Event
@@ -274,13 +274,13 @@ resources:
     name: Patient Follow-Up
     description: IDEA4RC Patient Follow Up common model
 
-  StructureDefinition/PathologicalReportInfo:
-    name: Pathological Report Info
-    description: IDEA4RC Pathological Report Info common model
+ # StructureDefinition/PathologicalReportInfo:
+ #   name: Pathological Report Info
+#    description: IDEA4RC Pathological Report Info common model
 
-  StructureDefinition/OtherTreatment:
-    name: Other Local Treatment
-    description: IDEA4RC Patient Other Local Treatment common model
+ # StructureDefinition/OtherTreatment:
+#    name: Other Local Treatment
+ #   description: IDEA4RC Patient Other Local Treatment common model
 
 
 
@@ -302,18 +302,18 @@ groups:
       - StructureDefinition/Subject
       - StructureDefinition/CancerEpisode
       - StructureDefinition/EpisodeEvent
-      - StructureDefinition/SarcomaStage
-      - StructureDefinition/HnStage
+  #    - StructureDefinition/SarcomaStage
+  #    - StructureDefinition/HnStage
       - StructureDefinition/SystemicTreatment
       - StructureDefinition/Surgery
       - StructureDefinition/Radiotherapy
       - StructureDefinition/GeneticTestExpression
-      - StructureDefinition/TreatmentResponse
+  #    - StructureDefinition/TreatmentResponse
       - StructureDefinition/AdverseEvent
       - StructureDefinition/HospitalPatientRecords
       - StructureDefinition/PatientFollowUp
-      - StructureDefinition/PathologicalReportInfo
-      - StructureDefinition/OtherTreatment
+   #   - StructureDefinition/PathologicalReportInfo
+   #   - StructureDefinition/OtherTreatment
 
   LogicalModel2FHIR:
     name:  IDEA4RC Common Models Maps
@@ -321,8 +321,8 @@ groups:
     resources:
       - ConceptMap/subject2FHIR
       - ConceptMap/cancerEpisode2FHIR
-      - ConceptMap/sarcomaStage2FHIR
-      - ConceptMap/hNstage2FHIR
+ #     - ConceptMap/sarcomaStage2FHIR
+ #     - ConceptMap/hNstage2FHIR
      #  - ConceptMap/treatmentResponse2FHIR
       - ConceptMap/geneticTest2FHIR
 #      - ConceptMap/pathologicalStage2FHIR
@@ -343,7 +343,7 @@ groups:
       - StructureDefinition/patient-eu-i4rc
       - StructureDefinition/observation-tobaccouse-eu-i4rc
       - StructureDefinition/observation-alcoholuse-eu-i4rc
-      - StructureDefinition/observation-karnofsky-performance-statuseu-i4rc
+      - StructureDefinition/observation-karnofsky-performance-status-eu-i4rc
       - StructureDefinition/observation-ecog-performance-status-eu-i4rc
       - StructureDefinition/observation-comorbidity-eu-i4rc
       - StructureDefinition/observation-cci-eu-i4rc

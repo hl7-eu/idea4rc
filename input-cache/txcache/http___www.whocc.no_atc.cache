@@ -1309,8 +1309,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:e5552f41-4a5f-48bf-85a0-f4db2a88c235",
-    "timestamp" : "2024-07-16T13:04:20.536Z",
+    "identifier" : "urn:uuid:e0001668-75bf-4659-b747-fe9571904b54",
+    "timestamp" : "2025-01-12T17:23:09.632Z",
     "total" : 266,
     "offset" : 0,
     "parameter" : [{
@@ -2680,10 +2680,12 @@ e: {
 }}####
 v: {
   "code" : "L01XC04",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XC04' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2719,10 +2721,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE01",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE01' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2758,10 +2762,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE02",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE02' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2797,10 +2803,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE03",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE03' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2836,10 +2844,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE04",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE04' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2875,10 +2885,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE05",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE05' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2914,10 +2926,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE06",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE06' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2953,10 +2967,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE07",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE07' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2992,10 +3008,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE08",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE08' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3031,10 +3049,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE09",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE09' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3070,10 +3090,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE10",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE10' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3109,10 +3131,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE11",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE11' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3148,10 +3172,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE12",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE12' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3187,10 +3213,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE13",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE13' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3226,10 +3254,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE14",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE14' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3265,10 +3295,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE15",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE15' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3304,10 +3336,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE16",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE16' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3343,10 +3377,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE17",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE17' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3382,10 +3418,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE18",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE18' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3421,10 +3459,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE19",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE19' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3460,10 +3500,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE21",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE21' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3499,10 +3541,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE22",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE22' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3538,10 +3582,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE23",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE23' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3577,10 +3623,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE24",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE24' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3616,10 +3664,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE25",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE25' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3655,10 +3705,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE26",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE26' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3694,10 +3746,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE27",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE27' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3733,10 +3787,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE28",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE28' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3772,10 +3828,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE29",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE29' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3811,10 +3869,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE31",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE31' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3850,10 +3910,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE32",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE32' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3889,10 +3951,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE33",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE33' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3928,10 +3992,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE34",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE34' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -3967,10 +4033,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE35",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE35' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4006,10 +4074,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE36",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE36' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4045,10 +4115,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE37",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE37' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4084,10 +4156,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE38",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE38' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4123,10 +4197,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE39",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE39' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4162,10 +4238,12 @@ v: {
 }}####
 v: {
   "code" : "L01XE40",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE40' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4201,10 +4279,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX09",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX09' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4240,10 +4320,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX14",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX14' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4279,10 +4361,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX17",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX17' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4318,10 +4402,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX19",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX19' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4357,10 +4443,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX22",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX22' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4396,10 +4484,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX25",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX25' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4435,10 +4525,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX32",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX32' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4474,10 +4566,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX38",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX38' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4513,10 +4607,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX39",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX39' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4552,10 +4648,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX42",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX42' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4591,10 +4689,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX43",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX43' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4630,10 +4730,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX45",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX45' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4669,10 +4771,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX46",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX46' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4708,10 +4812,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX47",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX47' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4747,10 +4853,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX48",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX48' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4786,10 +4894,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX49",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX49' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4825,10 +4935,12 @@ v: {
 }}####
 v: {
   "code" : "L01XX50",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX50' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4864,10 +4976,12 @@ v: {
 }}####
 v: {
   "code" : "L03AB90",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L03AB90' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -4903,10 +5017,12 @@ v: {
 }}####
 v: {
   "code" : "L04AC06",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L04AC06' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
   "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -6943,6 +7059,7 @@ v: {
 }}####
 v: {
   "code" : "L01XC04",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XC04' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -7604,6 +7721,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE01",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE01' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -7644,6 +7762,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE02",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE02' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -7684,6 +7803,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE03",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE03' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -7724,6 +7844,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE04",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE04' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -7764,6 +7885,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE05",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE05' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -7804,6 +7926,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE06",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE06' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -7844,6 +7967,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE07",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE07' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -7884,6 +8008,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE08",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE08' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -7924,6 +8049,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE09",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE09' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -7964,6 +8090,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE10",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE10' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8004,6 +8131,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE11",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE11' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8044,6 +8172,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE12",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE12' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8084,6 +8213,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE13",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE13' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8124,6 +8254,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE14",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE14' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8164,6 +8295,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE15",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE15' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8204,6 +8336,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE16",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE16' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8244,6 +8377,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE17",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE17' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8284,6 +8418,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE18",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE18' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8324,6 +8459,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE19",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE19' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8364,6 +8500,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE21",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE21' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8404,6 +8541,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE22",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE22' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8444,6 +8582,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE23",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE23' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8484,6 +8623,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE24",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE24' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8524,6 +8664,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE25",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE25' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8564,6 +8705,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE26",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE26' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8604,6 +8746,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE27",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE27' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8644,6 +8787,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE28",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE28' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8684,6 +8828,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE29",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE29' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8724,6 +8869,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE31",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE31' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8764,6 +8910,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE32",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE32' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8804,6 +8951,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE33",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE33' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8844,6 +8992,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE34",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE34' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8884,6 +9033,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE35",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE35' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8924,6 +9074,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE36",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE36' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -8964,6 +9115,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE37",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE37' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9004,6 +9156,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE38",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE38' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9044,6 +9197,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE39",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE39' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9084,6 +9238,7 @@ v: {
 }}####
 v: {
   "code" : "L01XE40",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XE40' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9285,6 +9440,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX09",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX09' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9371,6 +9527,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX14",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX14' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9434,6 +9591,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX17",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX17' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9497,6 +9655,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX19",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX19' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9537,6 +9696,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX22",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX22' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9623,6 +9783,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX25",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX25' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9709,6 +9870,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX32",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX32' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9841,6 +10003,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX38",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX38' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9881,6 +10044,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX39",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX39' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -9967,6 +10131,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX42",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX42' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -10007,6 +10172,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX43",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX43' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -10070,6 +10236,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX45",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX45' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -10110,6 +10277,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX46",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX46' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -10150,6 +10318,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX47",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX47' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -10190,6 +10359,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX48",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX48' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -10230,6 +10400,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX49",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX49' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -10270,6 +10441,7 @@ v: {
 }}####
 v: {
   "code" : "L01XX50",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L01XX50' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -11621,6 +11793,7 @@ v: {
 }}####
 v: {
   "code" : "L03AB90",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L03AB90' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -12949,6 +13122,7 @@ v: {
 }}####
 v: {
   "code" : "L04AC06",
+  "system" : "http://www.whocc.no/atc",
   "severity" : "error",
   "error" : "Unknown code 'L04AC06' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05'",
   "class" : "UNKNOWN",
@@ -14678,8 +14852,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:3902af56-8bb4-497e-b963-853a778e2074",
-    "timestamp" : "2024-07-16T15:46:26.581Z",
+    "identifier" : "urn:uuid:4f74dcf7-bc9e-489e-b96b-d748ff2b7aad",
+    "timestamp" : "2025-01-12T18:04:09.649Z",
     "total" : 266,
     "offset" : 0,
     "parameter" : [{

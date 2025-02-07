@@ -16,7 +16,7 @@ Description: "This profile constrains the Observation resource to represent Toba
 * value[x] 0..0
 
 * component 1..
-* component ^slicing.discriminator.type = #pattern
+* component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open
 * component ^slicing.description = "Slice based on the component code"

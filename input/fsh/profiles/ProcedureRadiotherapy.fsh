@@ -135,7 +135,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 
 * insert ProcedureRadiotherapyI4rcRules
 * category 1..1 
-* category.coding ^slicing.discriminator.type = #pattern
+* category.coding ^slicing.discriminator.type = #value
 * category.coding ^slicing.discriminator.path = "$this"
 * category.coding ^slicing.rules = #open
 * category.coding ^slicing.description = "Slice based on the values set binding"

@@ -5,9 +5,9 @@ Description: "Procedure: Isolated limb perfusion. With Macroscopic residual tumo
 Usage: #example
 
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-surgery-eu-i4rc"
-* extension[surgeryHospital].valueBoolean = true
-* extension[ProcedureCategoryR5][type].valueCodeableConcept = $athena#4315400 "Local excision"
-* extension[ProcedureCategoryR5][intent].valueCodeableConcept = $athena#4162591 "Curative - procedure intent"
+// * extension[surgeryHospital].valueBoolean = true
+* extension[ProcedureCategoryR5][+].valueCodeableConcept = $athena#4315400 "Local excision"
+* extension[ProcedureCategoryR5][+].valueCodeableConcept = $athena#4162591 "Curative - procedure intent"
 
 
 
