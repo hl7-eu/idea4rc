@@ -33,7 +33,7 @@ Description: "Current Smoking Status: Athena"
 * $athena#36309332 "Current smoker" // 	LA20356-4
 * $athena#45883458 "Former smoker" // LA15920-4
 * $athena#45879404 "Never smoker" //	LA18978-9	
-
+* $athena#1585856 "Lifestyle:Smoking"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsTobaccoProductI4rc
@@ -47,4 +47,4 @@ Description: "Tobacco Product based on the Athena system"
 * $athena#36716475 "Cigarettes"  
 * $athena#36716476 "Cigar"  
 * $athena#4129922 "Unknown"  
-* $athena#1585856 "Lifestyle:Smoking"
+
