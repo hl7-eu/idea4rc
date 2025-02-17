@@ -10,3 +10,4 @@ Description: """Codes identifying the type of cancenr event: e.g. Progression, S
 * $athena#32949 "Progression"
 * $athena#4097297 "Recurrence"
 * $athena#32948 "Stable disease"
+* $athena#32948 "Stable prova"
