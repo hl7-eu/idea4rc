@@ -47,4 +47,4 @@ Description: "Tobacco Product based on the Athena system"
 * $athena#36716475 "Cigarettes"  
 * $athena#36716476 "Cigar"  
 * $athena#4129922 "Unknown"  
-
+* $athena#1585856 "Lifestyle:Smoking"
