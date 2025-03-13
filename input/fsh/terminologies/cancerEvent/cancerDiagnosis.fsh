@@ -1,6 +1,6 @@
-ValueSet: CancerDiagnosisVS
-Id: cancer-diagnosis-athena-vs
-Title: "Cancer diagnosis: Athena"
+ValueSet:  Cancerhystologysubgroup
+Id: cancer-hystology-subgroup-Athena-vs
+Title: " Cancer hystology subgroup: Athena"
 Description: "Codes identifying the type of cancer."
 
 
