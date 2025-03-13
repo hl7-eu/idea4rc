@@ -14,6 +14,5 @@ Description: "Codes identifying codindins beloging to the Histology Odontogenic 
 * $athena#37116887 "Intraosseous carcinoma developed on odontogenic cyst"
 // Sclerosing odontogenic carcinoma
 * $athena#4098585 "Odontogenic tumor, malignant"
-
 * $athena#37116966 "Clear cell odontogenic carcinoma"
 * $athena#4005818 "Gosht cell odontogenic carcinoma"

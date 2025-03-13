@@ -10,7 +10,6 @@ Description: "Codes identifying codindins beloging to the Vascular Tumours group
 * $athena#3661612 "Angiosarcoma"
 * $athena#4281384 "Hemangioendothelioma"
 * $athena#4030139 "Spindle cell hemangioendothelioma"
-
 * $athena#45766493 "Retiform haemangioendothelioma"
 * $athena#4030138 "Endovascular papillary angioendothelioma"
 * $athena#45766494 "Composite haemangioendothelioma"

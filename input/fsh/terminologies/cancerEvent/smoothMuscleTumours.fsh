@@ -11,7 +11,6 @@ Description: "Codes identifying codindins beloging to the Smooth Muscle Tumours 
 * $athena#607803 "Epithelioid smooth muscle tumor of uncertain malignant potential"
 * $athena#600675 "Myxoid smooth muscle tumour of uncertain mailgnant potential"
 * $athena#37151903 "Leiomyosarcoma"
-
 // * $athena# "Spindle smooth muscle tumor of uncertain malignant potential"
 * $athena#4029023 "Metastasizing leiomyoma"
 * $athena#4201415 "Leiomyosarcoma"

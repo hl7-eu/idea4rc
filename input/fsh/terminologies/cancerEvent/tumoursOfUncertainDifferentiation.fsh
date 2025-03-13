@@ -18,11 +18,9 @@ Description: "Codes identifying codindins beloging to the Tumors Of Uncertain Di
 * $athena#4339208 "Alveolar soft part sarcoma"
 * $athena#4155072 "Clear cell sarcoma"
 * $athena#4297345 "Extraskeletal myxoid chondrosarcoma"
-
 * $athena#4328092 "Myxoid chondrosarcoma"
 * $athena#4029522 "Desmoplastic small round cell tumor"
 * $athena#4299132 "Extrarenal rhabdoid tumor"
-
 * $athena#4307938 "Malignant rhabdoid tumor"
 * $athena#45771358 "Perivascular epithelioid tumor, benign"
 * $athena#45766447 "Perivascular epithelioid tumor, malignant"
@@ -37,7 +35,6 @@ Description: "Codes identifying codindins beloging to the Tumors Of Uncertain Di
 * $athena#45766485 "Phosphaturic mesenchymal tumour, malignant"  
 * $athena#4029526 "Angiomatoid fibrous histiocytoma"
 * $athena#2000100019 "NTRK-rearranged spindle cell neoplasm (emerging)"
-
 * $athena#45766485 "Phosphaturic mesenchymal tumour, malignant"
 * $athena#4239956 "Aggressive angiomyxoma"
 
