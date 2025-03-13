@@ -10,7 +10,7 @@ Description: "Codes identifying codindins beloging to the Histology Subgroup Adi
 * $athena#4284833 "Dedifferentiated liposarcoma"
 * $athena#4101123 "Myxoid liposarcoma"
 * $athena#4010104 "Pleomorphic liposarcoma"
-* $athena#4300687 "Myxoid pleomorphic liposarcoma"
+* $athena#1243142 "Myxoid pleomorphic liposarcoma"
 
 
 /* "Atypical lipomatous tumour/ Liposarcoma, well-differentiated, NOS

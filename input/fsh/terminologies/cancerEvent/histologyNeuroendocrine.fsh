@@ -10,6 +10,10 @@ Description: "Codes identifying codindins beloging to the Histology Neuroendocri
 * $athena#37018672 "Poorly differentiated neuroendocrine carcinoma"
 // * $athena# "small cell (grade 3)"
 * $athena#4029971 "Large cell neuroendocrine carcinoma (LCNEC)"
+* $athena#4133828 "Neuroendocrine tumor grade 1"  
+* $athena#4133297 "Neuroendocrine tumor grade 2"  
+* $athena#1242310 "Neuroendocrine carcinoma"  
+
 // * $athena# "Poorly differentiated neuroendocrine carcinoma, large cell (grade 3)"
 /* * $athena# "Well-differentiated neuroendocrine carcinoma, "
 * $athena# "Middle ear carcinoid tumor"

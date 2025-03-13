@@ -7,11 +7,22 @@ Description: "Codes identifying codindins beloging to the Histology Squamous gro
 * ^experimental = false
 
 * $athena#4078953 "Keratinizing squamous cell carcinoma, epidermoid carcinoma"
+* $athena#4166826 "Squamous cell carcinoma, large cell, nonkeratinizing"
+* $athena#2000100012 "Non-keratinizing squamous cell carcinoma: SMARCB1 (INI-1)-deficient Sinonasal Carcinoma"
+* $athena#2000100013 "Non-keratinizing squamous cell carcinoma: Transitional (cylindrical cell, Schneiderian) carcinoma"
+* $athena#2000100014 "Spindle cell (sarcomatoid) squamous cell carcinoma: SMARCB1 (INI-1)"
+
 * $athena#4147603 "Non-keratinizing squamous cell carcinoma"
 // * $athena#1  Non-keratinizing squamous cell carcinoma: SMARCB1 (INI-1)-deficient Sinonasal Carcinoma - (This should be a modifier? not clear)
 * $athena#4206785 "Non-keratinizing squamous cell carcinoma: Transitional (cylindrical cell, Schneiderian) carcinoma"
 * $athena#4277415 "Spindle cell (sarcomatoid) squamous cell carcinoma"
-// * $athena#1 Spindle cell (sarcomatoid) squamous cell carcinoma: SMARCB1 (INI-1)-deficient Sinonasal Carcinoma -  (This should be a modifier? not clear)
+// * $athena# Spindle cell (sarcomatoid) squamous cell carcinoma: SMARCB1 (INI-1)-deficient Sinonasal Carcinoma -  (This should be a modifier? not clear)
+* $athena#4009590 "Squamous cell carcinoma, spindle cell"
+* $athena#4312219 "Adenoid squamous cell carcinoma"
+* $athena#4052146 "Squamous cell carcinoma, microinvasive"
+* $athena#4175678 "Giant cell carcinoma"
+* $athena#4233949 "Verrucous carcinoma"
+
 * $athena#4247661 "Lymphoepithelial carcinoma, lymphoepithelioma like carcinoma"
 * $athena#4029973 "Basaloid squamous cell carcinoma"
 * $athena#4298030 "Verrucous squamous cell carcinoma: NOS, cuniculatum carcinoma/Ackerman tumor"
