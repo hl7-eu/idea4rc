@@ -3,7 +3,7 @@
 ValueSet: CancerDiagnosisVS
 Id: cancer-diagnosis-athena-VS  
 Title: "Cancer Diagnosis: Athena"
-Description: ""
+Description: "Codes identifying the condition for HNC and sarcome"
 
 
 * ^experimental = false
@@ -15,7 +15,7 @@ Description: ""
 ValueSet: HNCConditionLIstVS
 Id: HNC-condition-athena-vs
 Title: "HNC COnditionLIst: Athena"
-Description "Codes identifying the condition for HNC"
+Description: "Codes identifying the condition for HNC"
 
 * ^experimental = false
 * $athena#44501515 "Squamous cell carcinoma, large cell, nonkeratinizing, NOS, of maxillary sinus"
