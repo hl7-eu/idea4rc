@@ -6,7 +6,7 @@ Description: "Codes identifying codindins beloging to the Undifferentiated small
 
 * ^experimental = false
 
-* $athena#45766528 "Ewing sarcoma"
+* $athena#45766528 "Ewing sarcoma / peripheral neuroectodermal tumor "
 * $athena#37155974 "Round cell sarcoma with EWSR1–non-ETS fusions"  
 * $athena#37152438 "CIC-rearranged sarcoma"  
 * $athena#37152440 "Sarcoma with BCOR genetic alterations"  

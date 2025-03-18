@@ -1,7 +1,39 @@
+ValueSet: CancerHystologySubgroupVS
+Id: cancer-hystology-subgroup-athena-vs  
+Title: "Cancer hystology subgroup: Athena"
+Description: "Codes identifing the histology subgropu of the cancer."
+
+
+* ^experimental = false
+* codes from valueset HistologyAdenocarcinomaVS
+* codes from valueset HistologyNeuroendocrineVS
+* codes from valueset HistologyOdontogenicCarcinomaVS
+* codes from valueset HistologySNUCVS
+* codes from valueset HistologySquamousVS
+* codes from valueset HistologySubgroupAdipocyticTumoursVS
+* codes from valueset HistologySubgroupFmtTumoursVS
+* codes from valueset HistologySocalledFibrohistiocyticTumoursVS
+* codes from valueset MiscellaniousMesenchimalTumorsVS
+* codes from valueset MixedEpithelialAndMesenchymalTumoursVS
+* codes from valueset PericyticPerivascularTumoursVS
+* codes from valueset PeripheralNerveSheathTumoursVS
+* codes from valueset SkeletalMuscleTumoursVS
+* codes from valueset SmoothMuscleTumoursVS
+* codes from valueset TumoursOfUncertainDifferentiationVS
+* codes from valueset UndifSmallRCelSarcBonAndSofTisVS
+* codes from valueset VascularTumoursVS
+* codes from valueset ChondroOsseousTumoursVS
+* codes from valueset EstAndRelatedTumoursVS
+
+
+
+
+
+
 ValueSet: CancerHystolgyVs
 Id: Cancer-hystology-athena-vs
-Title:" Cancer hystology: Athena"
-Description: "Codes identifying the type of cancer."
+Title:"Cancer hystology: Athena"
+Description: "Codes identifying the hystology of cancer."
 
 
 *^experimental = false
