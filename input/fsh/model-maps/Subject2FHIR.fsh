@@ -20,7 +20,7 @@ Usage: #definition
 * group[=].element[=].display = "Charlson Comorbidity index (R)"
 * group[=].element[=].target.code = #Observation.valueInteger
 * group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.comment = "where obseravtion.code =  $sct#762713009 Charlson Comorbidity Index"
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-comorbidity-eu-i4rc"
@@ -203,7 +203,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].display = "Eastern Cooperative Oncology Group performance status (ECOG PS)  at diagnosis (R)"
 * group[=].element[=].target.code = #Observation.valueCodeableConcept
 * group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.comment = "where obseravtion.code =  $loinc#89247-1 ECOG Performance Status score"
 * group[=].element[+].code = #ecogPsLabel
 * group[=].element[=].display = "ECOG PS label (R)"
@@ -216,7 +216,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].display = "Karnofsy index at diagnosis (R)"
 * group[=].element[=].target.code = #Observation.valueInteger
 * group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #karnofsyIndexLabel
 * group[=].element[=].display = "Karnofsy index label (R)"
 * group[=].element[=].target.code = #Observation.interpretation
@@ -281,4 +281,4 @@ For examplification purposes only the comorbidConditionPresent extension is show
  (R)"
 * group[=].element[=].target.code = #Observation.valueQuantity
 * group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target.equivalence = #equivalent

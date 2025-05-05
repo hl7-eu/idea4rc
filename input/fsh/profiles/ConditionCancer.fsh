@@ -12,9 +12,13 @@ RuleSet: CancerConditionCommonRules
 // * extension[histologyMorphologyBehavior].value[x]
 /* * extension[histologyMorphologyBehavior].value[x] from VsICDO3Morphology (required) */
 
-
 * extension contains PreviousStatus named previousStatus 0..1
 * extension[previousStatus]
+
+* extension contains HistologyMorphologyBehavior named histology-morphology-behavior 0..2
+* extension[HistologyMorphologyBehavior]
+
+
 
 * extension contains RelapseType named relapseType 0..1 
 * extension[relapseType].value[x]
@@ -36,6 +40,10 @@ It is envisioned that this kind of requirements could be covered by recording wh
 
 
 * bodySite
+/* extension contains bodySite:site named site 0..2
+* extension [site].valueCodeableConcept from sitesVs/
+/*extension contains bodySite:subsite named subsite 0..*
+*extension[subSite].valueCodeableConcept from VsSubsiteAthenaI4rc*/
   * extension contains BodyLocationQualifier named qualifier 0..*
   * extension[qualifier].valueCodeableConcept from VsSiteQualifierI4rc (extensible)
     * insert AdditionalBinding (preferred, $mcode-body-location-qualifier-vs, mCode value set)
@@ -44,7 +52,6 @@ It is envisioned that this kind of requirements could be covered by recording wh
   * extension[laterality].valueCodeableConcept from LateralityQualifierVS (extensible)
 
 
-//====== Profiles =====================================
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ObservationDiagnosisI4rc
@@ -91,7 +98,7 @@ Description: "This profile defines how to represent Primary Cancer Condition in 
 This profile is inspired from the [mCode IG](http://build.fhir.org/ig/HL7/fhir-mCODE-ig). 
 A primary cancer condition, the original or first tumor in the body (Definition from: [NCI Dictionary of Cancer Terms]( https://www.cancer.gov/publications/dictionaries/cancer-terms/def/primary-tumor)).  Cancers that are not clearly secondary (i.e., of uncertain origin or behavior) should be documented as primary.
 This profile should be also used for documenting primary cancer relapses during or after FLT."
-//-------------------------------------------------------------------------------------------
+
 
 * extension contains $condition-occurredFollowing named condition-occurredFollowing 0..*
 * extension[condition-occurredFollowing].valueCodeableConcept 0..0
@@ -135,10 +142,8 @@ This profile should be also used for documenting primary cancer relapses during 
 * stage.type ^definition = "As for mCODE, in IDEA4RC staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the staging system MAY appear in this element, but Data Senders and Receivers MAY ignore it."
 // * stage.type from CancerStageGroupVS (required)
 
-
-* bodySite from VsSubsiteAthenaI4rc (extensible)
+* bodySite from sitesVs (extensible)
 //   * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites)
-
 
 /* * evidence ^slicing.discriminator.type = #value
 * evidence ^slicing.discriminator.path = "$this.resolve()"

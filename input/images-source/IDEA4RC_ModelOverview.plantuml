@@ -41,6 +41,10 @@ object "CancerEpisode" as ce #E5CCFF {
 }
 url of ce [[StructureDefinition-CancerEpisode.html]]
 
+object "Diagnosis" as d #E5CCFF {
+}
+url of d [[StructureDefinition-Diagnosis.html]]
+
 object "EpisodeEvent" as ee #E5CCFF {
 }
 url of ee [[StructureDefinition-EpisodeEvent.html]]
@@ -88,7 +92,10 @@ hd "1" ||--|{ "1..N" hpr
 p "1" ||--o{ "0..N" ce
 p "1" ||--o{ "0..N" pfu
 
-ce "1" ||--|{ "1..N" ee
+ce "1" ||--o{ "1" d
+
+d "1" ||--|{ "1..N" ee
+
 ee "1" ||--o| "0..1" hs
 ee "1" ||--o| "0..1" ss
 st "1" ||--|{ "0..N" dft
@@ -108,3 +115,4 @@ st "0..N" ||--o{ "1" ae
 r "1" ||--o{ "0..N" ae
 
 @enduml
+

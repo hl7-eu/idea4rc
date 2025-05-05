@@ -49,6 +49,26 @@ Description: "This extension provides a mean to indicate the previous clinicalSt
 * value[x] only CodeableConcept
 * valueCodeableConcept from $vs-condition-clinical
 
+Extension: HistologyMorphologyBehavior
+Id:   condition-histology-morphology-behavior
+Title:  "Histology Morphology Behavior"
+// Da inserire la descrizione
+Description: "This extension provides a mean to indicate the histology behaviours of a condition"
+// publisher, contact, and other metadata here using caret (^) syntax (omitted)
+* insert ExtensionContext(Condition)
+* value[x] 1..1
+* value[x] only CodeableConcept
+* valueCodeableConcept from CancerHistologyBehaviourVS
+
+
+
+
+
+
+
+
+
+
 Extension: ConditionRelated
 Id: mcode-condition-related
 Title:  "Condition related to resource"
