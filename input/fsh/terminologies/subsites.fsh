@@ -3,24 +3,161 @@ Id: nasal-subsite-athena-i4rc
 Title: "Subsites: Athena"
 Description: "Specifies the subsites where cancers occured: Athena"
 //-------------------------------------------------------------------------------------------
-* ^status = #active
+//* ^status = #active*/
 * ^experimental = false
 
-* codes from valueset VsNasalandParanasalSubsiteAthenaI4rc
-* codes from valueset VsNasopharynxSubsiteAthenaI4rc
-* codes from valueset VsHypopharynxSubsiteAthenaI4rc
-* codes from valueset VsOropharynxSubsiteAthenaI4rc
-* codes from valueset VsLarynxSubsiteAthenaI4rc
-* codes from valueset VsOralCavitySubsiteAthenaI4rc
-* codes from valueset VsLipSubsiteAthenaI4rc
+//* codes from valueset VsNasalandParanasalSubsiteAthenaI4rc
+//* codes from valueset VsNasopharynxSubsiteAthenaI4rc
+//* codes from valueset VsHypopharynxSubsiteAthenaI4rc
+//* codes from valueset VsOropharynxSubsiteAthenaI4rc
+//* codes from valueset VsLarynxSubsiteAthenaI4rc
+//* codes from valueset VsOralCavitySubsiteAthenaI4rc
+//* codes from valueset VsLipSubsiteAthenaI4rc
 
-* codes from valueset UpperLowerLimbsSubsiteAthenaI4rc
-* codes from valueset TrunkWallSubsiteAthenaI4rc
-* codes from valueset IntraAbdominalSubsiteAthenaI4rc
-* codes from valueset IntraThoracicSubsiteAthenaI4rc
-* codes from valueset GenitoUrinarySubsiteAthenaI4rc
+//* codes from valueset UpperLowerLimbsSubsiteAthenaI4rc
+//* codes from valueset TrunkWallSubsiteAthenaI4rc
+//* codes from valueset IntraAbdominalSubsiteAthenaI4rc
+//* codes from valueset IntraThoracicSubsiteAthenaI4rc
+//* codes from valueset GenitoUrinarySubsiteAthenaI4rc
+
+
+* $athena#4088327 "Nasal cavity structure"
+* $athena#4050631 "Maxillary sinus structure"
+* $athena#4182234 "Ethmoid sinus structure"
+* $athena#4204534 "Frontal sinus structure"
+* $athena#4097172 "Sphenoid sinus structure"
+* $athena#4051578 "Nasal sinus structure"
+
+* $athena#4068978 "Structure of superior wall of nasopharynx"
+* $athena#4146741 "Structure of posterior wall of nasopharynx"
+* $athena#4323979 "Structure of lateral wall of nasopharynx"
+* $athena#4220236 "Structure of anterior wall of nasopharynx"
+* $athena#4216712 "Nasopharyngeal structure"
+
+* $athena#4147741 "Structure of postcricoid region"
+* $athena#4262980 "Structure of hypopharyngeal aspect of aryepiglottic fold"
+* $athena#4102600 "Structure of posterior wall of hypopharynx"
+* $athena#4268741 "Structure of piriform recess"
+* $athena#4218592 "Hypopharyngeal structure"
+
+* $athena#4166063 "Parotid gland structure"
+* $athena#4299196 "Submandibular salivary gland structure"
+* $athena#4229131 "Sublingual gland structure"
+* $athena#4100253 "Middle ear structure"
+
+* $athena#4169910 "Structure of root of tongue"
+* $athena#4177005 "Soft palate structure"
+* $athena#4095284 "Uvula palatina structure"
+* $athena#4138234 "Tonsillar fossa structure"
+* $athena#4068841 "Lingual tonsil structure"
+* $athena#4065073 "Palatine arch structure"
+* $athena#4173123 "Structure of vallecula of epiglottis"
+* $athena#4283238 "Structure of anterior surface of epiglottis"
+* $athena#4078066 "Structure of lateral wall of oropharynx"
+* $athena#4045435 "Structure of posterior wall of oropharynx"
+* $athena#4235649 "Embryonic branchial cleft"
+* $athena#4327174 "Palatine tonsillar structure"
+* $athena#4151149 "Oropharyngeal structure"
+
+* $athena#4047227 "Glottis structure"
+* $athena#4001049 "Supraglottis structure"
+* $athena#4002724 "Subglottis structure"
+* $athena#4279711 "Laryngeal cartilage structure"
+* $athena#4262229 "Laryngeal structure"
+
+* $athena#4284551 "Structure of dorsum of tongue"
+* $athena#4077986 "Structure of border of tongue"
+* $athena#4172794 "Structure of inferior surface of tongue"
+* $athena#2000100024 "Anterior 2/3 of tongue NOS"
+* $athena#44498031 "Overlapping lesion of tongue"
+* $athena#4047029 "Structure of gum of maxilla"
+* $athena#4210919 "Structure of gum of mandible"
+* $athena#4181419 "Structure of anterior floor of mouth"
+* $athena#4103066 "Structure of lateral floor of mouth"
+* $athena#44498040 "Overlapping lesion of floor of mouth"
+* $athena#4234542 "Hard palate structure"
+* $athena#4057160 "Buccal mucosa"
+* $athena#4144069 "Structure of vestibule of mouth"
+* $athena#4312102 "Structure of retromolar area of mouth"
+* $athena#44498052 "Overlapping lesion of other and unspecified parts of mouth"
+* $athena#4253672 "Oral cavity structure"
+
+* $athena#4134589 "Structure of vermilion border of upper lip"
+* $athena#4027546 "Structure of vermilion border of lower lip"
+* $athena#4027545 "Structure of vermilion border of lip"
+* $athena#4086480 "Structure of mucous membrane of upper lip"
+* $athena#4245168 "Structure of mucous membrane of lip"
+* $athena#4307358 "Commissure of lips"
+* $athena#4168155 "Lip structure"
+
+* $athena#4310976 "Hand structure"
+* $athena#4220073 "Wrist region structure"
+* $athena#4032953 "Forearm structure"
+* $athena#4027910 "Elbow region structure"
+* $athena#4348994 "Antecubital fossa (surface region)"
+* $athena#4165266 "Upper arm structure"
+* $athena#4211098 "Foot structure"
+* $athena#4142359 "Ankle region structure"
+* $athena#4107527 "Lower leg structure"
+* $athena#4217806 "Knee region structure"
+* $athena#4138531 "Popliteal fossa structure"
+* $athena#4090445 "Upper leg"
+* $athena#4291935 "Deltoid"
+* $athena#4088464 "Supraclavicular"
+* $athena#2000100022 "Periscapular"
+* $athena#4136969 "Trapezius"
+* $athena#2000100023 "Groin Flap"
+* $athena#4263335 "Buttock"
+* $athena#4096078 "Pectoral"
+* $athena#4157836 "Axilla"
+* $athena#4088614 "Joint structure of thoracic wall"
+* $athena#4244412 "Anterior abdominal wall structure"
+* $athena#4330865 "Posterior abdominal wall structure"
+* $athena#4348976 "Paravertebral region"
+* $athena#4289613 "Structure of thoracolumbar region of back"
+* $athena#606482 "Structure of thoracolumbar junction of vertebral column"
+* $athena#4046743 "Structure of cervical vertebral column"
+* $athena#4075118 "Retroperitoneal fascia"
+* $athena#4220536 "Retroperitoneal compartment structure"
+* $athena#4271699 "Inferior vena cava structure"
+* $athena#4193451 "Iliac vessel"
+* $athena#4004831 "Aorta and aorta, CS"
+* $athena#4154880 "Structure of renal artery"
+* $athena#4157844 "Gonadal artery"
+* $athena#4314264 "Structure of mesenteric artery"
+* $athena#4044034 "Pelvic region"
+* $athena#4075991 "Region of esophagus"
+* $athena#4288283 "Stomach structure"
+* $athena#4302112 "Duodenal structure"
+* $athena#4065077 "Jejunal structure"
+* $athena#4316356 "Stricture of ileum"
+* $athena#4215634 "Colon structure"
+* $athena#4144541 "Rectum structure"
+* $athena#4233095 "Mesentery"
+* $athena#4213162 "Lung structure"  
+* $athena#4217142 "Heart structure"  
+* $athena#4150673 "Pleura structure"  
+* $athena#4088610 "Region of mediastinum"  
+* $athena#4167648 "Superior vena cava structure"  
+* $athena#4004831 "Aorta and aorta, CS"  
+* $athena#4035327 "Stricture of pulmonary vessel"  
+* $athena#4272388 "Structure of subclavian artery"  
+* $athena#4051774 "Adrenal structure"  
+* $athena#4271678 "Kidney structure"  
+* $athena#4078617 "Region of ureter"  
+* $athena#4232481 "Urinary bladder structure"  
+* $athena#4165732 "Prostatic structure"  
+* $athena#4277442 "Seminal Vesicle structure"  
+* $athena#4172591 "Spermatic Cord structure"  
+* $athena#4238088 "Testis structure"  
+* $athena#4077311 "Penile structure"  
+* $athena#4149192 "Uterine structure"  
+* $athena#4049448 "Ovarian structure"  
+* $athena#4151444 "Fallopian tube structure"  
+* $athena#4296022 "Vaginal structure"  
+* $athena#4166066 "Vulval structure"  
 * $athena#4298444 "Breast structure"
-
+* $athena#4122633 "Face and/or neck structure"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -38,20 +175,21 @@ Description: "Specifies the subsite for cancers occured in Upper and Lower limbs
 * $athena#4027910 "Elbow region structure"
 * $athena#4348994 "Antecubital fossa (surface region)"
 * $athena#4165266 "Upper arm structure"
-* $athena#4211098 "Foot structur"
+* $athena#4211098 "Foot structure"
 * $athena#4142359 "Ankle region structure"
 * $athena#4107527 "Lower leg structure"
 * $athena#4217806 "Knee region structure"
-* $athena#4138531 "popliteal fossa structure"
+* $athena#4138531 "Popliteal fossa structure"
 * $athena#4090445 "Upper leg"
 * $athena#4291935 "Deltoid"
 * $athena#4088464 "Supraclavicular"
-* $athena#42605854 "Periscapular region"
+* $athena#2000100022 "Periscapular"
 * $athena#4136969 "Trapezius"
-* $athena#4109459 "Groin"
+* $athena#2000100023 "Groin Flap"
 * $athena#4263335 "Buttock"
 * $athena#4096078 "Pectoral"
 * $athena#4157836 "Axilla"
+
 
 
 
@@ -67,6 +205,10 @@ Description: "Specifies the subsite for cancers occurred in Trunk wall: Athena"
 * $athena#4088614 "Joint structure of thoracic wall"
 * $athena#4244412 "Anterior abdominal wall structure"
 * $athena#4330865 "Posterior abdominal wall structure"
+* $athena#4348976 "Paravertebral region"
+* $athena#4289613 "Structure of thoracolumbar region of back"  
+* $athena#606482 "Structure of thoracolumbar junction of vertebral column"  
+* $athena#4046743 "Structure of cervical vertebral column"  
 
 // Paravertebral – thoracolumbar - 
 // Paravertebral – cervical
@@ -81,24 +223,25 @@ Description: "Specifies the subsite for cancers occurred in Intra abdominal: Ath
 * ^status = #active
 * ^experimental = false
 
-
+* $athena#4075118 "Retroperitoneal fascia"
 * $athena#4220536 "Retroperitoneal compartment structure"
 * $athena#4271699 "Inferior vena cava structure"
 * $athena#4193451 "Iliac vessel"
+* $athena#4004831 "Aorta and aorta, CS"
 * $athena#4154880 "Structure of renal artery"
 * $athena#4157844 "Gonadal artery"
 * $athena#4314264 "Structure of mesenteric artery"
 * $athena#WILDCARD* "Other vessels"
-* $athena#4094242 "Renal pelvis structure"
-* $athena#4229753 "Major pelvis structure"
+* $athena#4044034 "Pelvic region"
 * $athena#4075991 "Region of esophagus"
-* $athena#4288283 "Stomach"
+* $athena#4288283 "Stomach structure"
 * $athena#4302112 "Duodenal structure"
 * $athena#4065077 "Jejunal structure"
 * $athena#4316356 "Stricture of ileum"
 * $athena#4215634 "Colon structure"
 * $athena#4144541 "Rectum structure"
 * $athena#4233095 "Mesentery"
+
 
 
 
@@ -117,10 +260,10 @@ Description: "Specifies the subsite for cancers occurred in Intra thoracic: Athe
 * $athena#4150673 "Pleura structure"
 * $athena#4088610 "Region of mediastinum"
 * $athena#4167648 "Superior vena cava structure"
-* $athena#4001033 "Aorta part"
+* $athena#4004831 "Aorta and aorta, CS"
 * $athena#4035327 "Stricture of pulmonary vessel"
 * $athena#4272388 "Structure of subclavian artery"
-* $athena#40776223 "Great vessels"
+
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -132,11 +275,12 @@ Description: "Specifies the subsite for cancers occurred in Genito urinary : Ath
 * ^status = #active
 * ^experimental = false
 
-
+* $athena#4051774 "Adrenal structure"
 * $athena#4047078 "Bilateral adrenal glands"
 * $athena#4271678 "Kidney structure"
 * $athena#4078617 "Region of ureter"
 * $athena#4232481 "Urinary bladder structure"
+* $athena#4165732 "Prostatic structure"
 * $athena#4034365 "Structure of lobe of prostate"
 * $athena#4277442 "Seminal Vescicle structure"
 * $athena#4172591 "Spermatic Cord structure"
@@ -181,6 +325,7 @@ Description: "Specifies the subsite for cancers occured in nasal cavity and para
 * $athena#4182234    "Ethmoid sinus"   
 * $athena#4204534    "Frontal sinus"
 * $athena#4097172    "Sphenoid sinus"  
+* $athena#4051578 "Nasal sinus structure"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsNasalandParanasalSubsiteSnomedI4rc
@@ -205,10 +350,11 @@ Description: "Specifies the subsite for cancers occured in nasopharynx: Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
-* $athena#4068978   "Superior wall of nasopharynx"   
-* $athena#4146741   "Posterior wall of nasopharynx"   
-* $athena#4323979   "Lateral wall of nasopharynx"   
-* $athena#4220236   "Anterior wall of nasopharynx"
+* $athena#4068978 "Superior wall of nasopharynx"   
+* $athena#4146741 "Structure of posterior wall of nasopharynx"   
+* $athena#4323979 "Structure of lateral wall of nasopharynx"   
+* $athena#4220236 "Structure of anterior wall of nasopharyn"
+* $athena#4216712 "Nasopharyngeal structure"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -234,10 +380,15 @@ Description: "Specifies the subsite for cancers occured in hypopharynx: Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
-* $athena#4147741    "Postcricoid region"   
-* $athena#4262980   "Hypopharyngeal aspect of aryepiglottic fold"   
-* $athena#4102600    "Posterior wall of hypopharynx"   
-* $athena#4268741    "Pyriform sinus"
+* $athena#4147741 "Postcricoid region"   
+* $athena#4262980 "Structure of hypopharyngeal aspect of aryepiglottic fold"   
+* $athena#4102600 "Structure of posterior wall of hypopharynx"   
+* $athena#4268741 "Structure of piriform recess"
+* $athena#4218592 "Hypopharyngeal structure"
+* $athena#4166063 "Parotid gland structure"
+* $athena#4299196 "Submandibular salivary gland structure"
+* $athena#4229131 "Sublingual gland structure"
+* $athena#4100253 "Middle ear structure"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -263,17 +414,20 @@ Description: "Specifies the subsite for cancers occured in Oropharynx: Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
-* $athena#4169910    "Base of tongue, NOS"   
-* $athena#4177005   "Soft palate NOS"   
-* $athena#4095284    "Uvula"   
-* $athena#4138234    "Tonsilla fossa"
-* $athena#4068841    "Lingual tonsil"   
-* $athena#4065073   "Tonsillar pillar"   
-* $athena#4173123    "Vallecula"   
-* $athena#4283238    "Anterior surface of epiglottis"
-* $athena#4078066    "Lateral wall oropharynx"   
-* $athena#4045435   "Posterior wall oropharynx"   
-* $athena#4235649    "Branchial cleft (site of neoplosm)"   
+* $athena#4169910 "Structure of root of tongue"
+* $athena#4177005 "Soft palate structure"
+* $athena#4095284 "Uvula palatina structure"
+* $athena#4138234 "Tonsillar fossa structure"
+* $athena#4068841 "Lingual tonsil structure"
+* $athena#4065073 "Palatine arch structure"
+* $athena#4173123 "Structure of vallecula of epiglottis"
+* $athena#4283238 "Structure of anterior surface of epiglottis"
+* $athena#4078066 "Structure of lateral wall of oropharynx"
+* $athena#4045435 "Structure of posterior wall of oropharynx"
+* $athena#4235649 "Embryonic branchial cleft"
+* $athena#4327174 "Palatine tonsillar structure"
+* $athena#4151149 "Oropharyngeal structure"
+  
 
 
 
@@ -308,10 +462,11 @@ Description: "Specifies the subsite for cancers occured in Larynx: Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
-* $athena#4047227    "Glottis"   
-* $athena#4177005   "Supraglottis"   
-* $athena#4002724    "Subglottis"   
-* $athena#4279711    "Laryngeal cartilage"
+* $athena#4047227 "Glottis structure"   
+* $athena#4001049 "Supraglottis structure"   
+* $athena#4002724 "Subglottis structure"   
+* $athena#4279711 "Laryngeal cartilage structure"
+* $athena#4262229 "Laryngeal structure"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsLarynxSubsiteSnomedI4rc
@@ -335,22 +490,24 @@ Description: "Specifies the subsite for cancers occured in oral cavity: Athena"
 
 //-------------------------------------------------------------------------------------------
 * ^status = #active
-* ^experimental = false
-* $athena#36769609    "Dorsal surface tongue, NOS"   
-* $athena#4077986   "Border of tongue"   
-* $athena#4172794    "Ventral surface of tongue"   
-* $athena#4047029    "Upper gum"
-* $athena#4210919    "Lower gum"   
-* $athena#4181419    "Anterior floor of mouth"
-* $athena#4103066    "Lateral floor of mouth"   
-* $athena#44498949   "Overlapping lesion of floor of mouth"   
-* $athena#4234542    "Hard palate"   
-* $athena#4057160    "Cheek mucosa"
-* $athena#4144069    "Vestibule of mouth"   
-* $athena#36769865    "Retromolar area"
-
-* $athena#44498029 "Anterior 2/3 of tongue NOS"
+* ^experimental = false   
+* $athena#4284551 "Structure of dorsum of tongue"
+* $athena#4077986 "Structure of border of tongue"
+* $athena#4172794 "Structure of inferior surface of tongue"
+* $athena#2000100024 "Anterior 2/3 of tongue NOS"
+* $athena#44498031 "Overlapping lesion of tongue"
+* $athena#4047029 "Structure of gum of maxilla"
+* $athena#4210919 "Structure of gum of mandible"
+* $athena#4181419 "Structure of anterior floor of mouth"
+* $athena#4103066 "Structure of lateral floor of mouth"
+* $athena#44498040 "Overlapping lesion of floor of mouth"
+* $athena#4234542 "Hard palate structure"
+* $athena#4057160 "Buccal mucosa"
+* $athena#4144069 "Structure of vestibule of mouth"
+* $athena#4312102 "Structure of retromolar area of mouth"
 * $athena#44498052 "Overlapping lesion of other and unspecified parts of mouth"
+* $athena#4253672 "Oral cavity structure"
+ 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsOralCavitySubsiteSnomedI4rc
@@ -379,12 +536,11 @@ Description: "Specifies the subsite for cancers occured in lip: Athena"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
-* $athena#4027546    "External lower lip"   
-* $athena#4134589   "External upper lip"   
-* $athena#4027545    "External lip"   
-* $athena#36769700    "Mucosa of upper lip"
-* $athena#36768548    "Mucosa of lower lip"   
-* $athena#4245168    "Mucosa of lip"
+* $athena#4027546    "Structure of vermilion border of lower lip"   
+* $athena#4134589    "Structure of vermilion border of upper lip"   
+* $athena#4027545    "Structure of vermilion border of lip"   
+* $athena#4086480    "Structure of mucous membrane of upper lip"
+* $athena#4245168    "Structure of mucous membrane of lip"   
 * $athena#4307358    "Commisure of lip"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -44,7 +44,7 @@ Grade-2 - 1634752
 Grade-3 - 1633749
 Grade-H - 1635587
 Grade-L - 1634085"""
-* histologyGroup 1..* CodeableConcept "Histology group (M)" """HNC: Describes the histology of primary tumour according to WHO 2017 clasification. 
+* histologyGroup 0..* CodeableConcept "Histology group (O)" """HNC: Describes the histology of primary tumour according to WHO 2017 clasification. 
 Codes may not match the exact hierarchy in Athena"""
 * histologyGroup insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * histologyGroup insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
@@ -72,7 +72,7 @@ Undifferentiated small round cell sarcomas of bone and soft tissue - 2000100008
 Endometrial stromal sarcoma - 2000100009
 Miscellanious mesenchimal tumors - 2000100010
 Mixed epithelial and mesenchymal tumours - 2000100011"""
-* site 0..* CodeableConcept "Site (R)" """Describes the primary tumor site. For head and neck, according to AJCC . 
+* site 0..* CodeableConcept "Site (O)" """Describes the primary tumor site. For head and neck, according to AJCC . 
 Codes may not match the exact hierarchy in Athena"""
 * site insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * site insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
@@ -106,31 +106,7 @@ Urinary tract - 36769378
 Central Nervous System - 2000000015
 
 """
-* histologySubgroup 1..* CodeableConcept "Histology subgroup (M)" """Histology subgroup value for the cancer diagnosis. 
-Histology Subgroup adenocarcinoma
-
-Adenocarcinoma, intestinal type - 4097305
-Adenocarcinoma - 37152526
-Cystoadenocarcinoma - 4050978
-Mucinous adenocarcinoma - 4247921
-Ceruminous adenocarcinoma - 4238334
-Papillary adenocarcinoma - 4172953
-Adenoid cystic carcinoma - 4022895
-Mucoepidermoid carcinoma - 4253608
-Polymorphous low grade adenocarcinoma - 4030121
-Acinar cell carcinoma - 4164740
-Clear cell adenocarcinoma - 4148292
-Basal cell adenocarcinoma - 4146684
-Infiltrating duct carcinoma - 4221403
-Juvenile carcinoma of the breast - 4224593
-Paget's disease, extramammary (except Paget's disease of bone) - 4323699
-Malignant myoepithelioma - 4029680
-Epithelial-myoepithelial carcinoma - 4321002
-Carcinoma ex pleomorphic adenoma - 4066512
-Sebaceous adenocarcinoma - 4182993
-Carcinosarcoma - 4271564
-Oxyphilic adenocarcinoma - 4212379
-Cystadenocarcinoma - 4050978"""
+* histologySubgroup 0..* CodeableConcept "Histology subgroup (O)" """Histology subgroup value for the cancer diagnosis. """
 * histologySubgroup insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * histologySubgroup insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * histologySubgroup ^comment = """Squamous cell carcinoma, keratinizing - 4078953
@@ -309,7 +285,7 @@ Langherans cell sarcoma - 4029173
 Fibroblastic reticular cell tumour - 42872917
 Biphenotypic sinonasal sarcoma - 37311513
 Adenosarcoma - 4135215"""
-* subsite 1..* CodeableConcept "Subsite (M)" """Topography subsite value for the cancer diagnosis 
+* subsite 0..* CodeableConcept "Subsite (O)" """Topography subsite value for the cancer diagnosis 
 """
 * subsite insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * subsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
@@ -467,20 +443,20 @@ Any Domain=Spec Anatomic Site and Standard code"""
 * superficialDepth 1..* Quantity "Superficial depth (M)" """Provides the superficial depth of the tumour (for upper and lower limbs and superficial trunk)  superficial (superficial tumour is located exclusively above the investing fascia without invasion of the fascia), deep (deep tumour is located beneath or invade the investing fascia). All the others are deep by definition. 
 """
 * superficialDepth insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* deepDepth 1..* Quantity "Deep depth  (M)" """Provides the deep depth of the tumour (for upper and lower limbs and superficial trunk)  superficial (superficial tumour is located exclusively above the investing fascia without invasion of the fascia), deep (deep tumour is located beneath or invade the investing fascia). All the others are deep by definition 
+* deepDepth 1..* Quantity "Deep depth (M)" """Provides the deep depth of the tumour (for upper and lower limbs and superficial trunk)  superficial (superficial tumour is located exclusively above the investing fascia without invasion of the fascia), deep (deep tumour is located beneath or invade the investing fascia). All the others are deep by definition 
 """
 * deepDepth insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* biopsyMitoticCount 1..* Quantity "Biopsy Mitotic count  (M)" """Mitotic count reported from the biopsy (Number/10HPF/1mm2, 50HPF/5mm2). Reported as Number of mitoses per 10 high power fields. 
+* biopsyMitoticCount 1..* Quantity "Biopsy Mitotic count (M)" """Mitotic count reported from the biopsy (Number/10HPF/1mm2, 50HPF/5mm2). Reported as Number of mitoses per 10 high power fields. 
 """
 * biopsyMitoticCount insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* mitoticIndex 0..* CodeableConcept "Mitotic Index (R)" """Mitotic index derived from the mitotic count. Information coming from the biopsy and derived. M1 for less than 10HPF, M2 for range 10-20 HPF and M3 for greater than 20 HPF. 
+* mitoticIndex 1..* CodeableConcept "Mitotic Index (M)" """Mitotic index derived from the mitotic count. Information coming from the biopsy and derived. M1 for less than 10HPF, M2 for range 10-20 HPF and M3 for greater than 20 HPF. 
 """
 * mitoticIndex insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * mitoticIndex ^comment = """Less than 10 mitoses per 10 HPF (score = 1) - 4240574
 10-20 mitoses per 10 HPF (score = 2) - 4241298
 Greater than 10 mitoses per 10 HPF (score = 3) - 4240069"""
 * plasmaticEbvDnaAtBaseline 0..* CodeableConcept "Plasmatic EBV DNA at baseline (R)" """Describes the result of EBV DNA plasmatic test before treatment for Lymphoepithelial carcinoma, lymphoepithelioma like carcinoma (Nasal cavity and Paranasal Sinuses) or Nasopharynx 
-WE DO NOT EXPECT NUMERIC VALUES BUT POSITIVE/NEGATIVE/NOT-TESTED"""
+"""
 * plasmaticEbvDnaAtBaseline insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * plasmaticEbvDnaAtBaseline ^comment = """ Positive - 9191
  Negative - 9189
@@ -491,7 +467,7 @@ not tested - 45878602"""
 * hpvStatus ^comment = """ Positive - 9191
  Negative - 9189
 not tested - 45878602"""
-* crpTested 0..* CodeableConcept "CRP – C reactive protein tested  (O)" """Describes the result of C reactive protein tested 
+* crpTested 0..* CodeableConcept "CRP – C reactive protein tested (O)" """Describes the result of C reactive protein tested 
 """
 * crpTested insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * crpTested ^comment = """ Positive - 9191
