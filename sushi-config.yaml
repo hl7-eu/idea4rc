@@ -182,6 +182,10 @@ resources:
     name: Patient (Subject) Model to this guide Map
     description: It shows how the Patient (Subject) model is mapped into this guide
 
+  ConceptMap/diagnosis2FHIR:
+    name: Diagnosis to this guide Map
+    description: It shows how the Diagnosis model is mapped into this guide
+
 #  ConceptMap/stage2FHIR:
 #    name: Stage Model to this guide Map
 #    description: It shows how the Stage model is mapped into this guide
@@ -231,6 +235,10 @@ resources:
   StructureDefinition/EpisodeEvent:
     name: Episode Event
     description: IDEA4RC Episode Event common model
+
+  StructureDefinition/Diagnosis:
+    name: Diagnosis
+    description: IDEA4RC Diagnosis common model
 
 #  StructureDefinition/HnStage:
 #    name: Head and Neck Stage
@@ -302,6 +310,7 @@ groups:
       - StructureDefinition/Subject
       - StructureDefinition/CancerEpisode
       - StructureDefinition/EpisodeEvent
+      - StructureDefinition/Diagnosis
   #    - StructureDefinition/SarcomaStage
   #    - StructureDefinition/HnStage
       - StructureDefinition/SystemicTreatment
@@ -321,6 +330,7 @@ groups:
     resources:
       - ConceptMap/subject2FHIR
       - ConceptMap/cancerEpisode2FHIR
+      - ConceptMap/diagnosis2FHIR
  #     - ConceptMap/sarcomaStage2FHIR
  #     - ConceptMap/hNstage2FHIR
      #  - ConceptMap/treatmentResponse2FHIR
@@ -356,7 +366,7 @@ groups:
     resources:
       - StructureDefinition/Condition-primaryCancer-eu-i4rc
       - StructureDefinition/Observation-diagnosis-eu-i4rc
-      - StructureDefinition/Condition-secondaryCancer-eu-i4rc
+     # - StructureDefinition/Condition-secondaryCancer-eu-i4rc
 
   cancerStageImplementation:
     name:  HL7 FHIR Profile implementing the Stage models
@@ -370,8 +380,8 @@ groups:
       - StructureDefinition/sarcoma-cancer-stage-group
       - StructureDefinition/sarcoma-extent-category
       - StructureDefinition/sarcoma-locoRegional-category
-
-
+ 
+      
   patientFollowUpImplementation:
     name:  HL7 FHIR Profile implementing the Patient Follow Up model
     description: HL7 FHIR Profile implementing the Patient Follow models
