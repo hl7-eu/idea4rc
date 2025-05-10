@@ -212,6 +212,7 @@ If not specified, use 37204336 [Genetic disease]
 History of event + 
 Cancer modifier for site"""
 * previousMalignantCancerSite insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
+* previousMalignantCancerSite insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * previousMalignantCancerSite ^comment = """Values from CancerModifier Topography
 
 Use integer for IDEA4RC if needed"""
