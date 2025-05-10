@@ -216,7 +216,7 @@ Cancer modifier for site"""
 * previousMalignantCancerSite ^comment = """Values from CancerModifier Topography
 
 Use integer for IDEA4RC if needed"""
-* previousCancerTreatment 1..* CodeableConcept "Previous cancer treatment (M)" """Describes the type of treatment performed for the previous cancer 
+* previousCancerTreatment 0..* CodeableConcept "Previous cancer treatment (R)" """Describes the type of treatment performed for the previous cancer 
 History of event + 
 Other treatment (find the corresponding standard concept)
 If not specified,"""
