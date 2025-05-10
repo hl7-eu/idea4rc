@@ -21,7 +21,7 @@ Description: "This profile constrains the Observation resource to represent Toba
 * component ^slicing.rules = #open
 * component ^slicing.description = "Slice based on the component code"
 
-* component contains smokingStatus 0..1 
+* component contains smokingStatus 1..1 
 * component[smokingStatus]
   * code = $loinc#72166-2 //
     * ^short = "Tobacco smoking status"
