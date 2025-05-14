@@ -617,3 +617,33 @@
 [2025-05-14 16:14:20] Processing file: ~$idea4rc-models-and-maps.xlsx
 [2025-05-14 16:14:20] Error loading ConceptMaps sheet in C:\Users\wylem\workspace\hl7\wylem\idea4rc\src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:\\Users\\wylem\\workspace\\hl7\\wylem\\idea4rc\\src-models\\~$idea4rc-models-and-maps.xlsx'
 [2025-05-14 16:14:20] Error loading LogicalModels sheet in C:\Users\wylem\workspace\hl7\wylem\idea4rc\src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:\\Users\\wylem\\workspace\\hl7\\wylem\\idea4rc\\src-models\\~$idea4rc-models-and-maps.xlsx'
+[2025-05-14 16:23:59] Processing file: idea4rc-models-and-maps.xlsx
+[2025-05-14 16:23:59] Created Subject2FHIR.fsh in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:23:59] Created Followup2FHIR.fsh in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:23:59] Created HospitalPatientRecords2FHIR.fsh in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:23:59] Created Diagnosis2FHIR.fsh in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:23:59] Created CancerEpisode2FHIR.fsh in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:23:59] Updated SubjectI4rc.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:23:59] Updated PatientFollowUpI4rc.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:23:59] Updated HospitalPatientRecordsI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:23:59] Updated CancerEpisodeI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:23:59] Updated DiagnosisI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:23:59] Updated ClinicalStageI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated PathologicalStageI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated EpisodeEventI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated DiseaseExtentI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated GeneticTestExpressionI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated SurgeryI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated SystemicTreatmentI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated RadiotherapyI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated RegionalDeepHyperthemiaI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated IsolatedLimbPerfusionI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated DrugsForTreatmentsI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated OverallTreatmentResponseI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Updated AdverseEventI4RC.fsh with elements in C:\Users\wylem\workspace\hl7\wylem\idea4rc\input\fsh\model-maps
+[2025-05-14 16:24:00] Processing file: IDEA4RC_DM_V2.xlsx
+[2025-05-14 16:24:00] Error loading ConceptMaps sheet in C:\Users\wylem\workspace\hl7\wylem\idea4rc\src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2025-05-14 16:24:00] Error loading LogicalModels sheet in C:\Users\wylem\workspace\hl7\wylem\idea4rc\src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2025-05-14 16:24:00] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2025-05-14 16:24:00] Error loading ConceptMaps sheet in C:\Users\wylem\workspace\hl7\wylem\idea4rc\src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:\\Users\\wylem\\workspace\\hl7\\wylem\\idea4rc\\src-models\\~$idea4rc-models-and-maps.xlsx'
+[2025-05-14 16:24:00] Error loading LogicalModels sheet in C:\Users\wylem\workspace\hl7\wylem\idea4rc\src-models\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'C:\\Users\\wylem\\workspace\\hl7\\wylem\\idea4rc\\src-models\\~$idea4rc-models-and-maps.xlsx'
