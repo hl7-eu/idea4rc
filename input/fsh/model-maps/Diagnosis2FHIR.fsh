@@ -49,7 +49,7 @@ Usage: #definition
 * group[=].element[=].target.code = #Condition.extension:condition-dueTo
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[=].target.comment = "true' when extension:condition-dueTo.valueCodeableConcept = $sct#108290001 'Radiation oncology AND/OR radiotherapy'"
+* group[=].element[=].target.comment = "'true' when extension:condition-dueTo.valueCodeableConcept = $sct#108290001 'Radiation oncology AND/OR radiotherapy'"
 * group[=].element[+].code = #biopsyGrading
 * group[=].element[=].display = "Biopsy grading (O)"
 * group[=].element[=].target.code = #Condition.stage.summary
@@ -85,6 +85,12 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.comment = "If HNC, the value must be one of the ones in ValueSet: HNC ConditionList: Athen. If Sarc, the value must be one of the ones in ValueSet: Sarcome List: Athena "
+* group[=].element[+].code = #diagnosisCode
+* group[=].element[=].display = "Diagnosis code (M)"
+* group[=].element[=].target.code = #Condition.evidence:diagnosisDetails.detail
+* group[=].element[=].target.display = ""
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "See details in group2"
 * group[=].element[+].code = #tumorSize
 * group[=].element[=].display = "Tumor Size (M)"
 * group[=].element[=].target.code = #Condition.evidence:simpleResult.detail.valueQuantity
