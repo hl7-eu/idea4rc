@@ -12,7 +12,7 @@ Maturity Level: 0 Draft"""
 * episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * surgeryType 1..* CodeableConcept "Surgery type (M)" """Primary surgery/re-excision (check with unplanned or excisional biopsy)
- 
+
 Check
 
 "Surgery (with date) is a procedure occurrence, which is 

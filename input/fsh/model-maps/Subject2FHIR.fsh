@@ -245,7 +245,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-treatment-eu-i4rc"
 * group[=].element[+].code = #previousCancerTreatment
-* group[=].element[=].display = "Previous cancer treatment (M)"
+* group[=].element[=].display = "Previous cancer treatment (R)"
 * group[=].element[=].target.code = #Observation.valueCodeableConcept
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equal
