@@ -1,7 +1,7 @@
 ValueSet: CancerEventTypeVS
 Id: cancer-event-type-vs
 Title: "Disease Status: Athena"
-Description: """Codes identifying the type of cancenr event: e.g. Progression, Stable Disease,..."""
+Description: """Codes identifying the status of the diasease: e.g. Progression, Stable Disease, Recurence"""
 
 
 * ^experimental = false
