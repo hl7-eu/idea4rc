@@ -240,6 +240,21 @@ resources:
     name: Diagnosis
     description: IDEA4RC Diagnosis common model
 
+  StructureDefinition/OverallTreatmentResponse:
+    name: OverallTreatmentResponse
+    description: IDEA4RC OverallTreatmentResponse common model
+
+  StructureDefinition/ClinicalStage:
+    name: Clinical Stage
+    description: IDEA4RC Clinical Stage common model
+
+  StructureDefinition/PathologicalStage:
+    name: Pathological Stage
+    description: IDEA4RC Pathological Stage common model
+
+  StructureDefinition/DiseaseExtent:
+    name: Disease Extent
+    description: IDEA4RC Disease Extent common model
 #  StructureDefinition/HnStage:
 #    name: Head and Neck Stage
 #    description: IDEA4RC Head and Neck Stage common model
@@ -282,6 +297,10 @@ resources:
     name: Patient Follow-Up
     description: IDEA4RC Patient Follow Up common model
 
+  StructureDefinition/DrugsForTreatments:
+    name: Drugs For Treatments
+    description: IDEA4RC Drugs For Treatment common model
+
  # StructureDefinition/PathologicalReportInfo:
  #   name: Pathological Report Info
 #    description: IDEA4RC Pathological Report Info common model
@@ -311,7 +330,11 @@ groups:
       - StructureDefinition/CancerEpisode
       - StructureDefinition/EpisodeEvent
       - StructureDefinition/Diagnosis
-  #    - StructureDefinition/SarcomaStage
+      - StructureDefinition/OverallTreatmentResponse
+      - StructureDefinition/ClinicalStage
+      - StructureDefinition/PathologicalStage
+      - StructureDefinition/DiseaseExtent
+          #    - StructureDefinition/SarcomaStage
   #    - StructureDefinition/HnStage
       - StructureDefinition/SystemicTreatment
       - StructureDefinition/Surgery
@@ -321,6 +344,7 @@ groups:
       - StructureDefinition/AdverseEvent
       - StructureDefinition/HospitalPatientRecords
       - StructureDefinition/PatientFollowUp
+      - StructureDefinition/DrugsForTreatments
    #   - StructureDefinition/PathologicalReportInfo
    #   - StructureDefinition/OtherTreatment
 

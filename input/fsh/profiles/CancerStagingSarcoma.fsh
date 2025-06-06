@@ -2,7 +2,7 @@
 Profile: SarcomaCancerStageGroup
 Id: sarcoma-cancer-stage-group
 Parent: Observation
-Title: "Observation: Sarcoma Cancer Stage Group"
+Title: "Observation: Sarcoma Cancer and Disease Extent Stage Group"
 Description: "The extent of the cancer in the body, according to a given cancer staging classification system, based on evidence such as physical examination, imaging, and/or biopsy or based on pathologic analysis of a specimen."
 * insert CancerStageCommonRules
 

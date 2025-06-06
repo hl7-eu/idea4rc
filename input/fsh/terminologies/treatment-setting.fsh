@@ -8,11 +8,12 @@ Description: "Treatment Setting"
 * ^status = #active
 * ^experimental = false
 
-* $athena#44808409 "neo-adjuvant"
-// TO BE ADDED CONCOMITANT
-* $athena#44804498 "adjuvant"
+* $athena#44808409 "Neo-adjuvant"
+* $athena#2000100028 "Concomitant"
+* $athena#44804498 "Adjuvant"
+* $athena#2000100029 "Systemic treatment alone"
 // TO BE ADDED SYSTEMIC TREATMENT ALONE
-* $athena#4129922 "unknown"
+//* $athena#4129922 "unknown"
 
 
 

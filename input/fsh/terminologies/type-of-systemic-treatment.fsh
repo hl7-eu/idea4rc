@@ -8,10 +8,10 @@ Description: "type of systemic treatment administered"
 * ^status = #active
 * ^experimental = false
 
-* $athena#4273629 "chemotherapy"
-* $athena#40310107 "immunotherapy"
-* $athena#40488979 "target therapy"
-* $athena#4129922 "unknown"
+* $athena#4273629 "Chemotherapy"
+* $athena#40310107 "Immunotherapy"
+* $athena#912065 "Target therapy"
+//* $athena#4129922 "unknown"
 
 
 

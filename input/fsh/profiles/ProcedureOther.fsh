@@ -3,7 +3,7 @@ Profile:  ProcedureOtherTreatI4rc
 Parent:   Procedure 
 Id:       Procedure-otherTreatment-eu-i4rc
 Title:    "Procedure: Other Treatment"
-Description: "This profile defines how to represent Other Treatment procedures in FHIR for describing a set of Surgery data required by the IDEA4RC project. This porfiles is adapted from the PanCareSurPass Procedure Surgery profile."
+Description: "This profile defines how to represent Isolated Limb Perfusion and Regional Deep Hyperthermia procedures in FHIR for describing a set of Surgery data required by the IDEA4RC project. This porfiles is adapted from the PanCareSurPass Procedure Surgery profile."
 //-------------------------------------------------------------------------------------------
 
 /* * extension contains $procedure-category-r5 named ProcedureCategoryR5 0..*
