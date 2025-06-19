@@ -1,6 +1,6 @@
 ValueSet: DrugForTreatmentsVS
 Id: drug-for-treatments-eu-i4rc
-Title: "Drug for Treatments"
+Title: "Drugs for Treatments"
 Description: """A list of drugs given to a patient for a specific treatment.
 This list can be visualized here : https://athena.ohdsi.org/search-terms/terms?domain=Drug&standardConcept=Standard&vocabulary=RxNorm&vocabulary=RxNorm+Extension&page=1&pageSize=15&query=
 """
