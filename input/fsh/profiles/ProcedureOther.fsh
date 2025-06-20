@@ -7,6 +7,7 @@ Description: "This profile defines how to represent Isolated Limb Perfusion and 
 //-------------------------------------------------------------------------------------------
 
 * extension contains SameCustodianFlag named performedAt 0..1
+* extension contains SameHospital named sameHospital 0..1
 
 /* * extension contains $procedure-category-r5 named ProcedureCategoryR5 0..*
 
