@@ -24,6 +24,7 @@ Description: "This profile defines how to represent Isolated Limb Perfusion and 
   * ^example.label = "Surgical procedure"
   * ^example.valueCodeableConcept = $sct#387713003 "Surgical procedure"  */
 * code ^short = "Identification of the procedure." // used to indicate if it is an amputation, a shutn,....
+* code from OtherTreatmentProcedureTypeVS
 // ADD BINDING
 // * code from SurgicalProcedureTypeVs (extensible)
 // * code from SurgeryTypeVs 
