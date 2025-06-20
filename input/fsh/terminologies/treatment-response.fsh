@@ -2,19 +2,14 @@
 ValueSet: VsTreatmentResponseI4rc
 Id: treatment-response-eu-i4rc
 Title: "Treatment Response"
-Description: "treatment response"
+Description: "Treatment response."
 //-------------------------------------------------------------------------------------------
 
 * ^status = #active
 * ^experimental = false
 
-* $athena#4163135 "complete response"
-* $athena#4161302 "partial response"
-* $athena#4241442 "stable disease"
-* $athena#4168352 "progression"
-* $athena#4129922 "unknown"
-
-
-
-
-
+* $athena#32946 "Complete Remission"
+* $athena#32947 "Partial Remission"
+* $athena#32948 "Stable Disease"
+* $athena#32949 "Progression"
+* $athena#4294169 "Not applicable"
