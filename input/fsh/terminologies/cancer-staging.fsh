@@ -165,6 +165,73 @@ Description: "This value set is intended to contain allowable values for Stage G
 * ^experimental = false
 * codes from system $ajcc */
 
+ValueSet: ClinicalTNMPrimaryTumorCategoryVS
+Id: mcode-clinical-tnm-primary-tumor-category-vs
+Title: "Clinical TNM Primary Tumor Category Value Set"
+Description: "This value set is intended to contain allowable values for the T category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
+* ^experimental = false
+* $athena#1635299 "AJCC/UICC 6th clinical TX Category" 
+* $athena#1634269 "AJCC/UICC 7th clinical TX Category" 
+* $athena#1633589 "AJCC/UICC 8th clinical TX Category" 
+* $athena#1635857 "AJCC/UICC 6th clinical Tis Category" 
+* $athena#1635227 "AJCC/UICC 7th clinical Tis Category" 
+* $athena#1633737 "AJCC/UICC 8th clinical Tis Category" 
+* $athena#1635656 "AJCC/UICC 6th clinical T0 Category" 
+* $athena#1633815 "AJCC/UICC 7th clinical T0 Category" 
+* $athena#1635794 "AJCC/UICC 8th clinical T0 Category" 
+* $athena#1634381 "AJCC/UICC 6th clinical T1 Category" 
+* $athena#1635664 "AJCC/UICC 7th clinical T1 Category" 
+* $athena#1633883 "AJCC/UICC 8th clinical T1 Category" 
+* $athena#1633747 "AJCC/UICC 6th clinical T2 Category" 
+* $athena#1634029 "AJCC/UICC 7th clinical T2 Category" 
+* $athena#1634651 "AJCC/UICC 8th clinical T2 Category" 
+* $athena#1633877 "AJCC/UICC 6th clinical T3 Category" 
+* $athena#1633324 "AJCC/UICC 7th clinical T3 Category" 
+* $athena#1635556 "AJCC/UICC 8th clinical T3 Category" 
+* $athena#1635522 "AJCC/UICC 6th clinical T4 Category" 
+* $athena#1635530 "AJCC/UICC 7th clinical T4 Category" 
+* $athena#1634973 "AJCC/UICC 8th clinical T4 Category" 
+* $athena#1634247 "AJCC/UICC 6th clinical T4a Category" 
+* $athena#1634522 "AJCC/UICC 7th clinical T4a Category" 
+* $athena#1634963 "AJCC/UICC 8th clinical T4a Category" 
+* $athena#1634624 "AJCC/UICC 6th clinical T4b Category" 
+* $athena#1634120 "AJCC/UICC 7th clinical T4b Category" 
+* $athena#1634854 "AJCC/UICC 8th clinical T4b Category"
+
+ValueSet: PathologicalTNMPrimaryTumorCategoryVS
+Id: mcode-pathological-tnm-primary-tumor-category-vs
+Title: "Pathological TNM Primary Tumor Category Value Set"
+Description: "This value set is intended to contain allowable values for the T category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
+
+* $athena#1634270 "AJCC/UICC 6th pathological TX Category"
+* $athena#1635402 "AJCC/UICC 7th pathological TX Category"
+* $athena#1634986 "AJCC/UICC 8th pathological TX Category"
+* $athena#1635660 "AJCC/UICC 6th Tis Category"
+* $athena#1633798 "AJCC/UICC 7th Tis Category"
+* $athena#1634720 "AJCC/UICC 8th Tis Category"
+* $athena#1633279 "AJCC/UICC 6th pathological T0 Category"
+* $athena#1634675 "AJCC/UICC 7th pathological T0 Category"
+* $athena#1634635 "AJCC/UICC 8th pathological T0 Category"
+* $athena#1633445 "AJCC/UICC 6th pathological T1 Category"
+* $athena#1635422 "AJCC/UICC 7th pathological T1 Category"
+* $athena#1635070 "AJCC/UICC 8th pathological T1 Category"
+* $athena#1634792 "AJCC/UICC 6th pathological T2 Category"
+* $athena#1634491 "AJCC/UICC 7th pathological T2 Category"
+* $athena#1633307 "AJCC/UICC 8th pathological T2 Category"
+* $athena#1635670 "AJCC/UICC 6th pathological T3 Category"
+* $athena#1634658 "AJCC/UICC 7th pathological T3 Category"
+* $athena#1634386 "AJCC/UICC 8th pathological T3 Category"
+* $athena#1635311 "AJCC/UICC 6th pathological T4 Category"
+* $athena#1635341 "AJCC/UICC 7th pathological T4 Category"
+* $athena#1635396 "AJCC/UICC 8th pathological T4 Category"
+* $athena#1634101 "AJCC/UICC 6th pathological T4a Category"
+* $athena#1633723 "AJCC/UICC 7th pathological T4a Category"
+* $athena#1634894 "AJCC/UICC 8th pathological T4a Category"
+* $athena#1633900 "AJCC/UICC 6th pathological T4b Category"
+* $athena#1633699 "AJCC/UICC 7th pathological T4b Category"
+* $athena#1633658 "AJCC/UICC 8th pathological T4b Category"
+
+
 ValueSet: TNMPrimaryTumorCategoryVS
 Id: mcode-tnm-primary-tumor-category-vs
 Title: "TNM Primary Tumor Category Value Set"
