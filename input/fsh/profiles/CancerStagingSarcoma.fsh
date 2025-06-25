@@ -50,9 +50,9 @@ Description: "Category describing the stage at diagnosis (before any treatments)
 // ---------------------
 
 Profile:  LocoRegionalCategory
-Id: sarcoma-locoRegional-category
+Id: locoRegional-category
 Parent: Observation
-Title: "Observation: LocoRegional Category (Stage, Sarcoma)"
+Title: "Observation: LocoRegional Category (Stage)"
 Description: "Category describing the LocoRegional"
         
 

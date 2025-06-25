@@ -13,7 +13,7 @@ RECTANGLE mcodetnmprimarytumorcategory as "mcode-tnm-primary-tumor-category" <<s
 RECTANGLE MedicationAdministrationeui4rc as "MedicationAdministration-eu-i4rc" <<source>> [[StructureDefinition-MedicationAdministration-eu-i4rc.html]]
 RECTANGLE sarcomaextentcategory as "sarcoma-extent-category" <<source>> [[StructureDefinition-sarcoma-extent-category.html]]
 RECTANGLE sarcomacancerstagegroup as "sarcoma-cancer-stage-group" <<source>> [[StructureDefinition-sarcoma-cancer-stage-group.html]]
-RECTANGLE sarcomalocoRegionalcategory as "sarcoma-locoRegional-category" <<source>> [[StructureDefinition-sarcoma-locoRegional-category.html]]
+RECTANGLE sarcomalocoRegionalcategory as "locoRegional-category" <<source>> [[StructureDefinition-locoRegional-category.html]]
 RECTANGLE mcodetnmregionalnodescategory as "mcode-tnm-regional-nodes-category" <<source>> [[StructureDefinition-mcode-tnm-regional-nodes-category.html]]
 RECTANGLE hncancerstagegroup as "hn-cancer-stage-group" <<source>> [[StructureDefinition-hn-cancer-stage-group.html]]
 RECTANGLE Encountereui4rc as "Encounter-eu-i4rc" <<source>> [[StructureDefinition-Encounter-eu-i4rc.html]]
