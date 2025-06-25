@@ -415,8 +415,9 @@ Description: "This value set includes values indicating if the disease is confin
 
 ValueSet: LocoRegionalCategoryVS
 Id: locoregional-category-vs
-Title: "Sarcoma Staging: loco-regional category"
+Title: "Staging: loco-regional category"
 Description: "This value set includes values indicating if the disease is multi-focal or in-trasit metastatis."
 * ^experimental = false
 * $athena#36769249 "Transit Metastasis with Clinical Confirmation"
 * $athena#36769933 "Multifocal Tumor"
+* $athena#32943 "Invasive Disease"
