@@ -6,7 +6,6 @@ Title:    "Procedure: Other Treatment"
 Description: "This profile defines how to represent Isolated Limb Perfusion and Regional Deep Hyperthermia procedures in FHIR for describing a set of Surgery data required by the IDEA4RC project. This profiles is adapted from the PanCareSurPass Procedure Surgery profile."
 //-------------------------------------------------------------------------------------------
 
-* extension contains SameCustodianFlag named performedAt 0..1
 * extension contains SameHospital named sameHospital 0..1
 
 /* * extension contains $procedure-category-r5 named ProcedureCategoryR5 0..*
