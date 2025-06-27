@@ -12,8 +12,18 @@ It is envisioned that this kind of requirements could be covered by recording wh
 * insert ExtensionContext(Condition)
 * insert ExtensionContext(Procedure)
 * insert ExtensionContext(EpisodeOfCare)
-* valueBoolean
+* value[x] 1..1
+* value[x] only boolean
 
+Extension: SameHospital
+Id: same-hospital
+Title:  "Same Hospital"
+Description: """This extension is included in the guide for covering the request of tracking if information has been captured at the same hospital that recorded the data."""
+* insert ExtensionContext(Condition)
+* insert ExtensionContext(Procedure)
+* insert ExtensionContext(EpisodeOfCare)
+* value[x] 1..1
+* value[x] only boolean
 
 Extension: PerformedTiming
 Id: procedure-performedTiming

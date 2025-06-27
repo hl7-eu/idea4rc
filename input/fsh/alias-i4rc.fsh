@@ -82,6 +82,8 @@ Alias: $individual-recordedSexOrGender = http://hl7.org/fhir/StructureDefinition
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 Alias: $elementdefinition-namespace = http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace
 
+Alias: $observation-reasonReference = http://hl7.org/fhir/StructureDefinition/workflow-reasonReference
+
 /* =============================
    ====== COPIED FROM PCSP =====
    ====== TO BE REVISED ========
