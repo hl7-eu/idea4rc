@@ -30,7 +30,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
   * ^short = "Type of surgical approach on Tumour"
 
 * extension contains $procedure-supportingInfo-r5 named supportingInfoR5 0..*
-* extension[supportingInfoR5]
+* extension[supportingInfoR5].valueReference only Reference(ObservationTumorRuptureI4rc)
 
 * text ^short = "Textual description of the surgical procedure"
 * identifier ^short = "External Identifiers for this surgical procedure"
