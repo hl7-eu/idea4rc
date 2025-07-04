@@ -6,8 +6,7 @@ Title:    "Procedure: Surgery"
 Description: "This profile defines how to represent Procedures in FHIR for describing a set of Surgery data required by the IDEA4RC project. This porfiles is adapted from the PanCareSurPass Procedure Surgery profile."
 //-------------------------------------------------------------------------------------------
 
-/* * extension contains SameCustodianFlag named surgeryHospital 0..1
-* extension[surgeryHospital].valueBoolean ^short = "Was this performed at the registering hospital?" */
+* extension contains SameHospital named sameHospital 0..1
 
 * extension contains $procedure-category-r5 named ProcedureCategoryR5 0..*
 
