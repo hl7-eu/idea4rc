@@ -111,6 +111,8 @@ This profile should be also used for documenting primary cancer relapses during 
 * extension[$condition-dueTo].valueCodeableConcept 1..
 * extension[$condition-dueTo].valueCodeableConcept = $athena#4029715 // was $sct#108290001 "Radiation oncology AND/OR radiotherapy"
 
+* extension contains SameHospital named sameHospital 0..1
+
 * insert CancerConditionCommonRules
 // * clinicalStatus and verificationStatus MS
 * clinicalStatus ^example.valueCodeableConcept = $condition-clinical#relapse
