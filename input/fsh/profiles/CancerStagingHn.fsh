@@ -70,14 +70,19 @@ Description: "Category of the primary tumor, based on its size and extent, based
 * insert CancerStageCommonRules
 * insert NotUsed(hasMember)
 * code from ObservationCodesPrimaryTumorVS (required)
-* value[x] from TNMPrimaryTumorCategoryVS (example) 
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+* obeys obs-value-clinical
+* obeys obs-value-pathological
+* value[x] only CodeableConcept
 
+Invariant: obs-value-clinical
+Description: "If code is 21905-5 (Primary tumor.clinical [Class] Cancer), value must be from ClinicalTNMPrimaryTumorCategoryVS"
+Expression: "code.coding.where(code='21905-5').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-clinical-tnm-primary-tumor-category-vs')"
+Severity: #error
+
+Invariant: obs-value-pathological
+Description: "If code is 21899-0 (Primary tumor.pathology Cancer), value must be from PathologicalTNMPrimaryTumorCategoryVS"
+Expression: "code.coding.where(code='21899-0').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-pathological-tnm-primary-tumor-category-vs')"
+Severity: #error
 
 Profile:  TNMRegionalNodesCategory
 Id: mcode-tnm-regional-nodes-category

@@ -12,7 +12,7 @@ RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<ta
 RECTANGLE sarcomaextentcategory as "sarcoma-extent-category" <<target>> [[StructureDefinition-sarcoma-extent-category.html]]
 RECTANGLE patienteui4rc as "patient-eu-i4rc" <<target>> [[StructureDefinition-patient-eu-i4rc.html]]
 RECTANGLE Observation as "Observation" <<target>> [[StructureDefinition-Observation.html]]
-RECTANGLE sarcomalocoRegionalcategory as "sarcoma-locoRegional-category" <<target>> [[StructureDefinition-sarcoma-locoRegional-category.html]]
+RECTANGLE sarcomalocoRegionalcategory as "locoRegional-category" <<target>> [[StructureDefinition-locoRegional-category.html]]
 sarcomacancerstagegroup --> patienteui4rc : "subject"
 sarcomacancerstagegroup --> ConditionprimaryCancereui4rc : "focus"
 sarcomacancerstagegroup --> Observation : "hasMember"

@@ -37,18 +37,10 @@ Description: "Category describing the stage at diagnosis (before any treatments)
         
 
 * insert CancerStageCommonRules
-* insert NotUsed(hasMember)
 // * ^contained[0] = DiseaseExtentCategoryVS
 * code = $athena#432537 // Disease Extent
 * value[x] from DiseaseExtentCategoryVS // $athena#32942 or $athena#32944 // 	Confined Disease, Metastatic Disease
-* component  // add invariant
-  * code = $athena#4085855 // 	Number of lesions
-  * value[x] only Quantity or integer // check the type
-
-
-
-
-
+* hasMember only Reference(NumberTumorNodules)
 
 
 // =============================================================================
@@ -58,9 +50,9 @@ Description: "Category describing the stage at diagnosis (before any treatments)
 // ---------------------
 
 Profile:  LocoRegionalCategory
-Id: sarcoma-locoRegional-category
+Id: locoRegional-category
 Parent: Observation
-Title: "Observation: LocoRegional Category (Stage, Sarcoma)"
+Title: "Observation: LocoRegional Category (Stage)"
 Description: "Category describing the LocoRegional"
         
 

@@ -85,6 +85,7 @@ Incisional biopsy - 4321986
 Excisional biopsy - 4228202
 Excision - 4279903
 */
+* derivedFrom only Reference (hn-cancer-stage-group or sarcoma-cancer-stage-group)
 * component 0..0 
 
 
