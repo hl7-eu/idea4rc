@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsGeneticTextExpressionI4rc
-Id: genetic-text-expression-i4rc
-Title: "Genetic text expression"
+ValueSet: VsGeneticTestExpressionI4rc
+Id: genetic-test-expression-i4rc
+Title: "Genetic test expression"
 Description: "This ValueSet defines a collection of genetic testing and expression analysis procedures, sourced from Athena concepts"
 //-------------------------------------------------------------------------------------------
 

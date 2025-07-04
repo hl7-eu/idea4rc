@@ -211,7 +211,7 @@ This profile should be also used for documenting primary cancer relapses during 
   * ^short = "Genetic Tests performed"
   * ^definition = """It documents the Genetic Test performed"""
   // * code from VsGeneticTestsPerformed
-  * detail only Reference (ObservationYesNo)
+  * detail only Reference (ObservationGeneticTestExpressionI4rc)
 
 
 * note ^short = "Additional information about the Cancer Condition"
