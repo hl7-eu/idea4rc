@@ -42,7 +42,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
   * ^example.label = "Surgical procedure"
   * ^example.valueCodeableConcept = $sct#387713003 "Surgical procedure" 
 * code ^short = "Identification of the procedure." 
-* code from SurgicalProcedureTypeVs (extensible)
+* code from VsSurgicalProcedureCategoryI4rc (extensible)
 // * code from SurgeryTypeVs 
 // add slice on coding to allow more precise data
 * insert SubjectRules
