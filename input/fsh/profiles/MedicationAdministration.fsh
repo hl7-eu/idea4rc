@@ -40,6 +40,8 @@ Title:    "MedicationAdministration: Chemotherapy"
 Description: "This profile defines how to represent MedicationAdministration in HL7 FHIR for describing Chemotherapy data for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 
+* extension contains SameHospital named sameHospital 0..1
+
 * insert MedicationAdministrationI4rcRules
 
 /*=== REMOVED NOT PRESENT IN THE LOGICAL MODEL MAPPING 
