@@ -51,7 +51,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 * reasonReference 1..  // add reference to the diagnosis
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
 // * bodySite 0..1 MS 
-* bodySite from AffectedOrganVs (extensible) // VS to be changed
+* bodySite from VsSurgerySiteI4rc
   * extension contains BodyLocationQualifier named qualifier 0..*
   * extension[qualifier].valueCodeableConcept // ADD BINDING 
 
