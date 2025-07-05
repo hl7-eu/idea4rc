@@ -3,9 +3,9 @@ Id: AdverseEvent
 Title: "Adverse Event"
 Description: """Adverse Event
 Maturity Level: 0 Draft"""
-* treatmentReference 1..* SystemicTreatment "Treatment reference (M)" """Treatment element containing the data regarding the specific treatment. It can be SystemicTreatment, Surgery, Radiotherapy, Isolated Limb Perfusion or Regional Deep Hyperthemia 
+* treatmentReference[x] 1..* SystemicTreatment or Radiotherapy or Surgery "Treatment reference (M)" """Treatment element containing the data regarding the specific treatment. It can be SystemicTreatment, Surgery, Radiotherapy, Isolated Limb Perfusion or Regional Deep Hyperthemia 
 OBSERVATION or CONDITION"""
-* treatmentReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
+* treatmentReference[x] insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * adverseEventType 1..* CodeableConcept "Adverse event type (CTCAE Term) (M)" """the Common Terminology Criteria for Adverse Events (CTCAE) is used to identify the adverse events. It includes details of the adverse event type and grade 
 OBSERVATION or CONDITION (check)"""
 * adverseEventType insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
