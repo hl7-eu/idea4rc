@@ -51,6 +51,7 @@ RuleSet: ProcedureRadiotherapyI4rcRules
 // add slice on coding to allow more precise data
 * insert SubjectRules	
 * performedPeriod 1.. 
+* reasonCode from VsReIrradiationReasonI4rc
 * reasonReference 1..  // add reference to the diagnosis
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
 * bodySite 0..
