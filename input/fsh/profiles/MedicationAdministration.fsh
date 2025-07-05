@@ -8,6 +8,7 @@ RuleSet: MedicationAdministrationI4rcRules
 /* * extension[location].valueReference only Reference(LocationI4rc) */
 * status MS
 * insert SubjectRules
+* statusReason from VsReasonToEndTreatment
 * medicationCodeableConcept from VsI4rcAtcCodes (extensible)
 * medicationCodeableConcept 1..1 MS
 * reasonReference 1..1 // add reference to the diagnosis
