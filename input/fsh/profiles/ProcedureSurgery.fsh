@@ -56,7 +56,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
   * extension[qualifier].valueCodeableConcept // ADD BINDING 
 
   * extension contains LateralityQualifier named laterality 0..1
-  * extension[laterality].valueCodeableConcept from LateralityQualifierVS 
+  * extension[laterality].valueCodeableConcept from VsSurgerySiteLateralityQualifierI4rc 
 
 // === ADD VS BINDING =====
 /* * bodySite.extension[lateralityQualifier].valueCodeableConcept from LeftRightBiUnilateralVS  (preferred)  */
