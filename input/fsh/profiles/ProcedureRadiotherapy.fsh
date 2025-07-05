@@ -55,6 +55,7 @@ RuleSet: ProcedureRadiotherapyI4rcRules
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
 * bodySite 0..
   * ^short = "required for Brachytherapy and External beam"
+* bodySite from VsRadiotherapySiteI4rc
 * insert RadiotherapyBodySiteExt
 * note ^short = "Additional information about the Radiotherapy" 
 
@@ -73,8 +74,7 @@ RuleSet: RadiotherapyBodySiteExt
 	 // $mcode-body-location-qualifier named locationQualifier 0..* 
 	// $mcode-laterality-qualifier named lateralityQualifier 0..1
     
-// * bodySite from VsRadiotherapy ADD VOC BIDNIGN
-* bodySite ^short = "ADD VOC BINDING"
+
 // * extension and bodySite and bodySite.extension[lateralityQualifier] MS
 // * bodySite.extension[locationQualifier].valueCodeableConcept from FromToPosteriorAnteriorVs
 
