@@ -31,7 +31,9 @@
             "code": "Reference",
             "targetProfile": [
               "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/MedicationAdministration-eu-i4rc",
-              "http://hl7.org/fhir/StructureDefinition/Procedure"
+              "http://hl7.org/fhir/StructureDefinition/Procedure",
+              "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc",
+              "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-surgery-eu-i4rc"
             ]
           }
         ]
