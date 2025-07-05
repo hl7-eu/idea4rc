@@ -41,10 +41,11 @@ RuleSet: ProcedureRadiotherapyI4rcRules
 * extension contains  $mcode-procedure-intent named procedureIntent 0..1
 * extension[procedureIntent]
 
+* extension contains RadiotherapySettings named settings 0..1
+
 * identifier ^short = "External Identifiers for this radiotherapy / boost"
 * status ^short = "Procedure status"
 * category 1..1 
-// * category = $sct#108290001 "Radiotherapy" // part of GPS
 * code 1..1  // TYPE - add 1 => External beam (33195004 | External beam radiotherapy); 2 => Brachytherapy (152198000 | Brachytherapy ); 3 => Metabolic/radionuclide therapy (399315003 | Radionuclide therapy)
 // * code from RadiotherapyTypeVs (extensible)
 * code ^short = "ADD VOC BINDING"
@@ -94,6 +95,13 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 * usedCode ^short = "Coded items used during the procedure"
 // * usedCode from RadiotherapyDeviceType (extensible) // update the value set
 * outcome from VsTreatmentResponseI4rc
+
+Extension: RadiotherapySettings
+Id: radiotherapy-settings
+Title: "Radiotherapy Setting"
+Description: "The setting in which the radiotherapy procedure was performed."
+* value[x] only CodeableConcept
+* valueCodeableConcept from VsSettingRadiotherapyI4RC (preferred)
 
 /* 
 
