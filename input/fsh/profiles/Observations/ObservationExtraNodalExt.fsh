@@ -15,3 +15,4 @@ It describes the presence or absence of radiological signs of extracapsular exte
 * valueCodeableConcept 1..
 * valueCodeableConcept from VsExtranodalExtensionI4rc // Unknown ?
 * component ..0
+* partOf only Reference (MedicationAdministration or MedicationDispense or MedicationStatement or ProcedureSurgeryI4rc or Immunization or ImagingStudy)
