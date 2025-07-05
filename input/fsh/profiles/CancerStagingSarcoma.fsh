@@ -4,7 +4,20 @@ Id: sarcoma-cancer-stage-group
 Parent: Observation
 Title: "Observation: Sarcoma Cancer and Disease Extent Stage Group"
 Description: "The extent of the cancer in the body, according to a given cancer staging classification system, based on evidence such as physical examination, imaging, and/or biopsy or based on pathologic analysis of a specimen."
-* insert CancerStageCommonRules
+
+* value[x] only CodeableConcept
+// * value[x] ^comment = ""    // suppress QA error on #notes link
+* status ^short = "The status of the result"
+* code ^short = "What was observed"
+* effective[x] ^short = "Clinically relevant time for observation"
+* value[x] ^short = "Actual result."
+* insert NotUsed(device)
+* insert NotUsed(referenceRange)
+* insert NotUsed(component)
+* focus only Reference(ConditionPrimaryCancerI4rc or ConditionSecondaryCancerI4rc)
+* insert SubjectRules
+* method ^short = "ADD BINDING"
+
 
 // CHECK CODES to be used
 * code from CancerStageGroupVS (example)
