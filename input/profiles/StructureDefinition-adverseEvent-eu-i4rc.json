@@ -14,11 +14,14 @@
   "derivation": "constraint",
   "differential": {
     "element": [
-       {
+      {
         "id": "AdverseEvent.event",
         "path": "AdverseEvent.event",
-        "short": "ADD VOC BINDING",
-        "min": 1
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.eu/fhir/ig/idea4rc/ValueSet/adverse-event-type-eu-i4rc"
+        }
       },
       {
         "id": "AdverseEvent.suspectEntity.instance",
