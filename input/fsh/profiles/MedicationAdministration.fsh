@@ -40,7 +40,9 @@ Title:    "MedicationAdministration: Chemotherapy"
 Description: "This profile defines how to represent MedicationAdministration in HL7 FHIR for describing Chemotherapy data for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 
-* extension contains SameHospital named sameHospital 0..1
+* extension contains 
+  SameHospital named sameHospital 0..1 and 
+  outcome named outcome 0..1
 
 * insert MedicationAdministrationI4rcRules
 
@@ -58,6 +60,14 @@ Description: "This profile defines how to represent MedicationAdministration in 
   * system = $ucum
   * code 1.. MS 
   * unit MS 
+
+Extension: Outcome
+Id: outcome
+Title: "Medication Outcome"
+Description: "The outcome of the medication administration in the context of cancer treatment."
+* value[x] only CodeableConcept
+* valueCodeableConcept from CancerEventTypeVS (preferred)
+* valueCodeableConcept MS
 
 /* //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  MedicationStatementI4rc
