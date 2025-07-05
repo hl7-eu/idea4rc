@@ -33,7 +33,7 @@ Description: "The extent of the cancer in the body, according to a given cancer 
                               CancerStageGroupSctVS, 
                               Tumor staging type) */
 
-* valueCodeableConcept from CancerStageGroupValueVS (extensible) 
+* valueCodeableConcept from CancerStageGroupValuePathologicalVS (extensible) 
 * hasMember only Reference(Observation)
 * insert ObservationHasMemberSlicingRules
 * hasMember contains

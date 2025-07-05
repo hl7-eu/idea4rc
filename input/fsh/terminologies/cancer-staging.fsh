@@ -44,9 +44,9 @@ cannot be used because it doesn't day what is unknown...
 * $athena#4221515 "Pathologic TNM stage grouping"
 
 
-ValueSet: CancerStageGroupValueVS
-Id: cancer-stageGroupValue-athena-vs
-Title: "Cancer Stage Group Value: Athena"
+ValueSet: CancerStageGroupValueClinicalVS
+Id: cancer-stageGroupValue-clinical-athena-vs
+Title: "Cancer Stage Group Value Clinical: Athena"
 Description: "Identifying value for the TNM stage grouping."
 
 * ^experimental = false
@@ -75,6 +75,16 @@ Description: "Identifying value for the TNM stage grouping."
 * $athena#1633270 "AJCC/UICC 6th clinical Stage 4C"
 * $athena#1634614 "AJCC/UICC 7th clinical Stage 4C"
 * $athena#1635006 "AJCC/UICC 8th clinical Stage 4C"
+
+
+ValueSet: CancerStageGroupValuePathologicalVS
+Id: cancer-stageGroupValue-pathological-athena-vs
+Title: "Cancer Stage Group Value Pathological: Athena"
+Description: "Identifying value for the TNM stage grouping."
+
+* ^experimental = false
+
+
 * $athena#1634741 "AJCC/UICC 6th pathological Stage 0"
 * $athena#1635511 "AJCC/UICC 7th pathological Stage 0"
 * $athena#1634787 "AJCC/UICC 8th pathological Stage 0"
