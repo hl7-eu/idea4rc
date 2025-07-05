@@ -91,7 +91,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 * location only Reference(Location) // add profile if needed
 * usedCode ^short = "Coded items used during the procedure"
 // * usedCode from RadiotherapyDeviceType (extensible) // update the value set
-
+* outcome from VsTreatmentResponseI4rc
 
 /* 
 
