@@ -53,7 +53,7 @@ Description: "Category describing the stage at diagnosis (before any treatments)
 // * ^contained[0] = DiseaseExtentCategoryVS
 * code = $athena#432537 // Disease Extent
 * value[x] from DiseaseExtentCategoryVS // $athena#32942 or $athena#32944 // 	Confined Disease, Metastatic Disease
-* hasMember only Reference(NumberTumorNodules)
+* hasMember only Reference(NumberTumorNodules or Observation)
 
 
 // =============================================================================
