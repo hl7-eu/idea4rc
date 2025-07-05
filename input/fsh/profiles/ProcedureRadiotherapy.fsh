@@ -66,6 +66,8 @@ RuleSet: RadiotherapyBodySiteExt
      
 	 BodyLocationQualifier named locationQualifier 0..*
      and LateralityQualifier named lateralityQualifier 0..1
+	 
+* bodySite.extension[locationQualifier].value[x] from VsSurgeryLocationQualifierI4rc
 
 	 // $mcode-body-location-qualifier named locationQualifier 0..* 
 	// $mcode-laterality-qualifier named lateralityQualifier 0..1
