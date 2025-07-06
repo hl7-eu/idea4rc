@@ -43,7 +43,8 @@ Description: "This profile defines how to represent MedicationAdministration in 
 
 * extension contains 
   SameHospital named sameHospital 0..1 and 
-  outcome named outcome 0..1
+  outcome named outcome 0..1 and 
+  $mcode-procedure-intent  named intent 0..1
 
 * insert MedicationAdministrationI4rcRules
 
