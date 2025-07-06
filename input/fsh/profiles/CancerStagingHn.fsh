@@ -92,14 +92,19 @@ Description: "Category of the presence or absence of metastases in regional lymp
 * insert CancerStageCommonRules
 * insert NotUsed(hasMember)
 * code from ObservationCodesRegionalNodesVS (required)
-* value[x] from TNMRegionalNodesCategoryVS (example)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+* value[x] only CodeableConcept
+* obeys obs-regional-value-clinical
+* obeys obs-regional-value-pathological
 
+Invariant: obs-regional-value-clinical
+Description: "If code is 21906-3 (Regional lymph nodes.clinical [Class] Cancer), value must be from TNMRegionalNodesCategoryClinicalVS"
+Expression: "code.coding.where(code='21906-3').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-tnm-regional-nodes-category-clinical-vs')"
+Severity: #error
+
+Invariant: obs-regional-value-pathological
+Description: "If code is 21900-6 (Regional lymph nodes.pathology [Class] Cancer), value must be from TNMRegionalNodesCategoryPathologicalVS"
+Expression: "code.coding.where(code='21900-6').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-tnm-regional-nodes-category-pathological-vs')"
+Severity: #error
 
 Profile:  TNMDistantMetastasesCategory
 Id: mcode-tnm-distant-metastases-category

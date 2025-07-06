@@ -310,14 +310,13 @@ Description: "This value set is intended to contain allowable values for the T c
 
 
 
-ValueSet: TNMRegionalNodesCategoryVS
-Id: mcode-tnm-regional-nodes-category-vs
-Title: "TNM Regional Nodes Category Value Set"
+ValueSet: TNMRegionalNodesCategoryClinicalVS
+Id: mcode-tnm-regional-nodes-category-clinical-vs
+Title: "TNM Regional Nodes Category Value Set (Clinical)"
 Description: "This value set is intended to contain allowable values for the N category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
 * ^experimental = false
 // * include codes from system $ajcc
 
-// clinical N
 * $athena#1635104 "AJCC/UICC 6th clinical NX Category"
 * $athena#1633679 "AJCC/UICC 7th clinical NX Category"
 * $athena#1634797 "AJCC/UICC 8th clinical NX Category"
@@ -349,7 +348,11 @@ Description: "This value set is intended to contain allowable values for the N c
 * $athena#1635084 "AJCC/UICC 7th clinical N3b Category"
 * $athena#1635828 "AJCC/UICC 8th clinical N3b Category"
 
-// pathological N
+ValueSet: TNMRegionalNodesCategoryPathologicalVS
+Id: mcode-tnm-regional-nodes-category-pathological-vs
+Title: "TNM Regional Nodes Category Value Set (Pathological)"
+Description: "This value set is intended to contain allowable values for the N category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
+* ^experimental = false
 
 * $athena#1635823 "AJCC/UICC 6th pathological NX Category"
 * $athena#1634505 "AJCC/UICC 7th pathological NX Category"
