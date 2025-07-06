@@ -9,7 +9,7 @@ RuleSet: MedicationAdministrationI4rcRules
 * status MS
 * insert SubjectRules
 * statusReason from VsReasonToEndTreatment
-* medicationCodeableConcept from VsI4rcAtcCodes (extensible)
+* medicationCodeableConcept from DrugSystemicTreatmentsVS
 * medicationCodeableConcept 1..1 MS
 * reasonReference 1..1 // add reference to the diagnosis
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
