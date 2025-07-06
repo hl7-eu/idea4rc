@@ -17,7 +17,7 @@ Alias: $procedure-method = http://hl7.org/fhir/StructureDefinition/procedure-met
 Alias: $procedure-supportingInfo-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.supportingInfo
 Alias: $alternate-codes = http://hl7.org/fhir/StructureDefinition/alternate-codes
 Alias: $iso21090-SC-coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding
-
+Alias: $medicationadministration-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.category
 
 
 //============== ALIAS ===============
