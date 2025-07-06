@@ -44,7 +44,13 @@ Description: "This profile defines how to represent MedicationAdministration in 
 * extension contains 
   SameHospital named sameHospital 0..1 and 
   outcome named outcome 0..1 and 
-  $mcode-procedure-intent  named intent 0..1
+  $mcode-procedure-intent  named intent 0..1 and 
+  $medicationadministration-category-r5 named categoryR5 1..*
+
+* extension[categoryR5].value[x] only CodeableConcept
+* extension[categoryR5].valueCodeableConcept from VsTypeofSystemicTreatmentI4rc (preferred)
+* extension[categoryR5].valueCodeableConcept insert AdditionalBinding (preferred, VsTreatmentSetting4RC, Vocabulary binding used for Treatment Settings)
+* extension[categoryR5].valueCodeableConcept insert AdditionalBinding (preferred, ChemotherapyInfoVs, Vocabulary binding used for Chemotherapy Info)
 
 * insert MedicationAdministrationI4rcRules
 
