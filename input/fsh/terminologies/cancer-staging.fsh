@@ -43,6 +43,15 @@ cannot be used because it doesn't day what is unknown...
 * $athena#4221079 "Clinical TNM stage grouping"
 * $athena#4221515 "Pathologic TNM stage grouping"
 
+ValueSet: CancerStageGroupValuelVS
+Id: cancer-stageGroupValue-athena-vs
+Title: "Cancer Stage Group Value: Athena"
+Description: "Identifying value for the TNM stage grouping."
+
+* ^experimental = false
+
+* codes from valueset CancerStageGroupValueClinicalVS
+* codes from valueset CancerStageGroupValuePathologicalVS
 
 ValueSet: CancerStageGroupValueClinicalVS
 Id: cancer-stageGroupValue-clinical-athena-vs

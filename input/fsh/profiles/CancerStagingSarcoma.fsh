@@ -22,8 +22,6 @@ Description: "The extent of the cancer in the body, according to a given cancer 
 // CHECK CODES to be used
 * code from CancerStageGroupVS (example)
 
-// CHECK CODES to be used
-* valueCodeableConcept from CancerStageGroupValuePathologicalVS (example) 
 * hasMember only Reference(Observation)
 * insert ObservationHasMemberSlicingRules
 * hasMember contains
