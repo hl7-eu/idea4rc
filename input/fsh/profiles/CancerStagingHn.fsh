@@ -114,10 +114,16 @@ Description: "Category describing the extent of a tumor metastasis in remote ana
 * insert CancerStageCommonRules
 * insert NotUsed(hasMember)
 * code from ObservationCodesDistantMetastasesVS (required)
-* value[x] from TNMDistantMetastasesCategoryVS (preferred)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+* value[x] only CodeableConcept
+* obeys obs-metastases-value-clinical
+* obeys obs-metastases-value-pathological
+
+Invariant: obs-metastases-value-clinical
+Description: "If code is 21907-1 (RDistant metastases.clinical [Class] Cancer), value must be from TNMDistantMetastasesCategoryClinicalVS"
+Expression: "code.coding.where(code='21907-1').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-tnm-distant-metastases-category-clinical-vs')"
+Severity: #error
+
+Invariant: obs-metastases-value-pathological
+Description: "If code is 21901-4 (Distant metastases.pathology [Class] Cancer), value must be from TNMDistantMetastasesCategoryPathologicalVS"
+Expression: "code.coding.where(code='21901-4').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-tnm-distant-metastases-category-pathological-vs')"
+Severity: #error

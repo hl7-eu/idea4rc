@@ -396,9 +396,9 @@ Description: "This value set is intended to contain allowable values for the N c
 
 
 
-ValueSet: TNMDistantMetastasesCategoryVS
-Id: mcode-tnm-distant-metastases-category-vs
-Title: "TNM Distant Metastases Category Value Set"
+ValueSet: TNMDistantMetastasesCategoryClinicalVS
+Id: mcode-tnm-distant-metastases-category-clinical-vs
+Title: "TNM Distant Metastases Category Value Set (Clinical)"
 Description: "This value set is intended to contain allowable values for the M category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
 * ^experimental = false
 // * codes from system $ajcc
@@ -413,8 +413,11 @@ Description: "This value set is intended to contain allowable values for the M c
 * $athena#1633974 "AJCC/UICC 8th clinical M1 Category"
 
 
-
-// pathological M
+ValueSet: TNMDistantMetastasesCategoryPathologicalVS
+Id: mcode-tnm-distant-metastases-category-pathological-vs
+Title: "TNM Distant Metastases Category Value Set (Pathological)"
+Description: "This value set is intended to contain allowable values for the M category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
+* ^experimental = false
 
 * $athena#1635345 "AJCC/UICC 6th pathological M0 Category"
 * $athena#1635536 "AJCC/UICC 7th pathological M0 Category"
