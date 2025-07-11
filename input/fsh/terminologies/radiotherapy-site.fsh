@@ -31,4 +31,4 @@ Description: "This ValueSet contains codes describing Radiotherapy Sites from At
 * ^compose.include[=].concept[+].code = #36770544
 * ^compose.include[=].concept[=].display = "Metastasis to liver"
 
-* codes from valueset sitesVs
+* ^compose.include[+].valueSet[0] = Canonical(sitesVs)
