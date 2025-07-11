@@ -74,7 +74,7 @@ Id: outcome
 Title: "Medication Outcome"
 Description: "The outcome of the medication administration in the context of cancer treatment."
 * value[x] only CodeableConcept
-* valueCodeableConcept from CancerEventTypeVS (preferred)
+* valueCodeableConcept from VsTreatmentResponseI4rc (preferred)
 * valueCodeableConcept MS
 
 /* //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
