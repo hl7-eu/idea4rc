@@ -11,9 +11,4 @@ Description: "Category of surgical procedure this resource is referring to"
 * $athena#4315400 "Local excision"
 * $athena#4217482 "Amputation"
 * $athena#4181193 "Limb operation"
-
-
-
-
-
- 
+* $athena#3010988 "Surgery reconstruction"

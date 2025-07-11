@@ -11,6 +11,6 @@ Description: """Codes identifying the status of the diasease: e.g. Progression, 
 * $athena#32947 "Partial Remission"
 * $athena#32949 "Progression"
 * $athena#32948 "Stable disease"
-* $athena#2000100002 "Recurrence"
+* $cs-idea4rc-vocab-eu-i4rc#2000100002 "Recurrence"
 
 

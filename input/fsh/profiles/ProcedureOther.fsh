@@ -16,8 +16,7 @@ Description: "This profile defines how to represent Isolated Limb Perfusion and 
 
 /* * text ^short = "Textual description of the surgical procedure"
 * identifier ^short = "External Identifiers for this surgical procedure" */
-* partOf only Reference (ProcedureRadiotherapyI4rc)
-* partOf ^short = "Reference to the parent surgery procedure"
+* partOf only Reference (ProcedureRadiotherapyI4rc or HnCancerStageGroup or MedicationAdministration)
 * status ^short = "State of the procedure"
 /* * category 1..
 * category = $sct#387713003 

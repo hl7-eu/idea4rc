@@ -8,7 +8,8 @@ RuleSet: MedicationAdministrationI4rcRules
 /* * extension[location].valueReference only Reference(LocationI4rc) */
 * status MS
 * insert SubjectRules
-* medicationCodeableConcept from VsI4rcAtcCodes (extensible)
+* statusReason from VsReasonToEndTreatment
+* medicationCodeableConcept from DrugSystemicTreatmentsVS
 * medicationCodeableConcept 1..1 MS
 * reasonReference 1..1 // add reference to the diagnosis
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
@@ -40,6 +41,17 @@ Title:    "MedicationAdministration: Chemotherapy"
 Description: "This profile defines how to represent MedicationAdministration in HL7 FHIR for describing Chemotherapy data for the purpose of the IDEA4RC project."
 //-------------------------------------------------------------------------------------------
 
+* extension contains 
+  SameHospital named sameHospital 0..1 and 
+  outcome named outcome 0..1 and 
+  $mcode-procedure-intent  named intent 0..1 and 
+  $medicationadministration-category-r5 named categoryR5 1..*
+
+* extension[categoryR5].value[x] only CodeableConcept
+* extension[categoryR5].valueCodeableConcept from VsTypeofSystemicTreatmentI4rc (preferred)
+* extension[categoryR5].valueCodeableConcept insert AdditionalBinding (preferred, VsTreatmentSetting4RC, Vocabulary binding used for Treatment Settings)
+* extension[categoryR5].valueCodeableConcept insert AdditionalBinding (preferred, ChemotherapyInfoVs, Vocabulary binding used for Chemotherapy Info)
+
 * insert MedicationAdministrationI4rcRules
 
 /*=== REMOVED NOT PRESENT IN THE LOGICAL MODEL MAPPING 
@@ -56,6 +68,14 @@ Description: "This profile defines how to represent MedicationAdministration in 
   * system = $ucum
   * code 1.. MS 
   * unit MS 
+
+Extension: Outcome
+Id: outcome
+Title: "Medication Outcome"
+Description: "The outcome of the medication administration in the context of cancer treatment."
+* value[x] only CodeableConcept
+* valueCodeableConcept from VsTreatmentResponseI4rc (preferred)
+* valueCodeableConcept MS
 
 /* //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  MedicationStatementI4rc

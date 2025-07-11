@@ -85,6 +85,7 @@ Incisional biopsy - 4321986
 Excisional biopsy - 4228202
 Excision - 4279903
 */
+* derivedFrom only Reference (hn-cancer-stage-group or sarcoma-cancer-stage-group)
 * component 0..0 
 
 
@@ -109,6 +110,8 @@ This profile should be also used for documenting primary cancer relapses during 
 * extension[$condition-dueTo] ^short = "If Radiation therapy induced"
 * extension[$condition-dueTo].valueCodeableConcept 1..
 * extension[$condition-dueTo].valueCodeableConcept = $athena#4029715 // was $sct#108290001 "Radiation oncology AND/OR radiotherapy"
+
+* extension contains SameHospital named sameHospital 0..1
 
 * insert CancerConditionCommonRules
 // * clinicalStatus and verificationStatus MS
@@ -210,7 +213,7 @@ This profile should be also used for documenting primary cancer relapses during 
   * ^short = "Genetic Tests performed"
   * ^definition = """It documents the Genetic Test performed"""
   // * code from VsGeneticTestsPerformed
-  * detail only Reference (ObservationYesNo)
+  * detail only Reference (ObservationGeneticTestExpressionI4rc)
 
 
 * note ^short = "Additional information about the Cancer Condition"

@@ -64,7 +64,7 @@ Usage: #definition
 //---END					
 					
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/SarcomaStage"					
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/sarcoma-locoRegional-category"					
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/locoRegional-category"					
 					
 * group[=].element[+].code = #SarcomaStage.locoRegional					
 * group[=].element[=].display = "Loco-regional"					

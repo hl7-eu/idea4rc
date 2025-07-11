@@ -6,8 +6,7 @@ Title:    "Procedure: Surgery"
 Description: "This profile defines how to represent Procedures in FHIR for describing a set of Surgery data required by the IDEA4RC project. This porfiles is adapted from the PanCareSurPass Procedure Surgery profile."
 //-------------------------------------------------------------------------------------------
 
-/* * extension contains SameCustodianFlag named surgeryHospital 0..1
-* extension[surgeryHospital].valueBoolean ^short = "Was this performed at the registering hospital?" */
+* extension contains SameHospital named sameHospital 0..1
 
 * extension contains $procedure-category-r5 named ProcedureCategoryR5 0..*
 
@@ -30,7 +29,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
   * ^short = "Type of surgical approach on Tumour"
 
 * extension contains $procedure-supportingInfo-r5 named supportingInfoR5 0..*
-* extension[supportingInfoR5]
+* extension[supportingInfoR5].valueReference only Reference(ObservationTumorRuptureI4rc)
 
 * text ^short = "Textual description of the surgical procedure"
 * identifier ^short = "External Identifiers for this surgical procedure"
@@ -42,7 +41,7 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
   * ^example.label = "Surgical procedure"
   * ^example.valueCodeableConcept = $sct#387713003 "Surgical procedure" 
 * code ^short = "Identification of the procedure." 
-* code from SurgicalProcedureTypeVs (extensible)
+* code from VsSurgicalProcedureCategoryI4rc (extensible)
 // * code from SurgeryTypeVs 
 // add slice on coding to allow more precise data
 * insert SubjectRules
@@ -52,12 +51,12 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 * reasonReference 1..  // add reference to the diagnosis
 * reasonReference only Reference(ConditionPrimaryCancerI4rc)
 // * bodySite 0..1 MS 
-* bodySite from AffectedOrganVs (extensible) // VS to be changed
+* bodySite from VsSurgerySiteI4rc
   * extension contains BodyLocationQualifier named qualifier 0..*
   * extension[qualifier].valueCodeableConcept // ADD BINDING 
 
   * extension contains LateralityQualifier named laterality 0..1
-  * extension[laterality].valueCodeableConcept from LateralityQualifierVS 
+  * extension[laterality].valueCodeableConcept from VsSurgerySiteLateralityQualifierI4rc 
 
 // === ADD VS BINDING =====
 /* * bodySite.extension[lateralityQualifier].valueCodeableConcept from LeftRightBiUnilateralVS  (preferred)  */

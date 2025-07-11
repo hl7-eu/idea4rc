@@ -403,7 +403,7 @@ groups:
       - StructureDefinition/observation-extraNodalExtension-eu-i4rc
       - StructureDefinition/sarcoma-cancer-stage-group
       - StructureDefinition/sarcoma-extent-category
-      - StructureDefinition/sarcoma-locoRegional-category
+      - StructureDefinition/locoRegional-category
  
       
   patientFollowUpImplementation:

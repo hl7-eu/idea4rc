@@ -33,7 +33,7 @@ Description: "The extent of the cancer in the body, according to a given cancer 
                               CancerStageGroupSctVS, 
                               Tumor staging type) */
 
-* valueCodeableConcept from CancerStageGroupValueVS (extensible) 
+* valueCodeableConcept from CancerStageGroupValuelVS (extensible) 
 * hasMember only Reference(Observation)
 * insert ObservationHasMemberSlicingRules
 * hasMember contains
@@ -70,14 +70,19 @@ Description: "Category of the primary tumor, based on its size and extent, based
 * insert CancerStageCommonRules
 * insert NotUsed(hasMember)
 * code from ObservationCodesPrimaryTumorVS (required)
-* value[x] from TNMPrimaryTumorCategoryVS (example) 
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+* obeys obs-value-clinical
+* obeys obs-value-pathological
+* value[x] only CodeableConcept
 
+Invariant: obs-value-clinical
+Description: "If code is 21905-5 (Primary tumor.clinical [Class] Cancer), value must be from ClinicalTNMPrimaryTumorCategoryVS"
+Expression: "code.coding.where(code='21905-5').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-clinical-tnm-primary-tumor-category-vs')"
+Severity: #error
+
+Invariant: obs-value-pathological
+Description: "If code is 21899-0 (Primary tumor.pathology Cancer), value must be from PathologicalTNMPrimaryTumorCategoryVS"
+Expression: "code.coding.where(code='21899-0').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-pathological-tnm-primary-tumor-category-vs')"
+Severity: #error
 
 Profile:  TNMRegionalNodesCategory
 Id: mcode-tnm-regional-nodes-category
@@ -87,14 +92,19 @@ Description: "Category of the presence or absence of metastases in regional lymp
 * insert CancerStageCommonRules
 * insert NotUsed(hasMember)
 * code from ObservationCodesRegionalNodesVS (required)
-* value[x] from TNMRegionalNodesCategoryVS (example)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+* value[x] only CodeableConcept
+* obeys obs-regional-value-clinical
+* obeys obs-regional-value-pathological
 
+Invariant: obs-regional-value-clinical
+Description: "If code is 21906-3 (Regional lymph nodes.clinical [Class] Cancer), value must be from TNMRegionalNodesCategoryClinicalVS"
+Expression: "code.coding.where(code='21906-3').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-tnm-regional-nodes-category-clinical-vs')"
+Severity: #error
+
+Invariant: obs-regional-value-pathological
+Description: "If code is 21900-6 (Regional lymph nodes.pathology [Class] Cancer), value must be from TNMRegionalNodesCategoryPathologicalVS"
+Expression: "code.coding.where(code='21900-6').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-tnm-regional-nodes-category-pathological-vs')"
+Severity: #error
 
 Profile:  TNMDistantMetastasesCategory
 Id: mcode-tnm-distant-metastases-category
@@ -104,10 +114,16 @@ Description: "Category describing the extent of a tumor metastasis in remote ana
 * insert CancerStageCommonRules
 * insert NotUsed(hasMember)
 * code from ObservationCodesDistantMetastasesVS (required)
-* value[x] from TNMDistantMetastasesCategoryVS (preferred)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
-  * insert AdditionalBinding (preferred,
-                              VsPathologicalTI4rc, 
-                              Vocabulary binding used for Clincal Stage - VALUE SET TO BE UPDATED)
+* value[x] only CodeableConcept
+* obeys obs-metastases-value-clinical
+* obeys obs-metastases-value-pathological
+
+Invariant: obs-metastases-value-clinical
+Description: "If code is 21907-1 (RDistant metastases.clinical [Class] Cancer), value must be from TNMDistantMetastasesCategoryClinicalVS"
+Expression: "code.coding.where(code='21907-1').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-tnm-distant-metastases-category-clinical-vs')"
+Severity: #error
+
+Invariant: obs-metastases-value-pathological
+Description: "If code is 21901-4 (Distant metastases.pathology [Class] Cancer), value must be from TNMDistantMetastasesCategoryPathologicalVS"
+Expression: "code.coding.where(code='21901-4').exists() implies value.as(CodeableConcept).memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mcode-tnm-distant-metastases-category-pathological-vs')"
+Severity: #error

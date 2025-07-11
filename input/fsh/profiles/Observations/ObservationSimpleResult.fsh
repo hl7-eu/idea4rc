@@ -22,7 +22,7 @@ Description: "This profile constrains the Observation resource to represent test
   * insert AdditionalBinding (required, VsPositiveNegativeNTAthenaI4rc, Positive-Negative-Not Tested)
   * insert AdditionalBinding (extensible, VsPositiveNegativeNTSnomedI4rc, Positive-Negative-Not Tested) */
 * valueQuantity 0..
-
+* partOf only Reference (MedicationAdministration or MedicationDispense or MedicationStatement or ProcedureSurgeryI4rc or Immunization or ImagingStudy)
 
 Invariant: obs-valueOftype-quantity
 Description: "If the type is 'Dimension of tumor' or 'Number of mitoses per 10 high power fields' or 'Invasion into the fascia then the value is a Quantity'"
