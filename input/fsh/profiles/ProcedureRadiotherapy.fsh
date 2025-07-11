@@ -112,11 +112,12 @@ Description: "Total High Dose delivered to a given radiotherapy volume."
 
 * extension contains volume 1..1 
 * extension[volume].url = "volume" (exactly)
+* extension[volume].value[x] only Reference
 * extension[volume].valueReference only Reference(http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-volume)
 
 * extension contains totalHighDoseDelivered 0..1
 * extension[totalHighDoseDelivered].url = "totalHighDoseDelivered" (exactly)
-* extension[totalHighDoseDelivered].valueQuantity only Quantity
+* extension[totalHighDoseDelivered].value[x] only Quantity
 * extension[totalHighDoseDelivered].valueQuantity.system = "http://unitsofmeasure.org"
 * extension[totalHighDoseDelivered].valueQuantity.code = #cGy
 
