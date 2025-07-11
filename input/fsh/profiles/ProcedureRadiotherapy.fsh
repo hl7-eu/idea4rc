@@ -35,13 +35,14 @@ RuleSet: ProcedureRadiotherapyI4rcRules
 * extension contains $mcode-treatment-termination-reason named terminationReason 0..*
 * extension[terminationReason] 
 
-
 //===================================
 
 * extension contains  $mcode-procedure-intent named procedureIntent 0..1
 * extension[procedureIntent]
 
 * extension contains RadiotherapySettings named settings 0..1
+
+* extension contains TotalHighDoseDelivered named totalHighDoseDelivered 0..1
 
 * identifier ^short = "External Identifiers for this radiotherapy / boost"
 * status ^short = "Procedure status"
@@ -102,6 +103,22 @@ Title: "Radiotherapy Setting"
 Description: "The setting in which the radiotherapy procedure was performed."
 * value[x] only CodeableConcept
 * valueCodeableConcept from VsSettingRadiotherapyI4RC (preferred)
+
+
+Extension: TotalHighDoseDelivered
+Id: total-high-dose-delivered
+Title: "Total High Dose Delivered"
+Description: "Total High Dose delivered to a given radiotherapy volume."
+
+* extension contains volume 1..1 
+* extension[volume].url = "volume" (exactly)
+* extension[volume].valueReference only Reference(http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-volume)
+
+* extension contains totalHighDoseDelivered 0..1
+* extension[totalHighDoseDelivered].url = "totalHighDoseDelivered" (exactly)
+* extension[totalHighDoseDelivered].valueQuantity only Quantity
+* extension[totalHighDoseDelivered].valueQuantity.system = "http://unitsofmeasure.org"
+* extension[totalHighDoseDelivered].valueQuantity.code = #cGy
 
 /* 
 
