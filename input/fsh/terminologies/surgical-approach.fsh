@@ -15,7 +15,7 @@ Description: "type of surgical approach on tumour"
 * $athena#4333339 "Craniofacial"
 // TO BE ADDED COMBINED
 //* $athena#4129922 "Unknown"
-* $athena#2000100027 "Combined surgical approach"
+* $cs-idea4rc-vocab-eu-i4rc#2000100027 "Combined surgical approach"
 
 
 

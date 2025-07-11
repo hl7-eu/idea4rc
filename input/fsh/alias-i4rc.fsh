@@ -19,7 +19,6 @@ Alias: $alternate-codes = http://hl7.org/fhir/StructureDefinition/alternate-code
 Alias: $iso21090-SC-coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding
 Alias: $medicationadministration-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.category
 
-
 //============== ALIAS ===============
 Alias: $actor-headneck = http://hl7.eu/fhir/ig/idea4rc/actor-headneck-i4rc
 Alias: $actor-sarcoma-i4rc = http://hl7.eu/fhir/ig/idea4rc/actor-sarcoma-i4rc
@@ -28,6 +27,8 @@ Alias: $obligation = http://hl7.org/fhir/StructureDefinition/obligation
 
 //--- Internal Code Systems
 Alias: $cs-generic-eu-i4rc = http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-generic-eu-i4rc
+Alias: $bb-topo = http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-bb-topo-eu-i4rc
+Alias: $cs-idea4rc-vocab-eu-i4rc = http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-idea4rc-vocab-eu-i4rc
 
 // --- Code Systems
 Alias: $athena = http://fhir.ohdsi.org/CodeSystem/concepts // http://athena.ohdsi.org

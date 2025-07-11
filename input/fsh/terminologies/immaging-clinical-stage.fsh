@@ -7,8 +7,8 @@ Description: "This ValueSet defines a collection of codes describing Immaging Cl
 
 * ^experimental = false
 
-* $athena#2000100025 "Fluorodeoxyglucose positron emission tomography"
-* $athena#2000100026 "Positron emission tomography using other tracers"
+* $cs-idea4rc-vocab-eu-i4rc#2000100025 "Fluorodeoxyglucose positron emission tomography"
+* $cs-idea4rc-vocab-eu-i4rc#2000100026 "Positron emission tomography using other tracers"
 
 * codes from valueset VsImmagingClinicalStagePrimarySiteI4rc
 * codes from valueset VsImmagingClinicalStageNeckI4rc
