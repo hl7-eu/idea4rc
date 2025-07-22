@@ -456,6 +456,7 @@ groups:
       - StructureDefinition/sarcoma-cancer-stage-group
       - StructureDefinition/sarcoma-extent-category
       - StructureDefinition/locoRegional-category
+      - StructureDefinition/observation-number-tumor-nodules
  
       
   patientFollowUpImplementation:
