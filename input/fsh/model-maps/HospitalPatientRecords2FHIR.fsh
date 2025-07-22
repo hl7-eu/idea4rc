@@ -13,7 +13,7 @@ Usage: #definition
 * group[=].element[=].display = "Patient (M)"
 * group[=].element[=].target.code = #EpisodeOfCare.patient
 * group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #hospital
 * group[=].element[=].display = "Hospital (M)"
 * group[=].element[=].target.code = #EpisodeOfCare.managingOrganization
@@ -28,4 +28,4 @@ Usage: #definition
 * group[=].element[=].display = "Date of first contact with the hospital (M)"
 * group[=].element[=].target.code = #EpisodeOfCare.period.start
 * group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target.equivalence = #equivalent

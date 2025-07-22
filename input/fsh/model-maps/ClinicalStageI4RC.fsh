@@ -285,7 +285,7 @@ Invasive Disease - 32943
 """
 * sites.lung insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * sites.lung insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* sites.lung ^comment = """        Metastasis to lung - 36770283"""
+* sites.lung ^comment = """Metastasis to lung - 36770283"""
 * sites.metastasisatbone 0..* boolean "metastasisAtBone (R)" """Describes if site of metastasic disease  is bone 
 """
 * sites.metastasisatbone insert ObligationActorAndCode($actor-headneck, #SHALL:handle)

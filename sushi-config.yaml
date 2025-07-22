@@ -214,6 +214,41 @@ resources:
     name: Hospital Patient Records Model to this guide Map
     description: It shows how the Hospital Patient Records model is mapped into this guide
 
+  ConceptMap/isolatedLimbPerfusion2FHIR:
+    name: Isolated Limb Perfusion Model to this guide Map
+    description: It shows how the Isolated Limb Perfusion Model model is mapped into this guide
+
+  ConceptMap/regionalDeepHyperthemia2FHIR:
+    name: Regional Deep Hyperthemia Model to this guide Map
+    description: It shows how the Regional Deep Hyperthemia Model model is mapped into this guide
+
+  ConceptMap/overallTreatmentResponse2FHIR:
+    name: Overall Treatment Response Model to this guide Map
+    description: It shows how the Overall Treatment Response Model model is mapped into this guide
+
+  ConceptMap/systemicTreatment2FHIR:
+    name: Systemic Treatment Model to this guide Map
+    description: It shows how the Systemic Treatment Model model is mapped into this guide
+
+  ConceptMap/adverseEvent2FHIR:
+    name: Adverse Event Model to this guide Map
+    description: It shows how the Adverse Event Model model is mapped into this guide
+
+  ConceptMap/drugsForTreatments2FHIR:
+    name: Drugs For Treatments Model to this guide Map
+    description: It shows how the Drugs For Treatments Model model is mapped into this guide
+
+  ConceptMap/clinicalStage2FHIR:
+    name: Clinical Stage Model to this guide Map
+    description: It shows how the Clinical Stage Model model is mapped into this guide
+
+  ConceptMap/pathologicalStage2FHIR:
+    name: Pathological Stage Model to this guide Map
+    description: It shows how the Pathological Stage Model model is mapped into this guide
+
+  ConceptMap/diseaseExtent2FHIR:
+    name: Disease Extent Model to this guide Map
+    description: It shows how the Disease Extent Model model is mapped into this guide
 
  # ConceptMap/sarcomaStage2FHIR:
  #   name: Sarcoma Stage Model to this guide Map
@@ -240,9 +275,17 @@ resources:
     name: Diagnosis
     description: IDEA4RC Diagnosis common model
 
+  StructureDefinition/IsolatedLimbPerfusion:
+    name: IsolatedLimbPerfusion
+    description: IDEA4RC Isolated Limb Perfusion common model
+
+  StructureDefinition/RegionalDeepHyperthemia:
+    name: RegionalDeepHyperthemia
+    description: IDEA4RC Regional Deep Hyperthemia common model
+
   StructureDefinition/OverallTreatmentResponse:
     name: OverallTreatmentResponse
-    description: IDEA4RC OverallTreatmentResponse common model
+    description: IDEA4RC Overall Treatment Response common model
 
   StructureDefinition/ClinicalStage:
     name: Clinical Stage
@@ -330,6 +373,7 @@ groups:
       - StructureDefinition/CancerEpisode
       - StructureDefinition/EpisodeEvent
       - StructureDefinition/Diagnosis
+      - StructureDefinition/IsolatedLimbPerfusion
       - StructureDefinition/OverallTreatmentResponse
       - StructureDefinition/ClinicalStage
       - StructureDefinition/PathologicalStage
@@ -340,6 +384,7 @@ groups:
       - StructureDefinition/Surgery
       - StructureDefinition/Radiotherapy
       - StructureDefinition/GeneticTestExpression
+      - StructureDefinition/RegionalDeepHyperthemia
   #    - StructureDefinition/TreatmentResponse
       - StructureDefinition/AdverseEvent
       - StructureDefinition/HospitalPatientRecords
@@ -355,10 +400,13 @@ groups:
       - ConceptMap/subject2FHIR
       - ConceptMap/cancerEpisode2FHIR
       - ConceptMap/diagnosis2FHIR
+      - ConceptMap/isolatedLimbPerfusion2FHIR
+      - ConceptMap/overallTreatmentResponse2FHIR
+      - ConceptMap/systemicTreatment2FHIR
  #     - ConceptMap/sarcomaStage2FHIR
  #     - ConceptMap/hNstage2FHIR
      #  - ConceptMap/treatmentResponse2FHIR
-      - ConceptMap/geneticTest2FHIR
+      #- ConceptMap/geneticTest2FHIR
 #      - ConceptMap/pathologicalStage2FHIR
       - ConceptMap/episodeEvent2FHIR
       - ConceptMap/surgery2FHIR
@@ -367,8 +415,12 @@ groups:
       - ConceptMap/followup2FHIR
       - ConceptMap/geneticTestExpression2FHIR
       - ConceptMap/hospitalPatientRecords2FHIR
-
-      
+      - ConceptMap/adverseEvent2FHIR
+      - ConceptMap/drugsForTreatments2FHIR      
+      - ConceptMap/clinicalStage2FHIR
+      - ConceptMap/pathologicalStage2FHIR
+      - ConceptMap/diseaseExtent2FHIR
+      - ConceptMap/regionalDeepHyperthemia2FHIR
 
   patientImplementation:
     name:  HL7 FHIR Profile implementing the Subject (Patient) model

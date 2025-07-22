@@ -228,8 +228,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].display = "Previous malignant cancer site (R)"
 * group[=].element[=].target.code = #Observation.valueCodeableConcept
 * group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #equal
-//* group[=].element[=].target.comment = "TO BE CHECKED"
+* group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-tobaccouse-eu-i4rc"
 * group[=].element[+].code = #smoking
@@ -248,7 +247,7 @@ For examplification purposes only the comorbidConditionPresent extension is show
 * group[=].element[=].display = "Previous cancer treatment (R)"
 * group[=].element[=].target.code = #Observation.valueCodeableConcept
 * group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Subject"
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/patient-eu-i4rc"
 * group[=].element[+].code = #sex

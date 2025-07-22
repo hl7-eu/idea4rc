@@ -7,10 +7,10 @@ Maturity Level: 0 Draft"""
 """
 * diagnosisReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * diagnosisReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* episodeEvent 1..* EpisodeEvent "Episode Event reference (M)" """EpisodeEvent element containing the data regarding the patient's cancer, in case the treatment was done for an episode event (progression, recurrence...) 
+* episodeEventReference 1..* EpisodeEvent "Episode Event reference (M)" """EpisodeEvent element containing the data regarding the patient's cancer, in case the treatment was done for an episode event (progression, recurrence...) 
 """
-* episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
+* episodeEventReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
+* episodeEventReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * surgeryType 1..* CodeableConcept "Surgery type (M)" """Primary surgery/re-excision (check with unplanned or excisional biopsy)
 
 Check
@@ -123,7 +123,7 @@ No -  4188540"""
 * dateOfSurgeryOnM 1..* date "Date of surgery on M (M)" """Date of the surgery on the metastasis 
 """
 * dateOfSurgeryOnM insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* siteOfSurgeryOnMetastasis 0..* BackboneElement "Site of surgery on metastasis_soft tissue (O)" """Describes if site of surgery on metastasis  is soft tissue 
+* siteOfSurgeryOnMetastasis 0..* BackboneElement "Site of surgery on metastasis" """Describes if site of surgery on metastasis
 """
 * siteOfSurgeryOnMetastasis insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * siteOfSurgeryOnMetastasis.softTissue 0..* boolean "Site of surgery on metastasis_soft tissue (O)" """Describes if site of surgery on metastasis  is soft tissue 

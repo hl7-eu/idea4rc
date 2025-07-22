@@ -6,9 +6,9 @@ Maturity Level: 0 Draft"""
 * diagnosisReference 1..* Diagnosis "Diagnosis reference (M)" """Diagnosis reference in case the treatment was done for baseline 
 """
 * diagnosisReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* episodeEvent 1..* EpisodeEvent "Episode Event Reference (M)" """EpisodeEvent element containing the data regarding the patient's cancer 
+* episodeEventReference 1..* EpisodeEvent "Episode Event Reference (M)" """EpisodeEvent element containing the data regarding the patient's cancer 
 """
-* episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
+* episodeEventReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * geneExpressionAnalysisPerformed 0..* boolean "Gene expression analysis performed (R)" """Clarifies whether a gene expression analysis is performed 
 """
 * geneExpressionAnalysisPerformed insert ObligationActorAndCode($actor-headneck, #SHALL:handle)

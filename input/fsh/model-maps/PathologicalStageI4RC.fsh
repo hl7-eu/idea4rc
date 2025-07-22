@@ -3,105 +3,13 @@ Id: PathologicalStage
 Title: "Pathological Stage"
 Description: """Pathological Stage
 Maturity Level: 0 Draft"""
-* diagnosis 1..* Diagnosis "Diagnosis Reference (M)" """Diagnosis element containing the data regarding the patient's cancer 
+* diagnosisReference 1..* Diagnosis "Diagnosis Reference (M)" """Diagnosis element containing the data regarding the patient's cancer 
 """
-* diagnosis insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* diagnosis insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* doneBy 1..* string "Staging procedures done by (M)" """Describes the ID of the institution where staging procedure for primary tumour was performed 
+* diagnosisReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
+* diagnosisReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
+* stagingProceduresDoneBy 1..* string "Staging procedures done by (M)" """Describes the ID of the institution where staging procedure for primary tumour was performed 
 """
-* doneBy insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForPrimarySite 1..* BackboneElement "Imaging for primary site (M)" """Defines whether any imaging study for primary site was performed or not 
-"""
-* imagingForPrimarySite insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForPrimarySite insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForPrimarySite.ct 0..* boolean "CT for primary site (R)" """Defines whether any CT scan for primary site was performed or not 
-"""
-* imagingForPrimarySite.ct insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForPrimarySite.ct insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForPrimarySite.ct ^comment = """Computed tomography - 4300757"""
-* imagingForPrimarySite.mri 0..* boolean "MRI for primary site (R)" """Defines whether any MRI for primary site was performed or not 
-"""
-* imagingForPrimarySite.mri insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForPrimarySite.mri insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForPrimarySite.mri ^comment = """Magnetic resonance imaging - 4013636"""
-* imagingForPrimarySite.us 0..* boolean "US for primary site (R)" """Defines whether any US for primary site was performed or not 
-"""
-* imagingForPrimarySite.us insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForPrimarySite.us insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForPrimarySite.us ^comment = """Ultrasonography - 4037672"""
-* imagingForPrimarySite.other 0..* CodeableConcept "Other imaging for primary site (R)" """Provides any other value for imaging options for primary site 
-"""
-* imagingForPrimarySite.other insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForPrimarySite.other insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForPrimarySite.other ^comment = """Code from Procedure domain
-
- Fluorodeoxyglucose positron emission tomography - 2000100025
-Positron emission tomography using other tracers - 2000100026"""
-* imagingForNeck 1..* BackboneElement "Imaging for neck (M)" """Whether any imaging study for the neck was performed or not 
-"""
-* imagingForNeck insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForNeck insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForNeck.ct 0..* boolean "CT for neck (R)" """Defines whether any CT scan for neck was performed or not 
-"""
-* imagingForNeck.ct insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForNeck.ct insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForNeck.ct ^comment = """Computed tomography of neck - 3307719
-"""
-* imagingForNeck.mri 0..* boolean "MRI for neck (R)" """Defines whether any MRI for neck was performed or not 
-"""
-* imagingForNeck.mri insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForNeck.mri insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForNeck.mri ^comment = """Magnetic resonance imaging of neck - 4218948
-"""
-* imagingForNeck.us 0..* boolean "US for neck (R)" """Defines whether any US for neck was performed or not 
-"""
-* imagingForNeck.us insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForNeck.us insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForNeck.us ^comment = """Ultrasonography of Neck - 2793113
-"""
-* imagingForNeck.other 0..* CodeableConcept "Other imaging for neck (R)" """Provides any other value for imaging options for neck 
-"""
-* imagingForNeck.other insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForNeck.other insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForNeck.other ^comment = """Code from Procedure domain
-
- Fluorodeoxyglucose positron emission tomography - 2000100025
-Positron emission tomography using other tracers - 2000100026"""
-* imagingForMetastasis 1..* BackboneElement "Imaging for metastasis (M)" """Wherther any imaging study for metastasis was performed or not 
-"""
-* imagingForMetastasis insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForMetastasis insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForMetastasis.ct 0..* boolean "CT for metastasis (R)" """Defines whether any CT scan for metastasis was performed or not 
-"""
-* imagingForMetastasis.ct insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForMetastasis.ct insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForMetastasis.ct ^comment = """CT of chest - 4058335
-CT of abdomen - 4061009
-CT of pelvis - 4058336
-CT of brain - 4145739"""
-* imagingForMetastasis.mri 0..* boolean "MRI for metastasis (R)" """Defines whether any MRI for metastasis was performed or not 
-"""
-* imagingForMetastasis.mri insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForMetastasis.mri insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForMetastasis.mri ^comment = """MRI of abdomen - 4083230
-MRI of pelvis - 4097527
-MRI of brain - 37311324"""
-* imagingForMetastasis.us 0..* boolean "US for metastasis (R)" """Defines whether any US for metastasis was performed or not 
-"""
-* imagingForMetastasis.us insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForMetastasis.us insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForMetastasis.us ^comment = """Ultrasonography of abdomen - 4261497"""
-* imagingForMetastasis.other 0..* CodeableConcept "Other imaging for metastasis (R)" """Provides any other value for imaging options for metastasis 
-"""
-* imagingForMetastasis.other insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForMetastasis.other insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* imagingForMetastasis.other ^comment = """Code from Procedure domain
-
-Standard chest X-ray - 4056836
-Radioisotope scan of bone - 4217238
-Positron emission tomography - 4305790
- Fluorodeoxyglucose positron emission tomography - 2000100025
-Positron emission tomography using other tracers - 2000100026"""
+* stagingProceduresDoneBy insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * pt 1..* CodeableConcept "pT (M)" """Specifies the pathological T 
 """
 * pt insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
@@ -257,14 +165,12 @@ Invasive Disease - 32943
 """
 * isTransitMetastasisWithClinicalConfirmation 1..* boolean "Is Transit metastasis with clinical confirmation (M)" """Indicates spread of cancer cells through lymphatic vessels, where they lodge and grow in tissues located between the primary tumor and the nearest regional lymph nodes. 
 """
-* isTransitMetastasisWithClinicalConfirmation insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * isTransitMetastasisWithClinicalConfirmation insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * isTransitMetastasisWithClinicalConfirmation ^comment = """Transit Metastasis with Clinical Confirmation - 36769249
 
 """
 * isMultifocalTumor 1..* boolean "Is Multifocal tumor (M)" """Presence of multiple distinct tumor foci (or nodules) within the same organ or tissue, originating from the same primary tumor type. These foci may arise through independent tumorigenesis (multiple primary lesions) or local spread of the same cancer. 
 """
-* isMultifocalTumor insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * isMultifocalTumor insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * isMultifocalTumor ^comment = """Multifocal Tumor - 36769933
 
