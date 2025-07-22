@@ -21,7 +21,7 @@ Dead of Other Cause (DOC) - 2000100073
 Dead of Unknown Cause (DUC) - 2000100074
 Alive With Disease (AWD) - 2000100075
 Lost to follow-up - 4163894"""
-* statusOfDiseaseAtLastFollowUp 1..* BackboneElement "Status of disease at last follow-up (M) type EpisodeEvent" """Describes the disease status at the last follow-up. This value is redundant as it could be derived from the disease status in EpisodeEvent. If a Patient has 3 follow-ups, but the disease status (e.g., stable disease) did not change during those, the follow-ups will be grouped into a single one with the last date of the three of them. 
+* statusOfDiseaseAtLastFollowUp 1..* EpisodeEvent "Status of disease at last follow-up (M) type EpisodeEvent" """Describes the disease status at the last follow-up. This value is redundant as it could be derived from the disease status in EpisodeEvent. If a Patient has 3 follow-ups, but the disease status (e.g., stable disease) did not change during those, the follow-ups will be grouped into a single one with the last date of the three of them. 
 """
 * statusOfDiseaseAtLastFollowUp insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * statusOfDiseaseAtLastFollowUp insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)

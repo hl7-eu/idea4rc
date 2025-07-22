@@ -6,9 +6,9 @@ Maturity Level: 0 Draft"""
 * diagnosisReference 1..* Diagnosis "Diagnosis reference (M)" """Diagnosis reference in case the treatment was done for baseline 
 """
 * diagnosisReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* episodeEvent 1..* EpisodeEvent "Episode Event reference (M)" """EpisodeEvent element containing the data regarding the patient's cancer 
+* episodeEventReference 1..* EpisodeEvent "Episode Event reference (M)" """EpisodeEvent element containing the data regarding the patient's cancer 
 """
-* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
+* episodeEventReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * regionaldeephyperthemiaDoneAthospital 1..* string "RegionalDeepHyperthemia done atHospital (M)" """In which hospital was the Other Local Treatment performed 
 """
 * regionaldeephyperthemiaDoneAthospital insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)

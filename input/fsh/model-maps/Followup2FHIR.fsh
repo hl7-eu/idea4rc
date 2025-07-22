@@ -21,12 +21,6 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.comment = "Parent Encounter.diagnosis with use = $diagnosis-role#DD (Discharge Diagnosis)"
-* group[=].element[+].code = #newCancerDiagnosis
-* group[=].element[=].display = "New cancer diagnosis (M)"
-* group[=].element[=].target.code = #Condition.code
-* group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #equivalent
-* group[=].element[=].target.comment = "Parent Encounter.diagnosis with use = $diagnosis-role#DD (Discharge Diagnosis)"
 * group[=].element[+].code = #dateOfNewCancerDiagnosis
 * group[=].element[=].display = "Date of new cancer diagnosis (M)"
 * group[=].element[=].target.code = #Condition.onSetDateTime
@@ -35,7 +29,7 @@ Usage: #definition
 * group[=].element[=].target.comment = "Parent Encounter.diagnosis with use = $diagnosis-role#DD (Discharge Diagnosis). See the CancerEpisode map for further details about the representation of the date of diagnosis"
 * group[=].element[+].code = #newCancerTopography
 * group[=].element[=].display = "New cancer topography (M)"
-* group[=].element[=].target.code = #Condition.bodySite
+* group[=].element[=].target.code = #Condition.code
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.comment = "Parent Encounter.diagnosis with use = $diagnosis-role#DD (Discharge Diagnosis)"
@@ -51,7 +45,7 @@ Usage: #definition
 * group[=].element[=].target.code = #Encounter.diagnosis.condition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[=].target.comment = "Where use = $diagnosis-role#DD (Discharge Diagnosis)
+* group[=].element[=].target.comment = "Refers to encounter.episodeOfCare. Where use = $diagnosis-role#DD (Discharge Diagnosis)
 Details in the referred Condition"
 * group[=].element[+].code = #patientFollowUpDate
 * group[=].element[=].display = "Patient Follow Up date (M)"
@@ -63,7 +57,7 @@ Details in the referred Condition"
 * group[=].element[=].target.code = #Encounter.diagnosis.condition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "Where use = $diagnosis-role#DD (Discharge Diagnosis)
+* group[=].element[=].target.comment = "If exist.condition where use = $diagnosis-role#DD (Discharge Diagnosis) = 'Yes', else 'No'.
 Details in the referred Condition"
 * group[=].element[+].code = #dateOfNewCancerDiagnosis
 * group[=].element[=].display = "Date of new cancer diagnosis (M)"
@@ -86,7 +80,7 @@ Details in the referred Condition"
 * group[=].element[=].target.code = #Observation.subject
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #lastContact
+* group[=].element[+].code = #patientFollowUpDate
 * group[=].element[=].display = "Last Contact (M)"
 * group[=].element[=].target.code = #Observation.valueDateTime
 * group[=].element[=].target.display = ""
@@ -98,8 +92,10 @@ Details in the referred Condition"
 * group[=].element[=].target.code = #Observation.subject
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[=].target.comment = "Where observation.encounter is the previuos visit"
 * group[=].element[+].code = #statusOfPatientAtLastFollowUp
 * group[=].element[=].display = "Status of patient at last follow-up (M)"
 * group[=].element[=].target.code = #Observation.valueCodeableConcept
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[=].target.comment = "Where observation.encounter is the previuos visit"

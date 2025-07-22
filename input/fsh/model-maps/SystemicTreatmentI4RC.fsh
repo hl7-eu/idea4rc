@@ -3,20 +3,16 @@ Id: SystemicTreatment
 Title: "Systemic Treatment"
 Description: """Systemic Treatment
 Maturity Level: 0 Draft"""
-* diagnosisReference 1..* Diagnosis "Diagnosis reference (M)" """Diagnosis reference in case the treatment was done for baseline 
-"""
+* diagnosisReference 1..* Diagnosis "Diagnosis reference (M)" """Diagnosis reference in case the treatment was done for baseline"""
 * diagnosisReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * diagnosisReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* episodeEvent 1..* EpisodeEvent "Episode Event reference (M)" """EpisodeEvent element containing the data regarding the patient's cancer 
-"""
+* episodeEvent 1..* EpisodeEvent "Episode Event reference (M)" """EpisodeEvent element containing the data regarding the patient's cancer"""
 * episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* systemicTreatmentHospital 1..* string "SystemicTreatment Hospital (M)" """In which hospital was the SystemicTreatment performed 
-"""
+* systemicTreatmentHospital 1..* string "SystemicTreatment Hospital (M)" """In which hospital was the SystemicTreatment performed"""
 * systemicTreatmentHospital insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * systemicTreatmentHospital insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* typeOfSystemicTreatment 1..* CodeableConcept "type of systemic treatment (M)" """Select the type of systemic treatment administered. It is possible to directly select the single treatment as appropriate. 
-Check Targeted therapy code"""
+* typeOfSystemicTreatment 1..* CodeableConcept "type of systemic treatment (M)" """Select the type of systemic treatment administered. It is possible to directly select the single treatment as appropriate."""
 * typeOfSystemicTreatment insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * typeOfSystemicTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * typeOfSystemicTreatment ^comment = """Chemotherapy - 4273629
@@ -26,47 +22,36 @@ Targeted therapy -  912065
 * intent 0..* CodeableConcept "Intent (O)" """Clarifies the reasons why systemic therapy is administered
 • Curative chemotherapy is chemotherapy administered with the goal of achieving a complete remission and preventing the recurrence of cancer. 
 • Palliative chemotherapy refers to any chemotherapy administration that is not curative but administered simply to decrease tumor load and increase life expectancy. It has been defined also as “…treatment in circumstances where the impact of intervention is insufficient to result in major survival advantage, but does affect improvement in terms of tumor‐related symptoms…”
- 
-This is not mapped into OMOP it is implicit in the procedures"""
+"""
 * intent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * intent ^comment = """Palliative - 4179711
 Curative procedure intent - 4162591"""
-* setting 0..* CodeableConcept "Setting (O)" """clarifies the context / how the therapy was administered alone or in conjunction with other treatments
+* setting 0..* CodeableConcept "Setting (O)" """Clarifies the context / how the therapy was administered alone or in conjunction with other treatments
 • Neoadjuvant: treatment given as a first step to shrink a tumor before the main treatment, which is usually surgery, is given. Examples of neoadjuvant therapy include chemotherapy, radiation therapy, and hormone therapy. It is a type of induction therapy.
 • Adjuvant: additional cancer treatment given after the primary treatment to lower the risk that the cancer will come back. Adjuvant therapy may include chemotherapy, radiation therapy, hormone therapy, targeted therapy, or biological therapy.
 • Concomitant/concurrent: A treatment that is given at the same time as another (es. Chemotherapy and radiotherapy).
- 
-THIS INFO CAN BE DERIVED AT QUERY TIME
-
-- Adjuvant chemotherapy is any chemo given after surgery in the hope that the chemo will kill off the remaining cancer cells. This is not a vocabulary issue. You have to create a cohort with chemo patient and a prior surgery recently. There is no difference between chemo and adjuvant chemo in terms of what drugs are used.
-- Neoadjuvant chemotherapy is chemo given before surgery, with the idea that the chemo will shrink the cancer enough that it can be removed surgically. Against, still a normal chemo.
-- Palliative chemotherapy is any chemo given to people without the hope of curing them. It’s just for prolonging life. Again, ordinary chemo."""
+"""
 * setting insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * setting ^comment = """Neo-adjuvant - 44808409
 Concomitant - 2000100028
  Adjuvant - 44804498
 Systemic treatment alone - 2000100029"""
-* chemotherapyInfo 0..* CodeableConcept "Chemotherapy info (O)" """Information for chemotherapy 
-We need to check it also at query time. So we are deriving the information at query time and we will also perform quality checks. Additionally, do them at normalized table in possible cases."""
+* chemotherapyInfo 0..* CodeableConcept "Chemotherapy info (O)" """Information for chemotherapy"""
 * chemotherapyInfo insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * chemotherapyInfo ^comment = """Preoperative - 4119031
 Postoperative period - 4118656
 Hyperthermic intraperitoneal chemotherapy - 3184898
 Therapeutic - 4133895"""
-* startDateSystemicTreatment 1..* date "Start date systemic treatment (M)" """Specifies when systemic treatment begins 
-"""
+* startDateSystemicTreatment 1..* date "Start date systemic treatment (M)" """Specifies when systemic treatment begins"""
 * startDateSystemicTreatment insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * startDateSystemicTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* endDateSystemicTreatment 1..* date "End date systemic treatment (M)" """Specifies when systemic treatment ends 
-"""
+* endDateSystemicTreatment 1..* date "End date systemic treatment (M)" """Specifies when systemic treatment ends"""
 * endDateSystemicTreatment insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * endDateSystemicTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* numberOfCycles 0..* Quantity "Number of cycles/ administrations (O)" """clarifies how many times the treatment was administered. A cycle of treatment is a period of treatment followed by a period of rest (no treatment). For example, treatment given for one week followed by three weeks of rest is one cycle of treatment. A cycle can be repeated multiple times. 
-Maybe Integer?"""
+* numberOfCycles 0..* Quantity "Number of cycles/ administrations (O)" """Clarifies how many times the treatment was administered. A cycle of treatment is a period of treatment followed by a period of rest (no treatment). For example, treatment given for one week followed by three weeks of rest is one cycle of treatment. A cycle can be repeated multiple times."""
 * numberOfCycles insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * numberOfCycles insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* regimen 0..* CodeableConcept "Regimen (O)" """The regimen applied to the patient. If this is not present, or the specific regimen is not listed here, use the DrugsForTreatments entity. 
-"""
+* regimen 0..* CodeableConcept "Regimen (O)" """The regimen applied to the patient. If this is not present, or the specific regimen is not listed here, use the DrugsForTreatments entity."""
 * regimen insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * regimen insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * regimen ^comment = """Doxorubicin and Ifosfamide - 35806965
@@ -125,14 +110,11 @@ Vincristine, Ifosfamide, Doxorubicin, Etoposide (VIDE) - 35805451
 Pazopanib monotherapy - 35805690
 Regorafenib monotherapy - 35804569
 high dose Ifosfamide - 2000100070"""
-* startDateRegimenChanged 1..* date "Start date regimen changed (M)" """specifies when the new systemic treatment begins, if a combination please specify the start of the first drug 
-"""
+* startDateRegimenChanged 1..* date "Start date regimen changed (M)" """Specifies when the new systemic treatment begins, if a combination please specify the start of the first drug"""
 * startDateRegimenChanged insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* endDateRegimenChanged 1..* date "End date regimen changed (M)" """specifies when the new  systemic treatment ends,if a combination please specify the end of the last drug 
-"""
+* endDateRegimenChanged 1..* date "End date regimen changed (M)" """Specifies when the new  systemic treatment ends,if a combination please specify the end of the last drug"""
 * endDateRegimenChanged insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* reasonForEndOfTreatment 1..* CodeableConcept "Reason for end of treatment (M)" """Clarifies the reasons why the treatment ended or was interrupted 
-DEATH needs to be found in OMOP by following the standar processes"""
+* reasonForEndOfTreatment 1..* CodeableConcept "Reason for end of treatment (M)" """Clarifies the reasons why the treatment ended or was interrupted"""
 * reasonForEndOfTreatment insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * reasonForEndOfTreatment insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * reasonForEndOfTreatment ^comment = """Completed successfully - 44788181
@@ -141,22 +123,7 @@ Treatment ended due to comorbidity - 2000100030
 Intolerance to drug - 4240582
 Procedure discontinued by patient - 37017062
 Death - 4306655"""
-* treatmentResponse 1..* CodeableConcept "Treatment response (based on imaging alone; no recist or other criteria) (M)" """Measures how well a cancer patient responds to treatment. RECIST criteria should not be applied. The definition of Complete response; Partial response; Stable disease; Progression, should be based on the clinical judgement based on imaging.  Only when setting=neoadiuvant or  palliative 
-OLD
-
-Complete response - 4163135
-Partial response -  4161302
-Stable disease - 4241442
-Progression - 4168352
-
-"A treatment response is a record of the EPISODE table;
-episode_start_date is end date of regimen;
-episode_object_concept_id is the overarching sarcoma"
-
-
-
-
-"""
+* treatmentResponse 1..* CodeableConcept "Treatment response (based on imaging alone; no recist or other criteria) (M)" """Measures how well a cancer patient responds to treatment. RECIST criteria should not be applied. The definition of Complete response; Partial response; Stable disease; Progression, should be based on the clinical judgement based on imaging.  Only when setting=neoadiuvant or  palliative"""
 * treatmentResponse insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * treatmentResponse insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * treatmentResponse ^comment = """Complete Remission - 32946

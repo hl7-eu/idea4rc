@@ -3,19 +3,13 @@ Id: Diagnosis
 Title: "Diagnosis"
 Description: """Diagnosis
 Maturity Level: 0 Draft"""
-* cancerepisode 1..* CancerEpisode "CancerEpisode (M)" """CancerEpisode reference where the diagnosis was performed 
-"""
+* cancerepisode 1..* CancerEpisode "CancerEpisode (M)" """CancerEpisode reference where the diagnosis was performed"""
 * cancerepisode insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * cancerepisode insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* dateOfDiagnosis 1..* date "Date of diagnosis (biopsy or surgical piece) (M)" """Date of the procedure performed to obtain the specimen for the histological diagnosis, regardless of the institution that performed it. 
-Date of biopsy in Sarc.
-
-The only procedures accepted are biopsy and/ or surgical piece. Needle aspirations have low quality, if a biopsy has been done for the same patient please refer to the biopsy.
-"""
+* dateOfDiagnosis 1..* date "Date of diagnosis (biopsy or surgical piece) (M)" """Date of the procedure performed to obtain the specimen for the histological diagnosis, regardless of the institution that performed it."""
 * dateOfDiagnosis insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * dateOfDiagnosis insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* typeOfBiopsy 1..* CodeableConcept "Type of biopsy (M)" """Type of biopsy performed to the patient. Information coming from the biopsy data. 
-"""
+* typeOfBiopsy 1..* CodeableConcept "Type of biopsy (M)" """Type of biopsy performed to the patient. Information coming from the biopsy data."""
 * typeOfBiopsy insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * typeOfBiopsy ^comment = """Fine needle biopsy - 4171863
 Core needle biopsy - 4321878
@@ -23,20 +17,16 @@ Incisional biopsy - 4321986
 Excisional biopsy - 4228202
 Excision - 4279903
 """
-* biopsyDoneBy 1..* string "Biopsy done by (M)" """Describes the institution where diagnostic procedure was performed. A pseudonym for a hospital. It could be the ID assigned from the original hospital. 
-"""
+* biopsyDoneBy 1..* string "Biopsy done by (M)" """Describes the institution where diagnostic procedure was performed. A pseudonym for a hospital. It could be the ID assigned from the original hospital."""
 * biopsyDoneBy insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * biopsyDoneBy insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* ageAtDiagnosis 1..* Quantity "Age at diagnosis (M)" """Age of the patient at the time of the diagnosis. 
-"""
+* ageAtDiagnosis 1..* Quantity "Age at diagnosis (M)" """Age of the patient at the time of the diagnosis."""
 * ageAtDiagnosis insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * ageAtDiagnosis insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* radiotherapyInducedSarcoma 1..* boolean "Radiotherapy induced sarcoma (M)" """radiotherapy induced if the new tumour is in the field or marginal  the anatomical area that received high radiation dose; please specify the interval time from the radiotherapy treatment 
-"""
+* radiotherapyInducedSarcoma 1..* boolean "Radiotherapy induced sarcoma (M)" """radiotherapy induced if the new tumour is in the field or marginal  the anatomical area that received high radiation dose; please specify the interval time from the radiotherapy treatment"""
 * radiotherapyInducedSarcoma insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * radiotherapyInducedSarcoma ^comment = """Radiation-induced sarcoma - 2000100003"""
-* biopsyGrading 0..* CodeableConcept "Biopsy grading (O)" """Grading of the cancer given by the biopsy 
-"""
+* biopsyGrading 0..* CodeableConcept "Biopsy grading (O)" """Grading of the cancer given by the biopsy"""
 * biopsyGrading insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * biopsyGrading insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * biopsyGrading ^comment = """Grade-1 - 1634371
@@ -44,8 +34,7 @@ Grade-2 - 1634752
 Grade-3 - 1633749
 Grade-H - 1635587
 Grade-L - 1634085"""
-* histologyGroup 0..* CodeableConcept "Histology group (O)" """HNC: Describes the histology of primary tumour according to WHO 2017 clasification. 
-Codes may not match the exact hierarchy in Athena"""
+* histologyGroup 0..* CodeableConcept "Histology group (O)" """HNC: Describes the histology of primary tumour according to WHO 2017 clasification."""
 * histologyGroup insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * histologyGroup insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * histologyGroup ^comment = """Squamous cell carcinoma - 37156145
@@ -72,8 +61,7 @@ Undifferentiated small round cell sarcomas of bone and soft tissue - 2000100008
 Endometrial stromal sarcoma - 2000100009
 Miscellanious mesenchimal tumors - 2000100010
 Mixed epithelial and mesenchymal tumours - 2000100011"""
-* site 0..* CodeableConcept "Site (O)" """Describes the primary tumor site. For head and neck, according to AJCC . 
-Codes may not match the exact hierarchy in Athena"""
+* site 0..* CodeableConcept "Site (O)" """Describes the primary tumor site. For head and neck, according to AJCC ."""
 * site insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * site insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * site ^comment = """Nasal cavity and paranasal sinus - 2000000067
@@ -106,7 +94,7 @@ Urinary tract - 36769378
 Central Nervous System - 2000000015
 
 """
-* histologySubgroup 0..* CodeableConcept "Histology subgroup (O)" """Histology subgroup value for the cancer diagnosis. """
+* histologySubgroup 0..* CodeableConcept "Histology subgroup (O)" """Histology subgroup value for the cancer diagnosis."""
 * histologySubgroup insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * histologySubgroup insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * histologySubgroup ^comment = """Squamous cell carcinoma, keratinizing - 4078953
@@ -285,8 +273,7 @@ Langherans cell sarcoma - 4029173
 Fibroblastic reticular cell tumour - 42872917
 Biphenotypic sinonasal sarcoma - 37311513
 Adenosarcoma - 4135215"""
-* subsite 0..* CodeableConcept "Subsite (O)" """Topography subsite value for the cancer diagnosis 
-"""
+* subsite 0..* CodeableConcept "Subsite (O)" """Topography subsite value for the cancer diagnosis"""
 * subsite insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * subsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * subsite ^comment = """Nasal cavity structure - 4088327
@@ -432,43 +419,34 @@ Vulval structure - 4166066
 Face and/or neck structure - 4122633
 Breast structure - 4298444
 Any Domain=Spec Anatomic Site and Standard code"""
-* diagnosisCode 1..* CodeableConcept "Diagnosis code (M)" """Histology/Topography code combination for the cancer diagnosis 
-"""
+* diagnosisCode 1..* CodeableConcept "Diagnosis code (M)" """Histology/Topography code combination for the cancer diagnosis"""
 * diagnosisCode insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * diagnosisCode insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * diagnosisCode ^comment = """The codes lists are in the spreadsheets "HNC Conditions List" and "Sarcoma Conditions List" of the file"""
-* tumorSize 1..* Quantity "Tumor Size (M)" """Describes the tumor size in CM. (the longest diameter; longest dimension between pre operatory imaging and pathological specimen) cm  
-"""
+* tumorSize 1..* Quantity "Tumor Size (M)" """Describes the tumor size in CM. (the longest diameter; longest dimension between pre operatory imaging and pathological specimen) cm """
 * tumorSize insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* superficialDepth 1..* Quantity "Superficial depth (M)" """Provides the superficial depth of the tumour (for upper and lower limbs and superficial trunk)  superficial (superficial tumour is located exclusively above the investing fascia without invasion of the fascia), deep (deep tumour is located beneath or invade the investing fascia). All the others are deep by definition. 
-"""
+* superficialDepth 1..* Quantity "Superficial depth (M)" """Provides the superficial depth of the tumour (for upper and lower limbs and superficial trunk)  superficial (superficial tumour is located exclusively above the investing fascia without invasion of the fascia), deep (deep tumour is located beneath or invade the investing fascia). All the others are deep by definition."""
 * superficialDepth insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* deepDepth 1..* Quantity "Deep depth (M)" """Provides the deep depth of the tumour (for upper and lower limbs and superficial trunk)  superficial (superficial tumour is located exclusively above the investing fascia without invasion of the fascia), deep (deep tumour is located beneath or invade the investing fascia). All the others are deep by definition 
-"""
+* deepDepth 1..* Quantity "Deep depth (M)" """Provides the deep depth of the tumour (for upper and lower limbs and superficial trunk)  superficial (superficial tumour is located exclusively above the investing fascia without invasion of the fascia), deep (deep tumour is located beneath or invade the investing fascia). All the others are deep by definition"""
 * deepDepth insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* biopsyMitoticCount 1..* Quantity "Biopsy Mitotic count (M)" """Mitotic count reported from the biopsy (Number/10HPF/1mm2, 50HPF/5mm2). Reported as Number of mitoses per 10 high power fields. 
-"""
+* biopsyMitoticCount 1..* Quantity "Biopsy Mitotic count (M)" """Mitotic count reported from the biopsy (Number/10HPF/1mm2, 50HPF/5mm2). Reported as Number of mitoses per 10 high power fields."""
 * biopsyMitoticCount insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* mitoticIndex 1..* CodeableConcept "Mitotic Index (M)" """Mitotic index derived from the mitotic count. Information coming from the biopsy and derived. M1 for less than 10HPF, M2 for range 10-20 HPF and M3 for greater than 20 HPF. 
-"""
+* mitoticIndex 1..* CodeableConcept "Mitotic Index (M)" """Mitotic index derived from the mitotic count. Information coming from the biopsy and derived. M1 for less than 10HPF, M2 for range 10-20 HPF and M3 for greater than 20 HPF."""
 * mitoticIndex insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * mitoticIndex ^comment = """Less than 10 mitoses per 10 HPF (score = 1) - 4240574
 10-20 mitoses per 10 HPF (score = 2) - 4241298
 Greater than 10 mitoses per 10 HPF (score = 3) - 4240069"""
-* plasmaticEbvDnaAtBaseline 0..* CodeableConcept "Plasmatic EBV DNA at baseline (R)" """Describes the result of EBV DNA plasmatic test before treatment for Lymphoepithelial carcinoma, lymphoepithelioma like carcinoma (Nasal cavity and Paranasal Sinuses) or Nasopharynx 
-"""
+* plasmaticEbvDnaAtBaseline 0..* CodeableConcept "Plasmatic EBV DNA at baseline (R)" """Describes the result of EBV DNA plasmatic test before treatment for Lymphoepithelial carcinoma, lymphoepithelioma like carcinoma (Nasal cavity and Paranasal Sinuses) or Nasopharynx"""
 * plasmaticEbvDnaAtBaseline insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * plasmaticEbvDnaAtBaseline ^comment = """ Positive - 9191
  Negative - 9189
 not tested - 45878602"""
-* hpvStatus 0..* CodeableConcept "HPV status (M for OROPHARYNGEAL (not oral cavity) carcinomas)" """Describes the result of HPV tumor tested in Nasal Cavity and Paranasal Sinuses, Nasopharnx or Oropharynx carcinoma 
-"""
+* hpvStatus 0..* CodeableConcept "HPV status (M for OROPHARYNGEAL (not oral cavity) carcinomas)" """Describes the result of HPV tumor tested in Nasal Cavity and Paranasal Sinuses, Nasopharnx or Oropharynx carcinoma"""
 * hpvStatus insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * hpvStatus ^comment = """ Positive - 9191
  Negative - 9189
 not tested - 45878602"""
-* crpTested 0..* CodeableConcept "CRP – C reactive protein tested (O)" """Describes the result of C reactive protein tested 
-"""
+* crpTested 0..* CodeableConcept "CRP – C reactive protein tested (O)" """Describes the result of C reactive protein tested"""
 * crpTested insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * crpTested ^comment = """ Positive - 9191
  Negative - 9189

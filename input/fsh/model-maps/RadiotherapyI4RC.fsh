@@ -7,10 +7,10 @@ Maturity Level: 0 Draft"""
 """
 * diagnosisReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * diagnosisReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* episodeEvent 1..* EpisodeEvent "Episode Event reference (M)" """EpisodeEvent element containing the data regarding the patient's cancer 
+* episodeEventReference 1..* EpisodeEvent "Episode Event reference (M)" """EpisodeEvent element containing the data regarding the patient's cancer 
 """
-* episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
+* episodeEventReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
+* episodeEventReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * radiotherapyHospital 1..* string "Radiotherapy Hospital (M)" """Whether it was performed at the registering hospital or another hospital. 
 """
 * radiotherapyHospital insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
@@ -159,6 +159,9 @@ Re-irradiation marginal field of first radiation - 2000100049"""
 * treatmentSiteDistantMetastasis ^comment = """Metastasis - 36769180
 
 NO SPECIFIC CODE (DEPRECATED)"""
+* otherTreatmentSite 0..* CodeableConcept "Other Treatment Site (O)" """Specific treatment side by code for Sarcoma"""
+* otherTreatmentSite insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
+* otherTreatmentSite ^comment = """Any code either from ICDO Topography or CancerModifier Topography in Athena"""
 * metastaticTreatmentSiteLung 0..* boolean "Metastatic treatment site lung (R)" """Designates which treatment sites were irradiated. Lung Vs Mediastinum Vs Bone Vs soft tissue vs liver Vs other. 
 """
 * metastaticTreatmentSiteLung insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
