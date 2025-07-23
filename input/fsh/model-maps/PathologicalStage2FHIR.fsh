@@ -133,6 +133,26 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.comment = "Where code =  4221515  'Pathologic TNM stage grouping'"
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PathologicalStage"
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/locoRegional-category"
+* group[=].element[+].code = #locoRegional
+* group[=].element[=].display = "Loco-regional (M)"
+* group[=].element[=].target.code = #Observation.value
+* group[=].element[=].target.display = ""
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "If it is present an observation with value = 32943 'Invasive Disease', it is 'true', else 'false'"
+* group[=].element[+].code = #isTransitMetastasisWithClinicalConfirmation
+* group[=].element[=].display = "Is Transit metastasis with clinical confirmation (M)"
+* group[=].element[=].target.code = #Observation.value
+* group[=].element[=].target.display = ""
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "If it is present an observation with value = 36769249 'Transit Metastasis with Clinical Confirmation', it is 'true', else 'false'"
+* group[=].element[+].code = #isMultifocalTumor
+* group[=].element[=].display = "Is Multifocal tumor (M)"
+* group[=].element[=].target.code = #Observation.value
+* group[=].element[=].target.display = ""
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "If it is present an observation with value = 36769933 'Multifocal Tumor', it is 'true', else 'false'"
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PathologicalStage"
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-distant-metastases-category"
 * group[=].element[+].code = #pm
 * group[=].element[=].display = "pM (M)"
@@ -192,23 +212,3 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "If 'true', code=32942 'Confined Disease' else code=32944 'Metastatic Disease'"
-* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/PathologicalStage"
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/sarcoma-locoRegional-category"
-* group[=].element[+].code = #locoRegional
-* group[=].element[=].display = "Loco-regional (M)"
-* group[=].element[=].target.code = #Observation.value
-* group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "If it is present an observation with value = 32943 'Invasive Disease', it is 'true', else 'false'"
-* group[=].element[+].code = #isTransitMetastasisWithClinicalConfirmation
-* group[=].element[=].display = "Is Transit metastasis with clinical confirmation (M)"
-* group[=].element[=].target.code = #Observation.value
-* group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "If it is present an observation with value = 36769249 'Transit Metastasis with Clinical Confirmation', it is 'true', else 'false'"
-* group[=].element[+].code = #isMultifocalTumor
-* group[=].element[=].display = "Is Multifocal tumor (M)"
-* group[=].element[=].target.code = #Observation.value
-* group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "If it is present an observation with value = 36769933 'Multifocal Tumor', it is 'true', else 'false'"

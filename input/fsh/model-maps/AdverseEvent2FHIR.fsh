@@ -8,7 +8,7 @@ Usage: #definition
 * experimental = true
 * description = """It shows how the AdverseEvent model is mapped into this guide"""
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/AdverseEvent"
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/AdverseEvent-eu-i4rc"
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/adverseEvent-eu-i4rc"
 * group[=].element[+].code = #treatmentReference[x]
 * group[=].element[=].display = "Treatment reference (M)"
 * group[=].element[=].target.code = #AdverseEvent.suspectEntity.instance
