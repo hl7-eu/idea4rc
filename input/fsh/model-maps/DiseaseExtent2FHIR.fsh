@@ -75,21 +75,7 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "Where code=4159589 'Abdominal viscera'"
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/DiseaseExtent"
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/sarcoma-cancer-stage-group"
-* group[=].element[+].code = #localised
-* group[=].element[=].display = "Localised (M)"
-* group[=].element[=].target.code = #Observation.hasMember:localized
-* group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "See group for Observation: Localized Category (Stage, Sarcoma)"
-* group[=].element[+].code = #numberOfTumorNodules
-* group[=].element[=].display = "Number of tumor nodules (R)"
-* group[=].element[=].target.code = #Observation.hasMember:localized
-* group[=].element[=].target.display = ""
-* group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "See group for Observation: Number of tumor nodules"
-* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/DiseaseExtent"
-* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/sarcoma-locoRegional-category"
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/locoRegional-category"
 * group[=].element[+].code = #locoRegional
 * group[=].element[=].display = "Loco-regional (M)"
 * group[=].element[=].target.code = #Observation.value
@@ -108,3 +94,17 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "If it is present an observation with value = 36769933 'Multifocal Tumor', it is 'true', else 'false'"
+* group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/DiseaseExtent"
+* group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/sarcoma-cancer-stage-group"
+* group[=].element[+].code = #localised
+* group[=].element[=].display = "Localised (M)"
+* group[=].element[=].target.code = #Observation.hasMember:localized
+* group[=].element[=].target.display = ""
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "See group for Observation: Localized Category (Stage, Sarcoma)"
+* group[=].element[+].code = #numberOfTumorNodules
+* group[=].element[=].display = "Number of tumor nodules (R)"
+* group[=].element[=].target.code = #Observation.hasMember:localized
+* group[=].element[=].target.display = ""
+* group[=].element[=].target.equivalence = #relatedto
+* group[=].element[=].target.comment = "See group for Observation: Number of tumor nodules"
