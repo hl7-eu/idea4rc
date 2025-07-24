@@ -40,6 +40,13 @@ Description: "This extension is used to indicate if a relapse/progression is loc
 * insert ExtensionContext(Condition)
 * value[x] only CodeableConcept
 
+Extension: ChemotherapyTiming
+Id: chemotherapy-timing
+Title: "Chemotherapy Timing"
+Description: "Extension for capturing the timing of chemotherapy dosage administration."
+* insert ExtensionContext(MedicationAdministration.dosage)
+* value[x] only Timing
+
 /* 
 Extension: ResourceRelatedInfo
 Id:   resource-relatedInfo

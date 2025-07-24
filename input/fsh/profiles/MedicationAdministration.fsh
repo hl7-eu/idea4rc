@@ -68,6 +68,7 @@ Description: "This profile defines how to represent MedicationAdministration in 
   * system = $ucum
   * code 1.. MS 
   * unit MS 
+* dosage.extension contains ChemotherapyTiming named chemotherapyTiming 0..1
 
 Extension: Outcome
 Id: outcome
