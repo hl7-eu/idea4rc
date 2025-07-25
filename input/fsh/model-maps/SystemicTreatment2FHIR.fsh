@@ -64,7 +64,7 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #numberOfCycles
 * group[=].element[=].display = "Number of cycles/ administrations (O)"
-* group[=].element[=].target.code = #MedicationAdministration.dosage.extension:timing.repeat.count
+* group[=].element[=].target.code = #MedicationAdministration.dosage.extension:chemotherapyTiming.value.repeat.count
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #regimen

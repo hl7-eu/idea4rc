@@ -81,13 +81,13 @@ Usage: #definition
 * group[=].element[=].target.code = #Observation.value
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "If it is present an observation with value = 32943 'Invasive Disease', it is 'true', else 'false'"
+* group[=].element[=].target.comment = "If it is present an observation with value = 32943 'Invasive Disease', it is ''true'', else 'false'"
 * group[=].element[+].code = #isTransitMetastasisWithClinicalConfirmation
 * group[=].element[=].display = "Is Transit metastasis with clinical confirmation (M)"
 * group[=].element[=].target.code = #Observation.value
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[=].target.comment = "If it is present an observation with value = 36769249 'Transit Metastasis with Clinical Confirmation', it is ''true'', else 'false'"
+* group[=].element[=].target.comment = "If it is present an observation with value = 36769249 'Transit Metastasis with Clinical Confirmation', it is 'true', else 'false'"
 * group[=].element[+].code = #isMultifocalTumor
 * group[=].element[=].display = "Is Multifocal tumor (M)"
 * group[=].element[=].target.code = #Observation.value

@@ -220,3 +220,191 @@
 [2025-07-23 09:06:20] Updated DrugsForTreatmentsI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
 [2025-07-23 09:06:20] Updated OverallTreatmentResponseI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
 [2025-07-23 09:06:20] Updated AdverseEventI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:00] Processing file: idea4rc-models-and-maps.xlsx
+[2025-07-25 15:23:01] Created Subject2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created Followup2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created HospitalPatientRecords2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created Diagnosis2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created CancerEpisode2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created EpisodEvent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created Surgery2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created ClinicalStage2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created AdverseEvent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created DiseaseExtent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created GeneticTestExpression2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created PathologicalStage2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:01] Created OverallTreatmentResponse2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Created Radiotherapy2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Created RegionalDeepHyperthemia2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Created SystemicTreatment2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Created DrugsForTreatments2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Created IsolatedLimbPerfusion2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated SubjectI4rc.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated PatientFollowUpI4rc.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated HospitalPatientRecordsI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated CancerEpisodeI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated DiagnosisI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated ClinicalStageI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated PathologicalStageI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated EpisodeEventI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated DiseaseExtentI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated GeneticTestExpressionI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated SurgeryI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated SystemicTreatmentI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated RadiotherapyI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:02] Updated RegionalDeepHyperthemiaI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:03] Updated IsolatedLimbPerfusionI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:03] Updated DrugsForTreatmentsI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:03] Updated OverallTreatmentResponseI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:23:03] Updated AdverseEventI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:09] Processing file: idea4rc-models-and-maps.xlsx
+[2025-07-25 15:33:09] Created Subject2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:09] Created Followup2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:09] Created HospitalPatientRecords2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:09] Created Diagnosis2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:09] Created CancerEpisode2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:09] Created EpisodEvent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:09] Created Surgery2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:09] Created ClinicalStage2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:09] Created AdverseEvent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Created DiseaseExtent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Created GeneticTestExpression2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Created PathologicalStage2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Created OverallTreatmentResponse2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Created Radiotherapy2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Created RegionalDeepHyperthemia2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Created SystemicTreatment2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Created DrugsForTreatments2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Created IsolatedLimbPerfusion2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Updated SubjectI4rc.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Updated PatientFollowUpI4rc.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Updated HospitalPatientRecordsI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Updated CancerEpisodeI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Updated DiagnosisI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Updated ClinicalStageI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Updated PathologicalStageI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Updated EpisodeEventI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Updated DiseaseExtentI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Updated GeneticTestExpressionI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:10] Updated SurgeryI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:11] Updated SystemicTreatmentI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:11] Updated RadiotherapyI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:11] Updated RegionalDeepHyperthemiaI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:11] Updated IsolatedLimbPerfusionI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:11] Updated DrugsForTreatmentsI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:11] Updated OverallTreatmentResponseI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:33:11] Updated AdverseEventI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:30] Processing file: idea4rc-models-and-maps.xlsx
+[2025-07-25 15:37:31] Created Subject2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created Followup2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created HospitalPatientRecords2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created Diagnosis2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created CancerEpisode2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created EpisodEvent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created Surgery2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created ClinicalStage2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created AdverseEvent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created DiseaseExtent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created GeneticTestExpression2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created PathologicalStage2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created OverallTreatmentResponse2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created Radiotherapy2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created RegionalDeepHyperthemia2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created SystemicTreatment2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created DrugsForTreatments2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:31] Created IsolatedLimbPerfusion2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated SubjectI4rc.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated PatientFollowUpI4rc.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated HospitalPatientRecordsI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated CancerEpisodeI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated DiagnosisI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated ClinicalStageI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated PathologicalStageI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated EpisodeEventI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated DiseaseExtentI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated GeneticTestExpressionI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated SurgeryI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated SystemicTreatmentI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated RadiotherapyI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated RegionalDeepHyperthemiaI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated IsolatedLimbPerfusionI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated DrugsForTreatmentsI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated OverallTreatmentResponseI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Updated AdverseEventI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:37:32] Processing file: ~$idea4rc-models-and-maps.xlsx
+[2025-07-25 15:37:32] Error loading ConceptMaps sheet in D:\Roberta\HL7EU\ScriptPython\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'D:\\Roberta\\HL7EU\\ScriptPython\\~$idea4rc-models-and-maps.xlsx'
+[2025-07-25 15:37:32] Error loading LogicalModels sheet in D:\Roberta\HL7EU\ScriptPython\~$idea4rc-models-and-maps.xlsx: [Errno 13] Permission denied: 'D:\\Roberta\\HL7EU\\ScriptPython\\~$idea4rc-models-and-maps.xlsx'
+[2025-07-25 15:39:27] Processing file: idea4rc-models-and-maps.xlsx
+[2025-07-25 15:39:27] Created Subject2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created Followup2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created HospitalPatientRecords2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created Diagnosis2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created CancerEpisode2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created EpisodEvent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created Surgery2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created ClinicalStage2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created AdverseEvent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created DiseaseExtent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created GeneticTestExpression2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created PathologicalStage2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created OverallTreatmentResponse2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created Radiotherapy2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created RegionalDeepHyperthemia2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created SystemicTreatment2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created DrugsForTreatments2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Created IsolatedLimbPerfusion2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Updated SubjectI4rc.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Updated PatientFollowUpI4rc.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:28] Updated HospitalPatientRecordsI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated CancerEpisodeI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated DiagnosisI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated ClinicalStageI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated PathologicalStageI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated EpisodeEventI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated DiseaseExtentI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated GeneticTestExpressionI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated SurgeryI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated SystemicTreatmentI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated RadiotherapyI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated RegionalDeepHyperthemiaI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated IsolatedLimbPerfusionI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated DrugsForTreatmentsI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated OverallTreatmentResponseI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:39:29] Updated AdverseEventI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:55] Processing file: idea4rc-models-and-maps.xlsx
+[2025-07-25 15:44:55] Created Subject2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:55] Created Followup2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:55] Created HospitalPatientRecords2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:55] Created Diagnosis2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:55] Created CancerEpisode2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:55] Created EpisodEvent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:55] Created Surgery2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:55] Created ClinicalStage2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:55] Created AdverseEvent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:55] Created DiseaseExtent2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Created GeneticTestExpression2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Created PathologicalStage2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Created OverallTreatmentResponse2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Created Radiotherapy2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Created RegionalDeepHyperthemia2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Created SystemicTreatment2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Created DrugsForTreatments2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Created IsolatedLimbPerfusion2FHIR.fsh in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Updated SubjectI4rc.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Updated PatientFollowUpI4rc.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Updated HospitalPatientRecordsI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Updated CancerEpisodeI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Updated DiagnosisI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Updated ClinicalStageI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Updated PathologicalStageI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Updated EpisodeEventI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Updated DiseaseExtentI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Updated GeneticTestExpressionI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:56] Updated SurgeryI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:57] Updated SystemicTreatmentI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:57] Updated RadiotherapyI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:57] Updated RegionalDeepHyperthemiaI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:57] Updated IsolatedLimbPerfusionI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:57] Updated DrugsForTreatmentsI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:57] Updated OverallTreatmentResponseI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps
+[2025-07-25 15:44:57] Updated AdverseEventI4RC.fsh with elements in D:\Roberta\HL7EU\ScriptPython\model-maps

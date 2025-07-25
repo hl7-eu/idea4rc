@@ -26,7 +26,7 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #adverseEventDuration
 * group[=].element[=].display = "Adverse event duration (M)"
-* group[=].element[=].target.code = #AdverseEvent.extension:OccurrenceR5
+* group[=].element[=].target.code = #AdverseEvent.extension:occurrence
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "If ocurrence.repeat.durationMax = 1 and ocurrence.repeat.durationUnit is wk, then the code is 2000100050 'Less than one week'; If ocurrence.repeat.durationMax = 1 and ocurrence.repeat.durationUnit is mo, then the code is 2000100051 'More than one week but less than a month'; If ocurrence.repeat.durationMax = 3 and ocurrence.repeat.durationUnit is mo, then the code is 2000100052 'More than a month but less than 3 months'; If ocurrence.repeat.durationMax = 1 and ocurrence.repeat.durationUnit is a, then the code is 2000100053 'More than 3 months'"

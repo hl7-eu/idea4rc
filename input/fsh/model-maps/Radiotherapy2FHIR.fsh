@@ -76,7 +76,7 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #adaptiveRt
 * group[=].element[=].display = "Adaptive RT (O)"
-* group[=].element[=].target.code = #Procedure.extension:adaptive
+* group[=].element[=].target.code = #Procedure.extension:adaptive.value
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #igrt
