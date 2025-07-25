@@ -12,6 +12,8 @@ RuleSet: ProcedureRadiotherapyI4rcRules
 * extension[procedureMethod].valueCodeableConcept from BrachytherapyType
 * extension[performedTiming].valueTiming.repeat.count ^short = "Number of repetitions" */
 
+* extension contains Adaptive named adaptive 0..1
+
 * extension contains SameHospital named sameHospital 0..1
 
 * extension contains $procedure-category-r5 named procedureCategoryR5 0..*
@@ -96,6 +98,20 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 * usedCode ^short = "Coded items used during the procedure"
 // * usedCode from RadiotherapyDeviceType (extensible) // update the value set
 * outcome from VsTreatmentResponseI4rc
+
+Extension: Adaptive
+Id: adaptive
+Title: "Adaptive"
+Description: "Complex extension indicating whether the treatment is adaptive, based on code 2000100045 from IDEA4RC."
+* ^context[+].type = #element
+* ^context[=].expression = "Procedure"
+* extension contains
+    code 1..1 and
+    value 1..1
+* extension[code].value[x] only Coding
+* extension[code].valueCoding = http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-idea4rc-vocab-eu-i4rc#2000100045 "Adaptive"
+* extension[value].value[x] only boolean
+* extension[value].value[x] 1..1
 
 Extension: RadiotherapySettings
 Id: radiotherapy-settings
