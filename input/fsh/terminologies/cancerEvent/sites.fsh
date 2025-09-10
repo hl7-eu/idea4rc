@@ -15,7 +15,7 @@ Description: "Describes the primary tumor site."
 
 * ^experimental = false
 
-* $bb-topo#2000000067 "Nasal cavity and paranasal sinus"  
+//DUPLICATED:* $bb-topo#2000000067 "Nasal cavity and paranasal sinus"  
 * $athena#36769745 "Nasopharynx"  
 * $athena#36769263 "Parotid gland"  
 * $athena#36770243 "Submandibular gland"  
@@ -28,7 +28,7 @@ Description: "Describes the primary tumor site."
 * $athena#36769197 "Lip"  
 * $bb-topo#2000000057 "Pharynx"  
 * $bb-topo#2000000067 "Sinonasal"  
-* $bb-topo#2000000037 "Larynx"  
+//DUPLICATED: * $bb-topo#2000000037 "Larynx"  
 * $athena#36769894 "Head, face, and neck"  
 * $athena#36769192 "Upper limb and shoulder"  
 * $athena#36769168 "Lower limb and hip"  

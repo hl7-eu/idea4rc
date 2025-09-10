@@ -23,7 +23,7 @@ Description: """This ValueSet includes a curated list of chemotherapy regimens u
 * $athena#35805078 "Oxaliplatin monotherapy"
 * $athena#35804166 "Paclitaxel monotherapy"
 * $athena#35804158 "Gemcitabine and Paclitaxel"
-* $athena#35805248 "Ifosfamide and Paclitaxel"
+//DUPLICATED: * $athena#35805248 "Ifosfamide and Paclitaxel"
 * $athena#35804201 "Paclitaxel and Trastuzumab (TH)"
 * $athena#35101452 "Paclitaxel and Vinorelbine"
 * $athena#35803678 "Pembrolizumab monotherapy"
