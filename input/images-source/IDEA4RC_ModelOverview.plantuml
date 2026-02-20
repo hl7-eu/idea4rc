@@ -51,8 +51,11 @@ url of ee [[StructureDefinition-EpisodeEvent.html]]
 
 object "PathologicalStage" as ps #94d8f2 {
 }
+url of ps [[StructureDefinition-PathologicalStage.html]]
+
 object "ClinicalStage" as cs #94d8f2 {
 }
+url of cs [[StructureDefinition-ClinicalStage.html]]
 
 object "GeneticTestExpression" as gte #94d8f2 {
 }
@@ -72,12 +75,16 @@ url of r [[StructureDefinition-Radiotherapy.html]]
 
 object "IsolatedLimbPerfusion" as ilp #94d8f2 {
 }
+url of cs [[StructureDefinition-IsolatedLimbPerfusion.html]]
 
 object "RegionalDeepHyperthemia" as rdh #94d8f2 {
 }
+url of cs [[StructureDefinition-RegionalDeepHyperthemia.html]]
 
 object "DrugsForTreatments" as dft #94d8f2 {
 }
+url of cs [[StructureDefinition-DrugsForTreatments.html]]
+
 object "OverallTreatmentResponse" as tr #94d8f2 {
 }
 url of tr [[StructureDefinition-TreatmentResponse.html]]
