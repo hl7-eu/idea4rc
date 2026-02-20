@@ -11,3 +11,6 @@ The modifier extension http://hl7.org/fhir/1.0/StructureDefinition/extension-Con
 # Best Practice Recommendation warning 
 Best Practice Recommendation: In general, all observations should have a performer
 Best Practice Recommendation: In general, all observations should have an effective[x] ()
+
+# Mapping between Logical Models and FHIR
+Reference must be to a ValueSet, but found a StructureDefinition instead

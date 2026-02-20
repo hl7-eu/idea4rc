@@ -50,350 +50,350 @@ skinparam linetype ortho
 scale 0.5
 
 object "Patient" as p {
-+ <color:blue>sex</color>
-+ <color:blue>race</color>
-+ <color:blue>birthYear</color>
-+ <color:blue>countryOfResidence</color>
-+ <color:blue>smoking</color>
-# <color:blue>cigarettesPackYearsSmokedDuringLife</color>
-+ <color:blue>alcohol</color>
-# <color:red>height/weight</color>
-# <color:blue>charlsonComorbidityIndex</color>
-+ <color:red>comorbidity</color>
-- <color:red>myocardialInfarction</color>
-- <color:red>congestiveHeartFailure</color>
-- <color:red>peripheralVascularDisease</color>
-- <color:red>cerebrovascularAccident</color>
-- <color:red>dementia</color>
-- <color:red>chronicPulmonaryDisease</color>
-- <color:red>connectiveTissueDisease</color>
-- <color:red>ulcer</color>
-- <color:red>mildLiverDisease</color>
-- <color:red>moderateToSevereLiverDisease</color>
-- <color:red>diabetes</color>
-- <color:red>diabetesWithEndOrganDamage</color>
-- <color:red>hemiplegia</color>
-- <color:red>moderateToSevereRenalDisease</color>
-- <color:red>solidTumor</color>
-- <color:red>metastaticSolidTumor</color>
-- <color:red>leukemia</color>
-- <color:red>lymphoma</color>
-- <color:red>multipleMyeloma</color>
-- <color:red>aids</color>
-# <color:red>easternCooperativeOncologyGroupPerformanceStatusAtDiagnosis</color>
-# <color:red>ecogPsLabel</color>
-# <color:red>karnofsyIndexAtDiagnosis</color>
-# <color:red>karnofsyIndexLabel</color>
-+ <color:green>noGeneticSyndrome</color>
-+ <color:green>olliersDisease</color>
-+ <color:green>maffuciSyndrome</color>
-+ <color:green>liFraumeniSyndrome</color>
-+ <color:green>mccuneAlbrightSyndrome</color>
-+ <color:green>multipleOsteochondromas</color>
-+ <color:green>neurofibromatosisType1</color>
-+ <color:green>rothmundThomsonSyndrome</color>
-+ <color:green>wernerSyndrome</color>
-+ <color:green>retinoblastoma</color>
-+ <color:green>pagetDisease</color>
-+ <color:green>otherGeneticSyndrome</color>
-# <color:red>previousMalignantCancerSite</color>
-+ <color:green>previousCancerTreatment</color>
+    + <color:blue>sex</color>
+    + <color:blue>race</color>
+    + <color:blue>birthYear</color>
+    + <color:blue>countryOfResidence</color>
+    + <color:blue>smoking</color>
+    # <color:blue>cigarettesPackYearsSmokedDuringLife</color>
+    + <color:blue>alcohol</color>
+    # <color:red>height/weight</color>
+    # <color:blue>charlsonComorbidityIndex</color>
+    + <color:red>comorbidity</color>
+    - <color:red>myocardialInfarction</color>
+    - <color:red>congestiveHeartFailure</color>
+    - <color:red>peripheralVascularDisease</color>
+    - <color:red>cerebrovascularAccident</color>
+    - <color:red>dementia</color>
+    - <color:red>chronicPulmonaryDisease</color>
+    - <color:red>connectiveTissueDisease</color>
+    - <color:red>ulcer</color>
+    - <color:red>mildLiverDisease</color>
+    - <color:red>moderateToSevereLiverDisease</color>
+    - <color:red>diabetes</color>
+    - <color:red>diabetesWithEndOrganDamage</color>
+    - <color:red>hemiplegia</color>
+    - <color:red>moderateToSevereRenalDisease</color>
+    - <color:red>solidTumor</color>
+    - <color:red>metastaticSolidTumor</color>
+    - <color:red>leukemia</color>
+    - <color:red>lymphoma</color>
+    - <color:red>multipleMyeloma</color>
+    - <color:red>aids</color>
+    # <color:red>easternCooperativeOncologyGroupPerformanceStatusAtDiagnosis</color>
+    # <color:red>ecogPsLabel</color>
+    # <color:red>karnofsyIndexAtDiagnosis</color>
+    # <color:red>karnofsyIndexLabel</color>
+    + <color:green>noGeneticSyndrome</color>
+    + <color:green>olliersDisease</color>
+    + <color:green>maffuciSyndrome</color>
+    + <color:green>liFraumeniSyndrome</color>
+    + <color:green>mccuneAlbrightSyndrome</color>
+    + <color:green>multipleOsteochondromas</color>
+    + <color:green>neurofibromatosisType1</color>
+    + <color:green>rothmundThomsonSyndrome</color>
+    + <color:green>wernerSyndrome</color>
+    + <color:green>retinoblastoma</color>
+    + <color:green>pagetDisease</color>
+    + <color:green>otherGeneticSyndrome</color>
+    # <color:red>previousMalignantCancerSite</color>
+    + <color:green>previousCancerTreatment</color>
 }
 
 object "HospitalData" as hd {
-+ <color:red>hospitalName</color>
+    + <color:red>hospitalName</color>
 }
 
 object "HospitalPatientRecords" as hpr {
-+ <color:red>patient</color>
-+ <color:red>hospital</color>
-+ <color:red>dateOfFirstContactWithTheHospital</color>
+    + <color:red>patient</color>
+    + <color:red>hospital</color>
+    + <color:red>dateOfFirstContactWithTheHospital</color>
 }
 
 object "PatientFollowUp" as pfu {
-+ <color:blue>patient</color>
-+ <color:blue>statusOfPatientAtLastFollowUp</color>
-+ <color:blue>statusOfDiseaseAtLastFollowUp</color>
-+ <color:blue>patientFollowUpDate</color>
-+ <color:red>newCancerDiagnosis</color>
-+ <color:red>dateOfNewCancerDiagnosis</color>
-+ <color:red>newCancerTopography</color>
-+ <color:green>lastContact</color>
+    + <color:blue>patient</color>
+    + <color:blue>statusOfPatientAtLastFollowUp</color>
+    + <color:blue>statusOfDiseaseAtLastFollowUp</color>
+    + <color:blue>patientFollowUpDate</color>
+    + <color:red>newCancerDiagnosis</color>
+    + <color:red>dateOfNewCancerDiagnosis</color>
+    + <color:red>newCancerTopography</color>
+    + <color:green>lastContact</color>
 }
 
 object "CancerEpisode" as ce {
-+ <color:blue>patient</color>
-+ <color:blue>cancerStartDate</color>
+    + <color:blue>patient</color>
+    + <color:blue>cancerStartDate</color>
 }
 
 object "EpisodeEvent" as ee {
-+ <color:blue>cancerEpisode</color>
-+ <color:blue>diseaseStatus</color>
-- <color:blue>definedAt</color>
-+ <color:blue>dateOfEpisode</color>
+    + <color:blue>cancerEpisode</color>
+    + <color:blue>diseaseStatus</color>
+    - <color:blue>definedAt</color>
+    + <color:blue>dateOfEpisode</color>
 }
 
 object "Diagnosis" as d {
-+ <color:blue>cancerEpisode</color>
-+ <color:blue>dateOfDiagnosis</color>
-+ <color:green>typeOfBiopsy</color>
-+ <color:blue>biopsyDoneBy</color>
-+ <color:blue>ageAtDiagnosis</color>
-+ <color:green>radiotherapyInducedSarcoma</color>
-- <color:blue>biopsyGrading</color>
-- <color:blue>histologyGroup</color>
-- <color:blue>site</color>
-+ <color:blue>histologySubGroup</color>
-+ <color:blue>subsite</color>
-+ <color:blue>diagnosisCode</color>
-+ <color:green>tumorSize</color>
-+ <color:green>superficialDepth</color>
-+ <color:green>deepDepth</color>
-+ <color:green>biopsyMitoticCount</color>
-- <color:green>mitoticIndex</color>
-# <color:red>plasmaticEbvDnaAtBaseline</color>
-- <color:red>hpvStatus</color>
-- <color:red>crp-CReactiveProteinTested</color>
-+ <color:blue>episodeEvent</color>
-+ <color:blue>localised</color>
-# <color:blue>numberOfTumorNodules</color>
-+ <color:blue>locoRegional</color>
-+ <color:blue>isTransitMetastasisWithClinicalConfirmation</color>
-+ <color:blue>isMultifocalTumor</color>
-+ <color:blue>RegionalNodalMetastases</color>
-# <color:blue>softTissues</color>
-# <color:blue>distantLymphNode</color>
-# <color:blue>lung</color>
-# <color:blue>metastasisatbone</color>
-# <color:blue>liver</color>
-# <color:blue>pleura</color>
-# <color:blue>peritoneum</color>
-# <color:blue>brain</color>
-# <color:blue>otherViscera</color>
+    + <color:blue>cancerEpisode</color>
+    + <color:blue>dateOfDiagnosis</color>
+    + <color:green>typeOfBiopsy</color>
+    + <color:blue>biopsyDoneBy</color>
+    + <color:blue>ageAtDiagnosis</color>
+    + <color:green>radiotherapyInducedSarcoma</color>
+    - <color:blue>biopsyGrading</color>
+    - <color:blue>histologyGroup</color>
+    - <color:blue>site</color>
+    + <color:blue>histologySubGroup</color>
+    + <color:blue>subsite</color>
+    + <color:blue>diagnosisCode</color>
+    + <color:green>tumorSize</color>
+    + <color:green>superficialDepth</color>
+    + <color:green>deepDepth</color>
+    + <color:green>biopsyMitoticCount</color>
+    - <color:green>mitoticIndex</color>
+    # <color:red>plasmaticEbvDnaAtBaseline</color>
+    - <color:red>hpvStatus</color>
+    - <color:red>crp-CReactiveProteinTested</color>
+    + <color:blue>episodeEvent</color>
+    + <color:blue>localised</color>
+    # <color:blue>numberOfTumorNodules</color>
+    + <color:blue>locoRegional</color>
+    + <color:blue>isTransitMetastasisWithClinicalConfirmation</color>
+    + <color:blue>isMultifocalTumor</color>
+    + <color:blue>RegionalNodalMetastases</color>
+    # <color:blue>softTissues</color>
+    # <color:blue>distantLymphNode</color>
+    # <color:blue>lung</color>
+    # <color:blue>metastasisatbone</color>
+    # <color:blue>liver</color>
+    # <color:blue>pleura</color>
+    # <color:blue>peritoneum</color>
+    # <color:blue>brain</color>
+    # <color:blue>otherViscera</color>
 }
 
 object "PathologicalStage" as ps {
-+ <color:blue>diagnosis</color>
-+ <color:red>diagnosis</color>
-+ <color:blue>imagingForPrimarySite</color>
-# <color:blue>ctForPrimarySite</color>
-# <color:blue>mriForPrimarySite</color>
-# <color:blue>usForPrimarySite</color>
-# <color:blue>otherImagingForPrimarySite</color>
-+ <color:blue>imagingForNeck</color>
-# <color:blue>ctForNeck</color>
-# <color:blue>mriForNeck</color>
-# <color:blue>usForNeck</color>
-# <color:blue>otherImagingForNeck</color>
-+ <color:blue>imagingForMetastasis</color>
-# <color:blue>ctForMetastasis</color>
-# <color:blue>mriForMetastasis</color>
-# <color:blue>usForMetastasis</color>
-# <color:blue>otherImagingForMetastasis</color>
-+ <color:red>pt</color>
-+ <color:red>pn</color>
-+ <color:red>pm</color>
-+ <color:red>extraNodalExtension</color>
-+ <color:red>sentinelNode</color>
-+ <color:red>pathologicalStaging</color>
-+ <color:green>localised</color>
-# <color:green>numberOfTumorNodules</color>
-+ <color:green>locoRegional</color>
-+ <color:blue>isTransitMetastasisWithClinicalConfirmation</color>
-+ <color:blue>isMultifocalTumor</color>
-+ <color:blue>regionalNodalMetastases</color>
-# <color:blue>softTissues</color>
-# <color:blue>distantLymphNode</color>
-# <color:blue>lung</color>
-# <color:blue>metastasisatbone</color>
-# <color:blue>liver</color>
-# <color:blue>pleura</color>
-# <color:blue>peritoneum</color>
-# <color:blue>brain</color>
-# <color:blue>otherViscera</color>
-# <color:blue>unknown</color>
+    + <color:blue>diagnosis</color>
+    + <color:red>diagnosis</color>
+    + <color:blue>imagingForPrimarySite</color>
+    # <color:blue>ctForPrimarySite</color>
+    # <color:blue>mriForPrimarySite</color>
+    # <color:blue>usForPrimarySite</color>
+    # <color:blue>otherImagingForPrimarySite</color>
+    + <color:blue>imagingForNeck</color>
+    # <color:blue>ctForNeck</color>
+    # <color:blue>mriForNeck</color>
+    # <color:blue>usForNeck</color>
+    # <color:blue>otherImagingForNeck</color>
+    + <color:blue>imagingForMetastasis</color>
+    # <color:blue>ctForMetastasis</color>
+    # <color:blue>mriForMetastasis</color>
+    # <color:blue>usForMetastasis</color>
+    # <color:blue>otherImagingForMetastasis</color>
+    + <color:red>pt</color>
+    + <color:red>pn</color>
+    + <color:red>pm</color>
+    + <color:red>extraNodalExtension</color>
+    + <color:red>sentinelNode</color>
+    + <color:red>pathologicalStaging</color>
+    + <color:green>localised</color>
+    # <color:green>numberOfTumorNodules</color>
+    + <color:green>locoRegional</color>
+    + <color:blue>isTransitMetastasisWithClinicalConfirmation</color>
+    + <color:blue>isMultifocalTumor</color>
+    + <color:blue>regionalNodalMetastases</color>
+    # <color:blue>softTissues</color>
+    # <color:blue>distantLymphNode</color>
+    # <color:blue>lung</color>
+    # <color:blue>metastasisatbone</color>
+    # <color:blue>liver</color>
+    # <color:blue>pleura</color>
+    # <color:blue>peritoneum</color>
+    # <color:blue>brain</color>
+    # <color:blue>otherViscera</color>
+    # <color:blue>unknown</color>
 }
 
 object "ClinicalStage" as cs {
-+ <color:blue>diagnosisReference</color>
-+ <color:red>stagingProceduresDoneBy</color>
-+ <color:blue>imagingForPrimarySite</color>
-# <color:blue>ctForPrimarySite</color>
-# <color:blue>mriForPrimarySite</color>
-# <color:blue>usForPrimarySite</color>
-# <color:blue>otherImagingForPrimarySite</color>
-+ <color:blue>imagingForNeck</color>
-# <color:blue>ctForNeck</color>
-# <color:blue>mriForNeck</color>
-# <color:blue>usForNeck</color>
-# <color:blue>otherImagingForNeck</color>
-+ <color:blue>imagingForMetastasis</color>
-# <color:blue>ctForMetastasis</color>
-# <color:blue>mriForMetastasis</color>
-# <color:blue>usForMetastasis</color>
-# <color:blue>otherImagingForMetastasis</color>
-+ <color:red>ct</color>
-+ <color:red>cn</color>
-+ <color:red>cm</color>
-+ <color:red>extraNodalExtension</color>
-+ <color:red>clinicalStaging</color>
-+ <color:green>localised</color>
-# <color:green>numberOfTumorNodules</color>
-+ <color:green>locoRegional</color>
-+ <color:blue>isTransitMetastasisWithClinicalConfirmation</color>
-+ <color:blue>isMultifocalTumor</color>
-+ <color:blue>regionalNodalMetastases</color>
-# <color:blue>softTissues</color>
-# <color:blue>distantLymphNode</color>
-# <color:blue>lung</color>
-# <color:blue>metastasisatbone</color>
-# <color:blue>liver</color>
-# <color:blue>pleura</color>
-# <color:blue>peritoneum</color>
-# <color:blue>brain</color>
-# <color:blue>otherViscera</color>
-# <color:blue>unknown</color>
+    + <color:blue>diagnosisReference</color>
+    + <color:red>stagingProceduresDoneBy</color>
+    + <color:blue>imagingForPrimarySite</color>
+    # <color:blue>ctForPrimarySite</color>
+    # <color:blue>mriForPrimarySite</color>
+    # <color:blue>usForPrimarySite</color>
+    # <color:blue>otherImagingForPrimarySite</color>
+    + <color:blue>imagingForNeck</color>
+    # <color:blue>ctForNeck</color>
+    # <color:blue>mriForNeck</color>
+    # <color:blue>usForNeck</color>
+    # <color:blue>otherImagingForNeck</color>
+    + <color:blue>imagingForMetastasis</color>
+    # <color:blue>ctForMetastasis</color>
+    # <color:blue>mriForMetastasis</color>
+    # <color:blue>usForMetastasis</color>
+    # <color:blue>otherImagingForMetastasis</color>
+    + <color:red>ct</color>
+    + <color:red>cn</color>
+    + <color:red>cm</color>
+    + <color:red>extraNodalExtension</color>
+    + <color:red>clinicalStaging</color>
+    + <color:green>localised</color>
+    # <color:green>numberOfTumorNodules</color>
+    + <color:green>locoRegional</color>
+    + <color:blue>isTransitMetastasisWithClinicalConfirmation</color>
+    + <color:blue>isMultifocalTumor</color>
+    + <color:blue>regionalNodalMetastases</color>
+    # <color:blue>softTissues</color>
+    # <color:blue>distantLymphNode</color>
+    # <color:blue>lung</color>
+    # <color:blue>metastasisatbone</color>
+    # <color:blue>liver</color>
+    # <color:blue>pleura</color>
+    # <color:blue>peritoneum</color>
+    # <color:blue>brain</color>
+    # <color:blue>otherViscera</color>
+    # <color:blue>unknown</color>
 }
 
 object "GeneticTestExpression" as gte {
-+ <color:red>diagnosisReference</color>
-+ <color:red>episodeEvent</color>
-# <color:red>geneExpressionAnalysisPerformed</color>
-- <color:red>dateOfGeneExpression</color>
-# <color:red>geneMutationAnalysisPerformed</color>
-- <color:red>dateOfGeneMutation</color>
-# <color:red>testsForChromosomeTranslocationsPerformed</color>
-- <color:red>dateOfTranslocation</color>
-# <color:red>nextGenerationSequencingPerformed</color>
-- <color:red>dateOfNgs</color>
-# <color:red>polymeraseChaniReactionTestPerformed</color>
-- <color:red>dateOfPcr</color>
-# <color:red>immunohistochemistryPerformed</color>
-- <color:red>dateOfImmunohistochemistry</color>
-# <color:red>circulatingTumorDnaPerformed</color>
-- <color:red>dateOfCtdna</color>
+    + <color:red>diagnosisReference</color>
+    + <color:red>episodeEvent</color>
+    # <color:red>geneExpressionAnalysisPerformed</color>
+    - <color:red>dateOfGeneExpression</color>
+    # <color:red>geneMutationAnalysisPerformed</color>
+    - <color:red>dateOfGeneMutation</color>
+    # <color:red>testsForChromosomeTranslocationsPerformed</color>
+    - <color:red>dateOfTranslocation</color>
+    # <color:red>nextGenerationSequencingPerformed</color>
+    - <color:red>dateOfNgs</color>
+    # <color:red>polymeraseChaniReactionTestPerformed</color>
+    - <color:red>dateOfPcr</color>
+    # <color:red>immunohistochemistryPerformed</color>
+    - <color:red>dateOfImmunohistochemistry</color>
+    # <color:red>circulatingTumorDnaPerformed</color>
+    - <color:red>dateOfCtdna</color>
 }
 
 object "Surgery" as su {
-+ <color:blue>diagnosisReference</color>
-+ <color:blue>episodeEvent</color>
-+ <color:green>surgeryType</color>
-+ <color:red>surgeryHospital</color>
-+ <color:blue>dateOfSurgery</color>
-- <color:blue>surgeryIntention</color>
-+ <color:red>typeOfSurgicalApproachOnTumour</color>
-+ <color:blue>marginsAfterSurgery</color>
-+ <color:green>tumorRupture</color>
-+ <color:red>extraNodalExtension</color>
-+ <color:green>surgicalSpecimenMitoticCount</color>
-+ <color:green>surgicalSpecimenGradingOnlyInUntreatedTumours</color>
-+ <color:red>reconstruction</color>
-+ <color:red>neckSurgery</color>
-+ <color:red>dateOfNeckSurgery</color>
-+ <color:red>lateralityOfTheDissection</color>
-+ <color:red>surgeryOnM</color>
-+ <color:red>dateOfSurgeryOnM</color>
-- <color:red>siteOfSurgeryOnMetastasisSoftTissue</color>
-- <color:red>siteOfSurgeryOnMetastasisDistantLymphNodes</color>
-- <color:red>siteOfSurgeryOnMetastasisLung</color>
-- <color:red>siteOfSurgeryOnMetastasisBone</color>
-- <color:red>siteOfSurgeryOnMetastasisLiver</color>
-- <color:red>siteOfSurgeryOnMetastasisPleura</color>
-- <color:red>siteOfSurgeryOnMetastasisPeritoneum</color>
-- <color:red>siteOfSurgeryOnMetastasisBrain</color>
-- <color:red>siteOfSurgeryOnMetastasisOtherViscera</color>
-- <color:red>siteOfSurgeryOnMetastasisUnknown</color>
-+ <color:red>surgicalComplications</color>
+    + <color:blue>diagnosisReference</color>
+    + <color:blue>episodeEvent</color>
+    + <color:green>surgeryType</color>
+    + <color:red>surgeryHospital</color>
+    + <color:blue>dateOfSurgery</color>
+    - <color:blue>surgeryIntention</color>
+    + <color:red>typeOfSurgicalApproachOnTumour</color>
+    + <color:blue>marginsAfterSurgery</color>
+    + <color:green>tumorRupture</color>
+    + <color:red>extraNodalExtension</color>
+    + <color:green>surgicalSpecimenMitoticCount</color>
+    + <color:green>surgicalSpecimenGradingOnlyInUntreatedTumours</color>
+    + <color:red>reconstruction</color>
+    + <color:red>neckSurgery</color>
+    + <color:red>dateOfNeckSurgery</color>
+    + <color:red>lateralityOfTheDissection</color>
+    + <color:red>surgeryOnM</color>
+    + <color:red>dateOfSurgeryOnM</color>
+    - <color:red>siteOfSurgeryOnMetastasisSoftTissue</color>
+    - <color:red>siteOfSurgeryOnMetastasisDistantLymphNodes</color>
+    - <color:red>siteOfSurgeryOnMetastasisLung</color>
+    - <color:red>siteOfSurgeryOnMetastasisBone</color>
+    - <color:red>siteOfSurgeryOnMetastasisLiver</color>
+    - <color:red>siteOfSurgeryOnMetastasisPleura</color>
+    - <color:red>siteOfSurgeryOnMetastasisPeritoneum</color>
+    - <color:red>siteOfSurgeryOnMetastasisBrain</color>
+    - <color:red>siteOfSurgeryOnMetastasisOtherViscera</color>
+    - <color:red>siteOfSurgeryOnMetastasisUnknown</color>
+    + <color:red>surgicalComplications</color>
 }
 
 object "SystemicTreatment" as st {
-+ <color:blue>diagnosisReference</color>
-+ <color:blue>episodeEvent</color>
-+ <color:blue>systemictreatmentHospital</color>
-+ <color:blue>typeOfSystemicTreatment</color>
-- <color:red>intent</color>
-- <color:red>setting</color>
-- <color:green>chemotherapyInfo</color>
-+ <color:blue>startDateSystemicTreatment</color>
-+ <color:blue>endDateSystemicTreatment</color>
-- <color:blue>numberOfCyclesAdministrations</color>
-- <color:blue>regimen</color>
-+ <color:red>startDateRegimenChanged</color>
-+ <color:red>endDateRegimenChanged</color>
-+ <color:blue>reasonForEndOfTreatment</color>
-+ <color:blue>treatmentResponse</color>
+    + <color:blue>diagnosisReference</color>
+    + <color:blue>episodeEvent</color>
+    + <color:blue>systemictreatmentHospital</color>
+    + <color:blue>typeOfSystemicTreatment</color>
+    - <color:red>intent</color>
+    - <color:red>setting</color>
+    - <color:green>chemotherapyInfo</color>
+    + <color:blue>startDateSystemicTreatment</color>
+    + <color:blue>endDateSystemicTreatment</color>
+    - <color:blue>numberOfCyclesAdministrations</color>
+    - <color:blue>regimen</color>
+    + <color:red>startDateRegimenChanged</color>
+    + <color:red>endDateRegimenChanged</color>
+    + <color:blue>reasonForEndOfTreatment</color>
+    + <color:blue>treatmentResponse</color>
 }
 
 object "Radiotherapy" as r {
-+ <color:blue>diagnosisReference</color>
-+ <color:blue>episodeEvent</color>
-+ <color:blue>radiotherapyHospital</color>
-+ <color:blue>intent</color>
-- <color:blue>setting</color>
-+ <color:red>beamQuality</color>
-- <color:red>otherSpecify</color>
-+ <color:red>treatmentTechnique</color>
-+ <color:blue>totalDoseGy</color>
-# <color:red>totalHighDose</color>
-+ <color:blue>numberOfFractions</color>
-- <color:red>adaptiveRt</color>
-- <color:red>igrt</color>
-- <color:red>reirradiation</color>
-- <color:red>fieldOfReirradiation</color>
-+ <color:blue>startDate</color>
-+ <color:blue>endDate</color>
-- <color:red>treatmentSitePrimaryOnly</color>
-- <color:red>treatmentSiteNeckOnly</color>
-+ <color:red>treatmentSitePrimaryAndIpsilateralNeck</color>
-+ <color:red>treatmentSitePrimaryAndBilateralNeck</color>
-+ <color:red>treatmentSiteDistantMetastasis</color>
-# <color:blue>metastaticTreatmentSiteLung</color>
-# <color:blue>metastaticTreatmentSiteMediastinum</color>
-# <color:blue>metastaticTreatmentSiteBone</color>
-# <color:blue>metastaticTreatmentSiteSoftTissue</color>
-# <color:blue>metastaticTreatmentSiteLiver</color>
-+ <color:blue>rtTreatmentCompletedAsPlanned?</color>
-+ <color:green>regionalDeepHyperthemia</color>
-# <color:green>treatmentResponse</color>
+    + <color:blue>diagnosisReference</color>
+    + <color:blue>episodeEvent</color>
+    + <color:blue>radiotherapyHospital</color>
+    + <color:blue>intent</color>
+    - <color:blue>setting</color>
+    + <color:red>beamQuality</color>
+    - <color:red>otherSpecify</color>
+    + <color:red>treatmentTechnique</color>
+    + <color:blue>totalDoseGy</color>
+    # <color:red>totalHighDose</color>
+    + <color:blue>numberOfFractions</color>
+    - <color:red>adaptiveRt</color>
+    - <color:red>igrt</color>
+    - <color:red>reirradiation</color>
+    - <color:red>fieldOfReirradiation</color>
+    + <color:blue>startDate</color>
+    + <color:blue>endDate</color>
+    - <color:red>treatmentSitePrimaryOnly</color>
+    - <color:red>treatmentSiteNeckOnly</color>
+    + <color:red>treatmentSitePrimaryAndIpsilateralNeck</color>
+    + <color:red>treatmentSitePrimaryAndBilateralNeck</color>
+    + <color:red>treatmentSiteDistantMetastasis</color>
+    # <color:blue>metastaticTreatmentSiteLung</color>
+    # <color:blue>metastaticTreatmentSiteMediastinum</color>
+    # <color:blue>metastaticTreatmentSiteBone</color>
+    # <color:blue>metastaticTreatmentSiteSoftTissue</color>
+    # <color:blue>metastaticTreatmentSiteLiver</color>
+    + <color:blue>rtTreatmentCompletedAsPlanned?</color>
+    + <color:green>regionalDeepHyperthemia</color>
+    # <color:green>treatmentResponse</color>
 }
 
 object "IsolatedLimbPerfusion" as ilp {
-+ <color:green>diagnosisReference</color>
-+ <color:green>episodeEvent</color>
-+ <color:green>isolatedLimbPerfusionHospital</color>
-+ <color:green>startDate</color>
-+ <color:green>endDate</color>
-# <color:green>treatmentResponse</color>
+    + <color:green>diagnosisReference</color>
+    + <color:green>episodeEvent</color>
+    + <color:green>isolatedLimbPerfusionHospital</color>
+    + <color:green>startDate</color>
+    + <color:green>endDate</color>
+    # <color:green>treatmentResponse</color>
 }
 
 object "DrugsForTreatments" as dft {
-+ <color:blue>SystemicTreatment</color>
-+ <color:blue>otherLocalTreatment</color>
-+ <color:blue>isolatedLimbPerfusion</color>
-+ <color:blue>drug</color>
+    + <color:blue>SystemicTreatment</color>
+    + <color:blue>otherLocalTreatment</color>
+    + <color:blue>isolatedLimbPerfusion</color>
+    + <color:blue>drug</color>
 }
 
 object "OverallTreatmentResponse" as tr {
-+ <color:blue>diagnosisReference</color>
-+ <color:blue>episodeEvent</color>
-+ <color:blue>overallTreatmentResponse</color>
-+ <color:blue>overallTreatmentResponseDefinedDone</color>
+    + <color:blue>diagnosisReference</color>
+    + <color:blue>episodeEvent</color>
+    + <color:blue>overallTreatmentResponse</color>
+    + <color:blue>overallTreatmentResponseDefinedDone</color>
 }
 
 object "RegionalDeepHyperthemia" as rdh {
-+ <color:green>diagnosisReference</color>
-+ <color:green>episodeEvent</color>
-+ <color:green>regionaldeephyperthemiaDoneAtHospital</color>
-+ <color:green>startDate</color>
-+ <color:green>endDate</color>
-# <color:green>treatmentResponse</color>
+    + <color:green>diagnosisReference</color>
+    + <color:green>episodeEvent</color>
+    + <color:green>regionaldeephyperthemiaDoneAtHospital</color>
+    + <color:green>startDate</color>
+    + <color:green>endDate</color>
+    # <color:green>treatmentResponse</color>
 }
 
 object "AdverseEvent" as ae {
-+ <color:red>treatmentReference</color>
-+ <color:red>adverseEventType</color>
-+ <color:red>adverseEventStartingDate</color>
-+ <color:red>adverseEventDuration</color>
+    + <color:red>treatmentReference</color>
+    + <color:red>adverseEventType</color>
+    + <color:red>adverseEventStartingDate</color>
+    + <color:red>adverseEventDuration</color>
 }
 
 p "1" ||--|{ "1..N" hpr
