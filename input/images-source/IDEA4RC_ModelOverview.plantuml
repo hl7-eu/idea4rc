@@ -75,15 +75,15 @@ url of r [[StructureDefinition-Radiotherapy.html]]
 
 object "IsolatedLimbPerfusion" as ilp #94d8f2 {
 }
-url of cs [[StructureDefinition-IsolatedLimbPerfusion.html]]
+url of ilp [[StructureDefinition-IsolatedLimbPerfusion.html]]
 
 object "RegionalDeepHyperthemia" as rdh #94d8f2 {
 }
-url of cs [[StructureDefinition-RegionalDeepHyperthemia.html]]
+url of rdh [[StructureDefinition-RegionalDeepHyperthemia.html]]
 
 object "DrugsForTreatments" as dft #94d8f2 {
 }
-url of cs [[StructureDefinition-DrugsForTreatments.html]]
+url of dft [[StructureDefinition-DrugsForTreatments.html]]
 
 object "OverallTreatmentResponse" as tr #94d8f2 {
 }
