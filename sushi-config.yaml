@@ -37,6 +37,9 @@ dependencies:
   # hl7.fhir.uv.ips: current
   hl7.fhir.uv.genomics-reporting: 2.0.0 # REMOVE IF NOT NEEDED
   hl7.terminology: 5.5.0  # Temporary  FIX
+  #HL7 EU dependencies
+  hl7.fhir.eu.base: current
+  hl7.fhir.eu.extensions: current
 
 fhirVersion: 4.0.1
 parameters:
