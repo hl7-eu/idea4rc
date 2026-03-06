@@ -214,7 +214,7 @@ Description: "Temporary coded concepts to be used by this Project waiting for th
 * #2000100051 "More than one week but less than a month"
 * #2000100052 "More than a month but less than 3 months"
 * #2000100053 "More than 3 months"
-* #2000100054 "doxorubicin and vincristine "
+* #2000100054 "doxorubicin and vincristine"
 * #2000100055 "gemcitabine and vincristine"
 * #2000100056 "high dose cisplatin"
 * #2000100057 "ifosfamide and etoposide"

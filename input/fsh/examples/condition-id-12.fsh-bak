@@ -7,7 +7,7 @@ Usage: #example
 // * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-related"
 
 * extension[condition-occurredFollowing].valueReference = Reference(condition-id-10)
-* code = $athena#4298030 "Verrucous squamous cell carcinoma"
+* code = $athena#36402689 "Verrucous carcinoma, NOS, of unknown primary site"
 * subject = Reference(patient-id-17)
 // * evidence[0].code = $cs-generic-eu-i4rc#geneMutationAnalysisPerformed "A gene mutation analysis is performed"
 * evidence[genetic-test].detail = Reference(observation-id-9)

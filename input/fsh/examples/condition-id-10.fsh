@@ -5,7 +5,7 @@ Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-dueTo"
 * extension.valueCodeableConcept = $athena#4029715 "Radiation oncology AND/OR radiotherapy" //  $athena#37117814 "Radiation therapy induced change"
-* code = $athena#4298030 "Verrucous squamous cell carcinoma"
+* code = $athena#36402689 "Verrucous carcinoma, NOS, of unknown primary site"
 * bodySite[0] = $athena#4102600 "Structure of posterior wall of hypopharynx"
 * bodySite[+] = $athena#4001049 "Supraglottis structure"
 * bodySite[+] = $athena#4027545 "Structure of vermilion border of lip"

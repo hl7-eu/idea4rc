@@ -3,7 +3,7 @@ InstanceOf: ConditionPrimaryCancerI4rc // change for allowing the sample compila
 Title: "Condition: Stable Disease"
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"
-* code = $athena#4298030 "Verrucous squamous cell carcinoma"
+* code = $athena#36402689 "Verrucous carcinoma, NOS, of unknown primary site"
 * extension[0].url = "http://hl7.org/fhir/StructureDefinition/condition-occurredFollowing"
 * extension[=].valueReference = Reference(condition-id-10)
 /* NOT A PROPER VALUE STABLE MEANS STILLA ACTIVE  ?
