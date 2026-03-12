@@ -8,5 +8,5 @@ Usage: #example
 * subject = Reference(patient-id-17)
 * effectiveDateTime = "2022-01-15T00:00:00+01:00"
 // added value[x] required
-* valueCodeableConcept = $athena#4298030 "Verrucous squamous cell carcinoma"
+* valueCodeableConcept = $athena#36540640 "Verrucous carcinoma, NOS, of external upper lip"
 * method = $athena#4171863 "Fine needle biopsy"
