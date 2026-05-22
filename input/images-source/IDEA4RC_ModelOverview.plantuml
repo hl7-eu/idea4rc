@@ -21,98 +21,116 @@ legend top left
 |<back:#FFFFCC>   </back>| Third Block |
 endlegend
 
-object "Patient" as p #E5CCFF {
+object "Patient" as p #94d8f2 {
 }
 url of p [[StructureDefinition-Subject.html]]
 
-object "HospitalData" as hd #E5CCFF {
+object "HospitalData" as hd #94d8f2 {
 }
 url of hd [[StructureDefinition-HospitalPatientRecords.html]]
 
-object "HospitalPatientRecords" as hpr #E5CCFF {
+object "HospitalPatientRecords" as hpr #94d8f2 {
 }
 url of hpr [[StructureDefinition-HospitalPatientRecords.html]]
 
-object "PatientFollowUp" as pfu #E5CCFF {
+object "PatientFollowUp" as pfu #94d8f2 {
 }
 url of pfu [[StructureDefinition-PatientFollowUp.html]]
 
-object "CancerEpisode" as ce #E5CCFF {
+object "CancerEpisode" as ce #94d8f2 {
 }
 url of ce [[StructureDefinition-CancerEpisode.html]]
 
-object "Diagnosis" as d #E5CCFF {
+object "Diagnosis" as d #94d8f2 {
 }
 url of d [[StructureDefinition-Diagnosis.html]]
 
-object "EpisodeEvent" as ee #E5CCFF {
+object "EpisodeEvent" as ee #94d8f2 {
 }
 url of ee [[StructureDefinition-EpisodeEvent.html]]
 
-object "HnStage" as hs #E5CCFF {
+object "PathologicalStage" as ps #94d8f2 {
 }
-object "SarcomaStage" as ss #E5CCFF {
-}
+url of ps [[StructureDefinition-PathologicalStage.html]]
 
-object "PathologicalReportInfo" as pri {
+object "ClinicalStage" as cs #94d8f2 {
 }
-object "GeneticTestExpression" as gte #FFFFCC {
+url of cs [[StructureDefinition-ClinicalStage.html]]
+
+object "GeneticTestExpression" as gte #94d8f2 {
 }
 url of gte [[StructureDefinition-GeneticTestExpression.html]]
 
-object "Surgery" as su #E5CCFF {
+object "Surgery" as su #94d8f2 {
 }
 url of su [[StructureDefinition-Surgery.html]]
 
-object "SystemicTreatment" as st #FFFFCC {
+object "SystemicTreatment" as st #94d8f2 {
 }
 url of st [[StructureDefinition-SystemicTreatment.html]]
 
-object "Radiotherapy" as r #FFB266 {
+object "Radiotherapy" as r #94d8f2 {
 }
 url of r [[StructureDefinition-Radiotherapy.html]]
 
-object "OtherLocalTreatment" as olt {
+object "IsolatedLimbPerfusion" as ilp #94d8f2 {
 }
+url of ilp [[StructureDefinition-IsolatedLimbPerfusion.html]]
 
-object "IsolatedLimbPerfusion" as ilp {
+object "RegionalDeepHyperthemia" as rdh #94d8f2 {
 }
-object "DrugsForTreatments" as dft {
+url of rdh [[StructureDefinition-RegionalDeepHyperthemia.html]]
+
+object "DrugsForTreatments" as dft #94d8f2 {
 }
-object "TreatmentResponse" as tr #FFFFCC {
+url of dft [[StructureDefinition-DrugsForTreatments.html]]
+
+object "OverallTreatmentResponse" as tr #94d8f2 {
 }
 url of tr [[StructureDefinition-TreatmentResponse.html]]
 
-object "AdverseEvent" as ae #FFFFCC {
+object "AdverseEvent" as ae #94d8f2 {
 }
 url of ae [[StructureDefinition-AdverseEvent.html]]
 
 p "1" ||--|{ "1..N" hpr
-hd "1" ||--|{ "1..N" hpr
-p "1" ||--o{ "0..N" ce
+p "1" ||--o{ "1..N" ce
 p "1" ||--o{ "0..N" pfu
 
-ce "1" ||--o{ "1" d
+hpr "1..N" }|--|| "1" hd
 
-d "1" ||--|{ "1..N" ee
+ce "1" ||--|{ "1..N" d
+ce "1" ||--|{ "0..N" ee
 
-ee "1" ||--o| "0..1" hs
-ee "1" ||--o| "0..1" ss
-st "1" ||--|{ "0..N" dft
-ilp "1" ||--|{ "0..N" dft
-olt "1" ||--|{ "0..N" dft
+d "0..1" }o--|| "1" ee
+
 ee "1" ||--o{ "0..N" r
 ee "1" ||--o{ "0..N" su
 ee "1" ||--o{ "0..N" st
-ee "1" ||--o{ "0..N" olt
+ee "1" ||--o{ "0..N" rdh
 ee "1" ||--o{ "0..N" ilp
 ee "1" ||--o{ "0..N" gte
-ee "1" ||--o{ "0..N" tr
-ee "1" ||--o{ "0..N" pri
+ee "1" ||--o{ "0..1" tr
+
+d "1" ||--o{ "0..N" r
+d "1" ||--o{ "0..N" su
+d "1" ||--o| "0..1" ps
+d "1" ||--o| "0..1" cs
+d "1" ||--o{ "0..N" st
+d "1" ||--o{ "0..N" rdh
+d "1" ||--o{ "0..N" ilp
+d "1" ||--o{ "0..N" gte
+d "1" ||--o| "0..1" tr
+
+r "1" ||--o{ "0..N" ae
 
 su "1" ||--o{ "0..N" ae
-st "0..N" ||--o{ "1" ae
-r "1" ||--o{ "0..N" ae
+
+st "0..N" }o--|| "1" ae
+st "1" ||--|{ "0..N" dft
+
+ilp "1" ||--|{ "0..N" dft
+ilp "1" ||--|{ "0..N" rdh
 
 @enduml
 
