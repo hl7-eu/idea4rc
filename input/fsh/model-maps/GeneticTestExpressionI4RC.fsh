@@ -27,10 +27,10 @@ Maturity Level: 0 Draft"""
 """
 * testsForChromosomeTranslocationsPerformed insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * testsForChromosomeTranslocationsPerformed ^comment = """Translocation analysis - 4039364"""
-* dateOfTraslocation 0..* date "Date of traslocation (O)" """Date of the Chromosome translocation test 
+* dateOfTraslocation 0..* date "Date of translocation (O)" """Date of the Chromosome translocation test 
 """
 * dateOfTraslocation insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* ngsPerformed 0..* boolean "Next generation sequencing (NGS)  performed (R)" """Clarifies whether a NGS analysis is performed 
+* ngsPerformed 0..* boolean "Next generation sequencing (NGS) performed (R)" """Clarifies whether a NGS analysis is performed 
 """
 * ngsPerformed insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * ngsPerformed ^comment = """Analysis using chain termination sequencing technique - 40485067"""
@@ -44,7 +44,7 @@ Maturity Level: 0 Draft"""
 * dateOfPcr 0..* date "Date of PCR (O)" """Date of the PCR analysis 
 """
 * dateOfPcr insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* immunohistochemistryPerformed 0..* boolean "Immunohistochemistry  performed (R)" """Clarifies whether a immunohiostochemestry analysis is performed 
+* immunohistochemistryPerformed 0..* boolean "Immunohistochemistry performed (R)" """Clarifies whether a immunohiostochemestry analysis is performed 
 """
 * immunohistochemistryPerformed insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * immunohistochemistryPerformed ^comment = """Immunohistochemistry procedure - 4035726"""

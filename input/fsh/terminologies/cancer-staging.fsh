@@ -221,7 +221,7 @@ ValueSet: PathologicalTNMPrimaryTumorCategoryVS
 Id: mcode-pathological-tnm-primary-tumor-category-vs
 Title: "Pathological TNM Primary Tumor Category Value Set"
 Description: "This value set is intended to contain allowable values for the T category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
-
+* ^experimental = false
 * $athena#1634270 "AJCC/UICC 6th pathological TX Category"
 * $athena#1635402 "AJCC/UICC 7th pathological TX Category"
 * $athena#1634986 "AJCC/UICC 8th pathological TX Category"

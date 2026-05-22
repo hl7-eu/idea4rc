@@ -82,20 +82,14 @@ pages:
     title: PatientFollowUp Relationships
   EpisodeEvent-map.html:
     title: EpisodeEvent Relationships
- # OtherTreatment-map.html:
- #   title: OtherTreatment Relationships
   HospitalPatientRecords-map.html:
     title: HospitalPatientRecords Relationships
- # HnStage-map.html:
- #   title: HnStage Relationships
   CancerEpisode-map.html:
     title: CancerEpisode Relationships
   AdverseEvent-map.html:
     title: AdverseEvent Relationships
   GeneticTestExpression-map.html:
     title: GeneticTestExpression Relationships
- # SarcomaStage-map.html:
- #   title: SarcomaStage Relationships
   Surgery-map.html:
     title: Surgery Relationships
   Radiotherapy-map.html:
@@ -131,13 +125,10 @@ menu:
     Subject: Subject-map.html
     PatientFollowUp: PatientFollowUp-map.html
     EpisodeEvent: EpisodeEvent-map.html
-  #  OtherTreatment: OtherTreatment-map.html
     HospitalPatientRecords: HospitalPatientRecords-map.html
-   # HnStage: HnStage-map.html
     CancerEpisode: CancerEpisode-map.html
     AdverseEvent: AdverseEvent-map.html
     GeneticTestExpression: GeneticTestExpression-map.html
-  #  SarcomaStage: SarcomaStage-map.html
     Surgery: Surgery-map.html
     Radiotherapy: Radiotherapy-map.html
 

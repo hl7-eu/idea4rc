@@ -8,7 +8,7 @@ Description: "Calculated|Estimated Value Set"
 * ^experimental = false
 * $sct#703858009 "Numeric estimation technique" 
 * $sct#702873001 	"Calculation technique"
-* $data-absent-reason#unknown "Unknown"
+* $data-absent-reason-cs#unknown "Unknown"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: ChemoUnitsVs
@@ -30,5 +30,5 @@ Title: "Not Performed|Unknown"
 Description: "Not Performed/Unknown Value Set"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-* $data-absent-reason#unknown "Unknown"
-* $data-absent-reason#not-performed "Not Performed"
+* $data-absent-reason-cs#unknown "Unknown"
+* $data-absent-reason-cs#not-performed "Not Performed"

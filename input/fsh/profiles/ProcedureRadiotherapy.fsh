@@ -109,7 +109,7 @@ Description: "Complex extension indicating whether the treatment is adaptive, ba
     code 1..1 and
     value 1..1
 * extension[code].value[x] only Coding
-* extension[code].valueCoding = http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-idea4rc-vocab-eu-i4rc#2000100045 "Adaptive"
+* extension[code].valueCoding = http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-idea4rc-vocab-eu-i4rc#2000100045 "Adaptive radiotherapy"
 * extension[value].value[x] only boolean
 * extension[value].value[x] 1..1
 

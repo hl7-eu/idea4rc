@@ -9,22 +9,22 @@ Usage: #definition
 * description = """It shows how the Hospital Patient Records model is mapped into this guide"""
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/HospitalPatientRecords"
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/episodeOfCare-eu-i4rc"
-* group[=].element[+].code = #patient
+* group[=].element[+].code = #HospitalPatientRecords.patient
 * group[=].element[=].display = "Patient (M)"
 * group[=].element[=].target.code = #EpisodeOfCare.patient
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #hospital
+* group[=].element[+].code = #HospitalPatientRecords.hospital
 * group[=].element[=].display = "Hospital (M)"
 * group[=].element[=].target.code = #EpisodeOfCare.managingOrganization
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #hospital.name
+* group[=].element[+].code = #HospitalPatientRecords.hospital.name
 * group[=].element[=].display = "Hospital name (M)"
 * group[=].element[=].target.code = #EpisodeOfCare.managingOrganization.display
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #dateOfFirstContactWithTheHospital
+* group[=].element[+].code = #HospitalPatientRecords.dateOfFirstContactWithTheHospital
 * group[=].element[=].display = "Date of first contact with the hospital (M)"
 * group[=].element[=].target.code = #EpisodeOfCare.period.start
 * group[=].element[=].target.display = ""

@@ -17,6 +17,6 @@ Description: "Affected Organs (surgery)"
 // MISSING metastasis_peritoneum
 // MISSING metastasis_other viscera
 
-* $data-absent-reason#unknown "Unknown"
+* $data-absent-reason-cs#unknown "Unknown"
 * $v3-NullFlavor#OTH "Other"
 /* * codes from valueset UnknownOtherVs */

@@ -1,8 +1,8 @@
-ValueSet: sitesVs
-Id: sites-vs
+ValueSet: CancerSitesVs
+Id: cancer-sites-vs
 Title: "Cancer site: Athena"
 Description: "Describes the primary tumor site."
-
+* ^name = "CancerSiteVS"
 * ^experimental = false
 * codes from valueset siteVs
 * codes from valueset VsSubsiteAthenaI4rc
@@ -12,7 +12,7 @@ ValueSet: siteVs
 Id: site-vs
 Title: "Site: Athena"
 Description: "Describes the primary tumor site."
-
+* ^name = "SiteVS"
 * ^experimental = false
 
 //DUPLICATED:* $bb-topo#2000000067 "Nasal cavity and paranasal sinus"  

@@ -1,13 +1,106 @@
 == Suppressed Messages ==
 
-# No schematrons available for Logical Models
-The link 'StructureDefinition-Patient.sch' for "Schematron" cannot be resolved
-
-# unsupported modifier
-The modifier extension http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence from FHIR version {3} is not allowed to be used at this point (allowed = e:ConceptMap.element.target; this element is [[BackboneElement, ConceptMap.group.element.target]; this is a warning since contexts may be renamed between FHIR versions)
-
-%The modifier extension http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence%
-
 # Best Practice Recommendation warning 
 Best Practice Recommendation: In general, all observations should have a performer
 Best Practice Recommendation: In general, all observations should have an effective[x] ()
+
+# Code from Athena (see https://athena.ohdsi.org/search-terms/start)
+No definition could be found for URL value 'http://fhir.ohdsi.org/CodeSystem/concepts'
+Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' could not be found, so the value set cannot be expanded
+A definition for CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' could not be found, so the code cannot be validated
+
+# Logical model to FHIR Mapping 
+Reference must be to a ValueSet, but found a StructureDefinition instead
+
+# Tooling generated extension with wrong type
+The Extension 'http://hl7.org/fhir/tools/StructureDefinition/snapshot-source' definition allows for the types [canonical] but found type uri
+
+# An example binding is present on the definition of the extension but this guide restricts the type to reference only. This error can be ignore.
+This element has a Binding but the types [Reference] do not make this kind of constraint relevant
+The element Condition.extension.value[x] has a binding, but no bindable types are present [Reference]
+
+# Publisher generated link should point to definition.html
+Hyperlink 'StructureDefinition-adverseEvent-eu-i4rc.html#AdverseEvent.detected' at 'div/table/tr/td/a' for 'AdverseEvent.detected' does not resolve
+Hyperlink 'StructureDefinition-AdverseEvent.html#AdverseEvent.treatmentReference[x]' at 'div/table/tr/td/a' for 'AdverseEvent.treatmentReference[x]' does not resolve
+Hyperlink 'StructureDefinition-Condition-primaryCancer-eu-i4rc.html#Condition.evidence:diagnosisDetails.detail' at 'div/table/tr/td/a' for 'Condition.evidence:diagnosisDetails.detail' does not resolve
+Hyperlink 'StructureDefinition-Observation-diagnosis-eu-i4rc.html#Observation.effective[x]' at 'div/table/tr/td/a' for 'Observation.effective[x]' does not resolve
+Hyperlink 'StructureDefinition-Condition-primaryCancer-eu-i4rc.html#Condition.onset[x]' at 'div/table/tr/td/a' for 'Condition.onset[x]' does not resolve
+Hyperlink 'StructureDefinition-hn-cancer-stage-group.html#Observation.hasMember:tnmPrimaryTumorCategory' at 'div/table/tr/td/a' for 'Observation.hasMember:tnmPrimaryTumorCategory' does not resolve
+Hyperlink 'StructureDefinition-hn-cancer-stage-group.html#Observation.hasMember:tnmRegionalNodesCategory' at 'div/table/tr/td/a' for 'Observation.hasMember:tnmRegionalNodesCategory' does not resolve
+Hyperlink 'StructureDefinition-hn-cancer-stage-group.html#Observation.hasMember:tnmDistantMetastasesCategory' at 'div/table/tr/td/a' for 'Observation.hasMember:tnmDistantMetastasesCategory' does not resolve
+Hyperlink 'StructureDefinition-hn-cancer-stage-group.html#Observation.hasMember:extraNodalExtension' at 'div/table/tr/td/a' for 'Observation.hasMember:extraNodalExtension' does not resolve
+Hyperlink 'StructureDefinition-hn-cancer-stage-group.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-locoRegional-category.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-mcode-tnm-distant-metastases-category.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-mcode-tnm-primary-tumor-category.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-mcode-tnm-regional-nodes-category.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-extraNodalExtension-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-number-tumor-nodules.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-sarcoma-cancer-stage-group.html#Observation.hasMember:localized' at 'div/table/tr/td/a' for 'Observation.hasMember:localized' does not resolve
+Hyperlink 'StructureDefinition-sarcoma-extent-category.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-Condition-primaryCancer-eu-i4rc.html#Condition.id' at 'div/table/tr/td/a' for 'Condition.id' does not resolve
+Hyperlink 'StructureDefinition-Condition-primaryCancer-eu-i4rc.html#Condition.extension:condition-dueTo' at 'div/table/tr/td/a' for 'Condition.extension:condition-dueTo' does not resolve
+Hyperlink 'StructureDefinition-Condition-primaryCancer-eu-i4rc.html#Condition.bodySite.extension:qualifier.value[x]' at 'div/table/tr/td/a' for 'Condition.bodySite.extension:qualifier.value[x]' does not resolve
+Hyperlink 'StructureDefinition-Observation-diagnosis-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-Condition-primaryCancer-eu-i4rc.html#Condition.evidence:simpleResult.detail' at 'div/table/tr/td/a' for 'Condition.evidence:simpleResult.detail' does not resolve
+Hyperlink 'StructureDefinition-MedicationAdministration-eu-i4rc.html#MedicationAdministration.medication[x]' at 'div/table/tr/td/a' for 'MedicationAdministration.medication[x]' does not resolve
+Hyperlink 'StructureDefinition-Condition-primaryCancer-eu-i4rc.html#Condition.extension:condition-occurredFollowing' at 'div/table/tr/td/a' for 'Condition.extension:condition-occurredFollowing' does not resolve
+Hyperlink 'StructureDefinition-Condition-primaryCancer-eu-i4rc.html#Condition.clinicalStatus.coding:athena' at 'div/table/tr/td/a' for 'Condition.clinicalStatus.coding:athena' does not resolve
+Hyperlink 'StructureDefinition-Condition-primaryCancer-eu-i4rc.html#Condition.extension:sameHospital' at 'div/table/tr/td/a' for 'Condition.extension:sameHospital' does not resolve
+Hyperlink 'StructureDefinition-Procedure-otherTreatment-eu-i4rc.html#Procedure.performer' at 'div/table/tr/td/a' for 'Procedure.performer' does not resolve
+Hyperlink 'StructureDefinition-Procedure-otherTreatment-eu-i4rc.html#Procedure.extension:sameHospital' at 'div/table/tr/td/a' for 'Procedure.extension:sameHospital' does not resolve
+Hyperlink 'StructureDefinition-observation-overallTreatment-eu-i4rc.html#Observation.performer' at 'div/table/tr/td/a' for 'Observation.performer' does not resolve
+Hyperlink 'StructureDefinition-observation-overallTreatment-eu-i4rc.html#Observation.extension:sameHospital' at 'div/table/tr/td/a' for 'Observation.extension:sameHospital' does not resolve
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.performer' at 'div/table/tr/td/a' for 'Procedure.performer' does not resolve
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.extension:sameHospital' at 'div/table/tr/td/a' for 'Procedure.extension:sameHospital' does not resolve
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.extension:procedureIntent' at 'div/table/tr/td/a' for 'Procedure.extension:procedureIntent' does not resolve
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.extension:procedureCategoryR5' at 'div/table/tr/td/a' for 'Procedure.extension:procedureCategoryR5' does not resolve
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.extension:totalHighDoseDelivered' at 'div/table/tr/td/a' for 'Procedure.extension:totalHighDoseDelivered' does not resolve
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.extension:terminationReason' at 'div/table/tr/td/a' for 'Procedure.extension:terminationReason' does not resolve
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.partOf' at 'div/table/tr/td/a' for 'Procedure.partOf' does not resolve
+Hyperlink 'StructureDefinition-observation-comorbidity-eu-i4rc.html#Observation.extension:comorbidConditionPresent' at 'div/table/tr/td/a' for 'Observation.extension:comorbidConditionPresent' does not resolve
+Hyperlink 'StructureDefinition-patient-eu-i4rc.html#Patient.address.country.extension:countryCode' at 'div/table/tr/td/a' for 'Patient.address.country.extension:countryCode' does not resolve
+Hyperlink 'StructureDefinition-Procedure-surgery-eu-i4rc.html#Procedure.performer' at 'div/table/tr/td/a' for 'Procedure.performer' does not resolve
+Hyperlink 'StructureDefinition-Procedure-surgery-eu-i4rc.html#Procedure.extension:supportingInfoR5' at 'div/table/tr/td/a' for 'Procedure.extension:supportingInfoR5' does not resolve
+Hyperlink 'StructureDefinition-MedicationAdministration-eu-i4rc.html#MedicationAdministration.performer' at 'div/table/tr/td/a' for 'MedicationAdministration.performer' does not resolve
+Hyperlink 'StructureDefinition-MedicationAdministration-eu-i4rc.html#MedicationAdministration.extension:sameHospital' at 'div/table/tr/td/a' for 'MedicationAdministration.extension:sameHospital' does not resolve
+Hyperlink 'StructureDefinition-MedicationAdministration-eu-i4rc.html#MedicationAdministration.extension:outcome' at 'div/table/tr/td/a' for 'MedicationAdministration.extension:outcome' does not resolve
+Hyperlink 'StructureDefinition-observation-overallTreatment-eu-i4rc.html#Observation.extension:reasonReference' at 'div/table/tr/td/a' for 'Observation.extension:reasonReference' does not resolve
+Hyperlink 'StructureDefinition-observation-overallTreatment-eu-i4rc.html#Observation.extension:reasonReference' at 'div/table/tr/td/a' for 'Observation.extension:reasonReference' does not resolve
+Hyperlink 'StructureDefinition-observation-overallTreatment-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-alcoholuse-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-cci-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-ecog-performance-status-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-karnofsky-performance-status-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-occurrencOtherCancer-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-tobaccouse-eu-i4rc.html#Observation.component:smokingStatus.value[x]' at 'div/table/tr/td/a' for 'Observation.component:smokingStatus.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-tobaccouse-eu-i4rc.html#Observation.component:packsPerYear.value[x]' at 'div/table/tr/td/a' for 'Observation.component:packsPerYear.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-treatment-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-patient-eu-i4rc.html#Patient.extension:race.value[x]' at 'div/table/tr/td/a' for 'Patient.extension:race.value[x]' does not resolve
+Hyperlink 'StructureDefinition-Procedure-surgery-eu-i4rc.html#Procedure.performed[x]' at 'div/table/tr/td/a' for 'Procedure.performed[x]' does not resolve
+Hyperlink 'StructureDefinition-adverseEvent-eu-i4rc.html#AdverseEvent.extension:occurence' at 'div/table/tr/td/a' for 'AdverseEvent.extension:occurence' does not resolve
+Hyperlink 'StructureDefinition-hn-cancer-stage-group.html#Observation.performer' at 'div/table/tr/td/a' for 'Observation.performer' does not resolve
+Hyperlink 'StructureDefinition-observation-dateLastContact-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-lastFollowupStatus-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-hn-cancer-stage-group.html#Observation.performer' at 'div/table/tr/td/a' for 'Observation.performer' does not resolve
+Hyperlink 'StructureDefinition-MedicationAdministration-eu-i4rc.html#MedicationAdministration.extension:categoryR5' at 'div/table/tr/td/a' for 'MedicationAdministration.extension:categoryR5' does not resolve
+Hyperlink 'StructureDefinition-MedicationAdministration-eu-i4rc.html#MedicationAdministration.extension:intent' at 'div/table/tr/td/a' for 'MedicationAdministration.extension:intent' does not resolve
+Hyperlink 'StructureDefinition-Condition-primaryCancer-eu-i4rc.html#Condition.extension:histology-morphology-behavior' at 'div/table/tr/td/a' for 'Condition.extension:histology-morphology-behavior' does not resolve
+Hyperlink 'StructureDefinition-Condition-secondaryCancer-eu-i4rc.html#Condition.extension:relatedPrimaryCancerCondition' at 'div/table/tr/td/a' for 'Condition.extension:relatedPrimaryCancerCondition' does not resolve
+Hyperlink 'StructureDefinition-Condition-primaryCancer-eu-i4rc.html#Condition.evidence:genetic-test.detail' at 'div/table/tr/td/a' for 'Condition.evidence:genetic-test.detail' does not resolve
+Hyperlink 'StructureDefinition-Procedure-otherTreatment-eu-i4rc.html#Procedure.performed[x]' at 'div/table/tr/td/a' for 'Procedure.performed[x]' does not resolve
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.extension:modalityAndTechnique.extension:modality.value[x]' at 'div/table/tr/td/a' for 'Procedure.extension:modalityAndTechnique.extension:modality.value[x]' does not resolve
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.extension:modalityAndTechnique.extension:technique.value[x]' at 'div/table/tr/td/a' for 'Procedure.extension:modalityAndTechnique.extension:technique.value[x]' does not resolve
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.extension:doseToVolume' at 'div/table/tr/td/a' for 'Procedure.extension:doseToVolume' does not resolve
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.extension:doseToVolume' at 'div/table/tr/td/a' for 'Procedure.extension:doseToVolume' does not resolve	--
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.extension:adaptive' at 'div/table/tr/td/a' for 'Procedure.extension:adaptive' does not resolve	--
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.extension:modalityAndTechnique.extension:technique.value[x]' at 'div/table/tr/td/a' for 'Procedure.extension:modalityAndTechnique.extension:technique.value[x]' does not resolve	--
+Hyperlink 'StructureDefinition-Procedure-radiotheraphy-eu-i4rc.html#Procedure.performed[x]' at 'div/table/tr/td/a' for 'Procedure.performed[x]' does not resolve	--
+Hyperlink 'StructureDefinition-Procedure-otherTreatment-eu-i4rc.html#Procedure.performed[x]' at 'div/table/tr/td/a' for 'Procedure.performed[x]' does not resolve
+Hyperlink 'StructureDefinition-Procedure-surgery-eu-i4rc.html#Procedure.extension:ProcedureCategoryR5.value[x]' at 'div/table/tr/td/a' for 'Procedure.extension:ProcedureCategoryR5.value[x]' does not resolve
+Hyperlink 'StructureDefinition-Procedure-surgery-eu-i4rc.html#Procedure.extension:ProcedureMethod.value[x]' at 'div/table/tr/td/a' for 'Procedure.extension:ProcedureMethod.value[x]' does not resolve
+Hyperlink 'StructureDefinition-observation-testResult-eu-i4rc.html#Observation.value[x]' at 'div/table/tr/td/a' for 'Observation.value[x]' does not resolve
+Hyperlink 'StructureDefinition-MedicationAdministration-eu-i4rc.html#MedicationAdministration.effective[x]' at 'div/table/tr/td/a' for 'MedicationAdministration.effective[x]' does not resolve
+Hyperlink 'StructureDefinition-MedicationAdministration-eu-i4rc.html#MedicationAdministration.dosage.extension:chemotherapyTiming' at 'div/table/tr/td/a' for 'MedicationAdministration.dosage.extension:chemotherapyTiming' does not resolve
+Hyperlink 'StructureDefinition-Procedure-surgery-eu-i4rc.html#Procedure.bodySite.extension:qualifier' at 'div/table/tr/td/a' for 'Procedure.bodySite.extension:qualifier' does not resolve
+Hyperlink 'StructureDefinition-Procedure-surgery-eu-i4rc.html#Procedure.bodySite.extension:laterality' at 'div/table/tr/td/a' for 'Procedure.bodySite.extension:laterality' does not resolve
