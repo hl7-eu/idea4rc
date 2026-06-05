@@ -118,8 +118,8 @@ This profile should be also used for documenting primary cancer relapses during 
 * clinicalStatus ^example.valueCodeableConcept = $condition-clinical#relapse
 * clinicalStatus ^example.label = "Relapse"
 * clinicalStatus 
-  * coding ^slicing.discriminator[0].type = #value
-  * coding ^slicing.discriminator[0].path = "system"
+  * coding ^slicing.discriminator[0].type = #pattern
+  * coding ^slicing.discriminator[0].path = "$this"
   * coding ^slicing.ordered = true
   * coding ^slicing.rules = #open
   * coding contains condition-clinical 1..1
@@ -145,7 +145,7 @@ This profile should be also used for documenting primary cancer relapses during 
 * stage.type ^definition = "As for mCODE, in IDEA4RC staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the staging system MAY appear in this element, but Data Senders and Receivers MAY ignore it."
 // * stage.type from CancerStageGroupVS (required)
 
-* bodySite from sitesVs (extensible)
+* bodySite from CancerSitesVs (extensible)
 //   * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites)
 
 /* * evidence ^slicing.discriminator.type = #value

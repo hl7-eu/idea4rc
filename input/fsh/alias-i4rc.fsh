@@ -46,14 +46,14 @@ Alias: $sct = http://snomed.info/sct
 Alias: $ucum =  http://unitsofmeasure.org
 Alias: $v2-0131 = http://terminology.hl7.org/CodeSystem/v2-0131
 Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
-Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
+Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor|3.0.0
 Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
-Alias: $data-absent-reason-cs = http://terminology.hl7.org/CodeSystem/data-absent-reason
+Alias: $data-absent-reason-cs = http://terminology.hl7.org/CodeSystem/data-absent-reason|1.0.0
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $product-category = http://hl7.org/fhir/CodeSystem/product-category
 Alias: $plan-definition-type = http://terminology.hl7.org/CodeSystem/plan-definition-type
 Alias: $bcp47 = urn:ietf:bcp:47
-Alias: $diagnosis-role = http://terminology.hl7.org/CodeSystem/diagnosis-role
+Alias: $diagnosis-role = http://terminology.hl7.org/CodeSystem/diagnosis-role|1.1.0
 
 
 // --- Value Sets
@@ -111,7 +111,6 @@ Alias: $sct = http://snomed.info/sct
 Alias: $ucum =  http://unitsofmeasure.org
 Alias: $v2-0131 = http://terminology.hl7.org/CodeSystem/v2-0131
 Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
-Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $product-category = http://hl7.org/fhir/CodeSystem/product-category

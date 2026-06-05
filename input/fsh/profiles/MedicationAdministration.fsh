@@ -29,7 +29,7 @@ RuleSet: CumulativeDoseObsRules
 * valueQuantity.system = $ucum
 * valueQuantity.code 1.. MS 
 * valueQuantity.unit MS 
-* valueCodeableConcept = $data-absent-reason#unknown "Unknown" 
+* valueCodeableConcept = $data-absent-reason-cs#unknown "Unknown" 
 * component 0..
 
 
@@ -47,7 +47,7 @@ Description: "This profile defines how to represent MedicationAdministration in 
   $mcode-procedure-intent  named intent 0..1 and 
   $medicationadministration-category-r5 named categoryR5 1..*
 
-* extension[categoryR5].value[x] only CodeableConcept
+* extension[categoryR5].valueCodeableConcept only CodeableConcept
 * extension[categoryR5].valueCodeableConcept from VsTypeofSystemicTreatmentI4rc (preferred)
 * extension[categoryR5].valueCodeableConcept insert AdditionalBinding (preferred, VsTreatmentSetting4RC, Vocabulary binding used for Treatment Settings)
 * extension[categoryR5].valueCodeableConcept insert AdditionalBinding (preferred, ChemotherapyInfoVs, Vocabulary binding used for Chemotherapy Info)

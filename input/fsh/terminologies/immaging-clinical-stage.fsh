@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsImmagingClinicalStageI4rc
 Id: imaging-clinical-stage-i4rc
-Title: " Immaging Clinical Stage"
+Title: "Immaging Clinical Stage"
 Description: "This ValueSet defines a collection of codes describing Immaging Clinical Stage"
 //-------------------------------------------------------------------------------------------
 
@@ -17,7 +17,7 @@ Description: "This ValueSet defines a collection of codes describing Immaging Cl
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsImmagingClinicalStagePrimarySiteI4rc
 Id: imaging-clinical-stage-primary-site-i4rc
-Title: " Immaging Clinical Stage Primary Site"
+Title: "Immaging Clinical Stage Primary Site"
 Description: "This ValueSet defines a collection of codes describing Immaging Clinical Stage primary site"
 //-------------------------------------------------------------------------------------------
 
@@ -31,7 +31,7 @@ Description: "This ValueSet defines a collection of codes describing Immaging Cl
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsImmagingClinicalStageNeckI4rc
 Id: imaging-clinical-stage-neck-i4rc
-Title: " Immaging Clinical Stage Neck"
+Title: "Immaging Clinical Stage Neck"
 Description: "This ValueSet defines a collection of codes describing Immaging Clinical Stage Neck"
 //-------------------------------------------------------------------------------------------
 
@@ -45,7 +45,7 @@ Description: "This ValueSet defines a collection of codes describing Immaging Cl
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsImmagingClinicalStageMetastasisI4rc
 Id: imaging-clinical-stage-metastasis-i4rc
-Title: " Immaging Clinical Stage Metastasis"
+Title: "Immaging Clinical Stage Metastasis"
 Description: "This ValueSet defines a collection of codes describing Immaging Clinical Stage Metastasis"
 //-------------------------------------------------------------------------------------------
 

@@ -9,7 +9,7 @@ legend right
   | <#CCCCFF> | Profile |
 endlegend
 class "GeneticTestExpression" <<LogicalModel>> [[StructureDefinition-GeneticTestExpression.html]]
-note right #PaleTurquoise [[ConceptMap-geneticTest2FHIR.html]]
+note right #PaleTurquoise [[ConceptMap-geneticTestExpression2FHIR.html]]
 Concept Map
 endnote
 class "Condition-primaryCancer-eu-i4rc" <<Profile>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]

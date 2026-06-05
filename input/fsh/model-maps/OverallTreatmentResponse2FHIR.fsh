@@ -9,28 +9,28 @@ Usage: #definition
 * description = """It shows how the OverallTreatmentResponse model is mapped into this guide"""
 * group[+].source = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/OverallTreatmentResponse"
 * group[=].target = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-overallTreatment-eu-i4rc"
-* group[=].element[+].code = #diagnosisReference
+* group[=].element[+].code = #OverallTreatmentResponse.diagnosisReference
 * group[=].element[=].display = "Diagnosis reference (M)"
-* group[=].element[=].target.code = #Observation.reasonReferencen
+* group[=].element[=].target.code = #Observation.extension:reasonReference
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[+].code = #episodeEvent
+* group[=].element[+].code = #OverallTreatmentResponse.episodeEvent
 * group[=].element[=].display = "Episode Event Reference (M)"
-* group[=].element[=].target.code = #Observation.reasonReferencen
+* group[=].element[=].target.code = #Observation.extension:reasonReference
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
-* group[=].element[+].code = #overallTreatmentResponse
+* group[=].element[+].code = #OverallTreatmentResponse.overallTreatmentResponse
 * group[=].element[=].display = "Overall Treatment response (based on imaging alone; no recist or other criteria) (M)"
-* group[=].element[=].target.code = #Observation.value
+* group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #overallTreatmentResponseDefined
+* group[=].element[+].code = #OverallTreatmentResponse.overallTreatmentResponseDefined
 * group[=].element[=].display = "Overall Treatment response defined/done (M)"
 * group[=].element[=].target.code = #Observation.performer
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[=].target.comment = "In case the actual Organization performing the procedure is captured. It could be a perfomer of type Organization; or a perfomer.organization if of type PractitionerRole"
-* group[=].element[+].code = #overallTreatmentResponseDefined
+* group[=].element[+].code = #OverallTreatmentResponse.overallTreatmentResponseDefined
 * group[=].element[=].display = "Overall Treatment response defined/done (M)"
 * group[=].element[=].target.code = #Observation.extension:sameHospital
 * group[=].element[=].target.display = ""

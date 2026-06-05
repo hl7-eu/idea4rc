@@ -2,7 +2,6 @@ CancerEpisode: CancerEpisode-map.html
 Subject: Subject-map.html
 AdverseEvent: AdverseEvent-map.html
 GeneticTestExpression: GeneticTestExpression-map.html
-OtherTreatment: OtherTreatment-map.html
 Radiotherapy: Radiotherapy-map.html
 HospitalPatientRecords: HospitalPatientRecords-map.html
 EpisodeEvent: EpisodeEvent-map.html
@@ -19,8 +18,6 @@ Surgery: Surgery-map.html
     title: AdverseEvent Relationships
   GeneticTestExpression-map.html:
     title: GeneticTestExpression Relationships
-  OtherTreatment-map.html:
-    title: OtherTreatment Relationships
   Radiotherapy-map.html:
     title: Radiotherapy Relationships
   HospitalPatientRecords-map.html:
