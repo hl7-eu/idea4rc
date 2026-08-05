@@ -30,7 +30,7 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe"
 license: CC-BY-SA-4.0
 
 dependencies:
-  hl7.fhir.extensions.r5: 4.0.1
+  hl7.fhir.uv.xver-r5.r4: 0.1.0
   # hl7.fhir.us.mcode: current
   hl7.fhir.us.mcode: 3.0.0 # only for offline compilation
   hl7.fhir.uv.ips: 1.1.0 # only for offline compilation
@@ -47,6 +47,9 @@ parameters:
   path-resource:
     input/images-source/map
     input/pagecontent/map
+  special-url:
+    - http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.category
+    - http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category
 copyrightYear: 2022+
 releaseLabel: CI Build
 
