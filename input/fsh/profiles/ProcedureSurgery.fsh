@@ -10,6 +10,8 @@ Description: "This profile defines how to represent Procedures in FHIR for descr
 
 * extension contains $procedure-category-r5 named ProcedureCategoryR5 0..*
 
+* extension[ProcedureCategoryR5].valueCodeableConcept ^binding.description = "Additional bindings"
+* extension[ProcedureCategoryR5].valueCodeableConcept ^binding.strength = #preferred
 * extension[ProcedureCategoryR5].valueCodeableConcept insert AdditionalBinding (preferred,
                               VsSurgicalProcedureCategoryI4rc, 
                               Vocabulary binding used for Surgery Type)
