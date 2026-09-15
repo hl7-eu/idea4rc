@@ -36,10 +36,8 @@ dependencies:
   hl7.fhir.us.mcode: 3.0.0
   hl7.fhir.uv.ips: 1.1.0
   # hl7.fhir.uv.ips: current
-  # REMOVE IF NOT NEEDED
-  hl7.fhir.uv.genomics-reporting: 2.0.0
-  # Temporary  FIX
-  hl7.terminology: 5.5.0
+  hl7.fhir.uv.genomics-reporting: 2.0.0 # REMOVE IF NOT NEEDED
+  # hl7.terminology: 5.5.0  # Temporary  FIX
   #HL7 EU dependencies
   hl7.fhir.eu.base: 2.0.0
 

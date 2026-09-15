@@ -8,12 +8,14 @@ Alias: $procedure-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/exte
 Alias: $mcode-procedure-intent = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent
 Alias: $mcode-radiotherapy-dose-delivered-to-volume = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume
 Alias: $mcode-treatment-termination-reason = http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-termination-reason
+Alias: $procedure-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category
+Alias: $procedure-supportingInfo-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.supportingInfo
 Alias: $workflow-supportingInfo = http://hl7.org/fhir/StructureDefinition/workflow-supportingInfo
 Alias: $condition-dueTo = http://hl7.org/fhir/StructureDefinition/condition-dueTo
 Alias: $adverseEvent.occurencePeriod-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.occurence[x]
 Alias: $procedure-approachBodyStructure = http://hl7.org/fhir/StructureDefinition/procedure-approachBodyStructure
 Alias: $procedure-method = http://hl7.org/fhir/StructureDefinition/procedure-method
-Alias: $procedure-supportingInfo-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.supportingInfo
+
 Alias: $alternate-codes = http://hl7.org/fhir/StructureDefinition/alternate-codes
 Alias: $iso21090-SC-coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding
 Alias: $medicationadministration-category-r5 = http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.category
