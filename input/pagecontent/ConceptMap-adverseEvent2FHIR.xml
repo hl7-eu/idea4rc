@@ -1,0 +1,47 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+
+<p>Mapping from <a href="StructureDefinition-AdverseEvent.html">Adverse Event</a> to <a href="StructureDefinition-adverseEvent-eu-i4rc.html">AdverseEvent: IDEA4RC</a></p>
+
+<table class="grid">
+  <tr>
+    <td><b>Source Code</b></td>
+    <td><b>Card.</b></td>
+    <td><b>Relationship</b></td>
+    <td><b>Target Code</b></td>
+    <td><b>Card.</b></td>
+    <td><b>Comment</b></td>
+  </tr>
+  <tr>
+    <td colspan="2">AdverseEvent.AdverseEvent.treatmentReference[x]</td>
+    <td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto" title="relatedto">is related to</a></td>
+    <td><a href="StructureDefinition-adverseEvent-eu-i4rc.html#s-AdverseEvent.suspectEntity.instance">AdverseEvent.suspectEntity.instance</a></td>
+    <td>1..1</td>
+    <td/>
+  </tr>
+  <tr>
+    <td><a href="StructureDefinition-AdverseEvent.html#s-AdverseEvent.adverseEventType">AdverseEvent.adverseEventType</a></td>
+    <td>1..*</td>
+    <td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td>
+    <td><a href="StructureDefinition-adverseEvent-eu-i4rc.html#s-AdverseEvent.event">AdverseEvent.event</a></td>
+    <td>1..1</td>
+    <td/>
+  </tr>
+  <tr>
+    <td><a href="StructureDefinition-AdverseEvent.html#s-AdverseEvent.adverseEventStartingDate">AdverseEvent.adverseEventStartingDate</a></td>
+    <td>1..*</td>
+    <td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td>
+    <td><a href="StructureDefinition-adverseEvent-eu-i4rc.html#s-AdverseEvent.detected">AdverseEvent.detected</a></td>
+    <td>0..1</td>
+    <td/>
+  </tr>
+  <tr>
+    <td><a href="StructureDefinition-AdverseEvent.html#s-AdverseEvent.adverseEventDuration">AdverseEvent.adverseEventDuration</a></td>
+    <td>1..*</td>
+    <td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto" title="relatedto">is related to</a></td>
+    <td><a href="StructureDefinition-adverseEvent-eu-i4rc.html#s-AdverseEvent.extension:occurence">AdverseEvent.extension:occurence</a></td>
+    <td>0..1</td>
+    <td>If ocurrence.repeat.durationMax = 1 and ocurrence.repeat.durationUnit is wk, then the code is 2000100050 'Less than one week'; If ocurrence.repeat.durationMax = 1 and ocurrence.repeat.durationUnit is mo, then the code is 2000100051 'More than one week but less than a month'; If ocurrence.repeat.durationMax = 3 and ocurrence.repeat.durationUnit is mo, then the code is 2000100052 'More than a month but less than 3 months'; If ocurrence.repeat.durationMax = 1 and ocurrence.repeat.durationUnit is a, then the code is 2000100053 'More than 3 months'</td>
+  </tr>
+</table>
+
+</div>

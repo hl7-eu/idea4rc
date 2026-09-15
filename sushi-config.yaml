@@ -98,6 +98,42 @@ pages:
     title: Surgery Relationships
   Radiotherapy-map.html:
     title: Radiotherapy Relationships
+  ConceptMap-adverseEvent2FHIR.xml:
+    title: Adverse Event Model to this guide Map
+  ConceptMap-cancerEpisode2FHIR.xml:
+    title: Cancer Episode Model to this guide Map
+  ConceptMap-episodeEvent2FHIR.xml:
+    title: Episode Event Model to this guide Map
+  ConceptMap-subject2FHIR.xml:
+    title: Patient (Subject) Model to this guide Map
+  ConceptMap-diagnosis2FHIR.xml:
+    title: Diagnosis to this guide Map
+  ConceptMap-surgery2FHIR.xml:
+    title: Surgery Model to this guide Map
+  ConceptMap-radiotherapy2FHIR.xml:
+    title: Radiotherapy Model to this guide Map
+  ConceptMap-followup2FHIR.xml:
+    title: Patient Follow up Model to this guide Map
+  ConceptMap-geneticTestExpression2FHIR.xml:
+    title: Genetic Test Expression Model to this guide Map
+  ConceptMap-hospitalPatientRecords2FHIR.xml:
+    title: Hospital Patient Records Model to this guide Map
+  ConceptMap-isolatedLimbPerfusion2FHIR.xml:
+    title: Isolated Limb Perfusion Model to this guide Map
+  ConceptMap-regionalDeepHyperthemia2FHIR.xml:
+    title: Regional Deep Hyperthemia Model to this guide Map
+  ConceptMap-overallTreatmentResponse2FHIR.xml:
+    title: Overall Treatment Response Model to this guide Map
+  ConceptMap-systemicTreatment2FHIR.xml:
+    title: Systemic Treatment Model to this guide Map
+  ConceptMap-drugsForTreatments2FHIR.xml:
+    title: Drugs For Treatments Model to this guide Map
+  ConceptMap-clinicalStage2FHIR.xml:
+    title: Clinical Stage Model to this guide Map
+  ConceptMap-pathologicalStage2FHIR.xml:
+    title: Pathological Stage Model to this guide Map
+  ConceptMap-diseaseExtent2FHIR.xml:
+    title: Disease Extent Model to this guide Map
 
 			
 menu:
@@ -165,85 +201,13 @@ menu:
 
 resources: 
 
-  ConceptMap/cancerEpisode2FHIR:
-    name: Cancer Episode Model to this guide Map
-    description: It shows how the Cancer Episode model is mapped into this guide
-
-  ConceptMap/episodeEvent2FHIR:
-    name: Episode Event Model to this guide Map
-    description: It shows how the Episode Event model is mapped into this guide
-
-  ConceptMap/subject2FHIR:
-    name: Patient (Subject) Model to this guide Map
-    description: It shows how the Patient (Subject) model is mapped into this guide
-
-  ConceptMap/diagnosis2FHIR:
-    name: Diagnosis to this guide Map
-    description: It shows how the Diagnosis model is mapped into this guide
-
 #  ConceptMap/stage2FHIR:
 #    name: Stage Model to this guide Map
 #    description: It shows how the Stage model is mapped into this guide
 
-  ConceptMap/surgery2FHIR:
-    name: Surgery Model to this guide Map
-    description: It shows how the Surgery model is mapped into this guide
-
-  ConceptMap/radiotherapy2FHIR:
-    name: Radiotherapy Model to this guide Map
-    description: It shows how the Radiotherapy model is mapped into this guide
-
   # ConceptMap/systemicTreatment2FHIR:
   #  name: Systemic Treatment Model to this guide Map
   #  description: It shows how the Systemic Treatment model is mapped into this guide
-
-  ConceptMap/followup2FHIR:
-    name: Patient Follow up Model to this guide Map
-    description: It shows how the Patient Follow up model is mapped into this guide
-
-  ConceptMap/geneticTestExpression2FHIR:
-    name: Genetic Test Expression Model to this guide Map
-    description: It shows how the Genetic Test Expression model is mapped into this guide
-
-  ConceptMap/hospitalPatientRecords2FHIR:
-    name: Hospital Patient Records Model to this guide Map
-    description: It shows how the Hospital Patient Records model is mapped into this guide
-
-  ConceptMap/isolatedLimbPerfusion2FHIR:
-    name: Isolated Limb Perfusion Model to this guide Map
-    description: It shows how the Isolated Limb Perfusion Model model is mapped into this guide
-
-  ConceptMap/regionalDeepHyperthemia2FHIR:
-    name: Regional Deep Hyperthemia Model to this guide Map
-    description: It shows how the Regional Deep Hyperthemia Model model is mapped into this guide
-
-  ConceptMap/overallTreatmentResponse2FHIR:
-    name: Overall Treatment Response Model to this guide Map
-    description: It shows how the Overall Treatment Response Model model is mapped into this guide
-
-  ConceptMap/systemicTreatment2FHIR:
-    name: Systemic Treatment Model to this guide Map
-    description: It shows how the Systemic Treatment Model model is mapped into this guide
-
-  ConceptMap/adverseEvent2FHIR:
-    name: Adverse Event Model to this guide Map
-    description: It shows how the Adverse Event Model model is mapped into this guide
-
-  ConceptMap/drugsForTreatments2FHIR:
-    name: Drugs For Treatments Model to this guide Map
-    description: It shows how the Drugs For Treatments Model model is mapped into this guide
-
-  ConceptMap/clinicalStage2FHIR:
-    name: Clinical Stage Model to this guide Map
-    description: It shows how the Clinical Stage Model model is mapped into this guide
-
-  ConceptMap/pathologicalStage2FHIR:
-    name: Pathological Stage Model to this guide Map
-    description: It shows how the Pathological Stage Model model is mapped into this guide
-
-  ConceptMap/diseaseExtent2FHIR:
-    name: Disease Extent Model to this guide Map
-    description: It shows how the Disease Extent Model model is mapped into this guide
 
  # ConceptMap/sarcomaStage2FHIR:
  #   name: Sarcoma Stage Model to this guide Map
@@ -387,35 +351,6 @@ groups:
       - StructureDefinition/DrugsForTreatments
    #   - StructureDefinition/PathologicalReportInfo
    #   - StructureDefinition/OtherTreatment
-
-  LogicalModel2FHIR:
-    name:  IDEA4RC Common Models Maps
-    description: Model Mapping from the IDEA4RC Logical models and this guide
-    resources:
-      - ConceptMap/subject2FHIR
-      - ConceptMap/cancerEpisode2FHIR
-      - ConceptMap/diagnosis2FHIR
-      - ConceptMap/isolatedLimbPerfusion2FHIR
-      - ConceptMap/overallTreatmentResponse2FHIR
-      - ConceptMap/systemicTreatment2FHIR
- #     - ConceptMap/sarcomaStage2FHIR
- #     - ConceptMap/hNstage2FHIR
-     #  - ConceptMap/treatmentResponse2FHIR
-      #- ConceptMap/geneticTest2FHIR
-#      - ConceptMap/pathologicalStage2FHIR
-      - ConceptMap/episodeEvent2FHIR
-      - ConceptMap/surgery2FHIR
-      - ConceptMap/radiotherapy2FHIR
-#      - ConceptMap/systemicTreatment2FHIR
-      - ConceptMap/followup2FHIR
-      - ConceptMap/geneticTestExpression2FHIR
-      - ConceptMap/hospitalPatientRecords2FHIR
-      - ConceptMap/adverseEvent2FHIR
-      - ConceptMap/drugsForTreatments2FHIR      
-      - ConceptMap/clinicalStage2FHIR
-      - ConceptMap/pathologicalStage2FHIR
-      - ConceptMap/diseaseExtent2FHIR
-      - ConceptMap/regionalDeepHyperthemia2FHIR
 
   patientImplementation:
     name:  HL7 FHIR Profile implementing the Subject (Patient) model
