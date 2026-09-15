@@ -1,5 +1,7 @@
 Instance: encounter-id-14
 InstanceOf: EncounterI4rc
+Title: "Encounter: planned inpatient encounter"
+Description: "Planned inpatient encounter linked to the patient's primary cancer condition."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Encounter-eu-i4rc"
 * status = #planned

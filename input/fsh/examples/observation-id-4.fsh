@@ -1,6 +1,7 @@
 Instance: observation-id-4
 InstanceOf: TNMDistantMetastasesCategory
 Title: "Observation: Distant metastases pathology M1"
+Description: "TNM distant metastases category observation reporting a pathological M1 finding."
 Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-distant-metastases-category"
 * status = #final

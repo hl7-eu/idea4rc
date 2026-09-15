@@ -1,6 +1,7 @@
 Instance: observation-id-35
 InstanceOf: ObservationSimpleResult
 Title: "Observation: C reactive protein Positive"
+Description: "Simple result observation reporting a positive C reactive protein result."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-testResult-eu-i4rc"
 * status = #final

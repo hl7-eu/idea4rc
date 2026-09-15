@@ -1,6 +1,7 @@
 Instance: observation-id-37
 InstanceOf: TNMPrimaryTumorCategory
 Title: "Observation: Primary tumor clinical T0"
+Description: "TNM primary tumor category observation reporting a clinical T0 finding."
 Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-primary-tumor-category"
 * status = #final

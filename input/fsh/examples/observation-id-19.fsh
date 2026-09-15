@@ -1,6 +1,7 @@
 Instance: observation-id-19
 InstanceOf: ObservationAlcoholUse
 Title: "Observation: Alcohol use"
+Description: "Observation recording the patient's alcohol use."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-alcoholuse-eu-i4rc"
 * status = #final

@@ -1,6 +1,7 @@
 Instance: observation-id-25
 InstanceOf: KarnofskyPerformanceStatus
 Title: "Observation: Karnofsky Performance Status score"
+Description: "Observation recording the patient's Karnofsky Performance Status score."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-karnofsky-performance-status-eu-i4rc"
 * status = #final

@@ -1,6 +1,7 @@
 Instance: observation-id-23
 InstanceOf: ObservationComorbidities
 Title: "Observation: comorbidity"
+Description: "Observation reporting a patient comorbidity."
 Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-comorbidity-eu-i4rc"
 * extension[0].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-related-condition-absent"

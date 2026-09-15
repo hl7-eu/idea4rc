@@ -1,6 +1,7 @@
 Instance: observation-id-31
 InstanceOf: ObservationSimpleResult
 Title: "Observation: Dimension of Tumor"
+Description: "Simple result observation reporting the tumor dimension."
 Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-testResult-eu-i4rc"
 * status = #final

@@ -1,6 +1,7 @@
 Instance: condition-id-8
 InstanceOf: ConditionPrimaryCancerI4rc // change for allowing the sample compilation
 Title: "Condition: Stable Disease"
+Description: "Primary cancer condition recorded with a stable disease clinical status."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"
 * code = $athena#36402689 "Verrucous carcinoma, NOS, of unknown primary site"

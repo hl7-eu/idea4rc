@@ -1,5 +1,7 @@
 Instance: GOFSH-GENERATED-id-36
 InstanceOf: Condition
+Title: "Condition: Secondary cancer with multiple metastatic body sites"
+Description: "Secondary cancer condition with transit metastasis confirmed in soft tissue, bone and pleural structures."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-secondaryCancer-eu-i4rc"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-related"

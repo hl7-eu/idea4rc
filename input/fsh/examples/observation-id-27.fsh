@@ -1,6 +1,7 @@
 Instance: observation-id-27
 InstanceOf: ObservationCancerTreatment
 Title: "Observation: Surgery treatment occurred"
+Description: "Observation reporting that a surgery cancer treatment occurred."
 Usage: #example
 
 // Clarify if a link to the condition should be provided

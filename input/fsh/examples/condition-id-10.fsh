@@ -1,6 +1,7 @@
 Instance: condition-id-10
 InstanceOf: ConditionPrimaryCancerI4rc
 Title: "Condition: Grade 2 tumor with several body sites and evidences"
+Description: "Primary cancer condition, grade 2 tumor, with multiple body sites and linked diagnostic evidence observations."
 Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-dueTo"

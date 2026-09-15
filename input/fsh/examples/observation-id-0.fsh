@@ -1,6 +1,7 @@
 Instance: observation-id-0
 InstanceOf: TNMRegionalNodesCategory
 Title: "Observation: Regional lymph nodes Clinical N1"
+Description: "TNM regional nodes category observation reporting a clinical N1 finding."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-tnm-regional-nodes-category"
 * status = #final

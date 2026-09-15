@@ -1,6 +1,7 @@
 Instance: observation-id-20
 InstanceOf: $bmi
 Title: "Observation: BMI"
+Description: "Observation recording the patient's Body Mass Index."
 Usage: #example
 * status = #final
 * code = $loinc#39156-5 "Body mass index (BMI) [Ratio]"

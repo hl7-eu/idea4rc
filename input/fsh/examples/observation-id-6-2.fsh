@@ -1,6 +1,7 @@
 Instance: observation-id-6-2
 InstanceOf: HnCancerStageGroup
 Title: "Observation: TNM pathology stage grouping"
+Description: "Head and neck cancer stage group observation reporting the TNM pathology stage grouping."
 Usage: #example
 
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/hn-cancer-stage-group"

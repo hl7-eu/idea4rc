@@ -1,6 +1,7 @@
 Instance: observation-id-11
 InstanceOf: ObservationYesNo
 Title: "Observation: immunohiostochemestry analysis performed"
+Description: "Yes/no observation reporting that an immunohistochemistry analysis was performed."
 Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-yesNo-eu-i4rc"
 * status = #final

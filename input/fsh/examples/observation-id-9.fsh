@@ -1,6 +1,7 @@
 Instance: observation-id-9
 InstanceOf: ObservationYesNo
 Title: "Observation: gene Mutation Analysis Performed yes"
+Description: "Yes/no observation reporting that a gene mutation analysis was performed."
 Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-yesNo-eu-i4rc"
 * status = #final

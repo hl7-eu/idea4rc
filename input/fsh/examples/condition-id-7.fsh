@@ -1,6 +1,7 @@
 Instance: condition-id-7
 InstanceOf: ConditionSecondaryCancerI4rc
 Title: "Condition: Metastasis bone and pleura"
+Description: "Secondary cancer condition representing metastasis to bone and pleural structures."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-secondaryCancer-eu-i4rc"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-related"

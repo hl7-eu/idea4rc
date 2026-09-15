@@ -1,5 +1,7 @@
 Instance: GOFSH-GENERATED-id-30
 InstanceOf: MedicationAdministration
+Title: "MedicationAdministration: Neoadjuvant chemotherapy"
+Description: "Medication administration example for neoadjuvant chemotherapy with curative procedure intent."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/MedicationAdministration-eu-i4rc"
 * extension[0].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"

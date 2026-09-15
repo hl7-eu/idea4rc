@@ -1,6 +1,7 @@
 Instance: observation-id-21
 InstanceOf: ObservationDiagnosisI4rc
 Title: "Observation: Diagnosis"
+Description: "Diagnosis observation used as evidence detail for a primary cancer condition."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Observation-diagnosis-eu-i4rc"
 * status = #final

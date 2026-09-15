@@ -1,6 +1,7 @@
 Instance: observation-id-15
 InstanceOf: ObservationDateLastContact
 Title: "Observation: date of the last contact"
+Description: "Observation recording the date of the last contact with the patient."
 Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-dateLastContact-eu-i4rc"
 * status = #final

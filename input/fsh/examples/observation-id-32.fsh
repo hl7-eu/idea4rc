@@ -1,6 +1,7 @@
 Instance: observation-id-32
 InstanceOf: ObservationSimpleResult
 Title: "Observation: Number of mitoses per HPF"
+Description: "Simple result observation reporting the number of mitoses per high power field."
 Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-testResult-eu-i4rc"
 * status = #final

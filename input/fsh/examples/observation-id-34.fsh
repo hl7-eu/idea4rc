@@ -1,6 +1,7 @@
 Instance: observation-id-34
 InstanceOf: ObservationSimpleResult
 Title: "Observation: Human papilloma virus Negative"
+Description: "Simple result observation reporting a negative Human papilloma virus result."
 Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-testResult-eu-i4rc"
 * status = #final

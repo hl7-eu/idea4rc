@@ -1,6 +1,7 @@
 Instance: observation-id-5
 InstanceOf: ObservationEneI4rc
 Title: "Observation: Radiological Extra-nodal extension"
+Description: "Observation reporting a radiological finding of extra-nodal extension."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-extraNodalExtension-eu-i4rc"
 * status = #final

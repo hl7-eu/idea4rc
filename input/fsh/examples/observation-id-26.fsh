@@ -1,6 +1,7 @@
 Instance: observation-id-26
 InstanceOf: ObservationOccurrenceOtherCancer
 Title: "Observation: Occurrence of other Cancer: Hamartoma"
+Description: "Observation reporting the occurrence of another cancer, a hamartoma."
 Usage: #example
 // * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/observation-yesNo-eu-i4rc"
 * status = #final

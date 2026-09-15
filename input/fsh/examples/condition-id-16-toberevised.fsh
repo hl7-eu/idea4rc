@@ -1,6 +1,7 @@
 Instance: condition-id-16
 InstanceOf: ConditionPrimaryCancerI4rc
 Title: "Condition: NOT CLEAR WHAT IT REPRESENTS..TO BE DISCUSSED"
+Description: "Primary cancer condition example whose intended meaning is unclear and still to be discussed with the modeling team."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc"
 * code = $athena#4188540 "No"

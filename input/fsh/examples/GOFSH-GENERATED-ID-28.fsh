@@ -1,5 +1,7 @@
 Instance: GOFSH-GENERATED-id-28
 InstanceOf: Procedure
+Title: "Procedure: Radiotherapy"
+Description: "Radiotherapy procedure with curative intent, postoperative course, interstitial brachytherapy and stereotactic technique."
 Usage: #example
 * meta.profile = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc"
 * extension[0].url = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/same-custodian-flag"
