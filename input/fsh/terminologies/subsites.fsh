@@ -335,6 +335,7 @@ Description: "Specifies the subsite for cancers occured in nasal cavity and para
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
+* insert SNOMEDCTCopyrightForVS
 * $sct#126670003 // Neoplasm of nasal cavity (disorder)
 * $sct#126676009 // Neoplasm of maxillary sinus (disorder)
 * $sct#126677000 // Neoplasm of ethmoidal sinus (disorder)
@@ -366,6 +367,7 @@ Description: "Specifies the subsite for cancers occured in nasopharynx: Snomed C
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
+* insert SNOMEDCTCopyrightForVS
 * $sct#126684008 // Neoplasm of anterior wall of nasopharynx (disorder)
 * $sct#126683002 // Neoplasm of lateral wall of nasopharynx (disorder)
 * $sct#126682007 // Neoplasm of posterior wall of nasopharynx (disorder)
@@ -400,6 +402,7 @@ Description: "Specifies the subsite for cancers occured in hypopharynx: Snomed C
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
+* insert SNOMEDCTCopyrightForVS 
 * $sct#254505000 // Tumor of aryepiglottic fold - hypopharyngeal aspect (disorder)
 * $sct#126687001 // Neoplasm of postcricoid region (disorder)
 * $sct#126691006 // Neoplasm of posterior hypopharyngeal wall (disorder)
@@ -440,6 +443,7 @@ Description: "Specifies the subsite for cancers occured in Oropharynx: Snomed CT
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
+* insert SNOMEDCTCopyrightForVS
 * $sct#126813005 // Neoplasm of anterior aspect of epiglottis (disorder)
 * $sct#126779009 // Neoplasm of base of tongue (disorder)
 * $sct#126815003 // Neoplasm of lateral wall of oropharynx (disorder)
@@ -477,6 +481,7 @@ Description: "Specifies the subsite for cancers occured in Larynx: Snomed CT"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
+* insert SNOMEDCTCopyrightForVS
 * $sct#126693009 // Neoplasm of glottis (disorder)
 * $sct#126696001 // Neoplasm of subglottis (disorder)
 * $sct#126697005 // Neoplasm of supraglottis (disorder)
@@ -518,6 +523,7 @@ Description: "Specifies the subsite for cancers occured in oral cavity: Snomed C
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
+* insert SNOMEDCTCopyrightForVS
 * $sct#275490009 // Carcinoma of tongue base - dorsal surface (disorder)
 * $sct#92768006 // Carcinoma in situ of border of tongue (disorder)
 * $sct#275394001 // Carcinoma ventral surface of tongue (disorder)
@@ -552,6 +558,7 @@ Description: "Specifies the subsite for cancers occured in lip: Snomed CT"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
+* insert SNOMEDCTCopyrightForVS
 * $sct#254389005 // Carcinoma of vermilion border of upper lip (disorder)
 * $sct#92795001 // Carcinoma in situ of vermilion border of lip (disorder)
 * $sct#254390001 // Carcinoma of vermilion border of lower lip (disorder)

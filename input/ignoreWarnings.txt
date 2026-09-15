@@ -5,9 +5,9 @@ Best Practice Recommendation: In general, all observations should have a perform
 Best Practice Recommendation: In general, all observations should have an effective[x] ()
 
 # Code from Athena (see https://athena.ohdsi.org/search-terms/start)
-No definition could be found for URL value 'https://fhir-terminology.ohdsi.org'
-Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'https://fhir-terminology.ohdsi.org' could not be found, so the value set cannot be expanded
-A definition for CodeSystem 'https://fhir-terminology.ohdsi.org' could not be found, so the code cannot be validated
+No definition could be found for URL value 'http://fhir.ohdsi.org/CodeSystem/concepts'
+Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' could not be found, so the value set cannot be expanded
+A definition for CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' could not be found, so the code cannot be validated
 
 # An example binding is present on the definition of the extension but this guide restricts the type to reference only. This error can be ignore.
 This element has a Binding but the types [Reference] do not make this kind of constraint relevant
@@ -126,3 +126,29 @@ This element does not match any known slice defined in the profile http://hl7.or
 
 # OID not assigned
 %could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)%
+%should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage%
+
+# Not pinned version
+TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS
+
+# The pattern is applies to all the repeats
+SD_VALUE_TYPE_REPEAT_HINT
+
+# Reference to draft CodeSystem
+MSG_DRAFT
+
+# not recognized system
+The concepts in the value set include have not been validated because the code system 'http://fhir.ohdsi.org/CodeSystem/concepts' is not known, and no terminology service supports it
+%A definition for CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' could not be found, so the value set cannot be expanded%
+
+# Not all profiles have examples associated
+The Implementation Guide contains no examples for this extension
+
+# Inactive concepts
+The concept '108290001' has a status of inactive and its use should be reviewed
+
+# Additional Binding no key defined
+Constraint failed: ext-ab-1: 'Additional Bindings SHOULD have a key to allow a binding to be constrained. (extension.where(url='key').exists())'	
+
+# code not in the provided value set
+%None of the codings provided are in the value set 'Body Location Qualifier Value Set' (http://hl7.org/fhir/us/mcode/ValueSet/mcode-body-location-qualifier-vs|3.0.0), and a coding is recommended to come from this value set%

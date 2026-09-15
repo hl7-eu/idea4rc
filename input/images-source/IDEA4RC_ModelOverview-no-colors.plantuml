@@ -97,7 +97,7 @@ object "DrugsForSystemicTreatment" as dfst {
     }
 object "TreatmentResponse" as tr {
     }
-url of tr [[StructureDefinition-TreatmentResponse.html]]
+url of tr [[StructureDefinition-OverallTreatmentResponse.html]]
 
 object "AdverseEvent" as ae {
     }

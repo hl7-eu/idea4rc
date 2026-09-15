@@ -7,6 +7,7 @@ Description: """Alcohol Usage Status: SNOMED CT"""
 
 * ^status = #active
 * ^experimental = false
+* insert SNOMEDCTCopyrightForVS
 
 * $sct#219006 "Current drinker of alcohol" // Current
 * $sct#82581004	"Ex-drinker"

@@ -11,7 +11,7 @@ RECTANGLE sarcomacancerstagegroup as "sarcoma-cancer-stage-group" <<source>> [[S
 RECTANGLE ConditionprimaryCancereui4rc as "Condition-primaryCancer-eu-i4rc" <<target>> [[StructureDefinition-Condition-primaryCancer-eu-i4rc.html]]
 RECTANGLE sarcomaextentcategory as "sarcoma-extent-category" <<target>> [[StructureDefinition-sarcoma-extent-category.html]]
 RECTANGLE patienteui4rc as "patient-eu-i4rc" <<target>> [[StructureDefinition-patient-eu-i4rc.html]]
-RECTANGLE Observation as "Observation" <<target>> [[StructureDefinition-Observation.html]]
+RECTANGLE Observation as "Observation" <<target>> [[https://www.hl7.org/fhir/R4/observation.html]]
 RECTANGLE sarcomalocoRegionalcategory as "locoRegional-category" <<target>> [[StructureDefinition-locoRegional-category.html]]
 sarcomacancerstagegroup --> patienteui4rc : "subject"
 sarcomacancerstagegroup --> ConditionprimaryCancereui4rc : "focus"

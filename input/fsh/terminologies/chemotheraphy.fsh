@@ -6,6 +6,7 @@ Title: "Calculated|Estimated"
 Description: "Calculated|Estimated Value Set"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
+* insert SNOMEDCTCopyrightForVS
 * $sct#703858009 "Numeric estimation technique" 
 * $sct#702873001 	"Calculation technique"
 * $data-absent-reason-cs#unknown "Unknown"

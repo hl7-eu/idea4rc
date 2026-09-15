@@ -62,7 +62,7 @@ Description: """Comorbidities: SNOMED CT"""
 * $sct#235856003 "Disorder of liver" // TO BE REVIEWED Mild liver disease and Moderate to severe liver disease (how to differentiate ?)
 * $sct#73211009 "Diabetes mellitus" // TO BE REVIEWED  Diabetes (without complications) AND Diabetes with end organ damage (how to differentiate ?)
 * $sct#50582007 "Hemiplegia"
-* $sct#90708001 "Kidney diseas" // TO BE REVIEWED  Moderate to severe renal disease
+* $sct#90708001 "Kidney disease" // TO BE REVIEWED  Moderate to severe renal disease
  // TO BE ADDED Solid tumor (non metastatic)
 // TO BE ADDED Metastatic solid tumor"
 * $sct#93143009 "Leukemia"

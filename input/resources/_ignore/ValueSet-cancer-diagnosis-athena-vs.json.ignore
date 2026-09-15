@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://fhir-terminology.ohdsi.org",
+        "system": "http://fhir.ohdsi.org/CodeSystem/concepts",
         "concept": [
           {
             "code": "44503931",

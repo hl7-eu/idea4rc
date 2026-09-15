@@ -118,7 +118,7 @@ This profile should be also used for documenting primary cancer relapses during 
 * clinicalStatus ^example.valueCodeableConcept = $condition-clinical#relapse
 * clinicalStatus ^example.label = "Relapse"
 * clinicalStatus 
-  * coding ^slicing.discriminator[0].type = #pattern
+  * coding ^slicing.discriminator[0].type = #value
   * coding ^slicing.discriminator[0].path = "$this"
   * coding ^slicing.ordered = true
   * coding ^slicing.rules = #open

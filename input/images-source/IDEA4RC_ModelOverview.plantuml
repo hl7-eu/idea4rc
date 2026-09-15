@@ -87,7 +87,7 @@ url of dft [[StructureDefinition-DrugsForTreatments.html]]
 
 object "OverallTreatmentResponse" as tr #94d8f2 {
 }
-url of tr [[StructureDefinition-TreatmentResponse.html]]
+url of tr [[StructureDefinition-OverallTreatmentResponse.html]]
 
 object "AdverseEvent" as ae #94d8f2 {
 }

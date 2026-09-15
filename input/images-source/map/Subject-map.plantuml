@@ -23,12 +23,12 @@ class "observation-alcoholuse-eu-i4rc" <<Profile>> [[StructureDefinition-observa
 class "observation-comorbidity-eu-i4rc" <<Profile>> [[StructureDefinition-observation-comorbidity-eu-i4rc.html]]
 "Subject" --> "observation-comorbidity-eu-i4rc"
 "observation-alcoholuse-eu-i4rc" -[hidden]-> "observation-comorbidity-eu-i4rc"
-class "observation-karnofsky-performance-statuseu-i4rc" <<Profile>> [[StructureDefinition-observation-karnofsky-performance-statuseu-i4rc.html]]
-"Subject" --> "observation-karnofsky-performance-statuseu-i4rc"
-"observation-comorbidity-eu-i4rc" -[hidden]-> "observation-karnofsky-performance-statuseu-i4rc"
+class "observation-karnofsky-performance-status-eu-i4rc" <<Profile>> [[StructureDefinition-observation-karnofsky-performance-status-eu-i4rc.html]]
+"Subject" --> "observation-karnofsky-performance-status-eu-i4rc"
+"observation-comorbidity-eu-i4rc" -[hidden]-> "observation-karnofsky-performance-status-eu-i4rc"
 class "observation-ecog-performance-status-eu-i4rc" <<Profile>> [[StructureDefinition-observation-ecog-performance-status-eu-i4rc.html]]
 "Subject" --> "observation-ecog-performance-status-eu-i4rc"
-"observation-karnofsky-performance-statuseu-i4rc" -[hidden]-> "observation-ecog-performance-status-eu-i4rc"
+"observation-karnofsky-performance-status-eu-i4rc" -[hidden]-> "observation-ecog-performance-status-eu-i4rc"
 class "observation-cci-eu-i4rc" <<Profile>> [[StructureDefinition-observation-cci-eu-i4rc.html]]
 "Subject" --> "observation-cci-eu-i4rc"
 "observation-ecog-performance-status-eu-i4rc" -[hidden]-> "observation-cci-eu-i4rc"
