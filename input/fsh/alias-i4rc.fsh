@@ -32,7 +32,7 @@ Alias: $bb-topo = http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-bb-topo-eu-i4rc
 Alias: $cs-idea4rc-vocab-eu-i4rc = http://hl7.eu/fhir/ig/idea4rc/CodeSystem/cs-idea4rc-vocab-eu-i4rc
 
 // --- Code Systems
-Alias: $athena = http://fhir.ohdsi.org/CodeSystem/concepts // http://athena.ohdsi.org
+Alias: $athena = https://fhir-terminology.ohdsi.org // http://athena.ohdsi.org
 Alias: $ajcc = http://cancerstaging.org
 Alias: $atc = http://www.whocc.no/atc
 Alias: $dicomOntology = http://dicom.nema.org/resources/ontology/DCM

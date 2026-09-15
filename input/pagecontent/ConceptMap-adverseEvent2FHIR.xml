@@ -12,7 +12,7 @@
     <td><b>Comment</b></td>
   </tr>
   <tr>
-    <td colspan="2">AdverseEvent.AdverseEvent.treatmentReference[x]</td>
+    <td><a href="StructureDefinition-AdverseEvent.html#s-AdverseEvent.treatmentReference_x_">AdverseEvent.treatmentReference[x]</a></td>  
     <td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto" title="relatedto">is related to</a></td>
     <td><a href="StructureDefinition-adverseEvent-eu-i4rc.html#s-AdverseEvent.suspectEntity.instance">AdverseEvent.suspectEntity.instance</a></td>
     <td>1..1</td>

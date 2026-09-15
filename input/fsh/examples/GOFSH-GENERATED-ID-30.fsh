@@ -9,7 +9,7 @@ Usage: #example
 * extension[+].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category"
 * extension[=].valueCodeableConcept = $athena#44808409 "Neoadjuvant chemotherapy"
 * extension[+].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.category"
-* extension[=].valueCodeableConcept.coding.system = "http://fhir.ohdsi.org/CodeSystem/concepts"
+* extension[=].valueCodeableConcept.coding.system = "https://fhir-terminology.ohdsi.org"
 * extension[=].valueCodeableConcept.coding.code = #912065
 * extension[=].valueCodeableConcept.coding.display = "Target therapy"
 * status = #unknown

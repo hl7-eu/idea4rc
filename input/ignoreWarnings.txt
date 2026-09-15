@@ -5,9 +5,9 @@ Best Practice Recommendation: In general, all observations should have a perform
 Best Practice Recommendation: In general, all observations should have an effective[x] ()
 
 # Code from Athena (see https://athena.ohdsi.org/search-terms/start)
-No definition could be found for URL value 'http://fhir.ohdsi.org/CodeSystem/concepts'
-Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' could not be found, so the value set cannot be expanded
-A definition for CodeSystem 'http://fhir.ohdsi.org/CodeSystem/concepts' could not be found, so the code cannot be validated
+No definition could be found for URL value 'https://fhir-terminology.ohdsi.org'
+Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'https://fhir-terminology.ohdsi.org' could not be found, so the value set cannot be expanded
+A definition for CodeSystem 'https://fhir-terminology.ohdsi.org' could not be found, so the code cannot be validated
 
 # An example binding is present on the definition of the extension but this guide restricts the type to reference only. This error can be ignore.
 This element has a Binding but the types [Reference] do not make this kind of constraint relevant
@@ -119,3 +119,10 @@ The code 'L04AA35' is not valid in the system http://www.whocc.no/atc (Unknown c
 The code 'L04AA36' is not valid in the system http://www.whocc.no/atc (Unknown code 'L04AA36' in the CodeSystem 'http://www.whocc.no/atc' version '2025')
 The code 'L04AA37' is not valid in the system http://www.whocc.no/atc (Unknown code 'L04AA37' in the CodeSystem 'http://www.whocc.no/atc' version '2025')
 The code 'L04AC06' is not valid in the system http://www.whocc.no/atc (Unknown code 'L04AC06' in the CodeSystem 'http://www.whocc.no/atc' version '2025')
+
+
+# non matching obligation slice
+This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/obligation|5.3.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+
+# OID not assigned
+%could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)%
