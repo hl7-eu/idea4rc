@@ -7,7 +7,7 @@ Usage: #example
 * status = #final
 * code = $loinc#88028-6 "Tobacco use panel"
 * subject = Reference(patient-id-17)
-* component[0].code = $loinc#72166-2 "Tobacco smoking status"
-* component[=].valueCodeableConcept = $athena#45883458 "Former smoker"
-* component[+].code = $athena#903650 "Cigarettes pack-years smoked during life"
-* component[=].valueQuantity = 5 '{packs}/a'
+* component[smokingStatus].code = $loinc#72166-2 "Tobacco smoking status"
+* component[smokingStatus].valueCodeableConcept = $athena#45883458 "Former smoker"
+* component[packsPerYear].code = $athena#903650 "Cigarettes pack-years smoked during life"
+* component[packsPerYear].valueQuantity = 5 '{packs}/a'

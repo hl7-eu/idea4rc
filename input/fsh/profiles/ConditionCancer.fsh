@@ -146,15 +146,13 @@ This profile should be also used for documenting primary cancer relapses during 
 // * stage.type from CancerStageGroupVS (required)
 
 * bodySite from CancerSitesVs (extensible)
-//   * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites)
 
-/* * evidence ^slicing.discriminator.type = #value
-* evidence ^slicing.discriminator.path = "$this.resolve()"
-* evidence ^slicing.discriminator.type = #value
-* evidence ^slicing.discriminator.path = "code"
-* evidence ^slicing.rules = #open
-* evidence ^slicing.description = "Slice based on the coding.code pattern" */
 
+// GC: removed the slice based on profile beacuse thay are not mutually exclusive and the same observation can belong to different slices. (e.g. tumor size, mitotic count score, lab test results)
+
+* evidence.detail only Reference (ObservationDiagnosisI4rc or ObservationSimpleResult or ObservationGeneticTestExpressionI4rc or Observation)
+
+/* =====
 * evidence ^slicing.discriminator.type = #profile
 * evidence ^slicing.discriminator.path = "$this.detail.resolve()"
 * evidence ^slicing.rules = #open
@@ -206,7 +204,7 @@ This profile should be also used for documenting primary cancer relapses during 
   - HPV tumor testing in oral carcinoma
   - C reactive protein testing."""
   // * code from VsSimpleResultI4rc
-  * detail only Reference (ObservationSimpleResult)  */
+  * detail only Reference (ObservationSimpleResult)  
 
 * evidence contains genetic-test 0..
 * evidence[genetic-test]
@@ -214,6 +212,7 @@ This profile should be also used for documenting primary cancer relapses during 
   * ^definition = """It documents the Genetic Test performed"""
   // * code from VsGeneticTestsPerformed
   * detail only Reference (ObservationGeneticTestExpressionI4rc)
+  == */
 
 
 * note ^short = "Additional information about the Cancer Condition"
