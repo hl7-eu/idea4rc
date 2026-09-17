@@ -3,7 +3,7 @@
 
     <h3 id="overview">IDEA4RC Model Map</h3>
 
-    <a> </a>
+    <a id="map"> </a>
 
     <p>Hereafter a browseable diagram showing how the Surgery IDEA4RC model is realized by the IDEA4RC HL7 FHIR Profiles</p>
 
