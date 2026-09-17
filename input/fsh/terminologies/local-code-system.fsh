@@ -188,7 +188,7 @@ Description: "Temporary coded concepts to be used by this Project waiting for th
 * #2000100025 "Fluorodeoxyglucose positron emission tomography" "Fluorodeoxyglucose positron emission tomography"
 * #2000100026 "Positron emission tomography using other tracers" "Positron emission tomography using other tracers"
 * #2000100027 "Combined surgical approach" "Combined surgical approach"
-* #2000100028 "Concomitant Systemic Treatment Systemic Treatment" "Concomitant Systemic Treatment Systemic Treatment"
+* #2000100028 "Concomitant Systemic Treatment" "Concomitant Systemic Treatment"
 * #2000100029 "Systemic treatment alone" "Systemic treatment alone"
 * #2000100030 "Treatment ended due to comorbidity" "Treatment ended due to comorbidity"
 * #2000100031 "Preoperative radiotherapy concomitant to systemic treatment" "Preoperative radiotherapy concomitant to systemic treatment"

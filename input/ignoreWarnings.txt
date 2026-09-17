@@ -191,6 +191,7 @@ The nominated WG 'fhir' means that the publisher should be 'HL7 International / 
 %No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'domain' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.%
 %No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'standardConcept' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.%
 %No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'vocabulary' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.%
+%No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'conceptClass' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.%
 
 # Duplicated anchors
 The html source has duplicate anchor Ids: 1
