@@ -5,6 +5,7 @@ Description: """Codes identifying the status of the diasease: e.g. Progression, 
 
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 //* $athena#4113134 "First episode"
 * $athena#32946 "Complete Remission"

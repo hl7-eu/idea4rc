@@ -7,6 +7,8 @@ Description: "Country: athena"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
+
 
 // Children of Concept ID 4329169:
 * $athena#4075196 "African country"

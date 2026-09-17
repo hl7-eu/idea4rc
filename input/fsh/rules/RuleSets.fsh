@@ -91,3 +91,20 @@ RuleSet: SNOMEDCTCopyrightForVS
 The SNOMED International IPS Terminology is distributed by International Health Terminology Standards Development Organisation, trading as SNOMED International, and is subject the terms of the Creative Commons Attribution 4.0 International Public License. For more information, see SNOMED IPS Terminology
 
 The HL7 International IPS implementation guides incorporate SNOMED CT®, used by permission of the International Health Terminology Standards Development Organisation, trading as SNOMED International. SNOMED CT was originally created by the College of American Pathologists. SNOMED CT is a registered trademark of the International Health Terminology Standards Development Organisation, all rights reserved. Implementers of SNOMED CT should review usage terms or directly contact SNOMED International: info@snomed.org"""
+
+RuleSet: ATCCopyrightForVS
+* ^copyright = """This artifact includes content from Anatomical Therapeutic Chemical (ATC) classification system. ATC codes are copyright World Health Organization (WHO) Collaborating Centre for Drug Statistics Methodology. Terms & Conditions in https://www.whocc.no/use_of_atc_ddd/"""
+
+
+RuleSet: UCUMCopyrightForVS
+* ^copyright = """The Unified Code for Units of Measure (UCUM), also known as the “UCUM Specification,” is copyright ©1999-2024, Regenstrief Institute, Inc. All rights reserved."""
+
+
+
+RuleSet: AthenaCopyrightForVS
+* ^copyright = """Copyright 2018 Odysseus Data Services, inc.
+Licensed under the Apache License, Version 2.0 (the "License") you may not use this file except in compliance with the License.
+You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and limitations under the License.   Company: Odysseus Data Services, Inc. Product Owner/Architecture: Gregory Klebanov Authors: Anastasiia Klochkova"""
+

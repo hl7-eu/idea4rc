@@ -7,6 +7,7 @@ Description: "Describes whether capsular extension is present by histopathologic
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4149726 "M0"
 * $athena#4205430 "M1"

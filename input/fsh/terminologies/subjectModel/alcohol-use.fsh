@@ -26,6 +26,7 @@ Description: """Alcohol Usage Status: Athena"""
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4074035 "Current drinker" // SCT	219006
 * $athena#4220362 	"Ex-drinker" // 82581004

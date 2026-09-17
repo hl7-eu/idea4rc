@@ -7,6 +7,7 @@ Description: "describes the site of metastasis"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4241958 "Structure of lymph node"
 * $athena#4338971 "Soft tissue"

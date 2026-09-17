@@ -7,6 +7,7 @@ Description: "It describes the body site qualifier (e.g. localized)"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4114652 "Localized"
 * $athena#4260906 "Regional"

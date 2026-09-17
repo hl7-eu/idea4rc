@@ -5,6 +5,7 @@ Description: "A ValueSet containing reasons why a treatment was ended, based on 
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#44788181 "Completed successfully"
 * $athena#4162594 "Chemotherapy changed acute chemotherapy toxicity"

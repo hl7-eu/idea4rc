@@ -7,6 +7,7 @@ Description: "Surgery Intention"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4179711 "Palliative"
 * $athena#4162591 "Curative procedure intent"

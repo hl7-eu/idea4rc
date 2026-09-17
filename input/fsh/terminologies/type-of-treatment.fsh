@@ -7,6 +7,7 @@ Description: "type of treatment"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4273629 "Chemotherapy"
 // * $athena#4029715 "Radiation"

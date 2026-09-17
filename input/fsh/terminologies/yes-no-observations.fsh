@@ -22,6 +22,7 @@ Description: """Genetic Tests performed (Yes/no/Unk)"""
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#44808037	"Gene expression assay"
 * $athena#4038339	"Gene mutation analysis"
@@ -47,6 +48,7 @@ Description: """Laboratory test results: Yes-No-Unkwnon: Athena"""
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4188539 "yes"
 * $athena#4188540 "no"

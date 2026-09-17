@@ -6,6 +6,7 @@ Description: "This ValueSet defines a collection of genetic testing and expressi
 //-------------------------------------------------------------------------------------------
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#44808037 "Gene expression assay"
 * $athena#4038339 "Gene mutation analysis"

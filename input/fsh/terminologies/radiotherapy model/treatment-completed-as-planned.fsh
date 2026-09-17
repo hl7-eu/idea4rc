@@ -7,6 +7,7 @@ Description: "refers to whether patient completed all treatment as planned or if
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4058777 "completion"
 * $athena#438028 "toxicity"

@@ -3,6 +3,7 @@ Id: regimen-eu-i4rc
 Title: "Regimen"
 Description: """This ValueSet includes a curated list of chemotherapy regimens used in oncologic treatment protocols."""
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#35806965 "Doxorubicin and Ifosfamide"
 * $athena#35805248 "Ifosfamide and Paclitaxel"

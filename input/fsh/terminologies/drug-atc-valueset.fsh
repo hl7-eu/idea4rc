@@ -8,6 +8,7 @@ Description: "List of WHO ATC codes for antineoplastic and immunostimulating age
 //-------------------------------------------------------------------------------------------
 
 * ^experimental = false
+* insert ATCCopyrightForVS
 
 * $atc#L01AA01	"Cyclophosphamide"
 * $atc#L01AA02	"Chlorambucil"

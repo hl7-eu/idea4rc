@@ -7,6 +7,7 @@ Description: "This ValueSet contains codes describing Surgery Site Laterality Qu
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4112106 "Ipsilateral"         
 * $athena#4117496 "Bilateral Sampling"

@@ -7,5 +7,6 @@ Description: "This ValueSet contains codes describing Surgery Location Qualifier
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4129922 "Unknown"

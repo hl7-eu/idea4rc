@@ -7,6 +7,7 @@ Description: """Comorbidities: Athena"""
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#1620969  "Previous myocardial infarction"
 * $athena#1620328  "Congestive heart failure"
@@ -50,6 +51,7 @@ Description: """Comorbidities: SNOMED CT"""
 
 * ^status = #active
 * ^experimental = false
+* insert SNOMEDCTCopyrightForVS
 
 * $sct#22298006 "Myocardial infarction"
 * $sct#42343007 "Congestive heart failure"

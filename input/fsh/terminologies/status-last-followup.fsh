@@ -7,6 +7,7 @@ Description: "Status at the Last Follow Up"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $cs-idea4rc-vocab-eu-i4rc#2000100071 "Alive, No Evidence of Disease (NED)"
 * $cs-idea4rc-vocab-eu-i4rc#2000100072 "Dead of Disease (DOD)"

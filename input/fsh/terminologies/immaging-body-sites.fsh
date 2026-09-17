@@ -6,6 +6,7 @@ Description: "This ValueSet defines a collection of codes describing Immaging Bo
 //-------------------------------------------------------------------------------------------
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4048840 "Region of neck"
 * codes from valueset CancerSitesVs

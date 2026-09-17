@@ -14,6 +14,7 @@ Title: "Site: Athena"
 Description: "Describes the primary tumor site."
 * ^name = "SiteVS"
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 //DUPLICATED:* $bb-topo#2000000067 "Nasal cavity and paranasal sinus"  
 * $athena#36769745 "Nasopharynx"  

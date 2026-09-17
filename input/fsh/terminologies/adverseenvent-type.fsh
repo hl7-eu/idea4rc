@@ -7,6 +7,7 @@ Description: "Adverse Event Type"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#763790 "Common terminology criteria for adverse events grade 1"
 * $athena#765927 "Common terminology criteria for adverse events grade 2"

@@ -8,6 +8,7 @@ Description: "Gender value set based on the Athena system"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 * $athena#8507 "MALE"
 * $athena#8532 "FEMALE"
 * $athena#4129922 "Unknown"

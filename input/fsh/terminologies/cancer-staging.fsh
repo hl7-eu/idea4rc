@@ -14,6 +14,7 @@ Description: "Identifying codes based on the timing of classification for stage 
 /* * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
  */
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#1634371 "Grade-1" 
 * $athena#1634752 "Grade-2" 
@@ -31,6 +32,7 @@ Description: "Identifying codes based on the timing of classification for stage 
 /* * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
  */
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 /* 
 cannot be used because it doesn't day what is unknown...
@@ -59,6 +61,7 @@ Title: "Cancer Stage Group Value Clinical: Athena"
 Description: "Identifying value for the TNM stage grouping."
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#1635842 "AJCC/UICC 6th clinical Stage 0"
 * $athena#1633828 "AJCC/UICC 7th clinical Stage 0"
@@ -92,6 +95,7 @@ Title: "Cancer Stage Group Value Pathological: Athena"
 Description: "Identifying value for the TNM stage grouping."
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 
 * $athena#1634741 "AJCC/UICC 6th pathological Stage 0"
@@ -189,6 +193,7 @@ Id: mcode-clinical-tnm-primary-tumor-category-vs
 Title: "Clinical TNM Primary Tumor Category Value Set"
 Description: "This value set is intended to contain allowable values for the T category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
 * ^experimental = false
+* insert AthenaCopyrightForVS
 * $athena#1635299 "AJCC/UICC 6th clinical TX Category" 
 * $athena#1634269 "AJCC/UICC 7th clinical TX Category" 
 * $athena#1633589 "AJCC/UICC 8th clinical TX Category" 
@@ -222,6 +227,7 @@ Id: mcode-pathological-tnm-primary-tumor-category-vs
 Title: "Pathological TNM Primary Tumor Category Value Set"
 Description: "This value set is intended to contain allowable values for the T category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
 * ^experimental = false
+* insert AthenaCopyrightForVS
 * $athena#1634270 "AJCC/UICC 6th pathological TX Category"
 * $athena#1635402 "AJCC/UICC 7th pathological TX Category"
 * $athena#1634986 "AJCC/UICC 8th pathological TX Category"
@@ -256,6 +262,7 @@ Id: mcode-tnm-primary-tumor-category-vs
 Title: "TNM Primary Tumor Category Value Set"
 Description: "This value set is intended to contain allowable values for the T category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
 * ^experimental = false
+* insert AthenaCopyrightForVS
 // * codes from system $ajcc
 
 // clinical T
@@ -324,6 +331,7 @@ Id: mcode-tnm-regional-nodes-category-clinical-vs
 Title: "TNM Regional Nodes Category Value Set (Clinical)"
 Description: "This value set is intended to contain allowable values for the N category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
 * ^experimental = false
+* insert AthenaCopyrightForVS
 // * include codes from system $ajcc
 
 * $athena#1635104 "AJCC/UICC 6th clinical NX Category"
@@ -362,6 +370,7 @@ Id: mcode-tnm-regional-nodes-category-pathological-vs
 Title: "TNM Regional Nodes Category Value Set (Pathological)"
 Description: "This value set is intended to contain allowable values for the N category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#1635823 "AJCC/UICC 6th pathological NX Category"
 * $athena#1634505 "AJCC/UICC 7th pathological NX Category"
@@ -401,6 +410,7 @@ Id: mcode-tnm-distant-metastases-category-clinical-vs
 Title: "TNM Distant Metastases Category Value Set (Clinical)"
 Description: "This value set is intended to contain allowable values for the M category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
 * ^experimental = false
+* insert AthenaCopyrightForVS
 // * codes from system $ajcc
 
 // clinical M
@@ -418,6 +428,7 @@ Id: mcode-tnm-distant-metastases-category-pathological-vs
 Title: "TNM Distant Metastases Category Value Set (Pathological)"
 Description: "This value set is intended to contain allowable values for the M category, according to TNM staging rules. AJCC codes (preferably, version 8 for current cancers) SHOULD be used."
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#1635345 "AJCC/UICC 6th pathological M0 Category"
 * $athena#1635536 "AJCC/UICC 7th pathological M0 Category"
@@ -435,6 +446,7 @@ Id: disease-extent-category-vs
 Title: "Sarcoma Staging: localized disease"
 Description: "This value set includes values indicating if the disease is confined or metastatic."
 * ^experimental = false
+* insert AthenaCopyrightForVS
 * $athena#32942 "Confined Disease"
 * $athena#32944 "Metastatic Disease"
 
@@ -443,6 +455,7 @@ Id: locoregional-category-vs
 Title: "Staging: loco-regional category"
 Description: "This value set includes values indicating if the disease is multi-focal or in-trasit metastatis."
 * ^experimental = false
+* insert AthenaCopyrightForVS
 * $athena#36769249 "Transit Metastasis with Clinical Confirmation"
 * $athena#36769933 "Multifocal Tumor"
 * $athena#32943 "Invasive Disease"

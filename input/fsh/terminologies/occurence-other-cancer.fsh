@@ -7,6 +7,7 @@ Description: "Occurrence of other cancer"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 // * $athena#1340204 "History of event"
 * $athena#4266186 "Neoplasm and/or hamartoma"

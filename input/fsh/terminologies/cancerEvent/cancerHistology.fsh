@@ -15,6 +15,7 @@ Title: "Cancer histology subgroup: Athena"
 Description: "Codes identifing the histology subgroup of the cancer."
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 /* ^experimental = false
 * codes from valueset HistologyAdenocarcinomaVS 
 * codes from valueset HistologyNeuroendocrineVS
@@ -166,6 +167,7 @@ Description: "Codes identifying the histology of cancer."
 
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#37156145 "Squamous cell carcinoma"  
 * $athena#37152526 "Adenocarcinoma"  

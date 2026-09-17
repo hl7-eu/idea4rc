@@ -7,6 +7,7 @@ Description: "Treatment response."
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#32946 "Complete Remission"
 * $athena#32947 "Partial Remission"

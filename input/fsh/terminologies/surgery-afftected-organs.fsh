@@ -7,6 +7,7 @@ Description: "Affected Organs (surgery)"
 
 * ^experimental = false
 * ^status = #active
+* insert AthenaCopyrightForVS
 
 * $athena#4338971 "Soft tissue"
 * $athena#44497988 "Lymph nodes" // missing distant qualifier

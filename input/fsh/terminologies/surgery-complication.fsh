@@ -7,6 +7,7 @@ Description: "Surgery Complication"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4132135 "Absent"
 * $athena#715974  "Clavien-Dindo complication scale: Grade I"

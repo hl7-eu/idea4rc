@@ -8,6 +8,7 @@ Description: "Eastern Cooperative Oncology Group (ECOG) Performance Status"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4175026 "ECOG performance status - grade 0"
 * $athena#4173614 "ECOG performance status - grade 1"

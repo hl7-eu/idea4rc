@@ -6,6 +6,7 @@ Description: "Category of surgical procedure this resource is referring to"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
 * ^status = #active
+* insert AthenaCopyrightForVS
 
 * $athena#4301351 "Surgical procedure"
 * $athena#4315400 "Local excision"

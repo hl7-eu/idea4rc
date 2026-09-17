@@ -7,6 +7,7 @@ Description: "Surgery Outcome"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#1634643 "R0: No residual tumor"         
 * $athena#1633801 "R1: Microscopic residual tumor"

@@ -22,6 +22,7 @@ Description: "This ValueSet defines a collection of codes describing Immaging Cl
 //-------------------------------------------------------------------------------------------
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4300757 "Computed tomography"
 * $athena#4013636 "Magnetic resonance imaging"
@@ -36,6 +37,7 @@ Description: "This ValueSet defines a collection of codes describing Immaging Cl
 //-------------------------------------------------------------------------------------------
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#3307719 "Computed tomography of neck"
 * $athena#4218948 "Magnetic resonance imaging of neck"
@@ -50,6 +52,7 @@ Description: "This ValueSet defines a collection of codes describing Immaging Cl
 //-------------------------------------------------------------------------------------------
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4058335 "CT of chest"
 * $athena#4061009 "CT of abdomen"

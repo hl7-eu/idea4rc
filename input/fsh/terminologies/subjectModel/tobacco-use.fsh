@@ -30,6 +30,7 @@ Description: "Current Smoking Status: Athena"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 * $athena#36309332 "Current smoker" // 	LA20356-4
 * $athena#45883458 "Former smoker" // LA15920-4
 * $athena#45879404 "Never smoker" //	LA18978-9	
@@ -43,6 +44,7 @@ Description: "Tobacco Product based on the Athena system"
 //-------------------------------------------------------------------------------------------
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#36716475 "Cigarettes"  
 * $athena#36716476 "Cigar"  

@@ -16,6 +16,7 @@ Description: "Identifing codes for the observed mitotic index"
 
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 * $athena#4240574 "Less than 10 mitoses per 10 HPF (score = 1)"
 * $athena#4241298 "10-20 mitoses per 10 HPF (score = 2)"
 * $athena#4240069 "Greater than 10 mitoses per 10 HPF (score = 3)"
@@ -32,6 +33,7 @@ Description: "Identifying codes for the observed plasmatic EBV DNA at baseline"
 
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#9191 "Positive" 
 * $athena#9189 "Negative" 

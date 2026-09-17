@@ -6,6 +6,7 @@ Title: "Chemotherapy Info"
 Description: "Chemotherapy Info Value Set"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
+* insert AthenaCopyrightForVS
 * $athena#4119031 "Preoperative" 
 * $athena#4118656 "Postoperative period" 
 * $athena#3184898 "Hyperthermic intraperitoneal chemotherapy" 

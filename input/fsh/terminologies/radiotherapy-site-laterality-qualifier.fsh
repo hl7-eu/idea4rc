@@ -7,6 +7,7 @@ Description: "This ValueSet contains codes describing Radiotherapy Site Laterali
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4112106 "Ipsilateral"         
 * $athena#4197258 "Right and left"

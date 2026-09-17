@@ -7,6 +7,7 @@ Description: "type of Biopsy"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4171863 "Fine needle biopsy"
 * $athena#4321878 "Core needle biopsy"

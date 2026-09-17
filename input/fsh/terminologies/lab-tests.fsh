@@ -12,6 +12,7 @@ Description: """Test results:
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 // removed for simplyfying the IG
 // * codes from valueset VsLabTestResultI4rc
@@ -38,6 +39,7 @@ Description: """Laboratory test results: Positive-Negative-Not tested: Athena"""
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#9191 "Positive" 
 * $athena#9189 "Negative" 

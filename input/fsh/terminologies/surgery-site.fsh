@@ -7,6 +7,7 @@ Description: "This ValueSet contains codes describing Surgery Sites from Athena"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#36770046 "Neck"
 * $athena#35225724 "Metastasis to soft tissues"

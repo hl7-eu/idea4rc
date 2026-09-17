@@ -7,6 +7,7 @@ Description: "type of systemic treatment administered"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4273629 "Chemotherapy"
 * $athena#40310107 "Immunotherapy"

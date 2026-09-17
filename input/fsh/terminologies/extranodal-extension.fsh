@@ -6,6 +6,7 @@ Description: "Describes extent of extranodal extension. This number must be expl
 //-------------------------------------------------------------------------------------------
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#36769946 "ENE-"
 * $athena#36770618 "ENE+"

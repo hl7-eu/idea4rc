@@ -3,6 +3,7 @@ Id: cancer-diagnosis-athena-vs
 Title: "Cancer Diagnosis: Athena"
 Description: "Codes identifying the condition for HNC and sarcome (Full version will be available in first release)"
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#44503931 "Neoplasm, uncertain whether benign or malignant of external upper lip"
 * $athena#44503930 "Neoplasm, benign of external upper lip"

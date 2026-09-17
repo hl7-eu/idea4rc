@@ -7,6 +7,7 @@ Description: "describes presence and grade of complications after a surgical pro
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4188540 "no complication"
 * $athena#40459832 "grade I"

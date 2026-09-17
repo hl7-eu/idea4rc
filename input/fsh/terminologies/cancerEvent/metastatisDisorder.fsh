@@ -5,6 +5,7 @@ Description: "Codes identifying the type of metastasis."
 
 
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#36769269  "Regional spread to lymph node" 
 * $athena#35225724  "Metastasis to soft tissues" 

@@ -7,6 +7,7 @@ Description: "Treatment Setting"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#44808409 "Neo-adjuvant"
 * $cs-idea4rc-vocab-eu-i4rc#2000100028 "Concomitant"

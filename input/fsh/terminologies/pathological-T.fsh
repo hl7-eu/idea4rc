@@ -7,6 +7,7 @@ Description: "Pathological T (Primary Tumor)"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4282467 "Tx"
 * $athena#4195922 "Tis"

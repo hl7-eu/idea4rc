@@ -7,6 +7,7 @@ Description: "Pathological N"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#4195718 "Nx"
 * $athena#4266674 "N0"

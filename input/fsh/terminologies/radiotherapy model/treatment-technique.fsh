@@ -7,6 +7,7 @@ Description: "It refers to the type of radiotherapy treatment delivered"
 
 * ^status = #active
 * ^experimental = false
+* insert AthenaCopyrightForVS
 
 * $athena#603132 "2D"
 * $athena#4043011 "3D"
