@@ -7,10 +7,10 @@ Maturity Level: 0 Draft"""
 """
 * systemicTreatmentReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * systemicTreatmentReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* RegionalDeepHyperthemiaReference 1..* RegionalDeepHyperthemia "RegionalDeepHyperthemia (M)" """RegionalDeepHyperthemia reference that will apply the drug to the patient. 
+* regionalDeepHyperthemiaReference 1..* RegionalDeepHyperthemia "RegionalDeepHyperthemia (M)" """RegionalDeepHyperthemia reference that will apply the drug to the patient. 
 """
-* RegionalDeepHyperthemiaReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* RegionalDeepHyperthemiaReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
+* regionalDeepHyperthemiaReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
+* regionalDeepHyperthemiaReference insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * isolatedLimbPerfusionReference 1..* IsolatedLimbPerfusion "IsolatedLimbPerfusion reference (M)" """Isolated Limb Perfusion reference that will apply the drug to the patient. 
 """
 * isolatedLimbPerfusionReference insert ObligationActorAndCode($actor-headneck, #SHALL:handle)

@@ -12,6 +12,7 @@ At the time of publication, the corresponding HL7 cross-version extension is not
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.category"
 * ^status = #draft
 * ^experimental = true
+* insert ExtensionContext(MedicationAdministration)
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
 * ^extension[0].valueCode = #fhir
 
@@ -28,6 +29,7 @@ At the time of publication, the corresponding HL7 cross-version extension is not
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category"
 * ^status = #draft
 * ^experimental = true
+* insert ExtensionContext(Procedure)
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
 * ^extension[0].valueCode = #fhir
 

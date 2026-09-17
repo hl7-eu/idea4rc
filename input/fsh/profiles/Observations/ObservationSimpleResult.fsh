@@ -14,7 +14,7 @@ Description: "This profile constrains the Observation resource to represent test
 * effective[x] only dateTime
 * effective[x].extension contains $data-absent-reason named data-absent-reason 0..1 MS
 * effective[x].extension[data-absent-reason] ^short = "effective[x] absence reason"
-* effective[x].extension[data-absent-reason] ^definition = "Provides a reason why the effectiveTime is missing." */
+* effective[x].extension[data-absent-reason] ^definition = "Provides a reason why the effectiveTime is missing."*/
 * value[x] 1..
 * valueCodeableConcept 0..
 * valueCodeableConcept from CodedTestResultsVS (example)
@@ -40,6 +40,6 @@ Severity:    #warning
 Expression:  "(code = '4099595')  implies value.memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/mitotic-index-athena-vs').exists()"
 
 Invariant: obs-valueMemberof-positiveNegativeNoTest
-Description: "If the type is 'Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection' or 'Human papilloma virus 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA [Interpretation] in Specimen' or 'C reactive protein [Presence] in Serum or Plasma' then the value is in PositiveNegativeNoTestVS "
+Description: "If the type is 'Epstein Barr virus DNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection' or 'Human papilloma virus 16 and 18 and 31+33+35+39+45+51+52+56+58+59+66+68 DNA [Interpretation] in Specimen' or 'C reactive protein [Presence] in Serum or Plasma' then the value is in PositiveNegativeNoTestVS"
 Severity:    #warning
 Expression:  "( (code = '3043849') or (code = '46236082') or (code = '3000965') )  implies value.memberOf('http://hl7.eu/fhir/ig/idea4rc/ValueSet/positive-negative-notest-athena-vs').exists()"

@@ -79,13 +79,6 @@ Description: "This extension provides a mean to indicate the histology behaviour
 
 
 
-
-
-
-
-
-
-
 Extension: ConditionRelated
 Id: mcode-condition-related
 Title:  "Condition related to resource"
@@ -105,6 +98,8 @@ Description: """The radiation energy used for radiotherapy. The energy spectrum 
 by the maximum energy, the maximum accelaration voltage, or the used isotope. This extension is based on the CodeX™ Radiation Therapy RadiotherapyEnergyOrIsotope extension"""
 * . ^short = "Radiotherapy Energy or Isotope"
 * . ^definition = "The radiation energy used for radiotherapy. The energy spectrum is characterized\nby the maximum energy, the maximum accelaration voltage, or the used isotope."
+
+* insert ExtensionContext(Procedure)
 * value[x] 1..
 * value[x] only CodeableConcept or SimpleQuantity
 * valueQuantity 0..1
@@ -123,7 +118,9 @@ Id: mcode-body-location-qualifier
 Title: "Body Location Qualifier"
 Description: "Qualifier to refine an body location. These include qualifiers for relative location, directionality, number, and plane, and exclude qualifiers for laterality."
 
-* mcode-body-location-qualifier
+* insert ExtensionContext(CodeableConcept)
+
+
 // FHIR-xxxx
 // * insert ExtensionContext(Specimen.collection.bodySite)
 // * insert ExtensionContext(Procedure.bodySite)
@@ -139,7 +136,8 @@ Id: mcode-laterality-qualifier
 Title: "Laterality Qualifier"
 Description: "Qualifier to specify laterality."
 
-* mcode-laterality-qualifier
+* insert ExtensionContext(Condition)
+* insert ExtensionContext(Procedure)
 
 // * insert ExtensionContext(Specimen.collection.bodySite)
 // * insert ExtensionContext(Procedure.bodySite)

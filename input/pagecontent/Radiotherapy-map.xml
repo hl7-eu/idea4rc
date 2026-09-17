@@ -8,7 +8,7 @@
     <p>Hereafter a browseable diagram showing how the Radiotherapy IDEA4RC model is realized by the IDEA4RC HL7 FHIR Profiles</p>
 
     <h4 id="model">Model Overview</h4>
-<a> </a>
+<a id="include"> </a>
 <p>{% include Radiotherapy-map.svg %}</p>
 
     

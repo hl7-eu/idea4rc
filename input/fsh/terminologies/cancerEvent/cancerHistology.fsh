@@ -190,7 +190,7 @@ Description: "Codes identifying the histology of cancer."
 * $athena#4313421 "Neoplasm of uncertain behavior"  
 * $cs-idea4rc-vocab-eu-i4rc#2000100008 "Undifferentiated small round cell sarcomas of bone and soft tissue"  
 * $cs-idea4rc-vocab-eu-i4rc#2000100009 "Endometrial stromal sarcoma"  
-* $cs-idea4rc-vocab-eu-i4rc#2000100010 "Miscellaneous mesenchymal tumors"  
+* $cs-idea4rc-vocab-eu-i4rc#2000100010 "Miscellanious mesenchimal tumors"  
 * $cs-idea4rc-vocab-eu-i4rc#2000100011 "Mixed epithelial and mesenchymal tumours"  
 
 

@@ -120,6 +120,13 @@ The code 'L04AA36' is not valid in the system http://www.whocc.no/atc (Unknown c
 The code 'L04AA37' is not valid in the system http://www.whocc.no/atc (Unknown code 'L04AA37' in the CodeSystem 'http://www.whocc.no/atc' version '2025')
 The code 'L04AC06' is not valid in the system http://www.whocc.no/atc (Unknown code 'L04AC06' in the CodeSystem 'http://www.whocc.no/atc' version '2025')
 
+# non matching slices
+%This element does not match any known slice defined in the profile http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Condition-primaryCancer-eu-i4rc%
+%This element does not match any known slice defined in the profile http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/MedicationAdministration-eu-i4rc%
+%This element does not match any known slice defined in the profile http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/Procedure-radiotheraphy-eu-i4rc%
+
+# Not all profiles have examples
+The Implementation Guide contains no examples for this profile
 
 # non matching obligation slice
 This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/obligation|5.3.0 (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -154,8 +161,9 @@ The concept '108290001' has a status of inactive and its use should be reviewed
 Constraint failed: ext-ab-1: 'Additional Bindings SHOULD have a key to allow a binding to be constrained. (extension.where(url='key').exists())'	
 
 # code not in the provided value set
-%None of the codings provided are in the value set 'Body Location Qualifier Value Set' (http://hl7.org/fhir/us/mcode/ValueSet/mcode-body-location-qualifier-vs|3.0.0), and a coding is recommended to come from this value set%
-%None of the codings provided are in the value set 'Body Location Qualifier Value Set' (http://hl7.org/fhir/us/mcode/ValueSet/mcode-body-location-qualifier-vs|3.0.0) specified in an additional binding, and a coding is recommended to come from this value set%
+%None of the codings provided are in the value set 'Body Location Qualifier Value Set' (http://hl7.org/fhir/us/mcode/ValueSet/mcode-body-location-qualifier-vs|4.0.0), and a coding is recommended to come from this value set%
+%None of the codings provided are in the value set 'Body Location Qualifier Value Set' (http://hl7.org/fhir/us/mcode/ValueSet/mcode-body-location-qualifier-vs|4.0.0) specified in an additional binding, and a coding is recommended to come from this value set%
+%None of the codings provided are in the value set 'Radiotherapy Modality Value Set' (http://hl7.org/fhir/us/mcode/ValueSet/mcode-radiotherapy-modality-vs|4.0.0), and a coding is recommended to come from this value set%
 
 # The HTML fragment 'ip-statements.xhtml' not included
 The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -165,3 +173,19 @@ MSG_DEPENDS_ON_DEPRECATED_NOTE
 
 # UCUM Annnotations
 %Best Practice is not to depend on annotations in the UCUM code, so this usage should be checked, and the Quantity.unit SHOULD contain the annotation%
+
+# retired extension
+The extension http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-termination-reason|4.0.0 is retired
+
+# X-ver extensions locally specified waiting for package fixing
+The nominated WG 'fhir' means that the contact url should be 'http://www.hl7.org/Special/committees/fiwg' but it was not found
+The nominated WG 'fhir' means that the publisher should be 'HL7 International / FHIR Infrastructure' but 'IDEA4RC Project' was found
+
+# Value set too large 
+%The value set include has too many concepts to validate%
+
+# No definition available for this system 
+No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'domain' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.
+No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'standardConcept' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.
+No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'vocabulary' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.
+	

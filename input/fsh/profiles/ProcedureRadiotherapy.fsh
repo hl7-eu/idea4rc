@@ -117,6 +117,7 @@ Extension: RadiotherapySettings
 Id: radiotherapy-settings
 Title: "Radiotherapy Setting"
 Description: "The setting in which the radiotherapy procedure was performed."
+* insert ExtensionContext(Procedure)
 * value[x] only CodeableConcept
 * valueCodeableConcept from VsSettingRadiotherapyI4RC (preferred)
 
@@ -126,6 +127,7 @@ Id: total-high-dose-delivered
 Title: "Total High Dose Delivered"
 Description: "Total High Dose delivered to a given radiotherapy volume."
 
+* insert ExtensionContext(Procedure)
 * extension contains volume 1..1 
 * extension[volume].url = "volume" (exactly)
 * extension[volume].value[x] only Reference

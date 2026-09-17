@@ -74,6 +74,7 @@ Extension: Outcome
 Id: outcome
 Title: "Medication Outcome"
 Description: "The outcome of the medication administration in the context of cancer treatment."
+* insert ExtensionContext(MedicationAdministration)
 * value[x] only CodeableConcept
 * valueCodeableConcept from VsTreatmentResponseI4rc (preferred)
 * valueCodeableConcept MS

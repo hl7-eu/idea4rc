@@ -1,5 +1,5 @@
 Instance: GOFSH-GENERATED-id-28
-InstanceOf: Procedure
+InstanceOf: ProcedureRadiotherapyI4rc
 Title: "Procedure: Radiotherapy"
 Description: "Radiotherapy procedure with curative intent, postoperative course, interstitial brachytherapy and stereotactic technique."
 Usage: #example
@@ -10,11 +10,8 @@ Usage: #example
 * extension[=].valueCodeableConcept = $athena#4162591 "Curative - procedure intent"
 * extension[+].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category"
 * extension[=].valueCodeableConcept = $athena#4058775 "Postoperative course of radiotherapy"
-* extension[+].url = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-radiotherapy-modality-and-technique"
-* extension[=].extension[0].url = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-radiotherapy-modality"
-* extension[=].extension[=].valueCodeableConcept = $athena#4012485 "Interstitial brachytherapy"
-* extension[=].extension[+].url = "http://hl7.eu/fhir/ig/idea4rc/StructureDefinition/mcode-radiotherapy-technique"
-* extension[=].extension[=].valueCodeableConcept = $athena#4215577 "Stereotactic radiotherapy"
+* extension[modalityAndTechnique].extension[modality].valueCodeableConcept = $athena#4012485 "Interstitial brachytherapy"
+* extension[modalityAndTechnique].extension[technique].valueCodeableConcept = $athena#4215577 "Stereotactic radiotherapy"
 * extension[+].url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-treatment-termination-reason"
 * extension[=].valueCodeableConcept = $athena#4188540 "no"
 * status = #in-progress
