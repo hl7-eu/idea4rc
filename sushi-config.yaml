@@ -12,10 +12,11 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.eu.fhir.idea4rc
 canonical: http://hl7.eu/fhir/ig/idea4rc
-version: 0.1.0
+version: 1.0.0
 name: IDEA4RCImplementationGuide
 title: IDEA4RC FHIR Implementation Guide
-status: draft
+status: active
+releaseLabel: release
 publisher:
   - name: IDEA4RC Project
     url: https://www.idea4rc.eu/
@@ -49,7 +50,6 @@ parameters:
     - http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.category
     - http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.category
 copyrightYear: 2022+
-releaseLabel: CI Build
 
 FSHOnly: false
 

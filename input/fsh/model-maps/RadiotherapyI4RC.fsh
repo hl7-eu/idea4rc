@@ -25,11 +25,11 @@ Curative procedure intent - 4162591"""
 THIS INFO CAN BE DERIVED AT QUERY TIME (OMOP)
 
 Preoperative: Refers to radiotherapy given before surgery.
-Preoperative Concomitant to Systemic Treatment: Radiotherapy administered before surgery, alongside systemic treatments (like chemotherapy).
+Preoperative Concomitant Systemic Treatment to Systemic Treatment: Radiotherapy administered before surgery, alongside systemic treatments (like chemotherapy).
 Postoperative: Radiotherapy given after surgery.
-Postoperative Concomitant to Systemic Treatment: Radiotherapy given after surgery along with systemic treatments.
+Postoperative Concomitant Systemic Treatment to Systemic Treatment: Radiotherapy given after surgery along with systemic treatments.
 Definitive: Radiotherapy used as the primary treatment without planned surgery.
-Definitive Concomitant to Systemic Treatment: Radiotherapy used as the main treatment alongside systemic therapy with curative intent.
+Definitive Concomitant Systemic Treatment to Systemic Treatment: Radiotherapy used as the main treatment alongside systemic therapy with curative intent.
 
 We need to check it also at query time. So we are deriving the information at query time and we will also perform quality checks. Additionally, do them at normalized table in possible cases."""
 * setting insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
@@ -37,7 +37,7 @@ We need to check it also at query time. So we are deriving the information at qu
 * setting ^comment = """Preoperative -  4059384
 Preoperative radiotherapy concomitant to systemic treatment - 2000100031
 Postoperative - 4058775
-Postoperative concomitant to systemic treatment - 2000100032
+Postoperative radiotherapy concomitant to systemic treatment - 2000100032
 Definitive radiotherapy - 2000100033
 Definitive radiotherapy concomitant to systemic treatment - 2000100034"""
 * beamQuality 1..* CodeableConcept "Beam quality (M)" """Describes the type of radiation therapy given. If external beam, please specify if delivered with Photons (most common), electrons, carbon, or protons. 

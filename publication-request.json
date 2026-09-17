@@ -1,0 +1,17 @@
+{
+  "package-id" : "hl7.eu.fhir.idea4rc",
+  "version" : "1.0.0",
+  "path" : "http://hl7.eu/fhir/ig/idea4rc/1.0.0",
+  "ci-build": "https://build.fhir.org/ig/hl7-eu/idea4rc",
+  "first": true,
+  "desc" : "This FHIR Implementation Guide is a deliverable of the IDEA4RC Project",
+  "registry-description" : "This FHIR Implementation Guide is a deliverable of the IDEA4RC Project, providing guidance for representing and exchanging rare cancer research data using HL7 FHIR.",
+  "registry-country" : "eu",
+  "registry-authority" : "IDEA4RC Project",
+  "category" : "Research",
+  "introduction" : "IDEA4RC is an EU project aiming at developing an IT infrastructure to facilitate the sharing and re-use of health data among clinical centers to promote research on rare cancers and improve patients' access to high quality care. The project is funded by the European Commission under the Horizon 2020 program.",
+  "title" : "IDEA4RC FHIR Implementation Guide",
+  "mode": "milestone",
+  "status" : "preview",
+  "sequence" : "Releases"
+}

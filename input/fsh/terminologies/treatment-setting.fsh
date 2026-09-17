@@ -10,7 +10,7 @@ Description: "Treatment Setting"
 * insert AthenaCopyrightForVS
 
 * $athena#44808409 "Neo-adjuvant"
-* $cs-idea4rc-vocab-eu-i4rc#2000100028 "Concomitant"
+* $cs-idea4rc-vocab-eu-i4rc#2000100028 "Concomitant Systemic Treatment"
 * $athena#44804498 "Adjuvant"
 * $cs-idea4rc-vocab-eu-i4rc#2000100029 "Systemic treatment alone"
 // TO BE ADDED SYSTEMIC TREATMENT ALONE

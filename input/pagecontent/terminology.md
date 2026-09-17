@@ -123,7 +123,7 @@ Description: "Specifies the subsite for cancers occured in oral cavity"
 * ^copyright = "This material contains content from SNOMED (https://browser.ihtsdotools.org/?)."
 * $snomed#275490009 // Carcinoma of tongue base - dorsal surface (disorder)
 * $snomed#92768006 // Carcinoma in situ of border of tongue (disorder)
-* $snomed#275394001 // Carcinoma ventral surface of tongue (disorder)
+* $snomed#275395000 // Carcinoma ventral surface of tongue (disorder)
 * $snomed#126804008 // Neoplasm of retromolar area (disorder)
 * $snomed#254424004 // Carcinoma of upper gum (disorder)
 * $snomed#254425003 // Carcinoma of lower gum (disorder)

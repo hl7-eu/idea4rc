@@ -13,7 +13,7 @@ Description: "Radiotherapy setting"
 // TO BE ADDED PREOPERATIVE CONCOMITANT TO SYSTEMIC TREATMENT
 * $cs-idea4rc-vocab-eu-i4rc#2000100031 "Preoperative radiotherapy concomitant to systemic treatment"
 * $athena#4058775 "Postoperative"
-* $cs-idea4rc-vocab-eu-i4rc#2000100032 "Postoperative concomitant to systemic treatment"
+* $cs-idea4rc-vocab-eu-i4rc#2000100032 "Postoperative radiotherapy concomitant to systemic treatment"
 * $cs-idea4rc-vocab-eu-i4rc#2000100033 "Definitive radiotherapy"
 * $cs-idea4rc-vocab-eu-i4rc#2000100034 "Definitive radiotherapy concomitant to systemic treatment"
 

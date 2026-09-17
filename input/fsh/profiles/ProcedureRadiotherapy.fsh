@@ -13,8 +13,10 @@ RuleSet: ProcedureRadiotherapyI4rcRules
 * extension[performedTiming].valueTiming.repeat.count ^short = "Number of repetitions" */
 
 * extension contains Adaptive named adaptive 0..1
+* extension[adaptive] 
 
 * extension contains SameHospital named sameHospital 0..1
+* extension[sameHospital] 
 
 * extension contains $procedure-category-r5 named procedureCategoryR5 0..*
 * extension[procedureCategoryR5] // add bindings
@@ -43,8 +45,10 @@ RuleSet: ProcedureRadiotherapyI4rcRules
 * extension[procedureIntent]
 
 * extension contains RadiotherapySettings named settings 0..1
+* extension[settings]
 
 * extension contains TotalHighDoseDelivered named totalHighDoseDelivered 0..1
+* extension[totalHighDoseDelivered]
 
 * identifier ^short = "External Identifiers for this radiotherapy / boost"
 * status ^short = "Procedure status"

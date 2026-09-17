@@ -29,11 +29,11 @@ Curative procedure intent - 4162591"""
 * setting 0..* CodeableConcept "Setting (O)" """Clarifies the context / how the therapy was administered alone or in conjunction with other treatments
 • Neoadjuvant: treatment given as a first step to shrink a tumor before the main treatment, which is usually surgery, is given. Examples of neoadjuvant therapy include chemotherapy, radiation therapy, and hormone therapy. It is a type of induction therapy.
 • Adjuvant: additional cancer treatment given after the primary treatment to lower the risk that the cancer will come back. Adjuvant therapy may include chemotherapy, radiation therapy, hormone therapy, targeted therapy, or biological therapy.
-• Concomitant/concurrent: A treatment that is given at the same time as another (es. Chemotherapy and radiotherapy).
+• Concomitant Systemic Treatment/concurrent: A treatment that is given at the same time as another (es. Chemotherapy and radiotherapy).
 """
 * setting insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * setting ^comment = """Neo-adjuvant - 44808409
-Concomitant - 2000100028
+Concomitant Systemic Treatment - 2000100028
  Adjuvant - 44804498
 Systemic treatment alone - 2000100029"""
 * chemotherapyInfo 0..* CodeableConcept "Chemotherapy info (O)" """Information for chemotherapy"""

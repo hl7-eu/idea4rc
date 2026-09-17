@@ -164,6 +164,9 @@ Constraint failed: ext-ab-1: 'Additional Bindings SHOULD have a key to allow a b
 %None of the codings provided are in the value set 'Body Location Qualifier Value Set' (http://hl7.org/fhir/us/mcode/ValueSet/mcode-body-location-qualifier-vs|4.0.0), and a coding is recommended to come from this value set%
 %None of the codings provided are in the value set 'Body Location Qualifier Value Set' (http://hl7.org/fhir/us/mcode/ValueSet/mcode-body-location-qualifier-vs|4.0.0) specified in an additional binding, and a coding is recommended to come from this value set%
 %None of the codings provided are in the value set 'Radiotherapy Modality Value Set' (http://hl7.org/fhir/us/mcode/ValueSet/mcode-radiotherapy-modality-vs|4.0.0), and a coding is recommended to come from this value set%
+%None of the codings provided are in the value set 'Smoking Status: LOINC' (http://hl7.eu/fhir/ig/idea4rc/ValueSet/smokingStatus-loinc-eu-i4rc|1.0.0) specified in an additional binding, and a coding is recommended to come from this value set%
+%None of the codings provided are in the value set 'Alcohol Usage Status: SNOMED CT' (http://hl7.eu/fhir/ig/idea4rc/ValueSet/alcoholUsageStatus-snomed-eu-i4rc|1.0.0) specified in an additional binding, and a coding is recommended to come from this value set%
+%None of the codings provided are in the value set 'Radiotherapy Technique Value Set' (http://hl7.org/fhir/us/mcode/ValueSet/mcode-radiotherapy-technique-vs|4.0.0), and a coding is recommended to come from this value set%
 
 # The HTML fragment 'ip-statements.xhtml' not included
 The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -185,7 +188,12 @@ The nominated WG 'fhir' means that the publisher should be 'HL7 International / 
 %The value set include has too many concepts to validate%
 
 # No definition available for this system 
-No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'domain' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.
-No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'standardConcept' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.
-No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'vocabulary' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.
+%No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'domain' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.%
+%No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'standardConcept' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.%
+%No definition can be found for the system http://fhir.ohdsi.org/CodeSystem/concepts, and the property 'vocabulary' is not a generally known property, so the property might not be valid, or understood by the terminology ecosystem.%
+
+# Duplicated anchors
+The html source has duplicate anchor Ids: 1
+
+
 	
